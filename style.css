@@ -5,7 +5,8 @@
 /* Overall style */
 body {
   font-size: 80%;
-  font-family: tahoma, geneva, sans-serif;
+  font-family: "Lucida Grande","Trebuchet MS","Bitstream Vera Sans",Verdana,Helvetica,sans-serif;
+/* tahoma, geneva, sans-serif; */
   background: #e0e0e0;
 }
 #outer1 {
@@ -140,10 +141,11 @@ h1 {
   clear: both;
 }
 
-a:link, a:visited {
-  text-decoration:none;
-  color:#1153ad;
-}
+a {line-height: 18px;text-decoration: none}
+
+a:active {color: #4c5770;}
+
+a:link, a:visited { }
 
 a:hover {
   text-decoration:underline;
