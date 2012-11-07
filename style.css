@@ -143,9 +143,7 @@ h1 {
 
 a {line-height: 18px;text-decoration: none}
 
-a:active {color: #4c5770;}
-
-a:link, a:visited { }
+a:link, a:visited, a:active {color: #4c5770;}
 
 a:hover {
   text-decoration:underline;
