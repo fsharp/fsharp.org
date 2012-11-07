@@ -4,7 +4,7 @@ function feedLoaded(result) {
   if (!result.error) {
     var newsContent = document.getElementById("news-content");
 
-    // Add at most 5 news items with non-empty description
+    // Add at most 6 news items with non-empty description
     var count = 1;
     for (var i = 0; i < result.feed.entries.length; i++) {
       var entry = result.feed.entries[i];
@@ -27,7 +27,7 @@ function feedLoaded(result) {
         li.appendChild(p);
         newsContent.appendChild(li);
 
-        if (++count > 5) return;
+        if (++count > 6) return;
       } catch (e) {
         // If something goes wrong, we just ignore the error...
       }

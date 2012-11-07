@@ -143,3 +143,22 @@ h1 {
 a:link, a:visited {
   color:#1153ad;
 }
+
+/* Boxes in the main page*/
+#box-right, #box-left {
+  width:48%;
+  padding:25px 0px 5px 0px;
+  margin:0px;
+}
+#box-left {
+  float:left;
+  padding-right:10px;
+}
+#box-right {
+  margin-left:50%;
+  padding-left:10px;
+}
+.box h3 {
+  font:140% Orienta,Tahoma,geneva,sans-serif; 
+  margin:0px 0px 10px 0px;
+}
