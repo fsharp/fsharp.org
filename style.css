@@ -4,9 +4,11 @@
 
 /* Overall style */
 body {
+  /*
   font-size: 80%;
-  font-family: "Lucida Grande","Trebuchet MS","Bitstream Vera Sans",Verdana,Helvetica,sans-serif;
-/* tahoma, geneva, sans-serif; */
+  font-family: "Lucida Grande","Trebuchet MS","Bitstream Vera Sans",Verdana,Helvetica,sans-serif; 
+  */
+  font: 80% tahoma, geneva, sans-serif; */
   background: #e0e0e0;
 }
 #outer1 {
@@ -141,13 +143,14 @@ h1 {
   clear: both;
 }
 
-a {line-height: 18px;text-decoration: none}
-
-a:link, a:visited, a:active {color: #4c5770;}
+a:link, a:visited, a:active {
+  color:#174f9b; 
+  text-decoration:none;
+}
 
 a:hover {
   text-decoration:underline;
-  color:#1153ad;
+  color:#1b5eba;
 }
 
 /* Boxes in the main page*/
