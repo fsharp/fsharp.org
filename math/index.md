@@ -10,7 +10,7 @@ This page provides information about using F# for numerical computing.
 
 Why is F# great for solving numerical problems...
 
-### Open-sourc libraries
+### Open-source libraries
 
 Here are some open source libraries:
 
