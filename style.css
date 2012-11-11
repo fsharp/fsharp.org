@@ -75,6 +75,10 @@ h1 {
   margin: 4px 0px 4px 30px;
 }
 
+#menu-left li li {
+  margin: 4px 0px 4px 15px;
+}
+
 #menu-right li {
   margin: 8px 0px 8px 25px;
 }
