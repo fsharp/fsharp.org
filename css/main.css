@@ -1,0 +1,46 @@
+/* Required for Twitter Bootstrap's menu */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 980px) and (min-width: 768px) {
+	body {
+		padding-top: 0px;
+	}
+}
+
+@media (max-width: 979px) {
+	body {
+		padding-top: 0px;
+	}
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+footer {
+	margin-top: 40px;
+	text-align: center;
+}
+
+div#sponsors a {
+	display: block;
+	padding: 5px 0px;
+}
+
+p.header {
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
