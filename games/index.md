@@ -21,13 +21,14 @@ facilitates video game development and management. XNA attempts to free game dev
 
 - - -
 
-Dave Thomas *(@7sharp9)* been doing some work to create F# based project templates for MonoGame.  At 
-the moment there is only a [MonoDevelop][7] Mac template but shortly there will be templates for 
-Windows and [Visual Studio][6] too.  You can find the details of this below.    
+Dave Thomas *(@7sharp9)* has been doing some work to create F# based project templates for MonoGame.  At 
+the moment there is only a [MonoDevelop][7] Mac template, but shortly there will be templates for 
+Windows and [Visual Studio][6] templates too.  You can find the details of this in the following blog 
+post: [Running MonoGame with F# on the Mac][3]
 
 ###F# Related Blogs Of interest
-*   [7sharp9 - Running MonoGame with F# on the Mac][3]
-*   [F# for Game Developmentt][4]
+*   [7sharp9][3]
+*   [F# for Game Development][4]
 *   [AZERDARK - F# with XNA Game Studio][5]
 
 [1]: http://monogame.codeplex.com
