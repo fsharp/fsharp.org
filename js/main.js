@@ -2,7 +2,7 @@ google.load("feeds", "1");
 
 function feedLoaded(result) {
   if (!result.error) {
-    var newsContent = document.getElementById("news-content");
+    var newsContent = document.getElementById("newsContent");
 
     // Add at most 4 news items with non-empty description
     var count = 1;
