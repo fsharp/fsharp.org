@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	Phil Trelford 	 	Organizer 	 	@ptrelford
+	Tomas Petricek 	 	Organizer 		@tomaspetricek
+	John Fair			Web Developer 	@johnbfair
+	Steffen Forkmann					@Ssforkmann
+
+# THANKS
+	Microsoft
+	Don Syme -- @dsyme
+
+# TECHNOLOGY COLOPHON
+
+    HTML5 Boilerplate, 
+    CSS3
+    jQuery, 
+    Modernizr
+    Twitter Bootstrap,
+    Jekyll
