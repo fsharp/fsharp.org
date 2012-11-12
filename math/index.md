@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Math Stacks | The F# Software Foundation
-subtitle: Math Stacks for F#
+headline: Math Stacks for F#
 ---
 
 This page provides information about using F# for numerical computing.
