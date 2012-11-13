@@ -29,7 +29,7 @@ The list contains books that focus mainly on functional programming using F# and
 were available at the time of writing. It includes excerpts from the official book 
 description and it is sorted alphabetically.
 
-### Beginning F#
+### Beginning F&#35;
 
 <img src="files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
