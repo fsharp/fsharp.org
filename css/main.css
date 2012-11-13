@@ -51,6 +51,24 @@ h2, h3, h4 {
   font-weight: normal;
 }
 
+#contentMain h2 {
+  font-size:180%;
+  line-height:1.2em;
+  margin-top:20px;
+  font-weight:bold;
+}
+
+#contentMain h3 {
+  font-size:140%;
+  line-height:1.2em;
+  margin-top:15px;
+}
+
+#contentMain h4 {
+  font-size:125%;
+  line-height:1.2em;
+}
+
 #contentMain li {
   margin-top:10px;
 }
