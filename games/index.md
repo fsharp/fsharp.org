@@ -27,9 +27,9 @@ Windows and [Visual Studio][6] templates too.  You can find the details of this 
 post: [Running MonoGame with F# on the Mac][3]
 
 ###F# Related Blogs Of interest
-*   [7sharp9][3]
-*   [F# for Game Development][4]
-*   [AZERDARK - F# with XNA Game Studio][5]
+*   [F# and MonoGame on the Mac][3] - Dave Thomas *(@7sharp9)*
+*   [F# for Game Development][4] - Johann Deneux 
+*   [F# with XNA Game Studio][5] - AzerDark *(@azer89)*
 
 [1]: http://monogame.codeplex.com
 [2]: http://msdn.microsoft.com/en-us/aa937791.aspx
