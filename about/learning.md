@@ -41,13 +41,13 @@ functional programming in a .NET environment. This book is both a comprehensive
 introduction to all aspects of the language and an incisive guide to using F# for 
 real-world professional development.
 
-### Expert F# 2.0
+### Expert F# 3.0
 
 <img src="files/BookEF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Don Syme, Adam Granicz, Antonio Cisternino_
 
-Expert F# 2.0 is about practical programming in a beautiful language that puts the 
+Expert F# 3.0 is about practical programming in a beautiful language that puts the 
 power and elegance of functional programming into the hands of professional 
 developers. In combination with .NET, F# achieves unrivaled levels of programmer 
 productivity and program clarity. 
@@ -60,7 +60,7 @@ _Jon Harrop_
 
 Over the next five years, F# is expected to become one of the world's most popular 
 functional programming languages for scientists of all disciplines working on the 
-Windows platform. F# is free and, unlike MATLAB® and other software with numerical/scientific 
+Windows platform. F# is free and, unlike MATLABï¿½ and other software with numerical/scientific 
 origins, is a full-fledged programming language. F# for Scientists explains and 
 demonstrates the powerful features of this important new programming language. 
 
@@ -90,7 +90,7 @@ use "over" other languages. They assume that you are considering this book
 because you have an interest in learning the F# language.
 
 
-### Programming F#
+### Programming F# 
 
 <img src="files/BookPGF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -115,7 +115,8 @@ functional programming model through the F# and C# languages. The clearly
 presented ideas and examples teach readers how functional programming 
 differs from other approaches. It explains how ideas look in F#-a 
 functional language-as well as how they can be successfully used to solve 
-programming problems in C#. 
+programming problems in C#. Chapters from this book available on 
+[MSDN page] (http://msdn.microsoft.com/en-us/library/hh297121)
 
 
 ## Tutorials
