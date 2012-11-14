@@ -25,3 +25,4 @@ title: The F# Software Foundation
  * [Anh-Dung Phan](http://lonelypad.blogspot.com/), PhD student at Technical University of Denmark
  * Petr Lepilov, New England F# User Group
  * [Dave Thomas](http://7sharpnine.com)
+ * [Jack Fox](http://jackfoxy.com)
