@@ -26,3 +26,4 @@ title: The F# Software Foundation
  * Petr Lepilov, New England F# User Group
  * [Dave Thomas](http://7sharpnine.com)
  * [Jack Fox](http://jackfoxy.com)
+ * [Ben Taylor](http://bentaylor.org) [@bentayloruk](https://twitter.com/bentayloruk) 
