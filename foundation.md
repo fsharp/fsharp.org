@@ -28,3 +28,7 @@ title: The F# Software Foundation
  * [Jack Fox](http://jackfoxy.com)
  * [Ben Taylor](http://bentaylor.org) [@bentayloruk](https://twitter.com/bentayloruk)
  * Mathias Brandewinder
+ * Ryan Riley
+ * Hans Rischel
+ * Michael Reichhardt Hansen
+ * Eric Lynn
