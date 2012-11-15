@@ -32,3 +32,6 @@ title: The F# Software Foundation
  * Hans Rischel
  * Michael Reichhardt Hansen
  * Eric Lynn
+ * Torbjörn Gyllebring 
+ * Mark Pearl
+ * Robin Taylor
