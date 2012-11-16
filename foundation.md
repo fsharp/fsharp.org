@@ -35,3 +35,4 @@ title: The F# Software Foundation
  * Torbjörn Gyllebring 
 * [Mark Pearl](http://blog.MarkPearl.co.za) [@markpearlcoza](https://twitter.com/MarkPearlCoZa)
  * Robin Taylor
+ * [Michael Newton](http://blog.mavnn.co.uk) [@mavnn](https://twitter.com/mavnn)
