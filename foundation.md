@@ -33,5 +33,5 @@ title: The F# Software Foundation
  * Michael Reichhardt Hansen
  * Eric Lynn
  * Torbjörn Gyllebring 
- * Mark Pearl
+* [Mark Pearl](http://blog.MarkPearl.co.za) [@markpearlcoza](https://twitter.com/MarkPearlCoZa)
  * Robin Taylor
