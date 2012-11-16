@@ -137,3 +137,8 @@ features such as active patterns and computation expressions.
 
 This part of MSDN contains chapters from the book by Tomas Petricek and Jon Skeet with
 additional material on Numerical Computing by Yin Zhu
+
+### [F# MVC framework for WPF] (http://code.google.com/p/fsharpmvcseries/wiki/TableOfContents?tm=6)
+
+This 15-part series describes how we can take advantage of the F# language features to
+create truly type-safe WPF applications
