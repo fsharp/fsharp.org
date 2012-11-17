@@ -28,7 +28,7 @@ Several of these include:
    and/or information-rich web solutions. Some of these include Type Providers, MailboxProcessor, 
    Asynchronous Workflows, Pattern Matching, Discriminated Union, the Option type, and many more.
 
-### Free IDEs
+### Free IDEs for Web Stack Development with F#
 
  * [MonoDevelop](http://monodevelop.com/)
  * [SharpDevelop](sharpdevelop.net/OpenSource/SD)
@@ -43,7 +43,7 @@ Several of these include:
    concerns provided by the Model-View-Controller (MVC) architectural design pattern. 
  * SOAP or HTTP Services - F# shines in the area of SOAP and HTTP service development. Common frameworks
    for building SOAP or HTTP services with F# include [ASP.NET Web API](http://www.asp.net/web-api), 
-   [ServiceStack](http://www.servicestack.net/), [Frank](https://github.com/frank-fs/frank),
+   [ServiceStack](http://www.servicestack.net/), [Frank](https://github.com/frank-fs/frank), and
    [NancyFx](http://nancyfx.org/).
  * Full Web Stacks - F# is extremely well suited for acting as the workhorse on the server. 
    However, it doesn't stop there. Frameworks such as [WebSharper](http://www.websharper.com/home)
