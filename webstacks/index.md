@@ -14,8 +14,8 @@ web solutions in whole or in part.
 ### Why F#?
 
 The stateless nature of the web lends itself well to the functional programming paradigm.
-As a functional-first language, F# has an immediate advantage when used to build web stacks. 
-Several of these advantages include:
+As a functional-first language, F# provides a number of advantages when used to build web stacks. 
+Several of these include:
 
  * Commonalities between the functional nature of both JavaScript and F# reduce the context 
    switching that is associated with the disparate programming paradigms that are often 
