@@ -17,7 +17,7 @@ The stateless nature of the web lends itself well to the functional programming 
 As a functional-first language, F# provides a number of advantages when used to build web stacks. 
 Several of these include:
 
- * Commonalities between the functional nature of both JavaScript and F# reduce the context 
+ * Commonalities between the functional nature of both JavaScript and F#. This reduces the context 
    switching that is associated with the disparate programming paradigms that are often 
    used between server and client-side development. 
  * F# provides a syntax that is concise yet readable. This not only allows faster development 
