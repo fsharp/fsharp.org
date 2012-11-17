@@ -63,12 +63,12 @@ building web solutions with F#. Here is a list of a few of them.
  * [F#/C# Web Service (ASP.NET, WSDL)](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) -
    Includes a template for WCF.
  * [F# Client-Side Application (Silverlight)](http://visualstudiogallery.msdn.microsoft.com/621d86fb-944f-48db-a69c-e73c5521de9d) -
-   Simple template for creating F# Silverlight Applications. The template creates a single 
+   Includes a simple template for creating F# Silverlight Applications. The template creates a single 
    Silverlight project that creates Silverlight controls from F# code and runs in an automatically generated HTML page.
  * [F# Web Application (Silverlight)](http://visualstudiogallery.msdn.microsoft.com/f0e9a557-3fd6-41d9-8518-c1735b382c73)
    Includes a template for Silverlight 4 and 5.
  * [F# Web Data Feed (ASP.NET, OData)](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
-   A project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
+   Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
 
 ### Web Frameworks
 
