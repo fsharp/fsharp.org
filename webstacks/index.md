@@ -28,7 +28,7 @@ Several of these include:
    and/or information-rich web solutions. Some of these include Type Providers, MailboxProcessor, 
    Asynchronous Workflows, Pattern Matching, Discriminated Union, the Option type, and many more.
 
-### Free IDEs for Web Stack Development with F#
+### Free IDEs
 
  * [MonoDevelop](http://monodevelop.com/)
  * [SharpDevelop](sharpdevelop.net/OpenSource/SD)
