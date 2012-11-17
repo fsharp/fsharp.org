@@ -43,8 +43,8 @@ Several of these include:
    concerns provided by the Model-View-Controller (MVC) architectural design pattern. 
  * SOAP or HTTP Services - F# shines in the area of SOAP and HTTP service development. Common frameworks
    for building SOAP or HTTP services with F# include [ASP.NET Web API](http://www.asp.net/web-api), 
-   [ServiceStack](http://www.servicestack.net/), [Frank](https://github.com/frank-fs/frank), and
-   [NancyFx](http://nancyfx.org/).
+   [ServiceStack](http://www.servicestack.net/), [Frank](https://github.com/frank-fs/frank),
+   [NancyFx](http://nancyfx.org/), and WCF.
  * Full Web Stacks - F# is extremely well suited for acting as the workhorse on the server. 
    However, it doesn't stop there. Frameworks such as [WebSharper](http://www.websharper.com/home)
    and [Pit](http://pitfw.org/) allow end-to-end web stacks to be developed with F#.
