@@ -34,7 +34,7 @@ the standard F# library.
  * [F# Type Providers](http://msdn.microsoft.com/en-us/library/hh156509.aspx) - 
    Introduces information-rich programming features available in F# 3.0.
 
- * [Real-World Functional Programming](http://msdn.microsoft.com/en-us/library/hh314518(v=vs.100).aspx) - 
+ * [Real-World Functional Programming](http://msdn.microsoft.com/en-us/library/hh314518) - 
    Introduces functional programming in F# and discusses how to use F# for client-side and 
    server-side development, numerical computing, charting and other.
 
