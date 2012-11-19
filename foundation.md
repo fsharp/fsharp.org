@@ -38,3 +38,4 @@ title: The F# Software Foundation
  * [Michael Newton](http://blog.mavnn.co.uk) [@mavnn](https://twitter.com/mavnn)
  * Andrew Cherry
  * [Keith Sheppard](http://keithsheppard.name)
+ * Matthew Moloney
