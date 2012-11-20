@@ -3,6 +3,12 @@ layout: foundation
 title: The F# Software Foundation
 ---
 
+#### Commercial supporters
+
+ * [SkillsMatter](http://skillsmatter.com/) - meetups, conferences, workshops and trainings
+
+#### Founding members
+
  * [Phil Trelford](http://trelford.com/blog/)
  * [Tomas Petricek](http://tomasp.net) ([tomas@tomasp.net](mailto:tomas@tomasp.net)), PhD student at the University of Cambridge
  * Richard Minerich
