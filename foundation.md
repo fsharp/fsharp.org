@@ -45,3 +45,4 @@ title: The F# Software Foundation
  * Andrew Cherry
  * [Keith Sheppard](http://keithsheppard.name)
  * Matthew Moloney
+ * Nikolay Ulmasov
