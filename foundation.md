@@ -46,3 +46,5 @@ title: The F# Software Foundation
  * [Keith Sheppard](http://keithsheppard.name)
  * Matthew Moloney
  * Nikolay Ulmasov
+ * Tao Liu
+ * [Rodrigo Vidal](www.rodrigovidal.net)
