@@ -48,3 +48,4 @@ title: The F# Software Foundation
  * Nikolay Ulmasov
  * Tao Liu
  * [Rodrigo Vidal](www.rodrigovidal.net)
+ * Dmitry Soshnikov <dmitri@soshnikov.com>, Technology evangelist at Microsoft Russia and Associate Professor at Higher School of Economics / Moscow Aviation Technical University 
