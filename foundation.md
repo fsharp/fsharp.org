@@ -32,20 +32,23 @@ title: The F# Software Foundation
  * Petr Lepilov, New England F# User Group
  * [Dave Thomas](http://7sharpnine.com)
  * [Jack Fox](http://jackfoxy.com)
- * [Ben Taylor](http://bentaylor.org) [@bentayloruk](https://twitter.com/bentayloruk)
+ * [Ben Taylor](http://bentaylor.org), [@bentayloruk](https://twitter.com/bentayloruk)
  * Mathias Brandewinder
- * [Ryan Riley](http://wizardsofsmart.net/) [@c4fsharp](https://twitter.com/c4fsharp)
+ * [Ryan Riley](http://wizardsofsmart.net/), [@c4fsharp](https://twitter.com/c4fsharp)
  * Hans Rischel
  * Michael Reichhardt Hansen
  * Eric Lynn
  * Torbjörn Gyllebring 
- * [Mark Pearl](http://blog.MarkPearl.co.za) [@markpearlcoza](https://twitter.com/MarkPearlCoZa)
+ * [Mark Pearl](http://blog.MarkPearl.co.za), [@markpearlcoza](https://twitter.com/MarkPearlCoZa)
  * Robin Taylor
- * [Michael Newton](http://blog.mavnn.co.uk) [@mavnn](https://twitter.com/mavnn)
+ * [Michael Newton](http://blog.mavnn.co.uk), [@mavnn](https://twitter.com/mavnn)
  * Andrew Cherry
  * [Keith Sheppard](http://keithsheppard.name)
  * Matthew Moloney
  * Nikolay Ulmasov
  * Tao Liu
  * [Rodrigo Vidal](www.rodrigovidal.net)
- * Dmitry Soshnikov <dmitri@soshnikov.com>, Technology evangelist at Microsoft Russia and Associate Professor at Higher School of Economics / Moscow Aviation Technical University 
+ * Dmitry Soshnikov (<dmitri@soshnikov.com>), Technology evangelist at Microsoft Russia and Associate Professor at Higher School of Economics / Moscow Aviation Technical University 
+ * Simon Cousins
+ * Jianchu Huang
+ * [Aaron Erickson](http://nomadic-developer.com), Techie, ThoughtWorks
