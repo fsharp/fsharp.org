@@ -54,5 +54,3 @@ title: The F# Software Foundation
  * [Aaron Erickson](http://nomadic-developer.com), Techie, ThoughtWorks
  * [Dmitry Slutsky] ([@akaLakret](http://twitter.com/akaLakret)), Developer, SKB Kontur
  * [Carsten König](http://gettingsharper.de)
- * [Michael Newton](http://blog.mavnn.co.uk), ([@mavnn](http://twitter.com/mavnn))
- * Robin Taylor
