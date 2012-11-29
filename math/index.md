@@ -32,7 +32,7 @@ native code libraries (C/C++, FORTRAN, etc) such as the Intel [Math Kernel Libra
 (http://software.intel.com/en-us/intel-mkl) is straightforward.
 
 Performance of the developer is at least as critical as the performance of the resulting
-code. F# is a very expressive, conscise language with ready access to libraries of common
+code. F# is a very expressive, concise language with ready access to libraries of common
 algorithms and data structures. The rest of this page surveys some of the most common
 numberical computing libraries available for F#.
 
@@ -75,9 +75,9 @@ Here are some commercial libraries:
 
  * [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) - 
    a collection of numeric algorithms including matrix operations, optimization and 
-   interpolation functions, 1d and 2d FFTs, and pseudorandom number generation. The library uses 
+   interpolation functions, 1d and 2d FFTs, and pseudo random number generation. The library uses 
    the standard F# PowerPack Matrix for compatibility. F# for Numerics supports .NET but does not 
-   support Mono. Currently in Beta and available from [Flying Frog Consulytancy](http://www.ffconsultancy.com/).
+   support Mono. Currently in Beta and available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
 
  * [F# for Visualization](http://www.ffconsultancy.com/products/fsharp_for_visualization/index.html) -
    a 2d and 3d vector graphics library with a native F# interface.  The
