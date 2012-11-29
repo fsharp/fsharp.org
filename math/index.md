@@ -28,11 +28,11 @@ provides easy access to the [x86 SIMD](http://www.counity.at/blog/2011/hardware-
 for certain types of processing.
 
 Being built on the .NET and Mono runtimes, integrating highly optimized, 
-native code libraries (C/C++, FORTRAN, etc) such as the Intel Math Kernel Library
-is straightforward.
+native code libraries (C/C++, FORTRAN, etc) such as the Intel [Math Kernel Library (MKL)]
+(http://software.intel.com/en-us/intel-mkl) is straightforward.
 
 Performance of the developer is at least as critical as the performance of the resulting
-code. A big part of developer performance is ready access to libraries of common
+code. F# is a very expressive, conscise language with ready access to libraries of common
 algorithms and data structures. The rest of this page surveys some of the most common
 numberical computing libraries available for F#.
 
@@ -44,20 +44,45 @@ Here are some open source libraries:
  * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) Math.NET Mumerics provides
    a large collection of common algorithms needed in science and engineering, including
    linear algebra, probability models, random numbers, interpolation, and FFT's. This package
-   also includes commonly useful data structure such as sparse and dense vector and matrix
+   also includes commonly used data structure such as sparse and dense vector and matrix
    implementations. The libraries are managed code with wrappers available for optimized native 
-   implementations such as [MKL](http://software.intel.com/en-us/intel-mkl) and 
-   [ATLAS](http://math-atlas.sourceforge.net/). License: MIT/X11
+   implementations such as MKL and ATLAS. License: MIT/X11
 
 
 ### Commercial libraries
 
 Here are some commercial libraries:
 
- * [StatFactory FCore](http://www.statfactory.co.uk/)
- * [QuantAlea] (http://www.quantalea.net/). GPU-accelerated financial analysis libraries.
- * Flying Frog
- * MKL?
- * etc..
+ * [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) - 
+   a set of three libraries focused on vector and matrix processing, 
+   linear algebra methods, and statics functions. The library includes a large selection of 
+   standard algorithms from matrix factorization, function optimization, numerical integration, 
+   K-means clustering, and PCA (principal component analysis). Options are provided to run  
+   using pure managed code for portability or to utilize highly tuned native code for 
+   additional performance. Supports .NET 3.5 and 4.0 (2.0 version available) and executing on Mono. 
+   A Windows-based .NET environment is required for compilation.   
+
+ * [StatFactory FCore](http://www.statfactory.co.uk/) - a high-performance numerical
+   library supporting both CPU and GPGPU computing. The library includes multi-dimensional
+   dense matrix and 2d sparse matrix support, standard linear algebra routines, and summary
+   statistics. The library provides options to run both 100% managed code or to use optimized 
+   native libaries such as MKL.
+
+ * [Alea.CUDA]( http://www.quantalea.net/news/2012/11/Alea_CUDA.php) - a framework
+   for developing GPU-accelerated code in F# on .NET and Mono. Utilizing F# quotations and the 
+   LLVM compiler it is able to compile GPU kernels on-the-fly and schedule them on one or more 
+   nVidia processors. Alea.CUDA will be available soon from [Quantalea](http://www.quantalea.net/).
+
+ * [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) - 
+   a collection of numeric algorithms including matrix operations, optimization and 
+   interpolation functions, 1d and 2d FFTs, and pseudorandom number generation. The library uses 
+   the standard F# PowerPack Matrix for compatibility. F# for Numerics supports .NET but does not 
+   support Mono. Currently in Beta and available from [Flying Frog Consulytancy](http://www.ffconsultancy.com/).
+
+ * [F# for Visualization](http://www.ffconsultancy.com/products/fsharp_for_visualization/index.html) -
+   a 2d and 3d vector graphics library with a native F# interface.  The
+   package provides interactive plotting from wthin Visual Studio and support for generating
+   animations. F# for Visualization supports .NET but does not support Mono. Currently in 
+   Beta and available from [Flying Frog Consulytancy](http://www.ffconsultancy.com/).
 
 
