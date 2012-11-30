@@ -55,12 +55,12 @@ Here are some commercial libraries:
 
  * [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) - 
    a set of three libraries focused on vector and matrix processing, 
-   linear algebra methods, and statics functions. The library includes a large selection of 
+   linear algebra methods, and statistics functions. The library includes a large selection of 
    standard algorithms from matrix factorization, function optimization, numerical integration, 
    K-means clustering, and PCA (principal component analysis). Options are provided to run  
    using pure managed code for portability or to utilize highly tuned native code for 
-   additional performance. Supports .NET 3.5 and 4.0 (2.0 version available) and executing on Mono. 
-   A Windows-based .NET environment is required for compilation.   
+   additional performance. Extreme Optimization supports for .NET 3.5 and 4.0 (2.0 version 
+   available) and execution on Mono. A Windows-based .NET environment is required for compilation.   
 
  * [StatFactory FCore](http://www.statfactory.co.uk/) - a high-performance numerical
    library supporting both CPU and GPGPU computing. The library includes multi-dimensional
@@ -75,7 +75,7 @@ Here are some commercial libraries:
 
  * [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) - 
    a collection of numeric algorithms including matrix operations, optimization and 
-   interpolation functions, 1d and 2d FFTs, and pseudo random number generation. The library uses 
+   interpolation functions, 1d and 2d FFTs, and pseudo-random number generation. The library uses 
    the standard F# PowerPack Matrix for compatibility. F# for Numerics supports .NET but does not 
    support Mono. Currently in Beta and available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
 
