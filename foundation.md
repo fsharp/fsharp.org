@@ -9,7 +9,7 @@ title: The F# Software Foundation
 
 #### Founding members
 
- * [Phil Trelford](http://trelford.com/blog/)
+ * [Phil Trelford](http://trelford.com/blog/), Developer and Architect at [Trayport](http://www.trayport.com), London
  * [Tomas Petricek](http://tomasp.net) ([tomas@tomasp.net](mailto:tomas@tomasp.net)), PhD student at the University of Cambridge
  * Richard Minerich
  * [Cameron Taggart](http://blog.ctaggart.com/)
@@ -51,6 +51,8 @@ title: The F# Software Foundation
  * Dmitry Soshnikov (<dmitri@soshnikov.com>), Technology evangelist at Microsoft Russia and Associate Professor at Higher School of Economics / Moscow Aviation Technical University 
  * Simon Cousins
  * Jianchu Huang
- * [Aaron Erickson](http://nomadic-developer.com), Techie, ThoughtWorks
- * [Dmitry Slutsky] ([@akaLakret](http://twitter.com/akaLakret)), Developer, SKB Kontur
+ * [Aaron Erickson](http://nomadic-developer.com), Techie, [ThoughtWorks](http://www.thoughtworks.com/)
+ * Dmitry Slutsky ([@akaLakret](http://twitter.com/akaLakret)), Developer, SKB Kontur
  * [Carsten König](http://gettingsharper.de)
+ * [Gene Belitski](http://infsharpmajor.wordpress.com/) 
+ * Dave Elliman ([@arrivingleaving](http://twitter.com/arrivingleaving)), [ThoughtWorks](http://www.thoughtworks.com/)
