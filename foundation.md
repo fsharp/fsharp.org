@@ -49,7 +49,7 @@ title: The F# Software Foundation
  * Tao Liu
  * [Rodrigo Vidal](www.rodrigovidal.net)
  * Dmitry Soshnikov (<dmitri@soshnikov.com>), Technology evangelist at Microsoft Russia and Associate Professor at Higher School of Economics / Moscow Aviation Technical University 
- * Simon Cousins
+ * [Simon Cousins](http://www.simontylercousins.net), professional F# programmer
  * Jianchu Huang
  * [Aaron Erickson](http://nomadic-developer.com), Techie, [ThoughtWorks](http://www.thoughtworks.com/)
  * Dmitry Slutsky ([@akaLakret](http://twitter.com/akaLakret)), Developer, SKB Kontur
