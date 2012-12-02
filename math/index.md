@@ -43,12 +43,12 @@ Here are some open source libraries:
 
  * [ILNumerics](http://ilnumerics.net/) - an open- or closed-source library offering high-
    performance numerical algorithms as well as charting and plotting capabilities. The library
-   is based on efficient, general-purpose array classes implementing vectors, matrixes, and
+   is based on efficient, general-purpose array classes implementing vectors, matrices, and
    n-dimensional arrays. Provided algorithms include standard linear algebra transforms,
    a high-performance Fast Fourier Transform (FFT) library, and a collection of sorting 
-   and machine learning algorithms. Plottng is based on OpenGL and supports both 2d and 3g
-   plots. ILNumerics supports .NET 4.0 as well as Mono (recomment 2.10 or above). Licensing 
-   is GPLv3 or commercial license.
+   and machine learning algorithms. Plotting is based on OpenGL and supports both 2d and 3g
+   plots. ILNumerics supports .NET 4.0 as well as Mono (recommend 2.10 or above). Licensing 
+   is GPLv3 or commercial (paid) license.
  
   * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) Math.NET Mumerics provides
    a large collection of common algorithms needed in science and engineering, including
@@ -71,6 +71,13 @@ Here are some commercial libraries:
    additional performance. Extreme Optimization supports for .NET 3.5 and 4.0 (2.0 version 
    available) and execution on Mono. A Windows-based .NET environment is required for compilation.   
 
+ * [Microsoft Solver Foundation (MSF)](http://msdn.microsoft.com/en-us/devlabs/hh145003.aspx) -
+   a .NET package for designing and optimizating mathematical models. MSF provides built-in
+   solvers for linear- and quadratic-programming, as well as non-linear models based on Nelder-Mead
+   or quasi-Newtonian algorithms. Models can be built using the Optimization Modeling Language
+   (OML) or using C# or F# and other .NET languages. MSF version 3.1 is available in a free
+   Express Edition or via an MSDN subscription.
+   
  * [StatFactory FCore](http://www.statfactory.co.uk/) - a high-performance numerical
    library supporting both CPU and GPGPU computing. The library includes multi-dimensional
    dense matrix and 2d sparse matrix support, standard linear algebra routines, and summary
