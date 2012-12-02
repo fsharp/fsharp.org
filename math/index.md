@@ -41,7 +41,16 @@ numberical computing libraries available for F#.
 
 Here are some open source libraries:
 
- * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) Math.NET Mumerics provides
+ * [ILNumerics](http://ilnumerics.net/) - an open- or closed-source library offering high-
+   performance numerical algorithms as well as charting and plotting capabilities. The library
+   is based on efficient, general-purpose array classes implementing vectors, matrixes, and
+   n-dimensional arrays. Provided algorithms include standard linear algebra transforms,
+   a high-performance Fast Fourier Transform (FFT) library, and a collection of sorting 
+   and machine learning algorithms. Plottng is based on OpenGL and supports both 2d and 3g
+   plots. ILNumerics supports .NET 4.0 as well as Mono (recomment 2.10 or above). Licensing 
+   is GPLv3 or commercial license.
+ 
+  * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) Math.NET Mumerics provides
    a large collection of common algorithms needed in science and engineering, including
    linear algebra, probability models, random numbers, interpolation, and FFT's. This package
    also includes commonly used data structure such as sparse and dense vector and matrix
