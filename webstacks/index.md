@@ -6,12 +6,12 @@ headline: Web Stacks for F#
 
 ### Web Stacks 
 
-Multiple options are available for building web stacks with F#. Web stacks can be created 
-with a number of different tools including Visual Studio 2010/2012, MonoDevelop, or your 
+Multiple web stacks are available for building web applications and services with F#. Web applications 
+and services can be created with a number of different tools including Visual Studio 2010/2012, MonoDevelop, or your 
 favorite text editor. Depending on your preferences and goals, F# can be used to build 
 web solutions in whole or in part. 
 
-### Why F#?
+### Why F# for Web?
 
 The stateless nature of the web lends itself well to the functional programming paradigm.
 As a functional-first language, F# provides a number of advantages when used to build web stacks. 
@@ -30,10 +30,10 @@ Several of these include:
 
 ### Free IDEs
 
- * [MonoDevelop](http://monodevelop.com/)
- * [SharpDevelop](sharpdevelop.net/OpenSource/SD)
  * [Visual Studio 2012 Express for Web](http://go.microsoft.com/fwlink/?LinkID=261287)
- * [xacc.ide](xacc.wordpress.com) 
+ * [MonoDevelop](http://monodevelop.com/)
+ * [SharpDevelop](http://sharpdevelop.net/OpenSource/SD)
+ * [xacc.ide](http://xacc.wordpress.com/) 
  
 ### Common Implementation Approaches
 
