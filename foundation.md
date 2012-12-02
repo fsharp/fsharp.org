@@ -9,7 +9,7 @@ title: The F# Software Foundation
 
 #### Founding members
 
- * [Phil Trelford](http://trelford.com/blog/)
+ * [Phil Trelford](http://trelford.com/blog/), Developer and Architect at [Trayport](http://www.trayport.com), London
  * [Tomas Petricek](http://tomasp.net) ([tomas@tomasp.net](mailto:tomas@tomasp.net)), PhD student at the University of Cambridge
  * Richard Minerich
  * [Cameron Taggart](http://blog.ctaggart.com/)
@@ -32,17 +32,27 @@ title: The F# Software Foundation
  * Petr Lepilov, New England F# User Group
  * [Dave Thomas](http://7sharpnine.com)
  * [Jack Fox](http://jackfoxy.com)
- * [Ben Taylor](http://bentaylor.org) [@bentayloruk](https://twitter.com/bentayloruk)
+ * [Ben Taylor](http://bentaylor.org), [@bentayloruk](https://twitter.com/bentayloruk)
  * Mathias Brandewinder
- * [Ryan Riley](http://wizardsofsmart.net/) [@c4fsharp](https://twitter.com/c4fsharp)
+ * [Ryan Riley](http://wizardsofsmart.net/), [@c4fsharp](https://twitter.com/c4fsharp)
  * Hans Rischel
  * Michael Reichhardt Hansen
  * Eric Lynn
  * Torbjörn Gyllebring 
- * [Mark Pearl](http://blog.MarkPearl.co.za) [@markpearlcoza](https://twitter.com/MarkPearlCoZa)
+ * [Mark Pearl](http://blog.MarkPearl.co.za), [@markpearlcoza](https://twitter.com/MarkPearlCoZa)
  * Robin Taylor
- * [Michael Newton](http://blog.mavnn.co.uk) [@mavnn](https://twitter.com/mavnn)
+ * [Michael Newton](http://blog.mavnn.co.uk), [@mavnn](https://twitter.com/mavnn)
  * Andrew Cherry
  * [Keith Sheppard](http://keithsheppard.name)
  * Matthew Moloney
  * Nikolay Ulmasov
+ * Tao Liu
+ * [Rodrigo Vidal](www.rodrigovidal.net)
+ * Dmitry Soshnikov (<dmitri@soshnikov.com>), Technology evangelist at Microsoft Russia and Associate Professor at Higher School of Economics / Moscow Aviation Technical University 
+ * [Simon Cousins](http://www.simontylercousins.net), professional F# programmer
+ * Jianchu Huang
+ * [Aaron Erickson](http://nomadic-developer.com), Techie, [ThoughtWorks](http://www.thoughtworks.com/)
+ * Dmitry Slutsky ([@akaLakret](http://twitter.com/akaLakret)), Developer, SKB Kontur
+ * [Carsten König](http://gettingsharper.de)
+ * [Gene Belitski](http://infsharpmajor.wordpress.com/) 
+ * Dave Elliman ([@arrivingleaving](http://twitter.com/arrivingleaving)), [ThoughtWorks](http://www.thoughtworks.com/)
