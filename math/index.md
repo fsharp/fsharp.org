@@ -29,7 +29,9 @@ for certain types of processing.
 
 Being built on the .NET and Mono runtimes, integrating highly optimized, 
 native code libraries (C/C++, FORTRAN, etc) such as the Intel [Math Kernel Library (MKL)]
-(http://software.intel.com/en-us/intel-mkl) is straightforward.
+(http://software.intel.com/en-us/intel-mkl) is straightforward. The [P/Invoke]
+(http://en.wikipedia.org/wiki/Platform_Invocation_Services) system allows managed code
+to call directly into native libraries and helps marshall data between environments.
 
 Performance of the developer is at least as critical as the performance of the resulting
 code. F# is a very expressive, concise language with ready access to libraries of common
@@ -84,21 +86,16 @@ Here are some commercial libraries:
    statistics. The library provides options to run both 100% managed code or to use optimized 
    native libaries such as MKL.
 
- * [Alea.CUDA]( http://www.quantalea.net/news/2012/11/Alea_CUDA.php) - a framework
-   for developing GPU-accelerated code in F# on .NET and Mono. Utilizing F# quotations and the 
-   LLVM compiler it is able to compile GPU kernels on-the-fly and schedule them on one or more 
-   nVidia processors. Alea.CUDA will be available soon from [Quantalea](http://www.quantalea.net/).
-
  * [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) - 
    a collection of numeric algorithms including matrix operations, optimization and 
    interpolation functions, 1d and 2d FFTs, and pseudo-random number generation. The library uses 
-   the standard F# PowerPack Matrix for compatibility. F# for Numerics supports .NET but does not 
-   support Mono. Currently in Beta and available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
+   the standard F# PowerPack Matrix for compatibility. F# for Numerics supports .NET. 
+   A beta version is available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
 
  * [F# for Visualization](http://www.ffconsultancy.com/products/fsharp_for_visualization/index.html) -
    a 2d and 3d vector graphics library with a native F# interface.  The
    package provides interactive plotting from wthin Visual Studio and support for generating
-   animations. F# for Visualization supports .NET but does not support Mono. Currently in 
-   Beta and available from [Flying Frog Consulytancy](http://www.ffconsultancy.com/).
+   animations. F# for Visualization supports .NET. A beta version is
+   available from [Flying Frog Consulytancy](http://www.ffconsultancy.com/).
 
 
