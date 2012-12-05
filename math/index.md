@@ -52,12 +52,18 @@ Here are some open source libraries:
    plots. ILNumerics supports .NET 4.0 as well as Mono (recommend 2.10 or above). Licensing 
    is GPLv3 or commercial (paid) license.
  
-  * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) Math.NET Numerics provides
-   a large collection of common algorithms needed in science and engineering, including
-   linear algebra, probability models, random numbers, interpolation, and FFT's. This package
-   also includes commonly used data structure such as sparse and dense vector and matrix
-   implementations. The libraries are managed code with wrappers available for optimized native 
-   implementations such as MKL and ATLAS. License: MIT/X11
+ * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) provides 
+   a large collection of algorithms needed in science and engineering, including linear algebra, 
+   special functions, statistics, probability models, interpolation and FFTs. In addition to the 
+   core .Net package, Numerics specifically supports F# 3.0 with idiomatic extension modules and 
+   maintains mathematical data structures like BigRational that originated in the F# PowerPack. 
+   If a performance boost is needed, the managed-code provider backing its linear algebra routines 
+   and decompositions can be exchanged with wrappers for optimized native implementations such as 
+   Intel MKL. Supports Mono and .Net 4.0 on Linux, Mac and Windows. The portable version also SL5 
+   and .NET for Windows Store apps. License: MIT/X11
+  
+ * [Xaye.Math](https://github.com/cuda/Xaye.Math) is an F# math library using optimized native 
+   routines of Intel MKL. [License](https://github.com/cuda/Xaye.Math/blob/master/LICENSE.txt).
 
 
 ### Commercial libraries
