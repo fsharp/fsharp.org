@@ -47,7 +47,7 @@ title: The F# Software Foundation
  * Matthew Moloney
  * Nikolay Ulmasov
  * Tao Liu
- * [Rodrigo Vidal](www.rodrigovidal.net)
+ * [Rodrigo Vidal](http://www.rodrigovidal.net)
  * Dmitry Soshnikov (<dmitri@soshnikov.com>), Technology evangelist at Microsoft Russia and Associate Professor at Higher School of Economics / Moscow Aviation Technical University 
  * [Simon Cousins](http://www.simontylercousins.net), professional F# programmer
  * Jianchu Huang
