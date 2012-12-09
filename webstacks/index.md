@@ -4,81 +4,77 @@ title: Web Stacks | The F# Software Foundation
 headline: Web Stacks for F#
 ---
 
-### Web Stacks 
-
-Multiple web stacks are available for building web applications and services with F#. Web applications 
-and services can be created with a number of different tools including Visual Studio 2010/2012, MonoDevelop, or your 
-favorite text editor. Depending on your preferences and goals, F# can be used to build 
-web solutions in whole or in part. 
-
-### Why F# for Web?
-
-The stateless nature of the web lends itself well to the functional programming paradigm.
-As a functional-first language, F# provides a number of advantages when used to build web stacks. 
-Several of these include:
-
- * Commonalities between the functional nature of both JavaScript and F#. This reduces the context 
-   switching that is associated with the disparate programming paradigms that are often 
-   used between server and client-side development. 
- * F# provides a syntax that is concise yet readable. This not only allows faster development 
-   of web solutions, but also increases maintainability.
- * A functional approach makes it easier to scale solutions horizontally, improves the robustness of 
-   the solution, and reduces exceptions.  
- * F# provides a large number of features that improve the development of complex, large-scale, 
-   and/or information-rich web solutions. Some of these include Type Providers, MailboxProcessor, 
+The stateless nature of the web makes functional programming ideal for modern web programming.
+As a functional-first language, F# provides a uniquely powerful combination of features for this domain:
+ * *Performance and Robustness* - F# is a high-performance, scalable, interoperable 
+   language. A strongly-typed functional-first approach makes it simple to scale 
+   solutions horizontally, improves the robustness of the solution, and reduces exceptions. 
+ * *Succinctness* - F# provides a syntax that is concise yet readable and type-safe. This allows faster development 
+   of web solutions and increases maintainability.  
+ * *Language support* - F# provides a large number of features that improve the development of complex, large-scale, 
+   and/or information-rich web solutions. Some of these include Type Providers, MailboxProcessor (Agents), 
    Asynchronous Workflows, Pattern Matching, Discriminated Union, the Option type, and many more.
+ * *Interoperability* - F# has uniquely strong interoperability capabilities with both C# and other languages
+   such as R and JavaScript.
+ * *JavaScript* - JavaScript and F# share much in common. This reduces the context 
+   switching that is associated with the disparate programming paradigms that are often 
+   used between server and client-side development.  F# and JavaScript work very well 
+   together through tools such as [WebSharper](http://websharper.com) and [FunScript](https://github.com/ZachBray/FunScript).
+ * *Open-source* and *Cross-platform* - Most F# web development is done using fully open source components 
+   such as F# itself, ASP.NET, WebSharper, FunScript and ServiceStack. F# web applications and services
+   can be developed and deployed on Mac, Linux and Windows, and
+   F# can be used to produce cross-platform HTML5 JavaScript user interfaces.
 
-### Free IDEs
+### Getting Started 
 
+[Install F#](http://fsharp.org) and an IDE or text editor. Two free IDEs are:
  * [Visual Studio 2012 Express for Web](http://go.microsoft.com/fwlink/?LinkID=261287)
  * [MonoDevelop](http://monodevelop.com/)
- * [SharpDevelop](http://sharpdevelop.net/OpenSource/SD)
- * [xacc.ide](http://xacc.wordpress.com/) 
- 
-### Common Implementation Approaches
+
+The following templates can help you quickly get started with building web solutions with F#:
+
+Cross-platform:
+ * [F#/C# ASP.NET MVC 4 for Mac, Linux and Windows in MonoDevelop](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) - 
+   Includes material about ASP.NET MVC (ASPX/Razor), ASP.NET Web API, and Single Page Applications with Backbone.js or Knockout.js.
+ * [WebSharper Templates](http://www.websharper.com/docs/getting-started) WebSharper comes with numerous templates
+   for getting going with F# client/server web programming directly.
+ * [FunScript Templates](https://github.com/ZachBray/FunScript) FunScript comes with some example templates for building all-JavaScript applications in F#.
+
+Visual Studio:
+ * [F#/C# ASP.NET MVC 4 Template](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - 
+   Includes templates for ASP.NET MVC (ASPX/Razor), ASP.NET Web API, and Single Page Applications with Backbone.js or Knockout.js.
+ * [F#/C# ASP.NET MVC 3 Template](http://visualstudiogallery.msdn.microsoft.com/f57aa816-e96b-4133-ab5d-9b9b99914ead) - 
+   Includes templates for ASP.NET MVC (ASPX/Razor).
+ * [F#/C# Web Service Template (ASP.NET, WSDL)](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) -
+   Includes a template for WCF.
+ * [F# Web Data Feed Template (ASP.NET, OData)](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
+   Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
+ * [F# Client-Side Application Template (Silverlight)](http://visualstudiogallery.msdn.microsoft.com/621d86fb-944f-48db-a69c-e73c5521de9d) -
+   Includes a simple template for creating F# Silverlight Applications. The template creates a single 
+   Silverlight project that creates Silverlight controls from F# code and runs in an automatically generated HTML page.
+ * [F# Web Application Template (Silverlight)](http://visualstudiogallery.msdn.microsoft.com/f0e9a557-3fd6-41d9-8518-c1735b382c73)
+   Includes a template for Silverlight 4 and 5.
+
+### Web Frameworks and Tools:
+
+Here are some of the web frameworks used with F# web programming:
 
  * ASP.NET MVC - ASP.NET MVC provides a framework that allows view related aspects to be 
    easily created in C# with the models and controllers created in F#. This approach uses
    the "best tool for the job" concept and takes advantage of the inherent separation of 
    concerns provided by the Model-View-Controller (MVC) architectural design pattern. 
- * SOAP or HTTP Services - F# shines in the area of SOAP and HTTP service development. Common frameworks
+ * HTTP Services - F# shines in the area of SOAP and HTTP service development. Common frameworks
    for building SOAP or HTTP services with F# include [ASP.NET Web API](http://www.asp.net/web-api), 
    [ServiceStack](http://www.servicestack.net/), [Frank](https://github.com/frank-fs/frank),
    [NancyFx](http://nancyfx.org/), and WCF.
- * Full Web Stacks - F# is extremely well suited for acting as the workhorse on the server. 
+ * [WebSharper](http://www.websharper.com/home) - 
+   F# is extremely well suited for acting as the workhorse on the server. 
    However, it doesn't stop there. Frameworks such as [WebSharper](http://www.websharper.com/home)
-   and [Pit](http://pitfw.org/) allow end-to-end web stacks to be developed with F#.
+   allow end-to-end web applications to be developed with F#.
  * Silverlight - Via the Portable Library project in F# 3.0 or the Silverlight Library project in F# 2.0
    you can use F# to build Silverlight projects in whole or in part. 
-
-### Project Templates for Visual Studio
-
-A number of Visual Studio project templates exist that can help you quickly get started with 
-building web solutions with F#. Here is a list of a few of them. 
-
- * [F#/C# ASP.NET MVC 4](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - 
-   Includes templates for ASP.NET MVC (ASPX/Razor), ASP.NET Web API, and Single Page Applications with Backbone.js or Knockout.js.
- * [F#/C# ASP.NET MVC 3](http://visualstudiogallery.msdn.microsoft.com/f57aa816-e96b-4133-ab5d-9b9b99914ead) - 
-   Includes templates for ASP.NET MVC (ASPX/Razor).
- * [F#/C# Web Service (ASP.NET, WSDL)](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) -
-   Includes a template for WCF.
- * [F# Client-Side Application (Silverlight)](http://visualstudiogallery.msdn.microsoft.com/621d86fb-944f-48db-a69c-e73c5521de9d) -
-   Includes a simple template for creating F# Silverlight Applications. The template creates a single 
-   Silverlight project that creates Silverlight controls from F# code and runs in an automatically generated HTML page.
- * [F# Web Application (Silverlight)](http://visualstudiogallery.msdn.microsoft.com/f0e9a557-3fd6-41d9-8518-c1735b382c73)
-   Includes a template for Silverlight 4 and 5.
- * [F# Web Data Feed (ASP.NET, OData)](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
-   Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
-
-### Web Frameworks
-
-Here are a few open source web frameworks:
-
- * [F# Web Tools](http://tomasp.net/projects/fswebtools.aspx)
- * [Frank](https://github.com/frank-fs/frank) 
+ * [FunScript](https://github.com/ZachBray/FunScript/) - F# to JavaScript converter with TypeScript interoperability.
  * [PicoMvc](https://github.com/robertpi/PicoMvc)
- * [Pit](http://pitfw.org/)
- * [WebSharper](http://www.websharper.com/home)
 
 ### Unit Testing Libraries
 
