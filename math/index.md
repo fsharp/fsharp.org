@@ -86,6 +86,14 @@ Here are some commercial libraries:
    (OML) or using C# or F# and other .NET languages. MSF version 3.1 is available in a free
    Express Edition or via an MSDN subscription.
    
+ * [NMath, NMath Stats](http://www.centerspace.net/products/c-sharp-vb-net-math-library-products/) -
+   a suite providing core math and statistics functions. NMath provides sparse- and 
+   dense-matrix manipulations, FFT algorithms, and numeric algorithms such as curve-fitting, 
+   integration, and differentiation. NMath Stats is built on NMath and provides statistics 
+   functions such multiple linear regression, hypothesis testing, and nonnegative matrix 
+   factorization. NMath and NMath Stats support .NET 4.5 and are available from 
+   [CenterSpace Software](http://www.centerspace.net/).
+   
  * [StatFactory FCore](http://www.statfactory.co.uk/) - a high-performance numerical
    library supporting both CPU and GPGPU computing. The library includes multi-dimensional
    dense matrix and 2d sparse matrix support, standard linear algebra routines, and summary
