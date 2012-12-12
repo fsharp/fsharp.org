@@ -57,3 +57,4 @@ title: The F# Software Foundation
  * [Gene Belitski](http://infsharpmajor.wordpress.com/) 
  * Dave Elliman ([@arrivingleaving](http://twitter.com/arrivingleaving)), [ThoughtWorks](http://www.thoughtworks.com/)
  * [Matt Ball](http://saxonmatt.co.uk/)
+ * David Thayer
