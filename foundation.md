@@ -58,3 +58,4 @@ title: The F# Software Foundation
  * Dave Elliman ([@arrivingleaving](http://twitter.com/arrivingleaving)), [ThoughtWorks](http://www.thoughtworks.com/)
  * [Matt Ball](http://saxonmatt.co.uk/)
  * David Thayer
+ * [Matt Harrington](http://blogs.msdn.com/b/matt-harrington/)
