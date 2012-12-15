@@ -70,7 +70,13 @@ Here are some open source libraries:
 
 Here are some commercial libraries:
 
- * [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) - 
+  * [Alea.CUDA](http://www.quantalea.net/products/overview/) - a framework for 
+    developing GPU-accelerated algorithms in F# on .NET and Mono. Utilizing F# quotations and the 
+    LLVM compiler it is able to compile GPU kernels on-the-fly and schedule them on one or 
+    more nVidea GPU's. Advanced GPU features such as textures and shared memory are
+    supported. Available from (Quantalea)[http://www.quantalea.net/].
+
+  * [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) - 
    a set of three libraries focused on vector and matrix processing, 
    linear algebra methods, and statistics functions. The library includes a large selection of 
    standard algorithms from matrix factorization, function optimization, numerical integration, 
