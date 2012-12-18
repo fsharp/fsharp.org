@@ -11,18 +11,18 @@ to some of the F# tutorials available online.
 
 ## Interactive tutorials
 
-[Try F#](http://preview.tryfsharp.org) is an interactive environment where you can
-explore F# in your web browser (on Mac and Windows) and that contains a number
+[Try F#](http://test.tryfsharp.org) is an interactive environment where you can
+explore F# in your web browser (on Mac and Windows). It contains a number
 of online tutorials demonstrating the power of F# and F# 3.0:
 
 <img src="files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
- * [Getting started in F#](http://preview.tryfsharp.org/Courses?ID=0)
- * [Advanced F# Programming](http://preview.tryfsharp.org/Courses?ID=1)
- * [Visualization and Charting](http://preview.tryfsharp.org/Courses?ID=2)
- * [Data Science](http://preview.tryfsharp.org/Courses?ID=3)
- * [Scientific and Numerical Computing](http://preview.tryfsharp.org/Courses?ID=4)
- * [Financial Computing](http://preview.tryfsharp.org/Courses?ID=5)
+ * [Getting started in F#](http://test.tryfsharp.org/Learn/getting-started)
+ * [Advanced F# Programming](http://test.tryfsharp.org/Learn/advanced-programming)
+ * [Visualization and Charting](http://test.tryfsharp.org/Learn/data-visualization)
+ * [Data Science](http://test.tryfsharp.org/Learn/data-science)
+ * [Scientific and Numerical Computing](http://test.tryfsharp.org/Learn/scientific-computing)
+ * [Financial Computing](http://test.tryfsharp.org/Learn/financial-computing)
  
 ## F# Books
 The list contains books that focus mainly on functional programming using F# and
