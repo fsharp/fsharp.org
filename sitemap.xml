@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://fsharp.org</loc>
+  </url>
+  <url>
+    <loc>http://fsharp.org/about/index.html</loc>    
+  </url>
+  <url>
+    <loc>http://fsharp.org/about/learning.html</loc>
+  </url>
+  <url>
+    <loc>http://fsharp.org/teaching/index.html</loc>
+  </url>
+  <url>
+    <loc>http://fsharp.org/foundation.html</loc>
+  </url>
+  <url>
+    <loc>http://fsharp.org/webstacks/index.html</loc>
+  </url>
+  <url>
+    <loc>http://fsharp.org/math/index.html</loc>
+  </url>
+  <url>
+    <loc>http://fsharp.org/games/index.html</loc>
+  </url>
+</urlset>
