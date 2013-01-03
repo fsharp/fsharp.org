@@ -6,6 +6,7 @@ title: The F# Software Foundation
 #### Commercial supporters
 
  * [SkillsMatter](http://skillsmatter.com/) - meetups, conferences, workshops and trainings
+ * [Software Acumen](http://www.software-acumen.com/) - organizers of the [FP days](fpdays.net) conference
 
 #### Founding members
 
