@@ -8,19 +8,19 @@ This page provides information about using F# for numerical computing.
 
 ### Why F#?
 
-F# is particularly well suited to numerical programming, compared with many
+F# is particularly well-suited to numerical programming, compared with many
 mainstream languages, because of its functional-first design. Functional programming
 is rooted in the development of lambda calculus and focuses on the definition
-of functions to transform data, as opposed to the manipulation of program state common
+of functions to transform data, as opposed to the manipulation of program states common
 with other popular paradigms such as object-oriented programming. 
 As such, the functional style is often a more natural translation of the underlying
 mathematics.
 
 Performance of the code and the developer are two big requirements for numerical computing. 
 The computing tasks are often CPU-intensive so the language must be efficient in this 
-regard. F# runs on the [Microsoft .NET Common Language Runtime (CLR)](http://msdn.microsoft.com/en-us/library/ddk909ch(v=vs.71).aspx)
+regard. F# runs on [Microsoft .NET Common Language Runtime (CLR)][clrlink]
 on Windows and on [Mono](http://www.mono-project.com/Main_Page) on Windows, Linux, and Mac OS. 
-Both of these environments include high-performance 
+These environments include high-performance 
 [Just-In-Time compilers](http://en.wikipedia.org/wiki/Just-in-time_compilation), which means the 
 code is compiled to native code (high-performance) on-demand. The Mono environment additionally 
 provides easy access to the [x86 SIMD](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
@@ -48,18 +48,18 @@ Here are some open source libraries:
    is based on efficient, general-purpose array classes implementing vectors, matrices, and
    n-dimensional arrays. Provided algorithms include standard linear algebra transforms,
    a high-performance Fast Fourier Transform (FFT) library, and a collection of sorting 
-   and machine learning algorithms. Plotting is based on OpenGL and supports both 2d and 3d
+   and machine learning algorithms. Plotting is based on OpenGL and supports both 2D and 3D
    plots. ILNumerics supports .NET 4.0 as well as Mono (recommend 2.10 or above). Licensing 
    is GPLv3 or commercial (paid) license.
  
  * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) provides 
    a large collection of algorithms needed in science and engineering, including linear algebra, 
    special functions, statistics, probability models, interpolation and FFTs. In addition to the 
-   core .Net package, Numerics specifically supports F# 3.0 with idiomatic extension modules and 
+   core .NET package, Numerics specifically supports F# 3.0 with idiomatic extension modules and 
    maintains mathematical data structures like BigRational that originated in the F# PowerPack. 
    If a performance boost is needed, the managed-code provider backing its linear algebra routines 
    and decompositions can be exchanged with wrappers for optimized native implementations such as 
-   Intel MKL. Supports Mono and .Net 4.0 on Linux, Mac and Windows. The portable version also SL5 
+   Intel MKL. Supports Mono and .NET 4.0 on Linux, Mac and Windows. The portable version also SL5 
    and .NET for Windows Store apps. License: MIT/X11
   
  * [Xaye.Math](https://github.com/cuda/Xaye.Math) is an F# math library using optimized native 
@@ -73,8 +73,8 @@ Here are some commercial libraries:
  * [Alea.CUDA](http://www.quantalea.net/products/overview/) - a framework for 
    developing GPU-accelerated algorithms in F# on .NET and Mono. Utilizing F# quotations and the 
    LLVM compiler it is able to compile GPU kernels on-the-fly and schedule them on one or 
-   more nVidea GPU's. Advanced GPU features such as textures and shared memory are
-   supported. Available from (Quantalea)[http://www.quantalea.net/].
+   more nVidia GPU's. Advanced GPU features such as textures and shared memory are
+   supported. Available from [Quantalea](http://www.quantalea.net/).
 
  * [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) - 
    a set of three libraries focused on vector and matrix processing, 
@@ -102,20 +102,21 @@ Here are some commercial libraries:
    
  * [StatFactory FCore](http://www.statfactory.co.uk/) - a high-performance numerical
    library supporting both CPU and GPGPU computing. The library includes multi-dimensional
-   dense matrix and 2d sparse matrix support, standard linear algebra routines, and summary
+   dense matrix and 2D sparse matrix support, standard linear algebra routines, and summary
    statistics. The library provides options to run both 100% managed code or to use optimized 
    native libraries such as MKL.
 
  * [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) - 
    a collection of numeric algorithms including matrix operations, optimization and 
-   interpolation functions, 1d and 2d FFTs, and pseudo-random number generation. The library uses 
+   interpolation functions, 1D and 2D FFTs, and pseudo-random number generation. The library uses 
    the standard F# PowerPack Matrix for compatibility. F# for Numerics supports .NET. 
    The library is available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
 
  * [F# for Visualization](http://www.ffconsultancy.com/products/fsharp_for_visualization/index.html) -
-   a 2d and 3d vector graphics library with a native F# interface.  The
+   a 2D and 3D vector graphics library with a native F# interface.  The
    package provides interactive plotting from within Visual Studio and support for generating
    animations. F# for Visualization supports .NET. The library is
    available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
 
 
+[clrlink]: http://msdn.microsoft.com/en-us/library/ddk909ch(v=vs.71).aspx
