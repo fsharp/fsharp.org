@@ -60,6 +60,7 @@ title: The F# Software Foundation
  * [Matt Ball](http://saxonmatt.co.uk/)
  * David Thayer
  * [Matt Harrington](http://blogs.msdn.com/b/matt-harrington/)
- * [Ross McKinlay](http://www.pinksquirrellabs.com/) [@pezi_pink](https://twitter.com/pezi_pink)
- * [Muigai Mwaura](http://www.codeproject.com/Members/Muigai-Mwaura) [@MuigaiMwaura](https://twitter.com/MuigaiMwaura)
- * [Christian Nielsen](http://blog.dotnetnerd.dk)[@dotnetnerd](https://twitter.com/dotnetnerd)
+ * [Ross McKinlay](http://www.pinksquirrellabs.com/) ([@pezi_pink](https://twitter.com/pezi_pink))
+ * [Muigai Mwaura](http://www.codeproject.com/Members/Muigai-Mwaura) ([@MuigaiMwaura](https://twitter.com/MuigaiMwaura))
+ * [Christian Nielsen](http://blog.dotnetnerd.dk)([@dotnetnerd](https://twitter.com/dotnetnerd))
+ * [Fabio Galuppo](http://member.acm.org/~fabiogaluppo)
