@@ -6,7 +6,7 @@ title: The F# Software Foundation
 #### Commercial supporters
 
  * [SkillsMatter](http://skillsmatter.com/) - meetups, conferences, workshops and trainings
- * [Software Acumen](http://www.software-acumen.com/) - organizers of the [FP days](fpdays.net) conference
+ * [Software Acumen](http://www.software-acumen.com/) - organizers of the [FP days](http://fpdays.net) conference
 
 #### Founding members
 
@@ -64,3 +64,4 @@ title: The F# Software Foundation
  * [Muigai Mwaura](http://www.codeproject.com/Members/Muigai-Mwaura) ([@MuigaiMwaura](https://twitter.com/MuigaiMwaura))
  * [Christian Nielsen](http://blog.dotnetnerd.dk)([@dotnetnerd](https://twitter.com/dotnetnerd))
  * [Fabio Galuppo](http://member.acm.org/~fabiogaluppo)
+ * [Mark Dalgarno](blog.software-acumen.com) Senior Consultant, Software Acumen
