@@ -65,3 +65,4 @@ title: The F# Software Foundation
  * [Christian Nielsen](http://blog.dotnetnerd.dk)([@dotnetnerd](https://twitter.com/dotnetnerd))
  * [Fabio Galuppo](http://member.acm.org/~fabiogaluppo)
  * [Mark Dalgarno](blog.software-acumen.com) Senior Consultant, Software Acumen
+ * Tim Robinson ([@1tgr](https://twitter.com/1tgr))
