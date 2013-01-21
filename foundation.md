@@ -66,3 +66,4 @@ title: The F# Software Foundation
  * [Fabio Galuppo](http://member.acm.org/~fabiogaluppo)
  * [Mark Dalgarno](blog.software-acumen.com) Senior Consultant, Software Acumen
  * [James Freiwirth](http://www.twitter.com/oenotria), Software Consultant, [Perfect Shuffle Ltd](http://www.perfectshuffle.co.uk).
+ * Robert Croud
