@@ -6,6 +6,7 @@ headline: Web Stacks for F#
 
 The stateless nature of the web makes functional programming ideal for modern web programming.
 As a functional-first language, F# provides a uniquely powerful combination of features for this domain:
+
  * *Performance and Robustness* - F# is a high-performance, scalable, interoperable 
    language. A strongly-typed functional-first approach makes it simple to scale 
    solutions horizontally, improves the robustness of the solution, and reduces exceptions. 
@@ -28,12 +29,14 @@ As a functional-first language, F# provides a uniquely powerful combination of f
 ### Getting Started 
 
 [Install F#](http://fsharp.org) and an IDE or text editor. Two free IDEs are:
+
  * [Visual Studio 2012 Express for Web](http://go.microsoft.com/fwlink/?LinkID=261287)
  * [MonoDevelop](http://monodevelop.com/)
 
 The following templates can help you quickly get started with building web solutions with F#:
 
 Cross-platform:
+ 
  * [F#/C# ASP.NET MVC 4 for Mac, Linux and Windows in MonoDevelop](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) - 
    Includes material about ASP.NET MVC (ASPX/Razor), ASP.NET Web API, and Single Page Applications with Backbone.js or Knockout.js.
  * [WebSharper Templates](http://www.websharper.com/docs/getting-started) WebSharper comes with numerous templates
@@ -41,6 +44,7 @@ Cross-platform:
  * [FunScript Templates](https://github.com/ZachBray/FunScript) FunScript comes with some example templates for building all-JavaScript applications in F#.
 
 Visual Studio:
+
  * [F#/C# ASP.NET MVC 4 Template](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - 
    Includes templates for ASP.NET MVC (ASPX/Razor), ASP.NET Web API, and Single Page Applications with Backbone.js or Knockout.js.
  * [F#/C# ASP.NET MVC 3 Template](http://visualstudiogallery.msdn.microsoft.com/f57aa816-e96b-4133-ab5d-9b9b99914ead) - 
