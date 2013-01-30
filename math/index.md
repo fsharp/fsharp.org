@@ -61,9 +61,6 @@ Here are some open source libraries:
    and decompositions can be exchanged with wrappers for optimized native implementations such as 
    Intel MKL. Supports Mono and .NET 4.0 on Linux, Mac and Windows. The portable version also SL5 
    and .NET for Windows Store apps. License: MIT/X11
-  
- * [Xaye.Math](https://github.com/cuda/Xaye.Math) is an F# math library using optimized native 
-   routines of Intel MKL. [License](https://github.com/cuda/Xaye.Math/blob/master/LICENSE.txt).
 
 
 ### Commercial libraries
