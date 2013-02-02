@@ -68,3 +68,4 @@ title: The F# Software Foundation
  * [James Freiwirth](http://www.twitter.com/oenotria), Software Consultant, [Perfect Shuffle Ltd](http://www.perfectshuffle.co.uk).
  * Robert Croud
  * Tim Robinson ([@1tgr](https://twitter.com/1tgr))
+ * Sergey Tihon ([@sergey_tihon](https://twitter.com/sergey_tihon))
