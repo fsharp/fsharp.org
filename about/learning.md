@@ -90,7 +90,7 @@ use "over" other languages. They assume that you are considering this book
 because you have an interest in learning the F# language.
 
 
-### Programming F# 
+### Programming F&#35;
 
 <img src="files/BookPGF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
