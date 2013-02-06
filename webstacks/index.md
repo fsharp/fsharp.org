@@ -11,7 +11,7 @@ solutions in this domain:
  * *Fast and Scalable* - F# is highly scalable and faster than dynamic languages such as NodeJS, Python, PHP and Ruby. 
  * *Succinctness* - F# is concise yet readable and type-safe, allowing fast development of robust web solutions.  
  * *The Way of the Web* - The stateless nature of the web makes functional-first programming ideal for modern web programming.
- * *Language support* - F# provides asynchronous programming and type providers to ease the development of scalable information-rich web solutions. 
+ * *Language support* - F# provides asynchronous programming and type providers to simplify scalable information-rich web solutions. 
  * *Interoperability* - F# interoperates seamlessly with languages such as C#, R, JavaScript and TypeScript.
  * *Cloud Readiness* - F# integrates with Azure and Amazon EC2 for cloud-scale deployment. 
  * *Scalable Services* - Build scalable Web APIs and services using frameworks such as [ServiceStack](http://www.servicestack.net/).
