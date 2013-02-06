@@ -51,8 +51,10 @@ F# shines in the area of Web API development through frameworks like  [ServiceSt
  * [F# Web Data Feed Template for OData (Visual Studio, ASP.NET, OData)](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
    Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
  * [F#/C# Web Service Template for WSDL (Visual Studio, ASP.NET, WSDL)](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - Includes a template for WCF.
-    
+
 #### Scaling to the Cloud
+
+Scaling F# web solutions to the cloud is simple. For example:
 
  * [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
  * [F# 3.0 Azure Samples](http://fsharp3sample.codeplex.com/wikipage?Title=AzureSamples)
