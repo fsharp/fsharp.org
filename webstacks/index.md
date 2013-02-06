@@ -20,6 +20,8 @@ solutions in this domain:
  * *Open-source* and *Cross-platform* - F# web development uses open source, cross-platform components 
    such as F#, ASP.NET, WebSharper, FunScript and ServiceStack. 
 
+Use, learn and contribute to F# open source web programming today through the options below.
+
 #### Building Web Applications:
 
 F# excels at web application development. Some of the options are:
@@ -32,9 +34,8 @@ F# excels at web application development. Some of the options are:
    The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 4)](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095)  
    include templates for ASP.NET MVC 4 (ASPX/Razor) and Single Page Applications with Backbone.js or Knockout.js.
    The [F#/C# ASP.NET MVC 3 Templates](http://visualstudiogallery.msdn.microsoft.com/f57aa816-e96b-4133-ab5d-9b9b99914ead) 
-   include templates for ASP.NET MVC 3 (ASPX/Razor).
- * [F#/C# Web Templates (MonoDevelop, ASP.NET MVC 4)](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) - 
-   Includes material about ASP.NET MVC (ASPX/Razor) and Single Page Applications with Backbone.js or Knockout.js.
+   include templates for ASP.NET MVC 3 (ASPX/Razor). The [F#/C# Web Templates (MonoDevelop, ASP.NET MVC 4)](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) 
+   are a similar se of cross-platform templates for MonoDevelop. 
  * [FunScript](https://github.com/ZachBray/FunScript/) - An F# to JavaScript converter with TypeScript interoperability.
  * [PicoMvc](https://github.com/robertpi/PicoMvc) is a micro framework for F# web programming.
  
