@@ -54,7 +54,8 @@ REST services and Web APIs with F# include [ASP.NET Web API](http://www.asp.net/
 #### Scaling to the Cloud
 
  * [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
-
+ * [F# 3.0 Azure Samples](http://fsharp3sample.codeplex.com/wikipage?Title=AzureSamples)
+ * [Using F# and C# with Amazon EC2 Elastic Map/Reduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
 #### Unit Testing Libraries
 
