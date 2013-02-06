@@ -40,17 +40,17 @@ F# excels at web application development. Some of the options are:
  
 #### Building Web APIs:
 
-F# shines in the area of Web API development. Some frameworks for building 
-REST services and Web APIs with F# include [ASP.NET Web API](http://www.asp.net/web-api), [ServiceStack](http://www.servicestack.net/), [Frank](https://github.com/frank-fs/frank),
-[NancyFx](http://nancyfx.org/) and WCF.
+F# shines in the area of Web API development through frameworks like  [ServiceStack](http://www.servicestack.net/), [ASP.NET Web API](http://www.asp.net/web-api), [Frank](https://github.com/frank-fs/frank) and
+[NancyFx](http://nancyfx.org/).
 
+ * [F# Web Services on any platform in and out of a web server!](http://www.servicestack.net/mythz_blog/?p=785) - an async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
+ * [Async, Cached Twitter API Proxy in F#](http://www.servicestack.net/mythz_blog/?p=811)
  * [F#/C# Web Templates for REST (Visual Studio, ASP.NET Web API)](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - 
    Includes templates for ASP.NET Web API. 
- * [F#/C# Web Service Template for WSDL (Visual Studio, ASP.NET, WSDL)](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) -
-   Includes a template for WCF.
  * [F# Web Data Feed Template for OData (Visual Studio, ASP.NET, OData)](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
    Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
-
+ * [F#/C# Web Service Template for WSDL (Visual Studio, ASP.NET, WSDL)](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - Includes a template for WCF.
+    
 #### Scaling to the Cloud
 
  * [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
