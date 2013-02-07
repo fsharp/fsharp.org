@@ -9,8 +9,8 @@ function feedLoaded(result) {
     for (var i = 0; i < result.feed.entries.length; i++) {
       var entry = result.feed.entries[i];
       try {
-        var content = jQuery(entry.content).text();
-        if (content.length < 300) continue;
+      	var content = entry.content.replace(/<(?:.|\n)*?>/gm, '');
+        if (content.length < 150) continue;
         var index = content.indexOf(" ", 300);
         if (index <= 0) index = 300;
         content = content.substr(0, index).trim() + "...";
