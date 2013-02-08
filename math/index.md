@@ -67,7 +67,7 @@ Here are some open source libraries:
 
 Here are some commercial libraries:
 
- * [Alea.CUDA](http://www.quantalea.net/products/overview/) - a framework for 
+ * [Alea.cuBase](http://www.quantalea.net/products/overview/) - a framework for 
    developing GPU-accelerated algorithms in F# on .NET and Mono. Utilizing F# quotations and the 
    LLVM compiler it is able to compile GPU kernels on-the-fly and schedule them on one or 
    more nVidia GPU's. Advanced GPU features such as textures and shared memory are
