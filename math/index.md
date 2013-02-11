@@ -65,8 +65,8 @@ Here are some open source libraries:
  * [StatFactory Fmat](https://github.com/Statfactory/Fmat) - a 100% F# library for manipulating
    n-dimensional dense matrices. Concrete matrix implementations cover single- and double-precision
    floating point, 32-bit integer, bool, and string types. Fmat contains four matrix factorization 
-   and linear solver algorithms, random number generations, and basic statistics algorithms. 
-   Fmat is available on GitHub and from NuGet. License: MIT/X11
+   and linear solver algorithms, random number generators for 7 distributions, special functions and 
+   basic statistical procedures. Fmat is available on GitHub and from NuGet. License: MIT/X11
    
 
 ### Commercial libraries
