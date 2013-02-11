@@ -52,7 +52,7 @@ Here are some open source libraries:
    plots. ILNumerics supports .NET 4.0 as well as Mono (recommend 2.10 or above). Licensing 
    is GPLv3 or commercial (paid) license.
  
- * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) provides 
+ * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - provides 
    a large collection of algorithms needed in science and engineering, including linear algebra, 
    special functions, statistics, probability models, interpolation and FFTs. In addition to the 
    core .NET package, Numerics specifically supports F# 3.0 with idiomatic extension modules and 
@@ -61,7 +61,13 @@ Here are some open source libraries:
    and decompositions can be exchanged with wrappers for optimized native implementations such as 
    Intel MKL. Supports Mono and .NET 4.0 on Linux, Mac and Windows. The portable version also SL5 
    and .NET for Windows Store apps. License: MIT/X11
-
+   
+ * [StatFactory Fmat](https://github.com/Statfactory/Fmat) - a 100% F# library for manipulating
+   n-dimensional dense matrices. Concrete matrix implementations cover single- and double-precision
+   floating point, 32-bit integer, bool, and string types. Fmat contains four matrix factorization 
+   and linear solver algorithms, random number generations, and basic statistics algorithms. 
+   Fmat is available on GitHub and from NuGet. License: MIT/X11
+   
 
 ### Commercial libraries
 
