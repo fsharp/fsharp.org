@@ -62,7 +62,7 @@ Here are some open source libraries:
    Intel MKL. Supports Mono and .NET 4.0 on Linux, Mac and Windows. The portable version also SL5 
    and .NET for Windows Store apps. License: MIT/X11
    
- * [StatFactory Fmat](https://github.com/Statfactory/Fmat) - a 100% F# library for manipulating
+ * [Fmat](https://github.com/Statfactory/Fmat) - a 100% F# library for manipulating
    n-dimensional dense matrices. Concrete matrix implementations cover single- and double-precision
    floating point, 32-bit integer, bool, and string types. Fmat contains four matrix factorization 
    and linear solver algorithms, random number generators for 7 distributions, special functions and 
