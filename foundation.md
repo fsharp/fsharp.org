@@ -27,7 +27,7 @@ title: The F# Software Foundation
  * Steven Taylor
  * Adrian Newman
  * [Adam Granicz](http://fpish.net/blog/adam.granicz/all/0), [IntelliFactory](http://intellifactory.com)
- * Robin Neatherway
+ * [Robin Neatherway](http://www.neatherway.com), [@rneatherway](https://twitter.com/rneatherway)
  * [Rainer Schmidt](http://www.htw-aalen.de/personal/rainer.schmidt/), Professor for Business Information Systems, Aalen University, Germany
  * [Anh-Dung Phan](http://lonelypad.blogspot.com/), PhD student at Technical University of Denmark
  * Petr Lepilov, New England F# User Group
