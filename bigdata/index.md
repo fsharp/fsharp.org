@@ -74,7 +74,8 @@ Some additional resources for using F# and .NET on Amazon’s AWS service:
 	[AWS Toolkit for Visual Studio](http://aws.amazon.com/visualstudio/)
 	[Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
-### Distributed Communications
+Distributed Communications
+--------------------------
 
 Distributed compute problem require a very wide range of communication capabilities, ranging
 from simple command line argument passing to heavily optimized, low-latency interprocess
@@ -88,14 +89,15 @@ for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
  * [ZeroMQ](http://www.zeromq.org/bindings:clr) - A more general .NET binding for ZeroMQ.
  * [MPI .NET](http://osl.iu.edu/research/mpi.net/) - A C# implementation of the popular
  [Message Passing Interface (MPI) protocol](http://en.wikipedia.org/wiki/Message_Passing_Interface).  
- * [MS-MPI](http://msdn.microsoft.com/en-us/library/bb524831(v=vs.85).aspx) - Microsoft's
+ * [MS-MPI](http://msdn.microsoft.com/en-us/library/bb524831.aspx) - Microsoft's
 implementation of the MPI protocol, available on some versions of Windows Server.
  * [Windows Communication Foundation](http://msdn.microsoft.com/en-us/library/dd456779.aspx) -
 A framework from Microsoft for building service-oriented applications.
 
 
 
-### Database interfaces
+Database interfaces
+-------------------
 
 Cassandra:
  * [Aquiles](http://aquiles.codeplex.com/)
@@ -108,7 +110,7 @@ Mongo DB (http://www.mongodb.org/display/DOCS/CSharp+Language+Center)
 
 Accessing SQL Databases using F#
 Data Processing
-Parallel LINQ (PLINQ): http://msdn.microsoft.com/en-us/library/dd460688.aspx
-Microsoft .NET SDK for Hadoop: http://hadoopsdk.codeplex.com/
-F# Data Mining: http://fdatamining.blogspot.com/2010/05/why-f-is-language-for-data-mining.html
-Parallel Programming in F# III: Aggregating Data: http://tomasp.net/blog/fsharp-parallel-aggregate.aspx
+[Parallel LINQ (PLINQ)](http://msdn.microsoft.com/en-us/library/dd460688.aspx)
+[Microsoft .NET SDK for Hadoop](http://hadoopsdk.codeplex.com/)
+[F# Data Mining](http://fdatamining.blogspot.com/2010/05/why-f-is-language-for-data-mining.html)
+[Parallel Programming in F# III: Aggregating Data:](http://tomasp.net/blog/fsharp-parallel-aggregate.aspx)
