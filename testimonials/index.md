@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Testimonials | The F# Software Foundation
+headline: Testimonials
 class: testimonials
 ---
 
