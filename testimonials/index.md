@@ -5,8 +5,6 @@ headline: Tell us about F#
 class: testimonials
 ---
 
-### Academia and research
-
 > "F#...levels the playing field between beginners and experienced programmers."
 
  - Prof Susan Eisenbach
@@ -51,8 +49,6 @@ data types and how to use those methods, productivity goes through the roof!
 <div class="keywords">teaching research</div>
 
 ---
-
-### Finance, Insurance and Trading
 
 > "Either it wont compile or its correct"
 
