@@ -7,7 +7,37 @@ class: testimonials
 
 <!-- 
 
-Please contribute!
+Please contribute your testimonials!
+====================================
+
+Adding new testimonials to this page is easy - you can write your quote in plain 
+text, using some Markdown formatting. Look at the existing examples to see how 
+this works.
+
+Here is a simple template that you can copy and use for your testimonial:
+
+    > Short quote with a punchline (appears on the left)
+
+    1. Your Name
+    2. Your Affiliation
+    3. [Case study](http://link.to.case.study.or.more.details)
+
+    The main text goes here.     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Vivamus cursus aliquam purus vitae interdum. Donec posuere interdum orci. Sed semper 
+    ante a felis viverra elementum. Praesent posuere porta ornare. 
+  
+    You can use multiple paragraphs.     Suspendisse sed justo erat, vel sagittis mauris. 
+    Ut vulputate bibendum neque, nec dictum ligula scelerisque at. In hac habitasse platea 
+    dictumst. Suspendisse nec purus id erat commodo tristique vel non ligula. 
+  
+     - **You can** also include a list
+     - **Use double star** to make things bold
+
+    <div class="keywords">comma, separated, list, of, keywords</div>
+
+In the numbered list, everything is optional. You can remain anonymous if you wish,
+or you can add as many details as you want. Keywords will be used later on to filter
+the content (so please add some, even though they are not used at the moment).
 
 -->
 
