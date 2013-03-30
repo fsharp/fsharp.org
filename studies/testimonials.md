@@ -13,7 +13,7 @@ class: testimonials
  - Dean of Learning and Teaching Imperial College, United Kingdom 
 
 Functional languages are ideal for teaching clear thinking, for solving problems 
-amenable to code solu­tions and it levels the playing field between beginners and 
+amenable to code solutions and it levels the playing field between beginners and 
 experienced programmers. The first programming language taught has a substantial 
 influence on what language students use when they have a free choice. F#, once it 
 is platform independent, has the potential to become the first programming language. 
@@ -29,7 +29,7 @@ Our graduate course on Parallelism this Fall is full, even though it assumes no
 experience with functional programming or F#. The students are preparing the courseware 
 themselves, and one of the topics we are studying is functional reactive programming (FRP) 
 with continuous, time-varying behaviors. F#, with its rich graphics libraries, made it 
-trivial to construct a super-fun assignment involving purely functional and interac­tive 
+trivial to construct a super-fun assignment involving purely functional and interactive 
 animation of a mock solar system.
 
 ---
