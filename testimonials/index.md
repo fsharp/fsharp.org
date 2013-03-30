@@ -75,7 +75,7 @@ data types and how to use those methods, productivity goes through the roof!
 
 > Our risk and analytic capabilities (...) are entirely written in F#
 
-1. **Laurence Austen**
+1. **Lawrence Austen**
 2. Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten), [link](http://cs.hubfs.net/topic/None/59847)
 
 ...work directly with Trafigura's Chief Risk Officer/Head of Quantitative Analysis, 
