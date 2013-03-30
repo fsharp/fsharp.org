@@ -47,6 +47,8 @@ data types and how to use those methods, productivity goes through the roof!
 
 ### Finance, Insurance and Trading
 
+> "Either it wont compile or its correct"
+
 I have written an application to balance the national power generation schedule for a portfolio 
 of power stations to a trading position for an energy company. The client and server components 
 were in C# but the calculation engine was written in F#. 
