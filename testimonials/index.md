@@ -426,6 +426,19 @@ visually stunning 3D scenes. It was fully developed in managed code using the XN
 
 ---
 
+> There is a noticeable interest in the developer community in Russia towards F#.
+
+- Dmitry Soshnikov, Associate Professor, Moscow Aviation Technical University
+
+I do some samples in F# for the lectures and the book, but all that is within a single-user 
+VS 2010 Pro installation. Right now we have a set of slides on functional programming with 
+F# in Russian in the curriculum repository, and the video-course of functional programming 
+using F# available in the largest Russian Internet-University (intuit.ru). The course 
+is being taught in 2 universities. There is a noticeable interest in the developer community in 
+Russia towards F#.
+
+---
+
 > Around 95% of the code in these projects has been developed in F#
 
 1. [F# in Advertisement Ranking & Rating @ Microsoft](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
