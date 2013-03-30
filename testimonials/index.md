@@ -88,6 +88,7 @@ financing, hedging, and logistical support....
 <div class="keywords">comodities, trading, risk, analysis</div>
 
 ---
+[Click to add a new testimonial. Just log on to github, edit and send the pull request!](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
 
 
 > At Credit Suisse, we've been using F# to develop quantitative models for financial products. 
@@ -131,7 +132,6 @@ The 10x performance gain was verified by the client.
 <div class="keywords">finance, insurance</div>
 
 ---
-[Click to add a new testimonial. Just log on to github, edit and send the pull request!](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
 
 > ...we have decided to use F# as our functional language to have automatic integration with rest of the system...
 
