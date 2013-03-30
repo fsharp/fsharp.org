@@ -4,8 +4,7 @@ title: Testimonials | The F# Software Foundation
 class: testimonials
 ---
 
-> The use of F# to address the complexity at the heart of this application clearly demonstrates a sweet spot for the language within enterprise software
-
+> The use of F# demonstrates a sweet spot for the language within enterprise software
 - [**Simon Cousins**](http://stackoverflow.com/questions/2785029/in-what-areas-might-the-use-of-f-be-more-appropriate-than-c)
 
 I have written an application to balance the national power generation schedule for a portfolio 
