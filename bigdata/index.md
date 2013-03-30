@@ -4,12 +4,12 @@ title: Cloud Programmnig | The F# Software Foundation
 headline: Scalable Data, Compute and Messaging with F#
 ---
 
-This page provides an overview of the packages and tools available for scalable data processing with F#,
-particularly for taking advantage of cloud-computing resources.
+This is an overview of the packages and tools for scalable data processing with F#,
+particularly for taking advantage of scalable cloud-computing resources.
 
 Data processing commonly follows a functional (as opposed to an imperative) model. 
 F#'s functional-first design makes data processing pipelines very natural. The Type Provider feature of 
-F# 3.0 makes F# a powerful solution for accessing both regular and irregular data, incudling traditional databases,
+F# 3.0 makes F# a powerful solution for accessing both regular and irregular data, including traditional databases,
 web-scale ontologies and standard structured text formats like JSON, and XML.
 
 Scalable distributed calculations also tend to be a very good fit for functional languages in 
@@ -20,8 +20,8 @@ general and particularly F# due to the wide variety of libraries and services av
 
 ### [Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/)
 
-Windows Azure provides access to  Microsoft's datacenters around the world through services from 
-virtual machines to geo-redundant storage,database clusters and website deployment.  
+Windows Azure provides access to  Microsoft's worldwide datacenters through services including 
+virtual machines, geo-redundant storage, database clusters and website deployment.  
 [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
 detail on the structure of Azure applications.
 
@@ -63,18 +63,21 @@ communications. This section lists a wide range of communication libraries avail
 
 ## NoSQL Databases
 
-Cassandra:
+[Cassandra](http://cassandra.apache.org/):
  * [Aquiles](http://aquiles.codeplex.com/)
  * [Cassandraemon](http://cassandraemon.codeplex.com/)
  * [cassandra-sharp](http://code.google.com/p/cassandra-sharp/)
  * [FluentCassandra](https://github.com/managedfusion/fluentcassandra)
 
-Mongo:
+[RavenDB](http://ravendb.net/):
+ * [F# Client API](http://ravendb.net/docs/client-api/fsharp) The F# client API is a thin wrapper around the standard RavenDB client API, that provides a small set of combinators and a computation builder that hides the complexity of dealing with Linq expressions from F#. This documentation assumes some familiarity with the basics of RavenDB. 
+
+
+[MongoDB](http://www.mongodb.org/):
  * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center)
 
 
 ## Other links
-
  * [Parallel LINQ (PLINQ)](http://msdn.microsoft.com/en-us/library/dd460688.aspx)
  * [Microsoft .NET SDK for Hadoop](http://hadoopsdk.codeplex.com/)
  * [F# Data Mining](http://fdatamining.blogspot.com/2010/05/why-f-is-language-for-data-mining.html)
