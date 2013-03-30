@@ -6,7 +6,8 @@ class: testimonials
 ---
 
 > The use of F# demonstrates a sweet spot for the language within enterprise software
-- [**Simon Cousins**](http://stackoverflow.com/questions/2785029/in-what-areas-might-the-use-of-f-be-more-appropriate-than-c)
+
+1. [**Simon Cousins**](http://stackoverflow.com/questions/2785029/in-what-areas-might-the-use-of-f-be-more-appropriate-than-c)
 
 I have written an application to balance the national power generation schedule for a portfolio 
 of power stations to a trading position for an energy company. The client and server components 
@@ -16,13 +17,14 @@ The use of F# to address the complexity at the heart of this application clearly
 a sweet spot for the language within enterprise software, namely algorithmically complex 
 analysis of large data sets. My experience has been a very positive one.
 
-<div class="keywords">energy, trading</div>
+<div class="keywords">energy, trading, calculations</div>
 
 ---
 
 > When F# is combined with Visual Studio... productivity goes through the roof!
 
-- **Prof Nigel Horspool**,  University of Victoria, Canada
+1. **Prof Nigel Horspool**
+2. University of Victoria, Canada
 
 F# programs tend to be much shorter than their equivalents in other languages. The 
 fewer lines of code required, of course, the higher the productivity. When F# is combined 
@@ -36,7 +38,8 @@ data types and how to use those methods, productivity goes through the roof!
 
 > Our risk and analytic capabilities (...) are entirely written in F#
 
-- **Laurence Austen**,  Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten), [link](http://cs.hubfs.net/topic/None/59847)
+1. **Laurence Austen**
+2. Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten), [link](http://cs.hubfs.net/topic/None/59847)
 
 ...work directly with Trafigura's Chief Risk Officer/Head of Quantitative Analysis, 
 cranking code and rapidly extending our risk and analytic capabilities, which are entirely 
@@ -46,14 +49,16 @@ Trafigura Limited engages in the supply and offtake of crude oil, petroleum prod
 petroleum gas, metals, and metal ores and concentrates worldwide. Its solutions include trading, 
 financing, hedging, and logistical support....
 
-<div class="keywords">oil, gas, trading, risk analytics, quantitative analysis</div>
+<div class="keywords">comodities, trading, risk, analysis</div>
 
 ---
 
 
 > At Credit Suisse, we've been using F# to develop quantitative models for financial products. 
 
-- **Howard Mansell**, Credit Suisse, [CUFP Workshop, 2008](http://cufp.org/archive/2008/abstracts.html#MansellHoward)
+1. **Howard Mansell**
+2. Credit Suisse
+3. [CUFP Workshop, 2008](http://cufp.org/archive/2008/abstracts.html#MansellHoward)
 
 Building valuation models for derivative trades requires rapid development of mathematical models, made possible by 
 composition of lower-level model components. We have found that F#, with the associated toolset, provides a 
@@ -63,14 +68,16 @@ and outline future enhancements that would benefit this kind of work.
 
 The abstract to [a talk at the Commercial Users of Functional Programming workshop](http://cufp.org/archive/2008/abstracts.html#MansellHoward)
 
+<div class="keywords">finance, analysis</div>
+
 ---
 
 > Aviva developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all...
 
-- [**Jon Harrop**](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [link](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [link](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
+1. [**Jon Harrop**](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [link](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [link](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
 
 Aviva (one of the world's largest insurance companies) have F# code in production, are starting several 
-more projects in F#. We are currently consulting for Aviva (Â£2.5bn profit) who have migrated 
+more projects in F#. We are currently consulting for Aviva (£2.5bn profit) who have migrated 
 some of their number crunching and business logic to F# and are so happy with the results 
 (10x faster and 10x less code vs their Visual C++ 6) that they are proposing to migrate 1,600,000 lines of code to 
 F#. In particular, their developers found F# easy to learn and use.
@@ -85,13 +92,13 @@ code is a simple manual translation from very inefficient Mathematica code that 
 performance problems mainly centered around excessive copying. The F# rewrite does not have these problem. 
 The 10x performance gain was verified by the client.
 
-
+<div class="keywords">finance, insurance</div>
 
 ---
 
 > ...we have decided to use F# as our functional language to have automatic integration with rest of the system...
 
-- EMEA-based Security Solutions Company
+1. EMEA-based Security Solutions Company
 
 We develop security product to protect critical infrastructure (e.g. Oil Refinery, Airport, etc) for countries across 
 the globe.... In core of our product there are prediction algorithms. We use different modeling and theorems 
@@ -101,11 +108,13 @@ also have advanced machine learning components (Artificial Intelligence) and fun
 best fit to write AI stuff. We are planning to use F# as the primary programming language in this 
 area because of its interoperability with .NET. 
 
+<div class="keywords">security, integration</div>
+
 ---
 
 > I keep being surprised by how compact and readable F# is...
 
-- London-Based Asset Management Company
+1. London-Based Asset Management Company
 
 We have set up a complete risk management system that combines several data sources, presents them in a ... 
 WPF user interface, and does a LOT of calculation behind the scenes. When the calculation 
@@ -113,17 +122,20 @@ requires a proper algorithm (i.e. anything that is more complex than a simple fo
 our choice has been F#. I have to say I keep being surprised by how compact it is and, nonetheless, 
 how readable it is even when I'm reading code that I hadn't looked at or thought about for six months.
 
+<div class="keywords">data, analysis, calculation</div>
+
 ---
 
-> F# rocks - building out various algorithms for DNA processing here and 
+> F# rocks 1. building out various algorithms for DNA processing here and 
 > it's like a drug
 
-- **Darren Platt**, Amyris Biotechnology, [link](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
+1. **Darren Platt**
+2. Amyris Biotechnology, [link](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
 
 With F#... we have written a complete genome re-sequencing pipeline with interface, algorithms, 
 reporting in ~5K lines and it has been incredibly reliable, fast  and easy to maintain.
 
-F# rocks - building out various algorithms for DNA processing here and it's like a drug.  Just 
+F# rocks 1. building out various algorithms for DNA processing here and it's like a drug.  Just 
 implemented a suffix tree in 150 lines that can index 200,000 bases a second ;)    We have probably 
 10-20K lines of code for many scientific applications ranging from a full genome sequencing 
 pipeline that reconstructs and annotated yeast strains, to simulators for various processes 
@@ -131,19 +143,21 @@ and design tools for building DNA sequences/constructs.  There are lab located a
 grab robot log files and move them to databases and a tool for viewing a huge collection of DNA sequencing data.
 
 F# has been phenomenally useful.  I would be writing a lot of this in Python otherwise and F# is more 
-robust, 20x - 100x faster to run and for anything but the most trivial programs, faster to develop.  
+robust, 20x 1. 100x faster to run and for anything but the most trivial programs, faster to develop.  
 The UI work is especially gratifying, because state of the art for a lot of genomic data display 
 is still PNG images embedded in JavaScript and with F# I can render half a million data points on 
 a web page without jumping through hoops.
 
 With Units of Measure I started labelling the coordinates as one or zero based and immediately found a bug where I'd casually mixed the two systems. Yay F#!
 
+<div class="keywords">biotechnology, units of measure</div>
+
 ---
 
 > I evaluated F# and it and found that for certain tasks it was better 
 > than C# in terms of performance while maintaining suitable readability
 
-- [**Atalasoft**](http://www.atalasoft.com/cs/blogs/stevehawley/archive/2011/08/01/building-pure-managed-dotimage.aspx)
+1. [**Atalasoft**](http://www.atalasoft.com/cs/blogs/stevehawley/archive/2011/08/01/building-pure-managed-dotimage.aspx)
 
 I evaluated F# and it and found that for certain tasks it was better than C# in terms of performance 
 while maintaining suitable readability and for certain tasks, it leant itself better to certain 
@@ -152,12 +166,14 @@ these are inlines, the F# optimizer can actually do something useful with the co
 inlining, code profiling, scanline caching, memoization and other techniques. In many cases we ended up with 
 code that ran in equivalent time to C++ code or in some cases faster.
 
----
+<div class="keywords">algorithms, performance</div>
 
+---
 
 > F#...levels the playing field between beginners and experienced programmers.
 
-- **Prof. Susan Eisenbach**, Imperial College, United Kingdom 
+1. **Prof. Susan Eisenbach**
+2. Imperial College, United Kingdom 
 
 Functional languages are ideal for teaching clear thinking, for solving problems 
 amenable to code solutions and it levels the playing field between beginners and 
@@ -165,24 +181,27 @@ experienced programmers. The first programming language taught has a substantial
 influence on what language students use when they have a free choice. F#, once it 
 is platform independent, has the potential to become the first programming language. 
 
-<div class="keywords">teaching research</div>
+<div class="keywords">teaching, research</div>
 
 ---
 
 > With its new tools, the bank can speed development by 50 percent or more, improve quality, and reduce costs.
 
-- [**Microsoft Case Study**](http://www.microsoft.com/casestudies/Case_Study_Detail.aspx?casestudyid=4000006794)
+1. [**Microsoft Case Study**](http://www.microsoft.com/casestudies/Case_Study_Detail.aspx?casestudyid=4000006794)
 
 A large financial services firm in Europe sought new development tools that could cut costs, boost productivity, 
 and improve the quality of its mathematical models. To address its needs, the bank deployed F#, the 
 .NET Framework, and Visual Studio. It will soon upgrade to Visual Studio 2010 and then integrated 
 F#. With its new tools, the bank can speed development by 50 percent or more, improve quality, and reduce costs.
 
+<div class="keywords">finance, models</div>
+
 ---
 
 > F#...made it trivial... 
 
-- **Prof David Walker**, Princeton University
+1. **Prof David Walker**
+2. Princeton University
 
 Our graduate course on Parallelism this Fall is full, even though it assumes no 
 experience with functional programming or F#. The students are preparing the courseware 
@@ -191,13 +210,14 @@ with continuous, time-varying behaviors. F#, with its rich graphics libraries, m
 trivial to construct a super-fun assignment involving purely functional and interactive 
 animation of a mock solar system.
 
-<div class="keywords">teaching research</div>
+<div class="keywords">teaching, research</div>
 
 ---
 
 > ...the core logic is written in F# wherever possible...
 
-- **Andrea D'Intino**, Yellow blue soft, [link](http://tabbles-dev.blogspot.co.uk/2009/12/tabbles-museum-evolution-of-gui-and-of.html)
+1. **Andrea D'Intino**
+2. Yellow blue soft, [link](http://tabbles-dev.blogspot.co.uk/2009/12/tabbles-museum-evolution-of-gui-and-of.html)
 
 Yellow blue soft is a truly international Micro-ISV: We are a small, dynamic and international 
 team who is wondering why file-management is lagging 30 years behind and no one seems to care 
@@ -208,14 +228,14 @@ The tabbles are special containers that you can use to categorize any kind of fi
 well as folders and bookmarks. Using Tabbles you can quickly categorize, find, sort and share your 
 documents, in a totally new way.
 
-<div class="keywords">applications</div>
+<div class="keywords">applications, business logic</div>
 
 ---
 
 > This software provides the user with maximum flexibility to move 
 > quickly through multiple images
 
-- [**Forensic Software**](http://www.forensic-software.com/)
+1. [**Forensic Software**](http://www.forensic-software.com/)
 
 Forensic Comparison Software is the ideal tool for displaying 
 two digital images, side by side, for comparison purposes. This software provides the user with maximum 
@@ -223,12 +243,14 @@ flexibility to move quickly through multiple images, in a manner that replaces t
 of hard copy photographs. Focusing on the individual's needs, Forensic Comparison Software provides many 
 intuitive and easy to use features for enhancing digital images.
 
+<div class="keywords">security, algorithms</div>
+
 ---
 
 > Software developers at Genetec use their technical aptitudes 
 > creatively in order to design and program new features
 
-- Montreal-based IP Security Company
+1. Montreal-based IP Security Company
 
 From a [job advertisement](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690) for F# programmers:  
 Software developers at Genetec use their technical aptitudes creatively 
@@ -241,12 +263,14 @@ functional programming and .NET technologies. Design and implement large scale d
 using .NET 4.0 technologies in F#.
 
 
+<div class="keywords">distributed computing, security</div>
+
 ---
 
 > Grange Insurance parallelized its rating engine to take better 
 > advantage of multicore server hardware
 
-- [Grange Insurance](http://www.microsoft.com/casestudies/case_study_detail.aspx?casestudyid=4000005226)
+1. [Grange Insurance](http://www.microsoft.com/casestudies/case_study_detail.aspx?casestudyid=4000005226)
 
 For nearly 75 years, Grange Insurance has offered competitive products and services to policyholders 
 in more than a dozen U.S. states. To maintain its well-earned reputation and standing, the company decided to 
@@ -257,62 +281,64 @@ better advantage of multicore server hardware, and in so doing garnered signific
 Processes that used to require hours now take just minutes, enabling the company to trim time-to-market 
 by weeks and making it far easier for independent agents to sell and service Grange products.
 
+<div class="keywords">insurance, parallelization</div>
 
 ---
 
 > Bohdan ... shows F#'s use for performing aggregations over large datasets, taking advantage of cpu and io parallelism
 
-- [link to public talk](http://dnufba.preview.intergen.net.nz/Lists/Events%20Calendar/DispForm.aspx?ID=279)
+1. [link to public talk](http://dnufba.preview.intergen.net.nz/Lists/Events%20Calendar/DispForm.aspx?ID=279)
 
 Bohdan Szymanik, CTO at Kiwibank, is keen to show how he's been using F# for analysis tasks 
 within the bank. He'll provide an intro to the language then show its use for performing 
 aggregations over large datasets, taking advantage of cpu and io parallelism, and data 
 presentation through charting and image generation.
 
+<div class="keywords">finance, data</div>
+
 ---
 
 
 > F#'s powerful type inference means less typing, more thinking
 
-- Don Syme, Principal Researcher, Microsoft, [Eclipse Summit Europe 2009](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 49
+1. Don Syme
+2. Principal Researcher, Microsoft
+3. [Eclipse Summit Europe 2009](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 49
 
 F# was used on Microsoft's AdPredict project for adCenter. This was a 4 week project with 4 machine learning experts involving a model 
 with 100million probabilistic variables and processing 6TB of training data in real-time. 2 weeks of CPU time 
 were used during training. What We Observed:
 
-**Quick Coding** - F#'s powerful type inference means less typing, more thinking 
+ - **Quick Coding** - F#'s powerful type inference means less typing, more thinking 
+ - **Agile Coding** - Type-inferred code is easily refactored
+ - **Scripting**  - "Hands-on" exploration.
+ - **Performance** - Immediate scaling to massive data sets
+ - **Memory-Faithful** - Mega-data structures on 16GB machines
+ - **Succinct** - Live in the domain, not the language
+ - **Symbolic** - Schema compilation and "Schedules"
+ - **.NET Integration** - Especially Excel, SQL Server
 
-**Agile Coding** - Type-inferred code is easily refactored
-
-**Scripting** - "Hands-on" exploration.
-
-**Performance** - Immediate scaling to massive data sets
-
-**Memory-Faithful** - mega-data structures on 16GB machines
-
-**Succinct** - Live in the domain, not the language
-
-**Symbolic** - Schema compilation and "Schedules"
-
-**.NET Integration** - Especially Excel, SQL Server
+ <div class="keywords">integration, machine learning</div>
 
 ---
 
 > F# allows you to move smoothly in your programming style
 
-- [Julien Laugel, eurostocks.com](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 19
+1. **Julien Lauge**
+2. [eurostocks.com](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 19
 
 I've been coding in F# lately, for a production task. F# allows you to move smoothly in your 
 programming style... I start with pure functional code, shift slightly towards an object-oriented style, 
 and in production code, I sometimes have to do some imperative programming. I can start with a pure idea, and 
 still finish my project with realistic code. You're never disappointed in any phase of the project!
 
+ <div class="keywords">imperative, functional</div>
 
 ---
 
 > ...your code is less error-prone...
 
-- Dario on [StackOverflow](http://stackoverflow.com/a/952443)
+1. Dario on [StackOverflow](http://stackoverflow.com/a/952443)
 
 You can formulate many problems much easier, closer to their definition and more concise in a 
 functional programming language like F# and your code is less error-prone (immutability, more powerful type system, intuitive recurive algorithms). 
@@ -320,22 +346,25 @@ You can code what you mean instead of what the computer wants you to say ;-)  Fu
 can have F# and C# together in one solution, so you can combine the benefits of both 
 languages and use them where they're needed.
 
+<div class="keywords">domain modeling, immutability</div>
+
 ---
 
 > ...your code is less error-prone...
 
-- Antonio Hayley on [StackOverflow](http://stackoverflow.com/a/179357)
+1. Antonio Hayley on [StackOverflow](http://stackoverflow.com/a/179357)
 
 I'd recommend F# to a die hard C# developer just because learning another language is one way a programmer can get out of a local maxima and 
 become a better programmer. And F# isn't just a different set of semantics on top of the same syntax as most imperative languages are, 
 it's a totally different programming style. All the more to expand the capabilities and understanding of a programmer.
 
+ <div class="keywords">learning, imperative, functional</div>
 
 ---
 
 > ...I have to say I love the language...
 
-- Jared Parsons on [StackOverflow](http://stackoverflow.com/a/2785476)
+1. Jared Parsons on [StackOverflow](http://stackoverflow.com/a/2785476)
 
 Over the last 6 or so months, I've been working on a Vim emulation layer. This is the first major project I've ever done with F# 
 and I have to say I love the language. In many ways I used this project as a method of learning 
@@ -343,22 +372,26 @@ F# (and this learning curve is very much evident if you look through the history
 What I find the most amazing about F# is just how concise of a language it is. The Vim engine comprises 
 the bulk of the logic yet it only comprises 30% of the overall code base.
 
+ <div class="keywords">learning, conciseness</div>
+
 ---
 
 > ...The AI is implemented in F#...
 
-- Path of Go on [youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)
+1. Path of Go on [youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)
 
 Path of Go is powered by three technologies...: an AI capable of playing Go, the F# language, 
 and TrueSkill to match online players. The AI is implemented in F# and meets the challenge of 
 running efficiently in the .net compact framework on Xbox 360. This game places you in a number of 
 visually stunning 3D scenes. It was fully developed in managed code using the XNA environment.
 
+ <div class="keywords">artificial intelligence, TrueSkill</div>
+
 ---
 
 > Around 95% of the code in these projects has been developed in F#
 
-- [F# in Advertisement Ranking & Rating @ Microsoft](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
+1. [F# in Advertisement Ranking & Rating @ Microsoft](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
 
 Around 95% of the code in these projects has been developed in F#. F# allowed for rapid development 
 of prototypes, and thus also rapid verification or falsification of the underlying mathematical models.
@@ -366,3 +399,4 @@ Complex algorithms, for example to compute Nash equilibria in game theory, can b
 succinctly.  Units of measure reduced the chance of errors dramatically: 
 Prices, probabilities, derivatives, etc. can already be kept apart at compile time.
 
+ <div class="keywords">advertisement, machine learning</div>

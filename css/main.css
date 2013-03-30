@@ -135,7 +135,7 @@ ul#newsContent {
   clear:both;
 }
 
-.testimonials ul {
+.testimonials ol {
   float:right;
   width:150px;
   margin:0px;
