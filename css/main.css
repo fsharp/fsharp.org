@@ -114,18 +114,13 @@ ul#newsContent {
 
 .testimonials p {
   margin-left:200px;
-  margin-right:150px;
+  margin-right:170px;
 }
 
 .testimonials ul {
   margin-left:200px;
-  margin-right:150px;
+  margin-right:170px;
   list-style-type:disc;
-}
-
-.testimonials ul li {
-  margin-left:0px 0px 0px 20px;
-  padding:0px;
 }
 
 .testimonials blockquote {
@@ -134,6 +129,7 @@ ul#newsContent {
   padding:0px;
   margin:0px;
   border-left-style:none;
+  color:#606060;
 }
 
 .testimonials blockquote p {
@@ -151,14 +147,43 @@ ul#newsContent {
   width:150px;
   margin:0px;
   padding:0px;
+  color:#606060;
+  font-size:85%;
+  font-style:italic;
 }
 
-.testimonials li {
+.testimonials ol strong {
+  font-size:120%;
+  font-weight:normal;
+}
+
+div#contentMain.testimonials ol li {
   list-style-type:none;
   margin:0px;
   padding:0px;
 }
 
+div#contentMain.testimonials ul li {
+  margin:0px 0px 0px 20px;
+  padding:0px;
+}
+
 .testimonials .keywords {
   display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .testimonials blockquote {
+    float:none;
+    width:auto;
+  }
+  .testimonials ol {
+    float:none;
+    width:auto;
+    margin:5px 0px 5px 0px;
+  }
+  .testimonials p {
+    margin-left:0px;
+    margin-right:0px;
+  }
 }
