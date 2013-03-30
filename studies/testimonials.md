@@ -2,6 +2,7 @@
 layout: page
 title: Testimonials | The F# Software Foundation
 headline: What users say about F#
+class: testimonials
 ---
 
 ### Academia and research
