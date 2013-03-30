@@ -40,7 +40,7 @@ or you can add as many details as you want. Keywords will be used later on to fi
 the content (so please add some, even though they are not used at the moment).
 
 -->
-
+##### [Click here to add a new testimonial, just edit and send the pull request!](https://github.com/fsharp/fsfoundation/edit/gh-pages/testimonials/index.md)
 
 > The use of F# demonstrates a sweet spot for the language within enterprise software
 
@@ -114,7 +114,7 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 1. [**Jon Harrop**](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [link](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [link](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
 
 Aviva (one of the world's largest insurance companies) have F# code in production, are starting several 
-more projects in F#. We are currently consulting for Aviva (£2.5bn profit) who have migrated 
+more projects in F#. We are currently consulting for Aviva (ï¿½2.5bn profit) who have migrated 
 some of their number crunching and business logic to F# and are so happy with the results 
 (10x faster and 10x less code vs their Visual C++ 6) that they are proposing to migrate 1,600,000 lines of code to 
 F#. In particular, their developers found F# easy to learn and use.
