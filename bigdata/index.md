@@ -8,7 +8,7 @@ This page provides an overview of the packages and tools available for scalable 
 particularly for taking advantage of cloud-computing resources.
 
 Data processing commonly follows a functional (as opposed to an imperative) model. 
-F#'s functional-first design makes data processing pipelines very natural. Further, the Type Provider feature of 
+F#'s functional-first design makes data processing pipelines very natural. The Type Provider feature of 
 F# 3.0 makes F# a powerful solution for accessing both regular and irregular data, incudling traditional databases,
 web-scale ontologies and standard structured text formats like JSON, and XML.
 
@@ -20,15 +20,12 @@ general and particularly F# due to the wide variety of libraries and services av
 
 ### [Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/)
 
-Windows Azure is Microsoft's entry into the cloud services market and provides access to 
-Microsoft's datacenters around the world. Windows Azure provides a range of services from 
-low-level capabilities including Window and Linux virtual machines and geo-redundant storage 
-to higher-level services including database clusters and website deployment. The website 
-linked in the title provides an overview of all of the services available. 
+Windows Azure provides access to  Microsoft's datacenters around the world through services from 
+virtual machines to geo-redundant storage,database clusters and website deployment.  
 [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
-considerable additional detail on the structure of Azure applications.
+detail on the structure of Azure applications.
 
-Below are some additional resources on using Windows Azure from F# and .NET in general:
+Below are resources on using Windows Azure from F# and .NET in general:
  * [Introduction to Windows Azure](http://www.windowsazure.com/en-us/develop/net/fundamentals/intro-to-windows-azure/)
  * [.NET and RESTful management API reference](http://msdn.microsoft.com/en-us/library/windowsazure/ff800682.aspx)
  * [Publishing an F#/C# MVC Application to Windows Azure](http://msdn.microsoft.com/en-us/library/vstudio/jj865569.aspx) 
@@ -46,7 +43,7 @@ Amazon offers a .NET SDK for managing the AWS services,
 [described here](http://aws.amazon.com/sdkfornet/). This SDK provides facilities for managing 
 storage, compute instances, and other Amazon services.
 
-Some additional resources for using F# and .NET on Amazon�s AWS service:
+Some additional resources for using F# and .NET on Amazon's AWS service:
  * [AWS Toolkit for Visual Studio](http://aws.amazon.com/visualstudio/)
  * [Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
