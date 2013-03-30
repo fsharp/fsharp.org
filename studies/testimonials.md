@@ -18,6 +18,8 @@ experienced programmers. The first programming language taught has a substantial
 influence on what language students use when they have a free choice. F#, once it 
 is platform independent, has the potential to become the first programming language. 
 
+<div class="keywords">teaching research</div>
+
 ---
 
 > "F#...made it trivial..." 
@@ -32,6 +34,8 @@ with continuous, time-varying behaviors. F#, with its rich graphics libraries, m
 trivial to construct a super-fun assignment involving purely functional and interactive 
 animation of a mock solar system.
 
+<div class="keywords">teaching research</div>
+
 ---
 
 > "When F# is combined with Visual Studio... productivity goes through the roof!"
@@ -43,6 +47,8 @@ F# programs tend to be much shorter than their equivalents in other languages, a
 fewer lines of code required, of course, the higher the productivity. When F# is combined 
 with Visual Studio, which provides help with remembering the methods attached to different 
 data types and how to use those methods, productivity goes through the roof!
+
+<div class="keywords">teaching research</div>
 
 ---
 
@@ -60,3 +66,5 @@ were in C# but the calculation engine was written in F#.
 The use of F# to address the complexity at the heart of this application clearly demonstrates 
 a sweet spot for the language within enterprise software, namely algorithmically complex 
 analysis of large data sets. My experience has been a very positive one.
+
+<div class="keywords">trading</div>
