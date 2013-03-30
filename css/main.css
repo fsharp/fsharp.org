@@ -109,6 +109,9 @@ ul#newsContent {
    Testimonials page
    ========================================================================== */
 
+.testimonials h3 {
+}
+
 .testimonials p {
   margin-left:200px;
   margin-right:150px;
@@ -117,10 +120,15 @@ ul#newsContent {
 .testimonials blockquote {
   float:left;
   width:200px;
+  padding:0px;
+  margin:0px;
+  border-left-style:none;
 }
 
 .testimonials blockquote p {
-  margin-left:0px;
+  padding:0px;
+  margin:0px 10px 0px 0px;
+  font-style:italic;
 }
 
 .testimonials hr {
@@ -130,4 +138,16 @@ ul#newsContent {
 .testimonials ul {
   float:right;
   width:150px;
+  margin:0px;
+  padding:0px;
+}
+
+.testimonials li {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+
+.testimonials .keywords {
+  display: none;
 }
