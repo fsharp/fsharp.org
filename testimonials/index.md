@@ -60,7 +60,7 @@ analysis of large data sets. My experience has been a very positive one.
 
 > When F# is combined with Visual Studio... productivity goes through the roof!
 
-1. **Prof Nigel Horspool**
+1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
 2. University of Victoria, Canada
 
 F# programs tend to be much shorter than their equivalents in other languages. The 
