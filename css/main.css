@@ -104,3 +104,30 @@ ul#newsContent {
   margin-top: 3px;
   margin-bottom: 0px;
 }
+
+/* ==========================================================================
+   Testimonials page
+   ========================================================================== */
+
+.testimonials p {
+  margin-left:200px;
+  margin-right:150px;
+}
+
+.testimonials blockquote {
+  float:left;
+  width:200px;
+}
+
+.testimonials blockquote p {
+  margin-left:0px;
+}
+
+.testimonials hr {
+  clear:both;
+}
+
+.testimonials ul {
+  float:right;
+  width:150px;
+}
