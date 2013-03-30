@@ -387,13 +387,16 @@ languages and use them where they're needed.
 
 ---
 
-> ...your code is less error-prone...
+> I'd recommend F#... learning another language is one way to become a better programmer.
 
 1. Antonio Hayley on [StackOverflow](http://stackoverflow.com/a/179357)
 
-I'd recommend F# to a die hard C# developer just because learning another language is one way a programmer can get out of a local maxima and 
-become a better programmer. And F# isn't just a different set of semantics on top of the same syntax as most imperative languages are, 
-it's a totally different programming style. All the more to expand the capabilities and understanding of a programmer.
+I'd recommend F# to a die hard C# developer just because learning another language 
+is one way a programmer can get out of a local maxima and 
+become a better programmer. And F# isn't just a different set of semantics on top of 
+the same syntax as most imperative languages are, 
+it's a totally different programming style. All the more to expand the capabilities 
+and understanding of a programmer.
 
  <div class="keywords">learning, imperative, functional</div>
 
@@ -422,7 +425,7 @@ and TrueSkill to match online players. The AI is implemented in F# and meets the
 running efficiently in the .net compact framework on Xbox 360. This game places you in a number of 
 visually stunning 3D scenes. It was fully developed in managed code using the XNA environment.
 
- <div class="keywords">artificial intelligence, TrueSkill</div>
+ <div class="keywords">artificial intelligence, statistics, machine learning, TrueSkill</div>
 
 ---
 
@@ -449,4 +452,4 @@ Complex algorithms, for example to compute Nash equilibria in game theory, can b
 succinctly.  Units of measure reduced the chance of errors dramatically: 
 Prices, probabilities, derivatives, etc. can already be kept apart at compile time.
 
- <div class="keywords">advertisement, machine learning</div>
+ <div class="keywords">advertising, ranking, rating, machine learning, statistics</div>
