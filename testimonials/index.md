@@ -5,6 +5,13 @@ headline: Testimonials
 class: testimonials
 ---
 
+<!-- 
+
+Please contribute!
+
+-->
+
+
 > The use of F# demonstrates a sweet spot for the language within enterprise software
 
 1. [**Simon Cousins**](http://stackoverflow.com/questions/2785029/in-what-areas-might-the-use-of-f-be-more-appropriate-than-c)
