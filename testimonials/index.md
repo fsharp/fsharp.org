@@ -94,7 +94,7 @@ financing, hedging, and logistical support....
 > At Credit Suisse, we've been using F# to develop quantitative models for financial products. 
 
 1. **Howard Mansell**
-2. Credit Suisse
+2. Credit Suisse (at time of writing)
 3. [CUFP Workshop, 2008](http://cufp.org/archive/2008/abstracts.html#MansellHoward)
 
 Building valuation models for derivative trades requires rapid development of mathematical models, made possible by 
