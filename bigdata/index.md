@@ -69,7 +69,8 @@ Cassandra:
  * [cassandra-sharp](http://code.google.com/p/cassandra-sharp/)
  * [FluentCassandra](https://github.com/managedfusion/fluentcassandra)
 
-Mongo DB (http://www.mongodb.org/display/DOCS/CSharp+Language+Center)
+Mongo:
+ * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center)
 
 
 ## Other links
