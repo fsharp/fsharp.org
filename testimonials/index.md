@@ -361,7 +361,7 @@ were used during training. What We Observed:
 
 > F# allows you to move smoothly in your programming style
 
-1. **Julien Lauge**
+1. **Julien Laugel**
 2. [eurostocks.com](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 19
 
 I've been coding in F# lately, for a production task. F# allows you to move smoothly in your 
