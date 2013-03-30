@@ -68,3 +68,52 @@ a sweet spot for the language within enterprise software, namely algorithmically
 analysis of large data sets. My experience has been a very positive one.
 
 <div class="keywords">trading</div>
+
+---
+
+> "the core logic is written in F# wherever possible" 
+
+- **Andrea D'Intino**
+- Yellow blue soft
+- [The evolution of a GUI and the pulsating life of a UX](http://tabbles-dev.blogspot.co.uk/2009/12/tabbles-museum-evolution-of-gui-and-of.html)
+
+#### Tabbles
+
+Yellow blue soft is a truly international Micro-ISV: We are a small, dynamic and international 
+team who is wondering why file-management is lagging 30 years behind and no one seems to care 
+or even notice. We do. We love what we’re doing and most importantly we love listening to you! 
+Visit our blog to know more about us and join our forum to become part of our sparkling community.
+
+Our goals: Revolutionize the way files are managed. Enhance teamwork by improving file management for groups.
+Developed software based on what you need.
+
+The tabbles are special containers that you can use to categorize any kind of file and document as 
+well as folders and bookmarks. Using Tabbles you can quickly categorize, find, sort and share your 
+documents, in a totally new way.
+
+<div class="keywords">applications</div>
+
+---
+
+#### Trafigura, Oil and Gas Commodity Traders
+
+> "risk and analytic capabilities (...) are entirely written in F#
+
+ - **Laurence Austen**
+ - Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten)
+ - [F# Machine Learning in Finance](http://cs.hubfs.net/topic/None/59847)
+
+You will work directly with Trafigura’s Chief Risk Officer/Head of Quantitative Analysis, 
+“cranking code” and rapidly extending our risk and analytic capabilities, which are entirely 
+written in F#. 
+
+Trafigura Limited engages in the supply and offtake of crude oil, petroleum products, liquefied 
+petroleum gas, metals, and metal ores and concentrates worldwide. Its solutions include trading, 
+financing, hedging, and logistical support. The company involves in oil, metals, and minerals 
+trading and investment activities, as well as in trade and project finance, and storage and 
+distribution operations. It also provides wholesale power to industrial enterprises and municipalities 
+in Italy. The company was formerly known as Raw Material Services Limited and changed its name 
+to Trafigura Limited in May 1993. The company was incorporated in 1992 and is based in London, 
+United Kingdom with addition...
+
+<div class="keywords">risk analytics</div>
