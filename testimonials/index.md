@@ -40,7 +40,6 @@ or you can add as many details as you want. Keywords will be used later on to fi
 the content (so please add some, even though they are not used at the moment).
 
 -->
-##### [Click to add a new testimonial. Just log on to github, edit and send the pull request!](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
 
 > The use of F# demonstrates a sweet spot for the language within enterprise software
 
@@ -132,6 +131,7 @@ The 10x performance gain was verified by the client.
 <div class="keywords">finance, insurance</div>
 
 ---
+[Click to add a new testimonial. Just log on to github, edit and send the pull request!](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
 
 > ...we have decided to use F# as our functional language to have automatic integration with rest of the system...
 
