@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Big Data Stacks | The F# Software Foundation
-headline: Data, Compute, Cloud, and Messaging Stacks for F#
+title: Cloud Programmnig | The F# Software Foundation
+headline: Scalable Data, Compute and Messaging with F#
 ---
 
-This page provides an overview of the packages and tools available for large-scale data processing,
-particularly for taking advantage of scalable cloud-computing resources from F#.
+This page provides an overview of the packages and tools available for scalable data processing with F#,
+particularly for taking advantage of cloud-computing resources.
 
 Data processing commonly follows a functional (as opposed to an imperative) model. 
 F#'s functional-first design makes data processing pipelines very natural. Further, the Type Provider feature of 
