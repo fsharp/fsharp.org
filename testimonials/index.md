@@ -53,7 +53,7 @@ The use of F# to address the complexity at the heart of this application clearly
 a sweet spot for the language within enterprise software, namely algorithmically complex 
 analysis of large data sets. My experience has been a very positive one.
 
-<div class="keywords">energy, trading, calculations</div>
+<div class="keywords">energy, trading, calculations, ETL, extract, transform, load</div>
 
 ---
 
@@ -67,7 +67,7 @@ fewer lines of code required, of course, the higher the productivity. When F# is
 with Visual Studio, which provides help with remembering the methods attached to different 
 data types and how to use those methods, productivity goes through the roof!
 
-<div class="keywords">teaching research</div>
+<div class="keywords">teaching, research</div>
 
 ---
 
@@ -105,7 +105,7 @@ and outline future enhancements that would benefit this kind of work.
 
 The abstract to [a talk at the Commercial Users of Functional Programming workshop](http://cufp.org/archive/2008/abstracts.html#MansellHoward)
 
-<div class="keywords">finance, analysis</div>
+<div class="keywords">financial services, analysis, fixed income, derivatives, financial modelling</div>
 
 ---
 
@@ -129,7 +129,7 @@ code is a simple manual translation from very inefficient Mathematica code that 
 performance problems mainly centered around excessive copying. The F# rewrite does not have these problem. 
 The 10x performance gain was verified by the client.
 
-<div class="keywords">finance, insurance</div>
+<div class="keywords">financial services, insurance, actuarial</div>
 
 ---
 
@@ -159,7 +159,7 @@ requires a proper algorithm (i.e. anything that is more complex than a simple fo
 our choice has been F#. I have to say I keep being surprised by how compact it is and, nonetheless, 
 how readable it is even when I'm reading code that I hadn't looked at or thought about for six months.
 
-<div class="keywords">data, analysis, calculation</div>
+<div class="keywords">data, analysis, calculation, financial services, derivatives</div>
 
 ---
 
@@ -187,7 +187,7 @@ a web page without jumping through hoops.
 
 With Units of Measure I started labelling the coordinates as one or zero based and immediately found a bug where I'd casually mixed the two systems. Yay F#!
 
-<div class="keywords">biotechnology, units of measure</div>
+<div class="keywords">biotechnology, units of measure, bioinformatics</div>
 
 ---
 
@@ -203,7 +203,7 @@ these are inlines, the F# optimizer can actually do something useful with the co
 inlining, code profiling, scanline caching, memoization and other techniques. In many cases we ended up with 
 code that ran in equivalent time to C++ code or in some cases faster.
 
-<div class="keywords">algorithms, performance</div>
+<div class="keywords">algorithms, performance, immage processing</div>
 
 ---
 
@@ -231,7 +231,7 @@ and improve the quality of its mathematical models. To address its needs, the ba
 .NET Framework, and Visual Studio. It will soon upgrade to Visual Studio 2010 and then integrated 
 F#. With its new tools, the bank can speed development by 50 percent or more, improve quality, and reduce costs.
 
-<div class="keywords">finance, models</div>
+<div class="keywords">financial services, financial modelling, derivatives, fixed income</div>
 
 ---
 
@@ -264,6 +264,8 @@ I have now delivered three business critical projects written in F#. I am still 
 for the first bug to come in. This is not the case with the C# projects I have delivered. 
 I will continue to monitor and report on this. It might be that I am just on a lucky streak, 
 but I suspect that the clarity and concision of F# code contributes greatly to its correctness.
+
+<div class="keywords">energy, extract, transform, load, ETL</div>
 
 ---
 
@@ -334,7 +336,7 @@ better advantage of multicore server hardware, and in so doing garnered signific
 Processes that used to require hours now take just minutes, enabling the company to trim time-to-market 
 by weeks and making it far easier for independent agents to sell and service Grange products.
 
-<div class="keywords">insurance, parallelization</div>
+<div class="keywords">insurance, parallelization, financial services</div>
 
 ---
 
@@ -347,7 +349,7 @@ within the bank. He'll provide an intro to the language then show its use for pe
 aggregations over large datasets, taking advantage of cpu and io parallelism, and data 
 presentation through charting and image generation.
 
-<div class="keywords">finance, data</div>
+<div class="keywords">financial services, data, analysis</div>
 
 ---
 
@@ -371,7 +373,7 @@ were used during training. What We Observed:
  - **Symbolic** - Schema compilation and "Schedules"
  - **.NET Integration** - Especially Excel, SQL Server
 
- <div class="keywords">integration, machine learning</div>
+ <div class="keywords">integration, machine learning, advertising, prediction</div>
 
 ---
 
@@ -385,7 +387,7 @@ programming style... I start with pure functional code, shift slightly towards a
 and in production code, I sometimes have to do some imperative programming. I can start with a pure idea, and 
 still finish my project with realistic code. You're never disappointed in any phase of the project!
 
- <div class="keywords">imperative, functional</div>
+ <div class="keywords">imperative, functional, financial services, portfolio analysis</div>
 
 ---
 
@@ -455,6 +457,22 @@ F# in Russian in the curriculum repository, and the video-course of functional p
 using F# available in the largest Russian Internet-University (intuit.ru). The course 
 is being taught in 2 universities. There is a noticeable interest in the developer community in 
 Russia towards F#.
+
+---
+
+> F# encourages Reason Driven Development that leads to virtually bug-free code.
+
+1. Boston based company that provides solutions to fixed income financial services 
+
+We are using F# because it considerably increases speed of software development which is crucial 
+for a small company with limited development resources.  The most enjoyable feature of this language 
+is that the developer can reason about the code instead of relying only on unit tests. 
+I would say the language encourages Reason Driven Development methodology which leads to 
+virtually bug-free code.  F# as strongly typed functional language ideally fits for tasks our 
+software solves – Fixed Income securities trading optimization. It is also very important that 
+F# computation engine could be seamlessly integrated with other parts of .NET-based software product. 
+
+<div class="keywords">fixed income, trading, optimization, financial services</div>
 
 ---
 
