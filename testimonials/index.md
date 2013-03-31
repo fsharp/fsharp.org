@@ -41,7 +41,9 @@ the content (so please add some, even though they are not used at the moment).
 
 -->
 
-> <a name="simon-cousins-1"> </a>The use of F# demonstrates a sweet spot for the language within enterprise software
+<div id="simon-cousins-1"> </div>
+
+> The use of F# demonstrates a sweet spot for the language within enterprise software
 
 1. **Simon Cousins**
 2. [source](http://stackoverflow.com/questions/2785029/in-what-areas-might-the-use-of-f-be-more-appropriate-than-c), [permalink](#simon-cousins-1)
