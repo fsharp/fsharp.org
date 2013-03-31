@@ -459,7 +459,8 @@ the bulk of the logic yet it only comprises 30% of the overall code base.
 
 > ...The AI is implemented in F#...
 
-1. Path of Go on [youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)
+1. Path of Go on [youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)<a name="path-of-go">.</a>
+2. [permalink](#path-of-go)
 
 Path of Go is powered by three technologies...: an AI capable of playing Go, the F# language, 
 and TrueSkill to match online players. The AI is implemented in F# and meets the challenge of 
@@ -485,10 +486,10 @@ Russia towards F#.
 
 
 
-> F# encourages Reason Driven Development that leads to virtually bug-free code <a name="boston-based-company">.</a>
+> F# encourages Reason Driven Development that leads to virtually bug-free code<a name="boston-based-company">.</a>
 
 1. Boston based company that provides solutions to fixed income financial services 
-2. [link](#boston-based-company)
+2. [permalink](#boston-based-company)
 
 We are using F# because it considerably increases speed of software development which is crucial 
 for a small company with limited development resources.  The most enjoyable feature of this language 
