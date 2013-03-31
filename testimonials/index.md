@@ -43,7 +43,9 @@ the content (so please add some, even though they are not used at the moment).
 
 
 <div id="simon-cousins-1"> </div> 
+
 ---
+
 > The use of F# demonstrates a sweet spot for the language within enterprise software
 
 1. **Simon Cousins**
@@ -60,7 +62,9 @@ analysis of large data sets. My experience has been a very positive one.
 <div class="keywords">energy, trading, calculations, ETL, extract, transform, load</div>
 
 <div id="horspool-1"> </div>
+
 ---
+
 > When F# is combined with Visual Studio... productivity goes through the roof!
 
 1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
@@ -77,7 +81,9 @@ data types and how to use those methods, productivity goes through the roof!
 
 
 <div id="trafigura-ad-1"> </div>
+
 ---
+
 > Our risk and analytic capabilities (...) are entirely written in F#
 
 1. **Lawrence Austen**
@@ -100,6 +106,7 @@ financing, hedging, and logistical support....
 [Click to add a new testimonial. Just log on to github, edit and send the pull request! Or email fsharp@fsharp.org](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
 
 <div id="credit-suisse-abstract"> </div>
+
 ---
 
 > At Credit Suisse, we've been using F# to develop quantitative models for financial products
@@ -120,13 +127,14 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 <div class="keywords">financial services, analysis, fixed income, derivatives, financial modelling</div>
 
 
-<div id="aviva-harrop-1"> </div>
+<div id="aviva-flying-frog-1"> </div>
+
 ---
 
 > Aviva developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all...
 
 1. [**Flying Frog Consultancy**](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [source 2](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [source 3](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
-2. [permalink](#aviva-harrop-1)
+2. [permalink](#aviva-flying-frog-1)
 
 Aviva (one of the world's largest insurance companies) have F# code in production, are starting several 
 more projects in F#. We are currently consulting for Aviva (£2.5bn profit) who have migrated 
