@@ -269,10 +269,32 @@ but I suspect that the clarity and concision of F# code contributes greatly to i
 
 ---
 
+> F# is central to Microsoft’s quantum algorithm research
+
+1. Dave Wecker
+2. Microsoft Advanced Strategies and Research
+
+F# is central to Microsoft’s quantum algorithm research. The LIQUi|⟩ simulator (Language 
+Integrated Quantum Operations) presents an extension of F# that presents a 
+seamless integration of classical and quantum operations. The scale and efficiency 
+of the simulator allows it to handle among the largest entangled 
+systems of qubits (quantum bits) ever modeled utilizing a targeted linear algebra package 
+written entirely in F#. In addition, the modular architecture allows users to 
+easily extend the system in any desired research direction. The base library is 
+well over 20,000 lines of code and implements a wide range of modules including 
+circuits, molecular modeling, spin-glass systems, quantum error correction, machine 
+learning, factoring and many others. The system runs in client, server and cloud 
+environments. It is also designed to be used as an educational tool and we have 
+found that bringing new users up to speed is a quick and painless process.
+
+<div class="keywords">simulation, quantum, Microsoft, modelling</div>
+
+---
+
 > ...the core logic is written in F# wherever possible...
 
 1. **Andrea D'Intino**
-2. Yellow blue soft, [link](http://tabbles-dev.blogspot.co.uk/2009/12/tabbles-museum-evolution-of-gui-and-of.html)
+2. [Yellow blue soft](http://tabbles-dev.blogspot.co.uk/2009/12/tabbles-museum-evolution-of-gui-and-of.html)
 
 Yellow blue soft is a truly international Micro-ISV: We are a small, dynamic and international 
 team who is wondering why file-management is lagging 30 years behind and no one seems to care 
