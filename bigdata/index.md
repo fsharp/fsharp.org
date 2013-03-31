@@ -80,6 +80,10 @@ communications. This section lists a wide range of communication libraries avail
 
  * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center) bindings for .NET
 
+[Neo4j](http://www.neo4j.org/):
+
+ * [Neo4jClient](http://hg.readify.net/neo4jclient/wiki/Home) - Neo4j bindings for .NET
+
 
 ## Other links
  * [Parallel LINQ (PLINQ)](http://msdn.microsoft.com/en-us/library/dd460688.aspx)
