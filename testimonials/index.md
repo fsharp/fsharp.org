@@ -457,9 +457,9 @@ the bulk of the logic yet it only comprises 30% of the overall code base.
 
 ---
 
-> ...The AI is implemented in F#...
+> ...The AI is implemented in F#..<a name="path-of-go">.</a>
 
-1. Path of Go on [youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)<a name="path-of-go">.</a>
+1. Path of Go on [youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)
 2. [permalink](#path-of-go)
 
 Path of Go is powered by three technologies...: an AI capable of playing Go, the F# language, 
