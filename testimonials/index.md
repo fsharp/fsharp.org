@@ -43,9 +43,7 @@ the content (so please add some, even though they are not used at the moment).
 
 
 <div id="simon-cousins-1"> </div> 
-
 ---
-
 > The use of F# demonstrates a sweet spot for the language within enterprise software
 
 1. **Simon Cousins**
@@ -61,9 +59,9 @@ analysis of large data sets. My experience has been a very positive one.
 
 <div class="keywords">energy, trading, calculations, ETL, extract, transform, load</div>
 
+<div id="horspool-1"> </div>
 ---
-
-> When F# is combined with Visual Studio... productivity goes through the roof<a name="horspool-1">!</a>
+> When F# is combined with Visual Studio... productivity goes through the roof!
 
 1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
 2. University of Victoria, Canada
@@ -76,10 +74,11 @@ data types and how to use those methods, productivity goes through the roof!
 
 <div class="keywords">teaching, research</div>
 
+
+
+<div id="trafigura-ad-1"> </div>
 ---
-
-
-> Our risk and analytic capabilities (...) are entirely written in F#<a name="trafigura-ad-1">.</a>
+> Our risk and analytic capabilities (...) are entirely written in F#
 
 1. **Lawrence Austen**
 2. Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten)
@@ -95,11 +94,15 @@ financing, hedging, and logistical support....
 
 <div class="keywords">comodities, trading, risk, analysis</div>
 
+
+
 ---
 [Click to add a new testimonial. Just log on to github, edit and send the pull request! Or email fsharp@fsharp.org](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
 
+<div id="credit-suisse-abstract"> </div>
+---
 
-> At Credit Suisse, we've been using F# to develop quantitative models for financial products<a name="credit-suisse-abstract">.</a>
+> At Credit Suisse, we've been using F# to develop quantitative models for financial products
 
 1. **Howard Mansell**
 2. Credit Suisse (at time of writing)
@@ -116,9 +119,11 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 
 <div class="keywords">financial services, analysis, fixed income, derivatives, financial modelling</div>
 
+
+<div id="aviva-harrop-1"> </div>
 ---
 
-> Aviva developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all..<a name="aviva-harrop-1">.</a>
+> Aviva developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all...
 
 1. [**Jon Harrop**](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [source 2](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [source 3](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
 2. [permalink](#aviva-harrop-1)
@@ -140,6 +145,7 @@ performance problems mainly centered around excessive copying. The F# rewrite do
 The 10x performance gain was verified by the client.
 
 <div class="keywords">financial services, insurance, actuarial</div>
+
 
 ---
 
@@ -464,9 +470,11 @@ the bulk of the logic yet it only comprises 30% of the overall code base.
 
  <div class="keywords">learning, conciseness</div>
 
+
+<div id="path-of-go"> </div>
 ---
 
-> ...The AI is implemented in F#..<a name="path-of-go">.</a>
+> ...The AI is implemented in F#...
 
 1. source: [Path of Go on youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)
 2. [permalink](#path-of-go)
@@ -491,11 +499,12 @@ using F# available in the largest Russian Internet-University (intuit.ru). The c
 is being taught in 2 universities. There is a noticeable interest in the developer community in 
 Russia towards F#.
 
+
+
+<div id="boston-based-company"> </div>
 ---
 
-
-
-> F# encourages Reason Driven Development that leads to virtually bug-free code<a name="boston-based-company">.</a>
+> F# encourages Reason Driven Development that leads to virtually bug-free code
 
 1. Boston based company that provides solutions to fixed income financial services 
 2. [permalink](#boston-based-company)
@@ -510,12 +519,14 @@ F# computation engine could be seamlessly integrated with other parts of .NET-ba
 
 <div class="keywords">fixed income, trading, optimization, financial services</div>
 
----
 
+<div id="advertisement-rating-and-ranking-at-microsoft"> </div>
+---
 
 > Around 95% of the code in these projects has been developed in F#
 
 1. [F# in Advertisement Ranking & Rating @ Microsoft](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
+2. [permalink](#advertisement-rating-and-ranking-at-microsoft)
 
 Around 95% of the code in these projects has been developed in F#. F# allowed for rapid development 
 of prototypes, and thus also rapid verification or falsification of the underlying mathematical models.
