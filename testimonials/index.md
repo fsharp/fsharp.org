@@ -179,7 +179,7 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 
 ---
 
-> F# rocks 1. building out various algorithms for DNA processing here and 
+> F# rocks... building out various algorithms for DNA processing here and 
 > it's like a drug
 
 1. **Darren Platt**
