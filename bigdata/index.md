@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cloud Programmnig | The F# Software Foundation
+title: Cloud Programming | The F# Software Foundation
 headline: Scalable Data, Compute and Messaging with F#
 ---
 
