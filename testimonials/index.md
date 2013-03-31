@@ -483,11 +483,12 @@ Russia towards F#.
 
 ---
 
+<a name="boston-based-company"></a>
 
 > F# encourages Reason Driven Development that leads to virtually bug-free code.
 
 1. Boston based company that provides solutions to fixed income financial services 
-2. <a name="boston-based-company" href="#boston-based-company">link</a>
+2. <a href="#boston-based-company">link</a>
 
 We are using F# because it considerably increases speed of software development which is crucial 
 for a small company with limited development resources.  The most enjoyable feature of this language 
