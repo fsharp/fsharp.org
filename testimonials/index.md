@@ -75,7 +75,8 @@ data types and how to use those methods, productivity goes through the roof!
 > Our risk and analytic capabilities (...) are entirely written in F#
 
 1. **Lawrence Austen**
-2. Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten), [link](http://cs.hubfs.net/topic/None/59847)
+2. Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten)
+3. [Source](http://cs.hubfs.net/topic/None/59847)
 
 ...work directly with Trafigura's Chief Risk Officer/Head of Quantitative Analysis, 
 cranking code and rapidly extending our risk and analytic capabilities, which are entirely 
@@ -111,7 +112,7 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 
 > Aviva developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all...
 
-1. [**Jon Harrop**](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [link](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [link](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
+1. [**Jon Harrop**](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [source 2](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [source 3](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
 
 Aviva (one of the world's largest insurance companies) have F# code in production, are starting several 
 more projects in F#. We are currently consulting for Aviva (�2.5bn profit) who have migrated 
@@ -167,7 +168,7 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 > it's like a drug
 
 1. **Darren Platt**
-2. Amyris Biotechnology, [link](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
+2. Amyris Biotechnology, [source](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
 
 With F#... we have written a complete genome re-sequencing pipeline with interface, algorithms, 
 reporting in ~5K lines and it has been incredibly reliable, fast  and easy to maintain.
@@ -471,7 +472,7 @@ visually stunning 3D scenes. It was fully developed in managed code using the XN
 
 > There is a noticeable interest in the developer community in Russia towards F#.
 
-- Dmitry Soshnikov, Associate Professor, Moscow Aviation Technical University
+1. Dmitry Soshnikov, Associate Professor, Moscow Aviation Technical University
 
 I do some samples in F# for the lectures and the book, but all that is within a single-user 
 VS 2010 Pro installation. Right now we have a set of slides on functional programming with 
@@ -482,11 +483,11 @@ Russia towards F#.
 
 ---
 
-<a name="boston-based-company" />
 
 > F# encourages Reason Driven Development that leads to virtually bug-free code.
 
 1. Boston based company that provides solutions to fixed income financial services 
+2. <a name="boston-based-company" href="#boston-based-company">link</a>
 
 We are using F# because it considerably increases speed of software development which is crucial 
 for a small company with limited development resources.  The most enjoyable feature of this language 
