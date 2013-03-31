@@ -41,9 +41,10 @@ the content (so please add some, even though they are not used at the moment).
 
 -->
 
-> The use of F# demonstrates a sweet spot for the language within enterprise software
+> The use of F# demonstrates a sweet spot for the language within enterprise software<a name="simon-cousins-1">.</a>
 
-1. [**Simon Cousins**](http://stackoverflow.com/questions/2785029/in-what-areas-might-the-use-of-f-be-more-appropriate-than-c)
+1. **Simon Cousins**
+2. [source](http://stackoverflow.com/questions/2785029/in-what-areas-might-the-use-of-f-be-more-appropriate-than-c), [permalink](#simon-cousins-1)
 
 I have written an application to balance the national power generation schedule for a portfolio 
 of power stations to a trading position for an energy company. The client and server components 
@@ -57,10 +58,11 @@ analysis of large data sets. My experience has been a very positive one.
 
 ---
 
-> When F# is combined with Visual Studio... productivity goes through the roof!
+> When F# is combined with Visual Studio... productivity goes through the roof<a name="horspool-1">!</a>
 
 1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
 2. University of Victoria, Canada
+3. [permalink](#horspool-1)
 
 F# programs tend to be much shorter than their equivalents in other languages. The 
 fewer lines of code required, of course, the higher the productivity. When F# is combined 
@@ -72,11 +74,11 @@ data types and how to use those methods, productivity goes through the roof!
 ---
 
 
-> Our risk and analytic capabilities (...) are entirely written in F#
+> Our risk and analytic capabilities (...) are entirely written in F#<a name="trafigura-ad-1">.</a>
 
 1. **Lawrence Austen**
 2. Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten)
-3. [Source](http://cs.hubfs.net/topic/None/59847)
+3. [source](http://cs.hubfs.net/topic/None/59847), [permalink](#trafigura-ad-1)
 
 ...work directly with Trafigura's Chief Risk Officer/Head of Quantitative Analysis, 
 cranking code and rapidly extending our risk and analytic capabilities, which are entirely 
@@ -89,14 +91,15 @@ financing, hedging, and logistical support....
 <div class="keywords">comodities, trading, risk, analysis</div>
 
 ---
-[Click to add a new testimonial. Just log on to github, edit and send the pull request!](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
+[Click to add a new testimonial. Just log on to github, edit and send the pull request! Or email fsharp@fsharp.org](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
 
 
-> At Credit Suisse, we've been using F# to develop quantitative models for financial products. 
+> At Credit Suisse, we've been using F# to develop quantitative models for financial products<a name="credit-suisse-abstract">.</a>
 
 1. **Howard Mansell**
 2. Credit Suisse (at time of writing)
-3. [CUFP Workshop, 2008](http://cufp.org/archive/2008/abstracts.html#MansellHoward)
+3. [source: CUFP Workshop, 2008](http://cufp.org/archive/2008/abstracts.html#MansellHoward)
+4. [permalink](#credit-suisse-abstract)
 
 Building valuation models for derivative trades requires rapid development of mathematical models, made possible by 
 composition of lower-level model components. We have found that F#, with the associated toolset, provides a 
@@ -110,12 +113,13 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 
 ---
 
-> Aviva developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all...
+> Aviva developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all..<a name="aviva-harrop-1">.</a>
 
 1. [**Jon Harrop**](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [source 2](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [source 3](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
+2. [permalink](#aviva-harrop-1)
 
 Aviva (one of the world's largest insurance companies) have F# code in production, are starting several 
-more projects in F#. We are currently consulting for Aviva (�2.5bn profit) who have migrated 
+more projects in F#. We are currently consulting for Aviva (£2.5bn profit) who have migrated 
 some of their number crunching and business logic to F# and are so happy with the results 
 (10x faster and 10x less code vs their Visual C++ 6) that they are proposing to migrate 1,600,000 lines of code to 
 F#. In particular, their developers found F# easy to learn and use.
@@ -459,7 +463,7 @@ the bulk of the logic yet it only comprises 30% of the overall code base.
 
 > ...The AI is implemented in F#..<a name="path-of-go">.</a>
 
-1. Path of Go on [youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)
+1. source: [Path of Go on youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)
 2. [permalink](#path-of-go)
 
 Path of Go is powered by three technologies...: an AI capable of playing Go, the F# language, 
