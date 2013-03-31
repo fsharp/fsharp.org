@@ -33,6 +33,7 @@ after you have intalled Visual F#.
 #### Option 3: Install the F# compiler and tools alone
 
 If you're just looking for a compiler and/or F# Interactive, e.g. for a build server or VM, then:
+
 * [Install the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) from Microsoft
 
 Note: the F# open source group have an installer which is independent of the Visual F# tools. 
