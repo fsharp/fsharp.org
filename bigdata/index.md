@@ -65,16 +65,19 @@ communications. This section lists a wide range of communication libraries avail
 ## NoSQL Databases
 
 [Cassandra](http://cassandra.apache.org/):
+
  * [Aquiles](http://aquiles.codeplex.com/)
  * [Cassandraemon](http://cassandraemon.codeplex.com/)
  * [cassandra-sharp](http://code.google.com/p/cassandra-sharp/)
  * [FluentCassandra](https://github.com/managedfusion/fluentcassandra)
 
 [RavenDB](http://ravendb.net/):
+
  * [F# Client API](http://ravendb.net/docs/client-api/fsharp) The F# client API is a thin wrapper around the standard RavenDB client API, that provides a small set of combinators and a computation builder that hides the complexity of dealing with Linq expressions from F#. This documentation assumes some familiarity with the basics of RavenDB. 
 
 
 [MongoDB](http://www.mongodb.org/):
+
  * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center)
 
 
