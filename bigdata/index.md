@@ -78,7 +78,7 @@ communications. This section lists a wide range of communication libraries avail
 
 [MongoDB](http://www.mongodb.org/):
 
- * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center)
+ * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center) bindings for .NET
 
 
 ## Other links
