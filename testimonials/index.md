@@ -218,7 +218,8 @@ With Units of Measure I started labelling the coordinates as one or zero based a
 > I evaluated F# and it and found that for certain tasks it was better 
 > than C# in terms of performance while maintaining suitable readability
 
-1. [**Atalasoft**](http://www.atalasoft.com/cs/blogs/stevehawley/archive/2011/08/01/building-pure-managed-dotimage.aspx)
+1. **Atalasoft**
+2. [source](http://www.atalasoft.com/cs/blogs/stevehawley/archive/2011/08/01/building-pure-managed-dotimage.aspx)
 
 I evaluated F# and it and found that for certain tasks it was better than C# in terms of performance 
 while maintaining suitable readability and for certain tasks, it leant itself better to certain 
