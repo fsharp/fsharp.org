@@ -11,7 +11,9 @@ If you already have Visual Studio 2012 Ultimate or Professional, then you alread
 
 * [Install the Visual F# Express Tools](http://go.microsoft.com/fwlink/?LinkID=261287)
 
-See [fsharp.net](http://fsharp.net) for more information about Visual F# from Microsoft. Note you can use the command-lincompiler and a different editor after you have intalled Visual F#.
+See [fsharp.net](http://fsharp.net) for more information about Visual F# from Microsoft. 
+Note you can use a different editor and the command-line compiler (fsc.exe) or F# Interactive (fsi.exe) 
+after you have intalled Visual F#.
 
 <br />
 <br />
@@ -23,18 +25,19 @@ See [fsharp.net](http://fsharp.net) for more information about Visual F# from Mi
 * Then install [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) for Windows
 * Then install the F# Addin for Xamarin Studio or MonoDevelop from the Addin Gallery
 
-Note: A known bug shows "FSharp.Core" as unresolved. Just ignore this: projects build anyway.
-
 <br />
 <br />
 
 
 
-#### Option 3: Install the F# compiler alone (and use another editor)
+#### Option 3: Install the F# compiler and tools alone
 
-* If you're just looking for a compiler, [install the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) 
+If you're just looking for a compiler and/or F# Interactive, e.g. for a build server or VM, then:
+* [Install the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) from Microsoft
 
-Note: the F# open source group are working on an installer which is independent of the Visual F# tools. You can also build F# 3.0 from [Install the F# Open Source Edition](http://fsharp.github.com/fsharp) but the MonoDevelop tools will not yet detect these DLLs.
+Note: the F# open source group have an installer which is independent of the Visual F# tools. 
+You can also build F# 3.0 from [Install the F# Open Source Edition](http://fsharp.github.com/fsharp) but the MonoDevelop 
+tools will not yet detect these DLLs.
 
 <br />
 <br />
