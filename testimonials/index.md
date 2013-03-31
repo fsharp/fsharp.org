@@ -291,12 +291,17 @@ but I suspect that the clarity and concision of F# code contributes greatly to i
 
 <div class="keywords">energy, extract, transform, load, ETL</div>
 
+
+
+<div id="dave-wecker-quantum"> </div>
+
 ---
 
 > F# is central to Microsoft’s quantum algorithm research
 
 1. Dave Wecker
 2. Microsoft Advanced Strategies and Research
+3. [permalink](#dave-wecker-quantum)
 
 F# is central to Microsoft’s quantum algorithm research. The LIQUi|⟩ simulator (Language 
 Integrated Quantum Operations) presents an extension of F# that presents a 
