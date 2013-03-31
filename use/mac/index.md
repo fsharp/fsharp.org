@@ -5,7 +5,7 @@ headline: Use F# on Mac OSX
 ---
 
 
-### Option 1: Install F# 3.0 
+### Option 1: Install F# 3.0 alone
 
 To use F# 3.0 on Mac OSX, simply:
 
@@ -16,7 +16,9 @@ off! The F# command line compiler is "fsharpc". The --resident flag makes the
 compiler faster on subsequent invocations.  You can use xbuild to build projects and
 solutions from Visual Studio without change
 
-### Option 2: Install Visual Tools:
+<br />
+
+### Option 2: Install F# 3.0 with Visual Tools:
 
 * [Install Mono 3.0.2 or later](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0.
 * [Install Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) 
@@ -24,14 +26,20 @@ solutions from Visual Studio without change
 
 You can create new projects in Xamarin Studio and MonoDevelop. Be sure to retarget them to .NET 4.0. Ignore any unresolved FSharp.Core.dll.
 
-### Option 2: Make HTML5 web apps via WebSharper
+<br />
+
+### Option 3: Make HTML5 web apps via WebSharper
 
 * [WebSharper](http://www.websharper.com) can make F# HTML5 web apps which can be used from Mac/OSX and any HTML5-enabled browser
 
+<br />
 
-### Option 3: Learn F# in the Browser on the Mac
+
+### Option 4: Learn F# in the Browser on the Mac
 
 * [Learn F# online at Try F#](http://tryfsharp.org)
+
+<br />
 
 ### Having trouble?
 
