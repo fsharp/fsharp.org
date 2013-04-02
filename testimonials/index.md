@@ -279,7 +279,8 @@ is platform independent, has the potential to become the first programming langu
 
 > With its new tools, the bank can speed development by 50 percent or more, improve quality, and reduce costs.
 
-1. [**Microsoft Case Study**](http://www.microsoft.com/casestudies/Case_Study_Detail.aspx?casestudyid=4000006794)
+1. **Microsoft Case Study**
+2. [source](http://www.microsoft.com/casestudies/Case_Study_Detail.aspx?casestudyid=4000006794)
 
 A large financial services firm in Europe sought new development tools that could cut costs, boost productivity, 
 and improve the quality of its mathematical models. To address its needs, the bank deployed F#, the 
@@ -309,7 +310,7 @@ animation of a mock solar system.
 
 > I have now delivered three business critical projects written in F#. I am still waiting for the first bug to come in.
 
-1. Simon Cousins
+1. **Simon Cousins**
 2. [source](http://www.simontylercousins.net/journal/2013/2/22/does-the-language-you-choose-make-a-difference.html)
 
 I am both a C# dev and an F# dev. I can only offer subjective anecdotal evidence based 
@@ -331,7 +332,7 @@ but I suspect that the clarity and concision of F# code contributes greatly to i
 
 > F# is central to Microsoft’s quantum algorithm research
 
-1. Dave Wecker
+1. **Dave Wecker**
 2. Microsoft Advanced Strategies and Research
 3. [permalink](#microsoft-quantum-1)
 
@@ -393,15 +394,15 @@ intuitive and easy to use features for enhancing digital images.
 <div id="genetec-job-ad-1"> </div>
 ---
 
-> Software developers at Genetec use their technical aptitudes 
+> Software developers ... use their technical aptitudes 
 > creatively in order to design and program new features
 
-1. Montreal-based IP Security Company
+1. **Montreal-based IP Security Company**
 2. [source](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690)
 3. [permalink](#genetec-job-ad-1)
 
 From a [job advertisement](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690) for F# programmers:  
-Software developers at Genetec use their technical aptitudes creatively 
+Software developers ... use their technical aptitudes creatively 
 in order to design and program new features, while working closely with the product management teams to 
 meet customers' expectations. They work in multidisciplinary teams driven by the desire to overcome the limits of the 
 technology in order to deliver products of outstanding quality, beauty and creativity to the customers. 
@@ -420,7 +421,7 @@ using .NET 4.0 technologies in F#.
 > Grange Insurance parallelized its rating engine to take better 
 > advantage of multicore server hardware
 
-1. [Grange Insurance](http://www.microsoft.com/casestudies/case_study_detail.aspx?casestudyid=4000005226)
+1. [**Grange Insurance**](http://www.microsoft.com/casestudies/case_study_detail.aspx?casestudyid=4000005226)
 2. [permalink](#grange-insurance-1)
 
 For nearly 75 years, Grange Insurance has offered competitive products and services to policyholders 
@@ -440,7 +441,7 @@ by weeks and making it far easier for independent agents to sell and service Gra
 
 > Bohdan ... shows F#'s use for performing aggregations over large datasets, taking advantage of cpu and io parallelism
 
-1. Bohdan Szymanik
+1. **Bohdan Szymanik**
 2. [source](http://dnufba.preview.intergen.net.nz/Lists/Events%20Calendar/DispForm.aspx?ID=279)
 3. [permalink](#bohdan-szymanik-1)
 
@@ -457,7 +458,7 @@ presentation through charting and image generation.
 
 > F#'s powerful type inference means less typing, more thinking
 
-1. Don Syme
+1. **Don Syme**
 2. Principal Researcher, Microsoft
 3. Eclipse Summit Europe 2009, [source](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 49
 4. [permalink](#dsyme-ad-predict-1)
@@ -498,7 +499,8 @@ still finish my project with realistic code. You're never disappointed in any ph
 
 > ...your code is less error-prone...
 
-1. Dario on [StackOverflow](http://stackoverflow.com/a/952443)
+1. **Dario 
+2. [source](http://stackoverflow.com/a/952443)
 
 You can formulate many problems much easier, closer to their definition and more concise in a 
 functional programming language like F# and your code is less error-prone (immutability, more powerful type system, intuitive recurive algorithms). 
@@ -514,7 +516,7 @@ languages and use them where they're needed.
 
 > I'd recommend F#... learning another language is one way to become a better programmer.
 
-1. Antonio Hayley on StackOverflow
+1. **Antonio Hayley**
 2. [source](http://stackoverflow.com/a/179357)
 3. [permalink](#antonio-hayley-1)
 
@@ -533,7 +535,8 @@ and understanding of a programmer.
 
 > ...I have to say I love the language...
 
-1. Jared Parsons on StackOverflow, [source](http://stackoverflow.com/a/2785476)
+1. **Jared Parsons
+2. [source](http://stackoverflow.com/a/2785476)
 2. [permalink](#jared-parsons-1)
 
 Over the last 6 or so months, I've been working on a Vim emulation layer. This is the first major project I've ever done with F# 
@@ -550,7 +553,8 @@ the bulk of the logic yet it only comprises 30% of the overall code base.
 
 > ...The AI is implemented in F#...
 
-1. source: [Path of Go on youtube](http://www.youtube.com/watch?v=bb4igmbv_Oc)
+1. [Path of Go]
+2. [source](http://www.youtube.com/watch?v=bb4igmbv_Oc)
 2. [permalink](#path-of-go)
 
 Path of Go is powered by three technologies...: an AI capable of playing Go, the F# language, 
@@ -567,7 +571,8 @@ visually stunning 3D scenes. It was fully developed in managed code using the XN
 
 > There is a noticeable interest in the developer community in Russia towards F#.
 
-1. Dmitry Soshnikov, Associate Professor, Moscow Aviation Technical University
+1. **Dmitry Soshnikov**
+2. Associate Professor, Moscow Aviation Technical University
 2. [permalink](#dmitry-soshnikov-1)
 
 I do some samples in F# for the lectures and the book, but all that is within a single-user 
@@ -584,7 +589,8 @@ Russia towards F#.
 
 > F# encourages Reason Driven Development that leads to virtually bug-free code
 
-1. Boston based company that provides solutions to fixed income financial services 
+1. **Boston based company**
+2. Fixed income financial services 
 2. [permalink](#boston-based-company)
 
 We are using F# because it considerably increases speed of software development which is crucial 
@@ -604,8 +610,9 @@ F# computation engine could be seamlessly integrated with other parts of .NET-ba
 > Many attributes of the F# programming language make it an ideal choice 
 > for ...the exponentially growing volumes of molecular analysis data
 
-1. Dr. Robert Boissy
-2. Assistant Prof., University of Nebraska Medical Center
+1. **Dr. Robert Boissy**
+2. Assistant Professor
+3. University of Nebraska Medical Center
 2. [permalink](#robert-boissy)
 
 I am involved in bioinformatics and computational genomics as a faculty member at the 
