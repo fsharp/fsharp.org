@@ -294,15 +294,14 @@ but I suspect that the clarity and concision of F# code contributes greatly to i
 
 
 
-<div id="dave-wecker-quantum"> </div>
-
+<div id="microsoft-quantum-1"> </div>
 ---
 
 > F# is central to Microsoft’s quantum algorithm research
 
 1. Dave Wecker
 2. Microsoft Advanced Strategies and Research
-3. [permalink](#dave-wecker-quantum)
+3. [permalink](#microsoft-quantum-1)
 
 F# is central to Microsoft’s quantum algorithm research. The LIQUi|⟩ simulator (Language 
 Integrated Quantum Operations) presents an extension of F# that presents a 
@@ -319,12 +318,15 @@ found that bringing new users up to speed is a quick and painless process.
 
 <div class="keywords">simulation, quantum, Microsoft, modelling</div>
 
+
+<div id="tabbles-1"> </div>
 ---
 
 > ...the core logic is written in F# wherever possible...
 
 1. **Andrea D'Intino**
 2. [Yellow blue soft](http://tabbles-dev.blogspot.co.uk/2009/12/tabbles-museum-evolution-of-gui-and-of.html)
+3. [permalink](#tabbles-1)
 
 Yellow blue soft is a truly international Micro-ISV: We are a small, dynamic and international 
 team who is wondering why file-management is lagging 30 years behind and no one seems to care 
@@ -337,13 +339,16 @@ documents, in a totally new way.
 
 <div class="keywords">applications, business logic</div>
 
+
+<div id="forensic-software-1"> </div>
 ---
 
 > This software provides the user with maximum flexibility to move 
 > quickly through multiple images
 
 1. [**Forensic Software**](http://www.forensic-software.com/)
-
+2. [permalink](#forensic-software-1)
+3. 
 Forensic Comparison Software is the ideal tool for displaying 
 two digital images, side by side, for comparison purposes. This software provides the user with maximum 
 flexibility to move quickly through multiple images, in a manner that replaces the intensive manual comparison 
@@ -352,12 +357,16 @@ intuitive and easy to use features for enhancing digital images.
 
 <div class="keywords">security, algorithms</div>
 
+
+<div id="genetec-job-ad-1"> </div>
 ---
 
 > Software developers at Genetec use their technical aptitudes 
 > creatively in order to design and program new features
 
 1. Montreal-based IP Security Company
+2. [source](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690)
+3. [permalink](#genetec-job-ad-1)
 
 From a [job advertisement](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690) for F# programmers:  
 Software developers at Genetec use their technical aptitudes creatively 
@@ -372,12 +381,15 @@ using .NET 4.0 technologies in F#.
 
 <div class="keywords">distributed computing, security</div>
 
+
+<div id="grange-insurance-1"> </div>
 ---
 
 > Grange Insurance parallelized its rating engine to take better 
 > advantage of multicore server hardware
 
 1. [Grange Insurance](http://www.microsoft.com/casestudies/case_study_detail.aspx?casestudyid=4000005226)
+2. [permalink](#grange-insurance-1)
 
 For nearly 75 years, Grange Insurance has offered competitive products and services to policyholders 
 in more than a dozen U.S. states. To maintain its well-earned reputation and standing, the company decided to 
@@ -390,11 +402,15 @@ by weeks and making it far easier for independent agents to sell and service Gra
 
 <div class="keywords">insurance, parallelization, financial services</div>
 
+
+<div id="bohdan-szymanik-1"> </div>
 ---
 
 > Bohdan ... shows F#'s use for performing aggregations over large datasets, taking advantage of cpu and io parallelism
 
-1. [link to public talk](http://dnufba.preview.intergen.net.nz/Lists/Events%20Calendar/DispForm.aspx?ID=279)
+1. Bohdan Szymanik
+2. [source](http://dnufba.preview.intergen.net.nz/Lists/Events%20Calendar/DispForm.aspx?ID=279)
+3. [permalink](#bohdan-szymanik-1)
 
 Bohdan Szymanik, CTO at Kiwibank, is keen to show how he's been using F# for analysis tasks 
 within the bank. He'll provide an intro to the language then show its use for performing 
@@ -403,14 +419,16 @@ presentation through charting and image generation.
 
 <div class="keywords">financial services, data, analysis</div>
 
----
 
+<div id="dsyme-ad-predict-1"> </div>
+---
 
 > F#'s powerful type inference means less typing, more thinking
 
 1. Don Syme
 2. Principal Researcher, Microsoft
-3. [Eclipse Summit Europe 2009](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 49
+3. Eclipse Summit Europe 2009, [source](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 49
+4. [permalink](#dsyme-ad-predict-1)
 
 F# was used on Microsoft's AdPredict project for adCenter. This was a 4 week project with 4 machine learning experts involving a model 
 with 100million probabilistic variables and processing 6TB of training data in real-time. 2 weeks of CPU time 
@@ -427,12 +445,15 @@ were used during training. What We Observed:
 
  <div class="keywords">integration, machine learning, advertising, prediction</div>
 
+
+<div id="julien-laugel-1"> </div>
 ---
 
 > F# allows you to move smoothly in your programming style
 
-1. **Julien Laugel**
-2. [eurostocks.com](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 19
+1. **Julien Laugel**, eurostocks.com
+2. [source](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 19
+3. [permalink](#julien-laugel-1)
 
 I've been coding in F# lately, for a production task. F# allows you to move smoothly in your 
 programming style... I start with pure functional code, shift slightly towards an object-oriented style, 
@@ -455,11 +476,15 @@ languages and use them where they're needed.
 
 <div class="keywords">domain modeling, immutability</div>
 
+
+<div id="antonio-hayley-1"> </div>
 ---
 
 > I'd recommend F#... learning another language is one way to become a better programmer.
 
-1. Antonio Hayley on [StackOverflow](http://stackoverflow.com/a/179357)
+1. Antonio Hayley on StackOverflow
+2. [source](http://stackoverflow.com/a/179357)
+3. [permalink](#antonio-hayley-1)
 
 I'd recommend F# to a die hard C# developer just because learning another language 
 is one way a programmer can get out of a local maxima and 
@@ -470,11 +495,14 @@ and understanding of a programmer.
 
  <div class="keywords">learning, imperative, functional</div>
 
+
+<div id="jared-parsons-1"> </div>
 ---
 
 > ...I have to say I love the language...
 
-1. Jared Parsons on [StackOverflow](http://stackoverflow.com/a/2785476)
+1. Jared Parsons on StackOverflow, [source](http://stackoverflow.com/a/2785476)
+2. [permalink](#jared-parsons-1)
 
 Over the last 6 or so months, I've been working on a Vim emulation layer. This is the first major project I've ever done with F# 
 and I have to say I love the language. In many ways I used this project as a method of learning 
@@ -500,11 +528,15 @@ visually stunning 3D scenes. It was fully developed in managed code using the XN
 
  <div class="keywords">artificial intelligence, statistics, machine learning, TrueSkill</div>
 
+
+
+<div id="dmitry-soshnikov-1"> </div>
 ---
 
 > There is a noticeable interest in the developer community in Russia towards F#.
 
 1. Dmitry Soshnikov, Associate Professor, Moscow Aviation Technical University
+2. [permalink](#dmitry-soshnikov-1)
 
 I do some samples in F# for the lectures and the book, but all that is within a single-user 
 VS 2010 Pro installation. Right now we have a set of slides on functional programming with 
@@ -532,6 +564,38 @@ software solves – Fixed Income securities trading optimization. It is also ver
 F# computation engine could be seamlessly integrated with other parts of .NET-based software product. 
 
 <div class="keywords">fixed income, trading, optimization, financial services</div>
+
+
+<div id="robert-boissy"> </div>
+---
+
+> Many attributes of the F# programming language make it an ideal choice 
+> for ...the exponentially growing volumes of molecular analysis data
+
+1. Dr. Robert Boissy
+2. Assistant Prof., University of Nebraska Medical Center
+2. [permalink](#robert-boissy)
+
+I am involved in bioinformatics and computational genomics as a faculty member at the 
+University of Nebraska Medical Center (UNMC).  In an academic medical center like UNMC there 
+are heavy demands on my time and a wide range of different types of research projects that 
+I can end up working on.  I have used the F# programming language on both the .NET and Mono 
+frameworks for several of these projects, including one that involved a very productive 
+collaboration with IntelliFactory and the use of WebSharper (http://www.websharper.com/home).  
+You can visit the resulting [web site](http://app1/unmc.edu/fgx) and read the freely 
+available peer-reviewed scientific publication that describes the important 
+[infectious disease research](http://mbio.asm.org/content/4/1/e00537-12.long) 
+that this F# software development project facilitates.  I am always interested in 
+opportunities to work with professional software development enterprises whose teams include 
+developers with F# expertise, because I believe that many attributes of the F# programming 
+language make it an ideal choice for the development of software solutions that integrate 
+Electronic Health Record (EHR) data and the exponentially growing volumes of molecular analysis 
+data that can now be obtained from individual patients (e.g., personal genome DNA sequencing data).  
+There's an exciting future for F# in this huge, emerging, data-rich health care market.
+
+
+<div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
+
 
 
 <div id="advertisement-rating-and-ranking-at-microsoft"> </div>
