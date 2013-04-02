@@ -309,7 +309,8 @@ animation of a mock solar system.
 
 > I have now delivered three business critical projects written in F#. I am still waiting for the first bug to come in.
 
-1. [Colin Bull and Simon Cousins](http://www.simontylercousins.net/journal/2013/2/22/does-the-language-you-choose-make-a-difference.html)
+1. Simon Cousins
+2. [source](http://www.simontylercousins.net/journal/2013/2/22/does-the-language-you-choose-make-a-difference.html)
 
 I am both a C# dev and an F# dev. I can only offer subjective anecdotal evidence based 
 on my experience of delivering projects in both languages (I am too busy delivering 
