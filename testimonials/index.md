@@ -187,6 +187,29 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 
 <div class="keywords">data, analysis, calculation, financial services, derivatives</div>
 
+
+
+<div id="peter-sestoft-1"> </div>
+---
+
+> ...That's the reason we have chosen F# for our undergraduate functional programming class...
+
+1. **Prof. Peter Sestoft**
+2. [IT University of Copenhagen](http://www.itu.dk/people/sestoft/)
+3. [permalink](#peter-sestoft-1)
+
+F# has a beautiful simple but expressive language at its core, and many powerful features 
+built around that core language.  It can draw on all the power of the .NET libraries, 
+and runs on Windows, MacOS and Linux.  That's the reason we have chosen F# for our 
+undergraduate functional programming class as well as our 
+undergraduate programming language class [(link)](http://www.itu.dk/people/sestoft/plc/)
+
+<div class="keywords">teching, research, cross-platform</div>
+
+
+
+
+<div id="darren-platt-1"> </div>
 ---
 
 > F# rocks... building out various algorithms for DNA processing here and 
@@ -194,11 +217,12 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 
 1. **Darren Platt**
 2. Amyris Biotechnology, [source](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
+3. [permalink](#darren-platt-1)
 
 With F#... we have written a complete genome re-sequencing pipeline with interface, algorithms, 
 reporting in ~5K lines and it has been incredibly reliable, fast  and easy to maintain.
 
-F# rocks 1. building out various algorithms for DNA processing here and it's like a drug.  Just 
+F# rocks - we're building out various algorithms for DNA processing here and it's like a drug.  Just 
 implemented a suffix tree in 150 lines that can index 200,000 bases a second ;)    We have probably 
 10-20K lines of code for many scientific applications ranging from a full genome sequencing 
 pipeline that reconstructs and annotated yeast strains, to simulators for various processes 
@@ -214,24 +238,6 @@ a web page without jumping through hoops.
 With Units of Measure I started labelling the coordinates as one or zero based and immediately found a bug where I'd casually mixed the two systems. Yay F#!
 
 <div class="keywords">biotechnology, units of measure, bioinformatics</div>
-
-
-<div id="peter-sestoft-1"> </div>
----
-
-> ...That's the reason we have chosen F# for our undergraduate functional programming class...
-
-1. **Dr. Peter Sestoft**
-2. [IT University of Copenhagen](http://www.itu.dk/people/sestoft/)
-3. [permalink](#peter-sestoft-1)
-
-F# has a beautiful simple but expressive language at its core, and many powerful features 
-built around that core language.  It can draw on all the power of the .NET libraries, 
-and runs on Windows, MacOS and Linux.  That's the reason we have chosen F# for our 
-undergraduate functional programming class as well as our 
-undergraduate programming language class [(link)](http://www.itu.dk/people/sestoft/plc/)
-
-<div class="keywords">teching, research, cross-platform</div>
 
 
 
