@@ -373,6 +373,23 @@ documents, in a totally new way.
 <div class="keywords">applications, business logic</div>
 
 
+
+<div id="byron-cook-1"> </div>
+---
+
+> F# is the night vision goggles I need when I go into the dark and attempt to solve previously unsolved problems.  
+
+1. [**Professor Byron Cook**](http://research.microsoft.com/en-us/people/bycook/)
+2. [permalink](#byron-cook-1)
+
+I’m one of the first users of F#, since 2004. In my work (e.g. SLAM, Terminator, Zapato, T2, etc)
+I find that F# is the night vision goggles I need when I go into the dark and attempt to solve 
+previously unsolved problems.  Everything becomes simple and clear when expressed in F#.  
+
+<div class="keywords">verification, algorithms, analysis, problem solving</div>
+
+
+
 <div id="forensic-software-1"> </div>
 ---
 
