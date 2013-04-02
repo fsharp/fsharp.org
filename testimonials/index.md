@@ -380,7 +380,7 @@ documents, in a totally new way.
 
 1. [**Forensic Software**](http://www.forensic-software.com/)
 2. [permalink](#forensic-software-1)
-3. 
+
 Forensic Comparison Software is the ideal tool for displaying 
 two digital images, side by side, for comparison purposes. This software provides the user with maximum 
 flexibility to move quickly through multiple images, in a manner that replaces the intensive manual comparison 
