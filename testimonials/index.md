@@ -69,7 +69,8 @@ analysis of large data sets. My experience has been a very positive one.
 
 1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
 2. University of Victoria, Canada
-3. [permalink](#horspool-1)
+3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
+4. [permalink](#horspool-1)
 
 F# programs tend to be much shorter than their equivalents in other languages. The 
 fewer lines of code required, of course, the higher the productivity. When F# is combined 
@@ -264,6 +265,7 @@ code that ran in equivalent time to C++ code or in some cases faster.
 
 1. **Prof. Susan Eisenbach**
 2. Imperial College, United Kingdom 
+3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
 
 Functional languages are ideal for teaching clear thinking, for solving problems 
 amenable to code solutions and it levels the playing field between beginners and 
@@ -292,6 +294,7 @@ F#. With its new tools, the bank can speed development by 50 percent or more, im
 
 1. **Prof David Walker**
 2. Princeton University
+3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
 
 Our graduate course on Parallelism this Fall is full, even though it assumes no 
 experience with functional programming or F#. The students are preparing the courseware 
