@@ -105,6 +105,8 @@ financing, hedging, and logistical support....
 ---
 [Click to add a new testimonial. Just log on to github, edit and send the pull request! Or email fsharp@fsharp.org](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
 
+
+
 <div id="credit-suisse-abstract"> </div>
 
 ---
@@ -213,6 +215,26 @@ With Units of Measure I started labelling the coordinates as one or zero based a
 
 <div class="keywords">biotechnology, units of measure, bioinformatics</div>
 
+
+<div id="peter-sestoft-1"> </div>
+---
+
+> ...That's the reason we have chosen F# for our undergraduate functional programming class...
+
+1. **Dr. Peter Sestoft**
+2. [IT University of Copenhagen](http://www.itu.dk/people/sestoft/)
+3. [permalink](#peter-sestoft-1)
+
+F# has a beautiful simple but expressive language at its core, and many powerful features 
+built around that core language.  It can draw on all the power of the .NET libraries, 
+and runs on Windows, MacOS and Linux.  That's the reason we have chosen F# for our 
+undergraduate functional programming class as well as our 
+undergraduate programming language class [(link)](http://www.itu.dk/people/sestoft/plc/)
+
+<div class="keywords">teching, research, cross-platform</div>
+
+
+
 ---
 
 > I evaluated F# and it and found that for certain tasks it was better 
@@ -243,7 +265,7 @@ experienced programmers. The first programming language taught has a substantial
 influence on what language students use when they have a free choice. F#, once it 
 is platform independent, has the potential to become the first programming language. 
 
-<div class="keywords">teaching, research</div>
+<div class="keywords">teaching, research, cross-platform</div>
 
 ---
 
@@ -272,7 +294,7 @@ with continuous, time-varying behaviors. F#, with its rich graphics libraries, m
 trivial to construct a super-fun assignment involving purely functional and interactive 
 animation of a mock solar system.
 
-<div class="keywords">teaching, research</div>
+<div class="keywords">teaching, research, cross-platform</div>
 
 ---
 
