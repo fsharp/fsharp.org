@@ -198,7 +198,7 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 2. [IT University of Copenhagen](http://www.itu.dk/people/sestoft/)
 3. [permalink](#peter-sestoft-1)
 
-F# has a beautiful simple but expressive language at its core, and many powerful features 
+F# has a beautiful, simple but expressive language at its core, and many powerful features 
 built around that core language.  It can draw on all the power of the .NET libraries, 
 and runs on Windows, MacOS and Linux.  That's the reason we have chosen F# for our 
 undergraduate functional programming class as well as our 
