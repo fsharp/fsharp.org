@@ -188,12 +188,16 @@ div#contentMain.testimonials ul li {
   }
 }
 
+.contributeTestimonials {
+  padding: 30px;
+  margin: 30px;
+}
+
 .contributeTestimonials h1 {
   font-size:180%;
   margin:10px 10px 10px 0px;
-  padding:30px;
-  margin:30px;
 }
+
 .contributeTestimonials p {
   font-size:100%;
   margin:0px;
