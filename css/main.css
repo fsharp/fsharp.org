@@ -187,3 +187,14 @@ div#contentMain.testimonials ul li {
     margin-right:0px;
   }
 }
+
+.contributeTestimonials h1 {
+  font-size:300%;
+  margin:10px;
+}
+.contributeTestimonials p {
+  margin:0px;
+  padding:0px;
+}
+
+
