@@ -103,7 +103,7 @@ financing, hedging, and logistical support....
 
 
 <div class="hero-unit visible-desktop contributeTestimonials">
-  <h1>Contribute testimonials!</h1>
+  <h1>Contribute testimonials</h1>
   <p>
     To add a new testimonial, log on to GitHub,
     <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send the pull request!
