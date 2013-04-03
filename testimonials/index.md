@@ -106,8 +106,10 @@ financing, hedging, and logistical support....
   <h1>Contribute testimonials</h1>
   <p>
     To add a new testimonial, log on to GitHub,
-    <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send the pull request!
-    You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.
+    <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send the pull request.    
+  </p>
+  <p>
+  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.
   </p>
 </div>
 
