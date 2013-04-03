@@ -102,15 +102,17 @@ financing, hedging, and logistical support....
 <div class="keywords">comodities, trading, risk, analysis</div>
 
 
-
----
-[Click to add a new testimonial. Just log on to github, edit and send the pull request! Or email fsharp@fsharp.org](https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md)
-
+<div class="hero-unit visible-desktop contributeTestimonials">
+  <h1>Contribute testimonials!</h1>
+  <p>
+    To add a new testimonial, log on to GitHub,
+    <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send the pull request!
+    You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.
+  </p>
+</div>
 
 
 <div id="credit-suisse-abstract"> </div>
-
----
 
 > At Credit Suisse, we've been using F# to develop quantitative models for financial products
 
