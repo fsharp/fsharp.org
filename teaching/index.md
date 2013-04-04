@@ -55,6 +55,22 @@ Studio 2010, there is an F# mode for Emacs and open-source language binding for 
 
 ## Books using F&#35;
 
+#### [Functional Programming Using F#](http://www.cambridge.org/9781107019027)
+
+<img src="files/fpbook.jpg" style="float:right;margin:15px;" />
+
+Michael R. Hansen and Hans Rischel
+
+This introduction to the principles of functional programming using F# 
+shows how to apply theoretical concepts to produce succinct and elegant 
+programs. Coverage includes advanced features in the .NET library, the 
+imperative features of F# and topics such as sequences, computation 
+expressions and asynchronous computations. The book contains a broad 
+spectrum of examples and exercises. 
+
+Further material comprising the programs in the book, lecture slides and 
+mini-projects are found [on the book web site](http://www.imm.dtu.dk/~mire/FSharpBook/).
+
 #### [Programming Language Concepts](http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555)
 
 <img src="files/sestoft.png" style="float:right;margin:15px;" />
