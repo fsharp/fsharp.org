@@ -36,8 +36,8 @@ function feedLoaded(result) {
 }
 
 $(function () {
-  var feed = new google.feeds.Feed("http://feeds.feedburner.com/planet_fsharp?format=xml");
-//  var feed = new google.feeds.Feed("http://fpish.net/rss/blogs/tag/1/f~23");
+//  var feed = new google.feeds.Feed("http://feeds.feedburner.com/planet_fsharp?format=xml");
+  var feed = new google.feeds.Feed("http://fpish.net/rss/blogs/tag/1/f~23");
   feed.setNumEntries(20);
   feed.load(feedLoaded);
 });
