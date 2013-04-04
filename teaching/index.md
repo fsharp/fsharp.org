@@ -71,6 +71,8 @@ spectrum of examples and exercises.
 Further material comprising the programs in the book, lecture slides and 
 mini-projects are found [on the book web site](http://www.imm.dtu.dk/~mire/FSharpBook/).
 
+<div style="clear:both;">&#160;</div>
+
 #### [Programming Language Concepts](http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555)
 
 <img src="files/sestoft.png" style="float:right;margin:15px;" />
