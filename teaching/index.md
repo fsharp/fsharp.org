@@ -55,9 +55,9 @@ Studio 2010, there is an F# mode for Emacs and open-source language binding for 
 
 ## Books using F&#35;
 
-#### [Functional Programming Using F#](http://www.cambridge.org/9781107019027)
-
 <img src="files/fpbook.jpg" style="float:right;margin:15px;" />
+
+#### [Functional Programming Using F#](http://www.cambridge.org/9781107019027)
 
 Michael R. Hansen and Hans Rischel
 
@@ -73,9 +73,9 @@ mini-projects are found [on the book web site](http://www.imm.dtu.dk/~mire/FShar
 
 <div style="clear:both;">&#160;</div>
 
-#### [Programming Language Concepts](http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555)
-
 <img src="files/sestoft.png" style="float:right;margin:15px;" />
+
+#### [Programming Language Concepts](http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555)
 
 Peter Sestoft  
 
