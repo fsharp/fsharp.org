@@ -63,29 +63,10 @@ analysis of large data sets. My experience has been a very positive one.
 
 
 
-<div id="trafigura-ad-1"> </div>
-
----
-
-> Our risk and analytic capabilities (...) are entirely written in F#
-
-1. **Lawrence Austen**
-2. Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten)
-3. [source](http://cs.hubfs.net/topic/None/59847), [permalink](#trafigura-ad-1)
-
-...work directly with Trafigura's Chief Risk Officer/Head of Quantitative Analysis, 
-cranking code and rapidly extending our risk and analytic capabilities, which are entirely 
-written in F#. 
-
-Trafigura Limited engages in the supply and offtake of crude oil, petroleum products, liquefied 
-petroleum gas, metals, and metal ores and concentrates worldwide. Its solutions include trading, 
-financing, hedging, and logistical support....
-
-<div class="keywords">comodities, trading, risk, analysis</div>
-
 
 
 <div id="credit-suisse-abstract"> </div>
+---
 
 > At Credit Suisse, we've been using F# to develop quantitative models for financial products
 
@@ -221,6 +202,27 @@ The 10x performance gain was verified by the client.
 <div class="keywords">financial services, insurance, actuarial</div>
 
 
+<div id="trafigura-ad-1"> </div>
+
+---
+
+> Our risk and analytic capabilities (...) are entirely written in F#
+
+1. **Lawrence Austen**
+2. Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten)
+3. [source](http://cs.hubfs.net/topic/None/59847), [permalink](#trafigura-ad-1)
+
+...work directly with Trafigura's Chief Risk Officer/Head of Quantitative Analysis, 
+cranking code and rapidly extending our risk and analytic capabilities, which are entirely 
+written in F#. 
+
+Trafigura Limited engages in the supply and offtake of crude oil, petroleum products, liquefied 
+petroleum gas, metals, and metal ores and concentrates worldwide. Its solutions include trading, 
+financing, hedging, and logistical support....
+
+<div class="keywords">comodities, trading, risk, analysis</div>
+
+
 ---
 
 > ...we have decided to use F# as our functional language to have automatic integration with rest of the system...
@@ -236,6 +238,7 @@ best fit to write AI stuff. We are planning to use F# as the primary programming
 area because of its interoperability with .NET. 
 
 <div class="keywords">security, integration</div>
+
 
 ---
 
