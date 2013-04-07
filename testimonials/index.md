@@ -394,6 +394,23 @@ were used during training. Benefits included  **Quick Coding** - F#'s powerful t
 <div class="keywords">integration, machine learning, advertising, prediction</div>
          
 
+
+<div id="path-of-go"> </div>
+---
+
+> ...The AI is implemented in F#...
+
+1. [Microsoft] [Path of Go]
+2. [video source](http://www.youtube.com/watch?v=bb4igmbv_Oc), [permalink](#path-of-go)
+
+Path of Go is powered by three technologies...: an AI capable of playing Go, the F# language, 
+and TrueSkill to match online players. The AI is implemented in F# and meets the challenge of 
+running efficiently in the .net compact framework on Xbox 360. This game places you in a number of 
+visually stunning 3D scenes. It was fully developed in managed code using the XNA environment.
+
+ <div class="keywords">artificial intelligence, statistics, machine learning, TrueSkill</div>
+ 
+ 
 <div id="tabbles-1"> </div>
 ---
 
@@ -643,22 +660,6 @@ What I find the most amazing about F# is just how concise of a language it is. T
 the bulk of the logic yet it only comprises 30% of the overall code base.
 
  <div class="keywords">learning, conciseness</div>
-
-
-<div id="path-of-go"> </div>
----
-
-> ...The AI is implemented in F#...
-
-1. [Path of Go]
-2. [source](http://www.youtube.com/watch?v=bb4igmbv_Oc), [permalink](#path-of-go)
-
-Path of Go is powered by three technologies...: an AI capable of playing Go, the F# language, 
-and TrueSkill to match online players. The AI is implemented in F# and meets the challenge of 
-running efficiently in the .net compact framework on Xbox 360. This game places you in a number of 
-visually stunning 3D scenes. It was fully developed in managed code using the XNA environment.
-
- <div class="keywords">artificial intelligence, statistics, machine learning, TrueSkill</div>
 
 
 
