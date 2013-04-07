@@ -84,17 +84,6 @@ financing, hedging, and logistical support....
 <div class="keywords">comodities, trading, risk, analysis</div>
 
 
-<div class="hero-unit visible-desktop contributeTestimonials">
-  <h1>Contribute testimonials</h1>
-  <p>
-    To add a new testimonial, log on to GitHub,
-    <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send the pull request.    
-  </p>
-  <p>
-  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.
-  </p>
-</div>
-
 
 <div id="credit-suisse-abstract"> </div>
 
@@ -197,7 +186,13 @@ by weeks and making it far easier for independent agents to sell and service Gra
 
 <div class="keywords">insurance, parallelization, financial services</div>
 
-
+<div class="hero-unit visible-desktop contributeTestimonials">
+  <h3>Contribute testimonials</h3>
+    <p> To add a new testimonial, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send the pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.
+</p>
+</div>
+                
+                
 
 <div id="aviva-flying-frog-1"> </div>
 ---
