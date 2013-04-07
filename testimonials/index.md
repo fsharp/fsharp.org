@@ -295,7 +295,8 @@ still finish my project with realistic code. You're never disappointed in any ph
 
 > I have now delivered three business critical projects written in F#. I am still waiting for the first bug to come in.
 
-1. **Simon Cousins**
+1. **UK-based Power Company**
+2. Simon Cousins
 2. [source](http://www.simontylercousins.net/journal/2013/2/22/does-the-language-you-choose-make-a-difference.html)
 
 I am both a C# dev and an F# dev. I can only offer subjective anecdotal evidence based 
@@ -317,8 +318,9 @@ software to do anything else).
 
 > Around 95% of the code in these projects has been developed in F#
 
-1. [F# in Advertisement Ranking & Rating @ Microsoft](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
-2. [permalink](#advertisement-rating-and-ranking-at-microsoft)
+1. **Microsoft**
+2. F# in Advertisement Ranking & Rating @ Microsoft
+3. [source](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf), [permalink](#advertisement-rating-and-ranking-at-microsoft)
 
 Around 95% of the code in these projects has been developed in F#. F# allowed for rapid development 
 of prototypes, and thus also rapid verification or falsification of the underlying mathematical models.
@@ -400,7 +402,7 @@ were used during training. Benefits included  **Quick Coding** - F#'s powerful t
 
 > ...The AI is implemented in F#...
 
-1. [Microsoft] [Path of Go]
+1. **Microsoft**, **Path of Go**
 2. [video source](http://www.youtube.com/watch?v=bb4igmbv_Oc), [permalink](#path-of-go)
 
 Path of Go is powered by three technologies...: an AI capable of playing Go, the F# language, 
