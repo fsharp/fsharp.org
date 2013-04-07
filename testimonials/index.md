@@ -61,24 +61,6 @@ analysis of large data sets. My experience has been a very positive one.
 
 <div class="keywords">energy, trading, calculations, ETL, extract, transform, load</div>
 
-<div id="horspool-1"> </div>
-
----
-
-> When F# is combined with Visual Studio... productivity goes through the roof!
-
-1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
-2. University of Victoria, Canada
-3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
-4. [permalink](#horspool-1)
-
-F# programs tend to be much shorter than their equivalents in other languages. The 
-fewer lines of code required, of course, the higher the productivity. When F# is combined 
-with Visual Studio, which provides help with remembering the methods attached to different 
-data types and how to use those methods, productivity goes through the roof!
-
-<div class="keywords">teaching, research</div>
-
 
 
 <div id="trafigura-ad-1"> </div>
@@ -134,13 +116,95 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 <div class="keywords">financial services, analysis, fixed income, derivatives, financial modelling</div>
 
 
-<div id="aviva-flying-frog-1"> </div>
+<div id="advertisement-rating-and-ranking-at-microsoft"> </div>
+---
 
+> Around 95% of the code in these projects has been developed in F#
+
+1. [F# in Advertisement Ranking & Rating @ Microsoft](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
+2. [permalink](#advertisement-rating-and-ranking-at-microsoft)
+
+Around 95% of the code in these projects has been developed in F#. F# allowed for rapid development 
+of prototypes, and thus also rapid verification or falsification of the underlying mathematical models.
+Complex algorithms, for example to compute Nash equilibria in game theory, can be expressed 
+succinctly.  Units of measure reduced the chance of errors dramatically: 
+Prices, probabilities, derivatives, etc. can already be kept apart at compile time.
+
+ <div class="keywords">advertising, ranking, rating, machine learning, statistics</div>
+ 
+ 
+ 
+<div id="handelsbanken-1"> </div>
+---
+
+> The performance is phenomenal.  We can now re-calculate the entire bank portfolio from scratch in 
+> less than a second and the response-time for single deal verification calculation is far below 100 milliseconds.
+
+1. Jan Erik Ekelof, M.Sc.
+2. Head IT-architect and lead developer Counterparty Risk
+3. Handelsbanken 
+4. [permalink](#handelsbanken-1)
+ 
+ I first evaluated F# back in 2006 - 2007 for the purpose of math oriented high performance applications within 
+ Financial Risk. I got in spring 2009 a mission to implement a new Real-time Counter-party Risk system covering 
+ all possible present and future deal types within the entire bank. The effort was started with only three 
+ resources, me as architect and lead developer and two colleagues – one risk expert and one high performing 
+ developer. Our first intention was to use C#, but I did a quick proof-of-concept with F# implementing a low 
+ level TCP/IP-communication to an existing risk-system. This showed us and our  management that F# could give 
+ us a real productivity boost due to its support for multiple paradigms and functional concepts together with 
+ an impressive support for multi-threading. 
+ 
+ Our first delivery is approaching rapidly and F# has proved itself as a real life-saver. We started off using 
+ C# in many places but have since then moved almost entirely into F# due to its ability to reduce the amount of 
+ code required and its simplicity when developing massive parallel computations. The performance is phenomenal. 
+ We can now re-calculate the entire bank portfolio from scratch in less than a second and the response-time for 
+ single deal verification calculation is far below 100 milliseconds(the original demand was 200 milliseconds to 
+ make the application usable for electronic markets). Although some gains are to be attributed to how we have built 
+ our calculation models, F# made it possible for us to implement our algorithms and techniques with very little code 
+ and with a huge similarity to the original mathematical models and regulations (which is important for verification 
+ of correctness). We have also been able to use the support for Async-workflows producing code that is simple and 
+ clear and easy to understand but still runs in parallel when required. 
+ 
+ The present application contains 35 to 40.000 lines of F#-code and an equal amount of C#-code. However, our 
+ estimate is that the F# code contains at least 80% of the functionality (which is pretty amazing!). Our experience 
+ shows us that the number of code lines shrinks with a ratio of 1/2 to 1/4 by just porting functionality from 
+ C# to F# (not counting single character or empty lines in the C#-code). We have by remodeling increased the 
+ ratio to the area of 1/5 to 1/8, where the remodeling involves replacing object oriented constructs with 
+ functional ones (and actually removing mutable states). One example from last week was a limit-utilization 
+ module written in F# but using an object-oriented approach containing +300 lines of code. I rewrote it to 
+ below 70 lines of code just by shifting paradigm (and the rewrite made it much easier to understand and verify)! 
+ 
+<div class="keywords">financial services, analysis, counterparty risk, fixed income, derivatives, financial modelling</div>
+
+
+<div id="grange-insurance-1"> </div>
+---
+
+> Grange Insurance parallelized its rating engine to take better 
+> advantage of multicore server hardware
+
+1. [**Grange Insurance**](http://www.microsoft.com/casestudies/case_study_detail.aspx?casestudyid=4000005226)
+2. [permalink](#grange-insurance-1)
+
+For nearly 75 years, Grange Insurance has offered competitive products and services to policyholders 
+in more than a dozen U.S. states. To maintain its well-earned reputation and standing, the company decided to 
+enhance its rating engine—a software tool for rating policies and performing what-if modeling, impact analyses, 
+and other vital activities. Working with the Sophic Group and using the Microsoft Visual Studio Team System development 
+environment and F# programming language, Grange Insurance parallelized its rating engine to take
+better advantage of multicore server hardware, and in so doing garnered significant performance benefits. 
+Processes that used to require hours now take just minutes, enabling the company to trim time-to-market 
+by weeks and making it far easier for independent agents to sell and service Grange products.
+
+<div class="keywords">insurance, parallelization, financial services</div>
+
+
+
+<div id="aviva-flying-frog-1"> </div>
 ---
 
 > Aviva developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all...
 
-1. [**Flying Frog Consultancy**](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [source 2](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [source 3](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
+1. **Aviva**, via [Flying Frog Consultancy](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [source 2](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [source 3](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production)
 2. [permalink](#aviva-flying-frog-1)
 
 Aviva (one of the world's largest insurance companies) have F# code in production, are starting several 
@@ -192,6 +256,44 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 
 <div class="keywords">data, analysis, calculation, financial services, derivatives</div>
 
+
+
+<div id="horspool-1"> </div>
+
+---
+
+> I have now delivered three business critical projects written in F#. I am still waiting for the first bug to come in.
+
+1. **Simon Cousins**
+2. [source](http://www.simontylercousins.net/journal/2013/2/22/does-the-language-you-choose-make-a-difference.html)
+
+I am both a C# dev and an F# dev. I can only offer subjective anecdotal evidence based 
+on my experience of delivering projects in both languages (I am too busy delivering 
+software to do anything else). 
+ 
+ That said, the one stat in the summary that I find most compelling is the defect rate. 
+ I have now delivered three business critical projects written in F#. I am still waiting 
+ for the first bug to come in. This is not the case with the C# projects I have delivered. 
+ I will continue to monitor and report on this. It might be that I am just on a lucky streak, 
+ but I suspect that the clarity and concision of F# code contributes greatly to its correctness.
+ 
+ <div class="keywords">energy, extract, transform, load, ETL</div>
+ 
+---
+
+> When F# is combined with Visual Studio... productivity goes through the roof!
+
+1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
+2. University of Victoria, Canada
+3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
+4. [permalink](#horspool-1)
+
+F# programs tend to be much shorter than their equivalents in other languages. The 
+fewer lines of code required, of course, the higher the productivity. When F# is combined 
+with Visual Studio, which provides help with remembering the methods attached to different 
+data types and how to use those methods, productivity goes through the roof!
+
+<div class="keywords">teaching, research</div>
 
 
 <div id="peter-sestoft-1"> </div>
@@ -310,25 +412,6 @@ animation of a mock solar system.
 
 <div class="keywords">teaching, research, cross-platform</div>
 
----
-
-> I have now delivered three business critical projects written in F#. I am still waiting for the first bug to come in.
-
-1. **Simon Cousins**
-2. [source](http://www.simontylercousins.net/journal/2013/2/22/does-the-language-you-choose-make-a-difference.html)
-
-I am both a C# dev and an F# dev. I can only offer subjective anecdotal evidence based 
-on my experience of delivering projects in both languages (I am too busy delivering 
-software to do anything else). 
- 
-That said, the one stat in the summary that I find most compelling is the defect rate. 
-I have now delivered three business critical projects written in F#. I am still waiting 
-for the first bug to come in. This is not the case with the C# projects I have delivered. 
-I will continue to monitor and report on this. It might be that I am just on a lucky streak, 
-but I suspect that the clarity and concision of F# code contributes greatly to its correctness.
-
-<div class="keywords">energy, extract, transform, load, ETL</div>
-
 
 
 <div id="microsoft-quantum-1"> </div>
@@ -436,25 +519,6 @@ using .NET 4.0 technologies in F#.
 <div class="keywords">distributed computing, security</div>
 
 
-<div id="grange-insurance-1"> </div>
----
-
-> Grange Insurance parallelized its rating engine to take better 
-> advantage of multicore server hardware
-
-1. [**Grange Insurance**](http://www.microsoft.com/casestudies/case_study_detail.aspx?casestudyid=4000005226)
-2. [permalink](#grange-insurance-1)
-
-For nearly 75 years, Grange Insurance has offered competitive products and services to policyholders 
-in more than a dozen U.S. states. To maintain its well-earned reputation and standing, the company decided to 
-enhance its rating engine—a software tool for rating policies and performing what-if modeling, impact analyses, 
-and other vital activities. Working with the Sophic Group and using the Microsoft Visual Studio Team System development 
-environment and F# programming language, Grange Insurance parallelized its rating engine to take
-better advantage of multicore server hardware, and in so doing garnered significant performance benefits. 
-Processes that used to require hours now take just minutes, enabling the company to trim time-to-market 
-by weeks and making it far easier for independent agents to sell and service Grange products.
-
-<div class="keywords">insurance, parallelization, financial services</div>
 
 
 <div id="bohdan-szymanik-1"> </div>
@@ -657,20 +721,4 @@ There's an exciting future for F# in this huge, emerging, data-rich health care 
 <div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
 
 
-
-<div id="advertisement-rating-and-ranking-at-microsoft"> </div>
----
-
-> Around 95% of the code in these projects has been developed in F#
-
-1. [F# in Advertisement Ranking & Rating @ Microsoft](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
-2. [permalink](#advertisement-rating-and-ranking-at-microsoft)
-
-Around 95% of the code in these projects has been developed in F#. F# allowed for rapid development 
-of prototypes, and thus also rapid verification or falsification of the underlying mathematical models.
-Complex algorithms, for example to compute Nash equilibria in game theory, can be expressed 
-succinctly.  Units of measure reduced the chance of errors dramatically: 
-Prices, probabilities, derivatives, etc. can already be kept apart at compile time.
-
- <div class="keywords">advertising, ranking, rating, machine learning, statistics</div>
 
