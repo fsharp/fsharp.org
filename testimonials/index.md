@@ -88,6 +88,8 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
  
  
 <div id="handelsbanken-1"> </div>
+<br> </br>
+
 ---
 
 > The performance is phenomenal.  We can now re-calculate the entire bank portfolio from scratch in 
