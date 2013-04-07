@@ -275,7 +275,22 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 
 
 
-<div id="horspool-1"> </div>
+<div id="julien-laugel-1"> </div>
+---
+
+> F# allows you to move smoothly in your programming style
+
+1. **Julien Laugel**, eurostocks.com
+2. [source](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 19, [permalink](#julien-laugel-1)
+
+I've been coding in F# lately, for a production task. F# allows you to move smoothly in your 
+programming style... I start with pure functional code, shift slightly towards an object-oriented style, 
+and in production code, I sometimes have to do some imperative programming. I can start with a pure idea, and 
+still finish my project with realistic code. You're never disappointed in any phase of the project!
+
+<div class="keywords">imperative, functional, financial services, portfolio analysis</div>
+ 
+ 
 ---
 
 > I have now delivered three business critical projects written in F#. I am still waiting for the first bug to come in.
@@ -295,102 +310,6 @@ software to do anything else).
  
  <div class="keywords">energy, extract, transform, load, ETL</div>
  
----
-
-> When F# is combined with Visual Studio... productivity goes through the roof!
-
-1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
-2. University of Victoria, Canada
-3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx), [permalink](#horspool-1)
-
-F# programs tend to be much shorter than their equivalents in other languages. The 
-fewer lines of code required, of course, the higher the productivity. When F# is combined 
-with Visual Studio, which provides help with remembering the methods attached to different 
-data types and how to use those methods, productivity goes through the roof!
-
-<div class="keywords">teaching, research</div>
-
-
-<div id="peter-sestoft-1"> </div>
----
-
-> ...That's the reason we have chosen F# for our undergraduate functional programming class...
-
-1. **Prof. Peter Sestoft**
-2. [IT University of Copenhagen](http://www.itu.dk/people/sestoft/)
-3. [permalink](#peter-sestoft-1)
-
-F# has a beautiful, simple but expressive language at its core, and many powerful features 
-built around that core language.  It can draw on all the power of the .NET libraries, 
-and runs on Windows, MacOS and Linux.  That's the reason we have chosen F# for our 
-undergraduate functional programming class as well as our 
-undergraduate programming language class [(link)](http://www.itu.dk/people/sestoft/plc/)
-
-<div class="keywords">teching, research, cross-platform</div>
-
-
-
-
----
-
-> F#...levels the playing field between beginners and experienced programmers.
-
-1. **Prof. Susan Eisenbach**
-2. Imperial College, United Kingdom 
-3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
-
-Functional languages are ideal for teaching clear thinking, for solving problems 
-amenable to code solutions and it levels the playing field between beginners and 
-experienced programmers. The first programming language taught has a substantial 
-influence on what language students use when they have a free choice. F#, once it 
-is platform independent, has the potential to become the first programming language. 
-
-<div class="keywords">teaching, research, cross-platform</div>
-
-
----
-
-> F#...made it trivial... 
-
-1. **Prof David Walker**
-2. Princeton University
-3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
-
-Our graduate course on Parallelism this Fall is full, even though it assumes no 
-experience with functional programming or F#. The students are preparing the courseware 
-themselves, and one of the topics we are studying is functional reactive programming (FRP) 
-with continuous, time-varying behaviors. F#, with its rich graphics libraries, made it 
-trivial to construct a super-fun assignment involving purely functional and interactive 
-animation of a mock solar system.
-
-<div class="keywords">teaching, research, cross-platform</div>
-
-
-<div id="simao-sousa-1"> </div>
-<br> </br>
----
-
-> F# is very popular among my students for the programming projects
-
-1. **Simão Sousa**
-2. University of Beira Interior, Portugal
-3. [permalink](#simao-sousa-1)
-
-I teach and use OCaml and F# in my lectures (Theory of Computation, Formal Languages and Compiler 
-Design, Formal Methods, Applied Cryptography), and F# is very popular among my students for the 
-programming projects.  Most of the students that are supervised by me (undergraduate, master 
-but also PhD) use F#  as the underlying programming language. This is even more the case now since
-part of our research directions includes working on cloud/distributed systems. 
-
-F# and its programming environment  leverage with no doubt the ability and the productivity of my 
-students. This is, in my opinion,  for two main reasons. First, F# allows the student, but also the 
-researcher like me,  to focus on the key aspects of his creation, while, secondly,  enhancing  
-technologically the work done in a so remarkable and facilitated way.  Once drawn in paper and pencil, 
-an algorithm is naturally implemented in F# and easily deployed in whatever is its execution context.
-
-I am  definitively a strong believer of F# and amazed by the language and its community.
-
-<div class="keywords">teaching, research, cross-platform</div>
 
 
 <div id="advertisement-rating-and-ranking-at-microsoft"> </div>
@@ -496,6 +415,103 @@ documents, in a totally new way.
 <div class="keywords">applications, business logic</div>
 
 
+<div id="horspool-1"> </div>
+---
+
+> When F# is combined with Visual Studio... productivity goes through the roof!
+
+1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
+2. University of Victoria, Canada
+3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx), [permalink](#horspool-1)
+
+F# programs tend to be much shorter than their equivalents in other languages. The 
+fewer lines of code required, of course, the higher the productivity. When F# is combined 
+with Visual Studio, which provides help with remembering the methods attached to different 
+data types and how to use those methods, productivity goes through the roof!
+
+<div class="keywords">teaching, research</div>
+
+
+<div id="peter-sestoft-1"> </div>
+---
+
+> ...That's the reason we have chosen F# for our undergraduate functional programming class...
+
+1. **Prof. Peter Sestoft**
+2. [IT University of Copenhagen](http://www.itu.dk/people/sestoft/)
+3. [permalink](#peter-sestoft-1)
+
+F# has a beautiful, simple but expressive language at its core, and many powerful features 
+built around that core language.  It can draw on all the power of the .NET libraries, 
+and runs on Windows, MacOS and Linux.  That's the reason we have chosen F# for our 
+undergraduate functional programming class as well as our 
+undergraduate programming language class [(link)](http://www.itu.dk/people/sestoft/plc/)
+
+<div class="keywords">teching, research, cross-platform</div>
+
+
+
+
+---
+
+> F#...levels the playing field between beginners and experienced programmers.
+
+1. **Prof. Susan Eisenbach**
+2. Imperial College, United Kingdom 
+3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
+
+Functional languages are ideal for teaching clear thinking, for solving problems 
+amenable to code solutions and it levels the playing field between beginners and 
+experienced programmers. The first programming language taught has a substantial 
+influence on what language students use when they have a free choice. F#, once it 
+is platform independent, has the potential to become the first programming language. 
+
+<div class="keywords">teaching, research, cross-platform</div>
+
+
+---
+
+> F#...made it trivial... 
+
+1. **Prof David Walker**
+2. Princeton University
+3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
+
+Our graduate course on Parallelism this Fall is full, even though it assumes no 
+experience with functional programming or F#. The students are preparing the courseware 
+themselves, and one of the topics we are studying is functional reactive programming (FRP) 
+with continuous, time-varying behaviors. F#, with its rich graphics libraries, made it 
+trivial to construct a super-fun assignment involving purely functional and interactive 
+animation of a mock solar system.
+
+<div class="keywords">teaching, research, cross-platform</div>
+
+
+<div id="simao-sousa-1"> </div>
+<br> </br>
+---
+
+> F# is very popular among my students for the programming projects
+
+1. **Simão Sousa**
+2. University of Beira Interior, Portugal
+3. [permalink](#simao-sousa-1)
+
+I teach and use OCaml and F# in my lectures (Theory of Computation, Formal Languages and Compiler 
+Design, Formal Methods, Applied Cryptography), and F# is very popular among my students for the 
+programming projects.  Most of the students that are supervised by me (undergraduate, master 
+but also PhD) use F#  as the underlying programming language. This is even more the case now since
+part of our research directions includes working on cloud/distributed systems. 
+
+F# and its programming environment  leverage with no doubt the ability and the productivity of my 
+students. This is, in my opinion,  for two main reasons. First, F# allows the student, but also the 
+researcher like me,  to focus on the key aspects of his creation, while, secondly,  enhancing  
+technologically the work done in a so remarkable and facilitated way.  Once drawn in paper and pencil, 
+an algorithm is naturally implemented in F# and easily deployed in whatever is its execution context.
+
+I am  definitively a strong believer of F# and amazed by the language and its community.
+
+<div class="keywords">teaching, research, cross-platform</div>
 
 
 
@@ -577,21 +593,6 @@ presentation through charting and image generation.
 <div class="keywords">financial services, data, analysis</div>
 
 
-
-<div id="julien-laugel-1"> </div>
----
-
-> F# allows you to move smoothly in your programming style
-
-1. **Julien Laugel**, eurostocks.com
-2. [source](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 19, [permalink](#julien-laugel-1)
-
-I've been coding in F# lately, for a production task. F# allows you to move smoothly in your 
-programming style... I start with pure functional code, shift slightly towards an object-oriented style, 
-and in production code, I sometimes have to do some imperative programming. I can start with a pure idea, and 
-still finish my project with realistic code. You're never disappointed in any phase of the project!
-
- <div class="keywords">imperative, functional, financial services, portfolio analysis</div>
 
 ---
 
