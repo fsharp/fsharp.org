@@ -301,8 +301,7 @@ software to do anything else).
 
 1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
 2. University of Victoria, Canada
-3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx)
-4. [permalink](#horspool-1)
+3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx), [permalink](#horspool-1)
 
 F# programs tend to be much shorter than their equivalents in other languages. The 
 fewer lines of code required, of course, the higher the productivity. When F# is combined 
@@ -518,8 +517,7 @@ intuitive and easy to use features for enhancing digital images.
 > creatively in order to design and program new features
 
 1. **Montreal-based IP Security Company**
-2. [source](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690)
-3. [permalink](#genetec-job-ad-1)
+2. [source](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690), [permalink](#genetec-job-ad-1)
 
 From a [job advertisement](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690) for F# programmers:  
 Software developers ... use their technical aptitudes creatively 
@@ -543,8 +541,7 @@ using .NET 4.0 technologies in F#.
 > Bohdan ... shows F#'s use for performing aggregations over large datasets, taking advantage of cpu and io parallelism
 
 1. **Bohdan Szymanik**
-2. [source](http://dnufba.preview.intergen.net.nz/Lists/Events%20Calendar/DispForm.aspx?ID=279)
-3. [permalink](#bohdan-szymanik-1)
+2. [source](http://dnufba.preview.intergen.net.nz/Lists/Events%20Calendar/DispForm.aspx?ID=279), [permalink](#bohdan-szymanik-1)
 
 Bohdan Szymanik, CTO at Kiwibank, is keen to show how he's been using F# for analysis tasks 
 within the bank. He'll provide an intro to the language then show its use for performing 
@@ -561,8 +558,7 @@ presentation through charting and image generation.
 > F# allows you to move smoothly in your programming style
 
 1. **Julien Laugel**, eurostocks.com
-2. [source](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 19
-3. [permalink](#julien-laugel-1)
+2. [source](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), slide 19, [permalink](#julien-laugel-1)
 
 I've been coding in F# lately, for a production task. F# allows you to move smoothly in your 
 programming style... I start with pure functional code, shift slightly towards an object-oriented style, 
@@ -593,8 +589,7 @@ languages and use them where they're needed.
 > I'd recommend F#... learning another language is one way to become a better programmer.
 
 1. **Antonio Hayley**
-2. [source](http://stackoverflow.com/a/179357)
-3. [permalink](#antonio-hayley-1)
+2. [source](http://stackoverflow.com/a/179357), [permalink](#antonio-hayley-1)
 
 I'd recommend F# to a die hard C# developer just because learning another language 
 is one way a programmer can get out of a local maxima and 
@@ -612,8 +607,7 @@ and understanding of a programmer.
 > ...I have to say I love the language...
 
 1. **Jared Parsons**
-2. [source](http://stackoverflow.com/a/2785476)
-2. [permalink](#jared-parsons-1)
+2. [source](http://stackoverflow.com/a/2785476), [permalink](#jared-parsons-1)
 
 Over the last 6 or so months, I've been working on a Vim emulation layer. This is the first major project I've ever done with F# 
 and I have to say I love the language. In many ways I used this project as a method of learning 
@@ -630,8 +624,7 @@ the bulk of the logic yet it only comprises 30% of the overall code base.
 > ...The AI is implemented in F#...
 
 1. [Path of Go]
-2. [source](http://www.youtube.com/watch?v=bb4igmbv_Oc)
-2. [permalink](#path-of-go)
+2. [source](http://www.youtube.com/watch?v=bb4igmbv_Oc), [permalink](#path-of-go)
 
 Path of Go is powered by three technologies...: an AI capable of playing Go, the F# language, 
 and TrueSkill to match online players. The AI is implemented in F# and meets the challenge of 
@@ -668,8 +661,8 @@ Russia towards F#.
 > it's like a drug
 
 1. **Darren Platt**
-2. Amyris Biotechnology, [source](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf)
-3. [permalink](#darren-platt-1)
+2. Amyris Biotechnology
+3. [source](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf), [permalink](#darren-platt-1)
 
 With F#... we have written a complete genome re-sequencing pipeline with interface, algorithms, 
 reporting in ~5K lines and it has been incredibly reliable, fast  and easy to maintain.
@@ -702,7 +695,7 @@ With Units of Measure I started labelling the coordinates as one or zero based a
 1. **Dr. Robert Boissy**
 2. Assistant Professor
 3. University of Nebraska Medical Center
-2. [permalink](#robert-boissy)
+4. [permalink](#robert-boissy)
 
 I am involved in bioinformatics and computational genomics as a faculty member at the 
 University of Nebraska Medical Center (UNMC).  In an academic medical center like UNMC there 
