@@ -3,7 +3,7 @@ layout: default
 title: Options for Game Programming in F#
 author: 7sharp9
 ---
-## Options for Game Programming in F\#
+## Options for Game Programming
 
 F# executes on gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), 
 [F# on Mac](/use/mac/), XBox 360, JavaScript/HTML5 and [F# on Windows](/use/windows/).
