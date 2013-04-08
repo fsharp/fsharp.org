@@ -10,9 +10,15 @@ headline: Use F# for Android Development
 2. Get [Xamarin Studio](http://xamarin.com/download). Run and check it is version 4.0.3, Build 13 or later under "About". Update using the Alpha channel of "Tools --> Addin Manager" if needed
 3. From Tools --> Addin Manager --> Gallery, add "Language Bindings --> F# Language Binding" (v3.2.15+)" and "Mobile Development --> F# Support for Xamarin.Android Development" 
 
-You can now create a new F# solution such as an "F# Honeycomb Application".  
-Build and Debug will deploy to an emulator or device.
+You can now create a new F# Android app, e.g. an "F# Honeycomb Application". Build and Debug will deploy to an emulator or device.
 
+Note: Remove the "FSharp.Core" reference and add a reference to 
+
+    Mac: /Developer/MonoTouch/usr/lib/mono/2.1/FSharp.Core.dll 
+    Windows: %Program Files%\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\FSharp.Core.dll
+        
+Note: F# libraries are currently considered "external code" and require a non-Starter edition of Xamarin Studio. This is a known issue.
+        
 Report problems to the [F# Open Source Group email list](http://fsharp.github.com/fsharp) and/or Xamarin.
 
 <br />
