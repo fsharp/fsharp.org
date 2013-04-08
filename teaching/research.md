@@ -11,13 +11,13 @@ research projects that build on top of F#. They fall in the following areas:
  * **[Information-rich programming](#informationrich_programming)** - research related to F# 3.0 type providers, a novel mechanism
    that integrates large-scale data into statically typed function programming language.
 
- * **[Web programming](#web_programming)** - research related to web programming with F#.
-
  * **[Asynchronous, Concurrent and Reactive programming](#asynchronous_concurrent_and_reactive_programming)** - this section describes
    F# 2.0 _asynchronous workflows_ and the asynchronous programming model used in F#.
    It also includes work on event-based programming and joinads, a research extension of F# _computation expression_ syntax
    that can be used to encode a wide range of programming patterns from concurrent, reactive
    and parallel programming.
+
+ * **[Web programming](#web_programming)** - research related to web programming with F#.
 
  * **[DSLs and Meta-programming](#dsls_and_metaprogramming)** - publications related to DSL and meta-programming in F#.
 
@@ -55,24 +55,6 @@ data markets, content management systems, economic data and hosted scripting. Ty
 becomes relative to the soundness of the type providers and the schema change in 
 information sources, but the role of types in information-rich programming tasks is 
 massively expanded, especially through tooling that benefits from rich types in explorative programming.
-
-## Web programming
-
-### [Visualizing Data in the Web](http://dl.acm.org/citation.cfm?id=2429376)
-
-Loic Denuziere, Adam Granicz, Anton Tayanovskyy
-_Data Driven Functional Programming 2013 (DDFP)_
-
-### [Composing Reactive GUIs in F# Using WebSharper](http://link.springer.com/content/pdf/10.1007/978-3-642-24276-2_13)
-
-Joel Bjornson, Anton Tayanovskyy, and Adam Granicz
-_The 22nd Symposium on Implementation and Application of Functional Languages (IFL)_
-
-We present a generic library for constructing composable
-and interactive user interfaces in a declarative style. The paper introduces
-flowlets, an extension of formlets providing interactivity. Realworld
-examples are given using the current implementation that compiles
-flowlets defined in F# to JavaScript with WebSharper
 
 
 ## Asynchronous, Concurrent and Reactive programming
@@ -189,6 +171,24 @@ programming models – a reactive model based on events; a concurrent model base
 calculus and a parallel model using futures. All three models are implemented as libraries 
 that benefit from our syntactic extension. This makes them easier to use and also opens 
 space for exploring new useful programming models. 
+
+## Web programming
+
+### [Visualizing Data in the Web](http://dl.acm.org/citation.cfm?id=2429376)
+
+Loic Denuziere, Adam Granicz, Anton Tayanovskyy
+_Data Driven Functional Programming 2013 (DDFP)_
+
+### [Composing Reactive GUIs in F# Using WebSharper](http://link.springer.com/content/pdf/10.1007/978-3-642-24276-2_13)
+
+Joel Bjornson, Anton Tayanovskyy, and Adam Granicz
+_The 22nd Symposium on Implementation and Application of Functional Languages (IFL)_
+
+We present a generic library for constructing composable
+and interactive user interfaces in a declarative style. The paper introduces
+flowlets, an extension of formlets providing interactivity. Realworld
+examples are given using the current implementation that compiles
+flowlets defined in F# to JavaScript with WebSharper
 
 ## DSLs and Meta-programming
 
