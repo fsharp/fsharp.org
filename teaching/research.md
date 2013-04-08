@@ -96,6 +96,26 @@ an implementation of language integrated SQL queries using the LINQ/SQLMetal lib
 sketch two other applications: the execution of data-parallel quoted F# programs on a GPU via the 
 Accelerator libraries, and dynamic native-code compilation via LINQ.
 
+### [Syntax Matters: Writing abstract computations in F#](http://www.cl.cam.ac.uk/~tp322/drafts/notations.html)
+
+Tomas Petricek and Don Syme
+_In pre-proceedings of TFP 2012_
+
+The academic literature describes a number of abstract computation types such as monads, applicative 
+functors and their compositions. These can be used to describe features of mainstream languages such 
+as generators in Python or asynchronous computations in C# 5, but working with abstract computations 
+without a convenient syntactic sugar is difficult.
+
+In this paper, we describe computation expressions, which is a syntactic sugar for working with 
+abstract computations in F# 2.0. Unlike the do notation in Haskell, computation expressions are not 
+tied to a single kind of abstract computations. They support wider range of computations, depending on 
+what operations are available and they also provide greater syntactic flexibility.
+
+As a result, F# programmers are able to use a single syntactic sugar for a wider range of computations 
+including monoidal sequence generators, monadic parsers and applicative formlets. This removes the need 
+for ad-hoc language extensions that provide “nice syntax” for one particular kind of computations.
+
+
 
 ### [Rapid Prototyping of DSLs with F#](http://academic.research.microsoft.com/Publication/39281456/rapid-prototyping-of-dsls-with-f#)
 
@@ -108,6 +128,7 @@ which as we demonstrate provide an elegant and type-safe mechanism to embed pars
 to parser generators. We also build an evaluator, and extend the core Simply language with Logo-like 
 primitives and build a graphical shell environment around it. As a warm-up, we give a rudimentary survey 
 of some notable F# features, including sequence expressions and active patterns.
+
 
 
 
