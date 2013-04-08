@@ -8,18 +8,20 @@ Many of the standard F# features (including _active patterns_ and _asynchronous 
 have been described in academic literature. Additionally, there have been also several 
 research projects that build on top of F#. They fall in the following areas:
 
- * **[Information-rich programming](#informationrich_programming)** - papers in this 
-   section describe research related to F# 3.0 type providers, a novel mechanism
+ * **[Information-rich programming](#informationrich_programming)** - research related to F# 3.0 type providers, a novel mechanism
    that integrates large-scale data into statically typed function programming language.
 
- * **[Asynchronous programming](#asynchronous_programming)** - this section describes
-   F# 2.0 _asynchronous workflows_ and the asynchronous programming model used in F#.
-   It also includes some work on event-based programming.
+ * **[Web programming](#web_programming)** - research related to web programming with F#.
 
- * **[Concurrent and reactive programming with Joinads](#concurrent_and_reactive_programming_with_joinads)**
-   - this section discusses a research extension of F# _computation expression_ syntax
+ * **[Asynchronous, Concurrent and Reactive programming](#asynchronous_concurrent_and_reactive_programming)** - this section describes
+   F# 2.0 _asynchronous workflows_ and the asynchronous programming model used in F#.
+   It also includes work on event-based programming and joinads, a research extension of F# _computation expression_ syntax
    that can be used to encode a wide range of programming patterns from concurrent, reactive
    and parallel programming.
+
+ * **[DSLs and Meta-programming](#dsls_and_metaprogramming)** - publications related to DSL and meta-programming in F#.
+
+ * **[Units of Measure](#units_of_measure)** - research related to the Units of Measure feature of F#.
 
  * **[Functional programming](#functional_programming)** - this section provides information
    about core F# language features including _active patterns_ and intialization of 
@@ -54,7 +56,26 @@ becomes relative to the soundness of the type providers and the schema change in
 information sources, but the role of types in information-rich programming tasks is 
 massively expanded, especially through tooling that benefits from rich types in explorative programming.
 
-## Asynchronous programming
+## Web programming
+
+### [Visualizing Data in the Web](http://dl.acm.org/citation.cfm?id=2429376)
+
+Loic Denuziere, Adam Granicz, Anton Tayanovskyy
+_Data Driven Functional Programming 2013 (DDFP)_
+
+### [Composing Reactive GUIs in F# Using WebSharper](http://link.springer.com/content/pdf/10.1007/978-3-642-24276-2_13)
+
+Joel Bjornson, Anton Tayanovskyy, and Adam Granicz
+_The 22nd Symposium on Implementation and Application of Functional Languages (IFL)_
+
+We present a generic library for constructing composable
+and interactive user interfaces in a declarative style. The paper introduces
+flowlets, an extension of formlets providing interactivity. Realworld
+examples are given using the current implementation that compiles
+flowlets defined in F# to JavaScript with WebSharper
+
+
+## Asynchronous, Concurrent and Reactive programming
 
 ### [The F# Asynchronous Programming Model](http://blogs.msdn.com/b/dsyme/archive/2010/10/21/the-f-asynchronous-programming-model-padl-2010-pre-publication-draft.aspx)
 
@@ -92,16 +113,6 @@ allows us to safely combine both of the reactive programming patterns. As a resu
 take advantage of the clarity and simplicity of the declarative approach as well as the 
 expressivity of the imperative model.
 
-## Concurrent and reactive programming with Joinads
-
-Joinads is a general-purpose research extension of the F# computation expression syntax (also 
-called _monadic syntax_) in F# and is mainly useful for concurrent, parallal and reactive 
-programming. The extension adds a new piece of notation, written `match!` that can be 
-used to compose computations using non-deterministic choice, parallel composition and aliasing.
-
-The best way to experiment with Joinads is to visit the [TryJoinads.org](http://tryjoinads.org/)
-web site, which contains a number of tutorials that can be tested in web browser capable
-of running Silverlight (MacOS and Windows).
 
 ### [Extending Monads with Pattern Matching](http://www.cl.cam.ac.uk/~tp322/papers/docase.html)
 
@@ -124,6 +135,18 @@ laws make it possible to prove various syntactic equivalences of programs writte
 `docase` that are analogous to equivalences about `case`. Examples of joinads that benefit 
 from the notation include speculative parallelism, waiting for a combination of user 
 interface events, but also encoding of validation rules using the intersection of parsers. 
+
+### [Try Joinads Demonstrator](http://tryjoinads.org/)
+
+Joinads is a general-purpose research extension of the F# computation expression syntax (also 
+called _monadic syntax_) in F# and is mainly useful for concurrent, parallal and reactive 
+programming. The extension adds a new piece of notation, written `match!` that can be 
+used to compose computations using non-deterministic choice, parallel composition and aliasing.
+
+The best way to experiment with Joinads is to visit the [TryJoinads.org](http://tryjoinads.org/)
+web site, which contains a number of tutorials that can be tested in web browser capable
+of running Silverlight (MacOS and Windows).
+
 
 ### [Evaluation strategies for monadic computations](http://www.cl.cam.ac.uk/~tp322/papers/malias.html)
 
@@ -166,6 +189,66 @@ programming models – a reactive model based on events; a concurrent model base
 calculus and a parallel model using futures. All three models are implemented as libraries 
 that benefit from our syntactic extension. This makes them easier to use and also opens 
 space for exploring new useful programming models. 
+
+## DSL and Meta-programming
+
+### [Leveraging .NET meta-programming components from F#: integrated queries and interoperable heterogeneous execution](http://dl.acm.org/citation.cfm?doid=1159876.1159884)
+
+Don Syme  
+_Proceedings of the 2006 workshop on ML_
+
+Language-integrated meta-programming and extensible compilation have been recurring themes of 
+programming languages since the invention of LISP. A recent real-world application of these 
+techniques is the use of small meta-programs to specify database queries, as used in the  
+LINQ extensions for .NET. It is important that .NET languages such as F# are able to leverage 
+the functionality provided by LINQ and related components for heterogeneous execution, both 
+for pragmatic reasons and as a first step toward applying more disciplined, formal approaches 
+to these problems. This paper explores the use of a modest meta-programming extension to F# to 
+access and leverage the functionality of LINQ and other components. We do this by demonstrating 
+an implementation of language integrated SQL queries using the LINQ/SQLMetal libraries. We also 
+sketch two other applications: the execution of data-parallel quoted F# programs on a GPU via the 
+Accelerator libraries, and dynamic native-code compilation via LINQ.
+
+
+
+## Units of Measure
+
+### [Relational parametricity and units of measure](http://dl.acm.org/citation.cfm?id=263761)
+
+Type systems for programming languages with numeric
+types can be extended to support the checking of units
+of measure. Quantification over units then introduces
+a new kind of parametric polymorphism with a corresponding
+Reynolds-style representation independence
+principle: that the behaviour of programs is invariant
+under changes to the units used. We prove this ‘dimensional
+invariance’ result and describe four consequences.
+The first is that the type of an expression can be used to
+derive equations which describe its properties with respect
+to scaling (akin to Wadler’s ‘theorems for free’ for
+System F). Secondly there are certain types which are
+inhabited only by trivial terms. For example, we prove
+that a fully polymorphic square root function cannot
+be written using just the usual arithmetic primitives.
+Thirdly we exhibit interesting isomorphisms between
+types and for first-order types relate these to the central
+theorem of classical dimensional analysis. Finally
+we suggest that for any expression whose behaviour is
+dimensionally invariant there exists some equivalent expression
+whose type reflects this behaviour, a consequence
+of which would be a full abstraction result for
+a model of the language.
+
+### [Programming Languages and Dimensions](http://academic.research.microsoft.com/Publication/1387457/programming-languages-and-dimensions)
+
+Andrew Kennedy
+__PhD Thesis, University of Cambridge, 1995__
+
+### [Types for Units-of-Measure: Theory and Practice](http://research.microsoft.com/en-us/um/people/akenn/units/cefp09typesforunitsofmeasure.pdf)
+
+Andrew Kennedy
+__Lecture notes , for CEFP'09, Revised July 2010__
+
 
 ## Functional programming
 
