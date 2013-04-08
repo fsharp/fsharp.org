@@ -22,9 +22,9 @@ solutions from Visual Studio without change
 
 * [Install Mono 3.0.2 or later](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0.
 * [Install Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) 
-* Go to the AddIn Gallery and add the F# AddIn for Xamarin Studio and MonoDevelop ([source](http://fsharp.github.com/fsharpbinding))
+* Go to the AddIn Gallery and add “Language Bindings –> F# Language Binding” and “Mobile Development –> F# Support for Xamarin.Mac Development”
 
-You can create new projects in Xamarin Studio and MonoDevelop. Be sure to retarget them to .NET 4.0. Ignore any unresolved FSharp.Core.dll.
+You can now create new projects in Xamarin Studio and MonoDevelop. Ignore any unresolved FSharp.Core.dll.
 
 <br />
 
