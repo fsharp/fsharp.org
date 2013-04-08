@@ -18,11 +18,19 @@ solutions from Visual Studio without change
 
 <br />
 
-### Option 2: Install F# 3.0 with Visual Tools:
+### Option 2: Install F# 3.0 with Xamarin Visual Tools:
 
 * [Install Mono 3.0.2 or later](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0.
-* [Install Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) 
-* Go to the AddIn Gallery and add “Language Bindings –> F# Language Binding” and “Mobile Development –> F# Support for Xamarin.Mac Development”
+* [Install Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com). Run and check it is version 4.0.3, Build 13 or later under "About". Update using the Alpha channel of "Tools --> Addin Manager" if needed
+* Go to the AddIn Manager and
+
+  Add “Language Bindings –> F# Language Binding” 
+  
+  Add “Mac Development –> F# Support for MonoMac and Xamarin.Mac Development”
+  
+  Optionally, add “Mobile Development –> F# Support for Android Development”
+
+  Optionally, add “Mobile Development –> F# Support for iOS Development”
 
 You can now create new projects in Xamarin Studio and MonoDevelop. Ignore any unresolved FSharp.Core.dll.
 
