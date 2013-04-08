@@ -17,7 +17,7 @@ Note: Remove the "FSharp.Core" reference and add a reference to
     Mac: /Developer/MonoTouch/usr/lib/mono/2.1/FSharp.Core.dll 
     Windows: %Program Files%\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\FSharp.Core.dll
         
-Note: F# libraries are currently considered "external code" and require a non-Starter edition of Xamarin Studio. This is a known issue.
+Note: Additional F# libraries beyond the main app are currently considered "external code" and require a non-Starter edition of Xamarin Studio. This is a known issue.
         
 Report problems to the [F# Open Source Group email list](http://fsharp.github.com/fsharp) and/or Xamarin.
 
