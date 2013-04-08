@@ -190,7 +190,7 @@ calculus and a parallel model using futures. All three models are implemented as
 that benefit from our syntactic extension. This makes them easier to use and also opens 
 space for exploring new useful programming models. 
 
-## DSL and Meta-programming
+## DSLs and Meta-programming
 
 ### [Leveraging .NET meta-programming components from F#: integrated queries and interoperable heterogeneous execution](http://dl.acm.org/citation.cfm?doid=1159876.1159884)
 
@@ -208,6 +208,19 @@ access and leverage the functionality of LINQ and other components. We do this b
 an implementation of language integrated SQL queries using the LINQ/SQLMetal libraries. We also 
 sketch two other applications: the execution of data-parallel quoted F# programs on a GPU via the 
 Accelerator libraries, and dynamic native-code compilation via LINQ.
+
+
+### [Rapid Prototyping of DSLs with F#](http://academic.research.microsoft.com/Publication/39281456/rapid-prototyping-of-dsls-with-f#)
+
+Adam Granicz
+_Central European Functional Programming School (CEFP)_
+
+In these lecture notes we present the F# implementation of a small programming language we call Simply. 
+We give the parser implementation using active patterns, F#’s unique feature for extensible pattern matching, 
+which as we demonstrate provide an elegant and type-safe mechanism to embed parsers as an alternative approach 
+to parser generators. We also build an evaluator, and extend the core Simply language with Logo-like 
+primitives and build a graphical shell environment around it. As a warm-up, we give a rudimentary survey 
+of some notable F# features, including sequence expressions and active patterns.
 
 
 
