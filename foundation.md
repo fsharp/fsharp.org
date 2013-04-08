@@ -70,3 +70,4 @@ title: The F# Software Foundation
  * Tim Robinson ([@1tgr](https://twitter.com/1tgr))
  * Sergey Tihon ([@sergey_tihon](https://twitter.com/sergey_tihon))
  * Homi Chothia
+ * John Tarbox
