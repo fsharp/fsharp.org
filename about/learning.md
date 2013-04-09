@@ -18,7 +18,7 @@ of online tutorials demonstrating the power of F# and F# 3.0:
 <img src="files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
  * [Getting started in F#](http://www.tryfsharp.org/Learn/getting-started)
- * [Advanced F# Programming](http://www.tryfsharp.orgLearn/advanced-programming)
+ * [Advanced F# Programming](http://www.tryfsharp.org/Learn/advanced-programming)
  * [Data Visualization and Charting](http://www.tryfsharp.org/data-visualization)
  * [Data Science](http://www.tryfsharp.org/Learn/data-science)
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
