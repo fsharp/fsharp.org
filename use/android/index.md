@@ -26,7 +26,7 @@ Report problems to the [F# Open Source Group email list](http://fsharp.github.co
 <br />
 
 
-#### Option 2: Build HTML5 and Windows Store apps using F# WebSharper
+#### Option 2: Build HTML5 Android apps using F# WebSharper
 
 * Use [WebSharper](http://www.websharper.com) to make HTML5 apps written in F#.
 
