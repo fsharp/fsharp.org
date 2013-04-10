@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Options for Game Programming in F#
-author: 7sharp9
+title: Games and Apps | The F# Software Foundation
+headline: Game and App Programming with F#
 ---
-## Options for Game Programming
 
-F# executes on gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), 
-[F# on Mac](/use/mac/), XBox 360, JavaScript/HTML5 and [F# on Windows](/use/windows/).
+F# executes on app and gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), 
+[F# on Mac](/use/mac/), XBox 360, [JavaScript/HTML5](/webstacks) and [F# on Windows](/use/windows/). See those 
+sections for details about getting started with game and app programming with F# on those platforms.
 
-There are two main higher-level game stack that are currently of 
-interest to F# users: [MonoGame][1] and 
+There are two main higher-level advanced game/visualization stacks that are currently of 
+particular interest to F# users: [MonoGame][1] and 
 [Microsoft XNA Game Studio][2].  Both can be used for either full blown games or 3D 
 data visualisations.  An HTML5 framework such as [WebSharper](http://websharper.com) can also
 be used for browser-based game development.
@@ -33,13 +33,13 @@ of onoe of the largest Facebook social games, as described in
 
 - - -
 
-###Related Resources
-*   [F# on Android](/use/android/) 
-*   [F# on iOS](/use/ios/) 
-*   [F# on Mac](/use/mac/) 
-*   [F# and MonoGame on the Mac][3] - Dave Thomas *(@7sharp9)*
-*   [F# for Game Development][4] - Johann Deneux 
-*   [F# with XNA Game Studio][5] - AzerDark *(@azer89)*
+### Related Resources
+ * [F# on Android](/use/android/) 
+ * [F# on iOS](/use/ios/) 
+ * [F# on Mac](/use/mac/) 
+ * [F# and MonoGame on the Mac][3] - Dave Thomas *(@7sharp9)*
+ * [F# for Game Development][4] - Johann Deneux
+ * [F# with XNA Game Studio][5] - AzerDark *(@azer89)*
 
 [1]: http://monogame.codeplex.com
 [2]: http://msdn.microsoft.com/en-us/aa937791.aspx
