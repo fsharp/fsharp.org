@@ -1,12 +1,8 @@
 ---
 layout: page
 title: Using F# for Math and Statistics | The F# Software Foundation
-headline: Math and Statistics with F#
+headline: Using F# for Math and Statistics
 ---
-
-This page provides information about using F# for numerical and statistical computing.
-
-### Why F#?
 
 F# is particularly well-suited to numerical and statistical programming because
 f its functional-first design. Functional programming focuses on the definition
