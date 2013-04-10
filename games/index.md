@@ -4,6 +4,8 @@ title: Games and Apps | The F# Software Foundation
 headline: Game and App Programming with F#
 ---
 
+### Platforms
+
 F# executes on app and gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), 
 [F# on Mac](/use/mac/), XBox 360, [JavaScript/HTML5](/webstacks) and [F# on Windows](/use/windows/). See those 
 sections for details about getting started with game and app programming with F# on those platforms.
