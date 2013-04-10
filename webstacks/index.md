@@ -18,12 +18,11 @@ F# provides the features you need to built scalable, robust web solutions. F# is
 
 Some specific options for web application development are:
 
- * [WebSharper](http://www.websharper.com/home) -  
-   Allows end-to-end web applications with both client and server developed in F#. 
+ * [WebSharper](http://www.websharper.com/home) - Allows end-to-end web applications with both client and server developed in F#. 
 
    WebSharper includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
- * [ASP.NET MVC](http://www.asp.net/mvc), a widely used open source web framework from Microsoft. 
+ * [ASP.NET MVC](http://www.asp.net/mvc) - A widely used open source web framework from Microsoft. 
    
    Views are implemented in HTML with some C#. Models and controllers are implemented in F#.
 
