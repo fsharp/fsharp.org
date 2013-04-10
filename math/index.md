@@ -6,21 +6,18 @@ headline: Using F# for Math and Statistics
 
 F# is well-suited to numerical and statistical programming because
 f its functional-first design, which focuses on the definition
-of functions to transform data. As such, the functional style is often a more
-natural translation of the underlying mathematics. F# is a very expressive, 
-concise language with ready access to libraries of common
-algorithms and data structures. 
+of functions to transform data. The functional style is often a
+natural translation of the underlying mathematics. 
 
 Numerical programming is CPU-intensive so efficient execution is essential.
 F# executes as native code through pre-compilation and/or
 [JIT compilers](http://en.wikipedia.org/wiki/Just-in-time_compilation).  
 
-Integrating highly optimized,  native code libraries (C/C++, FORTRAN, etc) such as the Intel [Math Kernel Library (MKL)]
-(http://software.intel.com/en-us/intel-mkl) is straightforward. Libraries such as Math.NET
-utilize Intel MKL for the very highest performance. The [P/Invoke]
-(http://en.wikipedia.org/wiki/Platform_Invocation_Services) system allows F# code
-to call directly into additional native libraries and helps marshal data between environments.
-On Linux, Mono additionally  provides easy access to [SIMD](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
+F# integrates highly optimized, native code libraries such as the 
+Intel [Math Kernel Library (MKL)](http://software.intel.com/en-us/intel-mkl) 
+through libraries like [Math.NET Numerics](http://numerics.mathdotnet.com/). 
+Other libraries are listed below. On Linux, Mono additionally 
+provides easy access to [SIMD](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
 instructions.
 
 
@@ -28,7 +25,7 @@ instructions.
 
 Here are some open source libraries:
 
- * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) - provides 
+ * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
    a large collection of algorithms needed in science and engineering, including linear algebra, 
    special functions, statistics, probability models, interpolation and FFTs. In addition to the 
    core .NET package, Numerics specifically supports F# 3.0 with idiomatic extension modules and 
