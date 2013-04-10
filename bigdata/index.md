@@ -15,22 +15,27 @@ web-scale data and standard structured text formats like JSON, and XML.
 [Try F#](http://tryfsharp.org) has sections specific to data science. 
 Further resources related to different aspects of data science are below. 
 
-## Math and Statistics Programming
+### Math and Statistics Programming
 
 See the [Maths and Statistics](/math) section for details of numerics and statistics packages available for F#.
 
-## Big Data and Big Compute
+### Big Data and Big Compute
 
 See the [Cloud Programming](/cloud) section for details of scalable data, compute and messaging frameworks and clients for F#.
 
-## Data Access and Integration
+### Web Programming
+
+Data Science often invoves presenting results through the web. See the [Web Programming](/webstacks) section 
+for details of web programming with F#.
+
+### Data Access and Integration
 
 F# has a wide range of useful data import and access techniques available. Many F# books
 and introductions cover some of these. Some specific frameworks dedicated to simplifying data access are:
 
   * [FSharp.Data](http://tpetricek.github.io/FSharp.Data/) - The F# Data library (FSharp.Data.dll) implements everything you need to access data in your F# applications and scripts. It implements F# type providers for working with structured file formats (CSV, JSON and XML) and for accessing the WorldBank and Freebase data. It also includes helpers for parsing JSON files and for sending HTTP requests.
   
-## Machine Learning 
+### Machine Learning 
 
 Several F#/.NET Machine Learning packages are available be [searching on nuget.org](http://nuget.org/packages?q=machine+learning), for example:
 
@@ -54,7 +59,7 @@ Some specific introductions to implementing different machine learning with F# a
   * [Support Vector Machine in F#: getting there](http://clear-lines.com/blog/post/Support-Vector-Machine-in-FSharp.aspx)
   * [AdaBoost in F#](http://clear-lines.com/blog/post/AdaBoost-classifier-in-FSharp.aspx)
 
-## R, MATLAB, Mathematics and Python Integration
+### R, MATLAB, Mathematics and Python Integration
 
 F# can integrate with systems such as R, MATLAB, Mathematics and Python. Some specific resources are:
 
@@ -67,7 +72,7 @@ to F# can't be found, then search for C# instead and adjust the technique approp
           
           
 
-## Other links
+### Other links
 
  * [Parallel LINQ (PLINQ)](http://msdn.microsoft.com/en-us/library/dd460688.aspx)
  * [F# Data Mining](http://fdatamining.blogspot.com/2010/05/why-f-is-language-for-data-mining.html)
