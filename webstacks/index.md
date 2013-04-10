@@ -9,7 +9,6 @@ F# provides the features you need to built scalable, robust web solutions. F# is
  * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
  * *Asynchronous* - F# provides asynchronous programming to simplify scalable client-server programming
  * *Interoperabile* - F# interoperates seamlessly with languages such as C#, R, JavaScript and TypeScript
- * *Scalable* - Build scalable Web APIs and services using frameworks such as [ServiceStack](http://www.servicestack.net/)
  * *JavaScript-ready* - F# is JavaScript-ready through tools such as [WebSharper](http://websharper.com) and [FunScript](https://github.com/ZachBray/FunScript)
  * *Open-source* and *Cross-platform*  
 
