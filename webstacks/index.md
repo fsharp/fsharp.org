@@ -18,17 +18,24 @@ F# provides the features you need to built scalable, robust web solutions. F# is
 
 Some specific options for web application development are:
 
- * [WebSharper](http://www.websharper.com/home) 
-   allows end-to-end web applications with both client and server developed in F#. It includes
-   TypeScript interoperability, mobile web apps getting started material, templates and much more.
- * ASP.NET MVC, a widely used open source web framework from Microsoft. Views are implemented in HTML with some C#. 
-   Models and controllers are implemented in F#.
+ * [WebSharper](http://www.websharper.com/home) -  
+   Allows end-to-end web applications with both client and server developed in F#. 
+
+   WebSharper includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
+
+ * [ASP.NET MVC](http://www.asp.net/mvc), a widely used open source web framework from Microsoft. 
+   
+   Views are implemented in HTML with some C#. Models and controllers are implemented in F#.
+
    The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 4)](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095)  
    include templates for ASP.NET MVC 4 (ASPX/Razor) and Single Page Applications with Backbone.js or Knockout.js.
+
    The [F#/C# ASP.NET MVC 3 Templates](http://visualstudiogallery.msdn.microsoft.com/f57aa816-e96b-4133-ab5d-9b9b99914ead) 
    include templates for ASP.NET MVC 3 (ASPX/Razor). The [F#/C# Web Templates (MonoDevelop, ASP.NET MVC 4)](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) 
    are a similar se of cross-platform templates for MonoDevelop. 
+
  * [FunScript](https://github.com/ZachBray/FunScript/) - An F# to JavaScript converter with TypeScript interoperability.
+
  * [PicoMvc](https://github.com/robertpi/PicoMvc) is a micro framework for F# web programming.
  
 ### Building Web APIs:
