@@ -4,31 +4,24 @@ title: Using F# for Math and Statistics | The F# Software Foundation
 headline: Using F# for Math and Statistics
 ---
 
-F# is particularly well-suited to numerical and statistical programming because
-f its functional-first design. Functional programming focuses on the definition
+F# is well-suited to numerical and statistical programming because
+f its functional-first design, which focuses on the definition
 of functions to transform data. As such, the functional style is often a more
-natural translation of the underlying mathematics.
+natural translation of the underlying mathematics. F# is a very expressive, 
+concise language with ready access to libraries of common
+algorithms and data structures. 
 
-Performance of the code and productivity of the developer are two main requirements 
-for numerical computing. Computing tasks are often CPU-intensive so the language must be efficient. 
-F# runs on the [CLR][clrlink] on Windows and on [Mono](http://www.mono-project.com/Main_Page) on Linux, and Mac OS. 
-These environments include high-performance 
-[Just-In-Time compilers](http://en.wikipedia.org/wiki/Just-in-time_compilation), so the 
-code is executed as native code (high-performance) on-demand. Mono additionally 
-provides easy access to the [x86 SIMD](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
-(Single Instruction, Multiple Data) commands which provide substantial speed-ups
-for certain types of processing.
+Numerical programming is CPU-intensive so efficient execution is essential.
+F# executes as native code through pre-compilation and/or
+[JIT compilers](http://en.wikipedia.org/wiki/Just-in-time_compilation).  
 
-Integrating highly optimized, 
-native code libraries (C/C++, FORTRAN, etc) such as the Intel [Math Kernel Library (MKL)]
-(http://software.intel.com/en-us/intel-mkl) is straightforward. The [P/Invoke]
+Integrating highly optimized,  native code libraries (C/C++, FORTRAN, etc) such as the Intel [Math Kernel Library (MKL)]
+(http://software.intel.com/en-us/intel-mkl) is straightforward. Libraries such as Math.NET
+utilize Intel MKL for the very highest performance. The [P/Invoke]
 (http://en.wikipedia.org/wiki/Platform_Invocation_Services) system allows F# code
-to call directly into native libraries and helps marshal data between environments.
-
-Performance of the developer is at least as critical as the performance of the resulting
-code. F# is a very expressive, concise language with ready access to libraries of common
-algorithms and data structures. The rest of this page surveys some of the most common
-numerical computing libraries available for F#.
+to call directly into additional native libraries and helps marshal data between environments.
+On Linux, Mono additionally  provides easy access to [SIMD](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
+instructions.
 
 
 ### Open-source libraries
