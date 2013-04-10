@@ -1,30 +1,23 @@
 ---
 layout: page
-title: Web Stacks | The F# Software Foundation
-headline: Web Stacks for F#
+title: Web Programming | The F# Software Foundation
+headline: Web Programming with F#
 ---
 
-Scalability, performance, data integration and testability are major
-challenges for modern web-programming. F# provides the features you need to built scalable, robust 
-solutions in this domain:
+F# provides the features you need to built scalable, robust web solutions:
 
- * *Fast and Scalable* - F# is highly scalable and faster than dynamic languages such as NodeJS, Python, PHP and Ruby. 
- * *Succinctness* - F# is concise yet readable and type-safe, allowing fast development of robust web solutions.  
- * *The Way of the Web* - The stateless nature of the web makes functional-first programming ideal for modern web programming.
- * *Language support* - F# provides asynchronous programming and type providers to simplify scalable information-rich web solutions. 
- * *Interoperability* - F# interoperates seamlessly with languages such as C#, R, JavaScript and TypeScript.
- * *Cloud Readiness* - F# integrates with Azure and Amazon EC2 for cloud-scale deployment. 
- * *Scalable Services* - Build scalable Web APIs and services using frameworks such as [ServiceStack](http://www.servicestack.net/).
- * *JavaScript* - JavaScript and F# share much in common and work well 
-   together through tools such as [WebSharper](http://websharper.com) and [FunScript](https://github.com/ZachBray/FunScript).
+ * *Fast and Scalable* - F# is highly scalable and much faster than NodeJS, Python, PHP and Ruby 
+ * *Succinctness* - F# is concise, readable and type-safe, for fast development of robust web solutions
+ * *Asynchronous* - F# provides asynchronous programming to simplify scalable client-server programming
+ * *Interoperability* - F# interoperates seamlessly with languages such as C#, R, JavaScript and TypeScript
+ * *Scalable Services* - Build scalable Web APIs and services using frameworks such as [ServiceStack](http://www.servicestack.net/)
+ * *JavaScript* - F# is JavaScript-ready through tools such as [WebSharper](http://websharper.com) and [FunScript](https://github.com/ZachBray/FunScript)
  * *Open-source* and *Cross-platform* - F# web development uses open source, cross-platform components 
    such as F#, ASP.NET, WebSharper, FunScript and ServiceStack. 
 
-Use, learn and contribute to F# open source web programming today through the options below.
+### Building Web Applications:
 
-#### Building Web Applications:
-
-F# excels at web application development. Some of the options are:
+Some specific options for web application development are:
 
  * [WebSharper](http://www.websharper.com/home) 
    allows end-to-end web applications with both client and server developed in F#. It includes
@@ -39,25 +32,26 @@ F# excels at web application development. Some of the options are:
  * [FunScript](https://github.com/ZachBray/FunScript/) - An F# to JavaScript converter with TypeScript interoperability.
  * [PicoMvc](https://github.com/robertpi/PicoMvc) is a micro framework for F# web programming.
  
-#### Building Web APIs:
+### Building Web APIs:
 
 F# shines in the area of Web API development through frameworks like  [ServiceStack](http://www.servicestack.net/), [ASP.NET Web API](http://www.asp.net/web-api), [Frank](https://github.com/frank-fs/frank) and
 [NancyFx](http://nancyfx.org/).
 
- * [F# Web Services on any platform in and out of a web server!](http://www.servicestack.net/mythz_blog/?p=785) - an async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
- * [Async, Cached Twitter API Proxy in F#](http://www.servicestack.net/mythz_blog/?p=811)
- * [F#/C# Web Templates for REST (Visual Studio, ASP.NET Web API)](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - 
-   Includes templates for ASP.NET Web API. 
- * [F# Web Data Feed Template for OData (Visual Studio, ASP.NET, OData)](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
-   Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
- * [F#/C# Web Service Template for WSDL (Visual Studio, ASP.NET, WSDL)](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - Includes a template for WCF.
+ * [F# and ServiceStack Example 1](http://www.servicestack.net/mythz_blog/?p=785) - Web Services on any platform in and out of a web server! An async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
+ * [F# and ServiceStack Example 2](http://www.servicestack.net/mythz_blog/?p=811) - An Async, Cached Twitter API Proxy in F#
+ * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - 
+    (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
+ * [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
+    (Visual Studio, ASP.NET)Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
+ * [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
 
-#### Scaling to the Cloud
+### Scaling to the Cloud
 
-Scaling F# web solutions to the cloud is simple. For example:
+The [Cloud Programming](/cloud) section contains more details on cloud programming with F#.
+Some specific resources related to web programming are:
 
- * [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
  * [F# 3.0 Azure Samples](http://fsharp3sample.codeplex.com/wikipage?Title=AzureSamples)
+ * [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
  * [Using F# and C# with Amazon EC2 Elastic Map/Reduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
 #### Unit Testing Libraries
@@ -77,7 +71,7 @@ Here are a few Visual Studio 2012 project templates available for building unit 
  * [F# MsTest Project](http://visualstudiogallery.msdn.microsoft.com/51ebe64a-899b-4959-8c24-b0148ed6b264)
  * [F# Unit Test Template (MSTest)](http://visualstudiogallery.msdn.microsoft.com/432eb82c-345e-4502-be56-015fe051a210)
 
-#### Resources
+### Books
 
 Several books have been written that include information on building web applications with F#:
 
@@ -86,8 +80,11 @@ Several books have been written that include information on building web applica
  * [Programming F# 3.0](http://www.amazon.com/Programming-F-3-0-Chris-Smith/dp/1449320295/ref=sr_1_1?s=books&ie=UTF8&qid=1353176560&sr=1-1&keywords=F%23)
  * [Professional F# 2.0](http://www.amazon.com/Professional-F-2-0-Ted-Neward/dp/047052801X/ref=sr_1_9?s=books&ie=UTF8&qid=1353176560&sr=1-9&keywords=F%23)
  * [Real-World Functional Programming: With Examples in F# and C#](http://www.amazon.com/Real-World-Functional-Programming-Tomas-Petricek/dp/1933988924/ref=sr_1_5?s=books&ie=UTF8&qid=1353176560&sr=1-5&keywords=F%23) 
- 
-There are also several presentations and tutorials available that include information on 
+     
+      
+### Presentations
+
+There are  several presentations and tutorials available that include information on 
 build web applications with F#:
 
  * [Building an HTML5 application with WebSharper Sitelets, Part 1](http://www.developerfusion.com/article/124078/building-an-html5-application-with-websharper-sitelets-part-1/)
@@ -96,8 +93,11 @@ build web applications with F#:
  * [F# 3.0: data, services, Web, cloud, at your fingertips](http://channel9.msdn.com/Events/Build/BUILD2011/SAC-904T)
  * [F# Introduction](http://skillsmatter.com/podcast/scala/phil-trelford-f-introduction)
 
-#### Silverlight Applications: 
- * You can use F# to build Silverlight projects in whole or in part. 
+### Silverlight Applications: 
+
+For those still using Silverlight, you can use F# to build Silverlight projects 
+in whole or in part. Some resources are:
+
  * [F# Client-Side Application Template (Visual Studio, Silverlight)](http://visualstudiogallery.msdn.microsoft.com/621d86fb-944f-48db-a69c-e73c5521de9d) -
    Includes a simple template for creating F# Silverlight Applications. The template creates a single 
    Silverlight project that creates Silverlight controls from F# code and runs in an automatically generated HTML page.
