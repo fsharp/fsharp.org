@@ -4,14 +4,13 @@ title: Web Programming | The F# Software Foundation
 headline: Web Programming with F#
 ---
 
-F# provides the features you need to built scalable, robust web solutions:
-
- * *Fast and Scalable* - F# is highly scalable and much faster than NodeJS, Python, PHP and Ruby 
- * *Succinctness* - F# is concise, readable and type-safe, for fast development of robust web solutions
+F# provides the features you need to built scalable, robust web solutions. F# is:
+ * *Fast and Scalable* - F# is much faster than NodeJS, Python, PHP and Ruby 
+ * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
  * *Asynchronous* - F# provides asynchronous programming to simplify scalable client-server programming
- * *Interoperability* - F# interoperates seamlessly with languages such as C#, R, JavaScript and TypeScript
- * *Scalable Services* - Build scalable Web APIs and services using frameworks such as [ServiceStack](http://www.servicestack.net/)
- * *JavaScript* - F# is JavaScript-ready through tools such as [WebSharper](http://websharper.com) and [FunScript](https://github.com/ZachBray/FunScript)
+ * *Interoperabile* - F# interoperates seamlessly with languages such as C#, R, JavaScript and TypeScript
+ * *Scalable* - Build scalable Web APIs and services using frameworks such as [ServiceStack](http://www.servicestack.net/)
+ * *JavaScript-ready* - F# is JavaScript-ready through tools such as [WebSharper](http://websharper.com) and [FunScript](https://github.com/ZachBray/FunScript)
  * *Open-source* and *Cross-platform* - F# web development uses open source, cross-platform components 
    such as F#, ASP.NET, WebSharper, FunScript and ServiceStack. 
 
