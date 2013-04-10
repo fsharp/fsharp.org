@@ -8,15 +8,19 @@ F# executes on app and gaming platforms such as  [Android](/use/android/), [iOS]
 [F# on Mac](/use/mac/), XBox 360, [JavaScript/HTML5](/webstacks) and [F# on Windows](/use/windows/). See those 
 sections for details about getting started with game and app programming with F# on those platforms.
 
+F# is often ideal for the sever-side of game and app development. See the [Web Programming](/webstacks) section for 
+details of some server-side technologies. For example, F# is used on the server-sid of one of 
+the largest Facebook social games, as described in [this interview](http://www.dotnetrocks.com/default.aspx?ShowNum=846).
+  
+F# can also be used for cross-tier client/server development, particularly through [WebSharper](http://websharper.com).
+
+### 3D Game/Visualization Stacks 
+
 There are two main higher-level advanced game/visualization stacks that are currently of 
 particular interest to F# users: [MonoGame][1] and 
 [Microsoft XNA Game Studio][2].  Both can be used for either full blown games or 3D 
 data visualisations.  An HTML5 framework such as [WebSharper](http://websharper.com) can also
 be used for browser-based game development.
-
-F# is often ideal for the sever-side of game development. For example, F# is used on the server-side
-of onoe of the largest Facebook social games, as described in 
-[this interview](http://www.dotnetrocks.com/default.aspx?ShowNum=846).
 
 
 * [MonoGame][1] is an Open Source implementation of the Microsoft XNA 4 Framework. The 
@@ -31,7 +35,6 @@ of onoe of the largest Facebook social games, as described in
   facilitates video game development and management. XNA attempts to free game developers from writing 
   *repetitive boilerplate code* and to bring different aspects of game production into a single system.  
 
-- - -
 
 ### Related Resources
  * [F# on Android](/use/android/) 
