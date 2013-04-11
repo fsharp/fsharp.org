@@ -11,7 +11,7 @@ Packages are in preparation. If you can help, please email the [F# Open Source G
 
 1. Install Mono. try "apt-get install mono-runtime mono-gmcs". Check the version is at least 2.10.9.
   
-   Ubuntu: [Build and install mono from source](http://github.com/mono/mono), e.g. Mono 3.0.0 or later. If installing Mono and F# 3.0 to a private prefix, [url:follow the instructions for setting up paths for a parallel build of mono|http://mono-project.com/Parallel_Mono_Environments] and ensure LD_LIBRARY_PATH includes the "lib" directory of that prefix location {{   export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/user/mono/lib/"  }}
+   Ubuntu: [Build and install mono from source](http://github.com/mono/mono), e.g. Mono 3.0.0 or later. If installing Mono and F# 3.0 to a private prefix, [follow the instructions for setting up paths for a parallel build of mono](http://mono-project.com/Parallel_Mono_Environments) and ensure LD_LIBRARY_PATH includes the "lib" directory of that prefix location {{   export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/user/mono/lib/"  }}
 
    Others: See [Mono on Linux](http://mono-project.com)
 
