@@ -12,21 +12,12 @@ with powerful libraries and scalable data integration. The Type Provider feature
 F# 3.0 brings simplicity to accessing both regular and irregular data, including traditional databases,
 web-scale data and standard structured text formats like JSON, and XML.
 
-[Try F#](http://tryfsharp.org) has sections specific to data science. 
+[Try F#](http://tryfsharp.org/learn) has sections specific to data science. 
 Further resources related to different aspects of data science are below. 
 
 ### Math and Statistics Programming
 
-See the [Maths and Statistics](/math) section for details of numerics and statistics packages available for F#.
-
-### Big Data and Big Compute
-
-See the [Cloud Programming](/cloud) section for details of scalable data, compute and messaging frameworks and clients for F#.
-
-### Web Programming
-
-Data Science often invoves presenting results through the web. See the [Web Programming](/webstacks) section 
-for details of web programming with F#.
+You'll need these. See the [Maths and Statistics](/math) section.
 
 ### Data Access and Integration
 
@@ -34,7 +25,12 @@ F# has a wide range of useful data import and access techniques available. Many 
 and introductions cover some of these. Some specific frameworks dedicated to simplifying data access are:
 
  * [FSharp.Data](http://tpetricek.github.io/FSharp.Data/) - The F# Data library (FSharp.Data.dll) implements everything you need to access data in your F# applications and scripts. It implements F# type providers for working with structured file formats (CSV, JSON and XML) and for accessing the WorldBank and Freebase data. It also includes helpers for parsing JSON files and for sending HTTP requests.
-  
+   
+### Big Data and Big Compute
+
+You might need these if working with very large data. See the [Cloud Programming](/cloud) section for details 
+of scalable data, compute and messaging frameworks and clients for F#.
+
 ### Machine Learning 
 
 Several F#/.NET Machine Learning packages are available be [searching on nuget.org](http://nuget.org/packages?q=machine+learning), for example:
@@ -70,7 +66,12 @@ F# can integrate with systems such as R, MATLAB, Mathematica and Python. Some sp
 Many other resources are available for integrating F#, C# and .NET with these systems. If a resource specific
 to F# can't be found, then search for C# instead and adjust the technique appropriately.
           
-          
+### Web Programming
+
+Data Science often invoves presenting results through the web. See the [Web Programming](/webstacks) section 
+for details of web programming with F#.
+
+
 
 ### Other links
 
