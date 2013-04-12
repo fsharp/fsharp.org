@@ -49,7 +49,7 @@ tools will not yet detect these DLLs.
 
 #### Option 4: Build HTML5 and Windows Store apps using F# WebSharper
 
-* [WebSharper](http://www.websharper.com) to make HTML5 and WinJS web apps written in F#. These can be deployed either as HTML5 web apps or direct to the Windows 8 app store.
+* Use [WebSharper](http://www.websharper.com) to make HTML5 and WinJS web apps written in F#. These can be deployed either as HTML5 web apps or direct to the Windows 8 app store.
 
 <br />
 <br />
