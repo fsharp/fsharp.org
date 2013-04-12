@@ -12,8 +12,8 @@ If you already have Visual Studio 2012 Ultimate or Professional, then you alread
 * [Install the Visual F# Express Tools](http://go.microsoft.com/fwlink/?LinkID=261287)
 
 See [fsharp.net](http://fsharp.net) for more information about Visual F# from Microsoft. 
-Note you can use a different editor and the command-line compiler (fsc.exe) or F# Interactive (fsi.exe) 
-after you have intalled Visual F#.
+You can use a different editor and the command-line compiler (fsc.exe) or F# Interactive (fsi.exe) 
+after you have installed Visual F#.
 
 <br />
 <br />
