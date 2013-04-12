@@ -61,7 +61,7 @@ Some specific introductions to implementing different machine learning with F# a
 
 ### R, MATLAB, Mathematics and Python Integration
 
-F# can integrate with systems such as R, MATLAB, Mathematics and Python. Some specific resources are:
+F# can integrate with systems such as R, MATLAB, Mathematica and Python. Some specific resources are:
 
  * [R Type Provider for F#](https://github.com/BlueMountainCapital/FSharpRProvider) - An F# type provider for high-fidelity integration between F# and R
  * [Python for .NET](http://pythonnet.sourceforge.net/readme.html) - Allows Python to be integrated into F# and C# programs
