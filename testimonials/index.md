@@ -87,12 +87,11 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 
  
 <div id="kaggle-1"> </div>
+<br> </br>
 ---
 
-> The F# code is consistently shorter, easier to read, 
-> easier to refactor, and, because of the strong typing, contains far fewer bugs.
-> As our data analysis tools have developed, we've seen domain-specific constructs 
-> emerge very naturally; as our codebase gets larger, we become more productive. 
+> The F# code is consistently shorter, easier to read, easier to refactor and contains far fewer bugs.
+> As our data analysis tools have developed ... we've become more productive. 
 
 1. [**Kaggle**](http://www.kaggle.com/about/)
 2. [permalink](#kaggle-1)
