@@ -40,9 +40,6 @@ If you're just looking for a compiler and/or F# Interactive, e.g. for a build se
 
 * [Install the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) from Microsoft
 
-Note: the F# open source group have an installer which is independent of the Visual F# tools. 
-You can also build F# 3.0 from [Install the F# Open Source Edition](http://fsharp.github.com/fsharp) but the MonoDevelop 
-tools will not yet detect these DLLs.
 
 <br />
 <br />
@@ -58,4 +55,7 @@ tools will not yet detect these DLLs.
 
 * [Learn F# online at Try F#](http://tryfsharp.org)
 
+#### Option 6: Build F# from source
+
+* Build the F# compiler and library from [the source](http://fsharp.github.com/fsharp)
 
