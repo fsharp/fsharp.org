@@ -240,9 +240,9 @@ financing, hedging, and logistical support....
 
 > The F# solution offers us an order of magnitude increase in productivty...
 
-1. **Yan Cui**
-2. Lead Server Engineer
-3. GameSys
+1. **GameSys**
+2. Yan Cui
+3. Lead Server Engineer
 4. [source](http://www.dotnetrocks.com/default.aspx?showNum=846), [permalink](#yan-cui)
 
 F# is becoming an increasingly important clog in our server side infrastructure that supports
