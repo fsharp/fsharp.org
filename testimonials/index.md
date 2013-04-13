@@ -246,7 +246,7 @@ financing, hedging, and logistical support....
 3. Lead Server Engineer
 4. [source](http://www.dotnetrocks.com/default.aspx?showNum=846), [permalink](#yan-cui)
 
-F# is becoming an increasingly important clog in our server side infrastructure that supports
+F# is becoming an increasingly important part of our server side infrastructure that supports
 our mobile and web-based social games with millions of active users. F# first came to prominence
 in our technology stack in the implementation of the rules engine for our social slots games 
 which by now serve over **700,000 unique players** and **150,000,000 requests** per day at peaks 
