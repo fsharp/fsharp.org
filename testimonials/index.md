@@ -817,7 +817,7 @@ requirements effortlessly...
 1. **Yan Cui**
 2. Lead Server Engineer
 3. GameSys
-4. [permalink](#yan-cui)
+4. [source](http://www.dotnetrocks.com/default.aspx?showNum=846), [permalink](#yan-cui)
 
 F# is becoming an increasingly important clog in our server side infrastructure that supports
 our mobile and web-based social games with millions of active users. F# first came to prominence
