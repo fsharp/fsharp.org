@@ -5,14 +5,13 @@ headline: Using F# for Math and Statistics
 ---
 
 F# is well-suited to numerical and statistical programming because
-f its functional-first design, which focuses on the definition
-of functions to transform data. The functional style is often a
+of its functional-first design, which focuses on the definition
+of functions to transform data and gives a
 natural translation of the underlying mathematics. 
 
 Numerical programming is CPU-intensive so efficient execution is essential.
 F# executes as native code through pre-compilation and/or
 [JIT compilers](http://en.wikipedia.org/wiki/Just-in-time_compilation).  
-
 F# integrates highly optimized, native code libraries such as the 
 Intel [Math Kernel Library (MKL)](http://software.intel.com/en-us/intel-mkl) 
 through libraries like [Math.NET Numerics](http://numerics.mathdotnet.com/). 
