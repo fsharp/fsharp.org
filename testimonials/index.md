@@ -96,7 +96,7 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 1. [**Kaggle**](http://www.kaggle.com/about/)
 2. [permalink](#kaggle-1)
 
-We initially chose F# for our core data analysis algorithms because of its expressiveness. 
+At Kaggle we initially chose F# for our core data analysis algorithms because of its expressiveness. 
 We've been so happy with the choice that we've found ourselves moving more and more of 
 our application out of C# and into F#. The F# code is consistently shorter, easier to read, 
 easier to refactor, and, because of the strong typing, contains far fewer bugs.
