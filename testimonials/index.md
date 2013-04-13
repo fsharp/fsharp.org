@@ -811,8 +811,6 @@ There's an exciting future for F# in this huge, emerging, data-rich health care 
 ---
 
 > The F# solution offers us an order of magnitude increase in productivty...
-> F#'s MailboxProcessor allows us to build thread-safe components with high-concurrency 
-requirements effortlessly...
 
 1. **Yan Cui**
 2. Lead Server Engineer
@@ -828,6 +826,7 @@ The F# solution offers us an **order of magnitude increase in productivity** and
 one developer to perform the work that are performed by a team of dedicated developers on an 
 existing Java-based solution, and is critical in supporting our agile approach and bi-weekly 
 release cycles.
+
 The [agent-based programming model](http://www.developerfusion.com/article/139804/an-introduction-to-f-agents/) 
 offered by F#'s MailboxProcessor allows us to **build thread-safe components with high-concurrency requirements effortlessly**, without using locks and sacrificing maintainability and complexity.
 These agent-based solutions also offer much improved efficiency and latency whilst running at scale.
