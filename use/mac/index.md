@@ -51,7 +51,7 @@ You can now create new projects in Xamarin Studio and MonoDevelop. Ignore any un
 
 ### Having trouble?
 
-* Ask questions at the [F# Open Source Group](https://groups.google.com/forum/?fromgroups#!forum/fsharp-opensource)
+* Ask questions at the [F# Open Source Group](https://groups.google.com/forum/#!forum/fsharp-opensource)
 
 ### What should I use to edit my code?
 
