@@ -18,8 +18,6 @@ instructions.
 
 ### Open-source libraries
 
-Here are some open source libraries:
-
  * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
    a large collection of algorithms needed in science and engineering, including linear algebra, 
    special functions, statistics, probability models, interpolation and FFTs. 
@@ -53,8 +51,6 @@ Here are some open source libraries:
    
 
 ### Commercial libraries
-
-Here are some commercial libraries:
 
  * [Alea.cuBase](http://www.quantalea.net/products/overview/) - a framework for 
    developing GPU-accelerated algorithms in F# on .NET and Mono.
