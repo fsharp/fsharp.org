@@ -5,17 +5,13 @@ headline: Using F# for Math and Statistics
 ---
 
 F# is well-suited to numerical and statistical programming because
-of its functional-first design, which focuses on the definition
-of functions to transform data and gives a
-natural translation of the underlying mathematics. 
+of its focus on data transformations and a natural translation of the underlying mathematics. 
 
-Numerical programming is CPU-intensive so efficient execution is essential.
-F# executes as native code through pre-compilation and/or
-[JIT compilers](http://en.wikipedia.org/wiki/Just-in-time_compilation).  
-F# integrates highly optimized, native code libraries such as the 
+Efficient execution of numeric code is essential. F# executes as native code, normally through 
+[JIT compilation](http://en.wikipedia.org/wiki/Just-in-time_compilation). F# can also utilize highly optimized, native code libraries such as the 
 Intel [Math Kernel Library (MKL)](http://software.intel.com/en-us/intel-mkl) 
-through libraries like [Math.NET Numerics](http://numerics.mathdotnet.com/). 
-Other libraries are listed below. On Linux, Mono additionally 
+through packages like [Math.NET Numerics](http://numerics.mathdotnet.com/) and other
+libraries listed below. On Linux, Mono  
 provides easy access to [SIMD](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
 instructions.
 
