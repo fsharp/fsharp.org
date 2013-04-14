@@ -838,3 +838,21 @@ There's an exciting future for F# in this huge, emerging, data-rich health care 
 <div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
 
 
+<div id="vitor-pereira"> </div>
+---
+
+> F# interoperability with the .NET platform allows the construction of 
+> powerful implementations that other functional languages do not allow so easily
+
+1. **Vitor Pereira**
+2. Undergraduate Student
+3. University of Beira Interior, Portugal
+4. [permalink](#vitor-pereira)
+
+I am currently using F# to develop my undergraduate final project. The project consists in developing an Application Programming Interface that allows one to encrypt data using fully homomorphic encryption and I found in F# the ideal programming language to develop it.
+
+Besides all the benefits of the functional paradigm for this type of work, F# interoperability with the .NET platform allows the construction of powerful implementations that other functional languages do not allow so easily. 
+
+I really hope that, in the future, I keep working in Cryptography using F# as the main programming language for my projects. Also, I am preparing a hands-on lab to teach cryptography using F# for a event in Microsoft Portugal, which I will surely enjoy!
+
+<div class="keywords">cryptography, interopability, .NET platform, hands-on</div>
