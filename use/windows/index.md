@@ -23,7 +23,7 @@ after you have installed Visual F#.
 
 [Xamarin Studio](http://xamarin.com/studio) is a freemium IDE for mobile app development. 
 [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be 
-used with either.
+used with both.
 
 1. Install [the free standalone F# commpiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) 
 2. Install [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) for Windows
@@ -38,20 +38,21 @@ used with either.
 
 If you're just looking for a compiler and/or F# Interactive, e.g. for a build server or cloud VM image, then:
 
-1. Requires .NET 4.5
+1. Requires [.NET 4.5](http://www.microsoft.com/net/download) from Microsoft
 2. [Install the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) from Microsoft
 
-   Alternatively, do a quiet install from a PowerShell administrator  prompt as follows (the URL is the redirect of the above). 
+   Alternatively, do a quiet install from a PowerShell administrator prompt (the URL is the redirect of the above). 
 
     $webclient = New-Object System.Net.WebClient
     $url = "http://download.microsoft.com/download/0/5/E/05E5C5E3-2A52-434F-A09E-C8150B987D09/VWD_FSharp.exe"
     $webclient.DownloadFile($url, "VWD_FSharp.exe")
     .\VWD_FSharp.exe /install /quiet
 
-
 The compiler tools are installed at
-    C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsc.exe (also fsi.exe, fsiAnyCpu.exe)
-
+    C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsc.exe
+    C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsi.exe
+    C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsiAnyCpu.exe
+    
 <br />
 <br />
 
