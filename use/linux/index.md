@@ -47,7 +47,7 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
 
-* For visual tooling, use MonoDevelop:
+* For visual tooling:
 
     sudo apt-get install monodevelop
   
