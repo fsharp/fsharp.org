@@ -36,9 +36,18 @@ used with either.
 
 ### Option 3: Install the F# compiler and tools alone
 
-If you're just looking for a compiler and/or F# Interactive, e.g. for a build server or VM, then:
+If you're just looking for a compiler and/or F# Interactive, e.g. for a build server or cloud VM image, then:
 
-1. [Install the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) from Microsoft
+1. Requires .NET 4.5
+2. [Install the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) from Microsoft
+
+   Alternatively, do a quiet install from a PowerShell administrator  prompt as follows (the URL is the redirect of the above). 
+
+    $webclient = New-Object System.Net.WebClient
+    $url = "http://download.microsoft.com/download/0/5/E/05E5C5E3-2A52-434F-A09E-C8150B987D09/VWD_FSharp.exe"
+    $webclient.DownloadFile($url, "VWD_FSharp.exe")
+    .\VWD_FSharp.exe /install /quiet
+
 
 The compiler tools are installed at
     C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsc.exe (also fsi.exe, fsiAnyCpu.exe)
