@@ -75,3 +75,5 @@ title: The F# Software Foundation
  * Dave Thomas ([@7sharp9](https://twitter.com/7sharp9))
  * [Loïc Denuzière](http://fpish.net/profile/loic.denuziere), [IntelliFactory](http://intellifactory.com)
  * [Christoph Rüegg](http://christoph.ruegg.name) ([@cdrnet](https://twitter.com/cdrnet))
+ * [Piet Amersfoort](http://ps-a.blogspot.nl/) 
+ * [Heather Cynede](https://github.com/Heather) ([@Cynede](https://twitter.com/Cynede))
