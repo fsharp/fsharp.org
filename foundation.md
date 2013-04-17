@@ -71,3 +71,5 @@ title: The F# Software Foundation
  * Sergey Tihon ([@sergey_tihon](https://twitter.com/sergey_tihon))
  * Homi Chothia
  * John Tarbox
+ * John B Fair ([@johnbfair](https://twitter.com/johnbfair))
+ * Dave Thomas ([@7sharp9](https://twitter.com/7sharp9))
