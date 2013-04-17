@@ -78,3 +78,5 @@ title: The F# Software Foundation
  * [Piet Amersfoort](http://ps-a.blogspot.nl/) 
  * [Heather Cynede](https://github.com/Heather) ([@Cynede](https://twitter.com/Cynede))
  * Jonathan Leonard
+ * José Luis D'Andrade Suero, Attorney, Legal Informatics Specialist
+ * [Adil Akhter](http://adilakhter.wordpress.com ) ([@adilakhter](https://twitter.com/adilakhter)), Msc. Student, Delft University of Technology, The Netherlands
