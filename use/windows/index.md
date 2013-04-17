@@ -25,7 +25,7 @@ after you have installed Visual F#.
 [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be 
 used with both.
 
-1. Install [the free standalone F# commpiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) 
+1. Install [the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) 
 2. Install [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) for Windows
 3. Install the F# Addin for Xamarin Studio or MonoDevelop from the Addin Gallery
 
