@@ -77,3 +77,4 @@ title: The F# Software Foundation
  * [Christoph Rüegg](http://christoph.ruegg.name) ([@cdrnet](https://twitter.com/cdrnet))
  * [Piet Amersfoort](http://ps-a.blogspot.nl/) 
  * [Heather Cynede](https://github.com/Heather) ([@Cynede](https://twitter.com/Cynede))
+ * Jonathan Leonard
