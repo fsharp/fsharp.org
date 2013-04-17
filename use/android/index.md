@@ -15,7 +15,7 @@ You can now create a new F# Android app, e.g. an "F# Honeycomb Application". Bui
 Note: Remove the "FSharp.Core" reference and add a reference to 
 
     Mac: /Developer/MonoTouch/usr/lib/mono/2.1/FSharp.Core.dll 
-    Windows: %Program Files%\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\FSharp.Core.dll
+    Windows: C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\FSharp.Core.dll
         
 Note: Additional F# libraries beyond the main app are currently considered "external code" and require a non-Starter edition of Xamarin Studio. This is a known issue.
         
