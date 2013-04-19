@@ -708,6 +708,7 @@ presentation through charting and image generation.
 > I am using F# to develop an API for data encryption using fully homomorphic encryption.
 
 1. **Vitor Pereira**
+2. [permalink](#vitor-pereira)
 
 I am currently using F# to develop my undergraduate final project. The project consists in developing
 an Application Programming Interface that allows one to encrypt data using fully homomorphic encryption
