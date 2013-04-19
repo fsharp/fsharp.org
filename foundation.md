@@ -82,3 +82,4 @@ title: The F# Software Foundation
  * [Phil Nash](http://levelofindirection.com), ([@phil_nash](http://twitter.com/phil_nash))
  * Tommy Doherty, Head of development for a software development company in Dublin, Ireland 
  * Bogdan Tira, Organizer of [Chicago's F# Users group](http://www.meetup.com/Chicago-F-Users)
+ * [Tony Abel](http://www.tonyabell.com)
