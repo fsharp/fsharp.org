@@ -31,7 +31,7 @@ title: The F# Software Foundation
  * [Rainer Schmidt](http://www.htw-aalen.de/personal/rainer.schmidt/), Professor for Business Information Systems, Aalen University, Germany
  * [Anh-Dung Phan](http://lonelypad.blogspot.com/), PhD student at Technical University of Denmark
  * Petr Lepilov, New England F# User Group
- * [Dave Thomas](http://7sharpnine.com)
+ * [Dave Thomas](http://7sharpnine.com), ([@7sharp9](https://twitter.com/7sharp9))
  * [Jack Fox](http://jackfoxy.com)
  * [Ben Taylor](http://bentaylor.org), [@bentayloruk](https://twitter.com/bentayloruk)
  * Mathias Brandewinder
@@ -72,7 +72,6 @@ title: The F# Software Foundation
  * Homi Chothia
  * John Tarbox
  * John B Fair ([@johnbfair](https://twitter.com/johnbfair))
- * Dave Thomas ([@7sharp9](https://twitter.com/7sharp9))
  * [Loïc Denuzière](http://fpish.net/profile/loic.denuziere), [IntelliFactory](http://intellifactory.com)
  * [Christoph Rüegg](http://christoph.ruegg.name) ([@cdrnet](https://twitter.com/cdrnet))
  * [Piet Amersfoort](http://ps-a.blogspot.nl/) 
@@ -80,3 +79,6 @@ title: The F# Software Foundation
  * Jonathan Leonard
  * José Luis D'Andrade Suero, Attorney, Legal Informatics Specialist
  * [Adil Akhter](http://adilakhter.wordpress.com ) ([@adilakhter](https://twitter.com/adilakhter)), Msc. Student, Delft University of Technology, The Netherlands
+ * [Phil Nash](http://levelofindirection.com), ([@phil_nash](http://twitter.com/phil_nash))
+ * Tommy Doherty, Head of development for a software development company in Dublin, Ireland 
+ * Bogdan Tira, Organizer of [Chicago's F# Users group](http://www.meetup.com/Chicago-F-Users)
