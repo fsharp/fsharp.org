@@ -39,7 +39,13 @@ used with both.
 If you're just looking for a compiler and/or F# Interactive, e.g. for a build server or cloud VM image, then:
 
 1. Requires [.NET 4.5](http://www.microsoft.com/net/download) from Microsoft
-2. [Install the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) from Microsoft
+2. Requires the Windows SDK if necessary
+
+   On Windows 8 or Windows 2012 Server use the [Windows 8 and .NET 4.5 SDK](http://msdn.microsoft.com/en-us/windows/hardware/hh852363.aspx) from Microsoft
+   
+   On Windows 7 or Windows 2008 Server use the [Windows 7 and .NET 4.0 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=8279)
+   
+3. [Install the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) from Microsoft
 
    Alternatively, do a quiet install from a PowerShell administrator prompt (the URL is the redirect of the above). 
 
