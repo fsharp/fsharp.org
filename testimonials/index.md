@@ -431,6 +431,46 @@ previously unsolved problems.  Everything becomes simple and clear when expresse
 
 
 
+<div id="michael-hansen"> </div>
+<br> </br>
+---
+
+> The simple, well-designed and powerful core of the language was perfect for introducing the fundamental concepts of functional programming.
+
+1. [**Michael R. Hansen**](http://www2.imm.dtu.dk/~mire)
+2. Associate Professor, Technical University of Denmark
+3. [permalink](#michael-hansen)
+
+
+Producing an [F#-based book](http://www.compute.dtu.dk/~mire/FSharpBook)on functional programming has been a fantastic experience.
+
+Using this material in an [F#-based course](http://www.compute.dtu.dk/courses/02157)
+introducing the fundamental concepts of functional programming has
+been a delightful experience as well. The simple,
+well-designed, yet powerful, core of the language was perfect for
+that purpose and, to our surprise, the transition from using SML
+to using F# actually made the tooling easier for students no
+matter which platforms they used.
+
+Furthermore, F# with it rich runtime environment has proved to be
+an excellent programming platform in research applications and in
+a more advanced course aiming at showing the role of functional
+programming in a broad variety of applications ranging from
+computer science applications to more real-life applications. In
+the first version of this course, given together with Anh-Dung Phan,
+the students completed three projects in three weeks: One being an
+interpreter for a rich imperative programming language,
+another being implementation, application and analysis of a
+functional pearl, and the last being a curriculum planning system
+for studies at the Technical University of Denmark.
+
+
+
+<div class="keywords">education, functional programming</div>
+
+
+
+
 <div id="dsyme-ad-predict-1"> </div>
 ---
 
