@@ -85,3 +85,4 @@ title: The F# Software Foundation
  * [Tony Abel](http://www.tonyabell.com)
  * Aidan Twomey
  * [Rod Furlan](http://bitcortex.com)
+ * [Matthew Podwysocki](http://weblogs.asp.net/podwysocki/), Microsoft
