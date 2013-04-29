@@ -11,6 +11,7 @@ headline: Use F# for Android Development
 3. Update to the latest alpha of Xamarin Studio (4.0.3 build 13 or later) using "Help --> Check for Updates --> Alpha Channel".
 3. Add Tools --> Addin Manager --> Gallery --> Language Bindings --> F# Language Binding
 4. Add Tools --> Addin Manager --> Gallery --> Mobile Development --> F# Support for Xamarin.Android Development
+5. On Windows, also [install the F# 2.0 Runtime](http://www.microsoft.com/en-us/download/details.aspx?id=13450)
 
 You can now create a new F# Android app, e.g. an "F# Honeycomb Application". Build and Debug will deploy to an emulator or device.
 
@@ -25,14 +26,12 @@ Report problems to the [F# Open Source Group email list](http://fsharp.github.co
 
 <br />
 <br />
-<br />
 
 
 #### Option 2: Build HTML5 Android apps using F# WebSharper
 
 * Use [WebSharper](http://www.websharper.com) to make HTML5 apps written in F#.
 
-<br />
 <br />
 <br />
 
