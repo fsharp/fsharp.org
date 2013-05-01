@@ -31,7 +31,12 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
     make
     sudo make install
     
-  Once built, use "fsharpi" to start F# Interactive, and use "fsharpc" to compile. 
+   Alternatively, you can get fsharp from the Debian *unstable* repository with the following commands:
+    
+    sudo apt-get install fsharp
+    sudo apt-get install fsharp-console
+    
+3. Once installed, use "fsharpi" to start F# Interactive, and use "fsharpc" to compile. 
 
     fsharpi     (starts F# interactive)
     fsharpc     (F# compiler)
