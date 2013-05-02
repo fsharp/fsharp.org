@@ -333,7 +333,28 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 
 
 
+<div id="cme-1"> </div>
+<br> </br>
+---
+
+> The efficient use of functional programming throughout the R&D cycle helped make the cycle faster and more efficient.
+
+1. Moody Hadi (CME Group)
+2. [source](http://stevanovichcenter.uchicago.edu/conferences/fp/Program.html), [permalink](#cme-1)
+
+The credit markets have varying pockets of liquidity. Market participants would like to understand how the 
+liquidity of their set of entities changes relative to the overall market. A liquidity scoring model is 
+needed to provide these metrics across the entire CDS universe. Functional programming and specifically 
+F# was used  in order to provide the market with a fast and accurate solution. This presentation will show 
+how the research and development cycle was made faster and more efficient by the effective use of 
+functional programming.
+
+The efficient use of functional programming throughout the R&D cycle helped make the cycle faster and more efficient.
+Less time was spent on translating requirements, miscommunications etc and more on producing a fast and accurate solution quickly.
+
+
 <div id="julien-laugel-1"> </div>
+<br> </br>
 ---
 
 > F# allows you to move smoothly in your programming style
