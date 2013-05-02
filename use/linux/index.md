@@ -4,10 +4,11 @@ title: Use F# on Linux | The F# Software Foundation
 headline: Use F# on Linux
 ---
 
+If you can help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).
 
+                                                                  
 ### Option 1: Install F# 3.0 compiler and tools
 
-If you can help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).
 
 1. Install the runtime used by F#. [Download it](http://www.go-mono.com/mono-downloads/download.html) or use:
 
@@ -31,11 +32,6 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
     make
     sudo make install
     
-   Alternatively, you can get fsharp from the Debian *unstable* repository with the following commands:
-    
-    sudo apt-get install fsharp
-    sudo apt-get install fsharp-console
-    
 3. Once installed, use "fsharpi" to start F# Interactive, and use "fsharpc" to compile. 
 
     fsharpi     (starts F# interactive)
@@ -47,6 +43,22 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
     > fsharpi --readline- 
 
   to turn of console processing.
+
+### Option 2: Get the (unstable) Debian packages
+
+You can get F# 3.0 from the Debian *unstable* repository (see also [the package home page](http://packages.qa.debian.org/f/fsharp.html)).
+
+1. Add the following to /etc/apt/sources.list:
+ 
+    deb http://http.us.debian.org/debian/ unstable main contrib non-free 
+    deb-src http://http.us.debian.org/debian/ unstable main contrib non-free 
+                       
+2. Get the packages with the following commands:
+                                        
+    sudo apt-get install mono-devel
+    sudo apt-get install fsharp
+    sudo apt-get install fsharp-console
+                                                    
 
 ### Editing tools
 
