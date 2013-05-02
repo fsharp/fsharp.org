@@ -143,7 +143,7 @@ additional material on Numerical Computing by Yin Zhu
 This site will introduce you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software
 
-### [F# MVC framework for WPF] (http://code.google.com/p/fsharpmvcseries/wiki/TableOfContents?tm=6)
+### [F# MVC framework for WPF] (https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/wiki)
 
-This 15-part series describes how we can take advantage of the F# language features to
+This 14-part series describes how we can take advantage of the F# language features to
 create truly type-safe WPF applications
