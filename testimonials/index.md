@@ -43,7 +43,7 @@ the content (so please add some, even though they are not used at the moment).
 
 
 <div id="simon-cousins-1"> </div> 
-
+<br> </br>
 ---
 
 > The use of F# demonstrates a sweet spot for the language within enterprise software
@@ -66,6 +66,7 @@ analysis of large data sets. My experience has been a very positive one.
 
 
 <div id="credit-suisse-abstract"> </div>
+<br> </br>
 ---
 
 > At Credit Suisse, we've been using F# to develop quantitative models for financial products
@@ -159,6 +160,7 @@ we knew we could use new modules right away.
 
 
 <div id="grange-insurance-1"> </div>
+<br> </br>
 ---
 
 > Grange Insurance parallelized its rating engine to take better 
@@ -299,6 +301,7 @@ F#. With its new tools, the bank can speed development by 50 percent or more, im
 
 
 <div id="boston-based-company"> </div>
+<br> </br>
 ---
 
 > F# encourages Reason Driven Development that leads to virtually bug-free code
@@ -393,6 +396,7 @@ software to do anything else).
 
 
 <div id="advertisement-rating-and-ranking-at-microsoft"> </div>
+<br> </br>
 ---
 
 > Around 95% of the code in these projects has been developed in F#
@@ -412,6 +416,7 @@ Prices, probabilities, derivatives, etc. can already be kept apart at compile ti
 
 
 <div id="microsoft-quantum-1"> </div>
+<br> </br>
 ---
 
 > F# is central to Microsoft’s quantum algorithm research
@@ -493,6 +498,7 @@ for studies at the Technical University of Denmark.
 
 
 <div id="dsyme-ad-predict-1"> </div>
+<br> </br>
 ---
 
 > F#'s powerful type inference means less typing, more thinking
@@ -517,6 +523,7 @@ were used during training. Benefits included  **Quick Coding** - F#'s powerful t
 
 
 <div id="path-of-go"> </div>
+<br> </br>
 ---
 
 > ...The AI is implemented in F#...
@@ -554,6 +561,7 @@ documents, in a totally new way.
 
 
 <div id="horspool-1"> </div>
+<br> </br>
 ---
 
 > When F# is combined with Visual Studio... productivity goes through the roof!
@@ -571,6 +579,7 @@ data types and how to use those methods, productivity goes through the roof!
 
 
 <div id="peter-sestoft-1"> </div>
+<br> </br>
 ---
 
 > ...That's the reason we have chosen F# for our undergraduate functional programming class...
@@ -705,6 +714,7 @@ code that ran in equivalent time to C++ code or in some cases faster.
 
 
 <div id="forensic-software-1"> </div>
+<br> </br>
 ---
 
 > This software provides the user with maximum flexibility to move 
@@ -764,6 +774,7 @@ presentation through charting and image generation.
 
 
 <div id="vitor-pereira"> </div>
+<br> </br>
 ---
 
 > I am using F# to develop an API for data encryption using fully homomorphic encryption.
@@ -803,6 +814,7 @@ languages and use them where they're needed.
 
 
 <div id="antonio-hayley-1"> </div>
+<br> </br>
 ---
 
 > I'd recommend F#... learning another language is one way to become a better programmer.
@@ -821,6 +833,7 @@ and understanding of a programmer.
 
 
 <div id="jared-parsons-1"> </div>
+<br> </br>
 ---
 
 > ...I have to say I love the language...
@@ -858,6 +871,7 @@ Russia towards F#.
 
 
 <div id="darren-platt-1"> </div>
+<br> </br>
 ---
 
 > F# rocks... building out various algorithms for DNA processing here and 
@@ -890,6 +904,7 @@ With Units of Measure I started labelling the coordinates as one or zero based a
 
 
 <div id="robert-boissy"> </div>
+<br> </br>
 ---
 
 > Many attributes of the F# programming language make it an ideal choice 
