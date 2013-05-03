@@ -12,7 +12,7 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 
 1. Install the runtime used by F#. [Download it](http://www.go-mono.com/mono-downloads/download.html) or use:
 
-    sudo apt-get install mono-devel
+       sudo apt-get install mono-devel
 
    For 'xbuild' you need version 3.0 of the runtime. Normally, build and install from source:
 
