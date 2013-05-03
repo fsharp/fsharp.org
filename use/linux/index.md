@@ -43,6 +43,7 @@ You can get F# 3.0 from the Debian *unstable* repository (see also [the package 
                        
 2. Get the packages with the following commands:
 
+       sudo apt-get update
        sudo apt-get install mono-devel
        sudo apt-get install fsharp
        sudo apt-get install fsharp-console                                             
