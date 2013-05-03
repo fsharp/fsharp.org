@@ -4,13 +4,13 @@ title: Web Programming | The F# Software Foundation
 headline: Web Programming with F#
 ---
 
-F# provides the features you need to built scalable, robust web solutions. F# is:
+F# is excellent for building scalable, robust web solutions:
  * *Fast and Scalable* - F# is much faster than NodeJS, Python, PHP and Ruby 
  * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
  * *Asynchronous* - F# provides asynchronous programming to simplify scalable client-server programming
  * *Interoperable* - F# interoperates seamlessly with languages such as C#, JavaScript and TypeScript
  * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](https://github.com/ZachBray/FunScript)
- * *Open-source* and *Cross-platform*  
+ * *Open-source* and *Cross-platform*  - Like all good web tools!
 
 ### Building Web Applications:
 
@@ -42,12 +42,20 @@ F# shines in the area of Web API development through frameworks like  [ServiceSt
 
  * [F# and ServiceStack Example 1](http://www.servicestack.net/mythz_blog/?p=785) - Web Services on any platform in and out of a web server! An async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
  * [F# and ServiceStack Example 2](http://www.servicestack.net/mythz_blog/?p=811) - An Async, Cached Twitter API Proxy in F#
+ * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
  * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
  * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - 
     (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
  * [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
     (Visual Studio, ASP.NET)Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
  * [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
+
+### Hosting
+
+Common hosting options are:
+ * [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku)
+ * [Azure Web Sites](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
+ * [AppHarbor](http://appharbor.com/) - Free hosting of .NET web applications
 
 ### Scaling to the Cloud
 
