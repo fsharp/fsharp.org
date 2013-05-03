@@ -32,7 +32,7 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
        make
        sudo make install
 
-### Option 2: Get the Debian packages (unstable, in progress)
+### Option 2: Get the F# 3.0 Debian packages (unstable, in progress)
 
 You can get F# 3.0 from the Debian *unstable* repository (see also [the package home page](http://packages.qa.debian.org/f/fsharp.html)).
 
@@ -46,7 +46,11 @@ You can get F# 3.0 from the Debian *unstable* repository (see also [the package 
        sudo apt-get update
        sudo apt-get install mono-devel
        sudo apt-get install fsharp
-       sudo apt-get install fsharp-console                                             
+       sudo apt-get install fsharp-console
+       sudo cp -p /usr/lib/cli/FSharp.*-4.3/* /usr/lib/mono/4.0/
+       
+   The last line is needed due to Debian package bugs [706683](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706683) and [705906](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=705906) 
+
 
 ### Using F# on Linux
 
