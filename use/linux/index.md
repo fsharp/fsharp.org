@@ -16,21 +16,21 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 
    For 'xbuild' you need version 3.0 of the runtime. Normally, build and install from source:
 
-    git clone https://github.com/mono/mono
-    cd mono
-    ./autogen.sh   
-    make
-    sudo make install
+       git clone https://github.com/mono/mono
+       cd mono
+       ./autogen.sh   
+       make
+       sudo make install
 
    If installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure LD_LIBRARY_PATH includes the "lib" directory of that prefix location {{   export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/user/mono/lib/"  }}. 
    
 2. Build and install the F# Compiler (open edition) from source. 
 
-    git clone https://github.com/fsharp/fsharp
-    cd fsharp
-    ./autogen.sh     # omit or adjust the --prefix if needed, use the same prefix as used for mono
-    make
-    sudo make install
+       git clone https://github.com/fsharp/fsharp
+       cd fsharp
+       ./autogen.sh     # omit or adjust the --prefix if needed, use the same prefix as used for mono
+       make
+       sudo make install
 
 ### Option 2: Get the Debian packages (unstable, in progress)
 
@@ -38,15 +38,14 @@ You can get F# 3.0 from the Debian *unstable* repository (see also [the package 
 
 1. Add the following to /etc/apt/sources.list:
 
-    deb http://http.us.debian.org/debian/ unstable main contrib non-free 
-    deb-src http://http.us.debian.org/debian/ unstable main contrib non-free 
+       deb http://http.us.debian.org/debian/ unstable main contrib non-free 
+       deb-src http://http.us.debian.org/debian/ unstable main contrib non-free 
                        
 2. Get the packages with the following commands:
 
-    sudo apt-get install mono-devel
-    sudo apt-get install fsharp
-    sudo apt-get install fsharp-console
-                                                    
+       sudo apt-get install mono-devel
+       sudo apt-get install fsharp
+       sudo apt-get install fsharp-console                                             
 
 ### Using F# on Linux
 
@@ -68,7 +67,7 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * For visual tooling:
 
-    sudo apt-get install monodevelop
+       sudo apt-get install monodevelop
   
   or [build/install it from source](http://github.com/mono/monodevelop).
   
