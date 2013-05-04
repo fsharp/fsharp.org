@@ -86,4 +86,4 @@ title: The F# Software Foundation
  * Aidan Twomey
  * [Rod Furlan](http://bitcortex.com)
  * [Matthew Podwysocki](http://weblogs.asp.net/podwysocki/), Microsoft
- * [John Usher], RioTinto
+ * John Usher
