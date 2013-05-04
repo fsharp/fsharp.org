@@ -834,7 +834,7 @@ be presented at an event in Microsoft Portugal, which I will surely enjoy!
 <div id="mario-pereira"> </div>
 ---
 
-> everyone gets really amazed when they try F# and experiment its imense expressive power
+> everyone gets really amazed when they try F# and experience its imense expressive power
 
 1. **Mário Pereira**
 2. Microsoft Student Partner (MSP)
@@ -850,7 +850,7 @@ experience giving introductory seminars to F# and functional
 programming using F#. So far, I have given these presentations on most
 portuguese faculties and also at Microsoft portuguese headquarters. The
 result is always the same: everyone gets really amazed when they try
-F# and experiment its imense expressive power, its delightful
+F# and experience its imense expressive power, its delightful
 syntax and realize they can do functional programming (which is
 oftenly taken as something boring and complicated) on a familiar and
 confortable environment. Currently, along with a fellow portuguese
