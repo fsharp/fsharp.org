@@ -501,9 +501,8 @@ for studies at the Technical University of Denmark.
 > Solving a number of programming problems using the language convinced me of the supreme qualities of F#
 
 1. **Hans Rischel**
-2. Former teacher of computer science at the
-3. Technical University of Denmark
-4. [permalink](#hans-rischel)
+2. Former teacher of computer science at the Technical University of Denmark
+3. [permalink](#hans-rischel)
 
 I was approached by my former colleague Michael (Michael R. Hansen) in autumn 
 2010 where he proposed that we should write a new text book on functional 
