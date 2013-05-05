@@ -16,7 +16,7 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
    
    or build and install version 3.0 (needed for xbuild support)
    
-       sudo apt-get install libtool autoconf g++ gettext make
+       sudo apt-get install libtool autoconf g++ gettext make git
        git clone https://github.com/mono/mono
        cd mono
        ./autogen.sh   --prefix /usr
