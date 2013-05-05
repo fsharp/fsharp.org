@@ -7,19 +7,15 @@ headline: Use F# on Linux
 If you can help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).
 
                                                                   
-### Option 1: Install F# 3.0 compiler and tools
+### Option 1: Build and install the F# 3.0 runtime, compiler and tools
 
 
 1. Build and install the runtime used by F#. Either [download it](http://www.go-mono.com/mono-downloads/download.html) or use:
 
-       sudo apt-get install mono-devel
-
-   For 'xbuild' you need version 3.0 of the runtime. To build and install from source:
-
-       sudo apt-get install libtool autoconf g++ gettext make
+       sudo apt-get install libtool autoconf g++ gettext make mono-devel
        git clone https://github.com/mono/mono
        cd mono
-       ./autogen.sh   
+       ./autogen.sh   --prefix /usr
        make
        sudo make install
 
@@ -29,10 +25,12 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 
        git clone https://github.com/fsharp/fsharp
        cd fsharp
-       ./autogen.sh     # omit or adjust the --prefix if needed, use the same prefix as used for mono
+       ./autogen.sh --prefix /usr
        make
        sudo make install
 
+   If installing to a different prefix, use the same prefix as for the F# runtime above.
+   
 ### Option 2: Get the F# 3.0 Debian packages
 
 You can get F# 3.0 from the Debian *unstable* repository (see also [the package home page](http://packages.qa.debian.org/f/fsharp.html)).
