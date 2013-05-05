@@ -10,7 +10,7 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 ### Option 1: Build and install the F# 3.0 runtime, compiler and tools
 
 
-1. Get the runtime used by F#. Either [download it](http://www.go-mono.com/mono-downloads/download.html) or use:
+1. Get the runtime used by F#. Either [follow these instructions](http://www.go-mono.com/mono-downloads/download.html) or use:
 
        sudo apt-get install mono-devel
    
