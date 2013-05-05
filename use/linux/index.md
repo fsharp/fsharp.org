@@ -56,6 +56,20 @@ You can get F# 3.0 from the Debian *unstable* repository (see also [the package 
        
    The last line is needed due to packaging bugs [706683](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706683) and [705906](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=705906) 
 
+### Installation on Gentoo/Funtoo
+There is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
+
+1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
+
+        layman -a dotnet 
+        
+2. Because the mono build script requires a previous installation and this is not explicitly taken care of in the build script in the overlay, you might have to install an older version of mono.
+        
+        emerge -avt1 =dev-lang/mono-2.10.9-r2
+
+3. Now you can build F# (and also upgrade mono itself to a more current version).
+
+        emerge fsharp
 
 ### Using F# on Linux
 
