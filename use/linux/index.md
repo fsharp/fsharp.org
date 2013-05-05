@@ -26,8 +26,9 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 
    If installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure LD_LIBRARY_PATH includes the "lib" directory of that prefix location {{   export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/user/mono/lib/"  }}. 
    
-2. Build and install the F# Compiler (open edition) from source. 
+2. Build and install the F# Compiler (open edition) from source.
 
+       sudo apt-get install autoconf make git
        git clone https://github.com/fsharp/fsharp
        cd fsharp
        ./autogen.sh --prefix /usr
@@ -35,7 +36,7 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
        sudo make install
 
    If installing to a different prefix, use the same prefix as for the F# runtime above.
-   
+
 ### Option 2: Get the F# 3.0 Debian packages
 
 You can get F# 3.0 from the Debian *unstable* repository (see also [the package home page](http://packages.qa.debian.org/f/fsharp.html)).
@@ -53,7 +54,7 @@ You can get F# 3.0 from the Debian *unstable* repository (see also [the package 
        sudo apt-get install fsharp-console
        sudo cp -p /usr/lib/cli/FSharp.*-4.3/* /usr/lib/mono/4.0/
        
-   The last line is needed due to Debian package bugs [706683](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706683) and [705906](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=705906) 
+   The last line is needed due to packaging bugs [706683](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706683) and [705906](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=705906) 
 
 
 ### Using F# on Linux
