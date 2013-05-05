@@ -87,3 +87,4 @@ title: The F# Software Foundation
  * [Rod Furlan](http://bitcortex.com)
  * [Matthew Podwysocki](http://weblogs.asp.net/podwysocki/), Microsoft
  * John Usher
+ * [Kunjan Dalal](http://kunjan.in/)
