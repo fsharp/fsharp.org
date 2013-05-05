@@ -10,12 +10,13 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 ### Option 1: Install F# 3.0 compiler and tools
 
 
-1. Install the runtime used by F#. [Download it](http://www.go-mono.com/mono-downloads/download.html) or use:
+1. Build and install the runtime used by F#. Either [download it](http://www.go-mono.com/mono-downloads/download.html) or use:
 
        sudo apt-get install mono-devel
 
-   For 'xbuild' you need version 3.0 of the runtime. Normally, build and install from source:
+   For 'xbuild' you need version 3.0 of the runtime. To build and install from source:
 
+       sudo apt-get install libtool autoconf g++ gettext make
        git clone https://github.com/mono/mono
        cd mono
        ./autogen.sh   
@@ -32,7 +33,7 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
        make
        sudo make install
 
-### Option 2: Get the F# 3.0 Debian packages (unstable, in progress)
+### Option 2: Get the F# 3.0 Debian packages
 
 You can get F# 3.0 from the Debian *unstable* repository (see also [the package home page](http://packages.qa.debian.org/f/fsharp.html)).
 
