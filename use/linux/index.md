@@ -28,7 +28,7 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
    
 2. Build and install the F# Compiler (open edition) from source.
 
-       sudo apt-get install autoconf make git
+       sudo apt-get install autoconf pkg-config make git
        git clone https://github.com/fsharp/fsharp
        cd fsharp
        ./autogen.sh --prefix /usr
