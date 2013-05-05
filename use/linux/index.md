@@ -12,28 +12,28 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 
 1. Get the runtime used by F#. Either [follow these instructions](http://www.go-mono.com/mono-downloads/download.html) or use:
 
-       sudo apt-get install mono-devel
+        sudo apt-get install mono-devel
    
    or build and install version 3.0 (needed for xbuild support)
    
-       sudo apt-get install libtool autoconf g++ gettext make git
-       git clone https://github.com/mono/mono
-       cd mono
-       ./autogen.sh   --prefix /usr
-       make get-monolite-latest
-       make
-       sudo make install
+        sudo apt-get install libtool autoconf g++ gettext make git
+        git clone https://github.com/mono/mono
+        cd mono
+        ./autogen.sh   --prefix /usr
+        make get-monolite-latest
+        make
+        sudo make install
 
    If installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure LD_LIBRARY_PATH includes the "lib" directory of that prefix location {{   export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/user/mono/lib/"  }}. 
    
 2. Build and install the F# Compiler (open edition) from source.
 
-       sudo apt-get install autoconf pkg-config make git
-       git clone https://github.com/fsharp/fsharp
-       cd fsharp
-       ./autogen.sh --prefix /usr
-       make
-       sudo make install
+        sudo apt-get install autoconf pkg-config make git
+        git clone https://github.com/fsharp/fsharp
+        cd fsharp
+        ./autogen.sh --prefix /usr
+        make
+        sudo make install
 
    If installing to a different prefix, use the same prefix as for the F# runtime above.
 
