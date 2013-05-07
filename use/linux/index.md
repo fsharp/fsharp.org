@@ -12,28 +12,28 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 
 1. Get the runtime used by F#. Either [follow these instructions](http://www.go-mono.com/mono-downloads/download.html) or use:
 
-       sudo apt-get install mono-devel
+        sudo apt-get install mono-devel
    
    or build and install version 3.0 (needed for xbuild support)
    
-       sudo apt-get install libtool autoconf g++ gettext make git
-       git clone https://github.com/mono/mono
-       cd mono
-       ./autogen.sh   --prefix /usr
-       make get-monolite-latest
-       make
-       sudo make install
+        sudo apt-get install libtool autoconf g++ gettext make git
+        git clone https://github.com/mono/mono
+        cd mono
+        ./autogen.sh   --prefix /usr
+        make get-monolite-latest
+        make
+        sudo make install
 
    If installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure LD_LIBRARY_PATH includes the "lib" directory of that prefix location {{   export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/user/mono/lib/"  }}. 
    
 2. Build and install the F# Compiler (open edition) from source.
 
-       sudo apt-get install autoconf pkg-config make git
-       git clone https://github.com/fsharp/fsharp
-       cd fsharp
-       ./autogen.sh --prefix /usr
-       make
-       sudo make install
+        sudo apt-get install autoconf pkg-config make git
+        git clone https://github.com/fsharp/fsharp
+        cd fsharp
+        ./autogen.sh --prefix /usr
+        make
+        sudo make install
 
    If installing to a different prefix, use the same prefix as for the F# runtime above.
 
@@ -43,19 +43,33 @@ You can get F# 3.0 from the Debian *unstable* repository (see also [the package 
 
 1. Add the following to /etc/apt/sources.list:
 
-       deb http://http.us.debian.org/debian/ unstable main contrib non-free 
-       deb-src http://http.us.debian.org/debian/ unstable main contrib non-free 
+        deb http://http.us.debian.org/debian/ unstable main contrib non-free 
+        deb-src http://http.us.debian.org/debian/ unstable main contrib non-free 
                        
 2. Get the packages with the following commands:
 
-       sudo apt-get update
-       sudo apt-get install mono-devel
-       sudo apt-get install fsharp
-       sudo apt-get install fsharp-console
-       sudo cp -p /usr/lib/cli/FSharp.*-4.3/* /usr/lib/mono/4.0/
+        sudo apt-get update
+        sudo apt-get install mono-devel
+        sudo apt-get install fsharp
+        sudo apt-get install fsharp-console
+        sudo cp -p /usr/lib/cli/FSharp.*-4.3/* /usr/lib/mono/4.0/
        
    The last line is needed due to packaging bugs [706683](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706683) and [705906](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=705906) 
 
+### Installation on Gentoo/Funtoo
+There is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
+
+1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
+
+        layman -a dotnet 
+        
+2. Because the mono build script requires a previous installation and this is not explicitly taken care of in the build script in the overlay, you might have to install an older version of mono.
+        
+        emerge -avt1 =dev-lang/mono-2.10.9-r2
+
+3. Now you can build F# (and also upgrade mono itself to a more current version).
+
+        emerge fsharp
 
 ### Using F# on Linux
 
