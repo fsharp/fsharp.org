@@ -7,7 +7,7 @@ headline: Use F# on FreeBSD
 
 ### Option 1: Build and install the F# 3.0 runtime, compiler and tools from the FreeBSD ports collection
 
-    *All commands below must be run as 'root', e.g., using `su`.*
+*The commands for steps 1-3 must be run as 'root', e.g., using `su`.*
 
 1. Update your local copy of the ports collection:
 
@@ -28,9 +28,9 @@ headline: Use F# on FreeBSD
        make deinstall
        make install clean BATCH=yes
 
-   NOTE : Mono has a dependency on several other ports, which will automatically be compiled and installed (if necessary)
-   before proceeding with the Mono build/installation. The ``BATCH=yes`` option used with `make` configures all of these
-   dependecies using their default build settings; if you want to tweak these settings, leave this option off.
+   NOTE : Mono is dependent on several other ports, which will automatically be compiled and installed (if necessary)
+   before proceeding with the Mono build/installation. The ``BATCH=yes`` option tells `make` to configure these
+   dependencies using their default build settings; if you want to modify these settings, leave this option off.
 
 
 3. Build and install the F# compiler (open edition) and libraries:
@@ -40,9 +40,9 @@ headline: Use F# on FreeBSD
 
 4. F# is now installed on your system. Confirm the installation was successful by launching F# interactive:
 
-       > fsharpi
+       fsharpi
 
-   If you're greeted with the F# interactive shell, your installation was successful -- type ``#quit;;`` and press ENTER to exit.
+   If you're greeted with the F# interactive shell, the installation was successful -- type ``#quit;;`` and press ENTER to exit.
 
 
 ### Using F# on FreeBSD
@@ -55,7 +55,7 @@ Once installed, use `fsharpi` to start F# Interactive, and use `fsharpc` to comp
 
 If running F# interactive in Emacs or another similar environment, use
               
-    > fsharpi --readline-
+    fsharpi --readline-
 
 to turn off console processing.
 
