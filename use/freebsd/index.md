@@ -7,9 +7,16 @@ headline: Use F# on FreeBSD
 
 ### Option 1: Build and install the F# 3.0 runtime, compiler and tools from the FreeBSD ports collection
 
-*The commands for steps 1-3 must be run as 'root', e.g., using `su`.*
+*The commands for steps 1-4 must be run as 'root', e.g., using `su`.*
 
 1. Update your local copy of the ports collection:
+
+   If this is the first time you're running portsnap on your system (e.g., you've just installed FreeBSD), you'll need
+   to fetch a complete copy of the ports collection:
+
+       portsnap fetch extract
+
+   Otherwise, you can just update your local copy of the ports collection:
 
        portsnap fetch update
 
@@ -36,9 +43,15 @@ headline: Use F# on FreeBSD
 3. Build and install the F# compiler (open edition) and libraries:
 
        cd /usr/ports/lang/fsharp
-       make install clean
+       make install clean BATCH=yes
 
-4. F# is now installed on your system. Confirm the installation was successful by launching F# interactive:
+
+4. Adjust the permissions on the Mono registry folder. This is required for users to run ``fsharpi``:
+
+       chmod -R 777 /usr/local/etc/mono/registry
+
+
+5. F# is now installed on your system. Confirm the installation was successful by launching F# interactive:
 
        fsharpi
 
@@ -66,14 +79,18 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * Emacs. There is an [F# mode for Emacs](http://fsharp.github.com/fsharpbinding/) that extends Emacs with syntax highlighting and much more.
 
-  You can install emacs from a binary package:
+  For console-only users, install the [editors/emacs-nox11](http://www.freshports.org/editors/emacs-nox11/) port:
 
-       pkg_add -r emacs
+       cd /usr/ports/editors/emacs-nox11
+       make install clean BATCH=yes
 
-  If a package is unavailable for your system (for whatever reason), you can build and install emacs from the ports collection:
+  For desktop (GUI) users, install the [editors/emacs](http://www.freshports.org/editors/emacs/) port:
 
        cd /usr/ports/editors/emacs
-       make install clean
+       make install clean BATCH=yes
+
+  Once ``emacs`` is installed, follow the directions in the [fsharp-mode README](https://github.com/fsharp/fsharpbinding/blob/master/emacs/README.md)
+  to install the *fsharp-mode* package.
 
   More information can be found in the FreeBSD Developers' Handbook: [Using Emacs as a Development Environment](http://www.freebsd.org/doc/en/books/developers-handbook/emacs.html).
 
