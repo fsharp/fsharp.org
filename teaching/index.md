@@ -68,7 +68,7 @@ of online tutorials demonstrating the concepts of F# and F# 3.0:
    Massachusetts, U.S., on November, 2010. The workshop investigated F# as a possible teaching 
    language, as well as its use in industry. Developments in cross-platform issues were highlighted. 
 
-## Teaching Books using F&#35;
+## Textbooks for Teaching F&#35;
 
 <a href="http://www.imm.dtu.dk/~mire/FSharpBook"><img src="files/fpbook.jpg" style="float:right;margin:15px;border-style:none;" /></a>
 
