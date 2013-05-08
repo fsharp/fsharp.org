@@ -70,9 +70,9 @@ of online tutorials demonstrating the concepts of F# and F# 3.0:
 
 ## Teaching Books using F&#35;
 
-<img src="files/fpbook.jpg" style="float:right;margin:15px;" />
+<a href="http://www.imm.dtu.dk/~mire/FSharpBook"><img src="files/fpbook.jpg" style="float:right;margin:15px;border-style:none;" /></a>
 
-#### [Functional Programming Using F#](http://www.cambridge.org/9781107019027)
+#### [Functional Programming Using F#](http://www.imm.dtu.dk/~mire/FSharpBook)
 
 Michael R. Hansen and Hans Rischel
 
@@ -88,7 +88,7 @@ mini-projects are found [on the book web site](http://www.imm.dtu.dk/~mire/FShar
 
 <div style="clear:both;">&#160;</div>
 
-<img src="files/sestoft.png" style="float:right;margin:15px;" />
+<a href="http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555"><img src="files/sestoft.png" style="float:right;margin:15px;border-style:none;" /></a>
 
 #### [Programming Language Concepts](http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555)
 
