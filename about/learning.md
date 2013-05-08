@@ -24,10 +24,7 @@ of online tutorials demonstrating the power of F# and F# 3.0:
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
  
-## F# Books
-The list contains books that focus mainly on functional programming using F# and
-were available at the time of writing. It includes excerpts from the official book 
-description and it is sorted alphabetically.
+## F# Books - General
 
 ### Beginning F&#35;
 
@@ -118,6 +115,26 @@ functional language-as well as how they can be successfully used to solve
 programming problems in C#. Chapters from this book available on 
 [MSDN page] (http://msdn.microsoft.com/en-us/library/hh297121)
 
+
+### [Functional Programming Using F#](http://www.imm.dtu.dk/~mire/FSharpBook)
+
+<a href="http://www.imm.dtu.dk/~mire/FSharpBook"><img src="files/fpbook.jpg" style="float:right;margin:15px;border-style:none;" /></a>
+
+_Michael R. Hansen and Hans Rischel_
+
+This introduction to the principles of functional programming using F# 
+shows how to apply theoretical concepts to produce succinct and elegant 
+programs. Coverage includes advanced features in the .NET library, the 
+imperative features of F# and topics such as sequences, computation 
+expressions and asynchronous computations. The book contains a broad 
+spectrum of examples and exercises. 
+
+Further material comprising the programs in the book, lecture slides and 
+mini-projects are found [on the book web site](http://www.imm.dtu.dk/~mire/FSharpBook/).
+
+<div style="clear:both;">&#160;</div>
+
+<a href="http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555"><img src="files/sestoft.png" style="float:right;margin:15px;border-style:none;" /></a>
 
 ## Tutorials
 
