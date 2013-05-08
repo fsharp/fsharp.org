@@ -44,7 +44,7 @@ of online tutorials demonstrating the concepts of F# and F# 3.0:
  * [Data Science](http://www.tryfsharp.org/Learn/data-science)
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
-      
+
 ## Video lectures
 
  * #### [Teaching programming language concepts with F#](http://channel9.msdn.com/Tags/peter-sestoft)
