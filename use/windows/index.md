@@ -54,10 +54,10 @@ If you're just looking for a compiler and/or F# Interactive, e.g. for a build se
 
    Alternatively, do a quiet install from a PowerShell administrator prompt (the URL is the redirect of the above). 
 
-    $webclient = New-Object System.Net.WebClient
-    $url = "http://download.microsoft.com/download/0/5/E/05E5C5E3-2A52-434F-A09E-C8150B987D09/VWD_FSharp.exe"
-    $webclient.DownloadFile($url, "VWD_FSharp.exe")
-    .\VWD_FSharp.exe /install /quiet
+       $webclient = New-Object System.Net.WebClient
+       $url = "http://download.microsoft.com/download/0/5/E/05E5C5E3-2A52-434F-A09E-C8150B987D09/VWD_FSharp.exe"
+       $webclient.DownloadFile($url, "VWD_FSharp.exe")
+       .\VWD_FSharp.exe /install /quiet
 
 The compiler tools are installed at
     C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsc.exe
