@@ -30,6 +30,21 @@ Mac OS and Linux. F# language is supported in several editors. Aside from the co
 Studio and Xamarin Studio tools, there is an F# mode for Emacs and open-source language binding for MonoDevelop.
 
 
+## Online Teaching and Learning
+
+[Try F#](http://www.tryfsharp.org) is an interactive environment where you can
+explore F# in your web browser (on Mac and Windows). It contains a number
+of online tutorials demonstrating the concepts of F# and F# 3.0:
+
+<img src="files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+ * [Getting started in F#](http://www.tryfsharp.org/Learn/getting-started)
+ * [Advanced F# Programming](http://www.tryfsharp.org/Learn/advanced-programming)
+ * [Data Visualization and Charting](http://www.tryfsharp.org/data-visualization)
+ * [Data Science](http://www.tryfsharp.org/Learn/data-science)
+ * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
+ * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
+      
 ## Video lectures
 
  * #### [Teaching programming language concepts with F#](http://channel9.msdn.com/Tags/peter-sestoft)
