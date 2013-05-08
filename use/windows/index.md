@@ -60,6 +60,7 @@ If you're just looking for a compiler and/or F# Interactive, e.g. for a build se
        .\VWD_FSharp.exe /install /quiet
 
 The compiler tools are installed at
+
     C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsc.exe
     C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsi.exe
     C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsiAnyCpu.exe
