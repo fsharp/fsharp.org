@@ -26,8 +26,8 @@ paradigms. Using F# for teaching has several advantages:
    be visualized using several .NET cross-platform charting libraries as well as by calling gnuplot. 
 
 The F# compiler and tools are cross-platform and run using .NET on Windows and using Mono on 
-Mac OS and Linux. F# language is supported in several editors. Aside from the comercial Visual 
-Studio 2010, there is an F# mode for Emacs and open-source language binding for MonoDevelop.
+Mac OS and Linux. F# language is supported in several editors. Aside from the commercial Visual 
+Studio and Xamarin Studio tools, there is an F# mode for Emacs and open-source language binding for MonoDevelop.
 
 
 ## Video lectures
@@ -53,7 +53,7 @@ Studio 2010, there is an F# mode for Emacs and open-source language binding for 
    Massachusetts, U.S., on November, 2010. The workshop investigated F# as a possible teaching 
    language, as well as its use in industry. Developments in cross-platform issues were highlighted. 
 
-## Books using F&#35;
+## Teaching Books using F&#35;
 
 <img src="files/fpbook.jpg" style="float:right;margin:15px;" />
 
