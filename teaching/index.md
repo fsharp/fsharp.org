@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching F# | The F# Software Foundation
-headline: Using F# for teching
+headline: Using F# for teaching
 ---
 
 F# is a simple and expressive programming langauge. It can be described as statically typed 
