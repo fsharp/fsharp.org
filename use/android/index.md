@@ -22,7 +22,11 @@ Note: Remove the "FSharp.Core" reference and add a reference to
         
 Note: Additional F# libraries beyond the main app are currently considered "external code" and require a non-Starter edition of Xamarin Studio. This is a known issue.
         
-Report problems to the [F# Open Source Group email list](http://fsharp.github.com/fsharp) and/or Xamarin.
+Report problems as follows:
+
+* For the Xamarin F# templates, fix them directly in [the Xamarin GitHub repository](http://github.com/xamarin/md-xamarin-fsharp-addins)
+* For Xamarin Studio or Xamarin.Android, use the Xamarin bug tracker
+* For the F# language binding, see [the F# Binding repository](http://github.com/fsharp/fsharpbinding)
 
 <br />
 <br />
