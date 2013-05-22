@@ -56,6 +56,21 @@ You can get F# 3.0 from the Debian *unstable* repository (see also [the package 
        
    The last line is needed due to packaging bugs [706683](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706683) and [705906](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=705906) 
 
+### Option 3: Get the F# 3.0 CentOS/RHEL/SciLinux packages with puppet
+
+This option is great if you are using puppet for deployment/provisioning of servers. It will
+work equally well on your local machine as it will on the server that you deploy your mono
+service to.
+
+You find the puppet module at: https://github.com/haf/puppet-mono
+
+Usage:
+
+        class { 'mono':
+          package_source => 'https://cdn.intelliplan.eu/dev/mono-3.0.6-1.x86_64.rpm''
+        }
+
+
 ### Installation on Gentoo/Funtoo
 There is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
 
