@@ -467,7 +467,7 @@ previously unsolved problems.  Everything becomes simple and clear when expresse
 
 > F# will continue to be our language of choice for scientific computing.
 
-1. [**Head of Bio Computation Group**](http://research.microsoft.com/biology)
+1. Dr. Andrew Phillips, [**Head of Bio Computation Group**](http://research.microsoft.com/biology)
 2. Microsoft, [permalink](#andrew-phillips-1)
 
 I lead the Biological Computation group at Microsoft Research, where we are developing methods and
