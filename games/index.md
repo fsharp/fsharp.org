@@ -7,13 +7,13 @@ headline: Game and App Programming with F#
 ### Platforms
 
 F# executes on app and gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), 
-[F# on Mac](/use/mac/), XBox 360, [JavaScript/HTML5](/webstacks) and [F# on Windows](/use/windows/). See those 
+[F# on Mac](/use/mac/), [JavaScript/HTML5](/webstacks) and [F# on Windows](/use/windows/). See those 
 sections for details about getting started with game and app programming with F# on those platforms.
 
 F# is often ideal for the sever-side of game and app development. See the [Web Programming](/webstacks) section for 
-details of some server-side technologies. For example, F# is used on the server-sid of one of 
+details of some server-side technologies. For example, F# is used on the server-side of one of 
 the largest Facebook social games, as described in [this interview](http://www.dotnetrocks.com/default.aspx?ShowNum=846).
-  
+
 ### App Development Stacks
 
 There are some higher-level app development stacks of particular interest to F# users:
@@ -37,11 +37,11 @@ particular interest to F# users: [MonoGame][1] and
   There is a [MonoDevelop][7] Mac template by Dave Thomas *(@7sharp9)*.  You can find the details of this in the following blog 
   post: [Running MonoGame with F# on the Mac][3]
 
-* [Microsoft XNA][2] is a set of tools with a managed runtime environment provided by Microsoft that 
+* [Microsoft XNA][2] is a set of tools with a managed runtime environment provided that 
   facilitates video game development and management. XNA attempts to free game developers from writing 
   *repetitive boilerplate code* and to bring different aspects of game production into a single system.  
 
-
+  
 ### Related Resources
  * [F# on Android](/use/android/) 
  * [F# on iOS](/use/ios/) 
