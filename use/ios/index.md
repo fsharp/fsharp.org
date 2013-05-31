@@ -20,7 +20,7 @@ Note: You must remove any "FSharp.Core" reference and add a reference to both
 
     /Developer/MonoTouch/usr/lib/mono/2.1/mscorlib.dll 
     /Developer/MonoTouch/usr/lib/mono/2.1/FSharp.Core.dll 
-        
+
 Note: FSharp.Core.dll is currently considered "user code" and will require a 
 non-Starter edition of Xamarin Studio because of app size. This is a known issue which Xamarin intend to address.
 
@@ -46,7 +46,7 @@ Sample iOS games and apps are available from [Neil Danson's repository](https://
 <br />
 
 
-#### Option 2: Build HTML5 Web apps using F# WebSharper
+### Option 2: Build HTML5 Web apps using F# WebSharper
 
 * Use [WebSharper](http://www.websharper.com) to make HTML5 apps written in F#, deployed to web and accessed via iOS.
 
