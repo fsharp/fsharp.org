@@ -16,21 +16,25 @@ context of F# or .NET programming.  If you would like an option added here, plea
   providing consulting services for F# and financial GPU programming.
 
 <br />
-<br />
 
 ### Option 2 - Use F# on GPUs via StatFactory's FCore library
 
 * See [the StatFactory FCore page](http://www.statfactory.co.uk).
 
 
-
-<br />
 <br />
 
 ### Option 3 - Use F# on GPUs via the FSGPU open source library for CUDA
 
 * See [the FSGPU project](http://fsgpu.codeplex.com/)
 
+<br />
+
+### Option 4 - Write GPU shader code in F# 
+
+* See [the SharpShaders project](http://github.com/rookboom/SharpShaders/wiki/)
 
 <br />
-<br />
+
+
+
