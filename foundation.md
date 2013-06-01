@@ -3,12 +3,12 @@ layout: foundation
 title: The F# Software Foundation
 ---
 
-#### Commercial supporters
+### Commercial supporters
 
  * [SkillsMatter](http://skillsmatter.com/) - meetups, conferences, workshops and trainings
  * [Software Acumen](http://www.software-acumen.com/) - organizers of the [FP days](http://fpdays.net) conference
 
-#### Founding members
+### Founding members
 
  * [Phil Trelford](http://trelford.com/blog/), Developer and Architect at [Trayport](http://www.trayport.com), London
  * [Tomas Petricek](http://tomasp.net) ([tomas@tomasp.net](mailto:tomas@tomasp.net)), PhD student at the University of Cambridge
@@ -92,7 +92,8 @@ title: The F# Software Foundation
  * [Vijesh Shah](http://hymans.co.uk/why-us/our-people/vijesh-shah.aspx) [@vijesh](http://twitter.com/vijesh) - Partner and Head of Risk Modelling Systems at [Hymans Robertson](http://hymans.co.uk/)
 
 
-#### Contact
+## Contact
 
-Please email [fsharp@fsharp.org](mailto:fsharp@fsharp.org) to contact the F# Software Foundation.
+ * Email [fsharp@fsharp.org](mailto:fsharp@fsharp.org) to contact the F# Software Foundation.
+ * Contributions and corrections to this site can be submitted via [the F# community on GitHub](https://github.com/fsharp/fsfoundation)
 
