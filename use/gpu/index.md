@@ -30,7 +30,7 @@ context of F# or .NET programming.  If you would like an option added here, plea
 
 <br />
 
-### Option 4 - Write GPU shader code in F# 
+### Option 4 - Write GPU shader code in F#
 
 * See [the SharpShaders project](http://github.com/rookboom/SharpShaders/wiki/)
 
