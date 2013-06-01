@@ -90,3 +90,9 @@ title: The F# Software Foundation
  * Neil Danson [@neildanson](http://twitter.com/neildanson)
  * Quinton Coetzee [@qmcoetzee](http://twitter.com/qmcoetzee)
  * [Vijesh Shah](http://hymans.co.uk/why-us/our-people/vijesh-shah.aspx) [@vijesh](http://twitter.com/vijesh) - Partner and Head of Risk Modelling Systems at [Hymans Robertson](http://hymans.co.uk/)
+
+
+#### Contact
+
+Please email [fsharp@fsharp.org](mailto:fsharp@fsharp.org) to contact the F# Software Foundation.
+
