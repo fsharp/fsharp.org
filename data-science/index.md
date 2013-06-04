@@ -14,8 +14,11 @@ with powerful libraries and scalable data integration. [Try F#](http://tryfsharp
 
 * *Math and Statistics Packages*  - See the [Maths and Statistics](/math) section.
 * *Data Access* - Data access is at the core of data science programmability. See the [Data Access](/data-access) section.
-* *Machine Learning* - You may need to apply machine learning techniques to your problem domain. See the [Machine Learning](/machine-learning) section.
 * *Data Charting and Visualization* - See the [Data Visualization](/data-visualization) section.
+
+### Machine Learning
+
+You may need to apply machine learning techniques to your data sets. See the [Machine Learning](/machine-learning) section.
 
 ### R, MATLAB, Mathematica and Python Integration
 
@@ -33,12 +36,6 @@ to F# can't be found, then search for C# instead and adjust the technique approp
 
 See the [Cloud Programming](/cloud) section for details 
 of scalable data, compute and messaging frameworks and clients for F#. You may need these if working with very large data.
-
-### Web Programming
-
-Data Science often invoves presenting results through the web. See the [Web Programming](/webstacks) section 
-for details of web programming with F#.
-
 
 ### Other links
 
