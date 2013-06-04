@@ -7,7 +7,7 @@ headline: Data Visualization with F#
 
 ### Using FSharp.Charting on Windows
 
-The [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) library is the primary charting library
+The [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) library is a frequently use choice 
 when using F# on Windows.
 
 ### Using R, MATLAB, Mathematica, Excel and Python for Data Visualization
