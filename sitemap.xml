@@ -32,4 +32,8 @@
     <loc>http://fsharp.org/games/index.html</loc>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>http://fsharp.org/training/index.html</loc>
+    <priority>0.5</priority>
+  </url>
 </urlset>
