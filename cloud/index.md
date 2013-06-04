@@ -27,8 +27,7 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
 ### [Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/)
 
 Windows Azure provides access to  Microsoft's worldwide datacenters through services including 
-virtual machines, geo-redundant storage, database clusters and website deployment.  
-[This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
+virtual machines, geo-redundant storage, database clusters and website deployment.  [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
 detail on the structure of Azure applications.
 
 The following is F# material based of the Windows Azure Training Kit for developers, focusing on web and data programming:
