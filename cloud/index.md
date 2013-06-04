@@ -31,6 +31,11 @@ virtual machines, geo-redundant storage, database clusters and website deploymen
 [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
 detail on the structure of Azure applications.
 
+The following is F# material based of the Windows Azure Training Kit for developers, focusing on web and data programming:
+ * [Part 1: Building and Publishing Windows Azure Web Sites using F#](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt1)
+ * [Part 2 - WATK in F#, Part 2: Deploying an Azure Web Site with Git](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt2)
+ * [Part 3 - WATK in F#, Part 3: Using Entity Framework with an Azure Database](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt3)
+
 Below are resources on using Windows Azure from F# and .NET in general:
  * [Introduction to Windows Azure](http://www.windowsazure.com/en-us/develop/net/fundamentals/intro-to-windows-azure/)
  * [.NET and RESTful management API reference](http://msdn.microsoft.com/en-us/library/windowsazure/ff800682.aspx)
