@@ -24,7 +24,8 @@ You may need to apply machine learning techniques to your data sets. See the [Ma
 
 F# can integrate with systems such as R, MATLAB, Mathematica and Python. Some specific resources are:
 
- * [R Type Provider for F#](https://github.com/BlueMountainCapital/FSharpRProvider) - An F# type provider for high-fidelity integration between F# and R
+ * [R Type Provider for F#](https://github.com/BlueMountainCapital/FSharpRProvider) - An F# type provider for higher-fidelity integration between F# and R
+ * [MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider for higher-fidelity integration between F# and MATLAB
  * [Python for .NET](http://pythonnet.sourceforge.net/readme.html) - Allows Python to be integrated into F# and C# programs
  * [Integrating MATLAB with F# and C#](http://www.mathworks.com/matlabcentral/fileexchange/12987) - techniques to call MATLAB from C#, F# and other .NET languages
  * [Calling Mathematica from F#](http://reference.wolfram.com/mathematica/NETLink/tutorial/CallingMathematicaFromNET.html) - techniques to call Mathematics from C#, F# and other .NET languages
