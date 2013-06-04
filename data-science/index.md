@@ -4,25 +4,18 @@ title: Data Science | The F# Software Foundation
 headline: Data Science with F#
 ---
 
-Data science brings techinques such as statistical analysis, machine learning and programming to 
+Data science brings techinques such as statistical analysis, machine learning, data visualization and programming to 
 real-world data sources to bring understanding and insight to data-oriented problem domains.
 
 F# is an excellent solution for programmatic data science as it combines efficient execution
-with powerful libraries and scalable data integration. 
+with powerful libraries and scalable data integration. [Try F#](http://tryfsharp.org/learn) has sections specific to data science. 
 
-[Try F#](http://tryfsharp.org/learn) has sections specific to data science. 
+### Base Technologies
 
-### Math and Statistics Packages
-
-You'll need these. See the [Maths and Statistics](/math) section.
-
-### Data Access and Integration
-
-Data access is at the core of data science programmability. See the [Data Access](/data-access) section.
-
-### Machine Learning 
-
-You may need to apply machine learning techniques to your problem domain. See the [Machine Learning](/machine-learning) section.
+* *Math and Statistics Packages*  - See the [Maths and Statistics](/math) section.
+* *Data Access* - Data access is at the core of data science programmability. See the [Data Access](/data-access) section.
+* *Machine Learning* - You may need to apply machine learning techniques to your problem domain. See the [Machine Learning](/machine-learning) section.
+* *Data Charting and Visualization* - See the [Data Visualization](/data-visualization) section.
 
 ### R, MATLAB, Mathematica and Python Integration
 
@@ -47,9 +40,6 @@ Data Science often invoves presenting results through the web. See the [Web Prog
 for details of web programming with F#.
 
 
-
 ### Other links
 
- * [Parallel LINQ (PLINQ)](http://msdn.microsoft.com/en-us/library/dd460688.aspx)
  * [F# Data Mining](http://fdatamining.blogspot.com/2010/05/why-f-is-language-for-data-mining.html)
- * [Parallel Programming in F#: Aggregating Data:](http://tomasp.net/blog/fsharp-parallel-aggregate.aspx)
