@@ -10,10 +10,14 @@ headline: Data Visualization with F#
 The [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) library is the primary cahrting library
 when using F# on Windows.
 
-### R, MATLAB, Mathematica and Python for Data Visualization
+### R, MATLAB, Mathematica, Excel and Python for Data Visualization
 
-F# can integrate with systems such as R, MATLAB, Mathematica and Python and these can be used for data visualization.
-See the [Data Science](/data-science/) section.
+F# can integrate with systems such as R, MATLAB, Mathematica, Excel and Python and these can be used for data visualization.
+See the [Data Science](/data-science/) section for an introduction.
+
+Tutorials specific to visualization:
+
+* [Using F#, R and GGPlot2](http://stackoverflow.com/questions/16820211/r-type-provider-and-ggplot2)
 
 ### Web Programming
 
