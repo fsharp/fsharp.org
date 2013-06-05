@@ -132,10 +132,6 @@ spectrum of examples and exercises.
 Further material comprising the programs in the book, lecture slides and 
 mini-projects are found [on the book web site](http://www.imm.dtu.dk/~mire/FSharpBook/).
 
-<div style="clear:both;">&#160;</div>
-
-<a href="http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555"><img src="files/sestoft.png" style="float:right;margin:15px;border-style:none;" /></a>
-
 ### F# For C# Developers
 
 <img src="files/BookFsCs.jpg" style="float:right;margin:5px 0px 5px 25px;" width="96px" height="120px" />
@@ -154,6 +150,10 @@ support for Windows 8. You’ll examine real-world applications, including
 Windows 8-style HTML5 and JavaScript apps, along with cloud and service apps. 
 You’ll write your own type provider. And you’ll see how to expand F# computation 
 power to high-performance GPU computing.
+
+<div style="clear:both;">&#160;</div>
+
+<a href="http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555"><img src="files/sestoft.png" style="float:right;margin:15px;border-style:none;" /></a>
 
 ## Tutorials
 
