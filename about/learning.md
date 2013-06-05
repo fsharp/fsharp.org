@@ -138,7 +138,7 @@ mini-projects are found [on the book web site](http://www.imm.dtu.dk/~mire/FShar
 
 ### F# For C# Developers
 
-<img src="files/BookFsCs.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="files/BookFsCs.jpg" style="float:right;margin:5px 0px 5px 25px;" width="96px" height="120px" />
 
 _Tao Liu_
 
