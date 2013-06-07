@@ -405,8 +405,8 @@ software to do anything else).
 
 > Around 95% of the code in these projects has been developed in F#
 
-1. **Microsoft**
-2. F# in Advertisement Ranking & Rating @ Microsoft
+1. Anton Schwaighofer, **Microsoft**
+2. bing Ads Ranking Allocation and Pricing
 3. [source](http://research.microsoft.com/en-us/events/2012summerschool/kenjifsharpfphdsummerschool2012new.pdf), [permalink](#advertisement-rating-and-ranking-at-microsoft)
 
 Around 95% of the code in these projects has been developed in F#. F# allowed for rapid development 
