@@ -116,6 +116,19 @@ programming problems in C#. Chapters from this book available on
 [MSDN page] (http://msdn.microsoft.com/en-us/library/hh297121)
 
 
+### F# For C# Developers
+
+<img src="files/BookFC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Tao Liu_
+
+People often ask, “What can F# do that C# cannot?” In this book, you will discover much 
+of what F# can do! You will see familiar things such as object programming and design 
+patterns. Further, you will also see powerful new things like pattern matching, piping, 
+first-class events, object expressions, options, tuples, records, discriminated unions, 
+active patterns, agents, computation expressions and, perhaps most distinctively, type providers. 
+
+
 <div style="clear:both;">&#160;</div>
 
 ## Tutorials
