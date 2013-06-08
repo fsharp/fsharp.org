@@ -116,25 +116,7 @@ programming problems in C#. Chapters from this book available on
 [MSDN page] (http://msdn.microsoft.com/en-us/library/hh297121)
 
 
-### [Functional Programming Using F#](http://www.imm.dtu.dk/~mire/FSharpBook)
-
-<a href="http://www.imm.dtu.dk/~mire/FSharpBook"><img src="files/fpbook.jpg" style="float:right;margin:15px;border-style:none;" /></a>
-
-_Michael R. Hansen and Hans Rischel_
-
-This introduction to the principles of functional programming using F# 
-shows how to apply theoretical concepts to produce succinct and elegant 
-programs. Coverage includes advanced features in the .NET library, the 
-imperative features of F# and topics such as sequences, computation 
-expressions and asynchronous computations. The book contains a broad 
-spectrum of examples and exercises. 
-
-Further material comprising the programs in the book, lecture slides and 
-mini-projects are found [on the book web site](http://www.imm.dtu.dk/~mire/FSharpBook/).
-
 <div style="clear:both;">&#160;</div>
-
-<a href="http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555"><img src="files/sestoft.png" style="float:right;margin:15px;border-style:none;" /></a>
 
 ## Tutorials
 
