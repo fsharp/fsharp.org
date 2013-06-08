@@ -796,7 +796,7 @@ code that ran in equivalent time to C++ code or in some cases faster.
 2. [15below Ltd](http://15below.com), [permalink](#15below-1)
 
 Historically, our code base has been written in a mix of C# and VB.net. F#'s excellent interoperability 
-ith the rest of .NET allows us to use it for components where it's particular strength's shine without
+with the rest of .NET allows us to use it for components where it's particular strength's shine without
 having to discard or rewrite our existing code.
 
 Whether it's driving the build and continuous integration system (due to scripting being a first 
