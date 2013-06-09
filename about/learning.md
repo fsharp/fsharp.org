@@ -87,7 +87,7 @@ use "over" other languages. They assume that you are considering this book
 because you have an interest in learning the F# language.
 
 
-### Programming F&#35;
+### Programming F# 3.0
 
 <img src="files/BookPGF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -128,6 +128,14 @@ patterns. Further, you will also see powerful new things like pattern matching, 
 first-class events, object expressions, options, tuples, records, discriminated unions, 
 active patterns, agents, computation expressions and, perhaps most distinctively, type providers. 
 
+
+### Building Web, Cloud, and Mobile Solutions with F#
+
+<img src="files/BookWCMSF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Daniel Mohl_
+
+Learn how to build key aspects of web, cloud, and mobile solutions by combining F# with various .NET and open source technologies. With helpful examples, this hands-on book shows you how to tackle concurrency, asynchrony, and other server-side challenges. You’ll quickly learn how to be productive with F#, whether you want to integrate the language into your existing web application or use it to create the next Twitter. 
 
 <div style="clear:both;">&#160;</div>
 
