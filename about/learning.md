@@ -129,6 +129,25 @@ first-class events, object expressions, options, tuples, records, discriminated 
 active patterns, agents, computation expressions and, perhaps most distinctively, type providers. 
 
 
+### F# For C# Developers
+
+<img src="files/BookFsCs.jpg" style="float:right;margin:5px 0px 5px 25px;" width="96px" height="120px" />
+
+_Tao Liu_
+
+Extend your C# skills to F#-and create data-rich computational and parallel
+software components faster and more efficiently. Focusing on F# 3.0 and 
+Microsoft Visual Studio 2012, you’ll learn how to exploit F# features 
+to solve both computationally-complex problems as well as everyday programming
+tasks.
+
+Topics include: C# and F# data structures; F# for functional, object-oriented, 
+and imperative programming; design patterns; type providers; and portable 
+support for Windows 8. You’ll examine real-world applications, including 
+Windows 8-style HTML5 and JavaScript apps, along with cloud and service apps. 
+You’ll write your own type provider. And you’ll see how to expand F# computation 
+power to high-performance GPU computing.
+
 <div style="clear:both;">&#160;</div>
 
 ## Tutorials
