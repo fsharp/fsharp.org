@@ -26,14 +26,6 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
 
    If installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure LD_LIBRARY_PATH includes the "lib" directory of that prefix location {{   export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/user/mono/lib/"  }}. 
 
-   Common commands are:
-
-        fsharpi                            (starts F# interactive)
-        fsharpc                            (F# compiler)
-        xbuild                             (builds .fsproj projects and .sln files, authored in MonoDevelop or Visual Studio)
-        mono file.exe arg1 ... argN        (runs a compiled F# program)
-        mkbundle --static file.exe -o file (makes a static native image for an F# program, including the F# runtime)
-
 2. Build and install the F# Compiler (open edition) from source.
 
         sudo apt-get install autoconf pkg-config make git
@@ -44,6 +36,14 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
         sudo make install
 
    If installing to a different prefix, use the same prefix as for the F# runtime above.
+
+   Common commands are:
+
+        fsharpi                            (starts F# interactive)
+        fsharpc                            (F# compiler)
+        xbuild                             (builds .fsproj projects and .sln files, authored in MonoDevelop or Visual Studio)
+        mono file.exe arg1 ... argN        (runs a compiled F# program)
+        mkbundle --static file.exe -o file (makes a static native image for an F# program, including the F# runtime)
 
 ### Option 2: Get the F# 3.0 Debian packages
 
