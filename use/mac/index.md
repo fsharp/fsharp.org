@@ -16,6 +16,14 @@ off! The F# command line compiler is "fsharpc". The --resident flag makes the
 compiler faster on subsequent invocations.  You can use xbuild to build projects and
 solutions from Visual Studio without change
 
+Common commands:
+
+    fsharpi                            (starts F# interactive)
+    fsharpc                            (F# compiler)
+    xbuild                             (builds .fsproj projects and .sln files, authored in Xamarin Studio and Visual Studio)
+    mono file.exe arg1 ... argN        (runs a compiled F# program)
+    mkbundle --static file.exe -o file (makes a static native image for an F# program, including the F# runtime)
+
 <br />
 
 ### Option 2: Install F# 3.0 with Xamarin Visual Tools:
