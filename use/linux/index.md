@@ -88,11 +88,13 @@ There is an overlay available with current versions dotnet programs, available a
 
 ### Using F# on Linux
 
-Once installed, use "fsharpi" to start F# Interactive, and use "fsharpc" to compile. 
+Once installed, use "fsharpi" to start F# Interactive, and use "fsharpc" to compile:
 
-    fsharpi     (starts F# interactive)
-    fsharpc     (F# compiler)
-    xbuild      (requires Mono 3.0, Builds .fsproj projects and .sln files, including ones authored in Visual Studio)
+    fsharpi                            (starts F# interactive)
+    fsharpc                            (F# compiler)
+    xbuild                             (requires Mono 3.0, builds .fsproj projects and .sln files, including ones authored in Visual Studio)
+    mono file.exe arg1 ... argN        (runs a compiled F# program)
+    mkbundle --static file.exe -o file (makes a static native image for an F# program, including the F# runtime)
 
 If running F# interactive in Emacs or another similar environment, use 
               
