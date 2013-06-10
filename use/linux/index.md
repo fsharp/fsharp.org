@@ -25,7 +25,15 @@ If you can help with Linux packages, please email the [F# Open Source Group](htt
         sudo make install
 
    If installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure LD_LIBRARY_PATH includes the "lib" directory of that prefix location {{   export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/user/mono/lib/"  }}. 
-   
+
+   Common commands are:
+
+        fsharpi                            (starts F# interactive)
+        fsharpc                            (F# compiler)
+        xbuild                             (builds .fsproj projects and .sln files, authored in MonoDevelop or Visual Studio)
+        mono file.exe arg1 ... argN        (runs a compiled F# program)
+        mkbundle --static file.exe -o file (makes a static native image for an F# program, including the F# runtime)
+
 2. Build and install the F# Compiler (open edition) from source.
 
         sudo apt-get install autoconf pkg-config make git
@@ -88,14 +96,6 @@ There is an overlay available with current versions dotnet programs, available a
 
 ### Using F# on Linux
 
-Once installed, use "fsharpi" to start F# Interactive, and use "fsharpc" to compile:
-
-    fsharpi                            (starts F# interactive)
-    fsharpc                            (F# compiler)
-    xbuild                             (requires Mono 3.0, builds .fsproj projects and .sln files, including ones authored in Visual Studio)
-    mono file.exe arg1 ... argN        (runs a compiled F# program)
-    mkbundle --static file.exe -o file (makes a static native image for an F# program, including the F# runtime)
-
 If running F# interactive in Emacs or another similar environment, use 
               
     > fsharpi --readline- 
@@ -117,13 +117,11 @@ Some editors have specific support for F#, either builtin or through addons prov
 * Emacs. There is an [F# mode for Emacs](http://fsharp.github.com/fsharpbinding/) that extends Emacs with syntax highlighting and much more.
 
 <br> </br>
-<br> </br>
 
-### Option 2: Using F# 3.0 On Linux (via WebSharper) 
+### Option 4: Using F# 3.0 On Linux (via WebSharper) 
 
 * [WebSharper](http://www.websharper.com) can make F# HTML5 web apps which can be used from Linux and any HTML5-enabled browser
 
-<br> </br>
 <br> </br>
 
 
