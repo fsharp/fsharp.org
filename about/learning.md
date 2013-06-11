@@ -116,7 +116,7 @@ programming problems in C#. Chapters from this book available on
 [MSDN page] (http://msdn.microsoft.com/en-us/library/hh297121)
 
 
-### F# For C# Developers
+### [F# For C# Developers] (http://blogs.msdn.com/b/microsoft_press/archive/2013/06/03/rtm-d-today-f-for-c-developers.aspx)
 
 <img src="files/BookFC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
