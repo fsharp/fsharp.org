@@ -9,7 +9,7 @@ F# is excellent for building scalable, robust web solutions:
  * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
  * *Asynchronous* - F# provides asynchronous programming to simplify scalable client-server programming
  * *Interoperable* - F# interoperates seamlessly with languages such as C#, JavaScript and TypeScript
- * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](https://github.com/ZachBray/FunScript)
+ * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
  * *Open-source* and *Cross-platform*  - Like all good web tools!
 
 ### Building Web Applications:
@@ -31,7 +31,7 @@ Some specific options for web application development are:
    include templates for ASP.NET MVC 3 (ASPX/Razor). The [F#/C# Web Templates (MonoDevelop, ASP.NET MVC 4)](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) 
    are a similar se of cross-platform templates for MonoDevelop. 
 
- * [FunScript](https://github.com/ZachBray/FunScript/) - An F# to JavaScript converter with TypeScript interoperability.
+ * [FunScript](http://funscript.info/) - An F# to JavaScript converter with TypeScript interoperability.
 
  * [PicoMvc](https://github.com/robertpi/PicoMvc) is a micro framework for F# web programming.
  
