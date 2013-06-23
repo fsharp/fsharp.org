@@ -8,6 +8,7 @@ title: The F# Software Foundation
  * [SkillsMatter](http://skillsmatter.com/) - meetups, conferences, workshops and trainings
  * [Software Acumen](http://www.software-acumen.com/) - organizers of the [FP days](http://fpdays.net) conference
 
+
 ### Founding members
 
  * [Phil Trelford](http://trelford.com/blog/), Developer and Architect at [Trayport](http://www.trayport.com), London
