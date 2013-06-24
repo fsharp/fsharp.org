@@ -78,7 +78,6 @@ Usage:
           package_source => 'https://cdn.intelliplan.eu/dev/mono-3.0.6-1.x86_64.rpm''
         }
 
-
 ### Installation on Gentoo/Funtoo
 There is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
 
@@ -116,12 +115,6 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * Emacs. There is an [F# mode for Emacs](http://fsharp.github.com/fsharpbinding/) that extends Emacs with syntax highlighting and much more.
 
-<br> </br>
-
 ### Option 4: Using F# 3.0 On Linux (via WebSharper) 
 
 * [WebSharper](http://www.websharper.com) can make F# HTML5 web apps which can be used from Linux and any HTML5-enabled browser
-
-<br> </br>
-
-

@@ -101,8 +101,3 @@ Some editors have specific support for F#, either builtin or through addons prov
   They should work for other versions as well -- if they don't work on your system, please contact the
   [fsharp-opensource](https://groups.google.com/group/fsharp-opensource) group and/or the
   [freebsd-mono](http://lists.freebsd.org/mailman/listinfo/freebsd-mono) mailing list for assistance.
-
-
-<br> </br>
-<br> </br>
-
