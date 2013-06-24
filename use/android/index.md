@@ -6,7 +6,6 @@ headline: Use F# for Android Development
 
 ### Option 1: Build F# Android Apps using Xamarin Studio
 
-
 1. Get the [Visual F# tools for Windows](/use/windows) or [F# Tools for Mac](/use/mac)
 2. Get [Xamarin Studio](http://xamarin.com/download)
 3. Open Xamarin Studio and use "Help --> Check for Updates --> Beta Channel". Update to Xamarin Studio 4.0.9 on Windows, 4.1.4 on Mac or above.
