@@ -279,12 +279,12 @@ a model of the language.
 ### [Programming Languages and Dimensions](http://academic.research.microsoft.com/Publication/1387457/programming-languages-and-dimensions)
 
 Andrew Kennedy
-__PhD Thesis, University of Cambridge, 1995__
+_PhD Thesis, University of Cambridge, 1995_
 
 ### [Types for Units-of-Measure: Theory and Practice](http://research.microsoft.com/en-us/um/people/akenn/units/cefp09typesforunitsofmeasure.pdf)
 
 Andrew Kennedy
-__Lecture notes , for CEFP'09, Revised July 2010__
+_Lecture notes , for CEFP'09, Revised July 2010_
 
 ## Information-rich programming
 
@@ -339,7 +339,7 @@ For more applications of F#, see the [Testimonials](/testimonials/) page. Below 
 ### [The First Substantial Line of Business Application in F#](http://dl.acm.org/citation.cfm?id=1668117), [video](http://cufp.org/videos/first-substantial-line-business-application-f)
 
 Adam Granicz, IntelliFactory, Alex Peake, Veracentra
-_Commercial Users of Functional Programming (CUFP) 2009__
+_Commercial Users of Functional Programming (CUFP) 2009_
 
 We have developed MarketingPlatform™ a marketing automation solution delivered as Software as a Service 
 with F# as the primary language. MarketingPlatform™ is a solution for marketers in direct marketing and 
@@ -352,7 +352,7 @@ four tightly integrated campaign management steps of Measure, Analyze, Design an
 ### [Applying Functional Programming to Build Platform-Independent Mobile Applications](http://cufp.org/conference/sessions/2011/applying-functional-programming-build-platform-ind)
 
 Adam Granicz, IntelliFactory
-_Commercial Users of Functional Programming (CUFP) 2011__
+_Commercial Users of Functional Programming (CUFP) 2011_
 
 Native mobile applications enjoyed tremendous success in recent years, and looking at various mobile 
 application stores such as Apple's App Store or Google's Android Market reveals a staggering number of 
@@ -386,7 +386,7 @@ helps to seamlessly scale into the cloud desktop and mobile web applications wit
 ### [Developing an F# Bioinformatics Application with HTML5 Visualization](http://cufp.org/videos/developing-f-bioinformatics-application-html5-visualization)
 
 Adam Granicz, IntelliFactory
-_Commercial Users of Functional Programming (CUFP) 2012__
+_Commercial Users of Functional Programming (CUFP) 2012_
 
 With proprietary plugin-based containers like Flash or Silverlight gradually losing ground, an increasing 
 number of web applications are beginning to seek web standards compliance, and to utilize HTML5 to deliver 
