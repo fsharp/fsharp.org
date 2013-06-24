@@ -8,7 +8,6 @@ title: The F# Software Foundation
  * [SkillsMatter](http://skillsmatter.com/) - meetups, conferences, workshops and trainings
  * [Software Acumen](http://www.software-acumen.com/) - organizers of the [FP days](http://fpdays.net) conference
 
-
 ### Founding members
 
  * [Phil Trelford](http://trelford.com/blog/), Developer and Architect at [Trayport](http://www.trayport.com), London
@@ -93,7 +92,6 @@ title: The F# Software Foundation
  * [Vijesh Shah](http://hymans.co.uk/why-us/our-people/vijesh-shah.aspx) [@vijesh](http://twitter.com/vijesh) - Partner and Head of Risk Modelling Systems at [Hymans Robertson](http://hymans.co.uk/)
  * Kunjan Dalal [@kunjee](https://twitter.com/kunjee)
  * Natallie Baikevich [@lu_a_jalla](https://twitter.com/lu_a_jalla)
-
 
 ## Contact
 
