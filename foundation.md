@@ -72,7 +72,7 @@ title: The F# Software Foundation
  * Sergey Tihon ([@sergey_tihon](https://twitter.com/sergey_tihon))
  * Homi Chothia
  * John Tarbox
- * John B Fair ([@johnbfair](https://twitter.com/johnbfair))
+ * [John B Fair](http://johnbfair.com) ([@johnbfair](https://twitter.com/johnbfair))
  * [Loïc Denuzière](http://fpish.net/profile/loic.denuziere), [IntelliFactory](http://intellifactory.com)
  * [Christoph Rüegg](http://christoph.ruegg.name) ([@cdrnet](https://twitter.com/cdrnet))
  * [Piet Amersfoort](http://ps-a.blogspot.nl/) 
