@@ -99,4 +99,3 @@ title: The F# Software Foundation
 
  * Email [fsharp@fsharp.org](mailto:fsharp@fsharp.org) to contact the F# Software Foundation.
  * Contributions and corrections to this site can be submitted via [the F# community on GitHub](https://github.com/fsharp/fsfoundation)
-
