@@ -73,6 +73,12 @@ h2, h3, h4 {
   margin-top:10px;
 }
 
+a[id] {
+  padding-top: 20px;
+  margin-top: -20px;
+  display: inline-block; /* required for webkit browsers */
+}
+
 /* Homepage */
 #contentMain .hpBanner li {
   margin-top:3px;
