@@ -4,7 +4,6 @@ title: The F# Software Foundation
 ---
 
 
-<div id="contentMain">
 <h4>The FSSF:</h4>
 
 <ul>
