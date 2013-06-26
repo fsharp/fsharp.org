@@ -16,7 +16,7 @@ The working groups either running or being proposed are:
   * F# for Financial Programming (contact Natallie Balkevich)
   * F# for Data and Machine Learning (contact Mathias Brandewinder)
   * F# in Academia (contact Antonio Cisternino)
-  * F# Games and Apps (contact Phil Trelford)
+  * F# Games and Apps (contact Phil Trelford and Adam Granicz)
 
 Two working groups are closely associated with the F# Software Foundation's mission:
   * F# Open Engineering (contact Michael Newton or Dave Thomas)  
@@ -25,5 +25,4 @@ Two working groups are closely associated with the F# Software Foundation's miss
 More details of the working groups can be found by contacting the people above or 
 emailing fsharp@fsharp.org. 
 
-If  working groups adopt a public presence, we encourage
-the groups to [submit an edit to this page](tbd) with details
+We encourage groups to adopt a public presence and [submit an edit to this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/working-groups/index.md) with details (GitHub login required).
