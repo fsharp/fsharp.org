@@ -3,7 +3,7 @@ layout: foundation
 title: The F# Software Foundation
 ---
 
-### Working Groups
+### Affiliated Technical  Groups
 
 The F# Software Foundation members actively seek to encourage and facilitate F#-related meetups,
 discussion groups and working groups affiliated with the foundation. 
@@ -11,7 +11,7 @@ discussion groups and working groups affiliated with the foundation.
 Any F#-related group can be affiliated with the FSF, including both professional and open-source groups,
 and those associated with 3rd-party commercial technologies.
 
-The current affiliated discussion and working groups are:
+The current affiliated technical groups are:
 
  * F# Web Programming Group (contact Ryan Riley and Adam Granicz)
  * F# for Financial Programming (contact Natallie Balkevich)
@@ -19,7 +19,7 @@ The current affiliated discussion and working groups are:
  * F# in Academia (contact Antonio Cisternino)
  * F# Games and Apps (contact Phil Trelford and Adam Granicz)
 
-Two working groups are closely associated with the F# Software Foundation's mission:
+Two technical groups are closely associated with the F# Software Foundation's mission:
 
  * [F# Open Engineering](https://fsharp.github.com) (contact Michael Newton or Dave Thomas)  
  * F# Software Foundation Communications Group (contact fsharp@fsharp.org)
