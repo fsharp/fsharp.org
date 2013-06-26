@@ -14,16 +14,16 @@ title: The F# Software Foundation
     * the  fsharporg twitter account
 
  * Maintains the fsharp.org domain as:
-      * A website which gives authoritative and up-to-date information about how to get, use and contribute to F# across a diverse range of platforms; links to other F# news, community, Q&A, social, user group and educational; gives clear and helpful links to commercial companies, tools and products that relate to F#; and hosts other content consistent with the mission statement of the FSSF
-      * The email addresses ...@fsharp.org for the use of the foundation
+    * A website which gives authoritative and up-to-date information about how to get, use and contribute to F# across a diverse range of platforms; links to other F# news, community, Q&A, social, user group and educational; gives clear and helpful links to commercial companies, tools and products that relate to F#; and hosts other content consistent with the mission statement of the FSSF
+    * The email addresses ...@fsharp.org for the use of the foundation
 
- * Seeks to
-      * expand the relevance and importance of F# skills and knowledge
-      * expand the range of technologies which can interoperate with F#
-      * expand the range of platforms where F# can be used
-      * encourage a broad and diverse range of contributors to F#, including commercial, open source and educational contributors
-      * publicize and promote the adoption of F#
-      * facilitate the ongoing development of F#-related technology and educational resources, including contributing to F# conferences
+ * Seeks to:
+    * expand the relevance and importance of F# skills and knowledge
+    * expand the range of technologies which can interoperate with F#
+    * expand the range of platforms where F# can be used
+    * encourage a broad and diverse range of contributors to F#, including commercial, open source and educational contributors
+    * publicize and promote the adoption of F#
+    * facilitate the ongoing development of F#-related technology and educational resources, including contributing to F# conferences
 
 #### Notes:
 
