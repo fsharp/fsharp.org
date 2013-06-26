@@ -21,11 +21,11 @@ The current affiliated technical groups are:
 
 Two technical groups are closely associated with the F# Software Foundation's mission:
 
- * [F# Open Engineering](https://fsharp.github.com) (contact Michael Newton or Dave Thomas)  
+ * F# Open Engineering (contact Michael Newton or Dave Thomas and see the [F# Open Source group on GitHub](](https://fsharp.github.com)))  
  * F# Software Foundation Communications Group (contact fsharp@fsharp.org)
 
 More details of the working groups can be found by contacting the people above or 
 emailing fsharp@fsharp.org. 
 
-We encourage groups to adopt a public presence and [submit an edit to this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/working-groups/index.md) with details (GitHub login required).
+We encourage groups to adopt a public presence and [submit an edit to this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/technical-groups/index.md) with details (GitHub login required).
 
