@@ -41,6 +41,14 @@ If you are interested in supporting the activities of The F# Software Foundation
 
 The FSF is currently an informal organization formed by the F# community members listed below, with feedback from a number of other F# community members. If you would like to become a person listing themselves as a founding member of this initiative and who agrees with its goals, please contact <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>. If you have commercial interests in F# (which we encourage!) and those go beyond using the language for writing commercial software (otherwise unrelated to F#), please mention this. If you have comments on the above statement, please contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
 
+### Affiliated Groups
+
+Any F#-related group which agrees with the mission statement of the FSF can be affiliated with the FSF.
+This includes user working groups, discussion groups, those associated with 3rd-party commercial technologies 
+and both professional and open-source groups. 
+
+See the current [list of affiliated technical groups](/technical-groups) and [user groups](http://fsharp.org/groups/).
+
 
 ### Commercial supporters
 
