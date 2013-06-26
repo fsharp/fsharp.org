@@ -28,3 +28,4 @@ More details of the working groups can be found by contacting the people above o
 emailing fsharp@fsharp.org. 
 
 We encourage groups to adopt a public presence and [submit an edit to this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/working-groups/index.md) with details (GitHub login required).
+
