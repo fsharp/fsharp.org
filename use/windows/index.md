@@ -15,6 +15,12 @@ If you already have Visual Studio 2012 Ultimate or Professional, then you alread
 You can also use a different editor and the command-line compiler (fsc.exe) or F# Interactive (fsi.exe) 
 after you have installed Visual F#.
 
+#### Note to ReSharper users ####
+When ReSharper is installed, the `Alt+Enter` shortcut key for the `Execute in Interactive`
+command of the F# project system doesn't work, because ReSharper overrides this shortcut key for its own purposes.
+However, there is no actual command clash, so you can keep using `Alt-Enter` both in F# and ReSharp without having
+to remap keys. To enable this, install the [resharper-fsi-friendly](https://github.com/citizenmatt/resharper-fsi-friendly) plugin.
+
 <br />
 <br />
 
