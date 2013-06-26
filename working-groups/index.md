@@ -1,5 +1,5 @@
 ---
-layout: foundation
+layout: page
 title: The F# Software Foundation
 ---
 
