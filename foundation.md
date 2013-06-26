@@ -140,6 +140,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Kunjan Dalal [@kunjee](https://twitter.com/kunjee)
  * Natallie Baikevich [@lu_a_jalla](https://twitter.com/lu_a_jalla)
  * Don Syme [@dsyme](https://twitter.com/dsyme)
+ * Simon Parker
 
 ## Contact
 
