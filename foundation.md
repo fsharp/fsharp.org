@@ -35,12 +35,12 @@ title: The F# Software Foundation
 
 The FSSF is currently run as an informal organization. The intention is to eventually move towards an established organizational structure (e.g. charity or legally established foundation). The FSSF may in the future raise or accept funds to support FSSF programs and services. If it does so, it would adopt charitable status in the UK subject to the regulations for public charity funding.
 
-If you are interested in supporting the activities of The F# Software Foundation, please contact <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.
+If you are interested in supporting the activities of The F# Software Foundation, please contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
 
 ### Members
 
-The FSF is currently an informal organization formed by the F# community members listed below, with feedback from a number of other F# community members. If you would like to become a person listing themselves as a founding member of this initiative and who agrees with its goals, please contact <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>. If you have commercial interests in F# (which we encourage!) and those go beyond using the language for writing commercial software (otherwise unrelated to F#), please mention this. If you have comments on the above statement, please contact <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
-      
+The FSF is currently an informal organization formed by the F# community members listed below, with feedback from a number of other F# community members. If you would like to become a person listing themselves as a founding member of this initiative and who agrees with its goals, please contact <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>. If you have commercial interests in F# (which we encourage!) and those go beyond using the language for writing commercial software (otherwise unrelated to F#), please mention this. If you have comments on the above statement, please contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
+
 
 ### Commercial supporters
 
