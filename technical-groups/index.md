@@ -13,16 +13,16 @@ and those associated with 3rd-party commercial technologies.
 
 The current affiliated technical groups are:
 
- * F# Web Programming Group (contact Ryan Riley and Adam Granicz)
- * F# for Financial Programming (contact Natallie Balkevich)
- * F# for Data and Machine Learning (contact Mathias Brandewinder)
- * F# in Academia (contact Antonio Cisternino)
- * F# Games and Apps (contact Phil Trelford and Adam Granicz)
+ * **F# Web Programming Group** (contact Ryan Riley and Adam Granicz)
+ * **F# in Finance** (contact Natallie Balkevich)
+ * **F# for Data and Machine Learning** (contact Mathias Brandewinder)
+ * **F# in Academia** (contact Antonio Cisternino)
+ * **F# for Games and Apps** (contact Phil Trelford and Adam Granicz)
 
 Two technical groups are closely associated with the F# Software Foundation's mission:
 
- * F# Open Engineering (contact Michael Newton or Dave Thomas and see the [F# Open Source group on GitHub](](https://fsharp.github.com)))  
- * F# Software Foundation Communications Group (contact fsharp@fsharp.org)
+ * **F# Open Engineering** (contact Michael Newton or Dave Thomas and see the [F# Open Source group on GitHub](](https://fsharp.github.com)))  
+ * **F# Software Foundation Communications Group** (contact fsharp@fsharp.org)
 
 More details of the working groups can be found by contacting the people above or 
 emailing fsharp@fsharp.org. 
