@@ -12,11 +12,15 @@ headline: Use F# for iOS App Development
 
 1. Get the [F# Tools for Mac](/use/mac)
 2. Get [Xamarin Studio](http://xamarin.com/download). Run and check it is at least version 4.0.3, Build 13 or later under "About". Update using the Alpha or Beta channel of "Tools --> Addin Manager" if needed
-3. From Tools --> Addin Manager --> Gallery, add "Language Bindings --> F# Language Binding" (v3.2.15+)" and "Mobile Development --> F# Support for Xamarin.iOS Development" 
+3. From Tools --> Addin Manager --> Gallery --> Language Bindings, add F# Language Binding" (v3.2.15+)
+
+   If it is missing, download and add [the latest Mac .mpack from the repository](http://addins.monodevelop.com/Project/Index/48). 
+
+4. From Tools --> Addin Manager --> Gallery --> Mobile Development, add "F# Support for Xamarin.iOS Development" 
 
 You can now create a new F# iOS app, e.g. an "iPad Single View Application". 
 
-Note: You must remove any "FSharp.Core" reference and add a reference to both
+Note: You may have to remove any "FSharp.Core" reference and add a reference to both
 
     /Developer/MonoTouch/usr/lib/mono/2.1/mscorlib.dll 
     /Developer/MonoTouch/usr/lib/mono/2.1/FSharp.Core.dll 
