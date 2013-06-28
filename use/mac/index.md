@@ -26,13 +26,13 @@ Common commands:
 
 <br />
 
-### Option 2: Install F# 3.0 with Xamarin Visual Tools:
+### Option 2: Install F# 3.0 with Xamarin Studio:
 
 * [Install Mono 3.0.2 or later](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0.
 * [Install Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com). Run and check it is version 4.0.3, Build 13 or later under "About". Update using the Alpha channel of "Tools --> Addin Manager" if needed
 * Go to the AddIn Manager and
 
-  Add “Language Bindings –> F# Language Binding” 
+  Add “Language Bindings –> F# Language Binding”. If it is missing, download and add [the latest Mac .mpack from the repository](http://addins.monodevelop.com/Project/Index/48). 
   
   Add “Mac Development –> F# Support for MonoMac and Xamarin.Mac Development”
   
