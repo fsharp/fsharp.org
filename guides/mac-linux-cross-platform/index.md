@@ -32,17 +32,6 @@ You’re off! Some common commands are:
     mkbundle --static file.exe -o file (makes a static native image for an F# program, 
                                         including the F# runtime)
 
-
-On Mac and Linux, the F# compiler is 
-
-    fsharpc file.fs
-
-### F# Interactive
-
-On Mac and Linux, F# Interactive is 
-
-    fsharpi
-
 ##  Editing 
 
 ### What should I use to edit my code?
@@ -146,16 +135,54 @@ You can add NuGet support to these IDEs. See [NuGet for MonoDevelop and Xamarin 
 
 See http://nuget.org to learn how to make and publich NuGet packages.
 
+### Other Package Mechanisms
+
+Other package mechanisms include:
+* Git sub-modules (especially when building from source)
+* Traditional unix packages
+
 ### FAKE
+
+[FAKE](http://fsharp.github.io/FAKE/) is a build-and-publish automation utility sometimes used by F# programmers (partly because
+builds are automated using F# itself, and partly because it is a great tool).
 
 
 ### Portable Libraries
 
+Portable libraries are ones using FSharp.Core versions such as 4.3.5.0, with matching mscorlib versions.
+
+They have access to less core functionality, called a "portable profile", but can be used across multiple
+platforms and multiple profiles of .NET. For example, a portable library may be usable on Mac, Linux, Android,
+iOS, Windows and Windows Store apps (depending on the versions of runtime machinery used and other factors).
+
+At the time of writing, creating portable libraries was not yet fully supported on 
+Mac and Linux. But if you are developing on Windows, or using libraries on Windows, then consider
+creating portable libraries to ease cross-platfom use.
+
 ## Unit Testing
+
+A table of unit testing frameworks can be found [here](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages).
 
 ### NUnit
 
+[NUnit](http://nunit.org/) is an open-source, cross-platform unit-testing 
+framework for F# and other  .NET languages. It is written 
+in C# and has been completely redesigned to take advantage of many .NET language features, 
+for example custom attributes and other reflection related capabilities. NUnit brings 
+xUnit to all .NET languages.
+
+Some guides to using F# and Nunit together are:
+
+ * [NUnit With F#](http://davefancher.com/2012/09/06/nunit-with-f/)
+ * [Using NUnit with F# Code](http://sector0.dk/?p=33)
+ * [F# as a Unit Testing Language](http://trelford.com/blog/post/fstestlang.aspx)
+ 
+
 ### FsUnit
+
+[FsUnit](http://fsunit.codeplex.com/) is sometimes used by F# programmers. 
+An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
+
 
 ## Some Important Packages
 
@@ -174,7 +201,7 @@ Mac and Linux:
 * FSharp.Data
 
 
-## Open Source and Cross Platform Development
+## Miscellaneous Notes on Open Source and Cross Platform Development
 
 ### Using the TeamCity build service
 
