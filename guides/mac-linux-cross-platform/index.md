@@ -4,7 +4,7 @@ title: Cross Platform Dev Guide | The F# Software Foundation
 headline: F# Mac, Linux and Cross-Platform Development Guide
 ---
 
-# Getting Started
+## Getting Started
 
 See:
 * [Getting Started with F# on Mac](/use/mac)
@@ -12,7 +12,7 @@ See:
 * [Getting Started with F# for iOS Programming](/use/ios)
 * [Getting Started with F# for Android Programming](/use/android)
 
-#  Command Line Tools
+##  Command Line Tools
 
 You can start F# Interactive using 
 
@@ -37,15 +37,15 @@ On Mac and Linux, the F# compiler is
 
     fsharpc file.fs
 
-## F# Interactive
+### F# Interactive
 
 On Mac and Linux, F# Interactive is 
 
     fsharpi
 
-#  Editing 
+##  Editing 
 
-## What should I use to edit my code?
+### What should I use to edit my code?
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
 * [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.com/fsharpbinding). 
@@ -53,13 +53,13 @@ Some editors have specific support for F#, either builtin or through addons prov
 * Vim
 * SublimeText 
 
-#	Documentation 
+##	Documentation 
 
 For most F# docuementation, see the [documentation pages](/about/index.html#documentation).
 
-#	Projects, Packages, Testing and Build Automation
+##	Projects, Packages, Testing and Build Automation
 
-##  .fsproj and .sln files
+###  .fsproj and .sln files
 
 You can use xbuild to build projects and solutions from Visual Studio without change.
 Xamarin Studio and MonoDevelop can also create and manage .fsproj and .sln files.
@@ -89,20 +89,19 @@ in a .proj like this:
 If you need to create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop, 
 or find an existing one, copy it and edit it by hand.
 
-## Makefiles
+### Makefiles
 
 The F# command-line compiler can be used with Makefiles in the normal way.
 
-# Packages
 
-## NuGet 
+### NuGet 
 
 [NuGet](http://nuget.org/) is an open-source, cross-platform package management tool with many thousands
 of packages avaialble. See the [documentation](http://docs.nuget.org/).
 
 It is generally used for package management on the Windows ecosystem but is growing in its cross-platform use.
 
-### NuGet Command Line
+#### NuGet Command Line
 
 For those on Mac/Linux, familiarity with the command-line NuGet.exe utility is highly useful.
 Get the command line utility from [nuget.codeplex.com](http://nuget.codeplex.com/). See also
@@ -125,7 +124,7 @@ An example packages.config is:
      <package id="NUnit" version="2.6.2" targetFramework="net40" />
     </packages>
 
-### Using NuGet as part of a build
+#### Using NuGet as part of a build
 
 F# project files (.fsproj) can be configure to automatically get NuGet packages during a build. The
 project file should have a line like this (if necessary, adjusted to locate a copy of NuGet.targets).
@@ -139,18 +138,18 @@ A copy of NuGet.exe should be in that directory with executable permissions set.
 It is quite common to check a copy of NuGet.exe into a project, e.g. in lib/NuGet/NuGet.exe.
 
 
-### NuGet MonoDevelop and Xamarin Studio support
+#### NuGet MonoDevelop and Xamarin Studio support
 
 You can add NuGet support to these IDEs. See [NuGet for MonoDevelop and Xamarin Studio](https://github.com/mrward/monodevelop-nuget-addin#nuget-addin-for-monodevelop-and-xamarin-studio).
 
-### Making NuGet packages
+#### Making NuGet packages
 
 See http://nuget.org to learn how to make and publich NuGet packages.
 
-## FAKE
+### FAKE
 
 
-## Portable Libraries
+### Portable Libraries
 
 ## Unit Testing
 
@@ -158,7 +157,7 @@ See http://nuget.org to learn how to make and publich NuGet packages.
 
 ### FsUnit
 
-# Some Important Packages
+## Some Important Packages
 
 Some F# packages are more cross-platform friendly than others. Here are some which are commonly used on
 Mac and Linux:
@@ -175,15 +174,15 @@ Mac and Linux:
 * FSharp.Data
 
 
-# Open Source and Cross Platform Development
+## Open Source and Cross Platform Development
 
-## Using the TeamCity build service
+### Using the TeamCity build service
 
 To use versions of Mono such as Mono 3.0.12, you need to set an environment variable in your build config. 
 Under build parameters, add this environment variable "env.MOPE_VERSION" and set it to "3.0.12". 
 
 
-## Dos and Don’ts
+### Dos and Don’ts
 
 * Generally use / instead of \ on paths. In .fsproj files you can generally use either.
 * In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself (example)
@@ -216,7 +215,7 @@ Under build parameters, add this environment variable "env.MOPE_VERSION" and set
   "solutionDir" argument has an extra space. This breaks package restore on Mono. 
 
 
-## Developing Cross-Platform and Multi-Targeting Type Providers
+### Developing Cross-Platform and Multi-Targeting Type Providers
 
 F# type providers are compile-time components that must execute on your machine during build and development.
 
@@ -233,7 +232,7 @@ To help isolate the problem, try the following:
 
 Switching to command-line compilations will help localize the problem.
 
-### Having trouble?
+## Having trouble?
 
 * Ask questions at the [F# Open Source Group](https://groups.google.com/forum/#!forum/fsharp-opensource)
 
