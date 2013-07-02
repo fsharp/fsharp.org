@@ -11,8 +11,10 @@ To use F# 3.0 on Mac OSX, simply:
 
 *  [Install Mono 3.0.2 or later](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0.
 
-Once installed, see the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
+See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
 go further.
+
+<br />
 
 ### Option 2: Install F# 3.0 with Xamarin Studio:
 
@@ -30,7 +32,7 @@ go further.
 
 You can now create new projects in Xamarin Studio and MonoDevelop. Ignore any unresolved FSharp.Core.dll.
 
-See also the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
+See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
 go further.
 
 <br />
