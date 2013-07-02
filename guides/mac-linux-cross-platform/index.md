@@ -56,7 +56,7 @@ For most F# docuementation, see the [documentation pages](/about/index.html#docu
 
 ------
 
-##	Projects, Packages and Build Automation
+##	Projects and Build Automation
 
 ###  .fsproj and .sln files
 
@@ -92,6 +92,15 @@ or find an existing one, copy it and edit it by hand.
 
 The F# command-line compiler can be used with Makefiles in the normal way.
 
+### FAKE
+
+[FAKE](http://fsharp.github.io/FAKE/) is a build-and-publish automation utility sometimes used by F# programmers (partly because
+builds are automated using F# itself, and partly because it is a great tool).
+
+
+---------
+
+## Packages
 
 ### NuGet 
 
@@ -151,19 +160,37 @@ Other package mechanisms include:
 * Git sub-modules (especially when building from source)
 * Traditional unix packages
 
-### FAKE
 
-[FAKE](http://fsharp.github.io/FAKE/) is a build-and-publish automation utility sometimes used by F# programmers (partly because
-builds are automated using F# itself, and partly because it is a great tool).
+### Some Important Packages
+
+Some F# packages are more cross-platform friendly than others. Here are some which are commonly used on
+Mac and Linux:
+
+* FSharp.Core Library
+* MonoMac
+* Math.Net
+* MonoGame
+* Xamarin.Mac
+* ServiceStack
+* ASP.NET Razor, RazorEngine
+* MongoDB, MongoDB.FSharp
+* FSharpx 
+* FSharp.Data
+
+------
+
+## Portable and Cross-Platform Development
 
 
 ### Portable Libraries
 
-Portable libraries are ones using FSharp.Core versions such as 4.3.5.0, with matching mscorlib versions.
-
-They have access to less core functionality, called a "portable profile", but can be used across multiple
+Portable .NET libraries have access to less core functionality, called a "portable profile", but can be used across multiple
 platforms and multiple profiles of .NET. For example, a portable library may be usable on Mac, Linux, Android,
 iOS, Windows and Windows Store apps (depending on the versions of runtime machinery used and other factors).
+
+F# portable libraries use FSharp.Core versions such as 4.3.5.0, with matching mscorlib versions.
+A binding redirect may be neeeded to ensure bindings to these libraries redirect correctly, e.g. to 
+FSharp.Core 4.3.0.0.
 
 At the time of writing, creating portable libraries was not yet fully supported on 
 Mac and Linux. But if you are developing on Windows, or using libraries on Windows, then consider
@@ -196,27 +223,15 @@ Some guides to using F# and Nunit together are:
 An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
 
 
-## Some Important Packages
-
-Some F# packages are more cross-platform friendly than others. Here are some which are commonly used on
-Mac and Linux:
-
-* FSharp.Core Library
-* MonoMac
-* Math.Net
-* MonoGame
-* Xamarin.Mac
-* ServiceStack
-* ASP.NET Razor, RazorEngine
-* MongoDB, MongoDB.FSharp
-* FSharpx 
-* FSharp.Data
 
 ------
 
 ## Miscellaneous Notes on Open Source and Cross Platform Development
 
 ### Using the TeamCity build service
+
+For open source community projects, a build service is available at http://teamcity.codebetter.com which 
+includes both Linux and Windows build agents.
 
 To use versions of Mono such as Mono 3.0.12, you need to set an environment variable in your build config. 
 Under build parameters, add this environment variable "env.MOPE_VERSION" and set it to "3.0.12". 
