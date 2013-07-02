@@ -4,15 +4,22 @@ title: Cross Platform Dev Guide | The F# Software Foundation
 headline: F# Mac, Linux and Cross-Platform Development Guide
 ---
 
+
 ## Getting Started
 
-See:
 * [Getting Started with F# on Mac](/use/mac)
 * [Getting Started with F# on Linux](/use/linux)
 * [Getting Started with F# for iOS Programming](/use/ios)
 * [Getting Started with F# for Android Programming](/use/android)
 
-##  Command Line Tools
+
+<div class="hero-unit visible-desktop contributeGuide" id="how-to-contribute-to-guide"> 
+  <h3>Contribute</h3>
+    <p> To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/mac-linux-cross-platform/index.md">edit this page</a> and send the pull request.</p>
+</div>
+
+
+## Command Line Tools
 
 You can start F# Interactive using 
 
@@ -26,27 +33,30 @@ You’re off! Some common commands are:
 
     fsharpi                            (starts F# interactive)
     fsharpc file.fs                    (F# compiler)
-    xbuild                             (builds .fsproj projects and .sln files, authored in 
-                                        Xamarin Studio and Visual Studio)
+    xbuild                             (builds .fsproj projects and .sln files)
     mono file.exe arg1 ... argN        (runs a compiled F# program)
-    mkbundle --static file.exe -o file (makes a static native image for an F# program, 
-                                        including the F# runtime)
+    mkbundle --static file.exe -o file (makes a static native image, including the F# runtime)
 
 ##  Editing 
 
 ### What should I use to edit my code?
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
+
 * [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.com/fsharpbinding). 
 * Emacs. There is an [F# mode for Emacs](http://fsharp.github.com/fsharpbinding/) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive and also automatic indentation. 
 * Vim
 * SublimeText 
 
+------
+
 ##	Documentation 
 
 For most F# docuementation, see the [documentation pages](/about/index.html#documentation).
 
-##	Projects, Packages, Testing and Build Automation
+------
+
+##	Projects, Packages and Build Automation
 
 ###  .fsproj and .sln files
 
@@ -159,6 +169,8 @@ At the time of writing, creating portable libraries was not yet fully supported 
 Mac and Linux. But if you are developing on Windows, or using libraries on Windows, then consider
 creating portable libraries to ease cross-platfom use.
 
+------
+
 ## Unit Testing
 
 A table of unit testing frameworks can be found [here](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages).
@@ -200,6 +212,7 @@ Mac and Linux:
 * FSharpx 
 * FSharp.Data
 
+------
 
 ## Miscellaneous Notes on Open Source and Cross Platform Development
 
@@ -216,15 +229,15 @@ Under build parameters, add this environment variable "env.MOPE_VERSION" and set
 * Don't assume pdbs are always created after the compilation
 * Executables included in .NET may not exist in Mono or may have a different name or location - SvcUtil etc
 * Fake build scripts may not work as intended due to Mono issues
-*	MSBuild API is incomplete in Mono, programatic API usage might fail 
-*	Nuget can be troublesome
-*	External components that would be available via Nuget in Windows might be included as part of Mono - Rx, TDF etc
-*	MSBuild targets might be different in Mono
-*	Don't rely the registry, also Mono can use a version of it, it can be fright with issues
-*	Avoid Windows Forms/WPF in favour of native UI frameworks
-*	Beware differences in behaviour with loading assemblies (https://bugzilla.xamarin.com/show_bug.cgi?id=10906). A very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
-*	When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C#. (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio.)
-*	Differences in F# Interactive DLL resolution. Use 
+* MSBuild API is incomplete in Mono, programatic API usage might fail 
+* Nuget can be troublesome
+* External components that would be available via Nuget in Windows might be included as part of Mono - Rx, TDF etc
+* MSBuild targets might be different in Mono
+* Don't rely the registry, also Mono can use a version of it, it can be fright with issues
+* Avoid Windows Forms/WPF in favour of native UI frameworks
+* Beware differences in behaviour with loading assemblies (https://bugzilla.xamarin.com/show_bug.cgi?id=10906). A very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
+* When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C#. (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio.)
+* Differences in F# Interactive DLL resolution. Use 
 
       #I @"./lib/FAKE/tools"
       #r @"./lib/FAKE/tools/FakeLib.dll"
@@ -233,12 +246,10 @@ Under build parameters, add this environment variable "env.MOPE_VERSION" and set
 
       #r @"./lib/FAKE/tools/FakeLib.dll"
 
-*	If your build executes binaries and tasks, make sure the “x” permissions are 
+* If your build executes binaries and tasks, make sure the “x” permissions are 
   set for Fsc.exe etc. and all other executables triggered by xbuild.
 
-*	TeamCity compiler is stricter about “ExtensionAttribute” on assemblies (Mono 3.0.0)
-
-*	Nuget package restore: https://nuget.codeplex.com/workitem/3435. In NuGet.targets, the 
+* Nuget package restore bug: https://nuget.codeplex.com/workitem/3435. In NuGet.targets, the 
   "solutionDir" argument has an extra space. This breaks package restore on Mono. 
 
 
