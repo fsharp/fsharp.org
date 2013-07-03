@@ -12,7 +12,7 @@ apps. These can be used from any HTML5-enabled browser.
 
 <br />
 
-### Option 2: Use [FunScript](http://github.com/ZachBray/FunScript)
+### Option 2: Use [FunScript](http://funscript.info/)
 
 FunScript is a standalone converter from F# to JavaScript. It also offers strongly typed interoperabiity 
 with any components given a TypeScript signature.
