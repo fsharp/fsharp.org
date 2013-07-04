@@ -84,14 +84,14 @@ There is an overlay available with current versions dotnet programs, available a
 1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
 
         layman -a dotnet 
-        
-2. Because the mono build script requires a previous installation and this is not explicitly taken care of in the build script in the overlay, you might have to install an older version of mono.
-        
-        emerge -avt1 =dev-lang/mono-2.10.9-r2
 
-3. Now you can build F# (and also upgrade mono itself to a more current version).
+2. Now you can build F#.
 
         emerge fsharp
+        
+3. (Optional) There are emacs mode and monodevelop bindings, you can chose what you want by setting use flags alike in following example:
+
+        USE="+emacs -monodevelop" emerge fsharpbinding
 
 ### Using F# on Linux
 
