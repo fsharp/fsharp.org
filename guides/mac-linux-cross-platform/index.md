@@ -207,8 +207,8 @@ A table of unit testing frameworks can be found [here](http://en.wikipedia.org/w
 [NUnit](http://nunit.org/) is an open-source, cross-platform unit-testing 
 framework for F# and other  .NET languages. It is written 
 in C# and has been completely redesigned to take advantage of many .NET language features, 
-for example custom attributes and other reflection related capabilities. NUnit brings 
-xUnit to all .NET languages.
+for example custom attributes and other reflection related capabilities. 
+Also [xUnit](http://xunit.codeplex.com/) is a good alternative for NUnit.
 
 Some guides to using F# and Nunit together are:
 
@@ -219,10 +219,15 @@ Some guides to using F# and Nunit together are:
 
 ### FsUnit
 
-[FsUnit](http://fsunit.codeplex.com/) is sometimes used by F# programmers. 
+[FsUnit](http://fsunit.codeplex.com/) is often used by F# programmers as an DSL to access popular unit testing framework. 
 An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
 
+### FsCheck
 
+[FsCheck](https://github.com/fsharp/FsCheck) is a tool for testing .NET programs automatically. 
+The programmer provides a specification of the program, 
+in the form of properties which functions, methods or objects should satisfy, 
+and FsCheck then tests that the properties hold in a large number of randomly generated cases.
 
 ------
 
@@ -234,7 +239,12 @@ For open source community projects, a build service is available at http://teamc
 includes both Linux and Windows build agents.
 
 To use versions of Mono such as Mono 3.0.12, you need to set an environment variable in your build config. 
-Under build parameters, add this environment variable "env.MOPE_VERSION" and set it to "3.0.12". 
+Under build parameters, add this environment variable "env.MOPE_VERSION" and set it to "3.0.12".
+
+## Testing on multiple platforms
+
+If you are Windows developers, you can easily set up a Vagrant box to test your libraries and tools in Mono framework.
+The detailed guide of setting up Vagrant is [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
 ### Dos and Don’ts
@@ -245,8 +255,8 @@ Under build parameters, add this environment variable "env.MOPE_VERSION" and set
 * Executables included in .NET may not exist in Mono or may have a different name or location - SvcUtil etc
 * Fake build scripts may not work as intended due to Mono issues
 * MSBuild API is incomplete in Mono, programatic API usage might fail 
-* Nuget can be troublesome
-* External components that would be available via Nuget in Windows might be included as part of Mono - Rx, TDF etc
+* NuGet can be troublesome
+* External components that would be available via NuGet in Windows might be included as part of Mono - Rx, TDF etc
 * MSBuild targets might be different in Mono
 * Don't rely the registry, also Mono can use a version of it, it can be fright with issues
 * Avoid Windows Forms/WPF in favour of native UI frameworks
@@ -266,7 +276,7 @@ Under build parameters, add this environment variable "env.MOPE_VERSION" and set
 * If your build executes binaries and tasks, make sure the “x” permissions are 
   set for Fsc.exe etc. and all other executables triggered by xbuild.
 
-* Beware of Nuget package restore bug at https://nuget.codeplex.com/workitem/3435. In NuGet.targets, the 
+* Beware of NuGet package restore bug at https://nuget.codeplex.com/workitem/3435. In NuGet.targets, the 
   "solutionDir" argument has an extra space. This breaks package restore on Mono. 
 
 
