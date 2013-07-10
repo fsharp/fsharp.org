@@ -219,7 +219,7 @@ Some guides to using F# and Nunit together are:
 
 ### FsUnit
 
-[FsUnit](http://fsunit.codeplex.com/) is often used by F# programmers as an DSL to access popular unit testing framework. 
+[FsUnit](http://fsunit.codeplex.com/) is often used by F# programmers as an DSL to access popular unit testing frameworks. 
 An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
 
 ### FsCheck
@@ -243,8 +243,8 @@ Under build parameters, add this environment variable "env.MOPE_VERSION" and set
 
 ### Testing on multiple platforms
 
-If you are Windows developers, you can easily set up a Vagrant box to test your libraries and tools in Mono framework.
-The detailed guide of setting up Vagrant is [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
+If you are Windows developers, you can set up a Vagrant box in order to test your libraries and tools on Mono.
+The detailed guide of setting up Vagrant is available [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
 ### Dos and Don’ts
@@ -264,12 +264,12 @@ The detailed guide of setting up Vagrant is [here](http://christoph.ruegg.name/b
 * When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C#. (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio.)
 * Differences in F# Interactive DLL resolution. Use  
   
-      #I @"./lib/FAKE/tools"
-      #r @"./lib/FAKE/tools/FakeLib.dll"
+        #I @"./lib/FAKE/tools"
+        #r @"./lib/FAKE/tools/FakeLib.dll"
     
   Not just
   
-      #r @"./lib/FAKE/tools/FakeLib.dll"
+        #r @"./lib/FAKE/tools/FakeLib.dll"
   
 * If your build executes binaries and tasks, make sure the “x” permissions are 
   set for Fsc.exe etc. and all other executables triggered by xbuild.
@@ -287,9 +287,9 @@ the System.Type implementation. The ProvidedTypes API can normally be adjusted t
 
 To help isolate the problem, try the following:
 
-*	Start with a simple file that uses the type provider and compile it using "fsc.exe" on Windows. This should succeed.
-*	Now compile the file on windows using the open source "fsc.exe" (this will run using .NET). This should succeed (if not, there is a bug in the open source compiler)
-*	Now compile the file on windows using the open source "mono fsc.exe" (this will run using Mono). . If this fails, then there are differences in Mono v. .NET exposed by the type provider. The type provider can probably be adjusted.
+*	Start with a simple file that uses the type provider and compile it using `fsc.exe` on Windows. This should succeed.
+*	Now compile the file on windows using the open source `fsc.exe` (this will run using .NET). This should succeed (if not, there is a bug in the open source compiler)
+*	Now compile the file on windows using the open source `mono fsc.exe` (this will run using Mono). If this fails, then there are differences in Mono vs .NET exposed by the type provider. The type provider can probably be adjusted.
 *	If that succeeded, then try the same command-line compilation on, say, OSX. If this fails then the type provider may not be cross-platform, e.g. may rely on Windows-only functionality. Diagnostics from the type provider may need improving.
 *	If that succeeded, then check if the type provider works from MonoDevelop. If not then the problem is with the MonoDevelop binding (but that is very unlikely because it doesn't know anything specific about type providers)
 
