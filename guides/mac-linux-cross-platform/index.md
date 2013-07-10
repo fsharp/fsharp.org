@@ -22,13 +22,13 @@ headline: F# Mac, Linux and Cross-Platform Development Guide
 ## Command Line Tools
 
 You can start F# Interactive using 
+```fsharp
+$ fsharpi
 
-    $ fsharpi
+> 1+1;;
 
-    > 1+1;;
-    
-    val it : int = 2
-
+val it : int = 2
+```
 You’re off! Some common commands are:
 
     fsharpi                            (starts F# interactive)
@@ -52,7 +52,7 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 ##	Documentation 
 
-For most F# docuementation, see the [documentation pages](/about/index.html#documentation).
+For most F# documentation, see the [documentation pages](/about/index.html#documentation).
 
 ------
 
@@ -69,28 +69,28 @@ Use xbuild to build projects and solutions:
     xbuild RocketSolution.sln
 
 Many people doing cross-platform or Mac/Linux development don't like .sln files.
-In this case, you can also create a .proj file that brings together
+In this case, you can also create a .fsproj file that brings together
 a collection of .fsproj files. Include, for example, [root.traversals.targets](https://github.com/fsharp/fsharp/blob/master/src/root.traversal.targets) used in the F# compiler source
-in a .proj like this:
+in a .fsproj like this:
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
 
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
-    
-      <ItemGroup>
-        <ProjectFiles Include="fsharp-proto-build.proj"/>
-        <ProjectFiles Include="fsharp-library-build.proj"/>
-        <ProjectFiles Include="fsharp-compiler-build.proj"/>
-      </ItemGroup>
-    
-      <Import Project="root.traversal.targets"/>
-    
-    </Project>
+  <ItemGroup>
+    <ProjectFiles Include="fsharp-proto-build.fsproj"/>
+    <ProjectFiles Include="fsharp-library-build.fsproj"/>
+    <ProjectFiles Include="fsharp-compiler-build.fsproj"/>
+  </ItemGroup>
 
+  <Import Project="root.traversal.targets"/>
+
+</Project>
+```
 If you need to create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop, 
 or find an existing one, copy it and edit it by hand.
 
 ### Makefiles
 
-The F# command-line compiler can be used with Makefiles in the normal way.
+The F# command-line compiler can be used with Makefiles in the usual way.
 
 ### FAKE
 
@@ -125,23 +125,23 @@ Typical usage is:
     mono nuget.exe install packageId -Version 2.2.2.3    -- installs particular version of particular package
 
 An example packages.config is:
-
-    <?xml version="1.0" encoding="utf-8"?>
-    <packages>
-      <package id="FsUnit" version="1.2.1.0" targetFramework="net40" />
-     <package id="NUnit" version="2.6.2" targetFramework="net40" />
-    </packages>
-
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package id="FsUnit" version="1.2.1.0" targetFramework="net40" />
+ <package id="NUnit" version="2.6.2" targetFramework="net40" />
+</packages>
+```
 #### Using NuGet as part of a build
 
 F# project files (.fsproj) can be configure to automatically get NuGet packages during a build. The
 project file should have a line like this (if necessary, adjusted to locate a copy of NuGet.targets).
-
-  <Import Project="...\NuGet.targets" Condition="Exists('...\NuGet.targets')" />
-
+```xml
+<Import Project="...\NuGet.targets" Condition="Exists('...\NuGet.targets')" />
+```
 A copy of NuGet.exe should be in that directory with executable permissions set. You may also need to set:
 
-  export EnableNuGetPackageRestore=true
+    export EnableNuGetPackageRestore=true
 
 It is quite common to check a copy of NuGet.exe into a project, e.g. in lib/NuGet/NuGet.exe.
 
@@ -152,7 +152,7 @@ You can add NuGet support to these IDEs. See [NuGet for MonoDevelop and Xamarin 
 
 #### Making NuGet packages
 
-See http://nuget.org to learn how to make and publich NuGet packages.
+See http://nuget.org to learn how to make and publish NuGet packages.
 
 ### Other Package Mechanisms
 
@@ -207,8 +207,8 @@ A table of unit testing frameworks can be found [here](http://en.wikipedia.org/w
 [NUnit](http://nunit.org/) is an open-source, cross-platform unit-testing 
 framework for F# and other  .NET languages. It is written 
 in C# and has been completely redesigned to take advantage of many .NET language features, 
-for example custom attributes and other reflection related capabilities. NUnit brings 
-xUnit to all .NET languages.
+for example custom attributes and other reflection related capabilities. 
+Also [xUnit](http://xunit.codeplex.com/) is a good alternative for NUnit.
 
 Some guides to using F# and Nunit together are:
 
@@ -219,10 +219,15 @@ Some guides to using F# and Nunit together are:
 
 ### FsUnit
 
-[FsUnit](http://fsunit.codeplex.com/) is sometimes used by F# programmers. 
+[FsUnit](http://fsunit.codeplex.com/) is often used by F# programmers as an DSL to access popular unit testing framework. 
 An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
 
+### FsCheck
 
+[FsCheck](https://github.com/fsharp/FsCheck) is a tool for testing .NET programs automatically. 
+The programmer provides a specification of the program, 
+in the form of properties which functions, methods or objects should satisfy, 
+and FsCheck then tests that the properties hold in a large number of randomly generated cases.
 
 ------
 
@@ -234,37 +239,44 @@ For open source community projects, a build service is available at http://teamc
 includes both Linux and Windows build agents.
 
 To use versions of Mono such as Mono 3.0.12, you need to set an environment variable in your build config. 
-Under build parameters, add this environment variable "env.MOPE_VERSION" and set it to "3.0.12". 
+Under build parameters, add this environment variable "env.MOPE_VERSION" and set it to "3.0.12".
+
+### Testing on multiple platforms
+
+If you are Windows developers, you can easily set up a Vagrant box to test your libraries and tools in Mono framework.
+The detailed guide of setting up Vagrant is [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
 ### Dos and Don’ts
 
-* Generally use / instead of \ on paths. In .fsproj files you can generally use either.
-* In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself (example)
+* Generally use `/` instead of `\` on paths. In .fsproj files you can generally use either.
+* In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself ([example](http://msdn.microsoft.com/en-us/library/3e54c37h.aspx))
 * Don't assume pdbs are always created after the compilation
 * Executables included in .NET may not exist in Mono or may have a different name or location - SvcUtil etc
 * Fake build scripts may not work as intended due to Mono issues
 * MSBuild API is incomplete in Mono, programatic API usage might fail 
-* Nuget can be troublesome
-* External components that would be available via Nuget in Windows might be included as part of Mono - Rx, TDF etc
+* NuGet can be troublesome
+* External components that would be available via NuGet in Windows might be included as part of Mono - Rx, TDF etc
 * MSBuild targets might be different in Mono
 * Don't rely the registry, also Mono can use a version of it, it can be fright with issues
 * Avoid Windows Forms/WPF in favour of native UI frameworks
-* Beware differences in behaviour with loading assemblies (https://bugzilla.xamarin.com/show_bug.cgi?id=10906). A very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
+* Beware differences in [behaviour with loading assemblies](https://bugzilla.xamarin.com/show_bug.cgi?id=10906). A very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
 * When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C#. (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio.)
 * Differences in F# Interactive DLL resolution. Use 
-
-      #I @"./lib/FAKE/tools"
-      #r @"./lib/FAKE/tools/FakeLib.dll"
-
+* 
+  ```fsharp
+  #I @"./lib/FAKE/tools"
+  #r @"./lib/FAKE/tools/FakeLib.dll"
+  ```
   Not just
 
-      #r @"./lib/FAKE/tools/FakeLib.dll"
-
+  ```fsharp
+  #r @"./lib/FAKE/tools/FakeLib.dll"
+  ```
 * If your build executes binaries and tasks, make sure the “x” permissions are 
   set for Fsc.exe etc. and all other executables triggered by xbuild.
 
-* Nuget package restore bug: https://nuget.codeplex.com/workitem/3435. In NuGet.targets, the 
+* Beware of NuGet package restore bug at https://nuget.codeplex.com/workitem/3435. In NuGet.targets, the 
   "solutionDir" argument has an extra space. This breaks package restore on Mono. 
 
 
@@ -288,4 +300,5 @@ Switching to command-line compilations will help localize the problem.
 ## Having trouble?
 
 * Ask questions at the [F# Open Source Group](https://groups.google.com/forum/#!forum/fsharp-opensource)
+* For technical questions on specific scenarios, you can also ask on [StackOverflow](http://stackoverflow.com/questions/tagged/f%23).
 
