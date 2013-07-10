@@ -241,7 +241,7 @@ includes both Linux and Windows build agents.
 To use versions of Mono such as Mono 3.0.12, you need to set an environment variable in your build config. 
 Under build parameters, add this environment variable "env.MOPE_VERSION" and set it to "3.0.12".
 
-## Testing on multiple platforms
+### Testing on multiple platforms
 
 If you are Windows developers, you can easily set up a Vagrant box to test your libraries and tools in Mono framework.
 The detailed guide of setting up Vagrant is [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
@@ -250,7 +250,7 @@ The detailed guide of setting up Vagrant is [here](http://christoph.ruegg.name/b
 ### Dos and Don’ts
 
 * Generally use `/` instead of `\` on paths. In .fsproj files you can generally use either.
-* In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself (example)
+* In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself ([example](http://msdn.microsoft.com/en-us/library/3e54c37h.aspx))
 * Don't assume pdbs are always created after the compilation
 * Executables included in .NET may not exist in Mono or may have a different name or location - SvcUtil etc
 * Fake build scripts may not work as intended due to Mono issues
@@ -300,4 +300,5 @@ Switching to command-line compilations will help localize the problem.
 ## Having trouble?
 
 * Ask questions at the [F# Open Source Group](https://groups.google.com/forum/#!forum/fsharp-opensource)
+* For technical questions on specific scenarios, you can also ask on [StackOverflow](http://stackoverflow.com/questions/tagged/f%23).
 
