@@ -22,13 +22,13 @@ headline: F# Mac, Linux and Cross-Platform Development Guide
 ## Command Line Tools
 
 You can start F# Interactive using 
-```fsharp
-$ fsharpi
 
-> 1+1;;
+    $ fsharpi
+    
+    > 1+1;;
+    
+    val it : int = 2
 
-val it : int = 2
-```
 You’re off! Some common commands are:
 
     fsharpi                            (starts F# interactive)
@@ -72,19 +72,19 @@ Many people doing cross-platform or Mac/Linux development don't like .sln files.
 In this case, you can also create a .fsproj file that brings together
 a collection of .fsproj files. Include, for example, [root.traversals.targets](https://github.com/fsharp/fsharp/blob/master/src/root.traversal.targets) used in the F# compiler source
 in a .fsproj like this:
-```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
 
-  <ItemGroup>
-    <ProjectFiles Include="fsharp-proto-build.fsproj"/>
-    <ProjectFiles Include="fsharp-library-build.fsproj"/>
-    <ProjectFiles Include="fsharp-compiler-build.fsproj"/>
-  </ItemGroup>
+    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+    
+      <ItemGroup>
+        <ProjectFiles Include="fsharp-proto-build.fsproj"/>
+        <ProjectFiles Include="fsharp-library-build.fsproj"/>
+        <ProjectFiles Include="fsharp-compiler-build.fsproj"/>
+      </ItemGroup>
+    
+      <Import Project="root.traversal.targets"/>
+    
+    </Project>
 
-  <Import Project="root.traversal.targets"/>
-
-</Project>
-```
 If you need to create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop, 
 or find an existing one, copy it and edit it by hand.
 
@@ -125,20 +125,20 @@ Typical usage is:
     mono nuget.exe install packageId -Version 2.2.2.3    -- installs particular version of particular package
 
 An example packages.config is:
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<packages>
-  <package id="FsUnit" version="1.2.1.0" targetFramework="net40" />
- <package id="NUnit" version="2.6.2" targetFramework="net40" />
-</packages>
-```
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <packages>
+      <package id="FsUnit" version="1.2.1.0" targetFramework="net40" />
+     <package id="NUnit" version="2.6.2" targetFramework="net40" />
+    </packages>
+
 #### Using NuGet as part of a build
 
 F# project files (.fsproj) can be configure to automatically get NuGet packages during a build. The
 project file should have a line like this (if necessary, adjusted to locate a copy of NuGet.targets).
-```xml
-<Import Project="...\NuGet.targets" Condition="Exists('...\NuGet.targets')" />
-```
+
+    <Import Project="...\NuGet.targets" Condition="Exists('...\NuGet.targets')" />
+
 A copy of NuGet.exe should be in that directory with executable permissions set. You may also need to set:
 
     export EnableNuGetPackageRestore=true
@@ -219,7 +219,7 @@ Some guides to using F# and Nunit together are:
 
 ### FsUnit
 
-[FsUnit](http://fsunit.codeplex.com/) is often used by F# programmers as an DSL to access popular unit testing framework. 
+[FsUnit](http://fsunit.codeplex.com/) is often used by F# programmers as an DSL to access popular unit testing frameworks. 
 An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
 
 ### FsCheck
@@ -243,8 +243,8 @@ Under build parameters, add this environment variable "env.MOPE_VERSION" and set
 
 ### Testing on multiple platforms
 
-If you are Windows developers, you can easily set up a Vagrant box to test your libraries and tools in Mono framework.
-The detailed guide of setting up Vagrant is [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
+If you are Windows developers, you can set up a Vagrant box in order to test your libraries and tools on Mono.
+The detailed guide of setting up Vagrant is available [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
 ### Dos and Don’ts
@@ -262,17 +262,15 @@ The detailed guide of setting up Vagrant is [here](http://christoph.ruegg.name/b
 * Avoid Windows Forms/WPF in favour of native UI frameworks
 * Beware differences in [behaviour with loading assemblies](https://bugzilla.xamarin.com/show_bug.cgi?id=10906). A very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
 * When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C#. (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio.)
-* Differences in F# Interactive DLL resolution. Use 
-* 
-  ```fsharp
-  #I @"./lib/FAKE/tools"
-  #r @"./lib/FAKE/tools/FakeLib.dll"
-  ```
+* Differences in F# Interactive DLL resolution. Use  
+  
+        #I @"./lib/FAKE/tools"
+        #r @"./lib/FAKE/tools/FakeLib.dll"
+    
   Not just
-
-  ```fsharp
-  #r @"./lib/FAKE/tools/FakeLib.dll"
-  ```
+  
+        #r @"./lib/FAKE/tools/FakeLib.dll"
+  
 * If your build executes binaries and tasks, make sure the “x” permissions are 
   set for Fsc.exe etc. and all other executables triggered by xbuild.
 
@@ -289,9 +287,9 @@ the System.Type implementation. The ProvidedTypes API can normally be adjusted t
 
 To help isolate the problem, try the following:
 
-*	Start with a simple file that uses the type provider and compile it using "fsc.exe" on Windows. This should succeed.
-*	Now compile the file on windows using the open source "fsc.exe" (this will run using .NET). This should succeed (if not, there is a bug in the open source compiler)
-*	Now compile the file on windows using the open source "mono fsc.exe" (this will run using Mono). . If this fails, then there are differences in Mono v. .NET exposed by the type provider. The type provider can probably be adjusted.
+*	Start with a simple file that uses the type provider and compile it using `fsc.exe` on Windows. This should succeed.
+*	Now compile the file on windows using the open source `fsc.exe` (this will run using .NET). This should succeed (if not, there is a bug in the open source compiler)
+*	Now compile the file on windows using the open source `mono fsc.exe` (this will run using Mono). If this fails, then there are differences in Mono vs .NET exposed by the type provider. The type provider can probably be adjusted.
 *	If that succeeded, then try the same command-line compilation on, say, OSX. If this fails then the type provider may not be cross-platform, e.g. may rely on Windows-only functionality. Diagnostics from the type provider may need improving.
 *	If that succeeded, then check if the type provider works from MonoDevelop. If not then the problem is with the MonoDevelop binding (but that is very unlikely because it doesn't know anything specific about type providers)
 
