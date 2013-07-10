@@ -22,13 +22,13 @@ headline: F# Mac, Linux and Cross-Platform Development Guide
 ## Command Line Tools
 
 You can start F# Interactive using 
-```fsharp
-$ fsharpi
 
-> 1+1;;
+    $ fsharpi
+    
+    > 1+1;;
+    
+    val it : int = 2
 
-val it : int = 2
-```
 You’re off! Some common commands are:
 
     fsharpi                            (starts F# interactive)
@@ -72,19 +72,19 @@ Many people doing cross-platform or Mac/Linux development don't like .sln files.
 In this case, you can also create a .fsproj file that brings together
 a collection of .fsproj files. Include, for example, [root.traversals.targets](https://github.com/fsharp/fsharp/blob/master/src/root.traversal.targets) used in the F# compiler source
 in a .fsproj like this:
-```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
 
-  <ItemGroup>
-    <ProjectFiles Include="fsharp-proto-build.fsproj"/>
-    <ProjectFiles Include="fsharp-library-build.fsproj"/>
-    <ProjectFiles Include="fsharp-compiler-build.fsproj"/>
-  </ItemGroup>
+    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+    
+      <ItemGroup>
+        <ProjectFiles Include="fsharp-proto-build.fsproj"/>
+        <ProjectFiles Include="fsharp-library-build.fsproj"/>
+        <ProjectFiles Include="fsharp-compiler-build.fsproj"/>
+      </ItemGroup>
+    
+      <Import Project="root.traversal.targets"/>
+    
+    </Project>
 
-  <Import Project="root.traversal.targets"/>
-
-</Project>
-```
 If you need to create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop, 
 or find an existing one, copy it and edit it by hand.
 
@@ -125,20 +125,20 @@ Typical usage is:
     mono nuget.exe install packageId -Version 2.2.2.3    -- installs particular version of particular package
 
 An example packages.config is:
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<packages>
-  <package id="FsUnit" version="1.2.1.0" targetFramework="net40" />
- <package id="NUnit" version="2.6.2" targetFramework="net40" />
-</packages>
-```
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <packages>
+      <package id="FsUnit" version="1.2.1.0" targetFramework="net40" />
+     <package id="NUnit" version="2.6.2" targetFramework="net40" />
+    </packages>
+
 #### Using NuGet as part of a build
 
 F# project files (.fsproj) can be configure to automatically get NuGet packages during a build. The
 project file should have a line like this (if necessary, adjusted to locate a copy of NuGet.targets).
-```xml
-<Import Project="...\NuGet.targets" Condition="Exists('...\NuGet.targets')" />
-```
+
+    <Import Project="...\NuGet.targets" Condition="Exists('...\NuGet.targets')" />
+
 A copy of NuGet.exe should be in that directory with executable permissions set. You may also need to set:
 
     export EnableNuGetPackageRestore=true
@@ -262,17 +262,15 @@ The detailed guide of setting up Vagrant is [here](http://christoph.ruegg.name/b
 * Avoid Windows Forms/WPF in favour of native UI frameworks
 * Beware differences in [behaviour with loading assemblies](https://bugzilla.xamarin.com/show_bug.cgi?id=10906). A very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
 * When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C#. (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio.)
-* Differences in F# Interactive DLL resolution. Use 
-* 
-  ```fsharp
-  #I @"./lib/FAKE/tools"
-  #r @"./lib/FAKE/tools/FakeLib.dll"
-  ```
+* Differences in F# Interactive DLL resolution. Use  
+  
+      #I @"./lib/FAKE/tools"
+      #r @"./lib/FAKE/tools/FakeLib.dll"
+    
   Not just
-
-  ```fsharp
-  #r @"./lib/FAKE/tools/FakeLib.dll"
-  ```
+  
+      #r @"./lib/FAKE/tools/FakeLib.dll"
+  
 * If your build executes binaries and tasks, make sure the “x” permissions are 
   set for Fsc.exe etc. and all other executables triggered by xbuild.
 
