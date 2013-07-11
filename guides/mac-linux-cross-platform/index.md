@@ -294,6 +294,7 @@ The detailed guide of setting up Vagrant is available [here](http://christoph.ru
 * Executables included in .NET may not exist in Mono or may have a different name or location - SvcUtil etc
 * Fake build scripts may not work as intended due to Mono issues
 * MSBuild API is incomplete in Mono, programatic API usage might fail 
+* Changing the build order inside Xamarin Studio won't have effect when using MSBuild or Visual Studio, prefer editing the project file by hand
 * NuGet can be troublesome
 * External components that would be available via NuGet in Windows might be included as part of Mono - Rx, TDF etc
 * MSBuild targets might be different in Mono
