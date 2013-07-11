@@ -15,7 +15,7 @@ headline: F# Mac, Linux and Cross-Platform Development Guide
 
 <div class="hero-unit visible-desktop contributeGuide" id="how-to-contribute-to-guide"> 
   <h3>Contribute</h3>
-    <p> To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/mac-linux-cross-platform/index.md">edit this page</a> and send the pull request.</p>
+    <p> To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/mac-linux-cross-platform/index.md">edit this page</a> and send the pull request.</p>
 </div>
 
 
@@ -161,21 +161,56 @@ Other package mechanisms include:
 * Traditional unix packages
 
 
-### Some Important Packages
+------
 
-Some F# packages are more cross-platform friendly than others. Here are some which are commonly used on
-Mac and Linux:
+## Some Important Portable, Cross-Platform, Mac and Linux Packages
+
+Some F# packages are more cross-platform friendly than others. Many will work with no alteration.
+Here are some of interest:
 
 * FSharp.Core Library
-* MonoMac
-* Math.Net
-* MonoGame
-* Xamarin.Mac
-* ServiceStack
-* ASP.NET Razor, RazorEngine
-* MongoDB, MongoDB.FSharp
-* FSharpx 
-* FSharp.Data
+
+* [FSharp.Data](http://fsharp.github.io/FSharp.Data/)
+
+* [FSharpx](http://fsharp.github.io/fsharpx/)
+
+* [MongoDB.FSharp](https://github.com/tkellogg/MongoDB.FSharp)
+
+In the wider F# exosystem there are many cross-platform and/or portable packages 
+and libraries. Here are some examples - many others are also available:
+
+* [Math.Net Numerics](http://numerics.mathdotnet.com/) - Math.NET Numerics provides cross-platform and portable  methods and algorithms for numerical computations in science, engineering and every day use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integral transforms and more.
+
+* [ServiceStack](http://www.servicestack.net/) - "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all"
+
+* [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - Reactive UI is an MVVM framework built on top of 
+  the Reactive Extensions. Version 5.0 is "totally Portable-Friendly", and supports Xamarin.iOS, Xamarin.Android, 
+  Xamarin.Mac, .NET 4.5 (WPF), Windows Phone 8 and Windows Store Apps (WinRT).
+
+* [Akavache](https://github.com/github/Akavache#akavache-an-asynchronous-key-value-store-for-native-applications) - Akavache is an asynchronous, persistent (i.e. writes to disk) key-value store created for writing desktop and mobile applications in C# and F#. Think of it like memcached for desktop apps. 
+  At the time of writing it is compatible with .NET 4.0/4.5, Mono 3.0 (including Xamarin.Mac), Silverlight 5, Windows Phone 7.1/8.0, and WinRT (Metro / Modern UI / Windows Store / Whatever Microsoft Is Calling That Tablet'y OS Thing That They Make).
+
+* [Splat](https://github.com/xpaulbettsx/splat#splat) – It has cross platform APIs for 
+  images and colors, with platform-specific extension methods to go back and forth 
+  between the platform-specific native types.  
+
+
+There are a wide range of cross-platform and Linux/Mac libraries available as part of the core libraries 
+available to F#, for example:
+
+* [Versions of .NET Frameworks Libraries](http://www.mono-project.com/Start). 
+  
+  Compatibility guides, [documentation](http://docs.go-mono.com/?link=root) and [migration assessment tools](http://www.mono-project.com/MoMA) are 
+  also available.
+
+* [Bindings to Unix functionality](http://docs.go-mono.com/index.aspx?link=N%3aMono.Unix)
+
+* [Bindings to Mac functionality](http://www.mono-project.com/MonoMac)
+
+* [MonoGame](http://monogame.codeplex.com/)
+
+* [Xamarin.Mac](http://xamarin.com/mac)
+
 
 ------
 
@@ -188,6 +223,9 @@ Portable .NET libraries have access to less core functionality, called a "portab
 platforms and multiple profiles of .NET. For example, a portable library may be usable on Mac, Linux, Android,
 iOS, Windows and Windows Store apps (depending on the versions of runtime machinery used and other factors).
 
+See [Cross-Platform Portable Class Libraries with .NET are Happening](http://www.hanselman.com/blog/CrossPlatformPortableClassLibrariesWithNETAreHappening.aspx)
+for a perspective on cross-platform portable libraries for Visual Studio users.
+
 F# portable libraries use FSharp.Core versions such as 4.3.5.0, with matching mscorlib versions.
 A binding redirect may be neeeded to ensure bindings to these libraries redirect correctly, e.g. to 
 FSharp.Core 4.3.0.0.
@@ -195,6 +233,7 @@ FSharp.Core 4.3.0.0.
 At the time of writing, creating portable libraries was not yet fully supported on 
 Mac and Linux. But if you are developing on Windows, or using libraries on Windows, then consider
 creating portable libraries to ease cross-platfom use.
+
 
 ------
 
