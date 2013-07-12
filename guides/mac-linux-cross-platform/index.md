@@ -44,7 +44,7 @@ You’re off! Some common commands are:
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
 
 * [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.com/fsharpbinding). 
-* Emacs. There is an [F# mode for Emacs](http://fsharp.github.com/fsharpbinding/) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive and also automatic indentation. 
+* Emacs. There is an [F# mode for Emacs](https://github.com/fsharp/fsharpbinding/tree/master/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive and also automatic indentation. 
 * Vim
 * SublimeText 
 
@@ -105,7 +105,7 @@ builds are automated using F# itself, and partly because it is a great tool).
 ### NuGet 
 
 [NuGet](http://nuget.org/) is an open-source, cross-platform package management tool with many thousands
-of packages avaialble. See the [documentation](http://docs.nuget.org/).
+of packages available. See the [documentation](http://docs.nuget.org/).
 
 It is generally used for package management on the Windows ecosystem but is growing in its cross-platform use.
 
@@ -152,13 +152,13 @@ You can add NuGet support to these IDEs. See [NuGet for MonoDevelop and Xamarin 
 
 #### Making NuGet packages
 
-See http://nuget.org to learn how to make and publish NuGet packages.
+See [http://nuget.org](http://nuget.org) to learn how to make and publish NuGet packages.
 
 ### Other Package Mechanisms
 
 Other package mechanisms include:
 * Git sub-modules (especially when building from source)
-* Traditional unix packages
+* Traditional Unix packages
 
 
 ------
@@ -179,7 +179,7 @@ Here are some of interest:
 In the wider F# exosystem there are many cross-platform and/or portable packages 
 and libraries. Here are some examples - many others are also available:
 
-* [Math.Net Numerics](http://numerics.mathdotnet.com/) - Math.NET Numerics provides cross-platform and portable  methods and algorithms for numerical computations in science, engineering and every day use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integral transforms and more.
+* [Math.Net Numerics](http://numerics.mathdotnet.com/) - Math.NET Numerics provides cross-platform and portable  methods and algorithms for numerical computations in science, engineering and everyday use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integral transforms and more.
 
 * [ServiceStack](http://www.servicestack.net/) - "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all"
 
@@ -188,7 +188,7 @@ and libraries. Here are some examples - many others are also available:
   Xamarin.Mac, .NET 4.5 (WPF), Windows Phone 8 and Windows Store Apps (WinRT).
 
 * [Akavache](https://github.com/github/Akavache#akavache-an-asynchronous-key-value-store-for-native-applications) - Akavache is an asynchronous, persistent (i.e. writes to disk) key-value store created for writing desktop and mobile applications in C# and F#. Think of it like memcached for desktop apps. 
-  At the time of writing it is compatible with .NET 4.0/4.5, Mono 3.0 (including Xamarin.Mac), Silverlight 5, Windows Phone 7.1/8.0, and WinRT (Metro / Modern UI / Windows Store / Whatever Microsoft Is Calling That Tablet'y OS Thing That They Make).
+  At the time of writing, it is compatible with .NET 4.0/4.5, Mono 3.0 (including Xamarin.Mac), Silverlight 5, Windows Phone 7.1/8.0, and WinRT (Metro / Modern UI / Windows Store / Whatever Microsoft Is Calling That Tablet'y OS Thing That They Make).
 
 * [Splat](https://github.com/xpaulbettsx/splat#splat) – It has cross platform APIs for 
   images and colors, with platform-specific extension methods to go back and forth 
@@ -239,7 +239,7 @@ creating portable libraries to ease cross-platfom use.
 
 ## Unit Testing
 
-A table of unit testing frameworks can be found [here](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages).
+A table of .NET unit testing frameworks can be found [here](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages).
 
 ### NUnit
 
@@ -249,7 +249,7 @@ in C# and has been completely redesigned to take advantage of many .NET language
 for example custom attributes and other reflection related capabilities. 
 Also [xUnit](http://xunit.codeplex.com/) is a good alternative for NUnit.
 
-Some guides to using F# and Nunit together are:
+Some guides to using F# and NUnit together are:
 
  * [NUnit With F#](http://davefancher.com/2012/09/06/nunit-with-f/)
  * [Using NUnit with F# Code](http://sector0.dk/?p=33)
@@ -274,7 +274,7 @@ and FsCheck then tests that the properties hold in a large number of randomly ge
 
 ### Using the TeamCity build service
 
-For open source community projects, a build service is available at http://teamcity.codebetter.com which 
+For open source community projects, a build service is available at [http://teamcity.codebetter.com](http://teamcity.codebetter.com) which 
 includes both Linux and Windows build agents.
 
 To use versions of Mono such as Mono 3.0.12, you need to set an environment variable in your build config. 
@@ -283,7 +283,7 @@ Under build parameters, add this environment variable "env.MOPE_VERSION" and set
 ### Testing on multiple platforms
 
 If you are Windows developers, you can set up a Vagrant box in order to test your libraries and tools on Mono.
-The detailed guide of setting up Vagrant is available [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
+A detailed guide of setting up Vagrant is available [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
 ### Dos and Don’ts
@@ -291,7 +291,7 @@ The detailed guide of setting up Vagrant is available [here](http://christoph.ru
 * Generally use `/` instead of `\` on paths. In .fsproj files you can generally use either.
 * In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself ([example](http://msdn.microsoft.com/en-us/library/3e54c37h.aspx))
 * Don't assume pdbs are always created after the compilation
-* Executables included in .NET may not exist in Mono or may have a different name or location - SvcUtil etc
+* Executables included in .NET may not exist in Mono or may have a different name or location e.g. SvcUtil etc
 * Fake build scripts may not work as intended due to Mono issues
 * MSBuild API is incomplete in Mono, programatic API usage might fail 
 * Changing the build order inside Xamarin Studio won't have effect when using MSBuild or Visual Studio, prefer editing the project file by hand
@@ -300,8 +300,8 @@ The detailed guide of setting up Vagrant is available [here](http://christoph.ru
 * MSBuild targets might be different in Mono
 * Don't rely the registry, also Mono can use a version of it, it can be fright with issues
 * Avoid Windows Forms/WPF in favour of native UI frameworks
-* Beware differences in [behaviour with loading assemblies](https://bugzilla.xamarin.com/show_bug.cgi?id=10906). A very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
-* When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C#. (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio.)
+* Beware differences in [behaviour with loading assemblies](https://bugzilla.xamarin.com/show_bug.cgi?id=10906) which is a very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
+* When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C# (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio).
 * Differences in F# Interactive DLL resolution. Use  
   
         #I @"./lib/FAKE/tools"
@@ -314,7 +314,7 @@ The detailed guide of setting up Vagrant is available [here](http://christoph.ru
 * If your build executes binaries and tasks, make sure the “x” permissions are 
   set for Fsc.exe etc. and all other executables triggered by xbuild.
 
-* Beware of NuGet package restore bug at https://nuget.codeplex.com/workitem/3435. In NuGet.targets, the 
+* Beware of [NuGet package restore bug](https://nuget.codeplex.com/workitem/3435). In NuGet.targets, the 
   "solutionDir" argument has an extra space. This breaks package restore on Mono. 
 
 
@@ -328,10 +328,10 @@ the System.Type implementation. The ProvidedTypes API can normally be adjusted t
 To help isolate the problem, try the following:
 
 *	Start with a simple file that uses the type provider and compile it using `fsc.exe` on Windows. This should succeed.
-*	Now compile the file on windows using the open source `fsc.exe` (this will run using .NET). This should succeed (if not, there is a bug in the open source compiler)
-*	Now compile the file on windows using the open source `mono fsc.exe` (this will run using Mono). If this fails, then there are differences in Mono vs .NET exposed by the type provider. The type provider can probably be adjusted.
+*	Now compile the file on Windows using the open source `fsc.exe` (this will run using .NET). This should succeed (if not, there is a bug in the open source compiler).
+*	Now compile the file on Windows using the open source `mono fsc.exe` (this will run using Mono). If this fails, then there are differences in Mono vs .NET exposed by the type provider. The type provider can probably be adjusted.
 *	If that succeeded, then try the same command-line compilation on, say, OSX. If this fails then the type provider may not be cross-platform, e.g. may rely on Windows-only functionality. Diagnostics from the type provider may need improving.
-*	If that succeeded, then check if the type provider works from MonoDevelop. If not then the problem is with the MonoDevelop binding (but that is very unlikely because it doesn't know anything specific about type providers)
+*	If that succeeded, then check if the type provider works from MonoDevelop. If not then the problem is with the MonoDevelop binding (but that is very unlikely because it doesn't know anything specific about type providers).
 
 Switching to command-line compilations will help localize the problem.
 
