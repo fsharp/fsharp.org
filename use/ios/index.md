@@ -12,7 +12,10 @@ headline: Use F# for iOS App Development
 
 1. Get the [F# Tools for Mac](/use/mac)
 2. Get [Xamarin Studio](http://xamarin.com/download). Run and check it is at least version 4.0.9 or later under "About". Update using the Alpha or Beta channel of "Tools --> Addin Manager" if needed
-3. From Tools --> Addin Manager --> Gallery --> Language Bindings, add F# Language Binding" (v3.2.15+)
+3. Use version Xamarin iOS 6.3.7 or later.
+ (In [6.3.7][http://docs.xamarin.com/releases/ios/xamarin.ios_6/xamarin.ios_6.3],
+ FSharpCode.dll is "blessed" and does not count on the 64KB limit for the Starter edition.)
+4. From Tools --> Addin Manager --> Gallery --> Language Bindings, add F# Language Binding" (v3.2.15+)
 
    If it is missing, download and add [the latest Mac .mpack from the repository](http://addins.monodevelop.com/Project/Index/48). 
 
@@ -24,9 +27,6 @@ Note: You may have to remove any "FSharp.Core" reference and add a reference to 
 
     /Developer/MonoTouch/usr/lib/mono/2.1/mscorlib.dll 
     /Developer/MonoTouch/usr/lib/mono/2.1/FSharp.Core.dll 
-
-Note: FSharp.Core.dll is currently considered "user code" and will require a 
-non-Starter edition of Xamarin Studio because of app size. This is a known issue which Xamarin intend to address.
 
 Report problems to the [F# Open Source Group email list](http://fsharp.github.com/fsharp) and/or Xamarin.
 
