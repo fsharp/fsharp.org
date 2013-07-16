@@ -97,6 +97,11 @@ The F# command-line compiler can be used with Makefiles in the usual way.
 [FAKE](http://fsharp.github.io/FAKE/) is a build-and-publish automation utility sometimes used by F# programmers (partly because
 builds are automated using F# itself, and partly because it is a great tool).
 
+FAKE can be fetched using NuGet.exe, e.g.:
+
+    mono "./lib/NuGet/NuGet.exe" "install" "FAKE" "-OutputDirectory" "lib" "-ExcludeVersion" "-Prerelease"
+
+
 
 ---------
 
@@ -134,8 +139,9 @@ An example packages.config is:
 
 #### Using NuGet as part of a build
 
+
 F# project files (.fsproj) can be configure to automatically get NuGet packages during a build. The
-project file should have a line like this (if necessary, adjusted to locate a copy of NuGet.targets).
+project file should have a line like this (adjust the '...' to reference a copy of NuGet.targets checked into your project).
 
     <Import Project="...\NuGet.targets" Condition="Exists('...\NuGet.targets')" />
 
