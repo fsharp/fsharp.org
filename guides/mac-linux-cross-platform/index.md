@@ -18,6 +18,7 @@ headline: F# Mac, Linux and Cross-Platform Development Guide
     <p> To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/mac-linux-cross-platform/index.md">edit this page</a> and send the pull request.</p>
 </div>
 
+-------
 
 ## Command Line Tools
 
@@ -36,6 +37,8 @@ You’re off! Some common commands are:
     xbuild                             (builds .fsproj projects and .sln files)
     mono file.exe arg1 ... argN        (runs a compiled F# program)
     mkbundle --static file.exe -o file (makes a static native image, including the F# runtime)
+
+------
 
 ##  Editing 
 
