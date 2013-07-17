@@ -46,15 +46,9 @@ Sample iOS games and apps are available from [Neil Danson's repository](https://
 
 
 <br />
-<br />
-<br />
 
 
-### Option 2: Build HTML5 Web apps using F# WebSharper
+### Option 2: Build HTML5 iOS apps
 
-* Use [WebSharper](http://www.websharper.com) to make HTML5 apps written in F#, deployed to web and accessed via iOS.
-
-<br />
-<br />
-<br />
+* [Using F# for HTML5 Web Applications](/use/html5)
 

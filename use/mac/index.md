@@ -37,9 +37,9 @@ go further.
 
 <br />
 
-### Option 3: Make HTML5 web apps via WebSharper
+### Option 3: Make JS/HTML5 web apps
 
-* [WebSharper](http://www.websharper.com) can make F# HTML5 web apps which can be used from Mac/OSX and any HTML5-enabled browser
+* [Using F# for HTML5 Web Applications](/use/html5)
 
 <br />
 

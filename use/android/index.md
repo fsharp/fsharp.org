@@ -32,13 +32,7 @@ Report problems as follows:
 * For the F# language binding, see [the F# Binding repository](http://github.com/fsharp/fsharpbinding)
 
 <br />
-<br />
 
+### Option 2: Build HTML5 Android apps
 
-#### Option 2: Build HTML5 Android apps using F# WebSharper
-
-* Use [WebSharper](http://www.websharper.com) to make HTML5 apps written in F#.
-
-<br />
-<br />
-
+* [Using F# for HTML5 Web Applications](/use/html5)

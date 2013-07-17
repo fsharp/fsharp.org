@@ -102,6 +102,6 @@ There is an overlay available with current versions dotnet programs, available a
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
-### Option 6: Using F# 3.0 On Linux (via WebSharper) 
+### Option 6: Make JS/HTML5 web apps
 
-* [WebSharper](http://www.websharper.com) can make F# HTML5 web apps which can be used from Linux and any HTML5-enabled browser
+* [Using F# for HTML5 Web Applications](/use/html5)
