@@ -12,7 +12,7 @@ go further.
 ### Option 1: Build and install the F# 3.0 runtime, compiler and tools
 
 
-1. Get the runtime used by F#. Either [follow these instructions](http://www.go-mono.com/mono-downloads/download.html) or use:
+1. Get Mono, the runtime used by F#. Either [follow these instructions](http://www.go-mono.com/mono-downloads/download.html) or use:
 
         sudo apt-get install mono-devel
    
@@ -102,6 +102,6 @@ There is an overlay available with current versions dotnet programs, available a
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
-### Option 6: Make JS/HTML5 web apps
+### Option 6: Make JS/HTML5 web apps and run them in your browser
 
-* [Using F# for HTML5 Web Applications](/use/html5)
+See [Using F# for HTML5 Web Applications](/use/html5)
