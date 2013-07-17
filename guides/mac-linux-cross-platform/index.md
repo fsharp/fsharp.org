@@ -46,10 +46,26 @@ You’re off! Some common commands are:
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
 
-* [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.com/fsharpbinding). 
-* Emacs. There is an [F# mode for Emacs](https://github.com/fsharp/fsharpbinding/tree/master/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive and also automatic indentation. 
+* [Xamarin Studio](http://xamarin.com/studio) with the [F# AddIn for MonoDevelop](http://fsharp.github.com/fsharpbinding). 
+
+* Emacs. There is an [F# mode for Emacs](https://fsharp.github.com/fsharp/fsharpbinding/tree/master/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive and also automatic indentation. 
+
+* [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding). on Linux you can use:
+  
+       sudo apt-get install monodevelop
+  
+  or [build/install it from source](http://github.com/mono/monodevelop). Then [install the F# AddIn for MonoDevelop from the AddIn gallery](http://fsharp.github.io/fsharpbinding)
+  
 * Vim
+
 * SublimeText 
+
+If running F# Interactive in Emacs or another similar environment, use 
+              
+    > fsharpi --readline- 
+
+to turn of console processing.                    
+
 
 ------
 
