@@ -24,8 +24,6 @@ to remap keys.
 To enable this, either upgrade to ReSharper 8.0.10.1959 or greater, or install the [resharper-fsi-friendly](https://github.com/citizenmatt/resharper-fsi-friendly) plugin.
 
 <br />
-<br />
-
 
 ### Option 2: Install F# and Xamarin Studio 
 
@@ -38,9 +36,6 @@ used with both.
 3. Install the F# Addin for Xamarin Studio or MonoDevelop from the Addin Gallery
 
 <br />
-<br />
-
-
 
 ### Option 3: Install the F# compiler and tools alone
 
@@ -74,21 +69,18 @@ The compiler tools are installed at
     C:\Program Files (x86)\Microsoft SDKs\F#\3.0\Framework\v4.0\fsiAnyCpu.exe
     
 <br />
-<br />
 
-### Option 4: Build HTML5 and Windows Store apps using F# WebSharper
+### Option 4: Build HTML5 web apps or WinJS Windows Store apps using F# 
 
-1. Install [WebSharper](http://www.websharper.com) 
+* [Using F# for HTML5 Web Applications](/use/html5)
 
-You can use WebSharper to make HTML5 and WinJS web apps written in F#. These can be deployed either as HTML5 
-web apps or direct to the Windows 8 app store.
-
-<br />
 <br />
 
 ### Option 5: Learn F# in the Browser
 
 * [Learn F# online at Try F#](http://tryfsharp.org)
+
+<br />
 
 ### Option 6: Build F# from source
 
