@@ -50,7 +50,7 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * Emacs. There is an [F# mode for Emacs](https://github.com/fsharp/fsharpbinding/tree/master/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive and also automatic indentation. 
 
-* [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding). on Linux you can use:
+* [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding). On Linux Debian you can use:
   
        sudo apt-get install monodevelop
   
