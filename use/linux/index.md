@@ -6,7 +6,9 @@ headline: Use F# on Linux
 
 To help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).
 
-                                                                  
+Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
+go further.
+
 ### Option 1: Build and install the F# 3.0 runtime, compiler and tools
 
 
@@ -78,7 +80,8 @@ Usage:
           package_source => 'https://cdn.intelliplan.eu/dev/mono-3.0.6-1.x86_64.rpm''
         }
 
-### Installation on Gentoo/Funtoo
+### Option 4: Installation on Gentoo/Funtoo
+
 There is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
 
 1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
@@ -93,33 +96,12 @@ There is an overlay available with current versions dotnet programs, available a
 
         USE="+emacs -monodevelop" emerge fsharpbinding
 
-### Using F# on Linux
 
-If running F# interactive in Emacs or another similar environment, use 
-              
-    > fsharpi --readline- 
-
-to turn of console processing.                    
-
-### Editing tools
-
-Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
-
-* For visual tooling:
-
-       sudo apt-get install monodevelop
-  
-  or [build/install it from source](http://github.com/mono/monodevelop).
-  
-  Then [install the F# AddIn for MonoDevelop from the AddIn gallery](http://fsharp.github.com/fsharpbinding) 
-
-* Emacs. There is an [F# mode for Emacs](http://fsharp.github.com/fsharpbinding/) that extends Emacs with syntax highlighting and much more.
-
-### Option 4: Use a Vagrant VM on Windows
+### Option 5: Use a Vagrant VM on Windows
 
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
-### Option 5: Using F# 3.0 On Linux (via WebSharper) 
+### Option 6: Using F# 3.0 On Linux (via WebSharper) 
 
 * [WebSharper](http://www.websharper.com) can make F# HTML5 web apps which can be used from Linux and any HTML5-enabled browser
