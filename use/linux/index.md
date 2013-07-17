@@ -4,7 +4,7 @@ title: Use F# on Linux | The F# Software Foundation
 headline: Use F# on Linux
 ---
 
-If you can help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).
+To help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).
 
                                                                   
 ### Option 1: Build and install the F# 3.0 runtime, compiler and tools
@@ -115,6 +115,11 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * Emacs. There is an [F# mode for Emacs](http://fsharp.github.com/fsharpbinding/) that extends Emacs with syntax highlighting and much more.
 
-### Option 4: Using F# 3.0 On Linux (via WebSharper) 
+### Option 4: Use a Vagrant VM on Windows
+
+To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
+
+
+### Option 5: Using F# 3.0 On Linux (via WebSharper) 
 
 * [WebSharper](http://www.websharper.com) can make F# HTML5 web apps which can be used from Linux and any HTML5-enabled browser
