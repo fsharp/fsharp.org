@@ -19,7 +19,7 @@ of online tutorials demonstrating the power of F# and F# 3.0:
 
  * [Getting started in F#](http://www.tryfsharp.org/Learn/getting-started)
  * [Advanced F# Programming](http://www.tryfsharp.org/Learn/advanced-programming)
- * [Data Visualization and Charting](http://www.tryfsharp.org/data-visualization)
+ * [Data Visualization and Charting](http://www.tryfsharp.org/Learn/data-visualization)
  * [Data Science](http://www.tryfsharp.org/Learn/data-science)
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
@@ -57,7 +57,7 @@ _Jon Harrop_
 
 Over the next five years, F# is expected to become one of the world's most popular 
 functional programming languages for scientists of all disciplines working on the 
-Windows platform. F# is free and, unlike MATLAB� and other software with numerical/scientific 
+Windows platform. F# is free and, unlike MATLAB and other software with numerical/scientific 
 origins, is a full-fledged programming language. F# for Scientists explains and 
 demonstrates the powerful features of this important new programming language. 
 
