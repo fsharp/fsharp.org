@@ -57,7 +57,7 @@ _Jon Harrop_
 
 Over the next five years, F# is expected to become one of the world's most popular 
 functional programming languages for scientists of all disciplines working on the 
-Windows platform. F# is free and, unlike MATLAB� and other software with numerical/scientific 
+Windows platform. F# is free and, unlike MATLAB and other software with numerical/scientific 
 origins, is a full-fledged programming language. F# for Scientists explains and 
 demonstrates the powerful features of this important new programming language. 
 
