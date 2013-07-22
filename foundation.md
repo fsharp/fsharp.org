@@ -142,6 +142,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Don Syme [@dsyme](https://twitter.com/dsyme)
  * Simon Parker
  * Rachel Reese[@rachelreese](https://twitter.com/rachelreese)
+ * [Paulmichael Blasucci](http://pblasucci.wordpress.com) [@pblasucci](https://twitter.com/pblasucci)
 
 ## Contact
 
