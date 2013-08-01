@@ -25,7 +25,18 @@ To enable this, either upgrade to ReSharper 8.0.10.1959 or greater, or install t
 
 <br />
 
-### Option 2: Install F# and Xamarin Studio 
+### Option 2: Install Tsunami
+
+[Tsunami](http://tsunami.io) is an innovative fully featured F# IDE. 
+It has a number of unique features ideally suited for Big Data, Data Science and Machine Learning. It is capable of being embedded directly into other Desktop Applications and Websites.
+
+- Desktop: Install MSI from [Download](http://tsunami.io/download.html)
+- Browser: Embed the object in [Cloud Tsunami](http://tsunami.io/cloud_tsunami.html)
+
+
+<br />
+
+### Option 3: Install F# and Xamarin Studio 
 
 [Xamarin Studio](http://xamarin.com/studio) is a freemium IDE for mobile app development. 
 [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be 
@@ -37,7 +48,7 @@ used with both.
 
 <br />
 
-### Option 3: Install the F# compiler and tools alone
+### Option 4: Install the F# compiler and tools alone
 
 If you're just looking for a compiler and/or F# Interactive, e.g. for a build server or cloud VM image, then:
 
@@ -70,19 +81,19 @@ The compiler tools are installed at
     
 <br />
 
-### Option 4: Build HTML5 web apps or WinJS Windows Store apps using F# 
+### Option 5: Build HTML5 web apps or WinJS Windows Store apps using F# 
 
 * [Using F# for HTML5 Web Applications](/use/html5)
 
 <br />
 
-### Option 5: Learn F# in the Browser
+### Option 6: Learn F# in the Browser
 
 * [Learn F# online at Try F#](http://tryfsharp.org)
 
 <br />
 
-### Option 6: Build F# from source
+### Option 7: Build F# from source
 
 * Build the F# compiler and library from [the source](http://fsharp.github.com/fsharp)
 
