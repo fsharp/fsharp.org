@@ -11,15 +11,26 @@ headline: Use F# for iOS App Development
 #### Installing
 
 1. Get the [F# Tools for Mac](/use/mac)
-2. Get [Xamarin Studio](http://xamarin.com/download). Run and check it is at least version 4.0.9 or later under "About". Update using the Alpha or Beta channel of "Tools --> Addin Manager" if needed
+2. Get [Xamarin Studio](http://xamarin.com/download). Run and check it is at least version 4.0.9 or later under "About". Update using the Beta channel of "Tools --> Addin Manager".  The beta version is required for step 4 (Alpha as of 4.1.9 won't work).
 3. Use version Xamarin iOS 6.3.7 or later.
- (In [6.3.7][http://docs.xamarin.com/releases/ios/xamarin.ios_6/xamarin.ios_6.3],
+ (In [6.3.7](http://docs.xamarin.com/releases/ios/xamarin.ios_6/xamarin.ios_6.3),
  FSharpCode.dll is "blessed" and does not count on the 64KB limit for the Starter edition.)
-4. From Tools --> Addin Manager --> Gallery --> Language Bindings, add F# Language Binding" (v3.2.15+)
+4. Compile the F# Language Binding from source.  
 
-   If it is missing, download and add [the latest Mac .mpack from the repository](http://addins.monodevelop.com/Project/Index/48). 
+Check out https://github.com/fsharp/fsfoundation.git to $fsbind, then:
 
-4. From Tools --> Addin Manager --> Gallery --> Mobile Development, add "F# Support for Xamarin.iOS Development" 
+```shell
+cd $fsbind/monodevelop
+sh configure.sh
+make
+```
+
+That produces ```$fsbind/pack/3.2.16/local/Debug/MonoDevelop.FSharpBinding_3.2.15.mpack```.  Open Xamarin Studio, and from
+Tools --> Addin Manager push the _Install from file_ button.  Install ```$fsbind/pack/3.2.16/local/Debug/MonoDevelop.FSharpBinding_3.2.15.mpack```. 
+
+5. From Tools --> Addin Manager --> Gallery --> Mobile Development, add "F# Support for Xamarin.iOS Development" 
+6. From _Xamarin Studio --> Check for updates_, switch to the Alpha branch if you're developing for iOS 7.
+
 
 You can now create a new F# iOS app, e.g. an "iPad Single View Application". 
 
