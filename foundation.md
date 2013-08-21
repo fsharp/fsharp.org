@@ -143,6 +143,8 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Simon Parker
  * Rachel Reese [@rachelreese](https://twitter.com/rachelreese)
  * [Paulmichael Blasucci](http://pblasucci.wordpress.com) [@pblasucci](https://twitter.com/pblasucci)
+ * Gareth Stoyle
+ * Andre Pemmelaar [@QuantixResearch](http://twitter.com/QuantixResearch)
 
 ## Contact
 
