@@ -35,8 +35,6 @@ Some specific options for web application development are:
 
  * [NancyFx](https://github.com/NancyFx/Nancy) is a lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono. ([F# templates](https://github.com/NancyFx/Nancy.Templates/pull/2) are in progress.)
 
- * [NancyFx](https://github.com/NancyFx/Nancy) is a lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono.
-
  * [PicoMvc](https://github.com/robertpi/PicoMvc) is a micro framework for F# web programming.
  
 ### Building Server-Side Web APIs:
