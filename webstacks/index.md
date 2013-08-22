@@ -33,6 +33,10 @@ Some specific options for web application development are:
 
  * [FunScript](http://funscript.info/) - An F# to JavaScript converter with TypeScript interoperability.
 
+ * [NancyFx](https://github.com/NancyFx/Nancy) is a lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono. ([F# templates](https://github.com/NancyFx/Nancy.Templates/pull/2) are in progress.)
+
+ * [NancyFx](https://github.com/NancyFx/Nancy) is a lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono.
+
  * [PicoMvc](https://github.com/robertpi/PicoMvc) is a micro framework for F# web programming.
  
 ### Building Server-Side Web APIs:
@@ -43,6 +47,7 @@ F# shines in the area of Web API development through frameworks like  [ServiceSt
  * [F# and ServiceStack Example 1](http://www.servicestack.net/mythz_blog/?p=785) - Web Services on any platform in and out of a web server! An async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
  * [F# and ServiceStack Example 2](http://www.servicestack.net/mythz_blog/?p=811) - An Async, Cached Twitter API Proxy in F#
  * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
+ * [F# Azure Worker Role with OWIN and Web API](https://github.com/panesofglass/AzureFSharpOwin) - Web services in an Azure worker role using OWIN with only F#
  * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
  * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - 
     (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
