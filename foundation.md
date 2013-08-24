@@ -145,6 +145,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Paulmichael Blasucci](http://pblasucci.wordpress.com) [@pblasucci](https://twitter.com/pblasucci)
  * Gareth Stoyle
  * Andre Pemmelaar [@QuantixResearch](http://twitter.com/QuantixResearch)
+ * Jomo Fisher
 
 ## Contact
 
