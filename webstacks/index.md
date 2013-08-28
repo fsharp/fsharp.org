@@ -86,6 +86,10 @@ Here are a few Visual Studio 2012 project templates available for building unit 
  * [F# MsTest Project](http://visualstudiogallery.msdn.microsoft.com/51ebe64a-899b-4959-8c24-b0148ed6b264)
  * [F# Unit Test Template (MSTest)](http://visualstudiogallery.msdn.microsoft.com/432eb82c-345e-4502-be56-015fe051a210)
 
+### Client-side Testing
+
+ * [canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and concise. You can easily leverage your existing .Net code to help you test.
+ 
 ### Books
 
 Several books have been written that include information on building web applications with F#:
