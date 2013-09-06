@@ -49,22 +49,44 @@ go further.
 
 ### Option 2: Get the F# 3.0 Debian packages
 
-You can get F# 3.0 from the Debian *unstable* repository (see also [the package home page](http://packages.qa.debian.org/f/fsharp.html)).
+Currently, F# is only available in Debian [unstable](http://www.debian.org/releases/sid/)
+(see the [the package home page](http://packages.qa.debian.org/f/fsharp.html)).
+If you're already running unstable, simply run `aptitude install fsharp fsharp-console` as root.
+Otherwise, follow the following steps:
 
 1. Add the following to /etc/apt/sources.list:
 
         deb http://http.us.debian.org/debian/ unstable main contrib non-free 
         deb-src http://http.us.debian.org/debian/ unstable main contrib non-free 
-                       
-2. Get the packages with the following commands:
 
-        sudo apt-get update
-        sudo apt-get install mono-devel
-        sudo apt-get install fsharp
-        sudo apt-get install fsharp-console
-        sudo cp -p /usr/lib/cli/FSharp.*-4.3/* /usr/lib/mono/4.0/
-       
-   The last line is needed due to packaging bugs [706683](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706683) and [705906](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=705906) 
+2. Add unstable to /etc/apt/preferences with a low pin-priority. For
+   example, pinning unstable packages at -10 will ensure that aptitude
+   will never automatically upgrade or install packages from unstable.
+   The following preferences file is suitable for Debian testing:
+
+        Package: *
+        Pin: release o=Debian,a=testing
+        Pin-Priority: 990
+
+        Package: *
+        Pin: release o=Debian,a=unstable
+        Pin-Priority: -10
+
+   If you want aptitude to upgrade fsharp automatically, use a pin-priority
+   greater than or equal to 100. See [apt_preferences(5)](http://manpages.debian.net/cgi-bin/man.cgi?sektion=5&query=apt_preferences&apropos=0&manpath=sid&locale=en)
+   for more details.
+
+3. Install the fsharp packages with the following commands as root:
+
+        aptitude update
+        aptitude -t unstable install fsharp fsharp-console libfsharp-compiler4.3-cil \
+            libfsharp-core4.3-cil libfsharp-compiler-interactive-settings4.3-cil \
+            libfsharp-compiler-interactive-settings4.3-cil
+        ln -s /usr/lib/cli/FSharp.*-4.3/*{dll,xml,sigdata,optdata} /usr/lib/mono/4.0
+
+   If unstable has a positive pin-priority, you can replace the second
+   command with `aptitude install fsharp fsharp-console`.
+   The last line is needed due to packaging bugs [706683](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706683) and [705906](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=705906).
 
 ### Option 3: Get the F# 3.0 CentOS/RHEL/SciLinux packages with puppet
 
