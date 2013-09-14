@@ -4,13 +4,15 @@ title: F# Open Source and Community Projects | The F# Software Foundation
 headline: F# Open Source and Community Projects
 ---
 
-The F# Software Foundation encourages both commercial and open source projects
-which help support the mission of the foundation. Some of the community projects related
-to F# are shown below. 
+Do you want to contribute to F# commmunity projects?  The F# Software Foundation encourages
+all efforts which support our [mission](/foundation.html). Some of the community projects related
+to F# you can contribute to are  below. See also our [Data Access](/data-access), [Cloud Programming](/cloud), [Web Programming](/webstacks), [Games](/games)
+and [Cross-Platform Development](/guides/mac-linux-cross-platform/) guides.
 
-To add a project, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/use/osprojects/index.md) and submit a pull request.
+To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/use/osprojects/index.md) and submit a pull request.
 
-### Commmunity Projects: Foundational Libraries 
+
+### Community Projects: Foundational Libraries 
 
 *  [FSharpx](https://github.com/fsharp/fsharpx]) Extensions and Tools for F# Programming
 
@@ -32,6 +34,16 @@ To add a project, log on to GitHub, [edit this page](https://github.com/fsharp/f
 
 *  [FAKE](https://github.com/fsharp/FAKE) F# build automation system
 
+
+<br />
+
+### Community Projects: Math Libraries
+
+*  [Math.NET Numerics](http://numerics.mathdotnet.com/) A large collection of algorithms including linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
+
+*  See also [Using F# for Math and Statistics](/math)
+
+
 <br />
 
 ### Community Projects: Testing Tools
@@ -45,6 +57,7 @@ To add a project, log on to GitHub, [edit this page](https://github.com/fsharp/f
 *  [canopy](http://lefthandedgoat.github.io/canopy/) f#rictionless web testing with Selenium
 
 *  [TickSpec](http://tickspec.codeplex.com/) A lightweight F# Behaviour Driven Development (BDD) framework
+
 
 <br />
 
