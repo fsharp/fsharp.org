@@ -4,9 +4,9 @@ title: F# Open Source and Community Projects | The F# Software Foundation
 headline: F# Open Source and Community Projects
 ---
 
-Do you want to contribute to F# commmunity projects?  The F# Software Foundation encourages
-all efforts which support our [mission](/foundation.html). Some of the community projects related
-to F# you can contribute to are  below. See also our [Data Access](/data-access), [Cloud Programming](/cloud), [Web Programming](/webstacks), [Games](/games)
+Do you want to contribute to F# commmunity projects?  We encourage
+all efforts which support our [mission](/foundation.html). Some of the community projects 
+you can contribute to are below. See also our [Data Access](/data-access), [Cloud Programming](/cloud), [Web Programming](/webstacks), [Games](/games)
 and [Cross-Platform Development](/guides/mac-linux-cross-platform/) guides.
 
 To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/use/osprojects/index.md) and submit a pull request.
