@@ -1,12 +1,16 @@
 ---
 layout: page
-title: F# Open Source Libraries and Projects | The F# Software Foundation
-headline: F# Open Source Libraries and Projects
+title: F# Open Source and Community Projects | The F# Software Foundation
+headline: F# Open Source and Community Projects
 ---
 
-The F# Software Foundation promotes community-based contributions to the F# Open Source environment. 
+The F# Software Foundation encourages both commercial and open source projects
+which help support the mission of the foundation. Some of the community projects related
+to F# are shown below. 
 
-### Foundational and Extension libraries 
+To add a project, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/use/osprojects/index.md) and submit a pull request.
+
+### Commmunity Projects: Foundational Libraries 
 
 *  [FSharpx](https://github.com/fsharp/fsharpx]) Extensions and Tools for F# Programming
 
@@ -18,7 +22,7 @@ The F# Software Foundation promotes community-based contributions to the F# Open
 
 <br />
 
-### Development Environment
+### Community Projects:  Development Tools
 
 *  [FsEye](https://code.google.com/p/fseye/) A visual object tree inspector for the F# Interactive
 
@@ -30,7 +34,7 @@ The F# Software Foundation promotes community-based contributions to the F# Open
 
 <br />
 
-### Testing
+### Community Projects: Testing Tools
 
 *  [FsUnit](https://github.com/fsharp/FsUnit) Add F# functional syntax to NUnit, MbUnit, xUnit, and MsTest
 
@@ -44,11 +48,12 @@ The F# Software Foundation promotes community-based contributions to the F# Open
 
 <br />
 
-### Parsing
+### Community Projects: Parsing Tools
 
 *  [FParsec](http://www.quanttec.com/fparsec/) A parser combinator library for F#
 
 *  [ParsecClone](https://github.com/devshorts/ParsecClone) A fparsec subset clone that works on generalized stream classes
+
 
 
 <br />
