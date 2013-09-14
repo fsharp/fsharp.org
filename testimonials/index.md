@@ -727,29 +727,6 @@ of hard copy photographs. Focusing on the individual's needs, Forensic Compariso
 intuitive and easy to use features for enhancing digital images.
 <div class="keywords">security, algorithms</div>
 
-<a id="genetec" href="#">&nbsp;</a>
----
-
-> I think it's truly amazing that we managed to make something commercially successful with 
-> such meagre resources, and that's in no small part thanks to F#.
-
-1. **Genetec**, Montreal-based IP Security Company
-2. [source 1](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690), [source 2](http://www.reddit.com/r/programming/comments/1h7xpz/announcing_a_prerelease_of_f_31_and_the_visual_f/carzuuy), [permalink](#genetec)
-
-From a [job advertisement](http://www.linkedin.com/groups/I-am-looking-Software-Developer-2347131.S.125972690) for F# programmers:  
-Software developers at Genetec use their technical aptitudes creatively 
-in order to design and program new features, while working closely with the product management teams to 
-meet customers' expectations. They work in multidisciplinary teams driven by the desire to overcome the limits of the 
-technology in order to deliver products of outstanding quality, beauty and creativity to the customers. 
-
-Our team is two full-time devs, one intern, one SDET, and that's the biggest it's ever been. 
-I think it's truly amazing that we managed to make something commercially successful with 
-such meagre resources, and that's in no small part thanks to F#.
-
-Genetec's SMC product is pure F#, and it's won [the Access Control industry's most prestigious prize](http://www.genetec.com/about-us/news/blog/smc-wins-2013-ifsec-and-firex-award).
-
-<div class="keywords">distributed computing, security</div>
-
 <a id="bohdan-szymanik-1" href="#">&nbsp;</a>
 ---
 
