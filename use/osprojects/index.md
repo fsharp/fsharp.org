@@ -1,11 +1,11 @@
 ---
 layout: page
-title: F# Open Source and Community Projects | The F# Software Foundation
-headline: F# Open Source and Community Projects
+title: F# Community Projects | The F# Software Foundation
+headline: F# Community Projects
 ---
 
 Do you want to contribute to F# commmunity projects?  We encourage
-all efforts which support our [mission](/foundation.html). Some of the community projects 
+all efforts which support our [mission](/foundation.html). Some of the open source community projects 
 you can contribute to are below. See also our [Data Access](/data-access), [Cloud Programming](/cloud), [Web Programming](/webstacks), [Games](/games)
 and [Cross-Platform Development](/guides/mac-linux-cross-platform/) guides.
 
@@ -52,7 +52,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Charting](http://numerics.mathdotnet.com/) A large collection of algorithms including linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
 
-*  See also [Data Science](/data-science)
+*  See also [Using F# for Data Science](/data-science)
 
 
 <br />
