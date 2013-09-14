@@ -24,6 +24,6 @@ Tutorials specific to visualization:
 
 ### Web Programming
 
-Web programming is now frequently used for data visualization and presentation. 
+Web programming is frequently used for data visualization and presentation. 
 See the [Web Programming](/webstacks) section for details of web programming with F#.
 
