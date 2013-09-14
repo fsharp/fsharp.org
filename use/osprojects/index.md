@@ -24,7 +24,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 <br />
 
-### Community Projects:  Development Tools
+### Community Projects: Development Tools
 
 *  [FsEye](https://code.google.com/p/fseye/) A visual object tree inspector for the F# Interactive
 
@@ -33,6 +33,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  [Fantomas](https://github.com/dungpa/fantomas) F# source code formatter
 
 *  [FAKE](https://github.com/fsharp/FAKE) F# build automation system
+
+*  [fsharpbinding](https://github.com/fsharp/fsharpbinding) F# Language Bindings for Open Editors (Emacs, MonoDevelop)
 
 
 <br />
@@ -43,6 +45,23 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  See also [Using F# for Math and Statistics](/math)
 
+
+<br />
+
+### Community Projects: Visualization Tools
+
+*  [FSharp.Charting](http://numerics.mathdotnet.com/) A large collection of algorithms including linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
+
+*  See also [Data Science](/data-science)
+
+
+<br />
+
+### Community Projects: Interoperability 
+
+*  [The R Type Provider for F#](http://github.com/BlueMountainCapital/FSharpRProvider#f-r-provider/) An F# type provider for higher-fidelity integration between F# and R.
+
+*  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) An F# type provider for higher-fidelity integration between F# and MATLAB.
 
 <br />
 
@@ -68,8 +87,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  [ParsecClone](https://github.com/devshorts/ParsecClone) A fparsec subset clone that works on generalized stream classes
 
 
-
 <br />
+
 
 
 
