@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Science | The F# Software Foundation
-headline: Data Science with F#
+headline: Using F# for Data Science
 ---
 
 Data science brings techinques such as statistical analysis, machine learning, data visualization and programming to 
@@ -12,13 +12,13 @@ with powerful libraries and scalable data integration. [Try F#](http://tryfsharp
 
 ### Base Technologies
 
-* *Math and Statistics Packages*  - See the [Maths and Statistics](/math) section.
-* *Data Access* - Data access is at the core of data science programmability. See the [Data Access](/data-access) section.
-* *Data Charting and Visualization* - See the [Data Visualization](/data-visualization) section.
+* [Maths and Statistics](/math) packages.
+* [Data Access](/data-access) packages.
+* [Data Charting and Visualization](/data-visualization) packages.
 
 ### Machine Learning
 
-You may need to apply machine learning techniques to your data sets. See the [Machine Learning](/machine-learning) section.
+To apply machine learning techniques to your data sets, see the [Machine Learning](/machine-learning) section.
 
 ### R, MATLAB, Mathematica and Python Integration
 
