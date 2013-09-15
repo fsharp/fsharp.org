@@ -909,8 +909,9 @@ pipeline that reconstructs and annotated yeast strains, to simulators for variou
 and design tools for building DNA sequences/constructs.  There are lab located apps that 
 grab robot log files and move them to databases and a tool for viewing a huge collection of DNA sequencing data.
 
-F# has been phenomenally useful.  I would be writing a lot of this in Python otherwise and F# is more 
-robust, 20x - 100x faster to run and for anything but the most trivial programs, faster to develop.  
+F# has been phenomenally useful.  I would be writing a lot of this in Python otherwise and F# is more
+robust, 20x - 100x faster to run and for anything but the most trivial programs, faster to develop.
+
 The UI work is especially gratifying, because state of the art for a lot of genomic data display 
 is still PNG images embedded in JavaScript and with F# I can render half a million data points on 
 a web page without jumping through hoops.
