@@ -944,6 +944,8 @@ opportunities to work with professional software development enterprises whose t
 developers with F# expertise, because I believe that many attributes of the F# programming 
 language make it an ideal choice for the development of software solutions that integrate 
 Electronic Health Record (EHR) data and the exponentially growing volumes of molecular analysis 
-data that can now be obtained from individual patients (e.g., personal genome DNA sequencing data).  
+data that can now be obtained from individual patients (e.g., personal genome DNA sequencing data).
+
 There's an exciting future for F# in this huge, emerging, data-rich health care market.
+
 <div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
