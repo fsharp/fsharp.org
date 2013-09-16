@@ -30,7 +30,7 @@ go further.
 
 2. Build and install the F# Compiler (open edition) from source.
 
-        sudo apt-get install autoconf pkg-config make git
+        sudo apt-get install autoconf libtool pkg-config make git
         git clone https://github.com/fsharp/fsharp
         cd fsharp
         ./autogen.sh --prefix /usr
