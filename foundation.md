@@ -146,6 +146,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Gareth Stoyle
  * Andre Pemmelaar [@QuantixResearch](http://twitter.com/QuantixResearch)
  * Jomo Fisher
+ * [Onorio Catenacci](http://onor.io) [@OldDutchCap](http://twitter.com/OldDutchCap)
 
 ## Contact
 
