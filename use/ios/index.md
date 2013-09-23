@@ -17,7 +17,7 @@ headline: Use F# for iOS App Development
  FSharpCode.dll is "blessed" and does not count on the 64KB limit for the Starter edition.)
 4. Compile the F# Language Binding from source.
 
-Check out https://github.com/fsharp/monodevelop.git to $fsbind, then:
+Check out https://github.com/fsharp/fsharpbinding.git to $fsbind, then:
 
     cd $fsbind/monodevelop
     sh configure.sh
