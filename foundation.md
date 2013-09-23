@@ -147,6 +147,8 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Andre Pemmelaar [@QuantixResearch](http://twitter.com/QuantixResearch)
  * Jomo Fisher
  * [Onorio Catenacci](http://onor.io) [@OldDutchCap](http://twitter.com/OldDutchCap)
+ * [Julian.Mackintosh], Barclays Capital
+ * [Pavel Motuzenko], Barclays Capital
 
 ## Contact
 
