@@ -15,15 +15,13 @@ headline: Use F# for iOS App Development
 3. Use version Xamarin iOS 6.3.7 or later.
  (In [6.3.7](http://docs.xamarin.com/releases/ios/xamarin.ios_6/xamarin.ios_6.3),
  FSharpCode.dll is "blessed" and does not count on the 64KB limit for the Starter edition.)
-4. Compile the F# Language Binding from source.  
+4. Compile the F# Language Binding from source.
 
-Check out https://github.com/fsharp/fsfoundation.git to $fsbind, then:
+Check out https://github.com/fsharp/monodevelop.git to $fsbind, then:
 
-```shell
-cd $fsbind/monodevelop
-sh configure.sh
-make
-```
+    cd $fsbind/monodevelop
+    sh configure.sh
+    make
 
 That produces ```$fsbind/pack/3.2.16/local/Debug/MonoDevelop.FSharpBinding_3.2.15.mpack```.  Open Xamarin Studio, and from
 Tools --> Addin Manager push the _Install from file_ button.  Install ```$fsbind/pack/3.2.16/local/Debug/MonoDevelop.FSharpBinding_3.2.15.mpack```. 
@@ -50,7 +48,7 @@ Objective-C as well.  The [Xamarin Developer Center](http://docs.xamarin.com/) c
 
 Sample iOS games and apps are available from [Neil Danson's repository](https://bitbucket.org/thedo666/):
 
-* [IMBD](https://bitbucket.org/thedo666/imdb) -  A micro iOS app for movie databse search
+* [IMBD](https://bitbucket.org/thedo666/imdb) -  A micro iOS app for movie database search
 * [Pacman](https://bitbucket.org/thedo666/pacman) -  An iOS version of the classic game 
 * [Raytracer](https://bitbucket.org/thedo666/raytracer) - An iOS version of F# image generation code
 * [Pissed Off Owls](https://bitbucket.org/thedo666/pissed-off-owls) - An iOS micro game using MonoGame and the Farseer game engine
