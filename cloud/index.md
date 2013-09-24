@@ -30,14 +30,16 @@ Windows Azure provides access to  Microsoft's worldwide datacenters through serv
 virtual machines, geo-redundant storage, database clusters and website deployment.  [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
 detail on the structure of Azure applications.
 
-The [Fog library](http://dmohl.github.io/Fog/) gives a simple and pleasant set of wrappers for accessing
-basic Azure API services such as blob, table, queue, Service Bus and caching in one simple, 
-uniform set of functions.
+ * [Fog](http://dmohl.github.io/Fog/) - A simple and pleasant set of wrappers for accessing
+   basic Azure API services such as blob, table, queue, Service Bus and caching in one simple, 
+   uniform set of functions.
 
-There is also F# material based of the Windows Azure Training Kit for developers, focusing on web and data programming:
- * [Part 1: Building and Publishing Windows Azure Web Sites using F#](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt1)
- * [Part 2 - WATK in F#, Part 2: Deploying an Azure Web Site with Git](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt2)
- * [Part 3 - WATK in F#, Part 3: Using Entity Framework with an Azure Database](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt3)
+ * F# material based on the Windows Azure Training Kit for developers, focusing on web and data programming:
+   * [Part 1: Building and Publishing Windows Azure Web Sites using F#](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt1)
+   * [Part 2 - WATK in F#, Part 2: Deploying an Azure Web Site with Git](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt2)
+   * [Part 3 - WATK in F#, Part 3: Using Entity Framework with an Azure Database](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt3)
+
+ * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Cloud-Mobile-Solutions-ebook/dp/B00AANFL60) - Book including details on Azure programming with F#
 
 Below are resources on using Windows Azure from F# and .NET in general:
  * [Introduction to Windows Azure](http://www.windowsazure.com/en-us/develop/net/fundamentals/intro-to-windows-azure/)
