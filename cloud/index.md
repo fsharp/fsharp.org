@@ -30,7 +30,11 @@ Windows Azure provides access to  Microsoft's worldwide datacenters through serv
 virtual machines, geo-redundant storage, database clusters and website deployment.  [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
 detail on the structure of Azure applications.
 
-The following is F# material based of the Windows Azure Training Kit for developers, focusing on web and data programming:
+The [Fog library](http://dmohl.github.io/Fog/) gives a simple and pleasant set of wrappers for accessing
+basic Azure API services such as blob, table, queue, Service Bus and caching in one simple, 
+uniform set of functions.
+
+There is also F# material based of the Windows Azure Training Kit for developers, focusing on web and data programming:
  * [Part 1: Building and Publishing Windows Azure Web Sites using F#](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt1)
  * [Part 2 - WATK in F#, Part 2: Deploying an Azure Web Site with Git](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt2)
  * [Part 3 - WATK in F#, Part 3: Using Entity Framework with an Azure Database](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt3)
@@ -76,10 +80,13 @@ Some further resources for specific systems are:
 [MongoDB](http://www.mongodb.org/):
 
  * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center) - MongoDB bindings for .NET
+ * [Enhancing the F# developer experience with MongoDB](http://blog.mongodb.org/post/59584347005/enhancing-the-f-developer-experience-with-mongodb) - Extra options for the F# developer using MongoDB
 
 [Neo4j](http://www.neo4j.org/):
 
  * [Neo4jClient](http://hg.readify.net/neo4jclient/wiki/Home) - Neo4j bindings for .NET
+ * [Using Neo4j Graph DB With F#](http://sergeytihon.wordpress.com/2013/03/27/using-neo4j-graph-db-with-f/) - Introduction to using Neo4j with F#
+
 
 ## Distributed Communications
 
