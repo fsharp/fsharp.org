@@ -14,13 +14,13 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Foundational Libraries 
 
-*  [FSharpx](https://github.com/fsharp/fsharpx]) Extensions and Tools for F# Programming
+*  [FSharp.Data](https://github.com/fsharp/FSharp.Data) A library of F# type providers and data access tools
 
 *  [ExtCore](https://github.com/jack-pappas/ExtCore) Core library extensions for F#
 
 *  [FSharp.Enterprise](https://github.com/colinbull/FSharp.Enterprise) A collection of helpers for enterprise development with F#
 
-*  [FSharp.Data](https://github.com/fsharp/FSharp.Data) A library of F# type providers and data access tools
+*  [FSharpx](https://github.com/fsharp/fsharpx]) Extensions and Tools for F# Programming
 
 <br />
 
@@ -48,9 +48,16 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 <br />
 
+### Community Projects: User Interfaces
+
+* [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/)
+
+A community framework to take advantage of the F# language features to create truly type-safe WPF applications.
+
+
 ### Community Projects: Visualization Tools
 
-*  [FSharp.Charting](http://numerics.mathdotnet.com/) A large collection of algorithms including linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
+* [FSharp.Charting](http://numerics.mathdotnet.com/) A large collection of algorithms including linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
 
 *  See also [Using F# for Data Science](/data-science)
 
