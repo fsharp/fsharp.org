@@ -12,11 +12,7 @@ headline: F# Mac, Linux and Cross-Platform Development Guide
 * [Getting Started with F# for iOS Programming](/use/ios)
 * [Getting Started with F# for Android Programming](/use/android)
 
-
-<div class="hero-unit visible-desktop contributeGuide" id="how-to-contribute-to-guide"> 
-  <h3>Contribute</h3>
-    <p> To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/mac-linux-cross-platform/index.md">edit this page</a> and send the pull request.</p>
-</div>
+To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/mac-linux-cross-platform/index.md) and send the pull request.
 
 -------
 
