@@ -81,7 +81,7 @@ The compiler tools are installed at
     
 <br />
 
-### Option 5: Build HTML5 web apps or WinJS Windows Store apps using F# 
+### Option 5: Build HTML5 web apps or WinJS Windows Store apps using F#
 
 * [Using F# for HTML5 Web Applications](/use/html5)
 
