@@ -15,14 +15,12 @@ with powerful libraries and scalable data integration. [Try F#](http://tryfsharp
 * [Maths and Statistics](/math) packages.
 * [Data Access](/data-access) packages.
 * [Data Charting and Visualization](/data-visualization) packages.
-
-### Machine Learning
-
-To apply machine learning techniques to your data sets, see the [Machine Learning](/machine-learning) section.
+* [Machine Learning](/machine-learning) tutorials.
+* [Cloud Programming](/cloud) for cloud-scalable data, compute and messaging frameworks and clients for F#. 
 
 ### R, MATLAB, Mathematica and Python Integration
 
-F# can integrate with systems such as R, MATLAB, Mathematica and Python. Some specific resources are:
+F# can integrate with data-science systems such as R, MATLAB, Mathematica and Python. Some specific resources are:
 
  * [R Type Provider for F#](https://github.com/BlueMountainCapital/FSharpRProvider) - An F# type provider for higher-fidelity integration between F# and R
  * [MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider for higher-fidelity integration between F# and MATLAB
@@ -33,11 +31,4 @@ F# can integrate with systems such as R, MATLAB, Mathematica and Python. Some sp
 Many other resources are available for integrating F#, C# and .NET with these systems. If a resource specific
 to F# can't be found, then search for C# instead and adjust the technique appropriately.
 
-### Big Data and Big Compute
 
-See the [Cloud Programming](/cloud) section for details 
-of scalable data, compute and messaging frameworks and clients for F#. You may need these if working with very large data.
-
-### Other links
-
- * [F# Data Mining](http://fdatamining.blogspot.com/2010/05/why-f-is-language-for-data-mining.html)
