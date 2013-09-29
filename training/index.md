@@ -36,14 +36,14 @@ F# developers from novice to advanced level.
 <img src="/img/sup/ffconsultancy.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 Flying Frog consultancy can be contacted for training in F# including its application in scientific programming, 
-technical computing, actuarial and tradining domains.
+technical computing, actuarial and trading domains.
 
 ### [StatFactory](http://www.statfactory.co.uk/)
 
 <img src="/img/sup/statfactory.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 [StatFactory](http://www.statfactory.co.uk/) offer products, services and training related to F#, its use
-in quantiative finance and integrating F# with Excel.
+in quantiative finance and how to integrate F# with Excel.
 
 ### [JBI Training](http://www.jbinternational.co.uk/course/307/f-net-training-course-class-london-uk)
 
@@ -53,7 +53,7 @@ next scheduled training course was [Functional Programming with F# .NET](http://
 
 ### [PluralSight's Introduction to F#](http://pluralsight.com/training/Courses/TableOfContents/fsintro)
 
-Authored by Oliver Sturm, this course introduces you to the F# programming language. It will walk you through all of 
+Authored by Oliver Sturm, this online course introduces you to the F# programming language. It will walk you through all of 
 the core details of working with F#, covering not just language fundamentals, but also showing practical 
 scenarios of where it is best used creating .NET applications. 
 
