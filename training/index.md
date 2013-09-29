@@ -51,18 +51,18 @@ JBI International offer F# training courses, including onsite options. At the ti
 next scheduled training course was [Functional Programming with F# .NET](http://www.jbinternational.co.uk/course/307/f-net-training-course-class-london-uk).
 
 
-### PluralSight's [Introduction to F#](http://pluralsight.com/training/Courses/TableOfContents/fsintro)
+### [PluralSight's Introduction to F#](http://pluralsight.com/training/Courses/TableOfContents/fsintro)
 
 Authored by Oliver Sturm, this course introduces you to the F# programming language. It will walk you through all of 
 the core details of working with F#, covering not just language fundamentals, but also showing practical 
 scenarios of where it is best used creating .NET applications. 
 
-### Webucator's [Essential F# Onsite Training](http://www.webucator.com/microsoft/course/essential-fsharp-programming.cfm)
+### [Webucator's Essential F# Onsite Training](http://www.webucator.com/microsoft/course/essential-fsharp-programming.cfm)
 
 This onsite training course is designed for experienced programmers that need to start developing F# applications.
 Contact Webucator to schedule an onsite course at your company.
 
-### DevelopMentor's [F# Programming for C# Developers Training](http://www.develop.com/training-course/fsharp-for-csharp-developers-training)
+### [DevelopMentor's F# Programming for C# Developers Training](http://www.develop.com/training-course/fsharp-for-csharp-developers-training)
 
 This onsite training course let's you learn how to use the F# language for functional as
 well as object oriented programming of .NET applications. 
