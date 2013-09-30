@@ -73,6 +73,9 @@ A community framework to take advantage of the F# language features to create tr
 
 *  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) An F# type provider for higher-fidelity integration between F# and MATLAB.
 
+*  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) GPGPU programming with F#. F# quotation to OpenCL translator.
+
+
 <br />
 
 ### Community Projects: Testing Tools
@@ -95,6 +98,8 @@ A community framework to take advantage of the F# language features to create tr
 *  [FParsec](http://www.quanttec.com/fparsec/) A parser combinator library for F#
 
 *  [ParsecClone](https://github.com/devshorts/ParsecClone) A fparsec subset clone that works on generalized stream classes
+
+*  [YaccConstructor](https://recursive-ascent.googlecode.com) Platform for grammarware research and development
 
 
 <br />
