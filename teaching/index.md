@@ -110,7 +110,7 @@ type inference. Each chapter has exercises based on such examples.
 
 ## Lectures and course material
 
-* #### [Introduction to functional programming](http://tomasp.net/mff/fsharp09en.aspx)
+* #### [Introduction to functional programming](http://tomasp.net/materials/mff-fsharp-09/)
   Tomas Petricek, Charles University, Czech Republic
 
   The course explains basic functional concepts such as function composition, functional data 
