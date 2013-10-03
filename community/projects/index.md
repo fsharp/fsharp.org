@@ -75,6 +75,11 @@ A community framework to take advantage of the F# language features to create tr
 
 *  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) GPGPU programming with F#. F# quotation to OpenCL translator.
 
+<br />
+
+### Community Projects: Distribution Tools
+
+*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) A fast, general-purpose binary serializer for .NET written in F# that doubles as a pickler combinator library.
 
 <br />
 
