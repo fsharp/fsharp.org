@@ -149,7 +149,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Onorio Catenacci](http://onor.io) [@OldDutchCap](http://twitter.com/OldDutchCap)
  * [Julian.Mackintosh], Barclays Capital
  * [Pavel Motuzenko], Barclays Capital
- * [Aggelos Biboudis](www.di.uoa.gr/~biboudis), University of Athens, [@biboudis](http://twitter.com/biboudis)
+ * [Aggelos Biboudis](http://www.di.uoa.gr/~biboudis), University of Athens, [@biboudis](http://twitter.com/biboudis)
 
 ## Contact
 
