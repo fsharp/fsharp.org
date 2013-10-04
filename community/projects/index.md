@@ -110,5 +110,8 @@ A community framework to take advantage of the F# language features to create tr
 <br />
 
 
+### Community Projects: Search Tools
 
+*  [FlexSearch](http://www.flexsearch.net/) Flexible and fast open source F# based Search Engine
 
+<br />
