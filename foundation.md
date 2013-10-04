@@ -57,7 +57,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
 
 ### Founding members
 
- * [Phil Trelford](http://trelford.com/blog/), Developer and Architect at [Trayport](http://www.trayport.com), London
+ * [Phil Trelford](http://trelford.com/blog/), Developer and Architect at [Trayport](http://www.trayport.com), London ([@ptrelford](https://twitter.com/ptrelford))
  * [Tomas Petricek](http://tomasp.net) ([tomas@tomasp.net](mailto:tomas@tomasp.net)), PhD student at the University of Cambridge
  * Richard Minerich
  * [Cameron Taggart](http://blog.ctaggart.com/)
@@ -149,7 +149,9 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Onorio Catenacci](http://onor.io) [@OldDutchCap](http://twitter.com/OldDutchCap)
  * [Julian.Mackintosh], Barclays Capital
  * [Pavel Motuzenko], Barclays Capital
- * [Aggelos Biboudis](http://www.di.uoa.gr/~biboudis), University of Athens, [@biboudis](http://twitter.com/biboudis)
+ * [Aggelos Biboudis](http://www.di.uoa.gr/~biboudis), University of Athens [@biboudis](http://twitter.com/biboudis)
+ * Eirik Tsarpalis, [M-Brace](http://www.m-brace.net/) [@eiriktsarpali](http://twitter.com/eiriktsarpali)
+ * Nick Palladinos [@NickPalladinos](https://twitter.com/NickPalladinos)
 
 ## Contact
 
