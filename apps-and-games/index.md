@@ -10,11 +10,11 @@ F# executes on a broad range of app and gaming platforms such as  [Android](/use
 [F# on Mac](/use/mac/), [JavaScript/HTML5](/webstacks) and [Windows](/use/windows/). See those 
 sections for details about getting started with F# on those platforms.
 
-### App Development Stacks
+### Mobile App Development 
 
 These higher-level app development stacks are support F#:
 
-* [Xamarin Mobile for Android and iOS](http://docs.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_development) - Use F# to develop for iOS, Android, Mac and Windows 8 development
+* [Xamarin Mobile](http://docs.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_development) - Use F# to develop for iOS, Android, Mac and Windows 8 development
 * [Xamarin Mac](http://docs.xamarin.com/guides/mac/getting_started/hello,_mac) - Use F# to develop applications for Mac OSX 
 * [WebSharper](http://websharper.com) - Can be used for cross-tier client/server HTML5 development and more
 * [Windows Store](http://msdn.microsoft.com/en-us/library/vstudio/hh913781.aspx) - You can use F# Portable libraries as components in Windows 8 and Windows 8 Phone applications
