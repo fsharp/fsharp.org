@@ -53,9 +53,9 @@ the largest Facebook social games, as described in [this interview](http://www.d
 See the [Web Programming](/webstacks) and [Cloud](/cloud) section for details of using F# with server-side technologies. 
 
 
-### [Microsoft XNA](http://msdn.microsoft.com/en-us/aa937791.aspx) 
+### Microsoft XNA
 
-Microsoft XNA is a set of tools with a managed runtime environment that 
+[Microsoft XNA](http://msdn.microsoft.com/en-us/aa937791.aspx) is a set of tools with a managed runtime environment that 
 facilitates video game development and management.
 
 * [F# With XNA Game Studio](http://azerdark.wordpress.com/2011/04/05/f-with-xna-game-studio/)
