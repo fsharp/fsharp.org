@@ -75,6 +75,8 @@ A community framework to take advantage of the F# language features to create tr
 
 *  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) GPGPU programming with F#. F# quotation to OpenCL translator.
 
+*  [f0](https://bitbucket.org/pchiusano/f0) A binary [de]serialization combinator library, with binary-format phantom types and a compatible Scala partner implementation.
+
 <br />
 
 ### Community Projects: Distribution Tools
