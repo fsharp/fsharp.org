@@ -39,27 +39,6 @@ or you can add as many details as you want. Keywords will be used later on to fi
 the content (so please add some, even though they are not used at the moment).
 
 -->
-<a id="lemball-1" href="#">&nbsp;</a>
----
-
-> The results speak for themselves.
-
-1. **Matt Ball**
-2. Liz Earle Beauty Co. Ltd
-3. [source](http://saxonmatt.co.uk/2013/04/adopting-fsharp-part-ii.html), [permalink](#lemball-1)
-
-As a business we actively seek improvement every single day. This is the same for our IT systems, 
-so we have been searching for a means to do that in our in-house software systems.
- 
-The F# type system has allowed us to do this - by eliminating null references, increasing type 
-safety and creating rich domain models that help us express hard-and-fast business rules in a 
-way that we can really lean on the compiler; while actually reducing our total lines of code 
-(and noise!). Doing so has reduced both our requirement for expensive bug hunts in our 
-production systems, and the overall cost of maintaining unnecessary code complexity.
- 
-We have been evaluating F# for a year now, and have components in our production systems that 
-have been bug-free since deployment. The results speak for themselves.
-<div class="keywords">retail, e-commerce, ETL, web services, soa, correctness</div>
 
 <a id="simon-cousins-1" href="#">&nbsp;</a>
 ---
@@ -254,6 +233,28 @@ Indeed our agent-based stateful server for our [MMORPG](https://apps.facebook.co
 has proved a big success and great cost saver that we're in the process of rolling it out across
 all of our social games!
 <div class="keywords">gaming, agents, cloud, big data, scalability</div>
+
+<a id="lemball-1" href="#">&nbsp;</a>
+---
+
+> The results speak for themselves.
+
+1. **Matt Ball**
+2. Liz Earle Beauty Co. Ltd
+3. [source](http://saxonmatt.co.uk/2013/04/adopting-fsharp-part-ii.html), [permalink](#lemball-1)
+
+As a business we actively seek improvement every single day. This is the same for our IT systems, 
+so we have been searching for a means to do that in our in-house software systems.
+ 
+The F# type system has allowed us to do this - by eliminating null references, increasing type 
+safety and creating rich domain models that help us express hard-and-fast business rules in a 
+way that we can really lean on the compiler; while actually reducing our total lines of code 
+(and noise!). Doing so has reduced both our requirement for expensive bug hunts in our 
+production systems, and the overall cost of maintaining unnecessary code complexity.
+ 
+We have been evaluating F# for a year now, and have components in our production systems that 
+have been bug-free since deployment. The results speak for themselves.
+<div class="keywords">retail, e-commerce, ETL, web services, soa, correctness</div>
 
 <a id="emea" href="#">&nbsp;</a>
 ---
