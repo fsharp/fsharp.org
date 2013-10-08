@@ -973,7 +973,7 @@ There's an exciting future for F# in this huge, emerging, data-rich health care 
 
 <div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
 
-### Case Studies
+### Additional Case Studies
 
 The following written or recorded case studies describe the benefits of F# for a range of enterprise scenarios:
 
