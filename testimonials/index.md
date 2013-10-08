@@ -972,3 +972,15 @@ data that can now be obtained from individual patients (e.g., personal genome DN
 There's an exciting future for F# in this huge, emerging, data-rich health care market.
 
 <div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
+
+### Case Studies
+
+The following written or recorded case studies describe the benefits of F# for a range of enterprise scenarios:
+
+ * [Banking Firm Speeds Development by 50 Percent](http://www.microsoft.com/casestudies/Case_Study_Detail.aspx?casestudyid=4000006794)
+ * [F# for Energy Trading and Energy Portfolio Optimization](http://blogs.msdn.com/b/dsyme/archive/2011/01/12/f-for-energy-trading-and-energy-portfolio-optimization.aspx)
+ * [F# Business Intelligence Case Study - XBox Live Trueskill](http://dl.acm.org/citation.cfm?id=1362702.1362709&coll=ACM&dl=ACM&type=series&idx=SERIES824%25E2%2588%2582=series&WantType=Proceedings&title=ICFP)
+ * [Insurance Company Improves Time-to-Market with Enhanced Rating Engine](http://www.microsoft.com/casestudies/Case_Study_Detail.aspx?CaseStudyID=4000005226)
+ * [F# for Facebook Social Gaming](http://www.dotnetrocks.com/default.aspx?ShowNum=846)
+
+
