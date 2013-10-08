@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Games and Apps | The F# Software Foundation
-headline: Game and App Programming with F#
+title: Apps and Games | The F# Software Foundation
+headline: App and Game Programming with F#
 ---
 
 ### Platforms
@@ -44,6 +44,7 @@ Some resources for game development with F# and Xamarin tools:
 * [F# and Monogame Part 2 – Android](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-2-android/)
 * [F# and Monogame Part 3 – iOS](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-3-ios/)
 * [Adding Touch to SpriteKit](http://7sharpnine.com/posts/adding-touch-to-spritekit/)
+* [A Platform game in SpriteKit and F# – Part 1 – Game State Management](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-1-game-state-management/)
 
 ### Server-side of Games
 
