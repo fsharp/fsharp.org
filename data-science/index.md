@@ -17,7 +17,10 @@ with powerful libraries and scalable data integration. [Try F#](http://tryfsharp
 * [Data Charting and Visualization](/data-visualization) packages.
 * [Machine Learning](/machine-learning) tutorials.
 * [Cloud Programming](/cloud) for cloud-scalable data, compute and messaging frameworks and clients for F#. 
+* [R, MATLAB, Mathematica and Python Integration](#r-matlab-mathematica-python)
+* [Excel Integration](#excel)
 
+<a id="r-matlab-mathematica-python" href="#">&nbsp;</a>
 ### R, MATLAB, Mathematica and Python Integration
 
 F# can integrate with data-science systems such as R, MATLAB, Mathematica and Python. Some specific resources are:
@@ -31,4 +34,36 @@ F# can integrate with data-science systems such as R, MATLAB, Mathematica and Py
 Many other resources are available for integrating F#, C# and .NET with these systems. If a resource specific
 to F# can't be found, then search for C# instead and adjust the technique appropriately.
 
+
+<a id="excel" href="#">&nbsp;</a>
+### Excel Integration
+
+F# can be used in conjunction with Microsoft Excel.
+
+*Tsunami and FCell*
+
+[Tsunami](http://tsunami.io/) with [FCell](http://www.statfactory.co.uk/fcell-add-in/) enables you to
+dynamically extend Excel with new functions, behaviours, and data to create robust workflows and charts.
+
+Some resource are:
+* [Tsunami home pages](http://tsunami.io/)
+* [Tsunami videos](http://tsunami.io/media.html) - videos of using Tsunami for Excel charting, Excel UDFs, GPGPU programming in Excel and more
+
+*Excel DNA*
+
+[Excel-DNA](http://excel-dna.net/) is an independent project to integrate .NET into Excel. With Excel-DNA you can make native (.xll) add-ins for Excel using C#, Visual Basic.NET or F#, providing high-performance user-defined functions (UDFs), custom ribbon interfaces 
+and more. Your entire add-in can be packed into a single .xll file requiring no installation or registration.
+
+Some specific resources are:
+
+ * [Excel-DNA home pages](http://excel-dna.net/)
+ * [Combining F# and Excel using Excel DNA](http://blogs.msdn.com/b/fsharpteam/archive/2013/07/16/combining-f-and-excel-using-excel-dna-some-links.aspx)
+ * [Async and event-streaming Excel UDFs with F#](http://excel-dna.net/2013/03/26/async-and-event-streaming-excel-udfs-with-f/)
+
+F# can also use Excel as a charting engine. Some specific resources are:
+ * [Plot functions from F# to Excel](http://www.clear-lines.com/blog/post/Plot-functions-from-FSharp-to-Excel.aspx)
+ * [Charting with Excel from F#](http://bit.ly/GGv8z4)
+
+F# versions of Excel functionality can be useful in many situations. Some specific resource are:
+ * [Excel Financial functions for .NET](http://archive.msdn.microsoft.com/FinancialFunctions)
 
