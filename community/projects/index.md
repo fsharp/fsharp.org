@@ -21,8 +21,6 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Enterprise](https://github.com/colinbull/FSharp.Enterprise) A collection of helpers for enterprise development with F#
 
-*  [FSharp.DataFrame](https://github.com/BlueMountainCapital/FSharp.DataFrame)  Easy to use F# library for data and time series manipulation and for scientific programming
-
 *  [FSharpx](https://github.com/fsharp/fsharpx]) Extensions and Tools for F# Programming
 
 <br />
