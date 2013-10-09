@@ -39,6 +39,9 @@ detail on the structure of Azure applications.
    * [Part 1: Building and Publishing Windows Azure Web Sites using F#](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt1)
    * [Part 2 - WATK in F#, Part 2: Deploying an Azure Web Site with Git](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt2)
    * [Part 3 - WATK in F#, Part 3: Using Entity Framework with an Azure Database](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt3)
+   * [Part 4 - WATK in F#, Part 4: Introduction to Cloud Services](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-CS-Pt01)
+   * [Part 5 - WATK in F#, Part 5: Background Processing with Worker Roles and Queues](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-CS-Pt02)
+   * [Part 6 - WATK in F#, Part 6: Debugging Applications in Windows Azure](http://sireel-world.azurewebsites.net/sir-eel-visions/watk-in-f-part-6-debugging-applications-in-windows-azure)
 
  * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Cloud-Mobile-Solutions-ebook/dp/B00AANFL60) - Book including details on Azure programming with F#
 
