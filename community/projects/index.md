@@ -21,7 +21,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Enterprise](https://github.com/colinbull/FSharp.Enterprise) A collection of helpers for enterprise development with F#
 
-*  [FSharpx](https://github.com/fsharp/fsharpx]) Extensions and Tools for F# Programming
+*  [FSharpx](https://github.com/fsharp/fsharpx) Extensions and Tools for F# Programming
 
 <br />
 
