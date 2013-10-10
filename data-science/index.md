@@ -70,14 +70,16 @@ There are also some F# versions of Excel functions, useful when migrating code:
 ### R Integration 
 
 Resources:
+
  * [R Type Provider for F#](https://github.com/BlueMountainCapital/FSharpRProvider) - An F# type provider for higher-fidelity integration between F# and R
  * [R.NET](http://rdotnet.codeplex.com) - Core interoperability component used by the R Type Provider.
- * [RDotNet.FSharp](An F#-specific package that is part of R.NET) - There's also an alpha-release graphics engine package, RDotNet.Graphics.
+ * [RDotNet.FSharp](https://www.nuget.org/packages/RDotNet.FSharp) - There's also an alpha-release graphics engine package, RDotNet.Graphics.
 
 <a id="matlab-interop" href="#">&nbsp;</a>
 ### MATLAB Integration
 
 Resources:
+
  * [MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider for higher-fidelity integration between F# and MATLAB
  * [Integrating MATLAB with F# and C#](http://www.mathworks.com/matlabcentral/fileexchange/12987) - techniques to call MATLAB from C#, F# and other .NET languages
 
@@ -85,6 +87,7 @@ Resources:
 ### Python Integration
 
 Resources:
+
  * [Python for .NET](http://pythonnet.sourceforge.net/readme.html) - Allows Python to be integrated into F# and C# programs
 
 <a id="mathematica-interop" href="#">&nbsp;</a>
@@ -92,4 +95,4 @@ Resources:
 
 Resources:
  * [Calling Mathematica from F#](http://reference.wolfram.com/mathematica/NETLink/tutorial/CallingMathematicaFromNET.html) - techniques to call Mathematica from C#, F# and other .NET languages
- 
+
