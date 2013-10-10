@@ -53,6 +53,7 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  * [Excel-DNA home pages](http://excel-dna.net/)
  * [Combining F# and Excel using Excel DNA](http://blogs.msdn.com/b/fsharpteam/archive/2013/07/16/combining-f-and-excel-using-excel-dna-some-links.aspx)
  * [Async and event-streaming Excel UDFs with F#](http://excel-dna.net/2013/03/26/async-and-event-streaming-excel-udfs-with-f/)
+ * [Machine Learning with Excel: Combine the power of Excel, F# and R](http://luajalla.azurewebsites.net/excel-dna-three-stories/)
 
 ##### Interoperating with Excel 
 
