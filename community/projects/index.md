@@ -8,7 +8,8 @@ Do you want to contribute to F# commmunity projects?  We encourage
 all efforts which support our [mission](/foundation.html). Some of the open community projects 
 you can contribute to are below. 
 
-These projects may be at an early stage, and are not necessarily appropriate for production use.
+These projects may be at an early stage, and are not necessarily appropriate for production 
+use. Out of small beginnings, great things come! 
 
 To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/use/osprojects/index.md) and submit a pull request.
 
@@ -54,16 +55,22 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 * [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/) - A community 
   framework to take advantage of the F# language features to create truly type-safe WPF applications.
 
-### GPGPU Execution
+<br />
+
+### Community Projects: GPGPU Execution
 
 *  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL 
    translator. 
 
-### Web Tools
+<br />
+
+### Community Projects: Web Tools
 
 * [WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform 
   including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open 
   source and on bitbucket.org. Contributors welcome!
+
+<br />
 
 ### Community Projects: Visualization Tools
 
