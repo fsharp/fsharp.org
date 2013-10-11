@@ -98,7 +98,7 @@ no single point of failure.
 
 #### MongoDB
 
-[MongoDB](http://www.mongodb.org/) is across-platform document-oriented NoSQL database system.
+[MongoDB](http://www.mongodb.org/) is a cross-platform document-oriented NoSQL database system.
 
  * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center) - MongoDB bindings for .NET
  * [Enhancing the F# developer experience with MongoDB](http://blog.mongodb.org/post/59584347005/enhancing-the-f-developer-experience-with-mongodb) - Extra options for the F# developer using MongoDB
