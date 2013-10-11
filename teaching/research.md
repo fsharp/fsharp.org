@@ -33,6 +33,8 @@ research projects  build on top of F#. They fall into the following areas:
  * **[Web programming](#web_programming)** - publications related to web programming with F#.
   
  * **[Applications](#applications)** - publications and academic presentations describing applications of F#.
+
+ * **[Security and Verification Research](#security_and_verification_research)** - variations of F# and their use in security and verification research.
   
 --------------
 
