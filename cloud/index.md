@@ -61,35 +61,52 @@ Below are resources on using Windows Azure from F# and .NET in general:
 F# can be used with many scalable data-storage systems. Some are accessible via the Cloud SDKs outlined above.
 Some further resources for specific systems are:
 
-[Hadoop](http://hadoop.apache.org/):
+#### Hadoop
+
+[Hadoop](http://hadoop.apache.org/) supports data-intensive distributed applications running on large 
+clusters of commodity hardware. Hadoop derives from Google's MapReduce and Google File System papers.
 
  * [Hadoop Streaming and F# MapReduce](http://blogs.msdn.com/b/carlnol/archive/2011/12/16/hadoop-streaming-and-f-mapreduce.aspx)
  * [hadoop-sharp](http://code.google.com/p/hadoop-sharp/) - CLR (.NET/Mono) interface for Hadoop 
- * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources, and some F# samples
+ * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources
+
+#### Riak
 
 [Riak](http://en.wikipedia.org/wiki/Riak) is a NoSQL database implementing the principles from Amazon's Dynamo paper:
+
  * [Exploring Riak with F#](http://jyliao.blogspot.co.uk/2013/04/exploring-riak-with-f.html) Explores the use of Riak from F# (Part I)
  * [Exploring Riak with F# and CorrugatedIron](http://jyliao.blogspot.co.uk/2013/04/exploring-riak-with-f-and-corrugatediron.html) Explores the use of Riak from F# (Part II)
  * [Using Riak MapReduce with F#](http://jyliao.blogspot.com/2013/06/riak-mapreduce-with-f.html) Explores the use Riak from F# (Part III)
+ * [Riak CAP Tuning and F#](http://jyliao.blogspot.co.uk/2013/06/riak-cap-tuning-and-f.html)
 
-[Cassandra](http://cassandra.apache.org/):
+#### Cassandra
+
+[Cassandra](http://cassandra.apache.org/) is a distributed database management system designed 
+to handle large amounts of data across many commodity servers, providing high availability with 
+no single point of failure. 
 
  * [Aquiles](http://aquiles.codeplex.com/) - A .NET Client for Apache Cassandra version 0.6.X or above using Thrift API. 
  * [Cassandraemon](http://cassandraemon.codeplex.com/) - A LINQ Provider for Apache Cassandra
  * [cassandra-sharp](http://code.google.com/p/cassandra-sharp/) - A high performance .NET driver for Apache Cassandra
  * [FluentCassandra](https://github.com/managedfusion/fluentcassandra) - A .NET library for accessing Apache Cassandra
 
-[RavenDB](http://ravendb.net/):
+#### RavenDB
+
+[RavenDB](http://ravendb.net/) is a scalable document-oriented database.
 
  * [F# Client API](http://ravendb.net/docs/client-api/fsharp) - The F# client API is a thin wrapper around the standard RavenDB client API, that provides a small set of combinators and a computation builder that hides the complexity of dealing with Linq expressions from F#. This documentation assumes some familiarity with the basics of RavenDB. 
 
+#### MongoDB
 
-[MongoDB](http://www.mongodb.org/):
+[MongoDB](http://www.mongodb.org/) is across-platform document-oriented NoSQL database system.
 
  * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center) - MongoDB bindings for .NET
  * [Enhancing the F# developer experience with MongoDB](http://blog.mongodb.org/post/59584347005/enhancing-the-f-developer-experience-with-mongodb) - Extra options for the F# developer using MongoDB
 
-[Neo4j](http://www.neo4j.org/):
+#### Neo4j
+
+[Neo4j](http://www.neo4j.org/) is an embedded, disk-based, fully transactional persistence engine that 
+stores data structured in graphs rather than in tables.
 
  * [Neo4jClient](http://hg.readify.net/neo4jclient/wiki/Home) - Neo4j bindings for .NET
  * [Using Neo4j Graph DB With F#](http://sergeytihon.wordpress.com/2013/03/27/using-neo4j-graph-db-with-f/) - Introduction to using Neo4j with F#
