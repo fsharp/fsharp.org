@@ -5,7 +5,7 @@ headline: F# Community Projects
 ---
 
 Do you want to contribute to F# commmunity projects?  We encourage
-all efforts which support our [mission](/foundation.html). Some of the open source community projects 
+all efforts which support our [mission](/foundation.html). Some of the open community projects 
 you can contribute to are below. 
 
 These projects may be at an early stage, and are not necessarily appropriate for production use.
