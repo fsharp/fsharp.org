@@ -15,13 +15,13 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Foundational Libraries 
 
-*  [FSharp.Data](https://github.com/fsharp/FSharp.Data) A library of F# type providers and data access tools
+*  [FSharp.Data](https://github.com/fsharp/FSharp.Data) - A library of F# type providers and data access tools. Contributions encouraged.
 
-*  [ExtCore](https://github.com/jack-pappas/ExtCore) Core library extensions for F#
+*  [ExtCore](https://github.com/jack-pappas/ExtCore) - Core library extensions for F#.
 
-*  [FSharp.Enterprise](https://github.com/colinbull/FSharp.Enterprise) A collection of helpers for enterprise development with F#
+*  [FSharp.Enterprise](https://github.com/colinbull/FSharp.Enterprise) - A collection of helpers for enterprise development with F#.
 
-*  [FSharpx](https://github.com/fsharp/fsharpx) Extensions and Tools for F# Programming
+*  [FSharpx](https://github.com/fsharp/fsharpx) Extensions and Tools for F# Programming.
 
 <br />
 
@@ -42,53 +42,69 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Math Libraries
 
-*  [Math.NET Numerics](http://numerics.mathdotnet.com/) A large collection of algorithms including linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
-
-
+*  [Math.NET Numerics](http://numerics.mathdotnet.com/) - A large collection of 
+   algorithms including linear algebra, special functions, statistics, probability models, 
+   interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
+  
 
 <br />
 
-### Community Projects: User Interfaces
+### Community Projects: Desktop User Interfaces
 
-* [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/)
+* [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/) - A community 
+  framework to take advantage of the F# language features to create truly type-safe WPF applications.
 
-A community framework to take advantage of the F# language features to create truly type-safe WPF applications.
+### GPGPU Execution
 
+*  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL 
+   translator. 
+
+### Web Tools
+
+* [WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform 
+  including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open 
+  source and on bitbucket.org. Contributors welcome!
 
 ### Community Projects: Visualization Tools
 
-* [FSharp.Charting](http://numerics.mathdotnet.com/) A large collection of algorithms including linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
+* [FSharp.Charting](http://numerics.mathdotnet.com/) - A large collection of algorithms including 
+  linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports 
+  F# 3.0 with idiomatic extension modules. Contributions (especially fixes and cross-platform support) 
+  encouraged!
 
 
 <br />
 
 ### Community Projects: Interoperability 
 
-*  [The R Type Provider for F#](http://github.com/BlueMountainCapital/FSharpRProvider#f-r-provider/) An F# type provider for higher-fidelity integration between F# and R.
+*  [The R Type Provider for F#](http://github.com/BlueMountainCapital/FSharpRProvider#f-r-provider/) - An F# type 
+   provider for higher-fidelity integration between F# and R. Primary contributors are BlueMountain Capital, a hedge
+   fund, other contributors are warmly welcomed.
 
-*  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) An F# type provider for higher-fidelity integration between F# and MATLAB.
+*  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider 
+   for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
 
-*  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) GPGPU programming with F#. F# quotation to OpenCL translator.
-
-*  [f0](https://bitbucket.org/pchiusano/f0) A binary [de]serialization combinator library, with binary-format phantom types and a compatible Scala partner implementation.
+*  [f0](https://bitbucket.org/pchiusano/f0) - A binary [de]serialization combinator library, with binary-format 
+   phantom types and a compatible Scala partner implementation.
 
 <br />
 
 ### Community Projects: Distribution Tools
 
-*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) A fast, general-purpose binary serializer for .NET written in F# that doubles as a pickler combinator library.
+*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) A fast, general-purpose binary serializer for 
+   .NET written in F# that doubles as a pickler combinator library.
 
 <br />
 
 ### Community Projects: Testing Tools
 
-*  [FsUnit](https://github.com/fsharp/FsUnit) Add F# functional syntax to NUnit, MbUnit, xUnit, and MsTest
+*  [FsUnit](https://github.com/fsharp/FsUnit) - Add F# functional syntax to NUnit, MbUnit, xUnit, and MsTest.
 
-*  [FsCheck](https://github.com/fsharp/FsCheck) Random testing generator combinators, port of Haskell's QuickCheck
+*  [FsCheck](https://github.com/fsharp/FsCheck) - Random testing generator combinators, port of Haskell's QuickCheck.
 
-*  [Unquote](https://code.google.com/p/unquote/) F# unit test assertions as quoted expressions and step-by-step failure messages
+*  [Unquote](https://code.google.com/p/unquote/) - F# unit test assertions as quoted expressions and step-by-step failure messages.
 
-*  [canopy](http://lefthandedgoat.github.io/canopy/) f#rictionless web testing with Selenium
+*  [canopy](http://lefthandedgoat.github.io/canopy/) - F#rictionless web testing with Selenium.
 
 *  [TickSpec](http://tickspec.codeplex.com/) A lightweight F# Behaviour Driven Development (BDD) framework
 
