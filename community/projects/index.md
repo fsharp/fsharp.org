@@ -44,7 +44,6 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [Math.NET Numerics](http://numerics.mathdotnet.com/) A large collection of algorithms including linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
 
-*  See also [Using F# for Math and Statistics](/math)
 
 
 <br />
@@ -59,8 +58,6 @@ A community framework to take advantage of the F# language features to create tr
 ### Community Projects: Visualization Tools
 
 * [FSharp.Charting](http://numerics.mathdotnet.com/) A large collection of algorithms including linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
-
-*  See also [Using F# for Data Science](/data-science)
 
 
 <br />
