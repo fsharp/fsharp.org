@@ -413,17 +413,24 @@ this project yielded a great deal of details that we hope will be useful for oth
 
 ## Security and Verification Research
 
-The experimental [FStar language](http://research.microsoft.com/en-us/projects/fstar/) is inspired by F#. Some of the publications about FStar are below.
+The experimental [FStar language](http://research.microsoft.com/en-us/projects/fstar/) is inspired by F#. 
+Some of the publications about FStar are below.
 
-* Verifying Higher-order Programs with the Dijkstra Monad, Nikhil Swamy, Joel Weinberger, Cole Schlesinger, Juan Chen, and Benjamin Livshits, in ACM Programming Language Design and Implementation (PLDI) 2013, ACM, June 2013
+* Verifying Higher-order Programs with the Dijkstra Monad, Nikhil Swamy, Joel Weinberger, Cole Schlesinger, 
+  Juan Chen, and Benjamin Livshits, in ACM Programming Language Design and Implementation (PLDI) 2013, ACM, June 2013
 
-* Self-Certification: Bootstrapping Certified Typecheckers in FStar with Coq, Pierre-Yves Strub, Nikhil Swamy, Cedric Fournet, and Juan Chen, in In Proceedings of the ACM Symposium on Principles on Programming Languages, ACM, January 2012
+* Self-Certification: Bootstrapping Certified Typecheckers in FStar with Coq, Pierre-Yves Strub, Nikhil Swamy, 
+  Cedric Fournet, and Juan Chen, in In Proceedings of the ACM Symposium on Principles on Programming Languages, 
+  ACM, January 2012
 
-* Secure Distributed Programming with Value-dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet, Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, in The 16th ACM SIGPLAN International Conference on Functional Programming (ICFP 2011), ACM SIGPLAN, September 2011
+* Secure Distributed Programming with Value-dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet, Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, 
+  in The 16th ACM SIGPLAN International Conference on Functional Programming (ICFP 2011), ACM SIGPLAN, September 2011
     
-* Verified Security for Browser Extensions, Arjun Guha, Matthew Fredrikson, Benjamin Livshits, and Nikhil Swamy, in Proceedings of the IEEE Symposium on Security and Privacy (Oakland), IEEE, 22 May 2011
+* Verified Security for Browser Extensions, Arjun Guha, Matthew Fredrikson, Benjamin Livshits, and Nikhil Swamy, 
+  in Proceedings of the IEEE Symposium on Security and Privacy (Oakland), IEEE, 22 May 2011
     
 * Mechanized soundness proofs for FStar, Pierre-Yves Strub, Cedric Fournet, and Nikhil Swamy, 1 April 2011
     
-* Secure Distributed Programming with Value-Dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet, Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, no. MSR-TR-2011-37, 24 March 2011
+* Secure Distributed Programming with Value-Dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet, 
+  Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, no. MSR-TR-2011-37, 24 March 2011
     
