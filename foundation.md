@@ -152,6 +152,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Aggelos Biboudis](http://www.di.uoa.gr/~biboudis), University of Athens [@biboudis](http://twitter.com/biboudis)
  * Eirik Tsarpalis, [M-Brace](http://www.m-brace.net/) [@eiriktsarpalis](http://twitter.com/eiriktsarpalis)
  * Nick Palladinos [@NickPalladinos](https://twitter.com/NickPalladinos)
+ * [Isaac Abraham](http://cockneycoder.wordpress.com/) [@isaac_Abraham](http://twitter.com/isaac_Abraham)
 
 ## Contact
 
