@@ -153,6 +153,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Eirik Tsarpalis, [M-Brace](http://www.m-brace.net/) [@eiriktsarpalis](http://twitter.com/eiriktsarpalis)
  * Nick Palladinos [@NickPalladinos](https://twitter.com/NickPalladinos)
  * [Isaac Abraham](http://cockneycoder.wordpress.com/) [@isaac_Abraham](http://twitter.com/isaac_Abraham)
+ * Dave Fancher [@davefancher](http://twitter.com/davefancher)
 
 ## Contact
 
