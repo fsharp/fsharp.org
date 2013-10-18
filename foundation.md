@@ -159,6 +159,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Bryan Hunter [@bryan_hunter](http://twitter.com/bryan_hunter)
  * Michael Ciccotti
  * Karl Nilsson [@kjnilsson](http://twitter.com/kjnilsson)
+ * Robert Jeppesen [@rojepp](http://twitter.com/rojepp), Durius
 
 ## Contact
 
