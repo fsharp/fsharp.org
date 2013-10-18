@@ -1,4 +1,4 @@
----
+﻿---
 layout: foundation
 title: The F# Software Foundation
 ---
@@ -155,6 +155,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Isaac Abraham](http://cockneycoder.wordpress.com/) [@isaac_Abraham](http://twitter.com/isaac_Abraham)
  * Dave Fancher [@davefancher](http://twitter.com/davefancher)
  * Anton Tayanovskyy [@t0yv0](http://twitter.com/t0yv0), [IntelliFactory](http://intellifactory.com)
+ * Dawid Kowalski [@kowalgta](http://twitter.com/kowalgta)
  * [Will Smith](http://www.tihancode.com) [@TIHan](http://twitter.com/TIHan)
  * Bryan Hunter [@bryan_hunter](http://twitter.com/bryan_hunter)
  * Michael Ciccotti
