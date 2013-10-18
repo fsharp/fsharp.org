@@ -154,7 +154,11 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Nick Palladinos [@NickPalladinos](https://twitter.com/NickPalladinos)
  * [Isaac Abraham](http://cockneycoder.wordpress.com/) [@isaac_Abraham](http://twitter.com/isaac_Abraham)
  * Dave Fancher [@davefancher](http://twitter.com/davefancher)
- * Anton Tayanovskyy [@t0yv0](http://twitter.com/t0yv0), [IntelliFactory](http://intellifactory.com) 
+ * Anton Tayanovskyy [@t0yv0](http://twitter.com/t0yv0), [IntelliFactory](http://intellifactory.com)
+ * [Will Smith](http://www.tihancode.com) [@TIHan](http://twitter.com/TIHan)
+ * Bryan Hunter [@bryan_hunter](http://twitter.com/bryan_hunter)
+ * Michael Ciccotti
+ * Karl Nilsson [@kjnilsson](http://twitter.com/kjnilsson)
 
 ## Contact
 
