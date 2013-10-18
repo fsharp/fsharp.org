@@ -4,7 +4,7 @@ title: About F# | The F# Software Foundation
 headline: About F#
 ---
 
-F# is a strongly-typed, functional-first programming language for writing 
+F# (pronounced "F Sharp") is a strongly-typed, functional-first programming language for writing 
 simple code to solve complex problems. From the business perspective, the primary 
 role of F# is to reduce the time-to-deployment for analytical software components 
 in the modern enterprise. Its interoperability with all .NET languages and libraries 
