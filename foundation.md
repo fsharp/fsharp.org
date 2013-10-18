@@ -162,6 +162,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Robert Jeppesen [@rojepp](http://twitter.com/rojepp), Durius
  * Morgan Persson [@lazydev](http://twitter.com/lazydev)
  * Ian Russell [@ijrussell](http://twitter.com/ijrussell)
+ * Anthony Brown [@bruinbrown93](https://twitter.com/bruinbrown93)
 
 ## Contact
 
