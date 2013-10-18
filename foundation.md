@@ -160,6 +160,8 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Michael Ciccotti
  * Karl Nilsson [@kjnilsson](http://twitter.com/kjnilsson)
  * Robert Jeppesen [@rojepp](http://twitter.com/rojepp), Durius
+ * Morgan Persson [@lazydev](http://twitter.com/lazydev)
+ * Ian Russell [@ijrussell](http://twitter.com/ijrussell)
 
 ## Contact
 
