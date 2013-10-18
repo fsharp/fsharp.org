@@ -1,4 +1,4 @@
-﻿---
+---
 layout: foundation
 title: The F# Software Foundation
 ---
