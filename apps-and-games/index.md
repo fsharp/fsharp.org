@@ -21,8 +21,8 @@ These higher-level app development stacks are support F#:
 
 ### MonoGame - Write Once, Play Everywhere
 
-[MonoGame](http://monogame.codeplex.com) is an open implementation of the XNA 4 Framework. The 
-goal of the project is to allow XNA developers on Xbox 360, Windows & Windows Phone to port 
+[MonoGame](http://www.monogame.net/) is an open implementation of a cross-platform gaming framework originally
+based on the XNA 4 framework design. The goal of the project is to allow XNA developers on Xbox 360, Windows & Windows Phone to port 
 their games to the iOS, Android, Mac OS X, Linux, Windows 8 Metro, and PlayStation 
 Mobile.  
 
@@ -32,6 +32,7 @@ Mobile.
 * [F# and Monogame Part 4 – Content Pipeline](http://neildanson.wordpress.com/2013/08/13/f-and-monogame-part-4-content-pipeline/)
 * [Running MonoGame with F# on the Mac](http://7sharpnine.com/posts/Fsharp-and-MonoGame-on-the-Mac/)
 * [Using F# with MonoGame to get basic platformer mechanics](http://bruinbrown.wordpress.com/2013/10/06/making-a-platformer-in-f-with-monogame/)
+* [Using F# Interactive for level design](http://bruinbrown.wordpress.com/2013/10/21/f-interactive-for-level-design/)
 
 ### Xamarin Game Development 
 
