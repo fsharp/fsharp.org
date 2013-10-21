@@ -164,6 +164,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Morgan Persson [@lazydev](http://twitter.com/lazydev)
  * Ian Russell [@ijrussell](http://twitter.com/ijrussell)
  * Anthony Brown [@bruinbrown93](https://twitter.com/bruinbrown93)
+ * Goswin Rothenthal [Waagner Biro] (http://www.waagner-biro.com/en/divisions/steel-glass-structures/about)
 
 ## Contact
 
