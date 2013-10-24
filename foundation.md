@@ -165,6 +165,8 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Ian Russell [@ijrussell](http://twitter.com/ijrussell)
  * Anthony Brown [@bruinbrown93](https://twitter.com/bruinbrown93)
  * Goswin Rothenthal [Waagner Biro] (http://www.waagner-biro.com/en/divisions/steel-glass-structures/about)
+ * Mark Seemann [@ploeh](https://twitter.com/ploeh)
+ * César Octavio López Natarén
 
 ## Contact
 
