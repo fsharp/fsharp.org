@@ -460,17 +460,19 @@ statically typed within a professional development environment that supports a w
 libraries. It will continue to be our language of choice for scientific computing.
 <div class="keywords">biology, modelling, algorithms, analysis, DNA computing, correct, scientific computing</div>
 
-<a id="miccrosoft-engineering" href="#">&nbsp;</a>
+<a id="miccrosoft-engineering-1" href="#">&nbsp;</a>
 ---
 
 > In our engineering group at Microsoft we use F# for several projects
 
 1. Microsoft Engineering Team
+2. [permalink](#microsoft-engineering-1)
 
 In our internal engineering group at Microsoft, F# is used for several important tools:
 *  analyzing feedback on the web to look for compatibility-related issues, 
 *  a static code analyzer to detect compatibility regressions in a product,
 *  a delta-debugging tool to help root cause regression analysis in product builds.
+<div class="keywords">tools, engineering, debugging, builds, static analysis</div>
 
 
 <a id="michael-hansen" href="#">&nbsp;</a>
