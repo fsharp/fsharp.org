@@ -25,8 +25,8 @@ sh configure.sh
 make
 ```
 
-That produces ```$fsbind/pack/3.2.16/local/Debug/MonoDevelop.FSharpBinding_3.2.15.mpack```.  Open Xamarin Studio, and from
-Tools --> Addin Manager push the _Install from file_ button.  Install ```$fsbind/pack/3.2.16/local/Debug/MonoDevelop.FSharpBinding_3.2.15.mpack```. 
+That produces ```$fsbind/pack/3.2.19/local/Debug/MonoDevelop.FSharpBinding_3.2.19.mpack```.  Open Xamarin Studio, and from
+Tools --> Addin Manager push the _Install from file_ button.  Install ```$fsbind/pack/3.2.19/local/Debug/MonoDevelop.FSharpBinding_3.2.19.mpack```. 
 
 5. From Tools --> Addin Manager --> Gallery --> Mobile Development, add "F# Support for Xamarin.iOS Development" 
 6. From _Xamarin Studio --> Check for updates_, switch to the Alpha branch if you're developing for iOS 7.
