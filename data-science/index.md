@@ -10,15 +10,15 @@ real-world data sources to bring understanding and insight to data-oriented prob
 F# is an excellent solution for programmatic data science as it combines efficient execution
 with powerful libraries and scalable data integration. [Try F#](http://tryfsharp.org/learn) has sections specific to data science. 
 
-### Base Technologies
+### Base Technologies for Data Science with F#
 
-* [Maths and Statistics](/math) packages
-* [Data Access](/data-access) packages
-* [Data Charting and Visualization](/data-visualization) packages
-* [Machine Learning](/machine-learning) tutorials
+* [Maths and Statistics](/math) packages for F#
+* [Data Access](/data-access) packages for F#
+* [Data Charting and Visualization](/data-visualization) packages for F#
+* [Machine Learning](/machine-learning) tutorials for F#
 * [Cloud Programming](/cloud) for cloud-scalable data, compute and messaging frameworks and clients for F#.
 
-### Interoperability with Excel, R, Python, MATLAB and others
+### Interoperability with Excel, R, Python, MATLAB and Mathematica
 
 F# can integrate and interoperate with data-science systems such as 
 Microsoft Excel, R, MATLAB, Mathematica and Python. See the sections below:
