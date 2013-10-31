@@ -72,7 +72,7 @@ There are also some F# versions of Excel functions, useful when migrating code:
 
 Resources:
 
- * [R Type Provider for F#](https://github.com/BlueMountainCapital/FSharpRProvider) - An F# type provider for higher-fidelity integration between F# and R
+ * [R Type Provider for F#](http://bluemountaincapital.github.io/FSharpRProvider) - An F# type provider for higher-fidelity integration between F# and R
  * [R.NET](http://rdotnet.codeplex.com) - Core interoperability component used by the R Type Provider.
  * [RDotNet.FSharp](https://www.nuget.org/packages/RDotNet.FSharp) - There's also an alpha-release graphics engine package, RDotNet.Graphics.
 
