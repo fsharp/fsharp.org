@@ -47,9 +47,13 @@ To use F# on Mac OSX in 64-bit mode, use the following:
   Be sure to set the "--prefix" flag, e.g. "--prefix=/mono64"
 
     ```git clone https://github.com/mono/mono```
+    
     ```cd mono```
+    
     ```./autogen.sh --prefix=/mono64 --enable-nls=no```
+    
     ```make```
+    
     ```sudo make install```
 
 * [Compile F# 3.0 from source](https://github.com/fsharp/fsharp/blob/master/README.md)
