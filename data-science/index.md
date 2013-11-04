@@ -10,7 +10,7 @@ real-world data sources to bring understanding and insight to data-oriented prob
 F# is an excellent solution for programmatic data science as it combines efficient execution
 with powerful libraries and scalable data integration. [Try F#](http://tryfsharp.org/learn) has sections specific to data science. 
 
-### Base Technologies for Data Science with F#
+### Base Technologies for F# Data Science
 
 * [Maths and Statistics](/math) packages for F#
 * [Data Access](/data-access) packages for F#
