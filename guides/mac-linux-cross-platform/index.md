@@ -197,12 +197,12 @@ Other packaging mechanisms include:
 
 ------
 
-## Some Important Portable, Cross-Platform, Mac and Linux Packages
+## Some Examples of Portable, Cross-Platform Packages
 
-Some F# packages are more cross-platform friendly than others. Many will work with no alteration.
+Some F# and CLI packages are more cross-platform friendly than others. Many will work with no alteration.
 Here are some of interest:
 
-* FSharp.Core Library
+* FSharp.Core Library, the core F# library
 
 * [FSharp.Data](http://fsharp.github.io/FSharp.Data/)
 
@@ -224,14 +224,13 @@ and libraries. Here are some examples:
   images and colors, with platform-specific extension methods to go back and forth 
   between the platform-specific native types.  
 
+* [OxyPlot](https://oxyplot.codeplex.com/) – OxyPlot is a cross-platform plotting library for .NET.
+  The core is a portable library, the package OxyPlot.GtkSharp is usable on Mac/OSX.
 
-There are a wide range of cross-platform and Linux/Mac libraries available as part of the core libraries 
+There are a wide range of cross-platform libraries available as part of the core libraries 
 available to F#, for example:
 
-* [Versions of .NET Frameworks Libraries](http://www.mono-project.com/Start). 
-  
-  Compatibility guides, [documentation](http://docs.go-mono.com/?link=root) and [migration assessment tools](http://www.mono-project.com/MoMA) are 
-  also available.
+* [Versions of .NET Frameworks Libraries](http://www.mono-project.com/Start).  
 
 * [Bindings to Unix functionality](http://docs.go-mono.com/index.aspx?link=N%3aMono.Unix)
 
@@ -241,7 +240,8 @@ available to F#, for example:
 
 * [Xamarin.Mac](http://xamarin.com/mac)
 
-
+Compatibility guides, [documentation](http://docs.go-mono.com/?link=root) and [migration assessment tools](http://www.mono-project.com/MoMA) are also available.
+  
 ------
 
 # Portable and Cross-Platform Development
