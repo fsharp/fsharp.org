@@ -40,9 +40,7 @@ You’re off! Some common commands are:
 
 ------
 
-##  Editing 
-
-### What should I use to edit my code?
+#  Editing 
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
 
@@ -74,15 +72,15 @@ to turn of console processing.
 
 ------
 
-##	Documentation 
+#	Documentation 
 
 For most F# documentation, see the [documentation pages](/about/index.html#documentation).
 
 ------
 
-##	Projects and Build Automation
+#	Projects and Build Automation
 
-###  .fsproj and .sln files
+##  .fsproj and .sln files
 
 You can use xbuild to build projects and solutions from Visual Studio without change.
 Xamarin Studio and MonoDevelop can also create and manage .fsproj and .sln files.
@@ -112,11 +110,11 @@ in a .fsproj like this:
 To create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop, 
 or find an existing one, copy it and edit it by hand.
 
-### Makefiles
+## Makefiles
 
 The F# command-line compiler (fsharpc) can be used with Makefiles in the usual way.
 
-### FAKE
+## FAKE
 
 [FAKE](http://fsharp.github.io/FAKE/) is a build-and-publish automation utility sometimes used by F# programmers (partly because
 builds are automated using F# itself, and partly because it is a great tool).
@@ -132,16 +130,15 @@ FAKE can be fetched using NuGet.exe, e.g.:
 
 ---------
 
-## Packages
+# Package Repositories
 
-### NuGet 
+## nuget 
 
-[NuGet](http://nuget.org/) is an open-source, cross-platform package management tool with many thousands
+[nuget](http://nuget.org/) is an open-source, cross-platform package management tool with many thousands
 of packages available. See the [documentation](http://docs.nuget.org/).
+It is used extensively on Windows ecosystem but is growing in its cross-platform use.
 
-It is generally used for package management on the Windows ecosystem but is growing in its cross-platform use.
-
-#### NuGet Command Line
+### Using nuget from the command line 
 
 For those on Mac/Linux, familiarity with the command-line NuGet.exe utility is highly useful.
 Get the command line utility like this:
@@ -169,8 +166,7 @@ An example packages.config is:
 
 See also the [documentation](http://docs.nuget.org/docs/reference/command-line-reference).
 
-#### Using NuGet as part of a build
-
+### Using nuget packages as part of a build
 
 F# project files (.fsproj) can be configure to automatically get NuGet packages during a build. The
 project file should have a line like this (adjust the '...' to reference a copy of NuGet.targets checked into your project).
@@ -184,17 +180,17 @@ A copy of NuGet.exe should be in that directory with executable permissions set.
 It is quite common to check a copy of NuGet.exe into a project, e.g. in lib/NuGet/NuGet.exe.
 
 
-#### NuGet MonoDevelop and Xamarin Studio support
+### Using nuget in MonoDevelop and Xamarin Studio
 
 You can add NuGet support to these IDEs. See [NuGet for MonoDevelop and Xamarin Studio](https://github.com/mrward/monodevelop-nuget-addin#nuget-addin-for-monodevelop-and-xamarin-studio).
 
-#### Making NuGet packages
+### Making nuget packages
 
 See [http://nuget.org](http://nuget.org) to learn how to make and publish NuGet packages.
 
-### Other Package Mechanisms
+## Other Packaging Mechanisms
 
-Other package mechanisms include:
+Other packaging mechanisms include:
 * Git sub-modules (especially when building from source)
 * Traditional Unix packages
 * Simple .fs files that can be included into projects
@@ -248,10 +244,10 @@ available to F#, for example:
 
 ------
 
-## Portable and Cross-Platform Development
+# Portable and Cross-Platform Development
 
 
-### Portable Libraries
+## Portable Libraries
 
 Portable .NET libraries have access to less core functionality, called a "portable profile", but can be used across multiple
 platforms and multiple profiles of .NET. For example, a portable library may be usable on Mac, Linux, Android,
@@ -271,11 +267,11 @@ creating portable libraries to ease cross-platfom use.
 
 ------
 
-## Unit Testing
+# Unit Testing
 
 A table of .NET unit testing frameworks can be found [here](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages).
 
-### NUnit
+## NUnit
 
 [NUnit](http://nunit.org/) is an open-source, cross-platform unit-testing 
 framework for F# and other  .NET languages. It is written 
@@ -290,12 +286,12 @@ Some guides to using F# and NUnit together are:
  * [F# as a Unit Testing Language](http://trelford.com/blog/post/fstestlang.aspx)
  
 
-### FsUnit
+## FsUnit
 
 [FsUnit](http://fsunit.codeplex.com/) is often used by F# programmers as an DSL to access popular unit testing frameworks. 
 An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
 
-### FsCheck
+## FsCheck
 
 [FsCheck](https://github.com/fsharp/FsCheck) is a tool for testing .NET programs automatically. 
 The programmer provides a specification of the program, 
@@ -304,7 +300,7 @@ and FsCheck then tests that the properties hold in a large number of randomly ge
 
 ------
 
-## Miscellaneous Notes on Open Source and Cross Platform Development
+# Miscellaneous Notes on Open Source and Cross Platform Development
 
 ### Using the TeamCity build service
 
