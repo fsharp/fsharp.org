@@ -42,20 +42,25 @@ You’re off! Some common commands are:
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
 
-* [Xamarin Studio](http://xamarin.com/studio) with the [F# AddIn for MonoDevelop](http://fsharp.github.com/fsharpbinding). 
+* [Xamarin Studio](http://xamarin.com/studio) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding). 
 
-* Emacs. There is an [F# mode for Emacs](https://github.com/fsharp/fsharpbinding/tree/master/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive and also automatic indentation. 
+* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](https://github.com/fsharp/fsharpbinding/tree/master/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive and also automatic indentation. 
 
 * [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding). On Linux Debian you can use:
   
        sudo apt-get install monodevelop
   
-  or [build/install it from source](http://github.com/mono/monodevelop). Then [install the F# AddIn for MonoDevelop from the AddIn gallery](http://fsharp.github.io/fsharpbinding)
+  or [build/install it from source](http://github.com/mono/monodevelop). Then [install or build the F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding)
   
+* [Sublime Text 2]
+
+  * [Configuring Sublime Text 2 To Work With FSharp](http://onor.io/2012/01/26/configuring-sublime-text-2-to-work-with-fsharp/)
+  * [Using Sublime Text 2 as F# REPL](http://blog.kulman.sk/using-sublime-text-2-as-f-repl/)
+
 * Vim
-
-* SublimeText 
-
+  * [Writing and Running F# Scripts with Vim](http://juliankay.com/development/writing-and-running-f-scripts-with-vim/)
+  * [Vim Runtime Files for F#](https://github.com/kongo2002/fsharp-vim)
+ 
 If running F# Interactive in Emacs or another similar environment, use 
               
     > fsharpi --readline- 
@@ -84,7 +89,7 @@ Use xbuild to build projects and solutions:
     xbuild RocketSolution.sln
 
 Many people doing cross-platform or Mac/Linux development don't like .sln files.
-In this case, you can also create a .fsproj file that brings together
+If so, you can also create a .fsproj file that brings together
 a collection of .fsproj files. Include, for example, [root.traversals.targets](https://github.com/fsharp/fsharp/blob/master/src/root.traversal.targets) used in the F# compiler source
 in a .fsproj like this:
 
@@ -100,12 +105,12 @@ in a .fsproj like this:
     
     </Project>
 
-If you need to create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop, 
+To create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop, 
 or find an existing one, copy it and edit it by hand.
 
 ### Makefiles
 
-The F# command-line compiler can be used with Makefiles in the usual way.
+The F# command-line compiler (fsharpc) can be used with Makefiles in the usual way.
 
 ### FAKE
 
@@ -114,9 +119,12 @@ builds are automated using F# itself, and partly because it is a great tool).
 
 FAKE can be fetched using NuGet.exe, e.g.:
 
-    mono "./lib/NuGet/NuGet.exe" "install" "FAKE" "-OutputDirectory" "lib" "-ExcludeVersion" "-Prerelease"
-
-
+    # Get nuget.exe
+    sudo mozroots --import --sync
+    curl -L http://nuget.org/nuget.exe -o nuget.exe
+    
+    # Get FAKE.exe
+    mono nuget.exe install FAKE -OutputDirectory lib -ExcludeVersion -Prerelease
 
 ---------
 
@@ -132,8 +140,11 @@ It is generally used for package management on the Windows ecosystem but is grow
 #### NuGet Command Line
 
 For those on Mac/Linux, familiarity with the command-line NuGet.exe utility is highly useful.
-Get the command line utility from [nuget.codeplex.com](http://nuget.codeplex.com/). See also
-the [documentation](http://docs.nuget.org/docs/reference/command-line-reference).
+Get the command line utility like this:
+
+    # Get nuget.exe
+    sudo mozroots --import --sync
+    curl -L http://nuget.org/nuget.exe -o nuget.exe
 
 Before using NuGet.exe on Mac/Linux, be sure to run 
 
@@ -151,6 +162,8 @@ An example packages.config is:
       <package id="FsUnit" version="1.2.1.0" targetFramework="net40" />
      <package id="NUnit" version="2.6.2" targetFramework="net40" />
     </packages>
+
+See also the [documentation](http://docs.nuget.org/docs/reference/command-line-reference).
 
 #### Using NuGet as part of a build
 
@@ -180,7 +193,7 @@ See [http://nuget.org](http://nuget.org) to learn how to make and publish NuGet 
 Other package mechanisms include:
 * Git sub-modules (especially when building from source)
 * Traditional Unix packages
-
+* Simple .fs files that can be included into projects
 
 ------
 
@@ -193,12 +206,8 @@ Here are some of interest:
 
 * [FSharp.Data](http://fsharp.github.io/FSharp.Data/)
 
-* [FSharpx](http://fsharp.github.io/fsharpx/)
-
-* [MongoDB.FSharp](https://github.com/tkellogg/MongoDB.FSharp)
-
 In the wider F# exosystem there are many cross-platform and/or portable packages 
-and libraries. Here are some examples - many others are also available:
+and libraries. Here are some examples:
 
 * [Math.Net Numerics](http://numerics.mathdotnet.com/) - Math.NET Numerics provides cross-platform and portable  methods and algorithms for numerical computations in science, engineering and everyday use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integral transforms and more.
 
