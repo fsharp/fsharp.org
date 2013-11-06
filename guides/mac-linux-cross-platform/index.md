@@ -245,10 +245,8 @@ Compatibility guides, [documentation](http://docs.go-mono.com/?link=root) and [m
   
 ------
 
-# Portable and Cross-Platform Development
+# Portable Libraries
 
-
-## Portable Libraries
 
 Portable .NET libraries have access to less core functionality, called a "portable profile", but can be used across multiple
 platforms and multiple profiles of .NET. For example, a portable library may be usable on Mac, Linux, Android,
