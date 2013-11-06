@@ -4,6 +4,10 @@ title: Cross Platform Dev Guide | The F# Software Foundation
 headline: F# Mac, Linux and Cross-Platform Development Guide
 ---
 
+## Table of Contents
+
+* auto-gen TOC:
+{:toc}
 
 ## Getting Started
 
