@@ -4,6 +4,8 @@ title: Cross Platform Dev Guide | The F# Software Foundation
 headline: F# Mac, Linux and Cross-Platform Development Guide
 ---
 
+To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/mac-linux-cross-platform/index.md) and send the pull request.
+
 ## Table of Contents
 
 * auto-gen TOC:
@@ -16,7 +18,6 @@ headline: F# Mac, Linux and Cross-Platform Development Guide
 * [Getting Started with F# for iOS Programming](/use/ios)
 * [Getting Started with F# for Android Programming](/use/android)
 
-To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/mac-linux-cross-platform/index.md) and send the pull request.
 
 -------
 
