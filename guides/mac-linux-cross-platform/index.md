@@ -9,7 +9,7 @@ headline: F# Mac, Linux and Cross-Platform Development Guide
 * auto-gen TOC:
 {:toc}
 
-## Getting Started
+# Getting Started
 
 * [Getting Started with F# on Mac](/use/mac)
 * [Getting Started with F# on Linux](/use/linux)
@@ -20,7 +20,7 @@ To contribute to this guide, log on to GitHub, [edit this page](https://github.c
 
 -------
 
-## Command Line Tools
+# Command Line Tools
 
 You can start F# Interactive using 
 
