@@ -16,28 +16,43 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Foundational Libraries 
 
-*  [FSharp.Data](https://github.com/fsharp/FSharp.Data) - A library of F# type providers and data access tools. Contributions encouraged.
-
 *  [ExtCore](https://github.com/jack-pappas/ExtCore) - Core library extensions for F#.
 
 *  [FSharp.Enterprise](https://github.com/colinbull/FSharp.Enterprise) - A collection of helpers for enterprise development with F#.
 
-*  [FSharpx](https://github.com/fsharp/fsharpx) Extensions and Tools for F# Programming.
+*  [FSharpx](https://github.com/fsharp/fsharpx) - Extensions and Tools for F# Programming.
 
-<br />
 
 ### Community Projects: Development Tools
 
-*  [FsEye](https://code.google.com/p/fseye/) A visual object tree inspector for the F# Interactive
+*  [FsEye](https://code.google.com/p/fseye/) - A visual object tree inspector for the F# Interactive
 
-*  [FSharp.Formatting](https://github.com/tpetricek/FSharp.Formatting) F# tools for generating documentation: Markdown processor and F# code formatter
+*  [FSharp.Formatting](https://github.com/tpetricek/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
-*  [Fantomas](https://github.com/dungpa/fantomas) F# source code formatter
+*  [Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter
 
-*  [FAKE](https://github.com/fsharp/FAKE) F# build automation system
+*  [FAKE](https://github.com/fsharp/FAKE) - F# build automation system
 
-*  [fsharpbinding](https://github.com/fsharp/fsharpbinding) F# Language Bindings for Open Editors (Emacs, MonoDevelop)
+*  [fsharpbinding](https://github.com/fsharp/fsharpbinding) - F# Language Bindings for Open Editors (Emacs, MonoDevelop)
 
+*  [Community Templates for Visual F# Tools](https://github.com/fsharp/community-templates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
+
+
+<br />
+
+### Community Projects: Data Access
+
+*  [FSharp.Data](https://github.com/fsharp/FSharp.Data) - A library of F# type providers and data access tools. Contributions encouraged.
+
+*  [FSharp.Data.SqlCommandTypeProvider](https://github.com/dmitry-a-morozov/FSharp.Data.SqlCommandTypeProvider) - Use SQL to specify your queries. Contributors welcome!
+
+*  [Freebase Type Provider](http://fsharp.github.io/FSharp.Data/library/Freebase.html) - The FSharp.Data type provider for Freebase, which is a graph database containing over 23 million real-world entities. The Freebase type provider puts this information at your fingertips.
+
+*  [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) - The FSharp.Data type provider for CSV. Contributions welcome.
+
+*  [Json Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) - The FSharp.Data type provider for Json. Contributions welcome.
+
+*  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - The FSharp.Data type provider for Json. Contributions welcome.
 
 <br />
 
@@ -70,6 +85,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
   including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open 
   source and on bitbucket.org. Contributors welcome!
 
+* [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with intellisense, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
+
 <br />
 
 ### Community Projects: Visualization Tools
@@ -93,6 +110,10 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [f0](https://bitbucket.org/pchiusano/f0) - A binary [de]serialization combinator library, with binary-format 
    phantom types and a compatible Scala partner implementation.
+
+*  [PowerShellTypeProvider](https://github.com/sergey-tihon/PowerShellTypeProvider) - PowerShell type provider.
+
+*  [Apiary Type Provider](http://fsharp.github.io/FSharp.Data/experimental/ApiaryProvider.html) - An experimental type provider that makes it possible to easily call REST services that are documented using the apiary.io service.
 
 <br />
 
