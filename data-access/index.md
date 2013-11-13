@@ -40,4 +40,13 @@ F# allows for the direct integration of scalable data stores into F# programming
  * [Freebase](http://freeebase.com) - A type provider for Freebase is available in the [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library
  * [World Bank](http://worldbank.org) - A type provider for the World bank data sets is available in the [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library
 
+### Exploratory Data Frame and Time Series Programming
+
+ * [Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality package 
+   for data and time series manipulation and for scientific programming. It supports working with 
+   structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
+   work well for exploratory programming using F# and C# interactive console, but can be also used in 
+   efficient compiled .NET code.  If you are familiar with the Pandas library from Python or the 'tseries' 
+   package in R, then thispackage is for you.
+
 
