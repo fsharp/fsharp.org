@@ -14,6 +14,11 @@ use. Out of small beginnings, great things come!
 To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/use/osprojects/index.md) and submit a pull request.
 
 
+### Community Projects: Compiler and Core Library
+
+*  [fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library.
+
+
 ### Community Projects: Foundational Libraries 
 
 *  [ExtCore](https://github.com/jack-pappas/ExtCore) - Core library extensions for F#.
@@ -53,6 +58,18 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  [Json Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) - The FSharp.Data type provider for Json. Contributions welcome.
 
 *  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - The FSharp.Data type provider for Json. Contributions welcome.
+
+<br />
+
+### Community Projects: Exploratory Data Science Programming
+
+*  [Deedle](http://bluemountaincapital.github.io/Deedle/) - Deedle is an open, easy to use library for data
+   and time series manipulation and for scientific programming. It supports working with structured data 
+   frames, ordered and unordered data, as well as time series. Deedle is designed to work well for 
+   exploratory programming using F# and C# interactive console, but can be also used in 
+   efficient compiled .NET code. You can financial users of F# including BlueMountatin Capital 
+   in contributing to this library. 
+
 
 <br />
 
