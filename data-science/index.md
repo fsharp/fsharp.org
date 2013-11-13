@@ -18,6 +18,17 @@ with powerful libraries and scalable data integration. [Try F#](http://tryfsharp
 * [Machine Learning](/machine-learning) tutorials for F#
 * [Cloud Programming](/cloud) for cloud-scalable data, compute and messaging frameworks and clients for F#.
 
+
+### Exploratory Data and Time Series Programming
+
+[Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality package 
+for data and time series manipulation and for scientific programming. It supports working with 
+structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
+work well for exploratory programming using F# and C# interactive console, but can be also used in 
+efficient compiled .NET code. 
+
+If you are familiar with the Pandas library from Python or the 'tseries' package in R, then thispackage is for you.
+
 ### Interoperability with Excel, R, Python, MATLAB and Mathematica
 
 F# can integrate and interoperate with data-science systems such as 
