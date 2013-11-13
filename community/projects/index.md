@@ -18,6 +18,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library.
 
+<br />
 
 ### Community Projects: Foundational Libraries 
 
@@ -27,6 +28,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharpx](https://github.com/fsharp/fsharpx) - Extensions and Tools for F# Programming.
 
+<br />
 
 ### Community Projects: Development Tools
 
