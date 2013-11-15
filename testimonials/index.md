@@ -234,7 +234,7 @@ has proved a big success and great cost saver that we're in the process of rolli
 all of our social games!
 <div class="keywords">gaming, agents, cloud, big data, scalability</div>
 
-<a id="aimard-1" href="#">&nbsp;</a>
+<a id="simard-1" href="#">&nbsp;</a>
 ---
 
 
@@ -244,6 +244,7 @@ all of our social games!
 1. **Patrice Simard**
 2. Distinguished Engineer
 3. Microsoft 
+4. [permalink](#simard-1)
 
 I wrote the first prototype of the click prediction system deployed in Microsoft AdCenter in F# in a few days.  
  
