@@ -61,6 +61,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - The FSharp.Data type provider for Json. Contributions welcome.
 
+*  [FSharpComposableQueries](http://fsharp.github.io/FSharpComposableQuery/) - Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
+
 <br />
 
 ### Community Projects: Exploratory Data Science Programming
