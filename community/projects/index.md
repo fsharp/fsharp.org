@@ -51,15 +51,17 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Data](https://github.com/fsharp/FSharp.Data) - A library of F# type providers and data access tools. Contributions encouraged.
 
+  *  [Freebase Provider](http://fsharp.github.io/FSharp.Data/library/Freebase.html) - The FSharp.Data type provider for Freebase, which is a graph database containing over 23 million real-world entities. The Freebase type provider puts this information at your fingertips. Contributions welcome.
+    
+  *  [WorldBank Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html) - The FSharp.Data type provider for WorldBank, which has a data catalog of over 8000 development indicators and other data about countries in the world. Contributions welcome.
+
+  *  [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) - The FSharp.Data type provider for CSV. Contributions welcome.
+
+  *  [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) - The FSharp.Data type provider for JSON. Contributions welcome.
+
+  *  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - The FSharp.Data type provider for XML. Contributions welcome.
+
 *  [FSharp.Data.SqlCommandTypeProvider](https://github.com/dmitry-a-morozov/FSharp.Data.SqlCommandTypeProvider) - Use SQL to specify your queries. Contributors welcome!
-
-*  [Freebase Type Provider](http://fsharp.github.io/FSharp.Data/library/Freebase.html) - The FSharp.Data type provider for Freebase, which is a graph database containing over 23 million real-world entities. The Freebase type provider puts this information at your fingertips.
-
-*  [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) - The FSharp.Data type provider for CSV. Contributions welcome.
-
-*  [Json Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) - The FSharp.Data type provider for Json. Contributions welcome.
-
-*  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - The FSharp.Data type provider for Json. Contributions welcome.
 
 *  [FSharpComposableQueries](http://fsharp.github.io/FSharpComposableQuery/) - Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
