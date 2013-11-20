@@ -114,11 +114,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Visualization Tools
 
-* [FSharp.Charting](http://numerics.mathdotnet.com/) - A large collection of algorithms including 
-  linear algebra, special functions, statistics, probability models, interpolation and FFTs. Supports 
-  F# 3.0 with idiomatic extension modules. Contributions (especially fixes and cross-platform support) 
-  encouraged!
-
+* [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - The FSharp.Charting library implements charting
+  suitable for use from F# scripting.
 
 <br />
 
