@@ -163,10 +163,13 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Robert Jeppesen [@rojepp](http://twitter.com/rojepp), Durius
  * Morgan Persson [@lazydev](http://twitter.com/lazydev)
  * Ian Russell [@ijrussell](http://twitter.com/ijrussell)
- * Anthony Brown [@bruinbrown93](https://twitter.com/bruinbrown93)
+ * Anthony Brown [@bruinbrown93](http://twitter.com/bruinbrown93)
  * Goswin Rothenthal [Waagner Biro] (http://www.waagner-biro.com/en/divisions/steel-glass-structures/about)
  * Mark Seemann [@ploeh](https://twitter.com/ploeh)
  * César Octavio López Natarén
+ * [Samuel Bosch](http://www.samuelbosch.com ) [@gissolved](http://twitter.com/gissolved)
+ * Chris Holt [@lefthandedgoat](http://twitter.com/lefthandedgoat)
+ * [Victor Baybekov](http://fi.im/) [@buybackoff](http://twitter.com/buybackoff)
 
 ## Contact
 
