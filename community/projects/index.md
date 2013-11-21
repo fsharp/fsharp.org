@@ -63,7 +63,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Data.SqlCommandTypeProvider](https://github.com/dmitry-a-morozov/FSharp.Data.SqlCommandTypeProvider) - Use SQL to specify your queries. Contributors welcome!
 
-*  [FSharpComposableQueries](http://fsharp.github.io/FSharpComposableQuery/) - Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
+*  [FSharpComposableQueries](http://fsprojects.github.io/FSharpComposableQuery/) - An Experimental Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
 <br />
 
