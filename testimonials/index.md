@@ -1038,6 +1038,24 @@ There's an exciting future for F# in this huge, emerging, data-rich health care 
 
 <div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
 
+<a id="reminder-hero" href="#">&nbsp;</a>
+---
+
+> The power and flexibility of the language lets us ship features faster, with fewer bugs.
+
+1. **Marty Dill**
+2. [**Reminder Hero**](http://reminderhero.com)
+3. [permalink](#reminder-hero)
+
+All of our back-end data processing and parsing is done in F#. The power and flexibility of the
+language lets us ship features faster, with fewer bugs. Regressions are virtually nonexistent, and the
+functional nature of the language makes it easy to ensure that our code is testable.
+
+Our first iterations were written in C#, but after switching to F#, we saw a drastic reduction in code size,
+along with an increase in readability. We'll definitely be sticking with F# for all of our future projects.
+
+<div class="keywords">data, parsing, processing, readability</div>
+
 ### Additional Case Studies
 
 The following written or recorded case studies describe the benefits of F# for a range of enterprise scenarios:
