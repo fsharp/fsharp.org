@@ -33,7 +33,6 @@ Some resources are listed below:
  * [The SqlEntityConnection Type Provider](http://msdn.microsoft.com/en-us/library/hh361035.aspx) - For accessing SQL using F# 3.0 LINQ queries and Entity Framework
  * [ADO.NET](http://msdn.microsoft.com/en-us/library/aa286484.aspx) - A set of classes that expose data access services to the .NET programmer
  * [FSharp.Data.SqlCommandTypeProvider](https://github.com/dmitry-a-morozov/FSharp.Data.SqlCommandTypeProvider) - Use SQL to specify your queries. Contributors welcome!
- * [FSharpComposableQueries](http://fsharp.github.io/FSharpComposableQuery/) - Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
 ### Web Data Stores
 
