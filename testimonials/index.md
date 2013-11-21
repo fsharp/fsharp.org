@@ -354,8 +354,34 @@ software solves – Fixed Income securities trading optimization. It is also ver
 F# computation engine could be seamlessly integrated with other parts of .NET-based software product. 
 <div class="keywords">fixed income, trading, optimization, financial services</div>
 
-<a id="london-based-company" href="#">&nbsp;</a>
+<a id="early-warning-1" href="#">&nbsp;</a>
 ---
+
+> At a major Investment Bank, we used F# to build an Early Warning Indicator System for Liquidity Risk
+ 
+1. **Stephen Channell**
+2. Cepheis Ltd 
+3. [Case Study](http://docs.cepheis.com/present/Early%20Warning%20Indicators.pdf), [permalink](#early-warning-1)
+
+Early Warning Indicators is a standalone dashboard application to monitor real-time market 
+movements and highlight potential risk for further analysis. EWI subscribed to real-time equity, 
+Forex and commodity prices and needed to calculate Red/Amber/Green status in real-time for 
+tolerance breaches and to generate dashboard reports as needed.
+ 
+The business wanted the flexibility to define formulas using Excel expressions, but spreadsheet
+components could not cope with the data-rate without conflation and management didn’t want a 
+solution that relied on an Excel template and IT change control to add new indicators.
+ 
+F# was chosen for development productivity, performance of a cell framework implemented using 
+computation expressions; ease with which Excel expressions could be parsed as a DSL and .NET 
+integration with QALib, Market and timer-series data.
+ 
+Post implementation review highlighted that (given resource and time constraints) functionality 
+would have been sacrificed without F# and its associated tooling.
+ 
+<a id="london-based-company" href="#">&nbsp;</a>
+
+----
 
 > I keep being surprised by how compact and readable F# is...
 
