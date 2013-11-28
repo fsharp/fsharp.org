@@ -48,13 +48,15 @@ to F# can't be found, then search for C# instead and adjust the technique approp
 
 F# can be used in conjunction with Microsoft Excel in a number of interesting ways.
 
-##### Integrating F# and Excel through Tsunami-FCell
+##### Integrating F# and Excel through FCell
 
-[Tsunami](http://tsunami.io/) combined with [FCell](http://www.statfactory.co.uk/fcell-add-in/) enables you to
-dynamically extend Excel with new functions, behaviours, and data to create robust workflows and charts:
+[FCell](http://fcell.io) enables you to dynamically create Excel Ribbon, Custom Task Panes, and UDFs in F#, C# and VB. 
+FCell enables you to type F# directly into the spreadsheet and see your changes at a push of button. 
+Code and DLLs are embedded into the workbook and can be emailed to end users as a single spreadsheet. 
+Use all of the advanced F# features from Excel. For example, Async and Observables for non-blocking UDFs, WSDL Type Provider for a SOA backed Front Office, R Type Provider for Machine Learning, and the Hive Type Provider for Big Data.
 
- * [Tsunami home pages](http://tsunami.io/)
- * [Tsunami videos](http://tsunami.io/media.html) - videos of using Tsunami for Excel charting, Excel UDFs, GPGPU programming in Excel and more
+ * [FCell home pages](http://fcell.io/)
+ * [FCell features](http://fcell.io/tour.html)
 
 ##### Integrating F# and Excel through Excel-DNA
 
