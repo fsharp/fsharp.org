@@ -119,6 +119,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with intellisense, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
 
+*  ![logo](suave.png)&nbsp;[Suave](http://suave.io) - Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+
 <br />
 
 ### Community Projects: Interoperability 
