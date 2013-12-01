@@ -148,6 +148,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Testing Tools
 
+*  ![logo](FSharpTest.png)&nbsp;[FSharpTest](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) - NUnit Visual Studio Project template with sample failing tests in FsUnit, FsCheck, and Unquote.
+*  
 *  [FsUnit](https://github.com/fsharp/FsUnit) - Add F# functional syntax to NUnit, MbUnit, xUnit, and MsTest.
 
 *  [FsCheck](https://github.com/fsharp/FsCheck) - Random testing generator combinators, port of Haskell's QuickCheck.
