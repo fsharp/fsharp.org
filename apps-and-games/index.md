@@ -65,6 +65,8 @@ facilitates video game development and management.
 
 * [F# With XNA Game Studio](http://azerdark.wordpress.com/2011/04/05/f-with-xna-game-studio/)
   
+### Projects
 
+* ![fquake3_logo](https://raw.github.com/TIHan/FQuake3/master/fquake3_logo_32x32.png)[FQuake3](https://github.com/TIHan/FQuake3) - An attempt to re-implement id Software's Quake III Arena in F#.
 
 
