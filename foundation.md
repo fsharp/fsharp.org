@@ -136,7 +136,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * John Usher
  * Neil Danson [@neildanson](http://twitter.com/neildanson)
  * Quinton Coetzee [@qmcoetzee](http://twitter.com/qmcoetzee)
- * [Vijesh Shah](http://hymans.co.uk/why-us/our-people/vijesh-shah.aspx) [@vijesh](http://twitter.com/vijesh) - Partner and Head of Risk Modelling Systems at [Hymans Robertson](http://hymans.co.uk/)
+ * [Vijesh Shah](http://hymans.co.uk/why-us/our-people/vijesh-shah.aspx) [@vijesh](http://twitter.com/vijesh) 
  * Kunjan Dalal [@kunjee](https://twitter.com/kunjee)
  * Natallie Baikevich [@lu_a_jalla](https://twitter.com/lu_a_jalla)
  * Don Syme [@dsyme](https://twitter.com/dsyme)
