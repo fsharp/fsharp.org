@@ -28,6 +28,7 @@ Introductions to different machine learning algorithms with F#:
  * [Naïve Bayes Classification](http://clear-lines.com/blog/post/Naive-Bayes-Classification.aspx)
  * [Logistic Regression in F#](http://clear-lines.com/blog/post/Logistic-Regression.aspx)
  * [Support Vector Machine in F#: getting there](http://clear-lines.com/blog/post/Support-Vector-Machine-in-FSharp.aspx)
+ * [ENCOG Neural Network XOR example in F#](http://www.relentlessdevelopment.net/)
  * [AdaBoost in F#](http://clear-lines.com/blog/post/AdaBoost-classifier-in-FSharp.aspx)
  * [Support Vector Machines in F#](http://fdatamining.blogspot.co.uk/2011/02/support-vector-machines-svms-in-f-using.html)
  * [Kaggle/StackOverflow contest field notes](http://clear-lines.com/blog/post/Kaggle-StackOverflow-field-notes-part-1.aspx)
