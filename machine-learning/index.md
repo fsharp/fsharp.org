@@ -36,10 +36,16 @@ Introductions to different machine learning algorithms with F#:
 
 ### Machine Learning Packages 
 
-Several F#/.NET Machine Learning packages are available be [searching on nuget.org](http://nuget.org/packages?q=machine+learning), for example:
+Several F# machine learning packages are available. Some are accessed through F#'s interoperability mechanisms to R, Python and Java. .NET packages can be found by [searching on nuget.org](http://nuget.org/packages?q=machine+learning). For example:
+
 
  * [Accord.MachineLearning](http://nuget.org/packages/Accord.MachineLearning/) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
    * [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
+
+
+ * [R Packages](http://bluemountaincapital.github.io/FSharpRProvider/) - All R packages can be accessed through the [RProvider for F#](http://bluemountaincapital.github.io/FSharpRProvider/).
+   * [F# Neural Networks with the RProvider and Deedle](http://sergeytihon.wordpress.com/2013/11/18/f-neural-networks-with-rprovider-deedle/)
+
 
  * [Encog Machine Learning Framework](http://nuget.org/packages/encog-dotnet-core/) - An advanced neural network and machine learning framework. Encog 
    contains classes to create a wide variety of networks, as well as support classes to normalize and process data for these neural networks. Encog trains using multithreaded resilient propagation. Encog can also make use of a GPU to further speed processing time. A GUI based workbench is also provided to help model and train neural networks. 
