@@ -4,7 +4,7 @@ title: Data Science | The F# Software Foundation
 headline: Using F# for Data Science
 ---
 
-Data science brings techinques such as statistical analysis, machine learning, data visualization and programming to 
+Data science is the application of statistical analysis, machine learning, data visualization and programming to 
 real-world data sources to bring understanding and insight to data-oriented problem domains.
 
 F# is an excellent solution for programmatic data science as it combines efficient execution
@@ -27,7 +27,11 @@ structured data frames, ordered and unordered data, as well as time series. Deed
 work well for exploratory programming using F# and C# interactive console, but can be also used in 
 efficient compiled .NET code. 
 
-If you are familiar with the Pandas library from Python or the 'tseries' package in R, then thispackage is for you.
+* [Understanding the world with F# (article)](http://www.thedevelopermag.com/understanding-world-f/)
+* [Understanding the world with F# (video)](http://channel9.msdn.com/posts/Understanding-the-World-with-F)
+
+If you are familiar with the Pandas library from Python or the 'tseries' or 'zoo' packages in R, 
+then this package is for you. 
 
 ### Interoperability with Excel, R, Python, MATLAB and Mathematica
 
@@ -50,7 +54,7 @@ F# can be used in conjunction with Microsoft Excel in a number of interesting wa
 
 ##### Integrating F# and Excel through FCell
 
-[FCell](http://fcell.io) enables you to dynamically create Excel Ribbon, Custom Task Panes, and UDFs in F#, C# and VB. 
+[FCell](http://fcell.io) lets you dynamically create Excel Ribbon, Custom Task Panes, and UDFs in F#, C# and VB. 
 FCell enables you to type F# directly into the spreadsheet and see your changes at a push of button. 
 Code and DLLs are embedded into the workbook and can be emailed to end users as a single spreadsheet. 
 Use all of the advanced F# features from Excel. For example, Async and Observables for non-blocking UDFs, WSDL Type Provider for a SOA backed Front Office, R Type Provider for Machine Learning, and the Hive Type Provider for Big Data.
