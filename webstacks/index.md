@@ -12,7 +12,7 @@ F# is excellent for building scalable, robust web solutions:
  * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
  * *Open-source* and *Cross-platform*  - Like all good web tools!
 
-### Building FWeb Applications
+### Building Web Applications
 
 ##### WebSharper
 
