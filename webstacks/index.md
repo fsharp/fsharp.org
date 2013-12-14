@@ -62,7 +62,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
  * [ServiceStack](https://servicestack.net/)
 
-   [ServiceStack](https://servicestack.net/) is is a framework for simple and fast web services on .NET and Mono.
+   ServiceStack is is a framework for simple and fast web services on .NET and Mono.
 
    * [F# and ServiceStack Example 1](http://www.servicestack.net/mythz_blog/?p=785) - Web Services on any platform in and out of a web server! An async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
   
@@ -72,7 +72,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
  * Serving Requests with IHttpHandlers 
 
-   Do it the simple way, and serve web requests direct from code.
+   Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
 
    * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
 
