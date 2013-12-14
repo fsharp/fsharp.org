@@ -12,6 +12,10 @@ F# is excellent for building scalable, robust web solutions:
  * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
  * *Open-source* and *Cross-platform*  - Like all good web tools!
 
+F# also shines in the area of web API development through frameworks like  [ServiceStack](http://www.servicestack.net/), [Web API](http://www.asp.net/web-api), [Frank](https://github.com/frank-fs/frank) and
+[NancyFx](http://nancyfx.org/).
+
+
 ## Frameworks for Web Applications
 
 
@@ -38,47 +42,46 @@ F# is excellent for building scalable, robust web solutions:
 
 
  
-## Building Server-Side Web APIs
+## Frameworks for Server-Side Web APIs
 
-F# shines in the area of Web API development through frameworks like  [ServiceStack](http://www.servicestack.net/), [Web API 2.0](http://www.asp.net/web-api), [Frank](https://github.com/frank-fs/frank) and
-[NancyFx](http://nancyfx.org/).
+ * [Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
 
-#### Pure F# Web API 2.0
+   [Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft.
+   The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
+   These templates provide a Pure F# project for implementing a web API with Web API 2.0.
+   Everything is implemented in F#.
 
-[Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft.
-
-The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
-These templates provide a Pure F# project for implementing a web API with Web API 2.0.
-Everything is implemented in F#.
-
-Some resources on using F# with Web API:
+   Some resources on using F# with Web API:
 
    * [How to create a pure F# ASP.NET Web API project](http://blog.ploeh.dk/2013/08/23/how-to-create-a-pure-f-aspnet-web-api-project/)
 
    * [Running a pure F# ASP.NET Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
 
-   * [F# Azure Worker Role with OWIN and Web API](https://github.com/panesofglass/AzureFSharpOwin) - Web services in an Azure worker role using OWIN with only F#
-
    * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
 
 
-#### Using ServiceStack
+ * [ServiceStack](https://servicestack.net/)
 
-[ServiceStack](https://servicestack.net/) is is a framework for simple and fast web services on .NET and Mono.
+   [ServiceStack](https://servicestack.net/) is is a framework for simple and fast web services on .NET and Mono.
 
- * [F# and ServiceStack Example 1](http://www.servicestack.net/mythz_blog/?p=785) - Web Services on any platform in and out of a web server! An async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
- * [F# and ServiceStack Example 2](http://www.servicestack.net/mythz_blog/?p=811) - An Async, Cached Twitter API Proxy in F#
- * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
+   * [F# and ServiceStack Example 1](http://www.servicestack.net/mythz_blog/?p=785) - Web Services on any platform in and out of a web server! An async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
+  
+   * [F# and ServiceStack Example 2](http://www.servicestack.net/mythz_blog/?p=811) - An Async, Cached Twitter API Proxy in F#
 
-#### Serving Requests with IHttpHandlers 
+   * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
 
- * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
- * [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
-    (Visual Studio, ASP.NET)Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
+ * Serving Requests with IHttpHandlers 
 
-#### Making WSDL Services
+   Do it the simple way, and serve web requests direct from code.
 
- * [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
+   * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
+
+   * [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
+     (Visual Studio, ASP.NET)Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
+
+ * Making WSDL Services
+
+   * [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
 
 
 
