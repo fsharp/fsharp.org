@@ -12,14 +12,14 @@ F# is excellent for building scalable, robust web solutions:
  * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
  * *Open-source* and *Cross-platform*  - Like all good web tools!
 
-### Building Web Applications
+## Building Web Applications
 
-##### WebSharper
+#### WebSharper
 
 [WebSharper](http://www.websharper.com/home) allows end-to-end web applications with both client and server developed in F#. 
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
-##### Pure F# ASP.NET MVC
+#### Pure F# ASP.NET MVC
 
 [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft. 
 
@@ -28,16 +28,16 @@ allows a Pure F# project for implementing a web application with ASP.NET MVC 5.
 Views are implemented in HTML5 using modern Javascript frameworks. 
 Models and controllers are implemented in F#.
 
-##### FunScript
+#### FunScript
 
 [FunScript](http://funscript.info/) is an F# to JavaScript converter with TypeScript interoperability.
 
-##### NancyFx
+#### NancyFx
 
 [NancyFx](https://github.com/NancyFx/Nancy) is a lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
 
-##### Older ASP.NET MVC using two projects (one F#, one C#)
+#### Older ASP.NET MVC using two projects (one F#, one C#)
 
 When using MVC ASP.NET 3 or 4, mixed C#/F# ASP.NET MVC are used. In this approach, views are 
 implemented in HTML with some C#. Models and controllers are implemented in F#.
@@ -52,12 +52,12 @@ implemented in HTML with some C#. Models and controllers are implemented in F#.
    include templates for ASP.NET MVC 3 (ASPX/Razor). 
 
  
-### Building Server-Side Web APIs
+## Building Server-Side Web APIs
 
 F# shines in the area of Web API development through frameworks like  [ServiceStack](http://www.servicestack.net/), [Web API 2.0](http://www.asp.net/web-api), [Frank](https://github.com/frank-fs/frank) and
 [NancyFx](http://nancyfx.org/).
 
-##### Pure F# Web API 2.0
+#### Pure F# Web API 2.0
 
 [Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft.
 
@@ -76,7 +76,7 @@ Some resources on using F# with Web API:
    * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
 
 
-##### Using ServiceStack
+#### Using ServiceStack
 
 [ServiceStack](https://servicestack.net/) is is a framework for simple and fast web services on .NET and Mono.
 
@@ -84,24 +84,24 @@ Some resources on using F# with Web API:
  * [F# and ServiceStack Example 2](http://www.servicestack.net/mythz_blog/?p=811) - An Async, Cached Twitter API Proxy in F#
  * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
 
-##### Serving Requests with IHttpHandlers 
+#### Serving Requests with IHttpHandlers 
 
  * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
  * [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
     (Visual Studio, ASP.NET)Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
 
-##### Making WSDL Services
+#### Making WSDL Services
 
  * [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
 
-### Hosting
+## Hosting
 
 Common hosting options are:
  * [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku)
  * [Azure Web Sites](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
  * [AppHarbor](http://appharbor.com/) - Free hosting of .NET web applications
 
-### Scaling to the Cloud
+## Scaling to the Cloud
 
 The [Cloud Programming](/cloud) section contains more details on cloud programming with F#.
 Some specific resources related to web programming are:
@@ -110,7 +110,7 @@ Some specific resources related to web programming are:
  * [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
  * [Using F# and C# with Amazon EC2 Elastic Map/Reduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
-#### Unit Testing Libraries
+## Unit Testing Libraries
 
 It is common to create a suite of unit tests when building web solutions. A list of open source 
 libraries that assist with unit testing is available here:
@@ -127,22 +127,19 @@ Here are a few Visual Studio 2012 project templates available for building unit 
  * [F# MsTest Project](http://visualstudiogallery.msdn.microsoft.com/51ebe64a-899b-4959-8c24-b0148ed6b264)
  * [F# Unit Test Template (MSTest)](http://visualstudiogallery.msdn.microsoft.com/432eb82c-345e-4502-be56-015fe051a210)
 
-### Client-side Testing
+## Client-side Testing
 
  * [canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and concise. You can easily leverage your existing .Net code to help you test.
  
-### Books
+## Books
 
 Several books have been written that include information on building web applications with F#:
 
  * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Web-Cloud-Mobile-Solutions/dp/1449333761) 
  * [Expert F# 3.0](http://www.amazon.com/Expert-F-3-0-Apress/dp/1430246502/ref=sr_1_2?s=books&ie=UTF8&qid=1353176560&sr=1-2&keywords=F%23)
- * [Programming F# 3.0](http://www.amazon.com/Programming-F-3-0-Chris-Smith/dp/1449320295/ref=sr_1_1?s=books&ie=UTF8&qid=1353176560&sr=1-1&keywords=F%23)
- * [Professional F# 2.0](http://www.amazon.com/Professional-F-2-0-Ted-Neward/dp/047052801X/ref=sr_1_9?s=books&ie=UTF8&qid=1353176560&sr=1-9&keywords=F%23)
- * [Real-World Functional Programming: With Examples in F# and C#](http://www.amazon.com/Real-World-Functional-Programming-Tomas-Petricek/dp/1933988924/ref=sr_1_5?s=books&ie=UTF8&qid=1353176560&sr=1-5&keywords=F%23) 
 
 
-### Presentations
+## Presentations
 
 There are  several presentations and tutorials available that include information on 
 build web applications with F#:
