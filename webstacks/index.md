@@ -12,31 +12,35 @@ F# is excellent for building scalable, robust web solutions:
  * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
  * *Open-source* and *Cross-platform*  - Like all good web tools!
 
-### Building Web Applications:
+### Building FWeb Applications
 
-Some specific options for web application development are:
+##### WebSharper
 
- * [WebSharper](http://www.websharper.com/home) 
- 
-   WebSharper allows end-to-end web applications with both client and server developed in F#. 
-   It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
+[WebSharper](http://www.websharper.com/home) allows end-to-end web applications with both client and server developed in F#. 
+It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
- * [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
- 
-   [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft. 
-   Views are implemented in HTML5 using frameworks using like Bootstrap and Angular. 
-   Models and controllers are implemented in F#.
+##### Pure F# ASP.NET MVC
 
-   The [Pure F# Web Templates (Visual Studio, ASP.NET MVC 5)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
-   These templates provide a Pure F# project for implementing a web application with ASP.NET MVC 5.
+[ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft. 
 
- * [FunScript](http://funscript.info/) - An F# to JavaScript converter with TypeScript interoperability.
+[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+allows a Pure F# project for implementing a web application with ASP.NET MVC 5.
+Views are implemented in HTML5 using modern Javascript frameworks. 
+Models and controllers are implemented in F#.
 
- * [NancyFx](https://github.com/NancyFx/Nancy) is a lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
+##### FunScript
 
- * [PicoMvc](https://github.com/robertpi/PicoMvc) is a micro framework for F# web programming.
+[FunScript](http://funscript.info/) is an F# to JavaScript converter with TypeScript interoperability.
 
- * [Mixed C#/F# ASP.NET MVC]. In this approach, views are implemented in HTML with some C#. Models and controllers are implemented in F#.
+##### NancyFx
+
+[NancyFx](https://github.com/NancyFx/Nancy) is a lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
+
+
+##### Older ASP.NET MVC using mixed F#/C# 
+
+When using MVC ASP.NET 3 or 4, mixed C#/F# ASP.NET MVC are used. In this approach, views are 
+implemented in HTML with some C#. Models and controllers are implemented in F#.
 
    * The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 4)](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095)  
    include templates for ASP.NET MVC 4 (ASPX/Razor) and Single Page Applications with Backbone.js or Knockout.js.
@@ -48,21 +52,20 @@ Some specific options for web application development are:
    include templates for ASP.NET MVC 3 (ASPX/Razor). 
 
  
-### Building Server-Side Web APIs:
+### Building Server-Side Web APIs
 
-F# shines in the area of Web API development through frameworks like  [ServiceStack](http://www.servicestack.net/), [ASP.NET Web API](http://www.asp.net/web-api), [Frank](https://github.com/frank-fs/frank) and
+F# shines in the area of Web API development through frameworks like  [ServiceStack](http://www.servicestack.net/), [Web API 2.0](http://www.asp.net/web-api), [Frank](https://github.com/frank-fs/frank) and
 [NancyFx](http://nancyfx.org/).
 
 ##### Pure F# Web API 2.0
 
- * *Pure F# ASP.NET Web API 2.0* - [Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft.
-   Views are implemented in HTML5 using frameworks using like Bootstrap and Angular. 
-   Models and controllers are implemented in F#.
+[Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft.
 
-   * The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
-     These templates provide a Pure F# project for implementing a web API with Web API 2.0.
+The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
+These templates provide a Pure F# project for implementing a web API with Web API 2.0.
+Everything is implemented in F#.
 
-   Some resources on using F# with Web API:
+Some resources on using F# with Web API:
 
    * [How to create a pure F# ASP.NET Web API project](http://blog.ploeh.dk/2013/08/23/how-to-create-a-pure-f-aspnet-web-api-project/)
 
