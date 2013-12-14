@@ -12,44 +12,31 @@ F# is excellent for building scalable, robust web solutions:
  * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
  * *Open-source* and *Cross-platform*  - Like all good web tools!
 
-## Building Web Applications
-
-#### WebSharper
-
-[WebSharper](http://www.websharper.com/home) allows end-to-end web applications with both client and server developed in F#. 
-It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
-
-#### Pure F# ASP.NET MVC
-
-[ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft. 
-
-[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
-allows a Pure F# project for implementing a web application with ASP.NET MVC 5.
-Views are implemented in HTML5 using modern Javascript frameworks. 
-Models and controllers are implemented in F#.
-
-#### FunScript
-
-[FunScript](http://funscript.info/) is an F# to JavaScript converter with TypeScript interoperability.
-
-#### NancyFx
-
-[NancyFx](https://github.com/NancyFx/Nancy) is a lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
+## Frameworks for Web Applications
 
 
-#### Older ASP.NET MVC using two projects (one F#, one C#)
+* ![logo](/community/projects/WebSharper.png)&nbsp;[WebSharper](http://www.websharper.com/home) 
 
-When using MVC ASP.NET 3 or 4, mixed C#/F# ASP.NET MVC are used. In this approach, views are 
-implemented in HTML with some C#. Models and controllers are implemented in F#.
+  WebSharper allows end-to-end web applications with both client and server developed in F#. 
+  It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
-   * The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 4)](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095)  
-   include templates for ASP.NET MVC 4 (ASPX/Razor) and Single Page Applications with Backbone.js or Knockout.js.
+* [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
-   * The [F#/C# Web Templates (Xamarin Studio, ASP.NET MVC 4)](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) 
-   are a similar set of cross-platform templates for MonoDevelop. 
+  [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft.  
+  [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+  allows a Pure F# project for implementing a web application with ASP.NET MVC 5.
+  Views are implemented in HTML5 using modern Javascript frameworks. 
+  Models and controllers are implemented in F#.
 
-   * The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 3](http://visualstudiogallery.msdn.microsoft.com/f57aa816-e96b-4133-ab5d-9b9b99914ead) 
-   include templates for ASP.NET MVC 3 (ASPX/Razor). 
+* [FunScript](http://funscript.info/) 
+
+  FunScript is an F# to JavaScript converter with TypeScript interoperability.
+
+* [NancyFx](https://github.com/NancyFx/Nancy) 
+
+  NancyFx is a lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono.
+  [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
+
 
  
 ## Building Server-Side Web APIs
@@ -93,6 +80,8 @@ Some resources on using F# with Web API:
 #### Making WSDL Services
 
  * [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
+
+
 
 ## Hosting
 
@@ -149,6 +138,20 @@ build web applications with F#:
  * [Building Data-Driven Websites](http://msdn.microsoft.com/en-us/library/hh273072.aspx)
  * [F# 3.0: data, services, Web, cloud, at your fingertips](http://channel9.msdn.com/Events/Build/BUILD2011/SAC-904T)
  * [F# Introduction](http://skillsmatter.com/podcast/scala/phil-trelford-f-introduction)
+
+### Older ASP.NET MVC using two projects (one F#, one C#)
+
+When using MVC ASP.NET 3 or 4, mixed C#/F# ASP.NET MVC are used. In this approach, views are 
+implemented in HTML with some C#. Models and controllers are implemented in F#.
+
+   * The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 4)](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095)  
+   include templates for ASP.NET MVC 4 (ASPX/Razor) and Single Page Applications with Backbone.js or Knockout.js.
+
+   * The [F#/C# Web Templates (Xamarin Studio, ASP.NET MVC 4)](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) 
+   are a similar set of cross-platform templates for MonoDevelop. 
+
+   * The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 3](http://visualstudiogallery.msdn.microsoft.com/f57aa816-e96b-4133-ab5d-9b9b99914ead) 
+   include templates for ASP.NET MVC 3 (ASPX/Razor). 
 
 ### Silverlight Applications: 
 
