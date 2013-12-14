@@ -22,8 +22,7 @@ F# is excellent for building scalable, robust web solutions:
 
 * [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
-  [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft.  
-  [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+  [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft.  [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
   allows a Pure F# project for implementing a web application with ASP.NET MVC 5.
   Views are implemented in HTML5 using modern Javascript frameworks. 
   Models and controllers are implemented in F#.
