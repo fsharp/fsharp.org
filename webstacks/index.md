@@ -37,7 +37,7 @@ Models and controllers are implemented in F#.
 [NancyFx](https://github.com/NancyFx/Nancy) is a lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
 
-##### Older ASP.NET MVC using mixed F#/C# 
+##### Older ASP.NET MVC using two projects (one F#, one C#)
 
 When using MVC ASP.NET 3 or 4, mixed C#/F# ASP.NET MVC are used. In this approach, views are 
 implemented in HTML with some C#. Models and controllers are implemented in F#.
