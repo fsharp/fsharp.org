@@ -16,17 +16,19 @@ F# is excellent for building scalable, robust web solutions:
 
 Some specific options for web application development are:
 
- * [WebSharper](http://www.websharper.com/home) - Allows end-to-end web applications with both client and server developed in F#. 
+ * [WebSharper](http://www.websharper.com/home) 
+ 
+   WebSharper allows end-to-end web applications with both client and server developed in F#. 
+   It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
-   WebSharper includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
-
- * *Pure F# ASP.NET MVC* - [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft. 
+ * [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+ 
+   [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft. 
    Views are implemented in HTML5 using frameworks using like Bootstrap and Angular. 
    Models and controllers are implemented in F#.
 
-   * The [Pure F# Web Templates (Visual Studio, ASP.NET MVC 5)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
-     These templates provide a Pure F# project for implementing a web application with ASP.NET MVC 5.
-
+   The [Pure F# Web Templates (Visual Studio, ASP.NET MVC 5)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
+   These templates provide a Pure F# project for implementing a web application with ASP.NET MVC 5.
 
  * [FunScript](http://funscript.info/) - An F# to JavaScript converter with TypeScript interoperability.
 
