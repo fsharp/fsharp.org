@@ -18,7 +18,7 @@ instructions.
 
 ### Open-source libraries
 
- * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
+ * ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
    a large collection of algorithms needed in science and engineering, including linear algebra, 
    special functions, statistics, probability models, interpolation and FFTs. 
 
