@@ -85,7 +85,7 @@ There are also some F# versions of Excel functions, useful when migrating code:
 
 
 <a id="r-interop" href="#">&nbsp;</a>
-### R Integration 
+### F# and R
 
 Resources:
 
@@ -94,7 +94,7 @@ Resources:
  * [RDotNet.FSharp](https://www.nuget.org/packages/RDotNet.FSharp) - There's also an alpha-release graphics engine package, RDotNet.Graphics.
 
 <a id="matlab-interop" href="#">&nbsp;</a>
-### MATLAB Integration
+### F# and MATLAB 
 
 Resources:
 
@@ -102,14 +102,14 @@ Resources:
  * [Integrating MATLAB with F# and C#](http://www.mathworks.com/matlabcentral/fileexchange/12987) - techniques to call MATLAB from C#, F# and other .NET languages
 
 <a id="python-interop" href="#">&nbsp;</a>
-### Python Integration
+### F# and Python 
 
 Resources:
 
  * [Python for .NET](http://pythonnet.sourceforge.net/readme.html) - Allows Python to be integrated into F# and C# programs
 
 <a id="mathematica-interop" href="#">&nbsp;</a>
-### Mathematica Integration
+### F# and Mathematica
 
 Resources:
 
