@@ -26,15 +26,15 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Enterprise](https://github.com/colinbull/FSharp.Enterprise) - A collection of helpers for enterprise development with F#.
 
-*  ![logo](FSharpx.png)&nbsp;[FSharpx](https://github.com/fsharp/fsharpx) - Extensions and Tools for F# Programming.
+*  ![logo](/images/thumbs/FSharpx.png)&nbsp;[FSharpx](https://github.com/fsharp/fsharpx) - Extensions and Tools for F# Programming.
 
 <br />
 
 ### Community Projects: Development Tools
 
-*  ![logo](FsEye.png)&nbsp;[FsEye](https://code.google.com/p/fseye/) - A visual object tree inspector for the F# Interactive
+*  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](https://code.google.com/p/fseye/) - A visual object tree inspector for the F# Interactive
 
-*  ![logo](FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
+*  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
 *  [Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter
 
@@ -49,7 +49,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Data Access
 
-*  ![logo](FSharp.Data.png)&nbsp;[FSharp.Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
+*  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[FSharp.Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
 
     *  [Freebase Provider](http://fsharp.github.io/FSharp.Data/library/Freebase.html) - The Freebase graph database contains information on over 23 million real-world entities. The Freebase type provider puts this information at your fingertips.
     
@@ -63,7 +63,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
     *  [Apiary Type Provider](http://fsharp.github.io/FSharp.Data/experimental/ApiaryProvider.html) - An experimental type provider that makes it possible to easily call REST services that are documented using the apiary.io service.
 
-*  ![logo](SqlCommandProvider.png)&nbsp;[FSharp.Data.Experimental.SqlCommandProvider](http://fsprojects.github.io/FSharp.Data.Experimental.SqlCommandProvider/) - Use SQL to specify your queries. Contributors welcome!
+*  ![logo](/images/thumbs/SqlCommandProvider.png)&nbsp;[FSharp.Data.Experimental.SqlCommandProvider](http://fsprojects.github.io/FSharp.Data.Experimental.SqlCommandProvider/) - Use SQL to specify your queries. Contributors welcome!
 
 *  [FSharp.Linq.Experimental.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.Experimental.ComposableQuery/) - An Experimental Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
@@ -71,7 +71,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Exploratory Data Science Programming
 
-*  ![logo](Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) - Deedle is an open, easy to use library for data
+*  ![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) - Deedle is an open, easy to use library for data
    and time series manipulation and for scientific programming. It supports working with structured data 
    frames, ordered and unordered data, as well as time series. Deedle is designed to work well for 
    exploratory programming using F# and C# interactive console, but can be also used in 
@@ -83,14 +83,14 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Visualization Tools
 
-*  ![logo](FSharp.Charting.png)&nbsp;[FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - The FSharp.Charting library implements charting
+*  ![logo](/images/thumbs/FSharp.Charting.png)&nbsp;[FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - The FSharp.Charting library implements charting
    suitable for use from F# scripting.
 
 <br />
 
 ### Community Projects: Math Libraries
 
-*  ![logo](MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - A large collection of 
+*  ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - A large collection of 
    algorithms including linear algebra, special functions, statistics, probability models, 
    interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
   
@@ -113,19 +113,19 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Web Tools
 
-*  ![logo](WebSharper.png)&nbsp;[WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform 
+*  ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform 
    including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open 
    source and on bitbucket.org. Contributors welcome!
 
 *  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with intellisense, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
 
-*  ![logo](suave.png)&nbsp;[Suave](http://suave.io) - Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+*  ![logo](/images/thumbs/suave.png)&nbsp;[Suave](http://suave.io) - Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
 <br />
 
 ### Community Projects: Interoperability 
 
-*  ![logo](FSharpRProvider.png)&nbsp;[The R Type Provider for F#](http://github.com/BlueMountainCapital/FSharpRProvider#f-r-provider/) - An F# type 
+*  ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[The R Type Provider for F#](http://github.com/BlueMountainCapital/FSharpRProvider#f-r-provider/) - An F# type 
    provider for higher-fidelity integration between F# and R. Primary contributors are BlueMountain Capital, a hedge
    fund, other contributors are warmly welcomed.
 
@@ -148,15 +148,15 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Testing Tools
 
-*  ![logo](FSharpTest.png)&nbsp;[FSharpTest](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) - NUnit Visual Studio Project template with sample failing tests in FsUnit, FsCheck, and Unquote.
+*  ![logo](/images/thumbs/FSharpTest.png)&nbsp;[FSharpTest](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) - NUnit Visual Studio Project template with sample failing tests in FsUnit, FsCheck, and Unquote.
 
 *  [FsUnit](https://github.com/fsharp/FsUnit) - Add F# functional syntax to NUnit, MbUnit, xUnit, and MsTest.
 
 *  [FsCheck](https://github.com/fsharp/FsCheck) - Random testing generator combinators, port of Haskell's QuickCheck.
 
-*  ![logo](Unquote.png)&nbsp;[Unquote](https://code.google.com/p/unquote/) - F# unit test assertions as quoted expressions and step-by-step failure messages.
+*  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](https://code.google.com/p/unquote/) - F# unit test assertions as quoted expressions and step-by-step failure messages.
 
-*  ![logo](canopy.jpg)&nbsp;[canopy](http://lefthandedgoat.github.io/canopy/) - F#rictionless web testing with Selenium.
+*  ![logo](/images/thumbs/canopy.jpg)&nbsp;[canopy](http://lefthandedgoat.github.io/canopy/) - F#rictionless web testing with Selenium.
 
 *  [TickSpec](http://tickspec.codeplex.com/) A lightweight F# Behaviour Driven Development (BDD) framework
 
@@ -169,7 +169,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [ParsecClone](https://github.com/devshorts/ParsecClone) A fparsec subset clone that works on generalized stream classes
 
-*  ![logo](YaccConstructor.jpg)&nbsp;[YaccConstructor](https://recursive-ascent.googlecode.com) Platform for grammarware research and development
+*  ![logo](/images/thumbs/YaccConstructor.jpg)&nbsp;[YaccConstructor](https://recursive-ascent.googlecode.com) Platform for grammarware research and development
 
 
 <br />

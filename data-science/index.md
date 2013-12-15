@@ -21,7 +21,7 @@ with powerful libraries and scalable data integration. [Try F#](http://tryfsharp
 
 ### Exploratory Data and Time Series Programming
 
-![logo](Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality 
+![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality 
 package for data and time series manipulation and for scientific programming. It supports working with 
 structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
 work well for exploratory programming using F# and C# interactive console, but can be also used in 
@@ -89,7 +89,7 @@ There are also some F# versions of Excel functions, useful when migrating code:
 
 Resources:
 
- * ![logo](FSharpRProvider.png)&nbsp;[R Type Provider for F#](http://bluemountaincapital.github.io/FSharpRProvider) - An F# type provider for higher-fidelity integration between F# and R
+ * ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[R Type Provider for F#](http://bluemountaincapital.github.io/FSharpRProvider) - An F# type provider for higher-fidelity integration between F# and R
  * [R.NET](http://rdotnet.codeplex.com) - Core interoperability component used by the R Type Provider with some F# extensions.
 
 <a id="matlab-interop" href="#">&nbsp;</a>

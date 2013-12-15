@@ -19,12 +19,12 @@ F# also shines in the area of web API development through frameworks like  [Serv
 ## Frameworks for Web Applications
 
 
-* ![logo](WebSharper.png)&nbsp;[WebSharper](http://www.websharper.com/home) 
+* ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://www.websharper.com/home) 
 
   WebSharper allows end-to-end web applications with both client and server developed in F#. 
   It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
-* ![logo](aspnet.png)&nbsp;[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+* ![logo](/images/thumbs/aspnet.png)&nbsp;[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
   [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft.  [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
   allows a Pure F# project for implementing a web application with ASP.NET MVC 5.
