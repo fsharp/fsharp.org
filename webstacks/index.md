@@ -44,7 +44,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
  
 ## Frameworks for Server-Side Web APIs
 
- * ![logo](aspnet.png)&nbsp;[Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
+ * ![logo](/images/thumbs/aspnet.png)&nbsp;[Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
 
    [Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft.
    The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
