@@ -106,6 +106,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: GPGPU Execution
 
+*  [Alea.cuBase](http://blog.quantalea.net/) - Professional GPGPU programming with F# and CUDA(TM). 
+
 *  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL 
    translator. 
 
@@ -138,14 +140,16 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider 
    for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
 
-*  [f0](https://bitbucket.org/pchiusano/f0) - A binary [de]serialization combinator library, with binary-format 
-   phantom types and a compatible Scala partner implementation.
+*  [The Python Type Provider for F# (experimental)](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Python type provider for F#.
 
 *  [PowerShellTypeProvider](https://github.com/sergey-tihon/PowerShellTypeProvider) - PowerShell type provider.
 
 <br />
 
 ### Community Projects: Distribution Tools
+
+*  [f0](https://bitbucket.org/pchiusano/f0) - A binary [de]serialization combinator library, with binary-format 
+   phantom types and a compatible Scala partner implementation.
 
 *  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) A fast, general-purpose binary serializer for 
    .NET written in F# that doubles as a pickler combinator library.
