@@ -111,6 +111,12 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 <br />
 
+### Community Projects: Financial Calculations
+
+*  [ExcelFinancialFunctions](https://github.com/fsprojects/ExcelFinancialFunctions) - Excel Financial functions, implemented in F#, with a high degree of conformance testing. 
+
+<br />
+
 ### Community Projects: Web Tools
 
 *  ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform 
