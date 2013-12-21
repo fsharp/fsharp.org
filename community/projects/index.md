@@ -113,9 +113,12 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 <br />
 
-### Community Projects: Financial Calculations
+### Community Projects: Financial Calculations and Data
 
 *  [ExcelFinancialFunctions](https://github.com/fsprojects/ExcelFinancialFunctions) - Excel Financial functions, implemented in F#, with a high degree of conformance testing. 
+
+*  [The Xenomorph Provider for F#](http://fsprojects.github.io/FSharp.Data.Experimental.XenomorphProvider/) - Connects F# to Xenomorph TimeScape(TM) using a type provider.
+
 
 <br />
 
@@ -173,13 +176,16 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 <br />
 
-### Community Projects: Parsing Tools
+### Community Projects: Parsing and Compiler Tools
 
 *  [FParsec](http://www.quanttec.com/fparsec/) A parser combinator library for F#
 
 *  [ParsecClone](https://github.com/devshorts/ParsecClone) A fparsec subset clone that works on generalized stream classes
 
 *  ![logo](/images/thumbs/YaccConstructor.jpg)&nbsp;[YaccConstructor](https://recursive-ascent.googlecode.com) Platform for grammarware research and development
+
+*  [LLVM-FS](https://github.com/fsprojects/llvm-fs) - LLVM bindings for F#
+
 
 
 <br />
