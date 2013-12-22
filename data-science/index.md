@@ -81,7 +81,7 @@ F# can interoperate with Excel through existing Excel APIs. For example:
 
 There are also some F# versions of Excel functions, useful when migrating code:
 
- * [Excel Financial Functions for .NET](http://archive.msdn.microsoft.com/FinancialFunctions)
+ * [Excel Financial Functions for .NET](https://github.com/fsprojects/ExcelFinancialFunctions)
 
 
 <a id="r-interop" href="#"> </a>
