@@ -5,15 +5,17 @@ headline: Use F# on Windows
 ---
 
 
-### Option 1: Install F# and Visual Studio
+### Option 1: Install the Visual F# Tools from Microsoft
 
-If you already have Visual Studio 2012 Ultimate or Professional, then you already have F#. If not, then either get a [trial edition](http://www.microsoft.com/visualstudio/eng#downloads+d-2012-editions); or
+![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
+
+If you already have Visual Studio 2012 or 2013 (Ultimate or Professional), then you already have F#. If not, then either get a [trial edition](http://www.microsoft.com/visualstudio/eng#downloads+d-2012-editions); or
 
 1. [Install the Visual F# Express Tools](http://go.microsoft.com/fwlink/?LinkID=261287)
-2. See [fsharp.net](http://fsharp.net) for more information about Visual F# from Microsoft. 
+2. See [fsharp.net](http://fsharp.net) for more information about the Visual F# Tools from Microsoft. 
 
 You can also use a different editor and the command-line compiler (fsc.exe) or F# Interactive (fsi.exe) 
-after you have installed Visual F#.
+after you have installed the Visual F# Tools.
 
 #### Note to ReSharper users ####
 When some versions of ReSharper are installed, the `Alt+Enter` shortcut key for the `Execute in Interactive`
@@ -25,22 +27,9 @@ To enable this, either upgrade to ReSharper 8.0.10.1959 or greater, or install t
 
 <br />
 
-### Option 2: Install Tsunami
+### Option 2: Install F# and Xamarin Studio 
 
-[Tsunami](http://tsunami.io) is an innovative fully featured F# IDE. 
-It has a number of unique features ideally suited for Big Data, Data Science and Machine Learning. It is capable of being embedded directly into other Desktop Applications and Websites.
-
-- Desktop: Install MSI from [Download](http://tsunami.io/download.html)
-- Browser: Embed the object in [Cloud Tsunami](http://tsunami.io/cloud_tsunami.html)
-
-
-<br />
-
-### Option 3: Install F# and Xamarin Studio 
-
-[Xamarin Studio](http://xamarin.com/studio) is a freemium IDE for mobile app development. 
-[MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be 
-used with both.
+![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with commercial add-ins for mobile development. [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be used with either.
 
 1. Install [the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) 
 2. Install [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) for Windows
@@ -48,7 +37,8 @@ used with both.
 
 <br />
 
-### Option 4: Install the F# compiler and tools alone
+
+### Option 3: Install the F# compiler and tools alone
 
 If you're just looking for a compiler and/or F# Interactive, e.g. for a build server or cloud VM image, then:
 
@@ -81,15 +71,27 @@ The compiler tools are installed at
     
 <br />
 
+### Option 4: Install Tsunami
+
+[Tsunami](http://tsunami.io) is an innovative fully featured F# IDE. 
+It has a number of unique features ideally suited for Big Data, Data Science and Machine Learning. It is capable of being embedded directly into other Desktop Applications and Websites.
+
+- Desktop: Install MSI from [Download](http://tsunami.io/download.html)
+- Browser: Embed the object in [Cloud Tsunami](http://tsunami.io/cloud_tsunami.html)
+
+
+<br />
+
+
 ### Option 5: Build HTML5 web apps or WinJS Windows Store apps
 
-* [Using F# for HTML5 Web Applications](/use/html5)
+* ![logo](/images/thumbs/WebSharper.png)&nbsp;[Using F# for HTML5 Web Applications](/use/html5)
 
 <br />
 
 ### Option 6: Learn F# in the Browser
 
-* [Learn F# online at Try F#](http://tryfsharp.org)
+* ![logo](/images/thumbs/tryfsharp.png)&nbsp;[Learn F# online at Try F#](http://tryfsharp.org)
 
 <br />
 
