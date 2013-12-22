@@ -40,7 +40,7 @@ the content (so please add some, even though they are not used at the moment).
 
 -->
 
-<a id="simon-cousins-1" href="#">&nbsp;</a>
+<a id="simon-cousins-1" href="#"> </a>
 ---
 
 > The use of F# demonstrates a sweet spot for the language within enterprise software
