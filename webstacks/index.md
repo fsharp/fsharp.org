@@ -60,7 +60,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
    * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
 
 
- * [ServiceStack](https://servicestack.net/)
+ * ![logo](/images/thumbs/servicestack.png)&nbsp;[ServiceStack](https://servicestack.net/)
 
    ServiceStack is is a framework for simple and fast web services on .NET and Mono.
 
