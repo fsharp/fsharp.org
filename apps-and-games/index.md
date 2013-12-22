@@ -14,9 +14,10 @@ sections for details about getting started with F# on those platforms.
 
 These higher-level app development stacks are support F#:
 
-* [Xamarin Mobile](http://docs.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_development) - Use F# to develop for iOS, Android, Mac and Windows 8 development
-* [Xamarin Mac](http://docs.xamarin.com/guides/mac/getting_started/hello,_mac) - Use F# to develop applications for Mac OSX 
-* [WebSharper](http://websharper.com) - Can be used for cross-tier client/server HTML5 development and more
+* ![XamarinStudio](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Mobile](http://docs.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_development) - Use F# to develop for iOS, Android, Mac and Windows development
+
+* ![WebSharper](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com) - Can be used for cross-tier client/server HTML5 development and more
+
 * [Windows Store](http://msdn.microsoft.com/en-us/library/vstudio/hh913781.aspx) - You can use F# Portable libraries as components in Windows 8 and Windows 8 Phone applications
 
 ### MonoGame - Write Once, Play Everywhere
@@ -27,11 +28,17 @@ their games to the iOS, Android, Mac OS X, Linux, Windows 8 Metro, and PlayStati
 Mobile.  
 
 * [F# and Monogame Part 1 – MacOS](http://neildanson.wordpress.com/2013/07/30/f-and-monogame/)
+
 * [F# and Monogame Part 2 – Android](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-2-android/)
+
 * [F# and Monogame Part 3 – iOS](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-3-ios/)
+
 * [F# and Monogame Part 4 – Content Pipeline](http://neildanson.wordpress.com/2013/08/13/f-and-monogame-part-4-content-pipeline/)
+
 * [Running MonoGame with F# on the Mac](http://7sharpnine.com/posts/Fsharp-and-MonoGame-on-the-Mac/)
+
 * [Using F# with MonoGame to get basic platformer mechanics](http://bruinbrown.wordpress.com/2013/10/06/making-a-platformer-in-f-with-monogame/)
+
 * [Using F# Interactive for level design](http://bruinbrown.wordpress.com/2013/10/21/f-interactive-for-level-design/)
 
 ### Xamarin Game Development 
@@ -40,14 +47,38 @@ Xamarin provide game and app development tools for Android, iOS and other platfo
 as part of their stack. 
 
 Some resources for game development with F# and Xamarin tools:
+
 * [F# and Monogame Part 2 – Android](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-2-android/)
+
 * [F# and Monogame Part 3 – iOS](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-3-ios/)
 
-Resources specific to iOS 7:
+Resources specific to iOS:
+
+* Watch [an introduction to iOS app development](http://skillsmatter.com/podcast/scala/f-on-ipad-and-iphone-with-xamarin-studio/mh-7404).
+
+* You will need to familiarize yourself with Xamarin C# iOS programming and will likely need some knowledge of 
+Objective-C as well.  The [Xamarin Developer Center](http://docs.xamarin.com/) contains the primary documentation. 
+
+* Sample iOS games and apps are available from [Neil Danson's repository](https://bitbucket.org/thedo666/):
+ 
+  * [IMBD](https://bitbucket.org/thedo666/imdb) -  A micro iOS app for movie database search
+
+  * [Pacman](https://bitbucket.org/thedo666/pacman) -  An iOS version of the classic game 
+
+  * [Raytracer](https://bitbucket.org/thedo666/raytracer) - An iOS version of F# image generation code
+
+  * [Pissed Off Owls](https://bitbucket.org/thedo666/pissed-off-owls) - An iOS micro game using MonoGame and the
+    Farseer game engine
+
+
 * [Simple iOS7 SpriteKit demo in F#](http://neildanson.wordpress.com/2013/09/19/simple-spritekit-demo-in-f/)
+
 * [SpriteKit iOS7 and Physics in F#](http://neildanson.wordpress.com/2013/09/24/spritekit-and-physics-in-f/)
+
 * [Adding Touch to SpriteKit](http://7sharpnine.com/posts/adding-touch-to-spritekit/)
+
 * [A Platform game in SpriteKit and F# – Part 1 – Game State Management](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-1-game-state-management/)
+
 * [A Platform game in SpriteKit and F# – Part 2 – Start building a level](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-2-start-building-a-level/)
 
 ### Server-side of Games
