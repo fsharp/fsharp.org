@@ -47,7 +47,7 @@ Microsoft Excel, R, MATLAB, Mathematica and Python. See the sections below:
 Many other resources are available for integrating F#, C# and .NET with these systems. If a resource specific
 to F# can't be found, then search for C# instead and adjust the technique appropriately.
 
-<a id="excel-interop" href="#">&nbsp;</a>
+<a id="excel-interop" > </a>
 ### F# and Microsoft Excel 
 
 F# can be used in conjunction with Microsoft Excel in a number of interesting ways.
@@ -84,7 +84,8 @@ There are also some F# versions of Excel functions, useful when migrating code:
  * [Excel Financial Functions for .NET](http://archive.msdn.microsoft.com/FinancialFunctions)
 
 
-<a id="r-interop" href="#">&nbsp;</a>
+<a id="r-interop" href="#"> </a>
+
 ### F# and R
 
 Resources:
@@ -92,7 +93,7 @@ Resources:
  * ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[R Type Provider for F#](http://bluemountaincapital.github.io/FSharpRProvider) - An F# type provider for higher-fidelity integration between F# and R
  * [R.NET](http://rdotnet.codeplex.com) - Core interoperability component used by the R Type Provider with some F# extensions.
 
-<a id="matlab-interop" href="#">&nbsp;</a>
+<a id="matlab-interop" > </a>
 ### F# and MATLAB 
 
 Resources:
@@ -100,14 +101,14 @@ Resources:
  * [MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider for higher-fidelity integration between F# and MATLAB
  * [Integrating MATLAB with F# and C#](http://www.mathworks.com/matlabcentral/fileexchange/12987) - techniques to call MATLAB from C#, F# and other .NET languages
 
-<a id="python-interop" href="#">&nbsp;</a>
+<a id="python-interop" > </a>
 ### F# and Python 
 
 Resources:
 
  * [Python for .NET](http://pythonnet.sourceforge.net/readme.html) - Allows Python to be integrated into F# and C# programs
 
-<a id="mathematica-interop" href="#">&nbsp;</a>
+<a id="mathematica-interop" > </a>
 ### F# and Mathematica
 
 Resources:
