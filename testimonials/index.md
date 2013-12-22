@@ -97,6 +97,11 @@ code base in C#, getting started with F# was an easy decision because
 we knew we could use new modules right away. 
 <div class="keywords">data science, machine learning, startup</div>
 
+<div class="hero-unit visible-desktop contributeTestimonials" id="how-to-add-testimonial"> 
+  <h3>Contribute testimonials</h3>
+    <p> To add a new testimonial, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send the pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
+</div>              
+
 <a id="handelsbanken-1" > </a>
 ---
 
@@ -158,10 +163,6 @@ by weeks and making it far easier for independent agents to sell and service Gra
 
 <div class="keywords">insurance, parallelization, financial services</div>
 
-<div class="hero-unit visible-desktop contributeTestimonials" id="how-to-add-testimonial"> 
-  <h3>Contribute testimonials</h3>
-    <p> To add a new testimonial, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send the pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
-</div>              
 
 <a id="aviva-flying-frog-1" > </a>
 ---
