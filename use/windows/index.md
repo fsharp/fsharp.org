@@ -91,7 +91,7 @@ It has a number of unique features ideally suited for Big Data, Data Science and
 
 ### Option 6: Learn F# in the Browser
 
-* ![logo](/images/thumbs/tryfsharp.png)&nbsp;[Learn F# online at Try F#](http://tryfsharp.org)
+* ![logo](/images/thumbs/tryfsharp.jpg)&nbsp;[Learn F# online at Try F#](http://tryfsharp.org)
 
 <br />
 
