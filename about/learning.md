@@ -36,7 +36,7 @@ Learn how to build key aspects of web, cloud, and mobile solutions by combining 
 
 <div style="clear:both;">&#160;</div>
 
-### [Beginning F&#35](http://www.apress.com/9781430223894);
+### [Beginning F#](http://www.apress.com/9781430223894)
 
 <img src="files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
