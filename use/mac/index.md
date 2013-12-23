@@ -18,21 +18,22 @@ go further. For 64-bit support, see below.
 
 ### Option 2: Install F# 3.0 with Xamarin Studio
 
-![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with commercial add-ins for mobile development. [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be used with either.
+![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with freemium add-ins for mobile development. [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be used with either.
 
 * [Install Mono 3.2.3 or later](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0.
-* [Install Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com). Run and check it is version 4.0.3, Build 13 or later under "About". 
+* [Install Xamarin Studio](http://xamarin.com/studio) 
 * Go to the AddIn Manager and
 
   Add “Language Bindings –> F# Language Binding”. If it is missing, [build and install it from source](https://github.com/fsharp/fsharpbinding/blob/master/monodevelop/README.md). 
   
   Add “Mac Development –> F# Support for MonoMac and Xamarin.Mac Development”
   
-  Optionally, add “Mobile Development –> F# Support for Android Development”. Update using the Alpha channel of "Tools --> Addin Manager" if needed.
+  Optionally, add “Mobile Development –> F# Support for Android Development”. Update using the Alpha channel of "Tools --> Check for Updates" if needed.
 
-  Optionally, add “Mobile Development –> F# Support for iOS Development”. Update using the Alpha channel of "Tools --> Addin Manager" if needed.
+  Optionally, add “Mobile Development –> F# Support for iOS Development”. Update using the Alpha channel of "Tools --> Check for Updates" if needed.
 
-You can now create new projects in Xamarin Studio and/or MonoDevelop. 
+You can now create new projects in Xamarin Studio and/or MonoDevelop and cross-compile projects built in 
+Visual Studio and other environments.
 
 See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
 go further. For 64-bit support, see below.
