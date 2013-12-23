@@ -20,8 +20,10 @@ go further. For 64-bit support, see below.
 
 ![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with freemium add-ins for mobile development. [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be used with either.
 
-* [Install Mono 3.2.3 or later](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0.
+*  [Install the F# Cross-Platform Runtime (called Mono)](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0. Use version 3.2.3 or later.
+
 * [Install Xamarin Studio](http://xamarin.com/studio) 
+
 * Go to the AddIn Manager and
 
   Add “Language Bindings –> F# Language Binding”. If it is missing, [build and install it from source](https://github.com/fsharp/fsharpbinding/blob/master/monodevelop/README.md). 
