@@ -9,7 +9,7 @@ headline: Use F# on Mac OSX
 
 To use F# 3.0 on Mac OSX, simply:
 
-*  [Install Mono 3.2.3 or later](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0.
+*  [Install the F# Cross-Platform Runtime (called Mono)](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0. Use version 3.2.3 or later.
 
 See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
 go further. For 64-bit support, see below.
