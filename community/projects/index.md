@@ -78,7 +78,15 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
    efficient compiled .NET code. You can financial users of F# including BlueMountatin Capital 
    in contributing to this library. 
 
+*  ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[The R Type Provider for F#](http://github.com/BlueMountainCapital/FSharpRProvider#f-r-provider/) - An F# type 
+   provider for higher-fidelity integration between F# and R. Primary contributors are BlueMountain Capital, a hedge
+   fund, other contributors are warmly welcomed.
 
+*  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider 
+   for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
+
+*  [The Python Type Provider for F# (experimental)](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Python type provider for F#.
+*  
 <br />
 
 ### Community Projects: Visualization Tools
@@ -132,19 +140,6 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  ![logo](/images/thumbs/suave.png)&nbsp;[Suave](http://suave.io) - Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
-<br />
-
-### Community Projects: Interoperability 
-
-*  ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[The R Type Provider for F#](http://github.com/BlueMountainCapital/FSharpRProvider#f-r-provider/) - An F# type 
-   provider for higher-fidelity integration between F# and R. Primary contributors are BlueMountain Capital, a hedge
-   fund, other contributors are warmly welcomed.
-
-*  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider 
-   for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
-
-*  [The Python Type Provider for F# (experimental)](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Python type provider for F#.
-*  
 <br />
 
 ### Community Projects: Scripting 
