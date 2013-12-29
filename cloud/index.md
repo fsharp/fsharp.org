@@ -22,6 +22,7 @@ storage, compute instances, and other Amazon services.
 
 Some additional resources for using F# and .NET on Amazon's AWS service:
  * [AWS Toolkit for Visual Studio](http://aws.amazon.com/visualstudio/)
+
  * [Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
 
@@ -36,23 +37,35 @@ detail on the structure of Azure applications.
    uniform set of functions.
 
  * F# material based on the Windows Azure Training Kit for developers, focusing on web and data programming:
+
    * [Part 1: Building and Publishing Windows Azure Web Sites using F#](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt1)
+
    * [Part 2 - WATK in F#, Part 2: Deploying an Azure Web Site with Git](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt2)
+
    * [Part 3 - WATK in F#, Part 3: Using Entity Framework with an Azure Database](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt3)
+
    * [Part 4 - WATK in F#, Part 4: Introduction to Cloud Services](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-CS-Pt01)
+
    * [Part 5 - WATK in F#, Part 5: Background Processing with Worker Roles and Queues](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-CS-Pt02)
+
    * [Part 6 - WATK in F#, Part 6: Debugging Applications in Windows Azure](http://sireel-world.azurewebsites.net/sir-eel-visions/watk-in-f-part-6-debugging-applications-in-windows-azure)
 
  * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Cloud-Mobile-Solutions-ebook/dp/B00AANFL60) - Book including details on Azure programming with F#
 
 Below are resources on using Windows Azure from F# and .NET in general:
+
  * [Introduction to Windows Azure](http://www.windowsazure.com/en-us/develop/net/fundamentals/intro-to-windows-azure/)
+
  * [.NET and RESTful management API reference](http://msdn.microsoft.com/en-us/library/windowsazure/ff800682.aspx)
+
  * [Publishing an F#/C# MVC Application to Windows Azure](http://msdn.microsoft.com/en-us/library/vstudio/jj865569.aspx) 
+
  * [Distributed Numerics on Azure with F#](http://blogs.msdn.com/b/cloudnumerics/archive/2012/01/16/cloud-numerics-example-distributed-numerics-on-azure-with-f.aspx)
- * [How to use Hadoop on Azure](http://www.windowsazure.com/en-us/develop/net/how-to-guides/hadoop/)
+
  * [F# 3.0 Azure Samples](http://fsharp3sample.codeplex.com/wikipage?Title=AzureSamples)
+
  * [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
+
  * [Running a pure F# Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
 
 
@@ -66,8 +79,12 @@ Some further resources for specific systems are:
 [Hadoop](http://hadoop.apache.org/) supports data-intensive distributed applications running on large 
 clusters of commodity hardware. Hadoop derives from Google's MapReduce and Google File System papers.
 
+ * [How to use Hadoop on Azure](http://www.windowsazure.com/en-us/develop/net/how-to-guides/hadoop/)
+
  * [Hadoop Streaming and F# MapReduce](http://blogs.msdn.com/b/carlnol/archive/2011/12/16/hadoop-streaming-and-f-mapreduce.aspx)
+
  * [hadoop-sharp](http://code.google.com/p/hadoop-sharp/) - CLR (.NET/Mono) interface for Hadoop 
+
  * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources
 
 #### Riak
@@ -75,8 +92,11 @@ clusters of commodity hardware. Hadoop derives from Google's MapReduce and Googl
 [Riak](http://en.wikipedia.org/wiki/Riak) is a NoSQL database implementing the principles from Amazon's Dynamo paper:
 
  * [Exploring Riak with F#](http://jyliao.blogspot.co.uk/2013/04/exploring-riak-with-f.html) Explores the use of Riak from F# (Part I)
+
  * [Exploring Riak with F# and CorrugatedIron](http://jyliao.blogspot.co.uk/2013/04/exploring-riak-with-f-and-corrugatediron.html) Explores the use of Riak from F# (Part II)
+
  * [Using Riak MapReduce with F#](http://jyliao.blogspot.com/2013/06/riak-mapreduce-with-f.html) Explores the use Riak from F# (Part III)
+
  * [Riak CAP Tuning and F#](http://jyliao.blogspot.co.uk/2013/06/riak-cap-tuning-and-f.html)
 
 #### Cassandra
@@ -86,8 +106,11 @@ to handle large amounts of data across many commodity servers, providing high av
 no single point of failure. 
 
  * [Aquiles](http://aquiles.codeplex.com/) - A .NET Client for Apache Cassandra version 0.6.X or above using Thrift API. 
+
  * [Cassandraemon](http://cassandraemon.codeplex.com/) - A LINQ Provider for Apache Cassandra
+
  * [cassandra-sharp](http://code.google.com/p/cassandra-sharp/) - A high performance .NET driver for Apache Cassandra
+
  * [FluentCassandra](https://github.com/managedfusion/fluentcassandra) - A .NET library for accessing Apache Cassandra
 
 #### RavenDB
@@ -101,6 +124,7 @@ no single point of failure.
 [MongoDB](http://www.mongodb.org/) is a cross-platform document-oriented NoSQL database system.
 
  * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center) - MongoDB bindings for .NET
+
  * [Enhancing the F# developer experience with MongoDB](http://blog.mongodb.org/post/59584347005/enhancing-the-f-developer-experience-with-mongodb) - Extra options for the F# developer using MongoDB
 
 #### Neo4j
@@ -109,8 +133,10 @@ no single point of failure.
 stores data structured in graphs rather than in tables.
 
  * [Neo4jClient](http://hg.readify.net/neo4jclient/wiki/Home) - Neo4j bindings for .NET
+
  * [Using Neo4j Graph DB With F#](http://sergeytihon.wordpress.com/2013/03/27/using-neo4j-graph-db-with-f/) - Introduction to using Neo4j with F#
 
+ * [Using Neo4j with F# – Cypher 2.0](http://geekswithblogs.net/cskardon/archive/2013/11/27/using-neo4j-with-f-ndash-cypher-2.0.aspx)
 
 ## Distributed Communications
 
@@ -119,11 +145,17 @@ from simple command line argument passing to heavily optimized, low-latency inte
 communications. This section lists a wide range of communication libraries available to F#.
 
  * [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) - Discusses the Agent pattern for inter-thread and inter-process communication using the F# library's MailboxProcessor. 
+
  * [ServiceStack](http://www.servicestack.net/) - "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all", see also [F# web programming](http://fsharp.org/webstacks/index.html)
+
  * [F# ZeroMQ bindings](https://github.com/pblasucci/fs-zmq) - An F#-specific binding for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
+
  * [ZeroMQ](http://www.zeromq.org/bindings:clr) - A more general .NET binding for ZeroMQ.
+
  * [MPI .NET](http://osl.iu.edu/research/mpi.net/) - A C# implementation of the popular [Message Passing Interface (MPI) protocol](http://en.wikipedia.org/wiki/Message_Passing_Interface).  
+
  * [MS-MPI](http://msdn.microsoft.com/en-us/library/bb524831.aspx) - Microsoft's implementation of the MPI protocol, available on some versions of Windows Server.
+
  * [Windows Communication Foundation](http://msdn.microsoft.com/en-us/library/dd456779.aspx) - A framework from Microsoft for building service-oriented applications.
 
 
