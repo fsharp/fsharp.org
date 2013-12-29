@@ -144,8 +144,21 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
    for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
 
 *  [The Python Type Provider for F# (experimental)](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Python type provider for F#.
+*  
+<br />
 
-*  [PowerShellTypeProvider](https://github.com/sergey-tihon/PowerShellTypeProvider) - PowerShell type provider.
+### Community Projects: Scripting 
+
+
+*  [FSharp.Management](http://fsprojects.github.io/FSharp.Management/index.html) - The FSharp.Management project contains various type providers for the management of the machine.
+
+  *  [PowerShellTypeProvider](http://fsprojects.github.io/FSharp.Management/PowerShellProvider.html) - PowerShell type provider.
+
+  *  [FileSystemTypeProvider](http://fsprojects.github.io/FSharp.Management/FileSystemProvider.html) - It allows to browse your file system via Intellisense and provides compile time checks for directories and files.
+
+  *  [WMITypeProvider](http://fsprojects.github.io/FSharp.Management/WMIProvider.html) - Typed access to WMI.
+
+  *  [RegistryTypeProvider](http://fsprojects.github.io/FSharp.Management/RegistryProvider.html) - Typed access to the Registry.
 
 <br />
 
