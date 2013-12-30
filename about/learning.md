@@ -138,7 +138,18 @@ nor are they attempting to evangelize the language or its feature set or its
 use "over" other languages. They assume that you are considering this book 
 because you have an interest in learning the F# language.
 
+### [F# for Quantitative Finance] (http://www.packtpub.com/fsharp-for-quantitative-finance/book)
 
+<img src="files/BookFfQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Johan Astborg_
+
+An introductory guide to utilizing F# for quantitative finance leveraging the .NET platform
+
+Overview
+    -Learn functional programming with an easy-to-follow combination of theory and tutorials
+    -Build a complete automated trading system with the help of code snippets
+    -Use F# Interactive to perform exploratory development
 
 ## Tutorials
 
