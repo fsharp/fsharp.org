@@ -138,6 +138,17 @@ nor are they attempting to evangelize the language or its feature set or its
 use "over" other languages. They assume that you are considering this book 
 because you have an interest in learning the F# language.
 
+### [F# for Quantitative Finance] (http://www.packtpub.com/fsharp-for-quantitative-finance/book)
+
+<img src="files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Johan Astborg_
+
+This book will cover everything you need to know about using functional 
+programming for quantitative finance. Using a functional programming language 
+will enable you to concentrate more on the problem itself rather than 
+implementation details. Tutorials and snippets are summarized into an automated 
+trading system throughout the book.
 
 
 ## Tutorials
