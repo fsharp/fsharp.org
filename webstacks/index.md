@@ -24,7 +24,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
   WebSharper allows end-to-end web applications with both client and server developed in F#. 
   It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
-* ![logo](/images/thumbs/aspnet.png)&nbsp;[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+* ![logo](/images/thumbs/fsharp.web.png)&nbsp;[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
   [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft.  [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
   allows a Pure F# project for implementing a web application with ASP.NET MVC 5.
@@ -44,7 +44,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
  
 ## Frameworks for Server-Side Web APIs
 
- * ![logo](/images/thumbs/aspnet.png)&nbsp;[Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
+ * ![logo](/images/thumbs/fsharp.web.png)&nbsp;[Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
 
    [Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft.
    The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
@@ -59,16 +59,23 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
    * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
 
-
  * ![logo](/images/thumbs/servicestack.png)&nbsp;[ServiceStack](https://servicestack.net/)
 
    ServiceStack is is a framework for simple and fast web services on .NET and Mono.
 
+   * [F# ServiceStack Project Template](http://visualstudiogallery.msdn.microsoft.com/278caff1-917a-4ac1-a552-e5a2ce0f6e1f) - (Visual Studio) Includes a template for self-hosted F# ServiceStack service 
+   
    * [F# and ServiceStack Example 1](http://www.servicestack.net/mythz_blog/?p=785) - Web Services on any platform in and out of a web server! An async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
   
    * [F# and ServiceStack Example 2](http://www.servicestack.net/mythz_blog/?p=811) - An Async, Cached Twitter API Proxy in F#
 
    * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
+
+ * Simple.Web
+ 
+   Simple.Web is a REST-focused, object-oriented Web Framework for .NET
+
+   * [Pure F# Simple.Web Template](http://visualstudiogallery.msdn.microsoft.com/bbec75fa-0f31-47e9-a8ce-c301edb2fa4b) - (Visual) Includes a template for getting started with Simple.Web.
 
  * Serving Requests with IHttpHandlers 
 
