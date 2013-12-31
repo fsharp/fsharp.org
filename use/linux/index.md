@@ -90,17 +90,28 @@ Otherwise, follow the following steps:
 
 ### Option 3: Get the F# 3.0 CentOS/RHEL/SciLinux packages with puppet
 
-This option is great if you are using puppet for deployment/provisioning of servers. It will
-work equally well on your local machine as it will on the server that you deploy your mono
-service to.
+Compiling the RPMs is easy with
+[FPM-recipes](https://github.com/haf/fpm-recipes). This will give you a *mono*
+RPM and a *fsharp* RPM. Either you install these directly on your target system,
+or you set up a [yum repository](https://github.com/haf/puppet-yum) to host
+them.
 
-You find the puppet module at: https://github.com/haf/puppet-mono
+When you have RPMs, the rest is really easy with
+[puppet-mono](https://github.com/haf/puppet-mono) and
+[puppet-fsharp](https://github.com/haf/puppet-fsharp) which take care of pulling
+in the packages for you. The mono module also updates the CA-authority list from
+Mozilla so that you don't get problems with HTTPS requests.
 
-Usage:
+        include mono
+        include fsharp
 
-        class { 'mono':
-          package_source => 'https://cdn.intelliplan.eu/dev/mono-3.0.6-1.x86_64.rpm''
-        }
+Or alternatively from the command line:
+
+        sudo yum install -y mono fsharp
+
+You can now do:
+
+        fsharpi
 
 ### Option 4: Installation on Gentoo/Funtoo
 
