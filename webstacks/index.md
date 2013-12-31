@@ -63,7 +63,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
    ServiceStack is is a framework for simple and fast web services on .NET and Mono.
 
-   * [F# ServiceStack Project Template](http://visualstudiogallery.msdn.microsoft.com/278caff1-917a-4ac1-a552-e5a2ce0f6e1f) - (Visual Studio) Includes a template for self-hosted F# ServiceStack service 
+   * [F# ServiceStack Project Template](http://visualstudiogallery.msdn.microsoft.com/278caff1-917a-4ac1-a552-e5a2ce0f6e1f) - (Visual Studio) Includes a template to create a self-hosted F# ServiceStack service 
    
    * [F# and ServiceStack Example 1](http://www.servicestack.net/mythz_blog/?p=785) - Web Services on any platform in and out of a web server! An async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
   
@@ -75,7 +75,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
  
    Simple.Web is a REST-focused, object-oriented Web Framework for .NET
 
-   * [Pure F# Simple.Web Template](http://visualstudiogallery.msdn.microsoft.com/bbec75fa-0f31-47e9-a8ce-c301edb2fa4b) - (Visual) Includes a template for getting started with Simple.Web.
+   * [Pure F# Simple.Web Template](http://visualstudiogallery.msdn.microsoft.com/bbec75fa-0f31-47e9-a8ce-c301edb2fa4b) - (Visual Studio) Includes a template for getting started with Simple.Web.
 
  * Serving Requests with IHttpHandlers 
 
