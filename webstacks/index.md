@@ -114,16 +114,16 @@ It is common to create a suite of unit tests when building web solutions. A list
 libraries that assist with unit testing is available here:
 
  * [FsCheck](http://fscheck.codeplex.com/)
- * [FsUnit](https://github.com/dmohl/FsUnit)
+ * [FsUnit](https://github.com/fsharp/FsUnit)
  * [Fuchu](https://github.com/mausch/Fuchu)
  * [NaturalSpec](https://github.com/forki/NaturalSpec)
  * [TickSpec](http://trelford.com/blog/post/TickSpec.aspx)
  * [Unquote](http://code.google.com/p/unquote/)
 
-Here are a few Visual Studio 2012 project templates available for building unit tests:
+Here are a few Visual Studio project templates available for building unit tests:
 
  * [F# MsTest Project](http://visualstudiogallery.msdn.microsoft.com/51ebe64a-899b-4959-8c24-b0148ed6b264)
- * [F# Unit Test Template (MSTest)](http://visualstudiogallery.msdn.microsoft.com/432eb82c-345e-4502-be56-015fe051a210)
+ * [F# NUnit Template that also includes FsUnit, FsCheck, and Unquote](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) 
 
 ## Client-side Testing
 
