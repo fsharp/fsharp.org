@@ -150,6 +150,23 @@ will enable you to concentrate more on the problem itself rather than
 implementation details. Tutorials and snippets are summarized into an automated 
 trading system throughout the book.
 
+## F# Books (Coming Soon)
+
+### [F# Deep Dives] (http://manning.com/petricek2/)
+
+<img src="files/BookDD.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Tomas Petricek and Phillip Trelford_
+
+F# Deep Dives presents a collection of real-world F# techniques, each written by expert practitioners. Each chapter presents a new use case where you'll read how the author used F# to solve a complex problem more effectively than would have been possible using a traditional approach. You'll not only see how a specific solution works in a specific domain, you'll also learn how F# developers approach problems, what concepts they use to solve them, and how they integrate F# into existing systems and environments.
+
+### [Understanding Functional Programming] (https://leanpub.com/understandingfunctionalprogramming)
+
+<img src="files/BookUFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Scott Wlaschin_
+
+A practical approach with examples in F#. Are you an experienced C#, Java or Python developer? Do you want to understand what all the fuss about functional programming is about? Designed for beginners, this book will explain all the core concepts of functional programming in a practical way with no maths or jargon.
 
 ## Tutorials
 
