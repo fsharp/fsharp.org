@@ -33,7 +33,9 @@ To enable this, either upgrade to ReSharper 8.0.10.1959 or greater, or install t
 
 1. Install [the free standalone F# compiler tools](http://go.microsoft.com/fwlink/?LinkId=261286) 
 2. Install [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) for Windows
-3. Install the F# Addin for Xamarin Studio or MonoDevelop from the Addin Gallery
+3. Install the F# Addin for Xamarin Studio or MonoDevelop from Tools --> Add-in Manager --> Gallery. 
+
+   If no addins appear, press "Refresh" on the "Updates" tab of the Add-in Manager.
 
 <br />
 
