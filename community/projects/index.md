@@ -175,6 +175,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FsCheck](https://github.com/fsharp/FsCheck) - Random testing generator combinators, port of Haskell's QuickCheck.
 
+*  ![logo](/images/thumbs/Foq.png)&nbsp;[Foq](http://foq.codeplex.com/) - A lightweight thread-safe mocking library for F#, C# & VB.Net. Use Foq to mock abstract classes and interfaces.
+
 *  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](https://code.google.com/p/unquote/) - F# unit test assertions as quoted expressions and step-by-step failure messages.
 
 *  ![logo](/images/thumbs/canopy.jpg)&nbsp;[canopy](http://lefthandedgoat.github.io/canopy/) - F#rictionless web testing with Selenium.
