@@ -18,7 +18,16 @@
 
       <script src="/js/vendor/modernizr-2.6.1.min.js"></script>
   </head>
-  <body>
+  <body
+        <!-- Required for FB Share button -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>  
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -53,6 +62,14 @@
           </div>
           <div class="row">
             <div class="span3 menu" id="leftMenu">
+              <p>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-via="fsharporg" data-related="fsharporg" data-hashtags="fsharp">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              </p>
+              <p>
+              <div class="fb-share-button" data-type="button_count"></div>
+              </p>
+
               <h4 class="first">About</h4>
               <ul>
                 <li><a href="/about/index.html">About F#</a></li>
