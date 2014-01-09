@@ -166,7 +166,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Anthony Brown [@bruinbrown93](http://twitter.com/bruinbrown93)
  * Goswin Rothenthal [Waagner Biro] (http://www.waagner-biro.com/en/divisions/steel-glass-structures/about)
  * Mark Seemann [@ploeh](https://twitter.com/ploeh)
- * César Octavio López Natarén
+ * César Octavio López Natarén [@nataren](http://twitter.com/nataren)
  * [Samuel Bosch](http://www.samuelbosch.com ) [@gissolved](http://twitter.com/gissolved)
  * Chris Holt [@lefthandedgoat](http://twitter.com/lefthandedgoat)
  * [Victor Baybekov](http://fi.im/) [@buybackoff](http://twitter.com/buybackoff)
