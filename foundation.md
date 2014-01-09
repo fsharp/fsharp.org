@@ -170,6 +170,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Samuel Bosch](http://www.samuelbosch.com ) [@gissolved](http://twitter.com/gissolved)
  * Chris Holt [@lefthandedgoat](http://twitter.com/lefthandedgoat)
  * [Victor Baybekov](http://fi.im/) [@buybackoff](http://twitter.com/buybackoff)
+ * [Reed Copsey, Jr.](http://reedcopsey.com/) [@reedcopsey](http://twitter.com/reedcopsey)
 
 ## Contact
 
