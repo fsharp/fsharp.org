@@ -67,6 +67,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Linq.Experimental.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.Experimental.ComposableQuery/) - An Experimental Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
+* [S3 Type Provider](http://theburningmonk.github.io/S3Provider/) - An experimental type provider for Amazon S3.
+
 <br />
 
 ### Community Projects: Exploratory Data Science Programming
@@ -162,8 +164,10 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  [f0](https://bitbucket.org/pchiusano/f0) - A binary [de]serialization combinator library, with binary-format 
    phantom types and a compatible Scala partner implementation.
 
-*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) A fast, general-purpose binary serializer for 
+*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) - A fast, general-purpose binary serializer for 
    .NET written in F# that doubles as a pickler combinator library.
+
+* ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://theburningmonk.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
 
 <br />
 
@@ -204,5 +208,14 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 ### Community Projects: Search Tools
 
 *  [FlexSearch](http://www.flexsearch.net/) Flexible and fast open source F# based Search Engine
+
+<br />
+
+
+### Community Projects: Cloud Tools
+
+*  ![logo](/images/thumbs/swf_ext.png)&nbsp;[Amazon.SimpleWorkflow.Extensions](http://theburningmonk.github.io/Amazon.SimpleWorkflow.Extensions/) Extension to Amazon SDK's SimpleWorkflow capabilities to make it more intuitive to use
+
+*  ![logo](/images/thumbs/dynamodb_sql.png)&nbsp;[DynamoDB.SQL](http://theburningmonk.github.io/DynamoDb.SQL/) SQL-like external DSL for querying and scanning Amazon DynamoDB
 
 <br />
