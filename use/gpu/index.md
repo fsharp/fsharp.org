@@ -25,9 +25,9 @@ context of F# or .NET programming.  If you would like an option added here, plea
 
 <br />
 
-### Option 3 - Use FSGPU, an F# open source library for CUDA programming
+### Option 3 - Use FSCL, an open-source F#-to-OpenCL compiler
 
-* See [the FSGPU project](http://fsgpu.codeplex.com/)
+* See [the FSCL project](https://github.com/GabrieleCocco/FSCL.Compiler)
 
 <br />
 
