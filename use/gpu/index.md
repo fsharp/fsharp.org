@@ -37,5 +37,10 @@ context of F# or .NET programming.  If you would like an option added here, plea
 
 <br />
 
+### Option 5 - Use Brahma.FSharp, an open source F# tool for OpenCL programming
+
+* See [the Brahma.FSharp project](https://sites.google.com/site/semathsrprojects/home/brahma-fsharp/)
+
+<br />
 
 
