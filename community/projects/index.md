@@ -11,7 +11,7 @@ you can contribute to are below.
 These projects may be at an early stage, and are not necessarily appropriate for production 
 use. Out of small beginnings, great things come! 
 
-To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/use/osprojects/index.md) and submit a pull request.
+To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
 
 ### Community Projects: Compiler and Core Library
@@ -161,7 +161,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
   *  [AppSettingsTypeProvider](http://fsprojects.github.io/FSharp.Configuration/AppSettingsProvider.html) - AppSettings type provider.
 
-  *  [ResXTypeProvider](http://fsprojects.github.io/FSharp.Configuration/ResXProvider.htmll) - Typed access to .resx files.
+  *  [ResXTypeProvider](http://fsprojects.github.io/FSharp.Configuration/ResXProvider.html) - Typed access to .resx files.
 
   *  [YamlTypeProvider](http://fsprojects.github.io/FSharp.Configuration/YamlProvider.html) - Typed access to Yaml.
 
