@@ -6,7 +6,7 @@ headline: Use F# for iOS App Development
 
 ### Option 1: Build F# iOS Apps using Xamarin Studio
 
-![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin](http://xamarin.com) provide F# tools for Android and iOS modile development with F#, using Xamarin Studio.
+![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin](http://xamarin.com) provide F# tools for Android and iOS mobile development with F#, using Xamarin Studio.
 
 #### Installing
 
