@@ -142,7 +142,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 <br />
 
-### Community Projects: Scripting 
+### Community Projects: Scripting & Configuration
 
 
 *  [FSharp.Management](http://fsprojects.github.io/FSharp.Management/index.html) - The FSharp.Management project contains various type providers for the management of the machine.
@@ -154,6 +154,16 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
   *  [WMITypeProvider](http://fsprojects.github.io/FSharp.Management/WMIProvider.html) - Typed access to WMI.
 
   *  [RegistryTypeProvider](http://fsprojects.github.io/FSharp.Management/RegistryProvider.html) - Typed access to the Registry.
+
+<br />
+
+*  [FSharp.Configuration](http://fsprojects.github.io/FSharp.Configuration/index.html) - The FSharp.Configuration project contains type providers for the configuration of .NET projects.
+
+  *  [AppSettingsTypeProvider](http://fsprojects.github.io/FSharp.Configuration/AppSettingsProvider.html) - AppSettings type provider.
+
+  *  [ResXTypeProvider](http://fsprojects.github.io/FSharp.Configuration/ResXProvider.htmll) - Typed access to .resx files.
+
+  *  [YamlTypeProvider](http://fsprojects.github.io/FSharp.Configuration/YamlProvider.html) - Typed access to Yaml.
 
 <br />
 
