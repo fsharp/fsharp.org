@@ -96,6 +96,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  ![logo](/images/thumbs/FSharp.Charting.png)&nbsp;[FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - The FSharp.Charting library implements charting
    suitable for use from F# scripting.
 
+*  [FsPlot](https://github.com/TahaHachana/FsPlot) - FsPlot is an interactive data visualization library for F# using HTML5/JavaScript.
+
 <br />
 
 ### Community Projects: Math Libraries
@@ -216,5 +218,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 ### Community Projects: Search Tools
 
 *  [FlexSearch](http://www.flexsearch.net/) Flexible and fast open source F# based Search Engine
+
+*  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](https://github.com/BlueMountainCapital/FSharpRProvider).
+
 
 <br />
