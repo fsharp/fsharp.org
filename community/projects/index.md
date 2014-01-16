@@ -147,23 +147,23 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Management](http://fsprojects.github.io/FSharp.Management/index.html) - The FSharp.Management project contains various type providers for the management of the machine.
 
-  *  [PowerShellTypeProvider](http://fsprojects.github.io/FSharp.Management/PowerShellProvider.html) - PowerShell type provider.
+    *  [PowerShellTypeProvider](http://fsprojects.github.io/FSharp.Management/PowerShellProvider.html) - PowerShell type provider.
 
-  *  [FileSystemTypeProvider](http://fsprojects.github.io/FSharp.Management/FileSystemProvider.html) - It allows to browse your file system via Intellisense and provides compile time checks for directories and files.
+    *  [FileSystemTypeProvider](http://fsprojects.github.io/FSharp.Management/FileSystemProvider.html) - It allows to browse your file system via Intellisense and provides compile time checks for directories and files.
 
-  *  [WMITypeProvider](http://fsprojects.github.io/FSharp.Management/WMIProvider.html) - Typed access to WMI.
+    *  [WMITypeProvider](http://fsprojects.github.io/FSharp.Management/WMIProvider.html) - Typed access to WMI.
 
-  *  [RegistryTypeProvider](http://fsprojects.github.io/FSharp.Management/RegistryProvider.html) - Typed access to the Registry.
+    *  [RegistryTypeProvider](http://fsprojects.github.io/FSharp.Management/RegistryProvider.html) - Typed access to the Registry.
 
 <br />
 
 *  [FSharp.Configuration](http://fsprojects.github.io/FSharp.Configuration/index.html) - The FSharp.Configuration project contains type providers for the configuration of .NET projects.
 
-  *  [AppSettingsTypeProvider](http://fsprojects.github.io/FSharp.Configuration/AppSettingsProvider.html) - AppSettings type provider.
+    *  [AppSettingsTypeProvider](http://fsprojects.github.io/FSharp.Configuration/AppSettingsProvider.html) - AppSettings type provider.
 
-  *  [ResXTypeProvider](http://fsprojects.github.io/FSharp.Configuration/ResXProvider.html) - Typed access to .resx files.
+    *  [ResXTypeProvider](http://fsprojects.github.io/FSharp.Configuration/ResXProvider.html) - Typed access to .resx files.
 
-  *  [YamlTypeProvider](http://fsprojects.github.io/FSharp.Configuration/YamlProvider.html) - Typed access to Yaml.
+    *  [YamlTypeProvider](http://fsprojects.github.io/FSharp.Configuration/YamlProvider.html) - Typed access to Yaml.
 
 <br />
 
