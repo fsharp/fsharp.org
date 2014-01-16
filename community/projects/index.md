@@ -88,7 +88,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
    for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
 
 *  [The Python Type Provider for F# (experimental)](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Python type provider for F#.
-*  
+
 <br />
 
 ### Community Projects: Visualization Tools
