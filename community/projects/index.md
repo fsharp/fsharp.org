@@ -127,7 +127,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Financial Calculations and Data
 
-*  [ExcelFinancialFunctions](https://github.com/fsprojects/ExcelFinancialFunctions) - Excel Financial functions, implemented in F#, with a high degree of conformance testing. 
+*  ![logo](/images/thumbs/ExcelFinancialFunctions.png)[ExcelFinancialFunctions](http://fsprojects.github.io/ExcelFinancialFunctions/) - Excel Financial functions, implemented in F#, with a high degree of conformance testing. 
 
 *  [The Xenomorph Provider for F#](http://fsprojects.github.io/FSharp.Data.Experimental.XenomorphProvider/) - Connects F# to Xenomorph TimeScape(TM) using a type provider.
 
