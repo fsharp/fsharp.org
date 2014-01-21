@@ -17,6 +17,19 @@ If you already have Visual Studio 2012 or 2013 (Ultimate or Professional), then 
 You can also use a different editor and the command-line compiler (fsc.exe) or F# Interactive (fsi.exe) 
 after you have installed the Visual F# Tools.
 
+#### Visual Studio Power Tools for F# ####
+
+There are some power tools which are handy to use with Visual Studio:
+
+ - [Fantomas source code formatter](http://visualstudiogallery.msdn.microsoft.com/24ef5c87-b4e3-4c3b-b126-1064cc66e148) Provide formatting commands for F# in Visual Studio
+ - [F# depth colorizer](http://visualstudiogallery.msdn.microsoft.com/07636c36-52be-4dce-9f2e-3c56b8329e33) Use F# parse tree information to display structure of F# code using background color
+ - [FSharpJump](http://visualstudiogallery.msdn.microsoft.com/ddde6ac9-20c9-4c9b-92f6-090b09ab944a) An outlining and navigation tool for F#
+ - [Math symbols](http://visualstudiogallery.msdn.microsoft.com/fe627c2a-5d09-4252-bcc7-300821ae707c) Math (Unicode) symbol extension for F#
+ - [F# Outlining](http://visualstudiogallery.msdn.microsoft.com/bec977b8-c9d9-4926-999e-e50c4498df8a) Extension for F# regions outlining
+ - [F# XML Doc](https://github.com/brianmcn/FSharpXmlDoc) An extension which automatically creates F# XmlDoc template when you type `///`
+ - [FsEye](https://code.google.com/p/fseye/) A visual object tree inspector for the F# Interactive
+ - [Regions and navigation bar](http://tomasp.net/blog/regions-navigation.aspx/) Code collapsing and Navigation bar for F#
+
 ##### Note to ReSharper users #####
 When some versions of ReSharper are installed, the `Alt+Enter` shortcut key for the `Execute in Interactive`
 command of the F# project system doesn't work, because ReSharper overrides this shortcut key for its own purposes.
