@@ -36,7 +36,7 @@ There are a range of free  power tools which are handy to use with Visual Studio
 
  - [Regions and navigation bar](http://tomasp.net/blog/regions-navigation.aspx/) Code collapsing and Navigation bar for F#
 
-Some projects for tools for earlier versions of Visual Studio can be found on the [community projects page](/community/projects)
+Some projects for tools for earlier versions of Visual Studio can be found on the [community projects page](/community/projects).
 
 ##### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users #####
 
