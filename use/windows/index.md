@@ -8,7 +8,6 @@ headline: Use F# on Windows
 ### Option 1: Install the Visual F# Tools from Microsoft
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
-
 If you already have Visual Studio 2012 or 2013 (Ultimate or Professional), then you already have F#. If not, then install one of:
 
    - Install [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) 
@@ -27,24 +26,23 @@ OR:
 You can also use a different editor and the command-line compiler (fsc.exe) or F# Interactive (fsi.exe) 
 after you have installed the Visual F# Tools.
 
-##### Visual Studio Power Tools for F# #####
+##### ![logo](/images/thumbs/vstudio.png)&nbsp;Visual Studio Power Tools for F# #####
 
 There are some power tools which are handy to use with Visual Studio:
 
  - [Fantomas source code formatter](http://visualstudiogallery.msdn.microsoft.com/24ef5c87-b4e3-4c3b-b126-1064cc66e148) Provide formatting commands for F# in Visual Studio
+
  - [F# Outlining](http://visualstudiogallery.msdn.microsoft.com/bec977b8-c9d9-4926-999e-e50c4498df8a) Extension for F# regions outlining
+
  - [Regions and navigation bar](http://tomasp.net/blog/regions-navigation.aspx/) Code collapsing and Navigation bar for F#
 
 Some projects for tools for earlier versions of Visual Studio can be found on the [community projects page](/community/projects)
 
-##### Note to ReSharper users #####
+##### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users #####
 
-When some versions of ReSharper are installed, the `Alt+Enter` shortcut key for the `Execute in Interactive`
-command of the F# project system doesn't work, because ReSharper overrides this shortcut key for its own purposes.
-However, there is no actual command clash, so you can keep using `Alt-Enter` both in F# and ReSharper without having
-to remap keys.
-
-To enable this, either upgrade to ReSharper 8.0.10.1959 or greater, or install the [resharper-fsi-friendly](https://github.com/citizenmatt/resharper-fsi-friendly) plugin.
+With some versions of ReSharper, the `Alt+Enter` shortcut key for the `Execute in Interactive`
+command of the Visual F# Tools  doesn't work, as ReSharper overrides this for its own purposes.
+To fix this, either upgrade to ReSharper 8.0.10.1959 or greater, or install the [resharper-fsi-friendly](https://github.com/citizenmatt/resharper-fsi-friendly) plugin.
 
 <br />
 
