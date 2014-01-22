@@ -50,7 +50,7 @@ To fix this, either upgrade to ReSharper 8.0.10.1959 or greater, or install the 
 
 ![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with commercial add-ins for mobile development. [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be used with either.
 
-1. Install [the free standalone F# compiler tools], see Option 1 above or Option 3 below. 
+1. Install the free standalone F# compiler tools, following _Option 1_ above or _Option 3_ below. 
 2. Install [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) for Windows
 3. Install the F# Addin for Xamarin Studio or MonoDevelop from Tools --> Add-in Manager --> Gallery. 
 
