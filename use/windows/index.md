@@ -81,10 +81,10 @@ If you're just looking for a compiler and/or F# Interactive, e.g. for a build se
 
    Alternatively, do a quiet install from a PowerShell administrator prompt (the URL is the redirect of the above). 
 
-    $webclient = New-Object Net.WebClient
-    $url = 'http://download.microsoft.com/download/3/0/A/30A5D6DD-5B5C-4E06-B331-A88AA0B53150/FSharp_Bundle.exe'
-    $webclient.DownloadFile($url, "$pwd\FSharp_Bundle.exe")
-    .\FSharp_Bundle.exe /install /quiet
+        $webclient = New-Object Net.WebClient
+        $url = 'http://download.microsoft.com/download/3/0/A/30A5D6DD-5B5C-4E06-B331-A88AA0B53150/FSharp_Bundle.exe'
+        $webclient.DownloadFile($url, "$pwd\FSharp_Bundle.exe")
+        .\FSharp_Bundle.exe /install /quiet
 
 The compiler tools are installed at
 
