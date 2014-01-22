@@ -15,7 +15,7 @@ If you already have Visual Studio 2012 or 2013 (Ultimate or Professional), then 
 
 OR:
 
-   - Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747); or
+   - Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747)
    - plus the free [Visual F# Tools 3.1.1](http://www.microsoft.com/download/details.aspx?id=41654)
 
 OR:
