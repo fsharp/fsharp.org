@@ -27,7 +27,7 @@ OR:
 You can also use a different editor and the command-line compiler (fsc.exe) or F# Interactive (fsi.exe) 
 after you have installed the Visual F# Tools.
 
-#### Visual Studio Power Tools for F# ####
+##### Visual Studio Power Tools for F# #####
 
 There are some power tools which are handy to use with Visual Studio:
 
@@ -38,6 +38,7 @@ There are some power tools which are handy to use with Visual Studio:
 Some projects for tools for earlier versions of Visual Studio can be found on the [community projects page](/community/projects)
 
 ##### Note to ReSharper users #####
+
 When some versions of ReSharper are installed, the `Alt+Enter` shortcut key for the `Execute in Interactive`
 command of the F# project system doesn't work, because ReSharper overrides this shortcut key for its own purposes.
 However, there is no actual command clash, so you can keep using `Alt-Enter` both in F# and ReSharper without having
