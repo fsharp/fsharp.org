@@ -105,20 +105,7 @@ It has a number of unique features ideally suited for Big Data, Data Science and
 
 <br />
 
-
-### Option 5: Build HTML5 web apps or WinJS Windows Store apps
-
-* ![logo](/images/thumbs/WebSharper.png)&nbsp;[Using F# for HTML5 Web Applications](/use/html5)
-
-<br />
-
-### Option 6: Learn F# in the Browser
-
-* ![logo](/images/thumbs/tryfsharp.jpg)&nbsp;[Learn F# online at Try F#](http://tryfsharp.org)
-
-<br />
-
-### Option 7: Build F# from source
+### Option 5: Build F# from source
 
 * Build the F# compiler and library from [the source](http://fsharp.github.com/fsharp)
 
