@@ -223,3 +223,20 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 
 <br />
+
+
+### Community Projects: Development Tools (earlier versions of Visual Studio, may be resurrectable)
+
+
+* [F# depth colorizer](http://visualstudiogallery.msdn.microsoft.com/07636c36-52be-4dce-9f2e-3c56b8329e33) Use F# parse tree information to display structure of F# code using background color
+
+
+* [FSharpJump](http://visualstudiogallery.msdn.microsoft.com/ddde6ac9-20c9-4c9b-92f6-090b09ab944a) An outlining and navigation tool for F#
+
+* [Math symbols](http://visualstudiogallery.msdn.microsoft.com/fe627c2a-5d09-4252-bcc7-300821ae707c) Math (Unicode) symbol extension for F#
+
+* [F# XML Doc](https://github.com/brianmcn/FSharpXmlDoc) An extension which automatically creates F# XmlDoc template when you type `///`
+
+
+
+<br />
