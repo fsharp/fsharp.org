@@ -8,7 +8,7 @@ headline: Use F# on Windows
 ### Option 1: Install the Visual F# Tools from Microsoft
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
-If you already have Visual Studio 2012 or 2013 (Ultimate or Professional), then you already have F#. If not, then install one of:
+If you already have Visual Studio 2012 or 2013 (Professional or higher), then you already have F#. If not, then install one of:
 
    - Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) 
    - plus the free [Visual F# Tools 3.1.1](http://www.microsoft.com/download/details.aspx?id=41654)
@@ -20,15 +20,16 @@ OR:
 
 OR:
 
-   - Install a trial edition of [Visual Studio 2013 Professional, Premium or Ultimate](http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx)
+   - Install the free [Visual Studio Express 2012 for Web](http://www.microsoft.com/en-us/download/details.aspx?id=30669)
+   - plus the free [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkID=261287)
 
 
-You can also use a different editor and the command-line compiler (fsc.exe) or F# Interactive (fsi.exe) 
-after you have installed the Visual F# Tools.
+You can also use a different editor and the command-line compiler (`fsc.exe`) or F# Interactive (`fsi.exe`) 
+after you have installed the Visual F# Tools. See [fsharp.net](http://fsharp.net/) for more information about the Visual F# Tools from Microsoft.
 
 ##### ![logo](/images/thumbs/vstudio.png)&nbsp;Visual Studio Power Tools for F# #####
 
-There are a range of free  power tools which are handy to use with Visual Studio:
+There are a range of free  power tools which are handy to use with Visual Studio 2012 and 2013 (Professional or higher):
 
  - [Fantomas source code formatter](http://visualstudiogallery.msdn.microsoft.com/24ef5c87-b4e3-4c3b-b126-1064cc66e148) Provide formatting commands for F# in Visual Studio
 
@@ -91,6 +92,8 @@ The compiler tools are installed at
     C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\fsc.exe
     C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\fsi.exe
     C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\fsiAnyCpu.exe
+    
+If you're looking for Visual F# Tools 3.0 specifically, its standalone version could be downloaded [here](http://go.microsoft.com/fwlink/?LinkId=261286). 
     
 <br />
 
