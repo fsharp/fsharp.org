@@ -71,7 +71,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [DynamicsNAVProvider](https://github.com/forki/DynamicsNAVProvider) - A Microsoft Dynamics NAV type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
 
-* [S3 Type Provider](http://theburningmonk.github.io/S3Provider/) - An experimental type provider for Amazon S3.
+* [S3 Type Provider](http://fsprojects.github.io/S3Provider/) - An experimental type provider for Amazon S3.
 
 
 <br />
@@ -184,7 +184,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) - A fast, general-purpose binary serializer for 
    .NET written in F# that doubles as a pickler combinator library.
 
-* ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://theburningmonk.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
+* ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
 
 <br />
 
@@ -251,8 +251,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Cloud Tools
 
-*  ![logo](/images/thumbs/swf_ext.png)&nbsp;[Amazon.SimpleWorkflow.Extensions](http://theburningmonk.github.io/Amazon.SimpleWorkflow.Extensions/) Extension to Amazon SDK's SimpleWorkflow capabilities to make it more intuitive to use
+*  ![logo](/images/thumbs/swf_ext.png)&nbsp;[Amazon.SimpleWorkflow.Extensions](http://fsprojects.github.io/Amazon.SimpleWorkflow.Extensions/) Extension to Amazon SDK's SimpleWorkflow capabilities to make it more intuitive to use
 
-*  ![logo](/images/thumbs/dynamodb_sql.png)&nbsp;[DynamoDB.SQL](http://theburningmonk.github.io/DynamoDb.SQL/) SQL-like external DSL for querying and scanning Amazon DynamoDB
+*  ![logo](/images/thumbs/dynamodb_sql.png)&nbsp;[DynamoDB.SQL](http://fsprojects.github.io/DynamoDb.SQL/) SQL-like external DSL for querying and scanning Amazon DynamoDB
 
 <br />
