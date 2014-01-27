@@ -186,6 +186,19 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 * ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
 
+
+<br />
+
+
+### Community Projects: Cloud Tools
+
+*  ![logo](/images/thumbs/swf_ext.png)&nbsp;[Amazon.SimpleWorkflow.Extensions](http://fsprojects.github.io/Amazon.SimpleWorkflow.Extensions/) Extension to Amazon SDK's SimpleWorkflow capabilities to make it more intuitive to use
+
+*  ![logo](/images/thumbs/dynamodb_sql.png)&nbsp;[DynamoDB.SQL](http://fsprojects.github.io/DynamoDb.SQL/) SQL-like external DSL for querying and scanning Amazon DynamoDB
+
+* [Fog](http://dmohl.github.io/Fog/) - Fog brings the cloud down to earth and wraps it in something more easily used by F#. It provides a more functional approach to creating Windows Azure apps with F#.
+
+
 <br />
 
 ### Community Projects: Testing Tools
@@ -245,14 +258,5 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 * [F# XML Doc](https://github.com/brianmcn/FSharpXmlDoc) An extension which automatically creates F# XmlDoc template when you type `///`
 
 
-
-<br />
-
-
-### Community Projects: Cloud Tools
-
-*  ![logo](/images/thumbs/swf_ext.png)&nbsp;[Amazon.SimpleWorkflow.Extensions](http://fsprojects.github.io/Amazon.SimpleWorkflow.Extensions/) Extension to Amazon SDK's SimpleWorkflow capabilities to make it more intuitive to use
-
-*  ![logo](/images/thumbs/dynamodb_sql.png)&nbsp;[DynamoDB.SQL](http://fsprojects.github.io/DynamoDb.SQL/) SQL-like external DSL for querying and scanning Amazon DynamoDB
 
 <br />
