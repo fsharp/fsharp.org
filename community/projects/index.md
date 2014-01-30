@@ -67,7 +67,12 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Linq.Experimental.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.Experimental.ComposableQuery/) - An Experimental Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
+*  [SQLProvider](https://github.com/fsprojects/SQLProvider/) - A general SQL type provider, supporting LINQ queries, schema exploration, stored procedures, individuals and much more besides.  Currently supports MS SQL Server, SQLite and PostgreSQL.
+
 *  [DynamicsNAVProvider](https://github.com/forki/DynamicsNAVProvider) - A Microsoft Dynamics NAV type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
+
+* [S3 Type Provider](http://fsprojects.github.io/S3Provider/) - An experimental type provider for Amazon S3.
+
 
 <br />
 
@@ -176,8 +181,23 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  [f0](https://bitbucket.org/pchiusano/f0) - A binary [de]serialization combinator library, with binary-format 
    phantom types and a compatible Scala partner implementation.
 
-*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) A fast, general-purpose binary serializer for 
+*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) - A fast, general-purpose binary serializer for 
    .NET written in F# that doubles as a pickler combinator library.
+
+* ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
+
+
+<br />
+
+
+### Community Projects: Cloud Tools
+
+*  ![logo](/images/thumbs/swf_ext.png)&nbsp;[Amazon.SimpleWorkflow.Extensions](http://fsprojects.github.io/Amazon.SimpleWorkflow.Extensions/) Extension to Amazon SDK's SimpleWorkflow capabilities to make it more intuitive to use
+
+*  ![logo](/images/thumbs/dynamodb_sql.png)&nbsp;[DynamoDB.SQL](http://fsprojects.github.io/DynamoDb.SQL/) SQL-like external DSL for querying and scanning Amazon DynamoDB
+
+* [Fog](http://dmohl.github.io/Fog/) - Fog brings the cloud down to earth and wraps it in something more easily used by F#. It provides a more functional approach to creating Windows Azure apps with F#.
+
 
 <br />
 
@@ -220,6 +240,23 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  [FlexSearch](http://www.flexsearch.net/) Flexible and fast open source F# based Search Engine
 
 *  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](https://github.com/BlueMountainCapital/FSharpRProvider).
+
+
+<br />
+
+
+### Community Projects: Development Tools (earlier versions of Visual Studio, may be resurrectable)
+
+
+* [F# depth colorizer](http://visualstudiogallery.msdn.microsoft.com/07636c36-52be-4dce-9f2e-3c56b8329e33) Use F# parse tree information to display structure of F# code using background color
+
+
+* [FSharpJump](http://visualstudiogallery.msdn.microsoft.com/ddde6ac9-20c9-4c9b-92f6-090b09ab944a) An outlining and navigation tool for F#
+
+* [Math symbols](http://visualstudiogallery.msdn.microsoft.com/fe627c2a-5d09-4252-bcc7-300821ae707c) Math (Unicode) symbol extension for F#
+
+* [F# XML Doc](https://github.com/brianmcn/FSharpXmlDoc) An extension which automatically creates F# XmlDoc template when you type `///`
+
 
 
 <br />
