@@ -50,12 +50,16 @@ in quantiative finance and how to integrate F# with Excel.
 JBI International offer F# training courses, including onsite options. At the time of writing the
 next scheduled training course was [Functional Programming with F# .NET](http://www.jbinternational.co.uk/course/307/f-net-training-course-class-london-uk).
 
-
-### [PluralSight's Introduction to F#](http://pluralsight.com/training/Courses/TableOfContents/fsintro)
+### [PluralSight: Introduction to F#](http://pluralsight.com/training/Courses/TableOfContents/fsintro)
 
 Authored by Oliver Sturm, this online course introduces you to the F# programming language. It will walk you through all of 
 the core details of working with F#, covering not just language fundamentals, but also showing practical 
 scenarios of where it is best used creating .NET applications. 
+
+### [PluralSight: A Functional Architecture with F#](http://pluralsight.com/training/Courses/TableOfContents/functional-architecture-fsharp)
+
+Authored by Mark Seemann, this online course provides an example of how to build a mainstream application in F#, using 
+extensive demos to build a comprehensive demo application from scratch.
 
 ### [Webucator's Essential F# Onsite Training](http://www.webucator.com/microsoft/course/essential-fsharp-programming.cfm)
 
