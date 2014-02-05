@@ -434,3 +434,12 @@ Some of the publications about FStar are below.
 * Secure Distributed Programming with Value-Dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet, 
   Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, no. MSR-TR-2011-37, 24 March 2011
     
+
+## Machine Learning
+
+### [Learning with F#](http://dl.acm.org/citation.cfm?id=1362709)
+
+Phil Trelford, _Commercial Users of Funnctional Programming_, 2006. This talk describes how the Applied Games Group at Microsoft Research Cambridge uses F#. This group consists of seven people, and specializes in the application of statistical machine learning, especially ranking problems. The ranking systems they have developed are used by the XBox Live team to do server-side analysis of game logs, and they recently entered an internal competition to improve "click-through" prediction rates on Microsoft adCenter, a multi-million dollar industry for the company. The amount of data analysed by the tools is astounding: e.g. 3TB in one case, with programs running continuously over four weeks of training data and occupying all the physical memory on the 64-bit 16GB machines we use.
+
+F# plays a crucial role in helping the group process this data efficiently and develop smart algorithms that extract essential features from the data and represent the information using the latest statistical technique called "factor graphs". Our use of F# in conjunction with SQL Server 2005 is especially interesting: we use novel compilation techniques to express the primary schema in F# and then use SQL Server as a data slave.
+
