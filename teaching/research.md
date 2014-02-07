@@ -10,8 +10,8 @@ F# is both based on academic research and acts as an inspiration for thousands o
 students and researchers worldwide.
 
 Many of the standard F# features (including _active patterns_ and _asynchronous workflows_) 
-have been described in academic literature, and many  
-research projects  build on top of F#. They fall into the following areas:
+have been described in academic literature, and many
+research projects build on top of F#. They fall into the following areas:
 
  * **[Functional programming](#functional_programming)** - publications
     about core F# language features including _active patterns_ and intialization of 
