@@ -10,6 +10,12 @@ If you provide training for F#, please submit your material by [editing this pag
 
 ## Professional Training
 
+### [PluralSight: A Functional Architecture with F#](http://pluralsight.com/training/Courses/TableOfContents/functional-architecture-fsharp)
+
+Authored by Mark Seemann, this online course provides an example of how to build a mainstream application in F#, using 
+extensive demos to build a comprehensive demo application from scratch.
+
+
 ### [Fast Track to F# with Tomas Petricek and Phil Trelford](http://skillsmatter.com/course/home/tomas-petricek-phil-trelford-fast-track-to-fsharp)
 
 <img src="/img/sup/skillsmatter.png" style="float:right;margin:5px 0px 5px 25px;" />
@@ -22,6 +28,12 @@ and Phil Trelford and builds on their real-world experience with F#.
 
 [Chris Marinos](http://chrismarinos.com/about/) offers hands-on, on-site trainings based around 
 the F# Koans, a simple way to learn F# from the ground up.
+
+### [FPBridge F# Training](http://fpbridge.co.uk/training.html)
+
+Training for small groups of developers to cross the bridge to F# and functional programming.
+The approach emphasises under­standing over theory, using business-oriented examples rather than academic ones. 
+It's a lot of fun, and shows how the functional approach works with real-world problems that are relevant to you. 
 
 ### [Intellifactory F# Training](http://intellifactory.com/Training.aspx)
 
@@ -50,30 +62,6 @@ in quantiative finance and how to integrate F# with Excel.
 JBI International offer F# training courses, including onsite options. At the time of writing the
 next scheduled training course was [Functional Programming with F# .NET](http://www.jbinternational.co.uk/course/307/f-net-training-course-class-london-uk).
 
-### [PluralSight: Introduction to F#](http://pluralsight.com/training/Courses/TableOfContents/fsintro)
-
-Authored by Oliver Sturm, this online course introduces you to the F# programming language. It will walk you through all of 
-the core details of working with F#, covering not just language fundamentals, but also showing practical 
-scenarios of where it is best used creating .NET applications. 
-
-### [PluralSight: A Functional Architecture with F#](http://pluralsight.com/training/Courses/TableOfContents/functional-architecture-fsharp)
-
-Authored by Mark Seemann, this online course provides an example of how to build a mainstream application in F#, using 
-extensive demos to build a comprehensive demo application from scratch.
-
-### [Webucator's Essential F# Onsite Training](http://www.webucator.com/microsoft/course/essential-fsharp-programming.cfm)
-
-This onsite training course is designed for experienced programmers that need to start developing F# applications.
-Contact Webucator to schedule an onsite course at your company.
-
-### [DevelopMentor's F# Programming for C# Developers Training](http://www.develop.com/training-course/fsharp-for-csharp-developers-training)
-
-This onsite training course let's you learn how to use the F# language for functional as
-well as object oriented programming of .NET applications. 
-Essential F# for C# developers helps you place these techniques and 
-take advantage of the special support for functional and advanced object oriented approaches that F# offers.
-Contact [DevelopMentor](http://www.develop.com/training-course/fsharp-for-csharp-developers-training) to 
-schedule this onsite training course at your company.
 
 
 ## Interactive Tutorials and Training Guides
@@ -102,4 +90,24 @@ This site will introduce you to F# and show you ways that F# can help in day-to-
 of mainstream commercial business software
 
 
+## Courses
 
+### [PluralSight: Introduction to F#](http://pluralsight.com/training/Courses/TableOfContents/fsintro)
+
+Authored by Oliver Sturm, this online course introduces you to the F# programming language. It will walk you through all of 
+the core details of working with F#, covering not just language fundamentals, but also showing practical 
+scenarios of where it is best used creating .NET applications. 
+
+### [Webucator's Essential F# Onsite Training](http://www.webucator.com/microsoft/course/essential-fsharp-programming.cfm)
+
+This onsite training course is designed for experienced programmers that need to start developing F# applications.
+Contact Webucator to schedule an onsite course at your company.
+
+### [DevelopMentor's F# Programming for C# Developers Training](http://www.develop.com/training-course/fsharp-for-csharp-developers-training)
+
+This onsite training course let's you learn how to use the F# language for functional as
+well as object oriented programming of .NET applications. 
+Essential F# for C# developers helps you place these techniques and 
+take advantage of the special support for functional and advanced object oriented approaches that F# offers.
+Contact [DevelopMentor](http://www.develop.com/training-course/fsharp-for-csharp-developers-training) to 
+schedule this onsite training course at your company.
