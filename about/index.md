@@ -12,12 +12,12 @@ and its ability to tackle the complexity of components such as calculation engin
 and data-rich analytical services offer a compelling story for businesses. 
 
 Modern programming thrives on rich spaces of data, information, and services. The 
-latest version of F# (3.0) greatly simplifies information-rich analytical programming 
-through the addition of F# Information Rich Programming, consisting of F# LINQ Queries, 
-the F# Type Provider mechanism, and a set of built-in type providers for enterprise 
-and web data standards. F# is a first-class language on a number of platforms including
-Mac and Linux (with tool support in MonoDevelop, Emacs and other) and Windows (with
-Visual Studio) as well as on mobile devices and on the web using HTML5.
+most recent versions of F# greatly simplify data-rich programming 
+through the addition of the F# Type Provider mechanism, F# LINQ Queries 
+and a multitude of type providers for enterprise and web data standards. 
+F# is a first-class language on a number of platforms including
+Mac and Linux (with tool support in Xamarin Studio, MonoDevelop, Emacs and other) and Windows (with
+Visual Studio, Xamarin Studio and Emacs) as well as on mobile devices and on the web using HTML5.
 
 ## Documentation
 

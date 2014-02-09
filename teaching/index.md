@@ -34,7 +34,7 @@ Studio and Xamarin Studio tools, there is an F# mode for Emacs and open-source l
 
 [Try F#](http://www.tryfsharp.org) is an interactive environment where you can
 explore F# in your web browser (on Mac and Windows). It contains a number
-of online tutorials demonstrating the concepts of F# and F# 3.0:
+of online tutorials demonstrating the concepts of F#:
 
 <img src="files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 

@@ -143,9 +143,13 @@ There are  several presentations and tutorials available that include informatio
 build web applications with F#:
 
  * [Building an HTML5 application with WebSharper Sitelets, Part 1](http://www.developerfusion.com/article/124078/building-an-html5-application-with-websharper-sitelets-part-1/)
+
  * [Building Better Web Apps with F#](http://bloggemdano.blogspot.com/2012/11/recording-for-building-better-web-apps.html)
+
  * [Building Data-Driven Websites](http://msdn.microsoft.com/en-us/library/hh273072.aspx)
+
  * [F# 3.0: data, services, Web, cloud, at your fingertips](http://channel9.msdn.com/Events/Build/BUILD2011/SAC-904T)
+
  * [F# Introduction](http://skillsmatter.com/podcast/scala/phil-trelford-f-introduction)
 
 ### Older ASP.NET MVC using two projects (one F#, one C#)

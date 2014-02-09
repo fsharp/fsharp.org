@@ -109,7 +109,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - A large collection of 
    algorithms including linear algebra, special functions, statistics, probability models, 
-   interpolation and FFTs. Supports F# 3.0 with idiomatic extension modules.
+   interpolation and FFTs. Supports F# 3.0+ with idiomatic extension modules.
   
 
 <br />
