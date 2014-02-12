@@ -11,7 +11,7 @@ To help with Linux packages, please email the [F# Open Source Group](http://fsha
 
 F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html).
 
-If you have access to _unstable_ or _trusty/universe_ packages, use:
+If you have access to packages from Debian's _unstable_ or Ubuntu's _trusty/universe_ ([link](http://packages.ubuntu.com/trusty/fsharp)), use:
 
         sudo apt-get update
         sudo apt-get install mono-runtime-common 
