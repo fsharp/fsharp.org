@@ -8,7 +8,10 @@ headline: Use F# on Windows
 ### Option 1: Install the Visual F# Tools from Microsoft
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
-If you already have Visual Studio 2012 or 2013 (Professional or higher), then you already have F#. If not, then install one of:
+
+   - Install a free trial edition of [Visual Studio 2013] (Professional or higher): (http://www.visualstudio.com/downloads/download-visual-studio-vs) 
+
+OR:
 
    - Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) 
    - plus the free [Visual F# Tools 3.1.1](http://www.microsoft.com/download/details.aspx?id=41654)
@@ -24,20 +27,22 @@ OR:
    - plus the free [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkID=261287)
 
 
-You can also use a different editor and the command-line compiler (`fsc.exe`) or F# Interactive (`fsi.exe`) 
-after you have installed the Visual F# Tools. See [fsharp.net](http://fsharp.net/) for more information about the Visual F# Tools from Microsoft.
+The tools include the command-line compiler (`fsc.exe`) or F# Interactive (`fsi.exe`).
+See [fsharp.net](hhttp://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
 
-##### ![logo](/images/thumbs/vstudio.png)&nbsp;Visual Studio Power Tools for F# #####
+##### ![logo](/images/thumbs/vstudio.png)&nbsp;Visual F# Power Tools #####
 
-There are a range of free  power tools which are handy to use with Visual Studio 2012 and 2013 (Professional or higher):
+Optionally, install the community-provided [Visual F# Power Tools](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff)
+These are a combination  of free power tools which are handy to use with Visual Studio 2012 and 2013 (Professional or higher), including:
 
- - [Fantomas source code formatter](http://visualstudiogallery.msdn.microsoft.com/24ef5c87-b4e3-4c3b-b126-1064cc66e148) Provide formatting commands for F# in Visual Studio
+ - [Source code formatting](http://fsprojects.github.io/FSharpVSPowerTools/codeformatting.html)
 
- - [F# Outlining](http://visualstudiogallery.msdn.microsoft.com/bec977b8-c9d9-4926-999e-e50c4498df8a) Extension for F# regions outlining
+ - [Auto-generating XML Docs](http://fsprojects.github.io/FSharpVSPowerTools/xmldoc.html)
 
- - [Regions and navigation bar](http://tomasp.net/blog/regions-navigation.aspx/) Code collapsing and Navigation bar for F#
+ - [Regions and navigation bar](http://fsprojects.github.io/FSharpVSPowerTools/navbar.html)
 
-Some projects for tools for earlier versions of Visual Studio can be found on the [community projects page](/community/projects).
+ - [Highlight references](http://fsprojects.github.io/FSharpVSPowerTools/highlightusage.html)
+
 
 ##### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users #####
 
