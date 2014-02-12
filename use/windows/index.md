@@ -9,7 +9,7 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
 
-   - Install a free trial edition of [Visual Studio 2013 (Professional or higher)]((http://www.visualstudio.com/downloads/download-visual-studio-vs)
+   - Install a free trial edition of [Visual Studio 2013  (Professional or higher)](http://www.visualstudio.com/downloads/download-visual-studio-vs)
 
 OR:
 
