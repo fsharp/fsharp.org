@@ -87,9 +87,13 @@ Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac
 go further.
 
 
-### Option 4: Installation on Gentoo/Funtoo
+### Option 4: Get the F# 3.1 on Gentoo ( Sabayon / Funtoo / Calculate )
 
-There is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
+From portage tree:
+
+        emerge fsharp
+
+Alternatively there is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
 
 1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
 
@@ -112,20 +116,29 @@ go further.
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
-### Option 6: Get access to the Debian packages
+### Option 6: Get acces to the Debian packages
 
-If you want to use Debian packages and don't have access to unstable or trusty/universe packages, then 
-the following steps may allow access:
+If you are using Debian packages and don't have access to unstable or trusty/universe packages, then 
+follow the following steps:
 
 1. Add the following using `sudo vi /etc/apt/sources.list`:
 
-        deb http://azure.archive.ubuntu.com/ubuntu/ trusty main
-        deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty main
-        
-        deb http://azure.archive.ubuntu.com/ubuntu/ trusty universe
-        deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty universe
+        deb http://http.us.debian.org/debian/ unstable main contrib non-free 
+        deb-src http://http.us.debian.org/debian/ unstable main contrib non-free 
 
-2. Install the fsharp packages with the following commands as root:
+2. Add the following using `sudo vi /etc/apt/preferences`:
+
+        Package: *
+        Pin: release o=Debian,a=testing
+        Pin-Priority: 990
+
+        Package: *
+        Pin: release o=Debian,a=unstable
+        Pin-Priority: 100
+
+   If you don't want aptitude to upgrade fsharp automatically, use a pin-priority below 100. 
+
+3. Install the fsharp packages with the following commands as root:
 
         sudo apt-get update
         sudo apt-get install mono-runtime-common 
