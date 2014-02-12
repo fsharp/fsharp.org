@@ -87,9 +87,13 @@ Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac
 go further.
 
 
-### Option 4: Installation on Gentoo/Funtoo
+### Option 4: Get the F# 3.1 on Gentoo ( Sabayon / Funtoo / Calculate )
 
-There is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
+From portage tree:
+
+        emerge fsharp
+
+Alternatively there is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
 
 1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
 
