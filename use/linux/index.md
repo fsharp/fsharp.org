@@ -4,7 +4,8 @@ title: Use F# on Linux | The F# Software Foundation
 headline: Use F# on Linux
 ---
 
-To help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).
+To help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).  You can also 
+[submit an edit to this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/use/linux/index.md).
 
 ### Option 1: Use the F# Debian packages 
 
