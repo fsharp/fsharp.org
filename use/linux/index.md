@@ -6,10 +6,24 @@ headline: Use F# on Linux
 
 To help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).
 
+### Option 1: Use the F# Debian packages 
+
+F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html).
+
+If you have access to _unstable_ or _trusty/universe_ packages, use:
+
+        sudo apt-get update
+        sudo apt-get install mono-runtime-common 
+        sudo apt-get install fsharp libmono-compilerservices-symbolwriter4.0-cil
+
+This installs `fsharpc` and `fsharpi`. If you don't have access to unstable or trusty/universe, see Option 6 below.
+
+
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
 
-### Option 1: Build and install the F# 3.0 runtime, compiler and tools
+
+### Option 2: Build and install the F# 3.0 runtime, compiler and tools
 
 
 1. Get Mono, the runtime used by F#. Either [follow these instructions](http://www.go-mono.com/mono-downloads/download.html) or use:
@@ -39,16 +53,11 @@ go further.
 
    If installing to a different prefix, use the same prefix as for the F# runtime above.
 
-   Common commands are:
-
-        fsharpi                            (starts F# interactive)
-        fsharpc                            (F# compiler)
-        xbuild                             (builds .fsproj projects and .sln files, authored in MonoDevelop or Visual Studio)
-        mono file.exe arg1 ... argN        (runs a compiled F# program)
-        mkbundle --static file.exe -o file (makes a static native image for an F# program, including the F# runtime)
+Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
+go further.
 
 
-### Option 2: Get the F# 3.0 CentOS/RHEL/SciLinux packages with puppet
+### Option 3: Get the F# 3.0 CentOS/RHEL/SciLinux packages with puppet
 
 Compiling the RPMs is easy with
 [FPM-recipes](https://github.com/haf/fpm-recipes). This will give you a *mono*
@@ -73,7 +82,11 @@ You can now do:
 
         fsharpi
 
-### Option 3: Installation on Gentoo/Funtoo
+Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
+go further.
+
+
+### Option 4: Installation on Gentoo/Funtoo
 
 There is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
 
@@ -89,19 +102,19 @@ There is an overlay available with current versions dotnet programs, available a
 
         USE="+emacs -monodevelop" emerge fsharpbinding
 
+Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
+go further.
 
-### Option 4: Use a Vagrant VM on Windows
+
+### Option 5: Use a Vagrant VM on Windows
 
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
-### Option 5: Try out  F# 3.0 Debian packages and send feedback
+### Option 6: Get acces to the Debian packages
 
-Currently, F# is only available in Debian [unstable](http://www.debian.org/releases/sid/)
-(see the [the package home page](http://packages.qa.debian.org/f/fsharp.html)).
-
-If you're already running unstable, simply run `sudo aptitude install fsharp fsharp-console`.
-Otherwise, follow the following steps:
+If you are using Debian packages and don't have access to unstable or trusty/universe packages, then 
+follow the following steps:
 
 1. Add the following using `sudo vi /etc/apt/sources.list`:
 
@@ -116,20 +129,13 @@ Otherwise, follow the following steps:
 
         Package: *
         Pin: release o=Debian,a=unstable
-        Pin-Priority: -10
+        Pin-Priority: 100
 
-   If you want aptitude to upgrade fsharp automatically, use a pin-priority
-   greater than or equal to 100. 
+   If you don't want aptitude to upgrade fsharp automatically, use a pin-priority below 100. 
 
 3. Install the fsharp packages with the following commands as root:
 
-        aptitude update
-        aptitude -t unstable install fsharp fsharp-console libfsharp-compiler4.3-cil \
-            libfsharp-core4.3-cil libfsharp-compiler-interactive-settings4.3-cil \
-            libfsharp-compiler-interactive-settings4.3-cil
-        ln -s /usr/lib/cli/FSharp.*-4.3/*{dll,xml,sigdata,optdata} /usr/lib/mono/4.0
-
-   If unstable has a positive pin-priority, you can replace the second
-   command with `aptitude install fsharp fsharp-console`.
-   The last line is needed due to packaging bugs [706683](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706683) and [705906](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=705906).
+        sudo apt-get update
+        sudo apt-get install mono-runtime-common 
+        sudo apt-get install fsharp libmono-compilerservices-symbolwriter4.0-cil
 
