@@ -67,7 +67,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FSharp.Linq.Experimental.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.Experimental.ComposableQuery/) - An Experimental Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
-*  [SQLProvider](https://github.com/fsprojects/SQLProvider/) - A general SQL type provider, supporting LINQ queries, schema exploration, stored procedures, individuals and much more besides.  Currently supports MS SQL Server, SQLite, PostgreSQL, Oracle and MySQL.
+*  [SQLProvider](https://github.com/fsprojects/SQLProvider/) - A general SQL type provider, supporting LINQ queries, schema exploration, stored procedures, individuals and much more besides.  Currently supports MS SQL Server, MS Access, SQLite, PostgreSQL, Oracle and MySQL.
 
 *  [DynamicsNAVProvider](https://github.com/forki/DynamicsNAVProvider) - A Microsoft Dynamics NAV type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
 
