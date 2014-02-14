@@ -36,11 +36,12 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
-*  [Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter
+*  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter
 
 *  [FAKE](http://fsharp.github.io/FAKE) - F# build automation system
 
 *  [fsharpbinding](https://github.com/fsharp/fsharpbinding) - F# Language Bindings for Open Editors (Emacs, MonoDevelop)
+*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[F# Power Tools for Visual Studio](https://github.com/fsprojects/FSharpVSPowerTools) - A collection of (editing, formatting, navigation, refactoring) commands for Visual Studio. Contributions welcome!
 
 *  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
 
@@ -241,9 +242,6 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 * [FSharpJump](http://visualstudiogallery.msdn.microsoft.com/ddde6ac9-20c9-4c9b-92f6-090b09ab944a) An outlining and navigation tool for F#
 
 * [Math symbols](http://visualstudiogallery.msdn.microsoft.com/fe627c2a-5d09-4252-bcc7-300821ae707c) Math (Unicode) symbol extension for F#
-
-* [F# XML Doc](https://github.com/brianmcn/FSharpXmlDoc) An extension which automatically creates F# XmlDoc template when you type `///`
-
 
 
 <br />
