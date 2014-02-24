@@ -9,15 +9,13 @@ To help with Linux packages, please email the [F# Open Source Group](http://fsha
 
 ### Option 1: Use the F# Debian packages 
 
-F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html).
+F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are currently available in Debian _testing_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
 
-The packages are currently available in Debian _testing_ and Ubuntu 14.04 (_trusty/universe_ -- [link](http://packages.ubuntu.com/trusty/fsharp)), use:
+    sudo apt-get update
+    sudo apt-get install mono-complete
+    sudo apt-get install fsharp
 
-        sudo apt-get update
-        sudo apt-get install mono-complete 
-        sudo apt-get install fsharp
-
-This installs `fsharpc` and `fsharpi`. If you don't have access to testing or trusty/universe, see Option 6 below.
+This installs `fsharpc` and `fsharpi`. If you don't have access to *testing* or *trusty/universe*, see Option 6 below.
 
 
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
@@ -36,23 +34,25 @@ go further.
         sudo apt-get install libtool autoconf g++ gettext make git
         git clone https://github.com/mono/mono
         cd mono
-        ./autogen.sh   --prefix /usr
+        ./autogen.sh --prefix /usr
         make get-monolite-latest
         make
         sudo make install
 
-   If installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure LD_LIBRARY_PATH includes the "lib" directory of that prefix location {{   export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/user/mono/lib/"  }}. 
+   If installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure `LD_LIBRARY_PATH` includes the "lib" directory of that prefix location, e.g.
+   
+        export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/mono/lib/
 
 2. Build and install the F# Compiler (open edition) from source.
 
         sudo apt-get install autoconf libtool pkg-config make git
-        git clone https://github.com/fsharp/fsharp
+        git clone -b fsharp_30 https://github.com/fsharp/fsharp
         cd fsharp
         ./autogen.sh --prefix /usr
         make
         sudo make install
 
-   If installing to a different prefix, use the same prefix as for the F# runtime above.
+   If installing to a different prefix, use the same prefix as for the Mono runtime above.
 
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
@@ -87,13 +87,13 @@ Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac
 go further.
 
 
-### Option 4: Get the F# 3.1 on Gentoo ( Sabayon / Funtoo / Calculate )
+### Option 4: Get F# 3.1 on Gentoo ( Sabayon / Funtoo / Calculate )
 
 From portage tree:
 
         emerge fsharp
 
-Alternatively there is an overlay available with current versions dotnet programs, available are F#, FAKE, nuget, etc.
+Alternatively there is an overlay available with current versions of various .NET programs, including F#, FAKE, NuGet and others.
 
 1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
 
@@ -129,9 +129,10 @@ the following steps may allow access:
         deb http://azure.archive.ubuntu.com/ubuntu/ trusty universe
         deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty universe
 
-2. Install the fsharp packages with the following commands as root:
+2. Install the fsharp packages with the following commands:
 
         sudo apt-get update
         sudo apt-get install mono-complete
         sudo apt-get install fsharp
+
 
