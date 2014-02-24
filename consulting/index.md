@@ -51,3 +51,13 @@ If you are thinking of migrating your Excel spreadsheets to .NET (F#/C#/VB) we c
 And maybe you have some legacy numerical code you would like to wrap with an intuitive F# API?
 We can easily integrate any functionality with [FCore](http://www.statfactory.co.uk/fcore-numerical-library/) so that it fully meets your requirements.
 Please do not hesitate to contact us if you need more information.
+
+### [Firefly Logic](http://fireflylogic.com/)
+
+<img src="/img/sup/fireflylogic.png" style="float:right;margin:5px 0px 5px 25px;" />
+
+[Firefly Logic](http://fireflylogic.com/) is a functional-first software firm. We can design *and* code apps that millions of people will love, and we can develop backend systems capable of withstanding that success. 
+
+Cross-platform native mobile? Intuitive UX? Massive concurrency? Horizontal scaling? Real-world CQRS? Fault-tolerance? Yes, that’s our turf: where “delightful” meets “carrier-grade”. 
+
+Nashville-based Firefly Logic was founded in 2004. We have F# MVPs on staff, deep Erlang expertise, in-house design, and a decade of experience in native-mobile. Need a hand?
