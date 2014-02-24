@@ -12,7 +12,8 @@ To help with Linux packages, please email the [F# Open Source Group](http://fsha
 F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are currently available in Debian _testing_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
 
     sudo apt-get update
-    sudo apt-get install mono-complete fsharp
+    sudo apt-get install mono-complete
+    sudo apt-get install fsharp
 
 This installs `fsharpc` and `fsharpi`. If you don't have access to *testing* or *trusty/universe*, see Option 6 below.
 
@@ -131,5 +132,7 @@ the following steps may allow access:
 2. Install the fsharp packages with the following commands:
 
         sudo apt-get update
-        sudo apt-get install mono-complete fsharp
+        sudo apt-get install mono-complete
+        sudo apt-get install fsharp
+
 
