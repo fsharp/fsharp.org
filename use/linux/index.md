@@ -14,8 +14,7 @@ F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.htm
 The packages are currently available in Debian _testing_ and Ubuntu 14.04 (_trusty/universe_ -- [link](http://packages.ubuntu.com/trusty/fsharp)), use:
 
         sudo apt-get update
-        sudo apt-get install mono-complete 
-        sudo apt-get install fsharp
+        sudo apt-get install mono-complete fsharp
 
 This installs `fsharpc` and `fsharpi`. If you don't have access to testing or trusty/universe, see Option 6 below.
 
@@ -47,6 +46,7 @@ go further.
 
         sudo apt-get install autoconf libtool pkg-config make git
         git clone https://github.com/fsharp/fsharp
+        git checkout fsharp_30
         cd fsharp
         ./autogen.sh --prefix /usr
         make
@@ -132,6 +132,5 @@ the following steps may allow access:
 2. Install the fsharp packages with the following commands as root:
 
         sudo apt-get update
-        sudo apt-get install mono-complete
-        sudo apt-get install fsharp
+        sudo apt-get install mono-complete fsharp
 
