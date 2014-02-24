@@ -11,13 +11,13 @@ To help with Linux packages, please email the [F# Open Source Group](http://fsha
 
 F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html).
 
-If you have access to packages from Debian's _unstable_ or Ubuntu's _trusty/universe_ ([link](http://packages.ubuntu.com/trusty/fsharp)), use:
+The packages are currently available in Debian _testing_ and Ubuntu 14.04 (_trusty/universe_ -- [link](http://packages.ubuntu.com/trusty/fsharp)), use:
 
         sudo apt-get update
-        sudo apt-get install mono-runtime-common 
-        sudo apt-get install fsharp libmono-compilerservices-symbolwriter4.0-cil
+        sudo apt-get install mono-complete 
+        sudo apt-get install fsharp
 
-This installs `fsharpc` and `fsharpi`. If you don't have access to unstable or trusty/universe, see Option 6 below.
+This installs `fsharpc` and `fsharpi`. If you don't have access to testing or trusty/universe, see Option 6 below.
 
 
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
@@ -118,7 +118,7 @@ To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.
 
 ### Option 6: Get access to the Debian packages
 
-If you want to use Debian packages and don't have access to unstable or trusty/universe packages, then 
+If you want to use Debian packages and don't have access to testing or trusty/universe packages, then 
 the following steps may allow access:
 
 1. Add the following using `sudo vi /etc/apt/sources.list`:
@@ -132,6 +132,6 @@ the following steps may allow access:
 2. Install the fsharp packages with the following commands as root:
 
         sudo apt-get update
-        sudo apt-get install mono-runtime-common 
-        sudo apt-get install fsharp libmono-compilerservices-symbolwriter4.0-cil
+        sudo apt-get install mono-complete
+        sudo apt-get install fsharp
 
