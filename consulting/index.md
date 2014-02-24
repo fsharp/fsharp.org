@@ -6,11 +6,12 @@ headline: F# Consultants
 
 The following websites, companies and groups offer consultancy services in F# and its applications.
 
-If you provide consulting services for F#, please submit your material by [editing this page on GitHub](https://github.com/fsharp/fsfoundation/edit/gh-pages/consulting/index.md) and submitting a pull request.
+If you provide consulting services related to F#, and support the goals of the F#
+Software Foundation, please submit your material by [editing this page on GitHub](https://github.com/fsharp/fsfoundation/edit/gh-pages/consulting/index.md) and submitting a pull request.
 
 ## Consulting Services
 
-### [FPBridge F# Consulting](http://fpbridge.co.uk/training.html#consulting)
+### [FPBridge Consulting](http://fpbridge.co.uk/training.html#consulting)
 
 <img src="/img/sup/fpbridge.png" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -19,7 +20,7 @@ If you provide consulting services for F#, please submit your material by [editi
 * Advice on a low-risk strategy for introducing F# into your business, and assistance with C# to F# migration, code reviews, etc.
 * Software architecture and design assistance for full-on functional-first development.
 
-### [Intellifactory F# Consulting](http://intellifactory.com/Consulting.aspx)
+### [Intellifactory Consulting](http://intellifactory.com/Consulting.aspx)
 
 <img src="/img/sup/intelli.gif" style="float:right;margin:5px 0px 5px 25px;" />
 
