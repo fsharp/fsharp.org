@@ -1082,7 +1082,7 @@ There's an exciting future for F# in this huge, emerging, data-rich health care 
 
 <div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
 
-<a id="Jamie Dixon" > </a>
+<a id="JamieDixon" > </a>
 ---
 
 > F# makes is easy to spend your time answering interesting questions about the domain and less time answering questions about the language.
@@ -1090,7 +1090,7 @@ There's an exciting future for F# in this huge, emerging, data-rich health care 
 1. **Jamie Dixon**
 2. Coder
 3. Cary, North Carolina
-4. [permalink](@jamie_dixon)
+4. [permalink](#JamieDixon)
 
 I did a public records request in my town of Cary, North Carolina.  The dataset included appx 25,000 traffic stop records for 2012. Using F#, I did some basic statistical calculations to determine that when you are driving is much more important than where you are driving in terms of getting stopped.  In fact, the term 'speed trap' is a misnomer.  In addition, the data supports the notion that there is a monthly quota of tickets being given.   You can read the entire analysis [here](http://jamessdixon.wordpress.com/2014/01/07/traffic-stop-analysis-using-f/)
 
