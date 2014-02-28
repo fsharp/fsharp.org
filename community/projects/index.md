@@ -104,6 +104,8 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [FsPlot](https://github.com/TahaHachana/FsPlot) - FsPlot is an interactive data visualization library for F# using HTML5/JavaScript.
 
+*  [VegaHub](http://panesofglass.github.io/VegaHub) - SignalR hub accessible from F# interactive with charting made through the [vega](http://trifacta.github.io/vega/) JavaScript library.
+
 <br />
 
 ### Community Projects: Math Libraries
@@ -150,6 +152,16 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  ![logo](/images/thumbs/suave.png)&nbsp;[Suave](http://suave.io) - Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
+*  ![logo](/images/thumbs/fracture.png)[Fracture I/O](https://github.com/fractureio/fracture) - High performance sockets library.
+
+*  ![logo](/images/thumbs/fracture.png)[Fracture.Http](https://github.com/fractureio/fracture.http) - HTTP server built on Fracture I/O.
+
+*  [Frank](http://frankfs.net/) - Frank provides a functional wrapper around the types in System.Net.Http, the library used by ASP.NET Web API.
+
+*  [Dyfrig](https://github.com/fsprojects/dyfrig) - (WIP) F# types for working with [OWIN](http://owin.org/).
+
+*  [Taliesin](https://github.com/panesofglass/taliesin) - (WIP) Generate types for web clients and servers given [apiary.io](http://apiary.io/) or [alps.io](http://alps.io/) API documentation.
+
 <br />
 
 ### Community Projects: Scripting & Configuration
@@ -174,6 +186,10 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
     *  [ResXTypeProvider](http://fsprojects.github.io/FSharp.Configuration/ResXProvider.html) - Typed access to .resx files.
 
     *  [YamlTypeProvider](http://fsprojects.github.io/FSharp.Configuration/YamlProvider.html) - Typed access to Yaml.
+
+<br />
+
+*  [Stellar](https://github.com/panesofglass/stellar) - Typed access to the Windows Azure Management REST APIs.
 
 <br />
 
