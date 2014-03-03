@@ -173,7 +173,8 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Reed Copsey, Jr.](http://reedcopsey.com/) [@reedcopsey](http://twitter.com/reedcopsey)
  * [Stefan Alfbo](http://stefanalfbo.github.io/) [@stefanalfbo](http://twitter.com/stefanalfbo)
  * [Torben Rahbek Koch](http://softwarepassion.eu) [@torbenrkoch](http://twitter.com/torbenrkoch)
- * [Samin Ishtiaq], Research Engineer, Microsoft Research
+ * Samin Ishtiaq, Research Engineer, Microsoft Research
+ * Enrico Sada, ([enrico@sada.io](mailto:enrico@sada.io)), [@enricosada](https://twitter.com/enricosada)
 
 
 ## Contact
