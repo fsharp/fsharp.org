@@ -22,7 +22,7 @@ Software Foundation, please submit your material by [editing this page on GitHub
 
 ### [Intellifactory Consulting](http://intellifactory.com/Consulting.aspx)
 
-<img src="/img/sup/intelli.gif" style="float:right;margin:5px 0px 5px 25px;" />
+[<img src="/img/sup/intelli.gif" style="float:right;margin:5px 0px 5px 25px;" />](http://intellifactory.com/Consulting.aspx)
 
 Bring in the experts to solve problems!
 
