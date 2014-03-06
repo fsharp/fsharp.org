@@ -20,7 +20,17 @@ Software Foundation, please submit your material by [editing this page on GitHub
 * Advice on a low-risk strategy for introducing F# into your business, and assistance with C# to F# migration, code reviews, etc.
 * Software architecture and design assistance for full-on functional-first development.
 
-### [Intellifactory Consulting](http://intellifactory.com/Consulting.aspx) 
+### [Firefly Logic](http://fireflylogic.com/) (North America)
+
+[<img src="/img/sup/fireflylogic.png" style="float:right;margin:5px 0px 5px 25px;" />](http://fireflylogic.com/)
+
+[Firefly Logic](http://fireflylogic.com/) is a functional-first software firm. We can design *and* code apps that millions of people will love, and we can develop backend systems capable of withstanding that success. 
+
+Cross-platform native mobile? Intuitive UX? Massive concurrency? Horizontal scaling? Real-world CQRS? Fault-tolerance? Yes, that’s our turf: where “delightful” meets “carrier-grade”. 
+
+Nashville-based Firefly Logic was founded in 2004. We have F# MVPs on staff, deep Erlang expertise, in-house design, and a decade of experience in native-mobile. Need a hand?
+
+### [Intellifactory Consulting](http://intellifactory.com/Consulting.aspx) (Europe and North America)
 
 [<img src="/img/sup/intelli.gif" style="float:right;margin:5px 0px 5px 25px;" />](http://intellifactory.com/Consulting.aspx)
 
@@ -42,15 +52,6 @@ And maybe you have some legacy numerical code you would like to wrap with an int
 We can easily integrate any functionality with [FCore](http://www.statfactory.co.uk/fcore-numerical-library/) so that it fully meets your requirements.
 Please do not hesitate to contact us if you need more information.
 
-### [Firefly Logic](http://fireflylogic.com/) (North America)
-
-[<img src="/img/sup/fireflylogic.png" style="float:right;margin:5px 0px 5px 25px;" />](http://fireflylogic.com/)
-
-[Firefly Logic](http://fireflylogic.com/) is a functional-first software firm. We can design *and* code apps that millions of people will love, and we can develop backend systems capable of withstanding that success. 
-
-Cross-platform native mobile? Intuitive UX? Massive concurrency? Horizontal scaling? Real-world CQRS? Fault-tolerance? Yes, that’s our turf: where “delightful” meets “carrier-grade”. 
-
-Nashville-based Firefly Logic was founded in 2004. We have F# MVPs on staff, deep Erlang expertise, in-house design, and a decade of experience in native-mobile. Need a hand?
 
 ### [Perfect Shuffle Ltd](http://www.perfectshuffle.co.uk/) (Europe)
 
@@ -62,7 +63,7 @@ We have experience both with .NET and Mono development including Xamarin for cro
 
 Available for local and remote work. Please get in touch via [our website](http://www.perfectshuffle.co.uk/contact).
 
-### [Flying Frog Consultancy](http://www.ffconsultancy.com/) 
+### [Flying Frog Consultancy](http://www.ffconsultancy.com/) (Europe)
 
 [<img src="/img/sup/ffconsultancy.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.ffconsultancy.com/)
 
