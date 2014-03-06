@@ -13,7 +13,7 @@ Software Foundation, please submit your material by [editing this page on GitHub
 
 ### [FPBridge Consulting](http://fpbridge.co.uk/training.html#consulting)
 
-<img src="/img/sup/fpbridge.png" style="float:right;margin:5px 0px 5px 25px;" />
+[<img src="/img/sup/fpbridge.png" style="float:right;margin:5px 0px 5px 25px;" />](http://fpbridge.co.uk/training.html#consulting)
 
 [FPBridge](http://fpbridge.co.uk) offers advice, training and support with any issues related to F# projects and libraries, including:
 
@@ -30,7 +30,7 @@ At [IntelliFactory](http://intellifactory.com) we are experts at functional prog
 
 ### [Flying Frog Consultancy](http://www.ffconsultancy.com/)
 
-<img src="/img/sup/ffconsultancy.png" style="float:right;margin:5px 0px 5px 25px;" />
+[<img src="/img/sup/ffconsultancy.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.ffconsultancy.com/)
 
 [Flying Frog consultancy](http://www.ffconsultancy.com/) can be contacted for consulting in F# including its application in scientific programming, 
 technical computing, actuarial and trading domains.
@@ -41,7 +41,7 @@ Draw upon our industrial experience of F# and let us guide you past the potentia
 
 ### [StatFactory](http://www.statfactory.co.uk/professional-services/)
 
-<img src="/img/sup/statfactory.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+[<img src="/img/sup/statfactory.jpg" style="float:right;margin:5px 0px 5px 25px;" />](http://www.statfactory.co.uk/professional-services/)
 
 [StatFactory](http://www.statfactory.co.uk/) offers products, services and training related to F#, its use
 in quantiative finance and how to integrate F# with Excel.
@@ -54,7 +54,7 @@ Please do not hesitate to contact us if you need more information.
 
 ### [Firefly Logic](http://fireflylogic.com/)
 
-<img src="/img/sup/fireflylogic.png" style="float:right;margin:5px 0px 5px 25px;" />
+[<img src="/img/sup/fireflylogic.png" style="float:right;margin:5px 0px 5px 25px;" />](http://fireflylogic.com/)
 
 [Firefly Logic](http://fireflylogic.com/) is a functional-first software firm. We can design *and* code apps that millions of people will love, and we can develop backend systems capable of withstanding that success. 
 
@@ -64,7 +64,7 @@ Nashville-based Firefly Logic was founded in 2004. We have F# MVPs on staff, dee
 
 ### [Perfect Shuffle Ltd](http://www.perfectshuffle.co.uk/) 
 
-<img src="/img/sup/perfectshuffle.png" style="float:right;margin:5px 0px 5px 25px;" />
+[<img src="/img/sup/perfectshuffle.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.perfectshuffle.co.uk/)
 
 [Perfect Shuffle Ltd](http://www.perfectshuffle.co.uk/) is a London-based software consultancy. We specialise in using functional programming tools and techniques to deliver more reliable software, more quickly. We have worked with companies from publishing and pharmaceuticals to financial trading and asset management to help them deliver more robust software, more quickly.
 
