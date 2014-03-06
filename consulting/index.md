@@ -61,3 +61,13 @@ Please do not hesitate to contact us if you need more information.
 Cross-platform native mobile? Intuitive UX? Massive concurrency? Horizontal scaling? Real-world CQRS? Fault-tolerance? Yes, that’s our turf: where “delightful” meets “carrier-grade”. 
 
 Nashville-based Firefly Logic was founded in 2004. We have F# MVPs on staff, deep Erlang expertise, in-house design, and a decade of experience in native-mobile. Need a hand?
+
+### [Perfect Shuffle Ltd](http://www.perfectshuffle.co.uk/) 
+
+<img src="/img/sup/perfectshuffle.png" style="float:right;margin:5px 0px 5px 25px;" />
+
+[Perfect Shuffle Ltd](http://www.perfectshuffle.co.uk/) is a London-based software consultancy. We specialise in using functional programming tools and techniques to deliver more reliable software, more quickly. We have worked with companies from publishing and pharmaceuticals to financial trading and asset management to help them deliver more robust software, more quickly.
+
+We have experience both with .NET and Mono development including Xamarin for cross-platform mobile apps, and WebSharper for functional web apps.
+
+Available for local and remote work. Please get in touch via [our website](http://www.perfectshuffle.co.uk/contact).
