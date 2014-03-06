@@ -45,6 +45,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 *  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
 
+*  [F# Project Scaffold](https://github.com/fsprojects/FSharp.ProjectScaffold) - A prototypical F# library (file system layout and tooling), recommended by the F# Foundation.
 
 <br />
 
