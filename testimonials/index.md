@@ -1103,8 +1103,6 @@ F# was great because I spent less time figuring out how to answer my question an
 <div class="keywords">analytics, open data</div>
 
 
-
-
 <a id="reminder-hero" > </a>
 ---
 
@@ -1122,6 +1120,24 @@ Our first iterations were written in C#, but after switching to F#, we saw a dra
 along with an increase in readability. We'll definitely be sticking with F# for all of our future projects.
 
 <div class="keywords">data, parsing, processing, readability</div>
+
+<a id="mauricio-scheffer" > </a>
+---
+
+> With F# I can develop libraries in a fraction of the time.
+
+1. **Mauricio Scheffer**
+2. [permalink](#mauricio-scheffer)
+
+
+I’ve been using F# libraries in otherwise mostly C# / VB.NET web applications. Thanks to the conciseness of F#, I can develop these libraries in a fraction of the time, then I consume them from C# and VB.NET just like any other library.
+
+Furthermore, F#’s succint syntax and REPL make it an excellent scripting language and good for data exploration. Thanks to F#’s interoperability the scripts can easily use domains and libraries written in C#. You never need to start from scratch or have to reinvent things.
+
+Language features like record types, discriminated unions and type inference also make F# a great language for prototyping. I often prototype new business domains in F# with a few simplified use cases to refine it. The simple syntax allows me to focus on developing the domain and iterate more quickly. Then, when company policy requires it, I translate it to C# which is usually a straightforward process that ends up with many times more lines of code (yet still perfectly maintainable).
+
+
+<div class="keywords">web, domain modelling</div>
 
 ### Additional Case Studies
 
