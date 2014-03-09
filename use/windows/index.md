@@ -24,22 +24,23 @@ OR:
    - Install the free [Visual Studio Express 2012 for Web](http://www.microsoft.com/en-us/download/details.aspx?id=30669)  plus the free [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkID=261287)
 
 
-The tools include the command-line compiler (`fsc.exe`) or F# Interactive (`fsi.exe`).
-See [fsharp.net](hhttp://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
+The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
+See [fsharp.net](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
 
 ##### ![logo](/images/thumbs/vstudio.png)&nbsp;Visual F# Power Tools #####
 
-Optionally, install the community-provided [Visual F# Power Tools](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff)
-These are a combination  of free power tools which are handy to use with Visual Studio 2012 and 2013 (Professional or higher), including:
+Optionally, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
+for use with Visual Studio 2012 and 2013 (Professional or higher). They include:
 
- - [Source code formatting](http://fsprojects.github.io/FSharpVSPowerTools/codeformatting.html)
+ - [Source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html)
 
- - [Auto-generating XML Docs](http://fsprojects.github.io/FSharpVSPowerTools/xmldoc.html)
+ - [Auto-generating XML Docs](http://fsprojects.github.io/VisualFSharpPowerTools/xmldoc.html)
 
- - [Regions and navigation bar](http://fsprojects.github.io/FSharpVSPowerTools/navbar.html)
+ - [Regions and navigation bar](http://fsprojects.github.io/VisualFSharpPowerTools/navbar.html)
 
- - [Highlight references](http://fsprojects.github.io/FSharpVSPowerTools/highlightusage.html)
+ - [Highlight references](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html)
 
+ - [Rename refactoring](http://fsprojects.github.io/VisualFSharpPowerTools/rename.html)
 
 ##### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users #####
 
