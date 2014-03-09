@@ -32,16 +32,18 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Development Tools
 
+*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for Visual Studio, available in the Visual Studio Gallery. 
+Contributions welcome!
+
 *  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](https://code.google.com/p/fseye/) - A visual object tree inspector for the F# Interactive
 
 *  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
-*  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter
+*  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter, also includes with the [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)
 
 *  [FAKE](http://fsharp.github.io/FAKE) - F# build automation system
 
 *  [fsharpbinding](https://github.com/fsharp/fsharpbinding) - F# Language Bindings for Open Editors (Emacs, MonoDevelop)
-*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[F# Power Tools for Visual Studio](https://github.com/fsprojects/FSharpVSPowerTools) - A collection of (editing, formatting, navigation, refactoring) commands for Visual Studio. Contributions welcome!
 
 *  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
 
