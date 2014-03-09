@@ -27,7 +27,7 @@ OR:
 The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
 See [fsharp.net](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
 
-##### ![logo](/images/thumbs/vstudio.png)&nbsp;Visual F# Power Tools #####
+##### ![logo](/images/thumbs/vstudio.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) #####
 
 Optionally, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
 for use with Visual Studio 2012 and 2013 (Professional or higher). They include:
