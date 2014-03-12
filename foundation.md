@@ -75,7 +75,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Adrian Newman
  * [Adam Granicz](http://fpish.net/blog/adam.granicz/all/0), [IntelliFactory](http://intellifactory.com)
  * [Robin Neatherway](http://www.neatherway.com), [@rneatherway](https://twitter.com/rneatherway)
- * [Rainer Schmidt](http://www.htw-aalen.de/personal/rainer.schmidt/), Professor for Business Information Systems, Aalen University, Germany
+ * [Rainer Schmidt](http://w3cs-n.hm.edu/die_fakultaet/ansprechpartner/professoren/schmidt/index.de.html), Rainer Schmidt, Professor for Business Information Systems, Munich University of Applied Sciences, Germany
  * [Anh-Dung Phan](http://lonelypad.blogspot.com/), PhD student at Technical University of Denmark
  * Petr Lepilov, New England F# User Group
  * [Dave Thomas](http://7sharpnine.com), ([@7sharp9](https://twitter.com/7sharp9))
