@@ -36,6 +36,7 @@ go further.
         cd mono
         ./autogen.sh --prefix /usr
         make get-monolite-latest
+        make EXTERNAL_MCS="${PWD}/mcs/class/lib/monolite/gmcs.exe"
         make
         sudo make install
 
