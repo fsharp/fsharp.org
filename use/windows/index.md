@@ -27,7 +27,7 @@ OR:
 The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
 See [fsharp.net](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
 
-##### ![logo](/images/thumbs/vstudio.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) #####
+##### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) #####
 
 Optionally, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
 for use with Visual Studio 2012 and 2013 (Professional or higher). They include:
@@ -36,17 +36,23 @@ for use with Visual Studio 2012 and 2013 (Professional or higher). They include:
 
  - [Auto-generating XML Docs](http://fsprojects.github.io/VisualFSharpPowerTools/xmldoc.html)
 
- - [Regions and navigation bar](http://fsprojects.github.io/VisualFSharpPowerTools/navbar.html)
+ - [Navigation bar](http://fsprojects.github.io/VisualFSharpPowerTools/navbar.html)
 
  - [Highlight references](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html)
 
  - [Rename refactoring](http://fsprojects.github.io/VisualFSharpPowerTools/rename.html)
+ 
+ - [Depth colorizer](http://fsprojects.github.io/VisualFSharpPowerTools/depthcolorizer.html)
+ 
+ - [NavigateTo command](http://fsprojects.github.io/VisualFSharpPowerTools/navigateto.html)
 
 ##### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users #####
 
 With some versions of ReSharper, the `Alt+Enter` shortcut key for the `Execute in Interactive`
 command of the Visual F# Tools  doesn't work, as ReSharper overrides this for its own purposes.
 To fix this, either upgrade to ReSharper 8.0.10.1959 or greater, or install the [resharper-fsi-friendly](https://github.com/citizenmatt/resharper-fsi-friendly) plugin.
+
+If you are using Visual F# Power Tools along side with ReSharper, there is a [known issue](http://youtrack.jetbrains.com/issue/RSRP-409199) where some F# commands are hidden by ReSharper. Until it is fixed, you can workaround by disabling the ReSharper option "Hide overridden Visual Studio menu items" (ReSharper -> Options -> Keyboard & Menus).
 
 <br />
 
