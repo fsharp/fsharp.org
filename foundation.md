@@ -57,7 +57,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
 
 ### Founding members
 
- * [Phil Trelford](http://trelford.com/blog/), Developer and Architect at [Trayport](http://www.trayport.com), London ([@ptrelford](https://twitter.com/ptrelford))
+ * [Phil Trelford](http://trelford.com/blog/), Developer and Architect, Finance and Trading sector, London ([@ptrelford](https://twitter.com/ptrelford))
  * [Tomas Petricek](http://tomasp.net) ([tomas@tomasp.net](mailto:tomas@tomasp.net)), PhD student at the University of Cambridge
  * [Richard Minerich](http://richardminerich.com), ([richard.minerich@gmail.com](mailto:richard.minerich@gmail.com)), [@Rickasaurus](https://twitter.com/Rickasaurus)
  * [Cameron Taggart](http://blog.ctaggart.com/)
