@@ -32,7 +32,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Development Tools
 
-*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for Visual Studio, available in the Visual Studio Gallery. 
+*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](https://github.com/fsprojects/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff). 
 Contributions welcome!
 
 *  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](https://code.google.com/p/fseye/) - A visual object tree inspector for the F# Interactive
@@ -266,10 +266,6 @@ Contributions welcome!
 
 
 ### Community Projects: Development Tools (earlier versions of Visual Studio, may be resurrectable)
-
-
-* [F# depth colorizer](http://visualstudiogallery.msdn.microsoft.com/07636c36-52be-4dce-9f2e-3c56b8329e33) Use F# parse tree information to display structure of F# code using background color
-
 
 * [FSharpJump](http://visualstudiogallery.msdn.microsoft.com/ddde6ac9-20c9-4c9b-92f6-090b09ab944a) An outlining and navigation tool for F#
 
