@@ -67,7 +67,7 @@ Contributions welcome!
 
     *  [Apiary Type Provider](http://fsharp.github.io/FSharp.Data/experimental/ApiaryProvider.html) - An experimental type provider that makes it possible to easily call REST services that are documented using the apiary.io service.
 
-*  ![logo](/images/thumbs/SqlCommandProvider.png)&nbsp;[FSharp.Data.Experimental.SqlCommandProvider](http://fsprojects.github.io/FSharp.Data.Experimental.SqlCommandProvider/) - Use SQL to specify your queries. Contributors welcome!
+*  ![logo](/images/thumbs/SqlCommandProvider.png)&nbsp;[FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - use SQL to specify queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code.
 
 *  [FSharp.Linq.Experimental.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.Experimental.ComposableQuery/) - An Experimental Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
@@ -116,7 +116,9 @@ Contributions welcome!
 *  ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - A large collection of 
    algorithms including linear algebra, special functions, statistics, probability models, 
    interpolation and FFTs. Supports F# 3.0+ with idiomatic extension modules.
-  
+
+*  ![logo](/images/thumbs/fuzzy.png)&nbsp;[FSharp.Fuzzy](http://fsprojects.github.io/FSharp.Fuzzy/) - A basic math library of fuzzy 
+   and interval calculus with examples
 
 <br />
 
