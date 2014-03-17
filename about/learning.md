@@ -150,6 +150,14 @@ will enable you to concentrate more on the problem itself rather than
 implementation details. Tutorials and snippets are summarized into an automated 
 trading system throughout the book.
 
+### [The Book of F#] (http://www.nostarch.com/fsharp/)
+
+<img src="files/BookOfFSharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Dave Fancher_
+
+The Book of F# aims to introduce intermediate and experienced developers to functional-first programming with F#. Throughout the book, you'll learn how this robust language can help you focus on creating correct solutions by introducing a variety of important concepts including currying, partial application, pattern matching, units of measure, asynchronous workflows, query expressions, type providers, and computation expressions. Furthermore, you'll discover how F#'s rich object-oriented capabilities allow it to naturally fit into existing applications.
+
 ## F# Books (Coming Soon)
 
 ### [F# Deep Dives] (http://manning.com/petricek2/)
@@ -167,14 +175,6 @@ F# Deep Dives presents a collection of real-world F# techniques, each written by
 _Scott Wlaschin_
 
 A practical approach with examples in F#. Are you an experienced C#, Java or Python developer? Do you want to understand what all the fuss about functional programming is about? Designed for beginners, this book will explain all the core concepts of functional programming in a practical way with no maths or jargon.
-
-### [The Book of F#] (http://www.nostarch.com/fsharp/)
-
-<img src="files/BookOfFSharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
-
-_Dave Fancher_
-
-The Book of F# aims to introduce intermediate and experienced developers to functional-first programming with F#. Throughout the book, you'll learn how this robust language can help you focus on creating correct solutions by introducing a variety of important concepts including currying, partial application, pattern matching, units of measure, asynchronous workflows, query expressions, type providers, and computation expressions. Furthermore, you'll discover how F#'s rich object-oriented capabilities allow it to naturally fit into existing applications.
 
 ## Tutorials
 
