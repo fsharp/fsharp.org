@@ -29,7 +29,7 @@ Many [NuGET](http://nuget.org) packages exist for document access. Some specific
 A wide range of high-quality libraries exist for SQL data access from F#. Many can be found on [NuGET](http://nuget.org).
 Some resources are listed below:
 
- * [FSharp.Data.SqlCommandTypeProvider](http://fsprojects.github.io/FSharp.Data.Experimental.SqlCommandProvider/) - Use SQL to specify your queries. Contributors welcome!
+ * [FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - Use SQL to specify your queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code.
 
  * [FSharp.Data.SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL database type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
 
