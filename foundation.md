@@ -175,6 +175,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Torben Rahbek Koch](http://softwarepassion.eu) [@torbenrkoch](http://twitter.com/torbenrkoch)
  * Samin Ishtiaq, Research Engineer, Microsoft Research
  * Enrico Sada, ([enrico@sada.io](mailto:enrico@sada.io)), [@enricosada](https://twitter.com/enricosada)
+ * Dmitry Sevastianov, ([dsevastianov@gmail.com](mailto:dsevastianov@gmail.com))
 
 
 ## Contact
