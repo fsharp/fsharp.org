@@ -208,6 +208,8 @@ Contributions welcome!
 
 * ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
 
+* ![logo](/images/thumbs/AkkaDotNET.png)&nbsp;[Akka.NET](https://github.com/akkadotnet/akka.net) - .NET community port of the Java/Scala framework Akka.
+
 
 <br />
 
