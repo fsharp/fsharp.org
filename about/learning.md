@@ -158,6 +158,14 @@ _Dave Fancher_
 
 The Book of F# aims to introduce intermediate and experienced developers to functional-first programming with F#. Throughout the book, you'll learn how this robust language can help you focus on creating correct solutions by introducing a variety of important concepts including currying, partial application, pattern matching, units of measure, asynchronous workflows, query expressions, type providers, and computation expressions. Furthermore, you'll discover how F#'s rich object-oriented capabilities allow it to naturally fit into existing applications.
 
+### [Programming Language Concepts] (http://www.itu.dk/people/sestoft/plc/)
+
+<img src="files/BookPLC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Peter Sestoft_
+
+The book Programming Language Concepts (PLC) provides an introduction to programming language concepts and implementation technology, such as interpretation, compilation, type checking and type inference, abstract machines, and garbage collection. F# is used as a meta language throughout the book expressing all concepts and examples of programming language design in a modern strongly-typed language of the ML-family, enabling the reader to experiment with the ideas right away.
+
 ## F# Books (Coming Soon)
 
 ### [F# Deep Dives] (http://manning.com/petricek2/)
