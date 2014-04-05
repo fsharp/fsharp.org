@@ -176,6 +176,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Samin Ishtiaq, Research Engineer, Microsoft Research
  * Enrico Sada, ([enrico@sada.io](mailto:enrico@sada.io)), [@enricosada](https://twitter.com/enricosada)
  * Dmitry Sevastianov, ([dsevastianov@gmail.com](mailto:dsevastianov@gmail.com))
+ * Max Malook, ([mexx](https://github.com/mexx), [@max_malook](https://twitter.com/max_malook))
 
 
 ## Contact
