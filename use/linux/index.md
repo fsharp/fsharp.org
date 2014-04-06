@@ -9,7 +9,7 @@ To help with Linux packages, please email the [F# Open Source Group](http://fsha
 
 ### Option 1: Use the F# Debian packages 
 
-F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are currently available in Debian _experimental and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
+F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are currently available in Debian _experimental_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
 
     sudo apt-get update
     sudo apt-get install mono-complete
