@@ -9,13 +9,13 @@ To help with Linux packages, please email the [F# Open Source Group](http://fsha
 
 ### Option 1: Use the F# Debian packages 
 
-F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are currently available in Debian _testing_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
+F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are currently available in Debian _experimental and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
 
     sudo apt-get update
     sudo apt-get install mono-complete
     sudo apt-get install fsharp
 
-This installs `fsharpc` and `fsharpi`. If you don't have access to *testing* or *trusty/universe*, see Option 6 below.
+This installs `fsharpc` and `fsharpi`. If you don't have access to *trusty/universe*, compiple from source or see Option 6 below.
 
 
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
@@ -119,7 +119,7 @@ To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.
 
 ### Option 6: Get access to the Debian packages
 
-If you want to use Debian packages and don't have access to testing or trusty/universe packages, then 
+If you want to use Debian packages and don't have access to trusty/universe packages, then 
 the following steps may allow access:
 
 1. Add the following using `sudo vi /etc/apt/sources.list`:
