@@ -198,6 +198,13 @@ Contributions welcome!
 
 <br />
 
+### Community Projects: Asynchronous, Concurrent and Parallel Programming
+
+*  [Hopac](https://github.com/VesaKarvonen/Hopac) - Inspired by languages like Concurrent ML and Cilk, Hopac is a
+   library for F# with the aim of making it easier to write efficient parallel, asynchronous and concurrent programs.
+
+<br />
+
 ### Community Projects: Distribution Tools
 
 *  [f0](https://github.com/joshcough/f0) - A binary [de]serialization combinator library, with binary-format 
