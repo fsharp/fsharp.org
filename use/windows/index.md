@@ -96,6 +96,8 @@ If you're just looking for a compiler and/or F# Interactive, e.g. for a build se
         $webclient.DownloadFile($url, "$pwd\FSharp_Bundle.exe")
         .\FSharp_Bundle.exe /install /quiet
 
+4. Apply [the additional installation step described here](http://stackoverflow.com/a/21318488) in order to build existing F# project files.
+
 The compiler tools are installed at
 
     C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\fsc.exe
