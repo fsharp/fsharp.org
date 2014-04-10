@@ -30,21 +30,13 @@ See [fsharp.net](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more
 ##### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) #####
 
 Optionally, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
-for use with Visual Studio 2012 and 2013 (Professional or higher). They include:
-
- - [Source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html)
-
- - [Auto-generating XML Docs](http://fsprojects.github.io/VisualFSharpPowerTools/xmldoc.html)
-
- - [Navigation bar](http://fsprojects.github.io/VisualFSharpPowerTools/navbar.html)
-
- - [Highlight references](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html)
-
- - [Rename refactoring](http://fsprojects.github.io/VisualFSharpPowerTools/rename.html)
- 
- - [Depth colorizer](http://fsprojects.github.io/VisualFSharpPowerTools/depthcolorizer.html)
- 
- - [NavigateTo command](http://fsprojects.github.io/VisualFSharpPowerTools/navigateto.html)
+for use with Visual Studio 2012 and 2013 (Professional or higher). They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
+[auto-generating XML Docs](http://fsprojects.github.io/VisualFSharpPowerTools/xmldoc.html), 
+[navigation bar](http://fsprojects.github.io/VisualFSharpPowerTools/navbar.html), 
+[highlight references](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html), 
+[rename refactoring](http://fsprojects.github.io/VisualFSharpPowerTools/rename.html),
+[depth colorizer](http://fsprojects.github.io/VisualFSharpPowerTools/depthcolorizer.html) and the
+[navigate-to command](http://fsprojects.github.io/VisualFSharpPowerTools/navigateto.html).
 
 ##### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users #####
 
@@ -71,7 +63,8 @@ If you are using Visual F# Power Tools along side with ReSharper, there is a [kn
 
 ### Option 3: Install the free F# compiler and tools alone
 
-If you're just looking for a compiler and/or F# Interactive, e.g. for a build server or cloud VM image, then:
+If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then use the 
+following requirements and installation steps:
 
 1. Requires .NET 4.5:
 
@@ -96,7 +89,8 @@ If you're just looking for a compiler and/or F# Interactive, e.g. for a build se
         $webclient.DownloadFile($url, "$pwd\FSharp_Bundle.exe")
         .\FSharp_Bundle.exe /install /quiet
 
-4. Apply [the additional installation step described here](http://stackoverflow.com/a/21318488) in order to build existing F# project files.
+4. Apply [the additional installation step described here](http://stackoverflow.com/a/21318488) in order to 
+   build existing F# project files.
 
 The compiler tools are installed at
 
@@ -121,5 +115,5 @@ It has a number of unique features ideally suited for Big Data, Data Science and
 
 ### Option 5: Build F# from source
 
-* Build the F# compiler and library from [the source](http://fsharp.github.com/fsharp)
+* Build and contribute to the F# compiler and library from [the source](http://visualfsharp.codeplex.com)
 
