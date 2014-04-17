@@ -1,7 +1,6 @@
 /* Required for Twitter Bootstrap's menu */
-body {
+#main {
   padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 @media (max-width: 980px) and (min-width: 768px) {
@@ -25,8 +24,10 @@ body {
 }
 
 footer {
-	margin-top: 40px;
-	text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+  margin-top: 40px;
+
 }
 
 .menu h4 {
