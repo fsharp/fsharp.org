@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: Testimonials | The F# Software Foundation
 headline: Testimonials and Quotes
@@ -98,7 +98,7 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 <div class="keywords">financial services, analysis, fixed income, derivatives, financial modelling</div>
  
 
-<div class="hero-unit visible-desktop contributeTestimonials" id="how-to-add-testimonial"> 
+<div class="jumbotron visible-lg contributeTestimonials" id="how-to-add-testimonial"> 
   <h3>Contribute testimonials</h3>
     <p> To add a new testimonial, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send the pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
 </div>              

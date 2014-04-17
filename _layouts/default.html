@@ -1,164 +1,161 @@
 ﻿<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>{{ page.title }}</title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width">
-      <meta name="keywords" content="F#,FSharp,F# Programming">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TODO: add a unique meta description to each page -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="F#, FSharp, F# Programming" />
 
-      <link href='http://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="/css/bootstrap.min.css">
-      <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
-      <link rel="stylesheet" href="/css/main.css">
+    <title>{{ page.title }}</title>
 
-      <script src="/js/vendor/modernizr-2.6.1.min.js"></script>
-  </head>
-  <body
-        <!-- Required for FB Share button -->
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>  
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-        <div class="navbar navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="#">F# Software Foundation</a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="/">Home</a></li>
-                            <li><a href="/foundation.html">Foundation</a></li>
-                            <li><a href="/testimonials/">Testimonials</a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' media="screen" />
+    <link rel="stylesheet" href="/css/main.css" media="screen" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Required for FB Share button -->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">F# Software Foundation</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/foundation.html">Foundation</a></li>
+                    <li><a href="/testimonials/">Testimonials</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="main">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="/">
+                    <img src="/img/logo.png" id="logo" alt="F#. Part of the program." class="img-responsive" /></a>
+            </div>
+            <div class="col-md-9">
+                <div class="page-header">
+                    <h1>{{ page.headline }}</h1>
                 </div>
             </div>
         </div>
-
-        <div class="container">
-          <div class="row" id="headerRow">
-            <div class="span3">
-              <a href="/"><img src="/img/logo.png" id="logo" alt="F#. Part of the program." /></a>
-            </div>
-            <div class="span9">
-              <h1>{{ page.headline }}</h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="span3 menu" id="leftMenu">
-              <p>
-                <div class="fb-share-button" data-type="button_count"></div>&nbsp;
+        <div class="row">
+            <div class="col-md-3 menu" id="leftMenu">
+                <div>
+                    <div class="fb-share-button" data-type="button_count"></div>
+                    &nbsp;
                 <a href="https://twitter.com/share" class="twitter-share-button" data-via="fsharporg" data-related="fsharporg" data-hashtags="fsharp">Tweet</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-              </p>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                </div>
+                <h4 class="first">About</h4>
+                <ul>
+                    <li><a href="/about/index.html">About F#</a></li>
+                    <li><a href="/about/learning.html">Learning F#</a></li>
+                    <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/development-guide’);" href="http://fsharpforfunandprofit.com/">Development guide</a></li>
+                    <li><a href="/about/index.html#documentation">Documentation</a></li>
+                    <li><a href="/about/index.html#specification">Language spec</a></li>
+                    <li><a href="/testimonials/">Testimonials</a></li>
+                </ul>
+                <h4>Getting F#</h4>
+                <ul>
+                    <li><a href="/use/mac/">F# on Mac</a></li>
+                    <li><a href="/use/linux/">F# on Linux</a></li>
+                    <li><a href="/use/windows/">F# on Windows</a></li>
+                    <li><a href="/use/android/">F# on Android</a></li>
+                    <li><a href="/use/ios/">F# on iOS (iPhone/iPad)</a></li>
+                    <li><a href="/use/html5/">F# on JS/HTML5</a></li>
+                    <li><a href="/use/gpu/">F# on GPU</a></li>
+                    <li><a href="/use/freebsd/">F# on FreeBSD</a></li>
+                </ul>
+                <h4>Contributing</h4>
+                <ul>
+                    <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/open-source-list’);" href="http://groups.google.com/group/fsharp-opensource">F# open forum</a></li>
+                    <li><a href="/community/projects/">F# community projects</a></li>
+                    <li><a onclick="javascript:pageTracker._tra=ckPageview(‘/outbound/sidebar/news-from-blogs’);" href="http://fpish.net/blogs/Some/1/f~23/0">F# blogs</a></li>
+                    <li><a href="/videos/1">Watch F# videos</a></li>
+                    <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/codeplex-projects’);" href="https://github.com/fsharp/">GitHub</a> and <a href="http://www.codeplex.com/site/search?query=&sortBy=Relevance&tagName=%2cF%23%2c">CodePlex</a></li>
+                    <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/code-snippets’);" href="http://www.fssnip.net/">F# code snippets</a></li>
+                    <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/stackoverflow-tags’);" href="http://stackoverflow.com/questions/tagged/f%23">Ask on StackOverflow</a></li>
+                    <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/codereview-tags’);" href="http://codereview.stackexchange.com/questions/tagged/f%23">F# Code Review</a></li>
+                    <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/twitter-conversations’);" href="http://twitter.com/#fsharp">F# on Twitter</a></li>
+                    <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/irc’);" href="http://webchat.freenode.net/?channels=%23%23fsharp">F# on IRC</a> (<a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/irchistory’);" href="http://ircbrowse.net/day/fsharp/today">History</a>)</li>
+                    <li><a href="/groups/">Join user groups</a></li>
+                    <li><a href="/consulting">F# consultancies</a></li>
+                </ul>
 
-              <h4 class="first">About</h4>
-              <ul>
-                <li><a href="/about/index.html">About F#</a></li>
-                <li><a href="/about/learning.html">Learning F#</a></li>
-                <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/development-guide’);" href="http://fsharpforfunandprofit.com/">Development guide</a></li>
-                <li><a href="/about/index.html#documentation">Documentation</a></li>
-                <li><a href="/about/index.html#specification">Language spec</a></li>
-                <li><a href="/testimonials/">Testimonials</a></li>
-            </ul>
-              <h4>Getting F#</h4>    
-              <ul>
-                <li><a href="/use/mac/">F# on Mac</a></li>
-                <li><a href="/use/linux/">F# on Linux</a></li>
-                <li><a href="/use/windows/">F# on Windows</a></li>
-                <li><a href="/use/android/">F# on Android</a></li>
-                <li><a href="/use/ios/">F# on iOS (iPhone/iPad)</a></li>
-                <li><a href="/use/html5/">F# on JS/HTML5</a></li>
-                <li><a href="/use/gpu/">F# on GPU</a></li>
-                <li><a href="/use/freebsd/">F# on FreeBSD</a></li>
-              </ul>
-              <h4>Contributing</h4>
-              <ul>
-                <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/open-source-list’);" href="http://groups.google.com/group/fsharp-opensource">F# open forum</a></li>
-                <li><a href="/community/projects/">F# community projects</a></li>
-                <li><a onclick="javascript:pageTracker._tra=ckPageview(‘/outbound/sidebar/news-from-blogs’);" href="http://fpish.net/blogs/Some/1/f~23/0">F# blogs</a></li>
-                <li><a href="/videos/1">Watch F# videos</a></li>
-                <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/codeplex-projects’);" href="https://github.com/fsharp/">GitHub</a> and <a href="http://www.codeplex.com/site/search?query=&sortBy=Relevance&tagName=%2cF%23%2c">CodePlex</a></li>
-                <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/code-snippets’);" href="http://www.fssnip.net/">F# code snippets</a></li>
-                <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/stackoverflow-tags’);" href="http://stackoverflow.com/questions/tagged/f%23">Ask on StackOverflow</a></li>
-                <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/codereview-tags’);" href="http://codereview.stackexchange.com/questions/tagged/f%23">F# Code Review</a></li>
-                <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/twitter-conversations’);" href="http://twitter.com/#fsharp">F# on Twitter</a></li>
-                <li><a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/irc’);" href="http://webchat.freenode.net/?channels=%23%23fsharp">F# on IRC</a> (<a onclick="javascript:pageTracker._trackPageview(‘/outbound/sidebar/irchistory’);" href="http://ircbrowse.net/day/fsharp/today">History</a>)</li>
-                <li><a href="/groups/">Join user groups</a></li>
-                <li><a href="/consulting">F# consultancies</a></li>
-              </ul>
+                <h4>Teaching</h4>
+                <ul>
+                    <li><a href="/teaching/index.html">Why teach F#</a></li>
+                    <li><a href="/teaching/index.html#online_teaching_and_learning">Online learning</a></li>
+                    <li><a href="/teaching/index.html#video_lectures">Video lectures</a></li>
+                    <li><a href="/teaching/index.html#textbooks_for_teaching_f">Textbooks for F#</a></li>
+                    <li><a href="/teaching/index.html#lectures_and_course_material">Lecture materials</a></li>
+                    <li><a href="/teaching/research.html">Academic publications</a></li>
+                </ul>
 
-              <h4>Teaching</h4>
-              <ul>
-                <li><a href="/teaching/index.html">Why teach F#</a></li>
-                <li><a href="/teaching/index.html#online_teaching_and_learning">Online learning</a></li>
-                <li><a href="/teaching/index.html#video_lectures">Video lectures</a></li>
-                <li><a href="/teaching/index.html#textbooks_for_teaching_f">Textbooks for F#</a></li>
-                <li><a href="/teaching/index.html#lectures_and_course_material">Lecture materials</a></li>
-                <li><a href="/teaching/research.html">Academic publications</a></li>
-              </ul>
-
-              <h4>Foundation</h4>
-              <ul>
-                <li><a href="/foundation.html">Mission statement</a></li>
-                <li><a href="/foundation.html#funding">Funding</a></li>
-                <li><a href="/foundation.html#founding_members">Members</a></li>
-                <li><a href="/technical-groups">Affiliated technical groups</a></li>
-                <li><a href="/foundation.html#contact">Contact</a></li>
-              </ul>
-              </div>
-              <div class="span9">
+                <h4>Foundation</h4>
+                <ul>
+                    <li><a href="/foundation.html">Mission statement</a></li>
+                    <li><a href="/foundation.html#funding">Funding</a></li>
+                    <li><a href="/foundation.html#founding_members">Members</a></li>
+                    <li><a href="/technical-groups">Affiliated technical groups</a></li>
+                    <li><a href="/foundation.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-9">
                 {{ content }}
-              </div>
             </div>
-          <div class="row">
-            <div class="span12">
-              <footer>
-                <hr />
-                <p>Copyright &copy; 2014, The F# Software Foundation. Web site is maintained by the <a href="https://github.com/fsharp/fsfoundation" target="_blank">F# community on GitHub.</a></p>
-              </footer>
-            </div>
-          </div>
         </div>
+        <div class="container text-center">
+            <footer>
+                <p>&copy; 2014 F# Software Foundation</p>
+                <p>Maintained by the F# community on <a href="https://github.com/fsharp/fsfoundation" target="_blank">GitHub</a>.</p>
+            </footer>
+        </div>
+    </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min.js"><\/script>')</script>
 
-        <script src="/js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="/js/main.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-        <script src="/js/plugins.js"></script>
-        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-        <script src="/js/main.js"></script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-35753329-2']);
-  _gaq.push(['_setDomainName', 'fsharp.org']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-  </body>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35753329-2']);
+        _gaq.push(['_setDomainName', 'fsharp.org']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</body>
 </html>
