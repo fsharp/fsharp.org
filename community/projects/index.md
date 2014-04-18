@@ -207,6 +207,9 @@ Contributions welcome!
 *  [Hopac](https://github.com/VesaKarvonen/Hopac) - Inspired by languages like Concurrent ML and Cilk, Hopac is a
    library for F# with the aim of making it easier to write efficient parallel, asynchronous and concurrent programs.
 
+*  [F# Parallel Sequences](http://fsprojects.github.io/FSharp.Collections.ParallelSeq/). This component provides F#-style API for parallel operations on sequences that are part of .NET 4.0 as System.Linq.ParallelEnumerable class. The API is akin to F# operations on sequences.
+
+
 <br />
 
 ### Community Projects: Distribution Tools
@@ -256,6 +259,8 @@ Contributions welcome!
 <br />
 
 ### Community Projects: Parsing and Compiler Tools
+
+*  [FsLex and FsYacc](http://fsprojects.github.io/FsLexYacc/) FsLex and FsYacc implementations for F#. Contributions welcome.
 
 *  [FParsec](http://www.quanttec.com/fparsec/) A parser combinator library for F#
 
