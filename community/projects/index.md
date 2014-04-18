@@ -131,6 +131,8 @@ Contributions welcome!
 
 ### Community Projects: GPGPU Execution
 
+*  [FSCL](https://github.com/GabrieleCocco/FSCL.Runtime) - Framework for OpenCL programming, scheduling and execution abstraction on heterogeneous platforms in F#.
+
 *  [Alea.cuBase](http://blog.quantalea.net/) - Professional GPGPU programming with F# and CUDA(TM). 
 
 *  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL 
