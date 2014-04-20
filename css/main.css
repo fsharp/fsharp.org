@@ -102,6 +102,11 @@ ul#newsContent {
   margin-left:0px;
 }
 
+.list-group-item {
+  border: none;
+  padding: 5px 15px;
+}
+
 /* Page with foundation goals & member list */
 .missionStatement h1 {
   font-size:300%;
