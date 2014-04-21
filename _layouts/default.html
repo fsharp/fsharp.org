@@ -14,7 +14,7 @@
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' media="screen" />
-    <link rel="stylesheet" href="/css/main.css" media="screen" />
+    <link rel="stylesheet" href="../css/main.css" media="screen" />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -55,7 +55,7 @@
     </nav>
 
     <div class="container" id="main">
-        <div class="row">
+<!--        <div class="row">
             <div class="col-md-3">
                 <a href="/">
                     <img src="/img/logo.png" id="logo" alt="F#. Part of the program." class="img-responsive" /></a>
@@ -65,8 +65,14 @@
                     <h1>{{ page.headline }}</h1>
                 </div>
             </div>
-        </div>
+        </div>-->
         <div class="row">
+            <div class="col-md-9">
+                <div class="page-header">
+                    <h1>{{ page.headline }}</h1>
+                </div>
+                <div>{{ content }}</div>
+            </div>
             <div class="col-md-3 menu" id="leftMenu">
                 <div>
                     <div class="fb-share-button" data-type="button_count"></div>
@@ -128,9 +134,18 @@
                     <li class="list-group-item"><a href="/technical-groups">Affiliated technical groups</a></li>
                     <li class="list-group-item"><a href="/foundation.html#contact">Contact</a></li>
                 </ul>
-            </div>
-            <div class="col-md-9">
-                {{ content }}
+                    <h4 class="first">Application Areas</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="/data-science">Data Science</a></li>
+                        <li class="list-group-item"><a href="/webstacks">Web Programming</a></li>
+                        <li class="list-group-item"><a href="/apps-and-games">Apps and Games</a></li>
+                        <li class="list-group-item"><a href="/machine-learning">Machine Learning</a></li>
+                        <li class="list-group-item"><a href="/cloud">Cloud Programming</a></li>
+                        <li class="list-group-item"><a href="http://www.tryfsharp.org/Learn/financial-computing">Financial Computing</a></li>
+                        <li class="list-group-item"><a href="/math">Math and Statistics</a></li>
+                        <li class="list-group-item"><a href="/data-access">Data Access</a></li>
+                    </ul>
+
             </div>
         </div>
         <div class="container text-center">
