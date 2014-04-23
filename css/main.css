@@ -1,6 +1,6 @@
 /* Required for Twitter Bootstrap's menu */
 #main {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 @media (max-width: 980px) and (min-width: 768px) {
@@ -80,6 +80,11 @@ a[id] {
   display: inline-block; /* required for webkit browsers */
 }
 
+.jumbotron {
+    background-color: #1B68A2;
+    color: white;
+}
+
 /* Homepage */
 #contentMain .hpBanner li {
   margin-top:3px;
@@ -92,10 +97,8 @@ div#sponsors a {
 #newsContent h4 {
   font-size:115%;
 }
-ul#newsContent {
-  padding-left:0px;
-  margin-left:0px;
-  list-style:none;
+#newsContent {
+  width: 75%;
 }
 #newsContent li {
   padding-left:0px;
@@ -105,6 +108,15 @@ ul#newsContent {
 .list-group-item {
   border: none;
   padding: 5px 15px;
+}
+
+.btn-home {
+    color: white;
+    background-color: #1B68A2;
+}
+
+.sponsor {
+    margin-bottom: 30px;
 }
 
 /* Page with foundation goals & member list */
