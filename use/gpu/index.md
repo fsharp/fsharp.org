@@ -51,4 +51,8 @@ Alea.cuBase is a complete solution to develop CUDA accelerated GPU applications 
 
 <br />
 
+### Option 6 - Use GpuLINQ, an open source F#/C# LINQ-to-OpenCL compiler
+
+* See [the GpuLINQ project](https://github.com/nessos/GpuLinq/)
+
 
