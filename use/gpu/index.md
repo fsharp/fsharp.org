@@ -39,9 +39,9 @@ Alea.cuBase is a complete solution to develop CUDA accelerated GPU applications 
 
 <br />
 
-### Option 4 - Use SharpShaders, an MIT-licensed F# tool to write GPU shader code
+### Option 4 - Use GpuLINQ, an open source F#/C# LINQ-to-OpenCL compiler
 
-* See [the SharpShaders project](http://github.com/rookboom/SharpShaders/wiki/)
+* See [the GpuLINQ project](https://github.com/nessos/GpuLinq/)
 
 <br />
 
@@ -51,8 +51,10 @@ Alea.cuBase is a complete solution to develop CUDA accelerated GPU applications 
 
 <br />
 
-### Option 6 - Use GpuLINQ, an open source F#/C# LINQ-to-OpenCL compiler
+### Option 6 - Use SharpShaders, an MIT-licensed F# tool to write GPU shader code
 
-* See [the GpuLINQ project](https://github.com/nessos/GpuLinq/)
+* See [the SharpShaders project](http://github.com/rookboom/SharpShaders/wiki/)
+
+<br />
 
 
