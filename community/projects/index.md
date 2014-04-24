@@ -65,7 +65,7 @@ Contributions welcome!
 
     *  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - Access XML documents in a statically typed way.
 
-    *  [Apiary Type Provider](http://fsharp.github.io/FSharp.Data/experimental/ApiaryProvider.html) - An experimental type provider that makes it possible to easily call REST services that are documented using the apiary.io service.
+*  [Apiary Provider](http://fsprojects.github.io/ApiaryProvider) - A type provider that makes it possible to easily call REST services that are documented using the apiary.io service.
 
 *  ![logo](/images/thumbs/SqlCommandProvider.png)&nbsp;[FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - use SQL to specify queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code.
 
@@ -75,7 +75,7 @@ Contributions welcome!
 
 *  [DynamicsNAVProvider](https://github.com/forki/DynamicsNAVProvider) - A Microsoft Dynamics NAV type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
 
-* [S3 Type Provider](http://fsprojects.github.io/S3Provider/) - An experimental type provider for Amazon S3.
+*  [S3 Type Provider](http://fsprojects.github.io/S3Provider/) - An experimental type provider for Amazon S3.
 
 
 <br />
