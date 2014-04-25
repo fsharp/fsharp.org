@@ -98,9 +98,10 @@ facilitates video game development and management.
   
 ### Projects
 
+* ![Nu Game Engine](https://github.com/bryanedds/OmniBlade/blob/master/Nu/Promotional/Nu Icon.png?raw=true)&nbsp;[Nu Game Engine](https://github.com/bryanedds/OmniBlade) - A cross-platform F# 2D game engine built in the functional style. Uses SDL2 and Farseer Physics.
+
 * ![fquake3_logo](https://raw.github.com/TIHan/FQuake3/master/fquake3_logo_32x32.png)&nbsp;[FQuake3](https://github.com/TIHan/FQuake3) - An attempt to re-implement id Software's Quake III Arena in F#.
 
 * ![learnonthego](https://f.cloud.github.com/assets/738761/1654048/bb001dfe-5b42-11e3-92b6-6a7e6c28241c.png)&nbsp;[Learn On The Go](https://github.com/ovatsus/Apps/tree/master/LearnOnTheGo) - A windows phone app for watching [Coursera](https://www.coursera.org/) lectures implemented in F#.
 
 * ![trains](https://f.cloud.github.com/assets/738761/1654047/b96c323e-5b42-11e3-9856-c000c6206ead.png)&nbsp;[UK Trains](https://github.com/ovatsus/Apps/tree/master/Trains) - A windows phone app for checking train departure and arrival information implemented in F#.
-
