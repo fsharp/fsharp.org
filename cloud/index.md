@@ -148,7 +148,7 @@ communications. This section lists a wide range of communication libraries avail
 
  * [ServiceStack](http://www.servicestack.net/) - "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all", see also [F# web programming](http://fsharp.org/webstacks/index.html)
 
- * [F# ZeroMQ bindings](https://github.com/pblasucci/fs-zmq) - An F#-specific binding for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
+ * [F# ZeroMQ bindings](http://zeromq.github.io/fs-zmq) - An F#-specific binding for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
 
  * [ZeroMQ](http://www.zeromq.org/bindings:clr) - A more general .NET binding for ZeroMQ.
 
