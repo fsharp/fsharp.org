@@ -73,7 +73,9 @@ Contributions welcome!
 
 *  [SQLProvider](https://github.com/fsprojects/SQLProvider/) - A general SQL type provider, supporting LINQ queries, schema exploration, stored procedures, individuals and much more besides.  Currently supports MS SQL Server, MS Access, SQLite, PostgreSQL, Oracle and MySQL.
 
-*  [DynamicsNAVProvider](https://github.com/forki/DynamicsNAVProvider) - A Microsoft Dynamics NAV type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
+*  [DynamicsNAVProvider](https://github.com/fsprojects/DynamicsNAVProvider) - A Microsoft Dynamics NAV type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
+
+*  [DynamicsCRMProvider](https://github.com/fsprojects/DynamicsCRMProvider) - A type provider for Microsoft Dynamics CRM 2011/2013.
 
 *  [S3 Type Provider](http://fsprojects.github.io/S3Provider/) - An experimental type provider for Amazon S3.
 
