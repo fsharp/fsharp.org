@@ -65,6 +65,8 @@ Contributions welcome!
 
     *  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - Access XML documents in a statically typed way.
 
+*  ![logo](/images/thumbs/FSharp.Data.Toolbox.png)&nbsp;[FSharp.Data.Toolbox](http://fsprojects.github.io/FSharp.Data.Toolbox) - F# Data-based library for various data access APIs, includes a Twitter access package.
+
 *  [Apiary Provider](http://fsprojects.github.io/ApiaryProvider) - A type provider that makes it possible to easily call REST services that are documented using the apiary.io service.
 
 *  ![logo](/images/thumbs/SqlCommandProvider.png)&nbsp;[FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - use SQL to specify queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code.
