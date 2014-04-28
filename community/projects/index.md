@@ -226,6 +226,7 @@ Contributions welcome!
 
 * ![logo](/images/thumbs/AkkaDotNET.png)&nbsp;[Akka.NET](https://github.com/akkadotnet/akka.net) - .NET community port of the Java/Scala framework Akka.
 
+* ![logo](/images/thumbs/fszmq_logo.png)&nbsp;[fszmq](http://zeromq.github.io/fszmq/) - a binding to the ZeroMQ distributed computing library for F# (and other CLR languages).
 
 <br />
 
