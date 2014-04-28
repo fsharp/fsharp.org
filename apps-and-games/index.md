@@ -98,7 +98,7 @@ facilitates video game development and management.
   
 ### Projects
 
-* ![Nu Game Engine](https://github.com/bryanedds/OmniBlade/blob/master/Nu/Promotional/Nu Icon.png?raw=true)&nbsp;[Nu Game Engine](https://github.com/bryanedds/OmniBlade) - A cross-platform F# 2D game engine built in the functional style. Uses SDL2 and Farseer Physics.
+* ![Nu Game Engine](https://github.com/bryanedds/OmniBlade/blob/master/Nu/Promotional/Nu%20Icon.png?raw=true)&nbsp;[Nu Game Engine](https://github.com/bryanedds/OmniBlade) - A cross-platform F# 2D game engine built in the functional style. Uses SDL2 and Farseer Physics.
 
 * ![fquake3_logo](https://raw.github.com/TIHan/FQuake3/master/fquake3_logo_32x32.png)&nbsp;[FQuake3](https://github.com/TIHan/FQuake3) - An attempt to re-implement id Software's Quake III Arena in F#.
 
