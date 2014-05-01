@@ -32,9 +32,10 @@ research projects build on top of F#. They fall into the following areas:
  
  * **[Web programming](#web_programming)** - publications related to web programming with F#.
   
+ * **[Security and Verification Research](#security_and_verification_research)** - variations of F# and their use in security and verification research.
+
  * **[Applications](#applications)** - publications and academic presentations describing applications of F#.
 
- * **[Security and Verification Research](#security_and_verification_research)** - variations of F# and their use in security and verification research.
 
 --------------
 
@@ -334,9 +335,44 @@ flowlets, an extension of formlets providing interactivity. Realworld
 examples are given using the current implementation that compiles
 flowlets defined in F# to JavaScript with WebSharper
 
+
+## Security and Verification Research
+
+The experimental [FStar language](http://research.microsoft.com/en-us/projects/fstar/) is inspired by F#. 
+Some of the publications about FStar are below.
+
+* Verifying Higher-order Programs with the Dijkstra Monad, Nikhil Swamy, Joel Weinberger, Cole Schlesinger, 
+  Juan Chen, and Benjamin Livshits, in ACM Programming Language Design and Implementation (PLDI) 2013, ACM, June 2013
+
+* Self-Certification: Bootstrapping Certified Typecheckers in FStar with Coq, Pierre-Yves Strub, Nikhil Swamy, 
+  Cedric Fournet, and Juan Chen, in In Proceedings of the ACM Symposium on Principles on Programming Languages, 
+  ACM, January 2012
+
+* Secure Distributed Programming with Value-dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet, Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, 
+  in The 16th ACM SIGPLAN International Conference on Functional Programming (ICFP 2011), ACM SIGPLAN, September 2011
+    
+* Verified Security for Browser Extensions, Arjun Guha, Matthew Fredrikson, Benjamin Livshits, and Nikhil Swamy, 
+  in Proceedings of the IEEE Symposium on Security and Privacy (Oakland), IEEE, 22 May 2011
+    
+* Mechanized soundness proofs for FStar, Pierre-Yves Strub, Cedric Fournet, and Nikhil Swamy, 1 April 2011
+    
+* Secure Distributed Programming with Value-Dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet, 
+  Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, no. MSR-TR-2011-37, 24 March 2011
+    
+
+## Machine Learning
+
+### [Learning with F#](http://dl.acm.org/citation.cfm?id=1362709)
+
+Phil Trelford, _Commercial Users of Funnctional Programming_, 2006. This talk describes how the Applied Games Group at Microsoft Research Cambridge uses F#. This group consists of seven people, and specializes in the application of statistical machine learning, especially ranking problems. The ranking systems they have developed are used by the XBox Live team to do server-side analysis of game logs, and they recently entered an internal competition to improve "click-through" prediction rates on Microsoft adCenter, a multi-million dollar industry for the company. The amount of data analysed by the tools is astounding: e.g. 3TB in one case, with programs running continuously over four weeks of training data and occupying all the physical memory on the 64-bit 16GB machines we use.
+
+F# plays a crucial role in helping the group process this data efficiently and develop smart algorithms that extract essential features from the data and represent the information using the latest statistical technique called "factor graphs". Our use of F# in conjunction with SQL Server 2005 is especially interesting: we use novel compilation techniques to express the primary schema in F# and then use SQL Server as a data slave.
+
+
 ## Applications
 
 For more applications of F#, see the [Testimonials](/testimonials/) page. Below are peer-reviewed publications related to applications.
+
 
 ### [The First Substantial Line of Business Application in F#](http://dl.acm.org/citation.cfm?id=1668117), [video](http://cufp.org/videos/first-substantial-line-business-application-f)
 
@@ -411,35 +447,13 @@ are amenable to functional programming, but as a full-blown web application with
 this project yielded a great deal of details that we hope will be useful for other attendees.
 
 
-## Security and Verification Research
+### [BumbleBee: A Transformation Environment for Spreadsheet Formulae](http://scholar.google.nl/citations?view_op=view_citation&hl=en&user=Kzy5f1IAAAAJ&citation_for_view=Kzy5f1IAAAAJ:LkGwnXOMwfcC)
 
-The experimental [FStar language](http://research.microsoft.com/en-us/projects/fstar/) is inspired by F#. 
-Some of the publications about FStar are below.
+Felienne Hermans, Danny Dig
 
-* Verifying Higher-order Programs with the Dijkstra Monad, Nikhil Swamy, Joel Weinberger, Cole Schlesinger, 
-  Juan Chen, and Benjamin Livshits, in ACM Programming Language Design and Implementation (PLDI) 2013, ACM, June 2013
-
-* Self-Certification: Bootstrapping Certified Typecheckers in FStar with Coq, Pierre-Yves Strub, Nikhil Swamy, 
-  Cedric Fournet, and Juan Chen, in In Proceedings of the ACM Symposium on Principles on Programming Languages, 
-  ACM, January 2012
-
-* Secure Distributed Programming with Value-dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet, Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, 
-  in The 16th ACM SIGPLAN International Conference on Functional Programming (ICFP 2011), ACM SIGPLAN, September 2011
-    
-* Verified Security for Browser Extensions, Arjun Guha, Matthew Fredrikson, Benjamin Livshits, and Nikhil Swamy, 
-  in Proceedings of the IEEE Symposium on Security and Privacy (Oakland), IEEE, 22 May 2011
-    
-* Mechanized soundness proofs for FStar, Pierre-Yves Strub, Cedric Fournet, and Nikhil Swamy, 1 April 2011
-    
-* Secure Distributed Programming with Value-Dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet, 
-  Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, no. MSR-TR-2011-37, 24 March 2011
-    
-
-## Machine Learning
-
-### [Learning with F#](http://dl.acm.org/citation.cfm?id=1362709)
-
-Phil Trelford, _Commercial Users of Funnctional Programming_, 2006. This talk describes how the Applied Games Group at Microsoft Research Cambridge uses F#. This group consists of seven people, and specializes in the application of statistical machine learning, especially ranking problems. The ranking systems they have developed are used by the XBox Live team to do server-side analysis of game logs, and they recently entered an internal competition to improve "click-through" prediction rates on Microsoft adCenter, a multi-million dollar industry for the company. The amount of data analysed by the tools is astounding: e.g. 3TB in one case, with programs running continuously over four weeks of training data and occupying all the physical memory on the 64-bit 16GB machines we use.
-
-F# plays a crucial role in helping the group process this data efficiently and develop smart algorithms that extract essential features from the data and represent the information using the latest statistical technique called "factor graphs". Our use of F# in conjunction with SQL Server 2005 is especially interesting: we use novel compilation techniques to express the primary schema in F# and then use SQL Server as a data slave.
+Spreadsheets are widely used in industry. It is estimated that end-user 
+programmers outnumber regular programmers by a factor of 5. However, spreadsheets are 
+error-prone: several reports exist of companies which have lost money because of 
+spreadsheet errors. We assert that a contributing factor to these problems is the difficulty of 
+consistent editing of spreadsheet formulas.
 
