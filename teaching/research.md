@@ -17,6 +17,14 @@ Many of the standard F# features (including _active patterns_ and _asynchronous 
 have been described in academic literature, and many
 research projects build on top of F#. They fall into the following areas:
 
+ * **[Information-rich programming](#informationrich_programming)** - publications related to F# 3.0 type providers, a novel mechanism
+     that integrates large-scale data into statically typed function programming language.
+ 
+ * **[Asynchronous, Concurrent and Reactive programming](#asynchronous_concurrent_and_reactive_programming)** - publications
+   about F# _asynchronous workflows_, the asynchronous programming model used in F#,
+   event-based programming and "joinads", a research extension of F# _computation expression_ syntax
+   for concurrent, reactive and parallel programming patterns.
+
  * **[Functional programming](#functional_programming)** - publications
     about core F# language features including _active patterns_ and intialization of 
     mutually recursive values.
@@ -24,16 +32,8 @@ research projects build on top of F#. They fall into the following areas:
  * **[DSLs and Meta-programming](#dsls_and_metaprogramming)** - publications related to DSL and 
    meta-programming in F#.
 
- * **[Asynchronous, Concurrent and Reactive programming](#asynchronous_concurrent_and_reactive_programming)** - publications
-   about F# _asynchronous workflows_, the asynchronous programming model used in F#,
-   event-based programming and "joinads", a research extension of F# _computation expression_ syntax
-   for concurrent, reactive and parallel programming patterns.
-
  * **[Units of Measure](#units_of_measure)** - publications related to the Units of Measure feature of F#.
 
- * **[Information-rich programming](#informationrich_programming)** - publications related to F# 3.0 type providers, a novel mechanism
-     that integrates large-scale data into statically typed function programming language.
- 
  * **[Web programming](#web_programming)** - publications related to web programming with F#.
   
  * **[Security and Verification Research](#security_and_verification_research)** - variations of F# and their use in security and verification research.
@@ -42,6 +42,75 @@ research projects build on top of F#. They fall into the following areas:
 
 
 --------------
+
+
+## Information-rich programming
+
+### [F# 3.0 - Strongly-Typed Language Support for Internet-Scale Information Sources](http://research.microsoft.com/apps/pubs/default.aspx?id=173076)
+
+Don Syme et al.  
+_MSR Technical Report_
+
+A growing trend in both the theory and practice of programming is the interaction between 
+programming and rich information spaces. From databases to web services to the semantic 
+web to cloud-based data, the need to integrate programming with heterogeneous, connected, 
+richly structured, streaming and evolving information sources is ever-increasing. 
+Most modern applications incorporate one or more external information sources as integral components. 
+
+Providing strongly typed access to these sources is a key consideration for strongly-typed 
+programming languages, to insure low impedance mismatch in information access. At this scale, 
+information integration strategies based on library design and code generation are manual, 
+clumsy, and do not handle the internet-scale information sources now encountered in 
+enterprise, web and cloud environments. 
+
+In this report we describe the design and implementation 
+of the type provider mechanism in F# 3.0 and its applications to typed programming 
+with web ontologies, web-services, systems management information, database mappings, 
+data markets, content management systems, economic data and hosted scripting. Type soundness 
+becomes relative to the soundness of the type providers and the schema change in 
+information sources, but the role of types in information-rich programming tasks is 
+massively expanded, especially through tooling that benefits from rich types in explorative programming.
+
+
+
+
+## Asynchronous, Concurrent and Reactive programming
+
+### [The F# Asynchronous Programming Model](http://blogs.msdn.com/b/dsyme/archive/2010/10/21/the-f-asynchronous-programming-model-padl-2010-pre-publication-draft.aspx)
+
+Don Syme, Tomas Petricek, Dmitry Lomov  
+_Proceedings of PADL 2011_
+
+We describe the asynchronous programming model in F#, and its applications to reactive, 
+parallel and concurrent programming. The key feature combines a core language with a 
+non-blocking modality to author lightweight asynchronous tasks, where the modality has 
+control flow constructs that are syntactically a superset of the core language and are given
+an asynchronous semantic interpretation. This allows smooth transitions between 
+synchronous and asynchronous code and eliminates callback-style treatments of inversion 
+of control, without disturbing the foundation of CPU-intensive programming that allows F# to 
+interoperate smoothly and compile efficiently to .NET and native code.  
+
+### [Collecting Hollywood’s Garbage: Avoiding Space-Leaks in Composite Events](http://www.cl.cam.ac.uk/~tp322/papers/hollywood.html)
+
+Tomas Petricek, Don Syme  
+_Proceedings of ISMM 2010_
+
+The reactive programming model is largely different to what we’re used to as we don’t 
+have full control over the application’s control flow. If we mix the declarative and 
+imperative programming style, which is usual in the ML family of languages, the situation is 
+even more complex. It becomes easy to introduce patterns where the usual garbage collector 
+for objects cannot automatically dispose all components that we intuitively consider garbage. 
+
+In this paper we discuss a duality between the definitions of garbage for objects and events. 
+We combine them into a single one, to specify the notion of garbage for reactive programming 
+model in a mixed functional/imperative language and we present a formal algorithm for 
+collecting garbage in this environment. 
+
+Building on top of the theoretical model, we implement a library for reactive programming 
+that does not cause leaks when used in the mixed declarative/imperative model. The library 
+allows us to safely combine both of the reactive programming patterns. As a result, we can 
+take advantage of the clarity and simplicity of the declarative approach as well as the 
+expressivity of the imperative model.
 
 
 ## Functional programming
@@ -216,47 +285,6 @@ of some notable F# features, including sequence expressions and active patterns.
 
 
 
-
-## Asynchronous, Concurrent and Reactive programming
-
-### [The F# Asynchronous Programming Model](http://blogs.msdn.com/b/dsyme/archive/2010/10/21/the-f-asynchronous-programming-model-padl-2010-pre-publication-draft.aspx)
-
-Don Syme, Tomas Petricek, Dmitry Lomov  
-_Proceedings of PADL 2011_
-
-We describe the asynchronous programming model in F#, and its applications to reactive, 
-parallel and concurrent programming. The key feature combines a core language with a 
-non-blocking modality to author lightweight asynchronous tasks, where the modality has 
-control flow constructs that are syntactically a superset of the core language and are given
-an asynchronous semantic interpretation. This allows smooth transitions between 
-synchronous and asynchronous code and eliminates callback-style treatments of inversion 
-of control, without disturbing the foundation of CPU-intensive programming that allows F# to 
-interoperate smoothly and compile efficiently to .NET and native code.  
-
-### [Collecting Hollywood’s Garbage: Avoiding Space-Leaks in Composite Events](http://www.cl.cam.ac.uk/~tp322/papers/hollywood.html)
-
-Tomas Petricek, Don Syme  
-_Proceedings of ISMM 2010_
-
-The reactive programming model is largely different to what we’re used to as we don’t 
-have full control over the application’s control flow. If we mix the declarative and 
-imperative programming style, which is usual in the ML family of languages, the situation is 
-even more complex. It becomes easy to introduce patterns where the usual garbage collector 
-for objects cannot automatically dispose all components that we intuitively consider garbage. 
-
-In this paper we discuss a duality between the definitions of garbage for objects and events. 
-We combine them into a single one, to specify the notion of garbage for reactive programming 
-model in a mixed functional/imperative language and we present a formal algorithm for 
-collecting garbage in this environment. 
-
-Building on top of the theoretical model, we implement a library for reactive programming 
-that does not cause leaks when used in the mixed declarative/imperative model. The library 
-allows us to safely combine both of the reactive programming patterns. As a result, we can 
-take advantage of the clarity and simplicity of the declarative approach as well as the 
-expressivity of the imperative model.
-
-
-
 ## Units of Measure
 
 ### [Relational parametricity and units of measure](http://dl.acm.org/citation.cfm?id=263761)
@@ -294,33 +322,6 @@ _PhD Thesis, University of Cambridge, 1995_
 
 Andrew Kennedy
 _Lecture notes , for CEFP'09, Revised July 2010_
-
-## Information-rich programming
-
-### [F# 3.0 - Strongly-Typed Language Support for Internet-Scale Information Sources](http://research.microsoft.com/apps/pubs/default.aspx?id=173076)
-
-Don Syme et al.  
-_MSR Technical Report_
-
-A growing trend in both the theory and practice of programming is the interaction between 
-programming and rich information spaces. From databases to web services to the semantic 
-web to cloud-based data, the need to integrate programming with heterogeneous, connected, 
-richly structured, streaming and evolving information sources is ever-increasing. 
-Most modern applications incorporate one or more external information sources as integral components. 
-
-Providing strongly typed access to these sources is a key consideration for strongly-typed 
-programming languages, to insure low impedance mismatch in information access. At this scale, 
-information integration strategies based on library design and code generation are manual, 
-clumsy, and do not handle the internet-scale information sources now encountered in 
-enterprise, web and cloud environments. 
-
-In this report we describe the design and implementation 
-of the type provider mechanism in F# 3.0 and its applications to typed programming 
-with web ontologies, web-services, systems management information, database mappings, 
-data markets, content management systems, economic data and hosted scripting. Type soundness 
-becomes relative to the soundness of the type providers and the schema change in 
-information sources, but the role of types in information-rich programming tasks is 
-massively expanded, especially through tooling that benefits from rich types in explorative programming.
 
 
 ## Web programming
@@ -380,6 +381,43 @@ F# plays a crucial role in helping the group process this data efficiently and d
 For more applications of F#, see the [Testimonials](/testimonials/) page. Below are peer-reviewed publications related to applications.
 
 
+### [Developing an F# Bioinformatics Application with HTML5 Visualization](http://cufp.org/videos/developing-f-bioinformatics-application-html5-visualization)
+
+Adam Granicz, IntelliFactory
+_Commercial Users of Functional Programming (CUFP) 2012_
+
+With proprietary plugin-based containers like Flash or Silverlight gradually losing ground, an increasing 
+number of web applications are beginning to seek web standards compliance, and to utilize HTML5 to deliver 
+rich and interactive client-side functionality and end-user experience. Indeed, modern browsers continue 
+to invest heavily in establishing standard support for various HTML5 features, making HTML5 an appropriate 
+choice for an ever-growing crowd of web developers.
+
+Earlier this year at IntelliFactory, we completed a pilot project missioned to create a custom, 
+innovative, and highly interactive bioinformatics web application using F# and our WebSharper technology. 
+This application set out to serve the bioinformatics research community, and to deliver, among others, 
+an interactive visualization of the gene sequence of a particular bacterium, with various mutations 
+available for further research and laboratory use. The application consumed a large amount of bio data 
+and integrated various advanced HTML5 visualizations, such as full functional gene ontology, a KEGG 
+orthology, and a phenotype map, making it a useful web resource for researchers and laboratory staff alike.
+
+I will present our experience report on developing this bioinformatics application, the 
+practices and guidelines related to client-based visualization projects we distilled while developing it, 
+the challenges we met on the way, and how we solved these challenges. Many bioinformatics algorithms 
+are amenable to functional programming, but as a full-blown web application with advanced visualization
+this project yielded a great deal of details that we hope will be useful for other attendees.
+
+
+### [BumbleBee: A Transformation Environment for Spreadsheet Formulae](http://scholar.google.nl/citations?view_op=view_citation&hl=en&user=Kzy5f1IAAAAJ&citation_for_view=Kzy5f1IAAAAJ:LkGwnXOMwfcC)
+
+Felienne Hermans, Danny Dig
+
+Spreadsheets are widely used in industry. It is estimated that end-user 
+programmers outnumber regular programmers by a factor of 5. However, spreadsheets are 
+error-prone: several reports exist of companies which have lost money because of 
+spreadsheet errors. We assert that a contributing factor to these problems is the difficulty of 
+consistent editing of spreadsheet formulas.
+
+
 ### [The First Substantial Line of Business Application in F#](http://dl.acm.org/citation.cfm?id=1668117), [video](http://cufp.org/videos/first-substantial-line-business-application-f)
 
 Adam Granicz, IntelliFactory, Alex Peake, Veracentra
@@ -426,40 +464,4 @@ and applying code transformations and optimizations.
  
 At the end of the talk, I will briefly touch upon our upcoming F# in the Cloud support and how that 
 helps to seamlessly scale into the cloud desktop and mobile web applications with immense server computation needs.
-
-### [Developing an F# Bioinformatics Application with HTML5 Visualization](http://cufp.org/videos/developing-f-bioinformatics-application-html5-visualization)
-
-Adam Granicz, IntelliFactory
-_Commercial Users of Functional Programming (CUFP) 2012_
-
-With proprietary plugin-based containers like Flash or Silverlight gradually losing ground, an increasing 
-number of web applications are beginning to seek web standards compliance, and to utilize HTML5 to deliver 
-rich and interactive client-side functionality and end-user experience. Indeed, modern browsers continue 
-to invest heavily in establishing standard support for various HTML5 features, making HTML5 an appropriate 
-choice for an ever-growing crowd of web developers.
-
-Earlier this year at IntelliFactory, we completed a pilot project missioned to create a custom, 
-innovative, and highly interactive bioinformatics web application using F# and our WebSharper technology. 
-This application set out to serve the bioinformatics research community, and to deliver, among others, 
-an interactive visualization of the gene sequence of a particular bacterium, with various mutations 
-available for further research and laboratory use. The application consumed a large amount of bio data 
-and integrated various advanced HTML5 visualizations, such as full functional gene ontology, a KEGG 
-orthology, and a phenotype map, making it a useful web resource for researchers and laboratory staff alike.
-
-I will present our experience report on developing this bioinformatics application, the 
-practices and guidelines related to client-based visualization projects we distilled while developing it, 
-the challenges we met on the way, and how we solved these challenges. Many bioinformatics algorithms 
-are amenable to functional programming, but as a full-blown web application with advanced visualization
-this project yielded a great deal of details that we hope will be useful for other attendees.
-
-
-### [BumbleBee: A Transformation Environment for Spreadsheet Formulae](http://scholar.google.nl/citations?view_op=view_citation&hl=en&user=Kzy5f1IAAAAJ&citation_for_view=Kzy5f1IAAAAJ:LkGwnXOMwfcC)
-
-Felienne Hermans, Danny Dig
-
-Spreadsheets are widely used in industry. It is estimated that end-user 
-programmers outnumber regular programmers by a factor of 5. However, spreadsheets are 
-error-prone: several reports exist of companies which have lost money because of 
-spreadsheet errors. We assert that a contributing factor to these problems is the difficulty of 
-consistent editing of spreadsheet formulas.
 
