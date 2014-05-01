@@ -10,7 +10,7 @@ F# is both based on academic research and acts as an inspiration for thousands o
 students and researchers worldwide.
 
 <div class="jumbotron visible-lg howToReference" id="how-to-reference"> 
-  <a href="http://blogs.msdn.com/b/dsyme/archive/2012/07/11/how-to-reference-for-f-in-a-research-paper.aspx">How to reference F# in a research paper</a>
+  <h3><a href="http://blogs.msdn.com/b/dsyme/archive/2012/07/11/how-to-reference-for-f-in-a-research-paper.aspx">How to reference F# in a research paper</a></h3>
 </div>
 
 Many of the standard F# features (including _active patterns_ and _asynchronous workflows_) 
