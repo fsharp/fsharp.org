@@ -9,6 +9,10 @@ for bringing clear, concise problem solving techniques developed in academia int
 F# is both based on academic research and acts as an inspiration for thousands of 
 students and researchers worldwide.
 
+<div class="jumbotron visible-lg howToReference" id="how-to-reference"> 
+  [How to reference F# in a research paper](http://blogs.msdn.com/b/dsyme/archive/2012/07/11/how-to-reference-for-f-in-a-research-paper.aspx)
+</div>
+
 Many of the standard F# features (including _active patterns_ and _asynchronous workflows_) 
 have been described in academic literature, and many
 research projects build on top of F#. They fall into the following areas:
