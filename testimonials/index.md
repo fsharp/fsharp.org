@@ -469,6 +469,19 @@ I will continue to monitor and report on this. It might be that I am just on a l
 but I suspect that the clarity and concision of F# code contributes greatly to its correctness.
 <div class="keywords">energy, extract, transform, load, ETL</div>
 
+
+<a id="waisal-1" > </a>
+---
+
+> F# proved ideal for the complex data machinations required to build the models from raw Excel input.
+
+1. A Fortune 100 Manufacturer
+3. Supplied to FSSF, [permalink](#waisal-1)
+
+We developed a ClickOnce F# / WPF application that scores and ranks thousands of models of part-supplier combinations using Microsoft Solver Foundation (MSF). Agents can chose from the highest scoring combinations to optimize purchasing decisions. F# proved ideal for the complex data machinations required to build the models from raw Excel input. Also, the MSF supplied F# functional wrapper is a great way of using Solver Foundation from F#.
+
+div class="keywords">manufacturing, optimization, Excel, solver</div>
+
 <a id="advertisement-rating-and-ranking-at-microsoft" > </a>
 ---
 
