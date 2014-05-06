@@ -9,13 +9,17 @@ for bringing clear, concise problem solving techniques developed in academia int
 F# is both based on academic research and acts as an inspiration for thousands of 
 students and researchers worldwide.
 
+Many of the standard F# features (including _active patterns_ and _asynchronous workflows_) 
+have been described in academic literature, and many
+research projects build on top of F#. 
+
 <div class="jumbotron visible-lg howToReference" id="how-to-reference"> 
   <h3><a href="http://blogs.msdn.com/b/dsyme/archive/2012/07/11/how-to-reference-for-f-in-a-research-paper.aspx">How to reference F# in a research paper</a></h3>
 </div>
 
-Many of the standard F# features (including _active patterns_ and _asynchronous workflows_) 
-have been described in academic literature, and many
-research projects build on top of F#. They fall into the following areas:
+
+To add a paper to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/teaching/research.md) and submit a pull request.
+
 
  * **[Information-rich programming](#informationrich_programming)** - publications related to F# 3.0 type providers, a novel mechanism
      that integrates large-scale data into statically typed function programming language.
