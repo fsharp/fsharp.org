@@ -287,6 +287,13 @@ to parser generators. We also build an evaluator, and extend the core Simply lan
 primitives and build a graphical shell environment around it. As a warm-up, we give a rudimentary survey 
 of some notable F# features, including sequence expressions and active patterns.
 
+### [MBrace: cloud computing with monads](http://dl.acm.org/citation.cfm?id=2525531&dl=ACM&coll=DL&CFID=454202220&CFTOKEN=25283533)
+
+Jan Dzik, Nick Palladinos, Konstantinos Rontogiannis, Eirik Tsarpalis, Nikolaos Vathis
+_In pre-proceedings of PLOS '13 Seventh Workshop on Programming Languages and Operating Systems Article No. 7_
+
+As cloud computing and big data gain prominence in today's economic landscape, the challenge of effectively articulating complex algorithms in distributed environments becomes ever more important. In this paper we describe MBrace; a novel programming model/framework for performing large scale computation in the cloud. Based on the .NET software stack, it utilizes the power of the F# programming language. MBrace introduces a declarative style for specifying and composing parallelism patterns, in what is known as cloud workflows or a cloud monad. MBrace is also a distributed execution runtime that handles orchestration of cloud workflows in the data centre.
+
 
 
 ## Units of Measure
