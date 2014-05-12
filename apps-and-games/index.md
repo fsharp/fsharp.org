@@ -93,8 +93,11 @@ See the [Web Programming](/webstacks) and [Cloud](/cloud) section for details of
 
 [Microsoft XNA](http://msdn.microsoft.com/en-us/aa937791.aspx) is a set of tools with a managed runtime environment that 
 facilitates video game development and management.
+Although it is no longer developed by Microsoft, it is still popular amond developers and an update is available to
+support recent versions of Visual Studio.
 
 * [F# With XNA Game Studio](http://azerdark.wordpress.com/2011/04/05/f-with-xna-game-studio/)
+* [XNA Game Studio for Visual Studio 2013](https://msxna.codeplex.com/)
   
 ### Projects
 
