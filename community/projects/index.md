@@ -259,7 +259,8 @@ Contributions welcome!
 *  ![logo](/images/thumbs/canopy.jpg)&nbsp;[canopy](http://lefthandedgoat.github.io/canopy/) - F#rictionless web testing with Selenium.
 
 *  [TickSpec](http://tickspec.codeplex.com/) A lightweight F# Behaviour Driven Development (BDD) framework
-
+  
+*  [FSpec](https://github.com/PeteProgrammer/fspec) A context/specification testing framework for F#
 
 <br />
 
