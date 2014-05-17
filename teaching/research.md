@@ -476,3 +476,14 @@ and applying code transformations and optimizations.
 At the end of the talk, I will briefly touch upon our upcoming F# in the Cloud support and how that 
 helps to seamlessly scale into the cloud desktop and mobile web applications with immense server computation needs.
 
+
+### [GLR-based abstract parsing](http://dl.acm.org/citation.cfm?id=2556616&dl=ACM&coll=DL), [video (in russian)](http://vimeo.com/79442837)
+
+Semen Grigorev, Saint Petersburg State University, Iakov Kirilenko, Saint Petersburg State University
+
+_Central & Eastern European Software Engineering Conference in Russia (CEE-SECR '13) 2013_
+
+Abstract parsing is an important step of the processing of dynamically constructed statements or string-embedded 
+languages (such as embedded or dynamic SQL). Existing LALR-based algorithms have performance issues. To increase performance we propose 
+to use a GLR-algorithm as a base for abstract parsing and to reuse graph-structured stack and shared packed parse forest. 
+RNGLR-algorithm modification for abstract parsing is presented.
