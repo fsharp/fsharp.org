@@ -81,6 +81,7 @@ Contributions welcome!
 
 *  [S3 Type Provider](http://fsprojects.github.io/S3Provider/) - An experimental type provider for Amazon S3.
 
+*  [Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - A type provider for Azure Storage assets e.g. Blobs and Tables.
 
 <br />
 
