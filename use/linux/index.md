@@ -22,14 +22,14 @@ Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac
 go further.
 
 
-### Option 2: Build and install the F# 3.0 runtime, compiler and tools
+### Option 2: Build and install the F# 3.1 runtime, compiler and tools
 
 
 1. Get Mono, the runtime used by F#. Either [follow these instructions](http://www.go-mono.com/mono-downloads/download.html) or use:
 
         sudo apt-get install mono-devel
    
-   or build and install version 3.0 (needed for xbuild support)
+   or build and install the latest release:
    
         sudo apt-get install libtool autoconf g++ gettext make git
         git clone https://github.com/mono/mono
@@ -47,7 +47,7 @@ go further.
 2. Build and install the F# Compiler (open edition) from source.
 
         sudo apt-get install autoconf libtool pkg-config make git
-        git clone -b fsharp_30 https://github.com/fsharp/fsharp
+        git clone https://github.com/fsharp/fsharp
         cd fsharp
         ./autogen.sh --prefix /usr
         make
