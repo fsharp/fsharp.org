@@ -10,6 +10,9 @@ technical explanation of the F# language constructs and required compiler behavi
 It discusses topics such as lexical analysis, grammar, types including type inference 
 algorithm, expressions, patterns and other.
 
+The F# Language Specification is authored by Microsoft, Microsoft Research and contributors
+from the F# community and is made available here by agreement.
+
 ### F# 3.0 
 
   * [The F# 3.0 Language Specification (final version, PDF)](3.0/FSharpSpec-3.0-final.pdf) - The final version of the F# 3.0 language
