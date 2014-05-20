@@ -24,5 +24,9 @@ from the F# community and is made available here by agreement.
     specification. 
 	
 	Comments and edits are both welcome. To contribute to the specification, please <a href="http://github.com/fsharp/fsfoundation">fork this repository</a>, edit the working draft document, and send a pull request.
+	The custodians of the specification (principally, the language designers at Microsoft Research) will
+	review these pull requests and consider them for acceptance into the working drafts, which will 
+	then be updated here.
+
 	MSWord is used to format and edit the working drafts of the specification. Finalized versions 
 	of the specification are published as PDF.
