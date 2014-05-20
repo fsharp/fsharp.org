@@ -13,7 +13,7 @@ Many of the standard F# features (including _active patterns_ and _asynchronous 
 have been described in academic literature, and many
 research projects build on top of F#. 
 
-<div class="jumbotron visible-lg howToReference" id="how-to-reference"> 
+<div class="jumbotron visible-lg contributeBox" id="how-to-reference"> 
   <h3><a href="http://blogs.msdn.com/b/dsyme/archive/2012/07/11/how-to-reference-for-f-in-a-research-paper.aspx">How to reference F# in a research paper</a></h3>
 </div>
 

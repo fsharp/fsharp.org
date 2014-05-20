@@ -203,17 +203,17 @@ div#contentMain.testimonials ul li {
   }
 }
 
-.contributeTestimonials {
+.contributeBox {
   padding: 30px;
   margin: 30px;
 }
 
-.contributeTestimonials h1 {
+.contributeBox h1 {
   font-size:180%;
   margin:10px 10px 10px 0px;
 }
 
-.contributeTestimonials p {
+.contributeBox p {
   font-size:100%;
   margin:0px 0px 6px 0px;
   line-height:normal;

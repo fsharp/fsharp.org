@@ -22,7 +22,7 @@ algorithm, expressions, patterns and other.
 	Comments and edits are both welcome, see below. 
 
  
-<div class="jumbotron visible-lg contributeSpec" id="how-to-contribute-to-spec"> 
+<div class="jumbotron visible-lg contributeBox" id="how-to-contribute-to-spec"> 
   <h3>To contribute to the specification, please <a href="http://github.com/fsharp/fsfoundation">fork this repository</a>, edit the working draft document, and send a pull request.</h3>
 </div>              
 
