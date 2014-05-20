@@ -15,7 +15,7 @@ algorithm, expressions, patterns and other.
   * [The F# 3.0 Language Specification (final version, PDF)](3.0/FSharpSpec-3.0-final.pdf) - The final version of the F# 3.0 language
     specification.
 
-### F# 3.1 (Working Draft)
+### F# 3.1 
 
   * [The F# 3.1 Language Specification (working draft)](3.1/FSharpSpec-3.1-working.docx) - The working draft of the F# 3.1 language
     specification. 
