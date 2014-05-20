@@ -19,12 +19,8 @@ F# is a first-class language on a number of platforms including
 Mac and Linux (with tool support in Xamarin Studio, MonoDevelop, Emacs and other) and Windows (with
 Visual Studio, Xamarin Studio and Emacs) as well as on mobile devices and on the web using HTML5.
 
-## Specification
 
- * [The F# Language Specification](/specs/language-spec) - The specification gives an in-depth 
-   technical explanation of the F# language constructs and required compiler behavior. 
-   It discusses topics such as lexical analysis, grammar, types including type inference 
-   algorithm, expressions, patterns and other.
+<a id="documentation" > </a>
 
 ## Online Documentation
 
@@ -44,6 +40,13 @@ the standard F# library.
  * [Real-World Functional Programming](http://msdn.microsoft.com/en-us/library/hh314518) - 
    Introduces functional programming in F# and discusses how to use F# for client-side and 
    server-side development, numerical computing, charting and other.
+
+## Specification
+
+ * [The F# Language Specification](/specs/language-spec) - The specification gives an in-depth 
+   technical explanation of the F# language constructs and required compiler behavior. 
+   It discusses topics such as lexical analysis, grammar, types including type inference 
+   algorithm, expressions, patterns and other.
 
 ## Component Design Guidelines
 
