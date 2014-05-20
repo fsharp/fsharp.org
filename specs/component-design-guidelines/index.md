@@ -9,7 +9,7 @@ This document is a set of component  design guidelines for F# programming. It de
 for use from other languages, guidelines for F#-to-F# libraries and suggestions on 
 coding conventions.
 
-  * [The F# Component Design Guidelines, v14](fsharp-design-guidelines-v14.pdf) - v14 of the F# Component Design Guidelines.
+  * [The F# Component Design Guidelines, v14, PDF](fsharp-design-guidelines-v14.pdf) - v14 of the F# Component Design Guidelines.
 
   * [Latest working draft](fsharp-design-guidelines-latest.docx) - The latest working draft of the 
     F# Component Design Guidelines.  

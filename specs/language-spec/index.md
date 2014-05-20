@@ -10,9 +10,9 @@ technical explanation of the F# language constructs and required compiler behavi
 It discusses topics such as lexical analysis, grammar, types including type inference 
 algorithm, expressions, patterns and other.
 
-### F# 3.0 (Final Version)
+### F# 3.0 
 
-  * [The F# 3.0 Language Specification (final version)](3.0/FSharpSpec-3.0-final.pdf) - The final version of the F# 3.0 language
+  * [The F# 3.0 Language Specification (final version, PDF)](3.0/FSharpSpec-3.0-final.pdf) - The final version of the F# 3.0 language
     specification.
 
 ### F# 3.1 (Working Draft)
@@ -20,6 +20,6 @@ algorithm, expressions, patterns and other.
   * [The F# 3.1 Language Specification (working draft)](3.1/FSharpSpec-3.1-working.docx) - The working draft of the F# 3.1 language
     specification. 
 	
-	Comments and edits are both welcome. To contribute to the specification, please <a href="http://github.com/fsharp/fsfoundation">fork this repository</a>, edit the working draft document, and send a pull request.</h3>
+	Comments and edits are both welcome. To contribute to the specification, please <a href="http://github.com/fsharp/fsfoundation">fork this repository</a>, edit the working draft document, and send a pull request.
 	MSWord is used to format and edit the working drafts of the specification. Finalized versions 
 	of the specification are published as PDF.
