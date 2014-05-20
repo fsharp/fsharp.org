@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Machine Learning | The F# Software Foundation
 headline: Machine Learning with F#
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: F# Consultants | The F# Software Foundation
 headline: F# Consultants
 ---

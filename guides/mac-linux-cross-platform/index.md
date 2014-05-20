@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Cross Platform Dev Guide | The F# Software Foundation
 headline: F# Mac, Linux and Cross-Platform Development Guide
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: F# Training | The F# Software Foundation
 headline: F# Training
 ---

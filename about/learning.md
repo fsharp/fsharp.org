@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Learning F# | The F# Software Foundation
 headline: F# Books and tutorials
 ---

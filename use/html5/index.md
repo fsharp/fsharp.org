@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Using F# for HTML5 Web Applications | The F# Software Foundation
 headline: Using F# for HTML5 Web Applications
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Use F# on FreeBSD | The F# Software Foundation
 headline: Use F# on FreeBSD
 ---

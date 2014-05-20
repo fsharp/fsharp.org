@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Use F# for iOS App Development | The F# Software Foundation
 headline: Use F# for iOS App Development
 ---

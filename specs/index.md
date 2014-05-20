@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: default
 title: About F# | Specifications
 headline: Specifications
 ---
-
-## Specifications hosted on this site
 
  * [The F# Language Specification](language-spec/) 
 

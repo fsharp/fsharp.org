@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Data Visualization | The F# Software Foundation
 headline: Data Visualization with F#
 ---

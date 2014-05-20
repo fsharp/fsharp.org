@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Use F# on Linux | The F# Software Foundation
 headline: Use F# on Linux
 ---

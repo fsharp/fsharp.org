@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Use F# on Windows | The F# Software Foundation
 headline: Use F# on Windows
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: F# Community Projects | The F# Software Foundation
 headline: F# Community Projects
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Cloud Programming | The F# Software Foundation
 headline: Cloud Data, Compute and Messaging with F#
 ---

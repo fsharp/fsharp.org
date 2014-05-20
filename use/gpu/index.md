@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Using F# for GPU Programming | The F# Software Foundation
 headline: Using F# for GPU Programming
 ---

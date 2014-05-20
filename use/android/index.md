@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Use F# for Android Development | The F# Software Foundation
 headline: Use F# for Android Development
 ---

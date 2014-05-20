@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About F# | The F# Software Foundation
 headline: About F#
 ---
@@ -26,15 +26,10 @@ Visual Studio, Xamarin Studio and Emacs) as well as on mobile devices and on the
    It discusses topics such as lexical analysis, grammar, types including type inference 
    algorithm, expressions, patterns and other.
 
- * [F# Component Design Guidelines](/specs/component-design-guidelines) - This document is a set of component 
-   design guidelines for F# programming. It describes guidelines for designing libraries 
-   for use from other languages, guidelines for F#-to-F# libraries and suggestions on 
-   coding conventions.
- 
 ## Online Documentation
 
-Microsoft contributes a comprehensive F# documentation that includes general information 
-about F#, language reference explaining all F# constructs as well as documentation for 
+Microsoft contributes comprehensive F# documentation that includes general information 
+about F#, a language reference explaining all F# constructs as well as documentation for 
 the standard F# library.
 
  * [F# Language Reference](http://msdn.microsoft.com/en-us/library/dd233181.aspx) - 
@@ -50,3 +45,21 @@ the standard F# library.
    Introduces functional programming in F# and discusses how to use F# for client-side and 
    server-side development, numerical computing, charting and other.
 
+## Component Design Guidelines
+
+ * [The F# Component Design Guidelines](/specs/component-design-guidelines) - This document is a set of component 
+   design guidelines for F# programming. It describes guidelines for designing libraries 
+   for use from other languages, guidelines for F#-to-F# libraries and suggestions on 
+   coding conventions.
+ 
+## Guides
+
+ * The [F# Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform)
+
+ * [F# Data Science Programming Resources](/data-science)
+
+ * [F# Cloud Programming Resources](/cloud)
+
+ * [Using F# for Math and Statistics](/math)
+ 
+ * [App and Game Programming with F#](/apps-and-games)

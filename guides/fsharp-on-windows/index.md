@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Windows Dev Guide | The F# Software Foundation
 headline: F# on Windows Development Guide
 ---

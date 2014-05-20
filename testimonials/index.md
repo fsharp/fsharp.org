@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Testimonials | The F# Software Foundation
 headline: Testimonials and Quotes
 class: testimonials

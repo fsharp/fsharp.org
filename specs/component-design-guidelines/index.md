@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About F# | The F# Component Design Guidelines
 headline: The F# Component Design Guidelines
 redirect_from: "/about/files/guidelines.pdf"

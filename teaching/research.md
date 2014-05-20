@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: F# Research | The F# Software Foundation
 headline: Publications related to F#
 ---

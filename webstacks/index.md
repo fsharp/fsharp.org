@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Web Programming | The F# Software Foundation
 headline: Web Programming with F#
 ---

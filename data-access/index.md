@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Data Access | The F# Software Foundation
 headline: Data Access with F#
 ---

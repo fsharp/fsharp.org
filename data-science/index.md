@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Data Science | The F# Software Foundation
 headline: Using F# for Data Science
 ---

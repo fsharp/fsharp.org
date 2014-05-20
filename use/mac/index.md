@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Use F# on Mac OSX | The F# Software Foundation
 headline: Use F# on Mac OSX
 ---
