@@ -347,7 +347,7 @@ A detailed guide of setting up Vagrant is available [here](http://christoph.rueg
   "solutionDir" argument has an extra space. This breaks package restore on Mono. 
 
 
-### Developing Cross-Platform and Multi-Targeting Type Providers for F#
+### Developing Cross-Platform and Multi-Targeting Type Providers 
 
 F# type providers are compile-time components that must execute on your machine during build and development.
 
