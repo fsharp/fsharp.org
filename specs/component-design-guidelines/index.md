@@ -9,15 +9,15 @@ This document is a set of component  design guidelines for F# programming. It de
 for use from other languages, guidelines for F#-to-F# libraries and suggestions on 
 coding conventions.
 
-## Latest Working Draft
-
-  * [The latest working draft](fsharp-design-guidelines-latest.docx) - The working draft of the F# 3.1 language
-    specification.  MSWord is used to format and edit the working drafts of the specification. 
-    Comments and edits are both welcome.  
-
 ## The F# Component Design Guidelines (v14)
 
   * [The F# Component Design Guidelines (v14))](fsharp-design-guidelines-v14.pdf) - v14 of the F# Component Design Guidelines.
+
+## Latest Working Draft
+
+  * [The latest working draft](fsharp-design-guidelines-latest.docx) - The latest working draft of the 
+    F# Component Design Guidelines.  MSWord is used to format and edit the working drafts of the specification. 
+    Comments and edits are both welcome, see below.
 
  
 <div class="jumbotron visible-lg contributeSpec" id="how-to-contribute-to-spec"> 

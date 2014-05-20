@@ -19,7 +19,7 @@ algorithm, expressions, patterns and other.
 
   * [The F# 3.1 Language Specification (working draft)](3.1/FSharpSpec-3.1-working.docx) - The working draft of the F# 3.1 language
     specification. MSWord is used to format and edit the working drafts of the specification. 
-	Comments and edits are both welcome.    
+	Comments and edits are both welcome, see below. 
 
  
 <div class="jumbotron visible-lg contributeSpec" id="how-to-contribute-to-spec"> 
