@@ -72,6 +72,12 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  * [Async and event-streaming Excel UDFs with F#](http://excel-dna.net/2013/03/26/async-and-event-streaming-excel-udfs-with-f/)
  * [Machine Learning with Excel: Combine the power of Excel, F# and R](http://luajalla.azurewebsites.net/excel-dna-three-stories/)
 
+##### Integrating F# and Excel through NPOI
+
+[NPOI](https://npoi.codeplex.com/) is .NET version of POI Java project at http://poi.apache.org/. POI is an open source project which can help you read/write xls, doc, ppt files.
+
+ * [Example of how to work with Excel using NPOI in F#](https://github.com/Heather/FXL/blob/master/RNExceL/Model/NPOI.fs#L19)
+
 ##### Interoperating with Excel 
 
 F# can interoperate with Excel through existing Excel APIs. For example:
