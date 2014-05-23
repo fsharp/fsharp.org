@@ -1,3 +1,5 @@
 safe: true
+encoding: utf-8
+markdown: kramdown
 gems:
   - jekyll-redirect-from
