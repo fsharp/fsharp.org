@@ -242,6 +242,7 @@ Contributions welcome!
 
 * [Fog](http://dmohl.github.io/Fog/) - Fog brings the cloud down to earth and wraps it in something more easily used by F#. It provides a more functional approach to creating Windows Azure apps with F#.
 
+* ![logo](/images/thumbs/FSharp.Azure.png)&nbsp;[FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
 
 <br />
 
