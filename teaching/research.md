@@ -294,7 +294,12 @@ _In pre-proceedings of PLOS '13 Seventh Workshop on Programming Languages and Op
 
 As cloud computing and big data gain prominence in today's economic landscape, the challenge of effectively articulating complex algorithms in distributed environments becomes ever more important. In this paper we describe MBrace; a novel programming model/framework for performing large scale computation in the cloud. Based on the .NET software stack, it utilizes the power of the F# programming language. MBrace introduces a declarative style for specifying and composing parallelism patterns, in what is known as cloud workflows or a cloud monad. MBrace is also a distributed execution runtime that handles orchestration of cloud workflows in the data centre.
 
+### [Specifying and Executing Optimizations for Parallel Programs](http://web.engr.illinois.edu/~mansky1/exec.pdf)
 
+William Mansky, Dennis Griffith, Elsa L. Gunter
+_In pre-proceedings of GRAPHITE '14_
+
+Compiler optimizations, usually expressed as rewrites on program graphs, are a core part of all modern compilers. However, even production compilers have bugs, and these bugs are difficult to detect and resolve. The problem only becomes more complex when compiling parallel programs; from the choice of graph representation to the possibility of race conditions, optimization designers have a range of factors to consider that do not appear when dealing with single-threaded programs. In this paper we present PTRANS, a domain-specific language for formal specification of compiler transformations, and describe its executable semantics. The fundamental approach of PTRANS is to describe program transformations as rewrites on control flow graphs with temporal logic side conditions. The syntax of PTRANS allows cleaner, more comprehensible specification of program optimizations; its executable semantics allows these specifications to act as prototypes for the optimizations themselves, so that candidate optimizations can be tested and refined before going on to include them in a compiler. We demonstrate the use of PTRANS to state, test, and refine the specification of a redundant store elimination optimization on parallel programs.
 
 ## Units of Measure
 
