@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Google Calendar Map</title>
+	<meta name="title" content="GoogleMap API Source Code Generator." />
+	<meta name="description" content="A way to view calendar events on a google map. Reading a public google calendar, it plots all the events on a map.  The map acts like a filter - you only see events that occur on the map canvas, which is great when there is a calendar with tons of events going on all over the place. " />
+	<meta name="keywords" content="Google Maps, Google Maps API, Google Calendar, Google Calendar API, AJAX, XML, JQUERY" />
+	<meta name="author" content="Chad Norwood. http://chadnorwood.com" />
+	<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css" rel="stylesheet" />
+	<link type="text/css" href="css/jsDatePick_ltr.min.css" rel="stylesheet" />
+	<link type="text/css" href="css/mapFilter.css" rel="stylesheet" />
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnM9zsz0nCcXljzggIrzsD8k_OQO6kcv0&sensor=false"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.slider.chad.js"></script>
+	<script type="text/javascript" src="js/jsDatePick.jquery.min.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.pager.js"></script>
+	<script type="text/javascript" src="js/json2.js"></script>
+	<script type="text/javascript" src="js/detect_timezone.js"></script>
+	<script type="text/javascript" src="js/ba-debug.js"></script>
+	<script type="text/javascript" src="js/ui.tabs.js"></script>
+	<script type="text/javascript" src="js/cnMapFilter.js"></script>
+	<script type="text/javascript" src="js/cnMapFilterUI.js"></script>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-2767105-1']);
+		_gaq.push(['_trackPageview']);
+	     
+		(function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+</head>
+
+<body>
+	<div id="map_id"></div>
+</body>
+</html>
