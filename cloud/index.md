@@ -36,6 +36,8 @@ detail on the structure of Azure applications.
    basic Azure API services such as blob, table, queue, Service Bus and caching in one simple, 
    uniform set of functions.
 
+ * [FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
+
  * F# material based on the Windows Azure Training Kit for developers, focusing on web and data programming:
 
    * [Part 1: Building and Publishing Windows Azure Web Sites using F#](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt1)
