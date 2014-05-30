@@ -1019,7 +1019,7 @@ $(document).ready(function() {
 			}
 			var infoHtml = "<div class='IW'><h1>"+ eventObj.name +"<\/h1>";
 			infoHtml += moreThanOneCal ? '<h3>Calendar: '+eventObj.calTitle+'</h3>' : '';
-			infoHtml += "<div id='IWContent' class='preWrapped'>"+ cnMFUI.maxStr( addLinks(eventObj.desc), 900, 26, eventObj.url) +"</div>";
+			infoHtml += "<div id='IWContent' class='preWrapped'>"+ cnMFUI.maxStr( eventObj.desc, 900, 26, eventObj.url) +"</div>";
 			infoHtml += '<div id="IWZoom">';
 			infoHtml += cnMF.formatDate(eventObj.dateStart, 'F D, l g:ix') +" - "+ cnMF.formatDate(eventObj.dateEnd, 'g:ix') +"<br>";
 			infoHtml += '<a class="zoom_to actionable" data-event_index="'+ eventObj.id +'">Zoom To</a> - ';
