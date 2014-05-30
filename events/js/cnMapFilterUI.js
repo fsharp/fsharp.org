@@ -161,15 +161,7 @@ $(document).ready(function() {
 		gCalEmails: "mk92te4u722p7ktk8ht3ahn6k0%40group.calendar.google.com", // myURL.params.gc,
 		startDay: httpGetParam('sd') || -1,
 		endDay: httpGetParam('ed') || 365,
-
-		mapChangeCallback: function (curData) {
-			msg = "<a href='"+ genLink(curData)+"' class='jumpLink' title='Click to load URL of this map in its current state (same zoom, coords, start and end dates). Copy and paste it for email, IM, etc.'>Full Screen Map</a>";
-			$("#MapStatus").append(msg);
-		}
 	};
-	if (myURL.params.os) {
-		opts.useOverlappingSliders = (myURL.params.os == 1);  // sliderChad is not overlapping sliders (os) 
-	}
 	cnMFUI.init(opts);
 	
 }); // end document ready
@@ -223,7 +215,7 @@ $(document).ready(function() {
 
 		function init() {
 
-			var timezone = jstz.determine_timezone(); // https://bitbucket.org/pellepim/jstimezonedetect/wiki/Home
+			var timezone = jstz.determine();
 			var calendarURLs = getCalendarURLs();
 			debug.log('mapfilter().init(), cnMF:',cnMF);
 			myGmap = initGMap();
@@ -248,8 +240,6 @@ $(document).ready(function() {
 			if (!window.location.href.match(/tz=cal/) && timezone) {
 				// if tz=cal is in URL, we use default of calendar timezone. Otherwise use local timezone from browser
 				initObj.tzName = timezone.name();
-				initObj.tzOffset = timezone.offset();
-				initObj.tzDst = timezone.dst();
 			}
 			cnMF.init(initObj);
 			// TODO - move initGMap to cnMF.init(), then do this shortcut: var myGmap = cnMF.gMap;
@@ -478,14 +468,6 @@ $(document).ready(function() {
 			  + '</div><br clear="all"><span style="display:none">Show events from: <span id="'+sliderId+'Start"></span> - <span id="'+sliderId+'End"></span></span>';
 
 			$("#"+elemId).append(html);
-
-			// chad hates that slider handles can overlap, but fixed: http://chadnorwood.com/code/slider-fix.html
-			// http://dev.jqueryui.com/ticket/3467
-			// example of not overlapping - kayak - and mootools
-			// http://developer.expressionz.in/downloads/mootools_double_pinned_slider_with_clipped_gutter_image_v2.2/slider_using_mootols_1.2.html
-			// 2012 Update: overlapping version has bug fixes and works better on latest firefox and IE, so added an option useOverlappingSliders
-			//debug.log("useOverlappingSliders="+ cnMFUI.opts.useOverlappingSliders +", jQuery.browser: ", $(jQuery.browser).serialize() );
-			//$.getJSON("/debug.mobile", {useOverlappingSliders:cnMFUI.opts.useOverlappingSliders,jQueryBrowser:jQuery.browser});
 			
 			var sliderOptions = {
 				range:true,
@@ -509,11 +491,7 @@ $(document).ready(function() {
 					//updateResults();
 				}
 			};
-			if (cnMFUI.opts.useOverlappingSliders) {
 				$('#'+sliderId).slider( sliderOptions);
-			} else {
-				$('#'+sliderId).sliderChad( sliderOptions);
-			}
 			$('#'+ sliderId+'1').html(sliderDate(cnMF.origStartDay));
 			$('#'+ sliderId+'2').html(sliderDate(cnMF.origEndDay));
 			/*
@@ -542,11 +520,7 @@ $(document).ready(function() {
 			debug.log('updateSlider('+elemId+') '+cnMF.curStartDay, cnMF.curEndDay, cnMF);
 
 			sliderId = elemId + "Slider";
-			if (cnMFUI.opts.useOverlappingSliders) {
-				$('#'+sliderId).slider("option", "values", [cnMF.curStartDay,cnMF.curEndDay]);
-			} else {
-				$('#'+sliderId).sliderChad("option", "values", [cnMF.curStartDay,cnMF.curEndDay]);
-			}
+            $('#'+sliderId).slider("option", "values", [cnMF.curStartDay,cnMF.curEndDay]);
 			//debug.log('******** updateSlider('+elemId+') VALUES UPDATED ');
 			$('#'+ sliderId+'1').html(sliderDate(cnMF.curStartDay));
 			$('#'+ sliderId+'2').html(sliderDate(cnMF.curEndDay));
@@ -930,24 +904,9 @@ $(document).ready(function() {
 			if (!skipUpdateStatus) updateStatus('');
 
 			//sleep(2000);
-			mapChangedCallback();
 			//updateSizes();
 			redrawing=false;
 		}
-
-
-		  // TODO - chad - move to index.html as callback function
-		function mapChangedCallback() {
-			if (cnMFUI.opts.mapChangeCallback) cnMFUI.opts.mapChangeCallback({
-			  mapZoom: myGmap.getZoom(),
-			  mapType: getMapType(myGmap),
-			  mapCenterLt: myGmap.getCenter().lat().toString().replace(/(\.\d\d\d\d\d\d)\d+/,"$1"),
-			  mapCenterLg: myGmap.getCenter().lng().toString().replace(/(\.\d\d\d\d\d\d)\d+/,"$1"),
-			  startDay: cnMF.curStartDay,
-			  endDay: cnMF.curEndDay
-			});
-		}
-
 
 		function mapMovedListener() {
 			if ( cnMF.myMarkers.infoWindowIsOpen() ) {
@@ -1271,28 +1230,14 @@ $(document).ready(function() {
 				updateStatus("<a title='Click to view Full Calendar' class='actionable' href='"+ calendarInfo.gcLink +"'>"
 					+ calendarInfo.gcTitle +"</a><br>Mapping Events ... ");
 
-				$('#calendarTitleContent').html("<h3><a title='"+calendarInfo.desc+" - Click to view calendar in new window' "
-					+"class='jumpLink' target='_blank' href='"+ calendarInfo.gcLink +"'>"+ calendarInfo.gcTitle +"</a></h3>"
-					+ '<span>Calendar has '+ calendarInfo.totalEvents + (calendarInfo.totalEvents==calendarInfo.totalEntries ? ''
+				$('#calendarTitleContent').html(
+                    '<span>Calendar has '+ calendarInfo.totalEvents + (calendarInfo.totalEvents==calendarInfo.totalEntries ? ''
 						:' (<span class="titleDesc" title="Counted '+calendarInfo.totalEntries+' entries even though feed said '
 						+calendarInfo.totalEvents+' total">'+calendarInfo.totalEntries+'</span>)')
 					+' events <nobr>from '+ cnMF.formatDate(startDate, 'Y-n-D') +'</nobr>'
-					+' <nobr>to '+ cnMF.formatDate(endDate, 'Y-n-D')  +'</nobr>'
-					+' &nbsp; <nobr><a id="changeDates" class="actionable" href="#" title='
-					+'"Click to choose new start and end dates and reload page">Change dates</a></nobr>'
-					+ '</span><div id="newDates"></div>');
+					+' <nobr>to '+ cnMF.formatDate(endDate, 'Y-n-D')  +'</nobr>'					
+					+ '</span>');
 
-				$('#changeDates').click(function(){
-					debug.info('--- clicked changeDates');
-					_gaq.push(['_trackEvent', 'Interaction', 'changeDates']);
-					setupChangeDates();
-				});
-
-				$('#cancelChangeDates').click(function(){
-					debug.info('--- clicked cancelChangeDates');
-					_gaq.push(['_trackEvent', 'Interaction', 'cancelChangeDates']);
-					$("#newDates").css('display','none');
-				});
 				$('#thDate').attr('title','Click to Sort by Event Date, Timezone '+cnMF.tz.name);
 
 			}
@@ -1309,7 +1254,12 @@ $(document).ready(function() {
 		// cbGeoDecodeAddr() called everytime we get a response from the internet
 		function cbGeoDecodeAddr () {
 			cnt = cnMF.myGeo.count();
-			updateStatus2(cnt.uniqAddrDecoded +' of '+ cnt.uniqAddrTotal +' decoded. ' + cnt.uniqAddrErrors +' errors.' );
+            if (cnt.uniqAddrErrors == 0) {
+                updateStatus2('');
+            }
+            else {
+                updateStatus2(cnt.uniqAddrDecoded +' of '+ cnt.uniqAddrTotal +' decoded. ' + cnt.uniqAddrErrors +' errors.' );
+            }
 			cnMF.reportData.uniqAddrDecoded = cnt.uniqAddrDecoded;
 			cnMF.reportData.uniqAddrTotal  = cnt.uniqAddrTotal;
 			cnMF.reportData.uniqAddrErrors = cnt.uniqAddrErrors;
@@ -1582,11 +1532,6 @@ $(document).ready(function() {
 		mapZoom: 2,
 		mapType: 0,
 		mapAllOnInit: true,
-
-		// sliderChad does not work well on IE, FF12+, and iPad (?)
-		useOverlappingSliders: (jQuery.browser.msie) // IE
-			|| (jQuery.browser.mozilla && parseFloat(jQuery.browser.version) >= 12) // FF12+
-			|| (navigator.userAgent.match(/iPad/i) != null), // iPad
 
 		numTableRows: 5
 		// googleApiKey: 'ABQIAAAAQ8l06ldZX6JSGI8gETtVhhTrRIj9DJoJiLGtM4J1SrTlGmVDcxQDT5BVw88R8j75IQxYlwFcEw6w9w' // v2 api for chadnorwood.com
