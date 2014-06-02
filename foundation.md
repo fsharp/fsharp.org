@@ -177,7 +177,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Enrico Sada, ([enrico@sada.io](mailto:enrico@sada.io)), [@enricosada](https://twitter.com/enricosada)
  * Dmitry Sevastianov, ([dsevastianov@gmail.com](mailto:dsevastianov@gmail.com))
  * Max Malook, ([mexx](https://github.com/mexx), [@max_malook](https://twitter.com/max_malook))
- * Chris Ballard, [@_ChrisBallard](https://twitter.com/_ChrisBallard)
+ * Chris Ballard, ([@_ChrisBallard](https://twitter.com/_ChrisBallard))
 
 
 ## Contact
