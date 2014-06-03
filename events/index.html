@@ -1,0 +1,37 @@
+---
+layout: default
+title: F# Events and Conferences | The F# Software Foundation
+headline: F# Events
+---
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<script type='text/javascript' src='http://datejs.googlecode.com/files/date.js'></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.4/jstz.min.js"></script>
+
+<script  type="text/javascript" charset="utf-8">
+
+var timezone = jstz.determine();
+var tzname = timezone.name();
+
+$(document).ready(function() {
+    var calurl = "https://www.google.com/calendar/embed?showTitle=0&showPrint=0&showCalendars=0&mode=AGENDA&height=600&wkst=1&bgcolor=%23FFFFFF&src=mk92te4u722p7ktk8ht3ahn6k0%40group.calendar.google.com&color=%23711616&ctz=" + tzname;
+    $('#agenda_frame').attr('src', calurl);
+});
+
+
+
+</script>
+<div class="row">   
+    <div id="contentMain">
+        <p>This map displays upcoming F# related events and conferences.</p>
+        <iframe style="width: 100%; height: 500px"  scrolling="no" frameborder="no" src="events.html?gc=mk92te4u722p7ktk8ht3ahn6k0%40group.calendar.google.com?z=1"></iframe>
+        <br />
+
+        <p>View all <a href="events.html?gc=mk92te4u722p7ktk8ht3ahn6k0%40group.calendar.google.com">F# Events</a> in a larger map.</p>
+                
+        <iframe id="agenda_frame" src="about:blank" style="width: 100%; height: 600px" frameborder="0" scrolling="no"></iframe> 
+               
+        <p>If you are running an F# event that is missing from this view, please <a href="/foundation.html#contact">Contact Us</a>.</p>
+    </div>
+</div>

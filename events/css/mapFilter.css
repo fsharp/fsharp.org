@@ -1,0 +1,427 @@
+/*
+ * GCM Prototype - mapFilter 
+ * 
+ * TABLE OF CONTENTS
+ *
+ * Main
+ *     Map
+ *     GCM
+ * Popups
+ * Plugins 
+ *     tablesorter
+ *     jScrollPane
+ *     other
+ */
+ 
+
+/*
+ *  Main 
+ */
+body { 
+	margin: 0; 
+	padding: 0; 
+	font-size:80%;
+}
+
+ 
+/*
+ *  Main | Map
+ */
+/*
+ * Google colors
+ * ocean blue: #99B3CC
+ * icon blue: #307BC2
+ * forrest green: #B5D29C
+ * highway exit green: #41A774
+ * orange highway: #FFC345
+ * yellow road: #FFFD8B
+ * grey city block: #EDEAE2
+ * orange-brown buidling: #DED2AC
+ */
+
+#map_id { 
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+    background:#99B3CC;
+}
+
+/* Info Window styles */
+.IW { width: 340px;}
+.IWContent {height: 120px; overflow:auto;}
+.IWCaption {font-weight: bold; font-size: 12pt; color: #369; border-bottom: 2px solid #369;}
+.IWFooter {margin-top: 5px; font-size: 8pt; }
+.IWFooterZoom {}
+.IWDirections{background-color:#FFF;}
+
+/* want to save linebreaks but also wordwrap */
+.preWrapped {
+  white-space: pre; 
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  text-align:left;
+  font: normal small verdana, arial, helvetica, sans-serif; 
+  font-size: 8pt;
+  margin-bottom: 10px;
+}
+
+
+/*
+ *  Main | GCM 
+ * 
+ *  GCM components that go on top of the map
+ */
+
+.transparent
+{
+	filter:alpha(opacity=90); 
+	-moz-opacity: 0.90; 
+	-khtml-opacity: 0.90;
+	opacity: 0.90;
+}
+
+#rightTab {
+    position:absolute;
+    top:40px;
+    right:0;
+    display:block;
+    height:30px;
+    width:30px;
+    cursor:pointer;
+    z-index:10;
+    background-color: #FFF;
+    font-size:24px;
+    font-weight:bold;
+    padding-left:6px;
+}
+#rtSide { 
+	position:absolute;
+	top:70px;
+	right:0;
+	margin-right:0;
+	overflow:hidden;
+	z-index:2;
+}
+
+#gcmMapLogo { 
+	position:absolute;
+	bottom:20px;
+	right:4px;
+	background: url(http://chadnorwood.com/beermug.ico) no-repeat 0 0;
+	height:17px;
+	width:17px;
+	overflow:hidden;
+	z-index:25500;
+}
+
+
+.ui-slider .ui-slider-handle {
+	width: 34px;
+	height: 25px;
+	padding: 2px;
+	top: -10px;
+	margin-left: 0;  /* reset horizontal handle offset */
+	margin-bottom: 0; /* reset vertical handle offset */
+	border: 1px solid #2E6E9E;
+	color: #2E6E9E;
+	text-align: center;
+	font-size: 9px;
+}
+.ui-slider-horizontal {
+	/* set dynamically - width: 300px; */
+}
+.ui-slider-range {
+	background: #6699EE;
+}
+
+#titleDiv {
+	overflow:auto;
+	padding-right: 0px; /* match gcmLogo width */
+	background-color: #B5D29C;
+
+}
+#titleDiv div {
+}
+
+#calendarTitle, 
+#resultsDataFilters {
+	position: relative;
+	float: left;
+	padding: 0;
+	/*background-color: #ECECE2;*/
+	height: auto;
+	font-size: 12px;
+	text-align: left;
+	width: 100%;
+	background-color: #FFFFFF;
+
+}
+#calendarTitleContent {
+	padding: 5px;	
+}
+#calendarTitle h3 {
+	font-size: 24px;
+	margin: 5px 5px 2px 5px;
+	margin: 0;
+	text-align: left;
+}
+#calendarTitle h4 {
+	font-size: 24px;
+	margin: 5px 5px 2px 5px;
+	margin: 0;
+	text-align: left;
+}
+#calendarTitle span {
+	font-size: 12px;
+	margin: 1px 5px 5px 5px;
+	margin: 0;
+	text-align: left;
+}
+#gcmLogo, 
+#resultsDataStatus {
+	position: relative;
+	float:right;
+    width:100%;
+    padding: 2px 5px;
+	/*width: 100px;*/       /* match parent titleDiv's padding-right */
+	/*margin-right: -100px;*//* match parent titleDiv's padding-right */
+	/*height: 60px;*/
+	/*background-color: #AACCDD;*/
+	/*color: #2E6E9E;*/
+	/*text-align: center;*/
+	/*background-color: #B5D29C;*/
+}
+
+#MapStatus {
+    float: left;
+    text-align: left;
+}
+#MapStatus2 {
+    float: right;
+    text-align: right;
+}
+
+#gcmLogo h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+}
+#resultsData {
+	overflow:hidden;
+	padding-right: 100px; /* match gcmLogo width */	
+	background-color: #FFF;
+}
+#resultsDataFilters {
+	/*background-color: #E6EEEE;*/
+	position: relative;
+	float: left;
+}	
+#resultsDataStatus {
+	height: auto;
+	position: relative;
+	float: left;
+	text-align:center;
+	/*background-color: #CCCCDD;*/
+	/* background-color: #B5D29C;	*/
+}
+#ResultsMapHdr {
+	padding: 2px 5px;
+	background: #99B3CC;
+}
+.jumpLink {
+	color: #0085D0;
+	color: #0045CC;
+	text-decoration: none;
+}
+.actionable {
+	color: #005599;
+	text-decoration: none;
+}
+.actionable:hover,
+.jumpLink:hover {
+	text-decoration: underline;
+}
+
+.helpContainer {
+	overflow: auto;
+	background: #99B3CC;
+}
+.helpContainer h3 {
+	padding-left: 5px;
+}
+
+
+
+#ResultsMapEventsTable tbody,
+#ResultsMapEvents {
+	overflow:auto;
+}
+.event_table {
+	display:block;
+}
+.highlight2 { 
+	font: bold;
+	background: #FFFD8B; 
+	color: #555555; 
+}
+
+/*
+ *  Popups
+ */
+
+#newDates {
+	display:none;
+	overflow: hidden;
+	/* width set in dialogDates in js */
+	text-align:left;
+}
+
+
+/*
+ *  Plugins | tablesorter
+ *
+ * originally from tablesorter.style.css 
+ */
+table.tablesorter {
+	font-family:arial;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(../img/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+	filter:alpha(opacity=90); 
+	-moz-opacity: 0.90; 
+	-khtml-opacity: 0.90;
+	opacity: 0.90;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../img/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../img/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #8dbdd8;
+}
+table.tablesorter {margin: 0 0 0 0;} 
+
+
+ /*
+  *  Plugins | jScrollPane
+  *
+  *  http://www.kelvinluck.com/assets/jquery/jScrollPane/examples.html
+  *  note - if winxp is used, must pass options like this
+  *  	$('#pane1').jScrollPane({showArrows:true, scrollbarWidth: 17});
+  *  note - if osX is used, like this
+  *		$('#pane2').jScrollPane({showArrows:true, scrollbarWidth: 15, arrowSize: 16});
+  */
+
+.scrollPane {
+  height: auto;
+  overflow: visible;
+  background: #EEEEEE;
+  float: left;
+  text-align:left;
+  position:absolute;
+}
+
+.jScrollPaneContainer {
+	/*border: 5px solid #9999CC;*/
+}
+
+.winXP .jScrollPaneTrack {
+	background: url(../img/windows_track.gif) repeat-y;
+}
+.winXP .jScrollPaneDrag {
+	background: url(../img/windows_drag_middle.gif) no-repeat 0 50%;
+}
+.winXP .jScrollPaneDragTop {
+	background: url(../img/windows_drag_top.gif) no-repeat;
+	height: 4px;
+}
+.winXP .jScrollPaneDragBottom {
+	background: url(../img/windows_drag_bottom.gif) no-repeat;
+	height: 4px;
+}
+.winXP a.jScrollArrowUp {
+	height: 17px;
+	background: url(../img/windows_arrow_up.gif) no-repeat 0 0;
+}
+.winXP a.jScrollArrowUp:hover {
+	background-position: 0 -20px;
+}
+.winXP a.jScrollArrowDown {
+	height: 17px;
+	background: url(../img/windows_arrow_down.gif) no-repeat 0 0;
+}
+.winXP a.jScrollArrowDown:hover {
+	background-position: 0 -20px;
+}
+.winXP a.jScrollActiveArrowButton, .winXP a.jScrollActiveArrowButton:hover {
+	background-position: 0 -40px;
+}
+
+
+.osX .jScrollPaneTrack {
+	background: url(../img/osx_track.gif) repeat-y;
+}
+.osX .jScrollPaneDrag {
+	background: url(../img/osx_drag_middle.gif) repeat-y;
+}
+.osX .jScrollPaneDragTop {
+	background: url(../img/osx_drag_top.gif) no-repeat;
+	height: 6px;
+}
+.osX .jScrollPaneDragBottom {
+	background: url(../img/osx_drag_bottom.gif) no-repeat;
+	height: 7px;
+}
+.osX a.jScrollArrowUp {
+	height: 24px;
+	background: url(../img/osx_arrow_up.png) no-repeat 0 -30px;
+}
+.osX a.jScrollArrowUp:hover {
+	background-position: 0 0;
+}
+.osX a.jScrollArrowDown {
+	height: 24px;
+	background: url(../img/osx_arrow_down.png) no-repeat 0 -30px;
+}
+.osX a.jScrollArrowDown:hover {
+	background-position: 0 0;
+}
+
+
+/*
+ *  Plugins | other
+ */
+
+.ui-state-active { background: white; }
+
+
+
