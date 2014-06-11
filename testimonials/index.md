@@ -1190,6 +1190,29 @@ Language features like record types, discriminated unions and type inference als
 
 <div class="keywords">web, domain modelling</div>
 
+
+
+<a id="can-erten" > </a>
+---
+
+> F# is a powerful language and it is great to do cross platform development with it.
+
+1. **Can Erten**
+2. [Codingday](http://www.codingday.com)
+3. [Vector Code](http://www.vectorcodeapp.com)
+4. [permalink](#can-erten)
+
+
+Vector code is a code generator for iOS and OsX generating code in Objective C, Swift and C#. It works with vector graphics, parses and runs SVG. It is developed with F# on a Mac.
+
+F# is a first class language for Mac OsX. Thanks to the open source compiler, mono and xamarin, I was able to build a vector drawing, code generator software with F#. It is really amazing experience! The tooling is great and keeps improving. The compiler and the language  are basically the same which is fantastic!
+
+F# is a powerful language and it is great to do cross platform development with it. I used heavily quotations for generating code in different languages on vector code. Powerful type system and static compilation meant that, once the application compiled without errors and warnings, it will just work and generate complete code. It did, and now at the App Store.
+
+
+<div class="keywords">osx, mac,  code generation, cross-platform</div>
+
+
 ### Additional Case Studies
 
 The following written or recorded case studies describe the benefits of F# for a range of enterprise scenarios:
