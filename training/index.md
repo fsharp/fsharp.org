@@ -62,6 +62,9 @@ in quantiative finance and how to integrate F# with Excel.
 JBI International offer F# training courses, including onsite options. At the time of writing the
 next scheduled training course was [Functional Programming with F# .NET](http://www.jbinternational.co.uk/course/307/f-net-training-course-class-london-uk).
 
+### [F# for You](http://fsharp4u.com/training/)
+
+Provides F# [training](http://fsharp4u.com/training/) plus free online [tutorials](http://fsharp4u.com/).
 
 
 ## Interactive Tutorials and Training Guides
