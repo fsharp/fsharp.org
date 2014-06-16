@@ -49,6 +49,8 @@ Contributions welcome!
 
 *  [F# Project Scaffold](https://github.com/fsprojects/FSharp.ProjectScaffold) - A prototypical F# library (file system layout and tooling), recommended by the F# Foundation.
 
+*  [FSharpLint](https://github.com/duckmatt/FSharpLint) - A lint tool for F#.
+
 <br />
 
 ### Community Projects: Data Access
