@@ -187,7 +187,7 @@ div#contentMain.testimonials ul li {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .testimonials blockquote {
     float:none;
     width:auto;
