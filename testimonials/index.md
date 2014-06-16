@@ -635,7 +635,7 @@ another being implementation, application and analysis of a
 functional pearl, and the last being a curriculum planning system
 for studies at the Technical University of Denmark.
 
-<a id="hans-rischel" > </a>
+<a id="hans-rischel" > &nbsp; </a>
 ---
 
 > Solving a number of programming problems using the language convinced me of the supreme qualities of F#
