@@ -9,19 +9,19 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
 
-   - Install a free trial edition of [Visual Studio 2013  (Professional or higher)](http://www.visualstudio.com/downloads/download-visual-studio-vs)
+   Install a free trial edition of [Visual Studio 2013  (Professional or higher)](http://www.visualstudio.com/downloads/download-visual-studio-vs)
 
 OR:
 
-   - Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) plus the free [Visual F# Tools 3.1.1](http://www.microsoft.com/download/details.aspx?id=41654)
+   Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) plus the free [Visual F# Tools 3.1.1](http://www.microsoft.com/download/details.aspx?id=41654)
 
 OR:
 
-   - Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747) plus the free [Visual F# Tools 3.1.1](http://www.microsoft.com/download/details.aspx?id=41654)
+   Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747) plus the free [Visual F# Tools 3.1.1](http://www.microsoft.com/download/details.aspx?id=41654)
 
 OR:
 
-   - Install the free [Visual Studio Express 2012 for Web](http://www.microsoft.com/en-us/download/details.aspx?id=30669)  plus the free [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkID=261287)
+   Install the free [Visual Studio Express 2012 for Web](http://www.microsoft.com/en-us/download/details.aspx?id=30669)  plus the free [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkID=261287)
 
 
 The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
