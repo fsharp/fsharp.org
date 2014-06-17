@@ -32,10 +32,14 @@ See [fsharp.net](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more
 Optionally, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
 for use with Visual Studio 2012 and 2013 (Professional or higher). They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
 [auto-generating XML Docs](http://fsprojects.github.io/VisualFSharpPowerTools/xmldoc.html), 
+[source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
 [navigation bar](http://fsprojects.github.io/VisualFSharpPowerTools/navbar.html), 
-[highlight references](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html), 
+[highlight](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html) and [find](http://fsprojects.github.io/VisualFSharpPowerTools/findallreferences.html) references, 
 [rename refactoring](http://fsprojects.github.io/VisualFSharpPowerTools/rename.html),
-[depth colorizer](http://fsprojects.github.io/VisualFSharpPowerTools/depthcolorizer.html) and the
+[depth colorizer](http://fsprojects.github.io/VisualFSharpPowerTools/depthcolorizer.html),
+[implement interface](http://fsprojects.github.io/VisualFSharpPowerTools/implementinterface.html),
+[record stub generation](http://fsprojects.github.io/VisualFSharpPowerTools/recordstubgeneration.html),
+[union pattern match case generation](http://fsprojects.github.io/VisualFSharpPowerTools/unionpatternmatchcasegeneration.html) and the
 [navigate-to command](http://fsprojects.github.io/VisualFSharpPowerTools/navigateto.html).
 
 ##### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users #####
