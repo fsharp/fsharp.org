@@ -1,12 +1,10 @@
 ---
 layout: page
 title: The F# Software Foundation
+headline: The F# Software Foundation
 ---
 
-# The F# Software Foundation
-
 <div class="jumbotron visible-lg missionStatement">
-    <h1>Mission </h1>
     <h1>Mission Statement</h1>
     <p>The mission of the F# Software Foundation is to promote, protect, and 
       advance the F# programming language, and to support and facilitate the 
