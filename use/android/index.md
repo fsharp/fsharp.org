@@ -12,11 +12,6 @@ headline: Use F# for Android Development
 
 2. Get [Xamarin Studio](http://xamarin.com/download)
 
-3. Select "About/Help --> Check for Updates --> Switch to Alpha Channel" and update Xamarin Studio if needed.
-
-4. Add About --> Addin Manager --> Gallery --> Language Bindings --> F# Language Binding
-  
-5. Add and enable About/Tools --> Addin Manager --> Gallery --> Mobile Development --> F# Support for Xamarin.Android Development
 
 6. On Windows, also [install the F# 2.0 Runtime](http://www.microsoft.com/en-us/download/details.aspx?id=13450)
 
