@@ -14,22 +14,7 @@ headline: Use F# for iOS App Development
 
 2. Create a new Project, select "F#" and then the kind of application you want.
 
-You can now create a new F# iOS app, e.g. an "iPad Single View Application". 
-
-See the [Apps and Games](/apps-and-games) section for more information on getting going with F# iOS development.
-
-Report problems to the [F# Open Source Group email list](http://fsharp.github.com/fsharp) and/or Xamarin.
-
-#### Building F# Language Binding for Xamarin Studio from source
-
-Check out https://github.com/fsharp/fsharpbinding.git to $fsbind, then:
-
-    cd $fsbind/monodevelop
-    sh configure.sh
-    make
-
-That produces ```$fsbind/pack/X.Y.Z/local/Debug/MonoDevelop.FSharpBinding_X.Y.Z.mpack```.  Open Xamarin Studio, and from
-Xamarin Studio --> Addin Manager and install this using  _Install from file_.
+You can now create a new F# iOS app, e.g. an "iPad Single View Application".  See the [Apps and Games](/apps-and-games) section for more information on getting going with F# iOS development. Report problems to the [F# Open Source Group email list](http://fsharp.github.com/fsharp) and/or Xamarin.
 
 
 
