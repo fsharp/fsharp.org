@@ -23,5 +23,5 @@ You can now create a new F# iOS app, e.g. an "iPad Single View Application".  Se
 
 ### Option 2: Build HTML5 iOS apps
 
-* [Using F# for HTML5 Web Applications](/use/html5)
+*  ![logo](/images/thumbs/WebSharper.png)&nbsp;[Using F# for HTML5 Web Applications](/use/html5)
 
