@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Using F# for Math and Statistics | The F# Software Foundation
-headline: Using F# for Math and Statistics
+title: Math and Statistics Programming with F# | The F# Software Foundation
+headline: Math and Statistics Programming with F#
 redirect_from: "/math/index.html"
 ---
 
