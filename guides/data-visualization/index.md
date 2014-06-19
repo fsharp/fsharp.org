@@ -2,6 +2,7 @@
 layout: default
 title: Data Visualization | The F# Software Foundation
 headline: Data Visualization with F#
+redirect_from: "/data-visualization/index.html"
 ---
 
 
