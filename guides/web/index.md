@@ -2,6 +2,7 @@
 layout: default
 title: Web Programming | The F# Software Foundation
 headline: Web Programming with F#
+redirect_from: "/webstacks/index.html"
 ---
 
 F# is excellent for building scalable, robust web solutions:
