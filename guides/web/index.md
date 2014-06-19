@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Web Programming | The F# Software Foundation
-headline: Using F# for Web Programming 
+headline: Web Programming with F#
 redirect_from: "/webstacks/index.html"
 ---
 
