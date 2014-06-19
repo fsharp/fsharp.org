@@ -38,6 +38,8 @@ detail on the structure of Azure applications.
    uniform set of functions.
 
  * [FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
+ 
+ * [F# Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - Provides strongly-typed access to Blobs and Tables with automatic schema generation of table schema based off EDM metadata.
 
  * F# material based on the Windows Azure Training Kit for developers, focusing on web and data programming:
 
