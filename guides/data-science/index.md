@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Science | The F# Software Foundation
-headline: Using F# for Data Science
+headline: Data Science with F#
 redirect_from: "/data-science/index.html"
 ---
 
