@@ -2,6 +2,7 @@
 layout: default
 title: Machine Learning | The F# Software Foundation
 headline: Machine Learning with F#
+redirect_from: "/machine-learning"
 ---
 
 F# is ideally suited to machine learning because of its efficient execution, succinct style,
