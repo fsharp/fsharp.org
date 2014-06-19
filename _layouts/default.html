@@ -142,6 +142,16 @@
         <div class="row">
             <div class="col-sm-3">
                 <a href="/"><img src="/img/logo.png" id="logo" alt="F# logo" class="img-responsive" /></a>
+                <div>
+                    <div class="fb-share-button" data-type="button"></div>
+                    &nbsp;
+                <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-via="fsharporg" data-related="fsharporg" data-hashtags="fsharp">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    &nbsp;
+                 <a href="https://twitter.com/fsharporg" class="twitter-follow-button" data-show-count="false">Follow</a>
+                <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+
+                </div>
             </div>
             <div class="col-sm-9">
                 <div class="page-header">
@@ -149,18 +159,13 @@
                 </div>
             </div>
         </div>
+                {{ content }}
+<!--
         <div class="row">
             <div class="col-sm-9 col-sm-push-3">
                 {{ content }}
             </div>
             <div class="col-sm-3 menu col-sm-pull-9" id="leftMenu">
-                <div>
-                    <div class="fb-share-button" data-type="button"></div>
-                    &nbsp;
-                <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-via="fsharporg" data-related="fsharporg" data-hashtags="fsharp">Tweet</a>
-                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
-
-                </div>
                 <h4 class="first">About</h4>
                 <ul>
                     <li><a href="/about/index.html">About F#</a></li>
@@ -243,6 +248,7 @@
 
             </div>
         </div>
+-->
         <div class="container text-center">
             <footer>
                 <p>&copy; 2014 F# Software Foundation</p>
