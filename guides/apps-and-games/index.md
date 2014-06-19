@@ -2,6 +2,7 @@
 layout: default
 title: Apps and Games | The F# Software Foundation
 headline: App and Game Programming with F#
+redirect_from: "/apps-and-games/index.html"
 ---
 
 ### Platforms
