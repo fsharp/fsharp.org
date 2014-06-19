@@ -6,6 +6,7 @@ redirect_from: "/webstacks/index.html"
 ---
 
 F# is excellent for building scalable, robust web solutions:
+
  * *Fast and Scalable* - F# is much faster than NodeJS, Python, PHP and Ruby 
  * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
  * *Asynchronous* - F# provides asynchronous programming to simplify scalable client-server programming
