@@ -15,7 +15,7 @@ F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.htm
     sudo apt-get install mono-complete
     sudo apt-get install fsharp
 
-This installs `fsharpc` and `fsharpi`. If you don't have access to *trusty/universe*, compiple from source or see Option 6 below.
+This installs `fsharpc` and `fsharpi`. If you don't have access to *trusty/universe*, compile from source or see Option 6 below.
 
 
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
