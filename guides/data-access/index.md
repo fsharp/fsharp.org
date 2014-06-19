@@ -2,6 +2,7 @@
 layout: default
 title: Data Access | The F# Software Foundation
 headline: Data Access with F#
+redirect_from: "/data-access/index.html"
 ---
 
 F# supports all common data import and access techniques. In addition, the type provider feature of 
