@@ -84,7 +84,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 menu" id="leftMenu">
+            <div class="col-md-9 col-md-push-3">
+                {{ content }}
+            </div>
+            <div class="col-md-3 menu col-md-pull-9" id="leftMenu">
                 <div>
                     <div class="fb-share-button" data-type="button"></div>
                     &nbsp;
@@ -171,9 +174,6 @@
                 <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
                        </p>
 
-            </div>
-            <div class="col-md-9">
-                {{ content }}
             </div>
         </div>
         <div class="container text-center">
