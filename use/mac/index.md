@@ -5,32 +5,11 @@ headline: Use F# on Mac OSX
 ---
 
 
-### Option 1: Install F# 3.0 alone
+### Option 1: Install F# 3.1 with Xamarin Studio
 
-To use F# 3.0 on Mac OSX, simply:
-
-*  [Install the F# Cross-Platform Runtime (called Mono)](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.0. Use version 3.2.3 or later.
-
-See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
-go further. For 64-bit support, see below.
-
-<br />
-
-### Option 2: Install F# 3.0 with Xamarin Studio
-
-![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with freemium add-ins for mobile development. [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be used with either.
+![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with freemium add-ins for mobile development. [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be used with either and comes pre-installed with Xamarin Studio.
 
 * [Install Xamarin Studio](http://xamarin.com/studio) 
-
-* Go to the AddIn Manager and
-
-  Add “Language Bindings –> F# Language Binding”. If it is missing, [build and install it from source](https://github.com/fsharp/fsharpbinding/blob/master/monodevelop/README.md). 
-  
-  Add “Mac Development –> F# Support for MonoMac and Xamarin.Mac Development”
-  
-  Optionally, add “Mobile Development –> F# Support for Android Development”. Update using the Alpha channel of "Tools --> Check for Updates" if needed.
-
-  Optionally, add “Mobile Development –> F# Support for iOS Development”. Update using the Alpha channel of "Tools --> Check for Updates" if needed.
 
 You can now create new projects in Xamarin Studio and/or MonoDevelop and cross-compile projects built in 
 Visual Studio and other environments.
@@ -40,8 +19,20 @@ go further. For 64-bit support, see below.
 
 <br />
 
+### Option 2: Install F# 3.1 alone
 
-### Option 3: Install F# 3.0 (64-bit) from source
+To use F# 3.1 on Mac OSX, simply:
+
+*  [Install the F# Cross-Platform Runtime (called Mono)](http://www.go-mono.com/mono-downloads/download.html). This includes F# 3.1. Use version 3.4.0 or later.
+
+See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
+go further. For 64-bit support, see below.
+
+<br />
+
+
+
+### Option 3: Install F# 3.1 (64-bit) from source
 
 To use F# on Mac OSX in 64-bit mode, use the following:
 
@@ -59,7 +50,7 @@ To use F# on Mac OSX in 64-bit mode, use the following:
     
     ```sudo make install```
 
-* [Compile F# 3.0 from source](https://github.com/fsharp/fsharp/blob/master/README.md)
+* [Compile F# 3.1 from source](https://github.com/fsharp/fsharp/blob/master/README.md)
 
   Set the "--prefix" flag, e.g. "--prefix=/mono64"
 
