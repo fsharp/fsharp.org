@@ -300,7 +300,11 @@ The programmer provides a specification of the program,
 in the form of properties which functions, methods or objects should satisfy, 
 and FsCheck then tests that the properties hold in a large number of randomly generated cases.
 
-### Using Travis and AppVeyor Continuous Integration builds
+#  Continuous Integration builds
+
+## Using Travis and AppVeyor
+
+Perhaps the simplest way to regularly build and test your work across multiple platforms is to use Travis.
 
 You can automate the build and test of all commits and pull requests to GitHub projects 
 on Linux and OSX by using Travis.  This is very easy to arrange, just add a .travis.yml file to your project root ([example](https://github.com/fsharp/FSharp.Data/blob/master/.travis.yml), [example](https://github.com/fsharp/FSharp.Compiler.Service/blob/master/.travis.yml) ), and register the project in your Travis account.
