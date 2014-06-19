@@ -2,6 +2,7 @@
 layout: default
 title: Using F# for Math and Statistics | The F# Software Foundation
 headline: Using F# for Math and Statistics
+redirect_from: "/math"
 ---
 
 F# is well-suited to numerical and statistical programming because
