@@ -2,6 +2,7 @@
 layout: default
 title: Data Science | The F# Software Foundation
 headline: Using F# for Data Science
+redirect_from: "/data-science/index.html"
 ---
 
 Data science is the application of statistical analysis, machine learning, data visualization and programming to 
