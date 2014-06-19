@@ -45,9 +45,9 @@ You’re off! Some common commands are:
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
 
-* [Xamarin Studio](http://xamarin.com/studio) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding). 
+* [Xamarin Studio](http://xamarin.com/studio) has built-in support for F# development on OSX and Windows.
 
-* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](https://github.com/fsharp/fsharpbinding/tree/master/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive and also automatic indentation. 
+* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](http://fsharp.github.io/fsharpbinding/#Emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more. 
 
 * [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding). On Linux Debian you can use:
   
@@ -187,7 +187,8 @@ You can add NuGet support to these IDEs. See [NuGet for MonoDevelop and Xamarin 
 
 ### Making nuget packages
 
-See [http://nuget.org](http://nuget.org) to learn how to make and publish NuGet packages.
+See [http://nuget.org](http://nuget.org) to learn how to make and publish NuGet packages, or look at examples
+from other F# community projects.
 
 ## Other Packaging Mechanisms
 
@@ -248,19 +249,21 @@ Compatibility guides, [documentation](http://docs.go-mono.com/?link=root) and [m
 # Portable Libraries
 
 
-Portable .NET libraries have access to less core functionality, called a "portable profile", but can be used across multiple
-platforms and multiple profiles of .NET. For example, a portable library may be usable on Mac, Linux, Android,
-iOS, Windows and Windows Store apps (depending on the versions of runtime machinery used and other factors).
+Portable .NET libraries have access to less core functionality, called a "portable profile", but can be used 
+across multiple platforms and multiple profiles of .NET. For example, a portable library may
+be usable on Mac, Linux, Android, iOS, Windows and Windows Store apps (depending on the versions 
+of runtime machinery used and other factors).
 
 See [Cross-Platform Portable Class Libraries with .NET are Happening](http://www.hanselman.com/blog/CrossPlatformPortableClassLibrariesWithNETAreHappening.aspx)
 for a perspective on cross-platform portable libraries for Visual Studio users.
 
-F# portable libraries use FSharp.Core versions such as 4.3.5.0, with matching mscorlib versions.
+F# portable libraries use FSharp.Core versions such as 4.3.5.1, with matching mscorlib versions.
 A binding redirect may be neeeded to ensure bindings to these libraries redirect correctly, e.g. to 
-FSharp.Core 4.3.0.0.
+FSharp.Core 4.3.1.0.
 
-At the time of writing, creating portable libraries was not yet fully supported on 
-Mac and Linux. But if you are developing on Windows, or using libraries on Windows, then consider
+At the time of writing, creating portable libraries was not yet fully supported in IDES on 
+Mac and Linux, though you can normally build portable libraries successfully using xbuild and command-line tools
+on these platforms. If you are developing on Windows, or using libraries on Windows, then consider
 creating portable libraries to ease cross-platfom use.
 
 
@@ -297,21 +300,25 @@ The programmer provides a specification of the program,
 in the form of properties which functions, methods or objects should satisfy, 
 and FsCheck then tests that the properties hold in a large number of randomly generated cases.
 
+### Using Travis and AppVeyor Continuous Integration builds
+
+You can automate the build and test of all commits and pull requests to GitHub projects 
+on Linux and OSX by using Travis.  This is very easy to arrange, just add a .travis.yml file to your project root ([example](https://github.com/fsharp/FSharp.Data/blob/master/.travis.yml), [example](https://github.com/fsharp/FSharp.Compiler.Service/blob/master/.travis.yml) ), and register the project in your Travis account.
+
+Setting the language to "objective-c" causes Travis to use an OSX machine for build.
+
+Travis is free for open source  projects.
+
+To also automate your build and test on Windows, AppVeyor is a good choice.  Here is [an example configuration file](https://github.com/fsharp/FSharp.Compiler.Service/blob/master/appveyor.yml).
+
 ------
 
 # Miscellaneous Notes on Open Source and Cross Platform Development
 
-### Using the TeamCity build service
-
-For open source community projects, a build service is available at [http://teamcity.codebetter.com](http://teamcity.codebetter.com) which 
-includes both Linux and Windows build agents.
-
-To use versions of Mono such as Mono 3.0.12, you need to set an environment variable in your build config. 
-Under build parameters, add this environment variable "env.MOPE_VERSION" and set it to "3.0.12".
 
 ### Testing on multiple platforms
 
-If you are Windows developers, you can set up a Vagrant box in order to test your libraries and tools on Mono.
+If you are Windows developers, you can set up a Vagrant box in order to test your libraries and tools on Mono (though often a Travis build is simpler, see above)
 A detailed guide of setting up Vagrant is available [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
