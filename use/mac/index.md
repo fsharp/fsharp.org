@@ -7,13 +7,12 @@ headline: Use F# on Mac OSX
 
 ### Option 1: Install F# 3.1 with Xamarin Studio
 
-![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with freemium add-ins for mobile development. [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be used with either and comes pre-installed with Xamarin Studio.
+![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with freemium add-ins for mobile development which supports F# out of the box.
 
 * [Install Xamarin Studio](http://xamarin.com/studio) 
 
 You can now create new projects in Xamarin Studio and/or MonoDevelop and cross-compile projects built in 
 Visual Studio and other environments.
-
 See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
 go further. For 64-bit support, see below.
 
