@@ -61,7 +61,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
    * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
 
- * [Frank](https://frankfs.net/)
+ * [Frank](http://frankfs.net/)
 
     Frank provides a functional wrapper around the types in System.Net.Http, the library that drives ASP.NET Web API.
 
