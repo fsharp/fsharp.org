@@ -182,7 +182,5 @@ in whole or in part. Some resources are:
  * [F# Client-Side Application Template (Visual Studio, Silverlight)](http://visualstudiogallery.msdn.microsoft.com/621d86fb-944f-48db-a69c-e73c5521de9d) -
    Includes a simple template for creating F# Silverlight Applications. The template creates a single 
    Silverlight project that creates Silverlight controls from F# code and runs in an automatically generated HTML page.
- * [F# Web Application Template (Silverlight)](http://visualstudiogallery.msdn.microsoft.com/f0e9a557-3fd6-41d9-8518-c1735b382c73)
-   Includes a template for Silverlight 4 and 5.
-           
+ 
            
