@@ -21,7 +21,7 @@ You can now create a new F# iOS app, e.g. an "iPad Single View Application".  Se
 A wonderful video by [Rachel Reese](https://twitter.com/rachelreese) on creating a minesweeper game for iOS using F# and Xamarin 
 
 <div>
-  <iframe src="//player.vimeo.com/video/97516216" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/97516216">1) Write cross-platform apps with F# & Xamarin. 2) ??? 3) Profit!</a> from <a href="http://vimeo.com/ndcoslo">NDC Conferences</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+  <iframe src="//player.vimeo.com/video/97516216" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/97516216">Write cross-platform apps with F# & Xamarin</a> from <a href="http://vimeo.com/ndcoslo">NDC Conferences</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </div>
 
 <br />
