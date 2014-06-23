@@ -77,6 +77,9 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
    * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
 
+ * NancyFx
+  * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Include a templates for various NancyFx application for getting started.
+  * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
  * Simple.Web
  
    Simple.Web is a REST-focused, object-oriented Web Framework for .NET
@@ -101,7 +104,8 @@ F# also shines in the area of web API development through frameworks like  [Serv
 ## Hosting
 
 Common hosting options are:
- * [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku)
+
+ * [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
  * [Azure Web Sites](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
  * [AppHarbor](http://appharbor.com/) - Free hosting of .NET web applications
 
