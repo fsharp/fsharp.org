@@ -82,13 +82,14 @@ F# also shines in the area of web API development through frameworks like  [Serv
     NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
     * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
     * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
- * Simple.Web
+
+ * _Simple.Web_
  
    Simple.Web is a REST-focused, object-oriented Web Framework for .NET
 
    * [Pure F# Simple.Web Template](http://visualstudiogallery.msdn.microsoft.com/bbec75fa-0f31-47e9-a8ce-c301edb2fa4b) - (Visual Studio) Includes a template for getting started with Simple.Web.
 
- * Serving Requests with IHttpHandlers 
+ * _Serving Requests with IHttpHandlers_
 
    Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
 
@@ -97,7 +98,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
    * [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) -
      (Visual Studio, ASP.NET)Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
 
- * Making WSDL Services
+ * _Making WSDL Services_
 
    * [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
 
