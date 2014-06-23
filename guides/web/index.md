@@ -84,9 +84,9 @@ F# also shines in the area of web API development through frameworks like  [Serv
     * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
 
  * _Simple.Web_
- 
+   
    Simple.Web is a REST-focused, object-oriented Web Framework for .NET
-
+   
    * [Pure F# Simple.Web Template](http://visualstudiogallery.msdn.microsoft.com/bbec75fa-0f31-47e9-a8ce-c301edb2fa4b) - (Visual Studio) Includes a template for getting started with Simple.Web.
 
  * _Serving Requests with IHttpHandlers_
