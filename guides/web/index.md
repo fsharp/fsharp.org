@@ -39,7 +39,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
 * [NancyFx](https://github.com/NancyFx/Nancy) 
 
-  NancyFx is a lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono.
+  NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
   [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
 
@@ -78,7 +78,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
    * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
 
  * NancyFx
-  * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Include a templates for various NancyFx application for getting started.
+  * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
   * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
  * Simple.Web
  
