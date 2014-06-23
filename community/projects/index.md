@@ -35,7 +35,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 *  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](https://github.com/fsprojects/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff). 
 Contributions welcome!
 
-*  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](https://code.google.com/p/fseye/) - A visual object tree inspector for the F# Interactive
+*  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](http://www.swensensoftware.com/fseye) - A visual object tree inspector for the F# Interactive
 
 *  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
