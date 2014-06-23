@@ -16,7 +16,9 @@ headline: Use F# for iOS App Development
 
 You can now create a new F# iOS app, e.g. an "iPad Single View Application".  See the [Apps and Games](/apps-and-games) section for more information on getting going with F# iOS development. Report problems to the [F# Open Source Group email list](http://fsharp.github.com/fsharp) and/or Xamarin.
 
-
+#### Getting Started 
+A wonderful video by [Rachel Reese](https://twitter.com/rachelreese) on creating minesweeper game for iOS using F# and Xamarin 
+<iframe src="//player.vimeo.com/video/97516216" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/97516216">1) Write cross-platform apps with F# & Xamarin. 2) ??? 3) Profit!</a> from <a href="http://vimeo.com/ndcoslo">NDC Conferences</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 <br />
 
