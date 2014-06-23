@@ -55,6 +55,13 @@ Some resources for game development with F# and Xamarin tools:
 
 Resources specific to iOS:
 
+* Watch a wonderful video by [Rachel Reese](https://twitter.com/rachelreese) on creating a minesweeper game for iOS using F# and Xamarin 
+
+<div>
+  <iframe src="//player.vimeo.com/video/97516216" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/97516216">Write cross-platform apps with F# & Xamarin</a> from <a href="http://vimeo.com/ndcoslo">NDC Conferences</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</div>
+
+
 * Watch [an introduction to iOS app development](http://skillsmatter.com/podcast/scala/f-on-ipad-and-iphone-with-xamarin-studio/mh-7404).
 
 * You will need to familiarize yourself with Xamarin C# iOS programming and will likely need some knowledge of 
