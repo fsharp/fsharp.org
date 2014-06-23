@@ -21,23 +21,23 @@ F# also shines in the area of web API development through frameworks like  [Serv
 ## Frameworks for Web Applications
 
 
-* ![logo](/images/thumbs/WebSharper.png)&nbsp;[*WebSharper*](http://www.websharper.com/home) 
+* ![logo](/images/thumbs/WebSharper.png)&nbsp;[_WebSharper_](http://www.websharper.com/home) 
 
   WebSharper allows end-to-end web applications with both client and server developed in F#. 
   It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
-* ![logo](/images/thumbs/fsharp.web.png)&nbsp;[*Pure F# ASP.NET MVC*](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+* ![logo](/images/thumbs/fsharp.web.png)&nbsp;[_Pure F# ASP.NET MVC_](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
   [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft.  [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
   allows a Pure F# project for implementing a web application with ASP.NET MVC 5.
   Views are implemented in HTML5 using modern Javascript frameworks. 
   Models and controllers are implemented in F#.
 
-* [*FunScript*](http://funscript.info/) 
+* [_FunScript_](http://funscript.info/) 
 
   FunScript is an F# to JavaScript converter with TypeScript interoperability.
 
-* [*NancyFx*](https://github.com/NancyFx/Nancy) 
+* [_NancyFx_](https://github.com/NancyFx/Nancy) 
 
   NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
   [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
@@ -46,7 +46,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
  
 ## Frameworks for Server-Side Web APIs
 
- * ![logo](/images/thumbs/fsharp.web.png)&nbsp;[*Pure F# Web API 2.0*](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
+ * ![logo](/images/thumbs/fsharp.web.png)&nbsp;[_Pure F# Web API 2.0_](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
 
    [Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft.
    The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
@@ -61,11 +61,11 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
    * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
 
- * [*Frank*](http://frankfs.net/)
+ * [_Frank_](http://frankfs.net/)
 
     Frank provides a functional wrapper around the types in System.Net.Http, the library that drives ASP.NET Web API.
 
- * ![logo](/images/thumbs/servicestack.png)&nbsp;[*ServiceStack*](https://servicestack.net/)
+ * ![logo](/images/thumbs/servicestack.png)&nbsp;[_ServiceStack_](https://servicestack.net/)
 
    ServiceStack is a framework for simple and fast web services on .NET and Mono.
 
@@ -77,7 +77,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
    * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
 
- * [*NancyFx*](https://github.com/NancyFx/Nancy)
+ * [_NancyFx_](https://github.com/NancyFx/Nancy)
  
     NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
     * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
@@ -107,11 +107,11 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
 Common hosting options are:
 
- * [*Heroku*](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
+ * [_Heroku_](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
 
- * [*Azure Web Sites*](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
+ * [_Azure Web Sites_](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
 
- * [*AppHarbor*](http://appharbor.com/) - Free hosting of .NET web applications
+ * [_AppHarbor_](http://appharbor.com/) - Free hosting of .NET web applications
 
 ## Scaling to the Cloud
 
