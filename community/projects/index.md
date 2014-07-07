@@ -45,6 +45,8 @@ Contributions welcome!
 
 *  [fsharpbinding](https://github.com/fsharp/fsharpbinding) - F# Language Bindings for Open Editors (Emacs, MonoDevelop)
 
+*  [F# Type Provider Starter Pack](https://github.com/fsprojects/FSharp.TypeProviders.StarterPack) - Learning materials and code only NuGet package for writing type providers
+
 *  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
 
 *  [F# Project Scaffold](https://github.com/fsprojects/FSharp.ProjectScaffold) - A prototypical F# library (file system layout and tooling), recommended by the F# Foundation.
