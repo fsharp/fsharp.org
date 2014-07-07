@@ -89,6 +89,11 @@ Objective-C as well.  The [Xamarin Developer Center](http://docs.xamarin.com/) c
 
 * [A Platform game in SpriteKit and F# – Part 2 – Start building a level](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-2-start-building-a-level/)
 
+### Duality 
+Duality is a plugin based 2D game development framework based on C# and OpenTK. To get a quick overview, please visit the [project page](http://duality.fetzenet.de). Duality's main strengh is a fully featured extensible editor. Make sure to check it out. (OSS and MIT Licensed)
+
+F# Scripting plugin. [How to use](http://www.roundcrisis.com/2014/04/21/Fsharp-scripting-for-the-game-engine/) | [Code](https://github.com/BraveSirAndrew/DualityScripting)
+
 ### Server-side of Games
 
 F# is ideal for the sever-side of game and app development. For example, F# is used on the server-side of one of 
