@@ -58,9 +58,6 @@ If you are using Visual F# Power Tools along side with ReSharper, there is a [kn
 
 1. Install the free standalone F# compiler tools, following _Option 1_ above or _Option 3_ below. 
 2. Install [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) for Windows
-3. Install the F# Addin for Xamarin Studio or MonoDevelop from Tools --> Add-in Manager --> Gallery. 
-
-   If no addins appear, press "Refresh" on the "Updates" tab of the Add-in Manager.
 
 <br />
 
