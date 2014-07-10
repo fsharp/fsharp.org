@@ -97,7 +97,7 @@ presented ideas and examples teach readers how functional programming
 differs from other approaches. It explains how ideas look in F#-a 
 functional language-as well as how they can be successfully used to solve 
 programming problems in C#. Chapters from this book available on 
-[MSDN page] (http://msdn.microsoft.com/en-us/library/hh297121)
+[MSDN page](http://msdn.microsoft.com/en-us/library/hh297121)
 
 ### [Functional Programming Using F#](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-using-f)
 
@@ -127,7 +127,7 @@ Windows platform. F# is free and, unlike MATLAB and other software with numerica
 origins, is a full-fledged programming language. F# for Scientists explains and 
 demonstrates the powerful features of this important new programming language. 
 
-### [Visual F# 2010 for Technical Computing] (http://www.ffconsultancy.com/products/fsharp_for_technical_computing/)
+### [Visual F# 2010 for Technical Computing](http://www.ffconsultancy.com/products/fsharp_for_technical_computing/)
 
 <img src="files/BookFT.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -140,7 +140,7 @@ language, parallel programming with .NET 4, Windows Presentation Foundation for
 visualization, concurrent programming with asynchronous workflows, and many others.
 
 
-### [Professional F# 2.0] (http://eu.wiley.com/WileyCDA/WileyTitle/productCd-047052801X.html)
+### [Professional F# 2.0](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-047052801X.html)
 
 <img src="files/BookPF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -152,7 +152,7 @@ nor are they attempting to evangelize the language or its feature set or its
 use "over" other languages. They assume that you are considering this book 
 because you have an interest in learning the F# language.
 
-### [F# for Quantitative Finance] (http://www.packtpub.com/fsharp-for-quantitative-finance/book)
+### [F# for Quantitative Finance](http://www.packtpub.com/fsharp-for-quantitative-finance/book)
 
 <img src="files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -164,7 +164,7 @@ will enable you to concentrate more on the problem itself rather than
 implementation details. Tutorials and snippets are summarized into an automated 
 trading system throughout the book.
 
-### [The Book of F#] (http://www.nostarch.com/fsharp/)
+### [The Book of F#](http://www.nostarch.com/fsharp/)
 
 <img src="files/BookOfFSharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -172,7 +172,7 @@ _Dave Fancher_
 
 The Book of F# aims to introduce intermediate and experienced developers to functional-first programming with F#. Throughout the book, you'll learn how this robust language can help you focus on creating correct solutions by introducing a variety of important concepts including currying, partial application, pattern matching, units of measure, asynchronous workflows, query expressions, type providers, and computation expressions. Furthermore, you'll discover how F#'s rich object-oriented capabilities allow it to naturally fit into existing applications.
 
-### [Programming Language Concepts] (http://www.itu.dk/people/sestoft/plc/)
+### [Programming Language Concepts](http://www.itu.dk/people/sestoft/plc/)
 
 <img src="files/BookPLC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -182,7 +182,7 @@ The book Programming Language Concepts (PLC) provides an introduction to program
 
 ## F# Books (Coming Soon)
 
-### [F# Deep Dives] (http://manning.com/petricek2/)
+### [F# Deep Dives](http://manning.com/petricek2/)
 
 <img src="files/BookDD.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -190,7 +190,7 @@ _Tomas Petricek and Phillip Trelford_
 
 F# Deep Dives presents a collection of real-world F# techniques, each written by expert practitioners. Each chapter presents a new use case where you'll read how the author used F# to solve a complex problem more effectively than would have been possible using a traditional approach. You'll not only see how a specific solution works in a specific domain, you'll also learn how F# developers approach problems, what concepts they use to solve them, and how they integrate F# into existing systems and environments.
 
-### [Understanding Functional Programming] (https://leanpub.com/understandingfunctionalprogramming)
+### [Understanding Functional Programming](https://leanpub.com/understandingfunctionalprogramming)
 
 <img src="files/BookUFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -204,16 +204,16 @@ This section lists of some of the freely available online tutorials on F#.
 You can browse these online guides to find explanation of all important 
 F# language features and see many interesting examples.
 
-### [F# for Fun and Profit] (http://fsharpforfunandprofit.com/)
+### [F# for Fun and Profit](http://fsharpforfunandprofit.com/)
 
 This site will introduce you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software
 
-### [Try F#] (http://tryfsharp.org/)
+### [Try F#](http://tryfsharp.org/)
 
 Learn, create and share F# code, in your browser.
 
-### [F# Programming Wikibook] (http://en.wikibooks.org/wiki/Programming:F_Sharp)
+### [F# Programming Wikibook](http://en.wikibooks.org/wiki/Programming:F_Sharp)
 
 The wikibook contains a comprehensive guide to F# programming. It covers 
 F# language basics and essential functional programming concepts such as 
@@ -221,7 +221,7 @@ working with functions and immutable data structures. It also discusses
 imperative and object-oriented programming in F# and advanced langauge 
 features such as active patterns and computation expressions.
 
-### [Real World Functional Programming] (http://msdn.microsoft.com/en-us/library/hh314518)
+### [Real World Functional Programming](http://msdn.microsoft.com/en-us/library/hh314518)
 
 This part of MSDN contains chapters from the book by Tomas Petricek and Jon Skeet with
 additional material on Numerical Computing by Yin Zhu
