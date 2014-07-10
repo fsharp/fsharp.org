@@ -99,7 +99,21 @@ functional language-as well as how they can be successfully used to solve
 programming problems in C#. Chapters from this book available on 
 [MSDN page] (http://msdn.microsoft.com/en-us/library/hh297121)
 
+### [Functional Programming Using F#](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-using-f)
 
+<img src="files/BookFPUF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Michael R. Hansen, Hans Rischel_
+
+This comprehensive introduction to the principles of functional programming using F# 
+shows how to apply basic theoretical concepts to produce succinct and elegant programs. 
+It demonstrates the role of functional programming in a wide spectrum of applications 
+including databases and systems. Coverage also includes advanced features in the .NET 
+library, the imperative features of F# and topics such as text processing, sequences, 
+computation expressions and asynchronous computation. With a broad spectrum of examples 
+and exercises, the book is perfect for courses in functional programming and for self-study. 
+Enhancing its use as a text is an accompanying website with downloadable programs, lecture 
+slides, a mini-projects and links to further F# sources.
 
 ### [F# for Scientists](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470242116.html)
 
