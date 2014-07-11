@@ -34,8 +34,6 @@ _Daniel Mohl_
 
 Learn how to build key aspects of web, cloud, and mobile solutions by combining F# with various .NET and open source technologies. With helpful examples, this hands-on book shows you how to tackle concurrency, asynchrony, and other server-side challenges. You’ll quickly learn how to be productive with F#, whether you want to integrate the language into your existing web application or use it to create the next Twitter. 
 
-<div style="clear:both;">&#160;</div>
-
 ### [Beginning F#](http://www.apress.com/9781430223894)
 
 <img src="files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
@@ -83,7 +81,6 @@ Expert F# 3.0 is about practical programming in a beautiful language that puts t
 power and elegance of functional programming into the hands of professional 
 developers. In combination with .NET, F# achieves unrivaled levels of programmer 
 productivity and program clarity. 
-
 
 ### [Real World Functional Programming](http://www.manning.com/petricek/)
 
@@ -138,7 +135,6 @@ language can be used as a next-generation platform for high-performance interact
 technical computing. Topics covered include the latest version of the F# 
 language, parallel programming with .NET 4, Windows Presentation Foundation for 
 visualization, concurrent programming with asynchronous workflows, and many others.
-
 
 ### [Professional F# 2.0](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-047052801X.html)
 
