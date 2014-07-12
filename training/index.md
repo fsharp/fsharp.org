@@ -87,7 +87,7 @@ of online tutorials demonstrating the power of F# and F# 3.0.
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
  
 
-### [F# for Fun and Profit] (http://fsharpforfunandprofit.com/)
+### [F# for Fun and Profit](http://fsharpforfunandprofit.com/)
 
 This site will introduce you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software
