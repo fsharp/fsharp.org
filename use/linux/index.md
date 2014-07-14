@@ -120,7 +120,7 @@ To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.
 ### Option 6: Get access to the Debian packages
 
 If you want to use Debian packages and don't have access to trusty/universe packages, then 
-the following steps may allow access:
+the following steps may allow access. However, if used on the wrong operation system version (eg some versions of Linux Mint), this can also make your system unable to reboot without some kind of manual fixing, so only do this if you know what you are doing :
 
 1. Add the following using `sudo vi /etc/apt/sources.list`:
 
