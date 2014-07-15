@@ -49,7 +49,7 @@ Contributions welcome!
 
 *  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
 
-*  [F# Project Scaffold](https://github.com/fsprojects/ProjectScaffold) - A prototypical F# library (file system layout and tooling), recommended by the F# Foundation.
+*  [F# Project Scaffold](http://fsprojects.github.io/ProjectScaffold/) - A prototypical F# library (file system layout and tooling), recommended by the F# Foundation.
 
 *  [FSharpLint](https://github.com/duckmatt/FSharpLint) - A lint tool for F#.
 
