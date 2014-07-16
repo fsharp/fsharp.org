@@ -15,6 +15,13 @@ If you provide training for F#, please submit your material by [editing this pag
 Authored by Mark Seemann, this online course provides an example of how to build a mainstream application in F#, using 
 extensive demos to build a comprehensive demo application from scratch.
 
+### [F# and Functional Programming in Finance](http://quantshub.com/qhworkshopview/42)
+
+<img src="/img/sup/quantshub.png" style="float:right;margin:5px 0px 5px 25px;" />
+
+This online course is a practical introduction to the F# language, functional programming and their use in the financial domain. 
+You'll learn about F#, functional approach to solving problems as well as libraries for numeric computing and data analysis. 
+The course has been created by F# expert and book author Tomas Petricek.
 
 ### [Fast Track to F# with Tomas Petricek and Phil Trelford](http://skillsmatter.com/course/home/tomas-petricek-phil-trelford-fast-track-to-fsharp)
 
@@ -77,7 +84,7 @@ of online tutorials demonstrating the power of F# and F# 3.0.
 
 
 
-<img src="files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
  * [Getting started in F#](http://www.tryfsharp.org/Learn/getting-started)
  * [Advanced F# Programming](http://www.tryfsharp.org/Learn/advanced-programming)
