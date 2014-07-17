@@ -87,6 +87,9 @@ Contributions welcome!
 
 *  [Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - A type provider for Azure Storage assets e.g. Blobs and Tables.
 
+*  [FSharp.Data.HiveProvider](http://fsprojects.github.io/FSharp.Data.HiveProvider) - An F# type provider for writing simple Hive/Hadoop queries. Contributions welcome!
+
+
 <br />
 
 ### Community Projects: Exploratory Data Science Programming
