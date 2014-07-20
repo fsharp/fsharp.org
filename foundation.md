@@ -193,7 +193,8 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Max Malook, ([mexx](https://github.com/mexx), [@max_malook](https://twitter.com/max_malook))
  * Chris Ballard, ([@_ChrisBallard](https://twitter.com/_ChrisBallard))
  * Allen O'Neill
-
+ * David Marr
+ * [Juan M Gómez](http://www.jmgomez.me)
 
 ## Contact
 
