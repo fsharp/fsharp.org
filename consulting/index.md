@@ -47,6 +47,18 @@ Bring in the experts to solve problems!
 
 At [IntelliFactory](http://intellifactory.com) we are experts at functional programming and DSL development. Contact us to see how we can help your company benefit.
 
+### [Nessos IT](http://www.nessos.gr/) (Europe)
+
+[<img src="/img/sup/nessos.png" height="100px" style="float:right;margin:5px 0px 5px 25px" />](http://www.nessos.gr/)
+
+Nessos is an Athens-based ISV with broad experience in consulting and developing .NET based business solutions. 
+
+We are leading F# experts, having utilized its power in distributed and concurrent systems,
+cloud-based solutions and big data analytics. 
+
+Nessos has been active in both contributing open-source software
+and providing custom solutions and services to medium and large businesses.
+
 
 ### [StatFactory](http://www.statfactory.co.uk/professional-services/) (Europe)
 
