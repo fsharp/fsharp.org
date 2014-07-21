@@ -51,8 +51,7 @@ At [IntelliFactory](http://intellifactory.com) we are experts at functional prog
 
 [<img src="/img/sup/nessos.png" height="100px" style="float:right;margin:5px 0px 5px 25px" />](http://www.nessos.gr/)
 
-Nessos is an Athens-based ISV with broad experience in consulting and developing .NET based business solutions. 
-
+Nessos is an Athens-based ISV with broad experience in consulting and developing .NET based business solutions.
 We are leading F# experts, having utilized its power in distributed and concurrent systems,
 cloud-based solutions and big data analytics. 
 
