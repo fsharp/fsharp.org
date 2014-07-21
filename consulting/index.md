@@ -20,11 +20,6 @@ The fsharpWorks team has many years of experience solving real-world problems wi
 We are experts in integrating F# into your software development mix, having written many of the definitive libraries, 
 books, and blogs on these topics! 
 
-[FPBridge](http://fpbridge.co.uk) offers advice, training and support with any issues related to F# projects and libraries, including:
-
-* Advice on a low-risk strategy for introducing F# into your business, and assistance with C# to F# migration, code reviews, etc.
-* Software architecture and design assistance for full-on functional-first development.
-
 ### [FPBridge Consulting](http://fpbridge.co.uk/training.html#consulting) (Europe)
 
 [<img src="/img/sup/fpbridge.png" style="float:right;margin:5px 0px 5px 25px;" />](http://fpbridge.co.uk/training.html#consulting)
