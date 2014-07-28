@@ -33,7 +33,7 @@ Alea.cuBase is a complete solution to develop CUDA accelerated GPU applications 
 
 ### Option 3 - Use FSCL, an open-source F#-to-OpenCL compiler
 
-* See [the FSCL project blog](http://www.gabrielecocco.it/fscl/). The project is located at [GitHub](https://github.com/GabrieleCocco/FSCL.Compiler)
+* See [the FSCL project blog](http://fscl.github.io/FSCL.Compiler/). FSCL Compiler is a source-to-source compiler that translates quoted F# function calls and other contructs into valid C99 OpenCL kernel sources, enabling programming OpenCL-enabled parallel devices from within F#. Contributions welcome!
 
 * Follow [@FSCLFramework](https://twitter.com/FSCLFramework) on Twitter.
 
