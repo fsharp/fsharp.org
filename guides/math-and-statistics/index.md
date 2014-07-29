@@ -12,7 +12,7 @@ Efficient execution of numeric code is essential. F# executes as native code, no
 [JIT compilation](http://en.wikipedia.org/wiki/Just-in-time_compilation). F# can also utilize highly optimized, native code libraries such as the
 Intel [Math Kernel Library (MKL)](http://software.intel.com/en-us/intel-mkl)
 through packages like [Math.NET Numerics](http://numerics.mathdotnet.com/) and other
-libraries listed below. On Linux, Mono
+libraries listed below. Also, F# can be used to [call into Fortran dynamic-link libraries](http://www.letsthinkabout.us/post/calling-fortran-assemblies-from-net) through .NET. On Linux, Mono
 provides easy access to [SIMD](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
 instructions.
 
