@@ -238,6 +238,7 @@ Contributions welcome!
 
 * ![logo](/images/thumbs/fszmq_logo.png)&nbsp;[fszmq](http://zeromq.github.io/fszmq/) - a binding to the ZeroMQ distributed computing library for F# (and other CLR languages).
 
+* ![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR) - Redis based distributed actors system.
 <br />
 
 
