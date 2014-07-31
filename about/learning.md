@@ -220,5 +220,8 @@ features such as active patterns and computation expressions.
 ### [Real World Functional Programming](http://msdn.microsoft.com/en-us/library/hh314518)
 
 This part of MSDN contains chapters from the book by Tomas Petricek and Jon Skeet with
-additional material on Numerical Computing by Yin Zhu
+additional material on Numerical Computing by Yin Zhu.
 
+### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
+
+The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
