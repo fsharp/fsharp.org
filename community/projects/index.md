@@ -75,7 +75,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/SqlCommandProvider.png)&nbsp;[FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - use SQL to specify queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code.
 
-*  [FSharp.Linq.Experimental.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.Experimental.ComposableQuery/) - An Experimental Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
+*  [FSharp.Linq.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.ComposableQuery/) - A Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
 *  [SQLProvider](https://github.com/fsprojects/SQLProvider/) - A general SQL type provider, supporting LINQ queries, schema exploration, stored procedures, individuals and much more besides.  Currently supports MS SQL Server, MS Access, SQLite, PostgreSQL, Oracle and MySQL.
 
