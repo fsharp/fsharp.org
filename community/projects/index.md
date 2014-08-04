@@ -59,15 +59,15 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[FSharp.Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
 
-    *  [Freebase Provider](http://fsharp.github.io/FSharp.Data/library/Freebase.html) - The Freebase graph database contains information on over 23 million real-world entities. The Freebase type provider puts this information at your fingertips.
+   *  [Freebase Provider](http://fsharp.github.io/FSharp.Data/library/Freebase.html) - The Freebase graph database contains information on over 23 million real-world entities. The Freebase type provider puts this information at your fingertips.
     
-    *  [WorldBank Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html) - Makes the WorldBank data easily accessible to F# programs and scripts in a type safe way, which has a data catalog of over 8000 development indicators and other data about countries in the world.
+   *  [WorldBank Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html) - Makes the WorldBank data easily accessible to F# programs and scripts in a type safe way, which has a data catalog of over 8000 development indicators and other data about countries in the world.
 
-    *  [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) - Read CSV files in a statically typed way.
+   *  [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) - Read CSV files in a statically typed way.
 
-    *  [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) - Access JSON files in a statically typed way.
+   *  [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) - Access JSON files in a statically typed way.
 
-    *  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - Access XML documents in a statically typed way.
+   *  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - Access XML documents in a statically typed way.
 
 *  ![logo](/images/thumbs/FSharp.Data.Toolbox.png)&nbsp;[FSharp.Data.Toolbox](http://fsprojects.github.io/FSharp.Data.Toolbox) - F# Data-based library for various data access APIs, includes a Twitter access package.
 
@@ -138,7 +138,7 @@ Contributions welcome!
 
 ### Community Projects: Desktop User Interfaces
 
-* [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/) - A community 
+*  [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/) - A community 
   framework to take advantage of the F# language features to create truly type-safe WPF applications.
 
 <br />
@@ -190,23 +190,23 @@ Contributions welcome!
 
 *  [FSharp.Management](http://fsprojects.github.io/FSharp.Management/index.html) - The FSharp.Management project contains various type providers for the management of the machine.
 
-    *  [PowerShellTypeProvider](http://fsprojects.github.io/FSharp.Management/PowerShellProvider.html) - PowerShell type provider.
+   *  [PowerShellTypeProvider](http://fsprojects.github.io/FSharp.Management/PowerShellProvider.html) - PowerShell type provider.
 
-    *  [FileSystemTypeProvider](http://fsprojects.github.io/FSharp.Management/FileSystemProvider.html) - It allows to browse your file system via Intellisense and provides compile time checks for directories and files.
+   *  [FileSystemTypeProvider](http://fsprojects.github.io/FSharp.Management/FileSystemProvider.html) - It allows to browse your file system via Intellisense and provides compile time checks for directories and files.
 
-    *  [WMITypeProvider](http://fsprojects.github.io/FSharp.Management/WMIProvider.html) - Typed access to WMI.
+   *  [WMITypeProvider](http://fsprojects.github.io/FSharp.Management/WMIProvider.html) - Typed access to WMI.
 
-    *  [RegistryTypeProvider](http://fsprojects.github.io/FSharp.Management/RegistryProvider.html) - Typed access to the Registry.
+   *  [RegistryTypeProvider](http://fsprojects.github.io/FSharp.Management/RegistryProvider.html) - Typed access to the Registry.
 
 <br />
 
 *  [FSharp.Configuration](http://fsprojects.github.io/FSharp.Configuration/index.html) - The FSharp.Configuration project contains type providers for the configuration of .NET projects.
 
-    *  [AppSettingsTypeProvider](http://fsprojects.github.io/FSharp.Configuration/AppSettingsProvider.html) - AppSettings type provider.
+   *  [AppSettingsTypeProvider](http://fsprojects.github.io/FSharp.Configuration/AppSettingsProvider.html) - AppSettings type provider.
 
-    *  [ResXTypeProvider](http://fsprojects.github.io/FSharp.Configuration/ResXProvider.html) - Typed access to .resx files.
+   *  [ResXTypeProvider](http://fsprojects.github.io/FSharp.Configuration/ResXProvider.html) - Typed access to .resx files.
 
-    *  [YamlTypeProvider](http://fsprojects.github.io/FSharp.Configuration/YamlProvider.html) - Typed access to Yaml.
+   *  [YamlTypeProvider](http://fsprojects.github.io/FSharp.Configuration/YamlProvider.html) - Typed access to Yaml.
 
 <br />
 
@@ -232,13 +232,13 @@ Contributions welcome!
 *  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) - A fast, general-purpose binary serializer for 
    .NET written in F# that doubles as a pickler combinator library.
 
-* ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
+*  ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
 
-* ![logo](/images/thumbs/AkkaDotNET.png)&nbsp;[Akka.NET](https://github.com/akkadotnet/akka.net) - .NET community port of the Java/Scala framework Akka.
+*  ![logo](/images/thumbs/AkkaDotNET.png)&nbsp;[Akka.NET](https://github.com/akkadotnet/akka.net) - .NET community port of the Java/Scala framework Akka.
 
-* ![logo](/images/thumbs/fszmq_logo.png)&nbsp;[fszmq](http://zeromq.github.io/fszmq/) - a binding to the ZeroMQ distributed computing library for F# (and other CLR languages).
+*  ![logo](/images/thumbs/fszmq_logo.png)&nbsp;[fszmq](http://zeromq.github.io/fszmq/) - a binding to the ZeroMQ distributed computing library for F# (and other CLR languages).
 
-* ![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR) - Redis based distributed actors system.
+*  ![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR) - Redis based distributed actors system.
 <br />
 
 
@@ -248,9 +248,9 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/dynamodb_sql.png)&nbsp;[DynamoDB.SQL](http://fsprojects.github.io/DynamoDb.SQL/) SQL-like external DSL for querying and scanning Amazon DynamoDB
 
-* [Fog](http://dmohl.github.io/Fog/) - Fog brings the cloud down to earth and wraps it in something more easily used by F#. It provides a more functional approach to creating Windows Azure apps with F#.
+*  [Fog](http://dmohl.github.io/Fog/) - Fog brings the cloud down to earth and wraps it in something more easily used by F#. It provides a more functional approach to creating Windows Azure apps with F#.
 
-* ![logo](/images/thumbs/FSharp.Azure.png)&nbsp;[FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
+*  ![logo](/images/thumbs/FSharp.Azure.png)&nbsp;[FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
 
 <br />
 
@@ -303,9 +303,9 @@ Contributions welcome!
 
 ### Community Projects: Development Tools (earlier versions of Visual Studio, may be resurrectable)
 
-* [FSharpJump](http://visualstudiogallery.msdn.microsoft.com/ddde6ac9-20c9-4c9b-92f6-090b09ab944a) An outlining and navigation tool for F#
+*  [FSharpJump](http://visualstudiogallery.msdn.microsoft.com/ddde6ac9-20c9-4c9b-92f6-090b09ab944a) An outlining and navigation tool for F#
 
-* [Math symbols](http://visualstudiogallery.msdn.microsoft.com/fe627c2a-5d09-4252-bcc7-300821ae707c) Math (Unicode) symbol extension for F#
+*  [Math symbols](http://visualstudiogallery.msdn.microsoft.com/fe627c2a-5d09-4252-bcc7-300821ae707c) Math (Unicode) symbol extension for F#
 
 
 <br />
