@@ -10,6 +10,12 @@ If you provide training for F#, please submit your material by [editing this pag
 
 ## Professional Training
 
+
+### [PluralSight: F# Functional Data Structures](http://pluralsight.com/training/Courses/TableOfContents/fsharp-functional-data-structures)
+
+Authored by Kit Eason, this online course describes the important data structures - especially collections - available in F#, 
+together with the functions which F# provides for working with them.
+
 ### [PluralSight: A Functional Architecture with F#](http://pluralsight.com/training/Courses/TableOfContents/functional-architecture-fsharp)
 
 Authored by Mark Seemann, this online course provides an example of how to build a mainstream application in F#, using 
