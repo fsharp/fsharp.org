@@ -90,15 +90,15 @@ From portage tree:
 Alternatively there is an overlay available with current versions of various .NET programs, including F#, FAKE, NuGet and others.
 
 1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
-
+   
         layman -a dotnet 
-
+   
 2. Now you can build F#.
-
+   
         emerge fsharp
-        
+   
 3. (Optional) There are emacs mode and monodevelop bindings, you can chose what you want by setting use flags alike in following example:
-
+   
         USE="+emacs -monodevelop" emerge fsharpbinding
 
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
