@@ -7,15 +7,19 @@ headline: Use F# on Linux
 To help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).  You can also 
 [submit an edit to this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/use/linux/index.md).
 
+## Note on Mono dependency
+
+Please note that a relatively recent version of Mono is a prerequisite of installing F#. It is recommended to install at least `3.2.X`, although `>3.0.6` should be sufficient. Compiling Mono from source is a slow process so it is preferable to install using your package manager. Debian *testing* and Ubuntu 14.04 are known to have sufficiently recent versions available in the package repositories. Xamarin also offer up-to-date packages for various Linux distributions [here] (http://www.go-mono.com/mono-downloads/download.html).
+
 ### Option 1: Use the F# Debian packages 
 
-F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are currently available in Debian _experimental_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
+F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are currently available in Debian _testing_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
 
     sudo apt-get update
     sudo apt-get install mono-complete
     sudo apt-get install fsharp
 
-This installs `fsharpc` and `fsharpi`. If you don't have access to *trusty/universe*, compile from source or see Option 6 below.
+This installs `fsharpc` and `fsharpi`. If you don't have access to these repositoties, compile from source or see Option 6 below.
 
 
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
@@ -25,26 +29,13 @@ go further.
 ### Option 2: Build and install the F# 3.1 runtime, compiler and tools
 
 
-1. Get Mono, the runtime used by F#. Either [follow these instructions](http://www.go-mono.com/mono-downloads/download.html) or use:
+1. Get Mono, the runtime used by F#. Preferably use a package from your distribution or Xamarin. If this is not possible, install from source following the instructions at https://github.com/mono/mono:
 
-        sudo apt-get install mono-devel
-   
-   or build and install the latest release:
-   
-        sudo apt-get install libtool autoconf g++ gettext make git
-        git clone https://github.com/mono/mono
-        cd mono
-        ./autogen.sh --prefix /usr
-        make get-monolite-latest
-        make EXTERNAL_MCS="${PWD}/mcs/class/lib/monolite/gmcs.exe"
-        make
-        sudo make install
-
-   If installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure `LD_LIBRARY_PATH` includes the "lib" directory of that prefix location, e.g.
+   Note that if you are installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure `LD_LIBRARY_PATH` includes the "lib" directory of that prefix location, e.g.
    
         export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/mono/lib/
 
-2. Build and install the F# Compiler (open edition) from source.
+2. Build and install the F# Compiler (open edition) from source. If using a VM or other memory-constrained system, be aware that errors during compilation may be due to insufficient memory (in particular error 137).
 
         sudo apt-get install autoconf libtool pkg-config make git automake
         git clone https://github.com/fsharp/fsharp
