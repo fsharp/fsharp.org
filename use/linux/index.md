@@ -91,15 +91,15 @@ Alternatively there is an overlay available with current versions of various .NE
 
 1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
    
-        layman -a dotnet 
+       layman -a dotnet 
    
 2. Now you can build F#.
    
-        emerge fsharp
+       emerge fsharp
    
 3. (Optional) There are emacs mode and monodevelop bindings, you can chose what you want by setting use flags alike in following example:
    
-        USE="+emacs -monodevelop" emerge fsharpbinding
+       USE="+emacs -monodevelop" emerge fsharpbinding
 
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
@@ -117,11 +117,11 @@ the following steps may allow access. However, if used on the wrong operation sy
 
 1. Add the following using `sudo vi /etc/apt/sources.list`:
 
-        deb http://azure.archive.ubuntu.com/ubuntu/ trusty main
-        deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty main
+       deb http://azure.archive.ubuntu.com/ubuntu/ trusty main
+       deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty main
         
-        deb http://azure.archive.ubuntu.com/ubuntu/ trusty universe
-        deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty universe
+       deb http://azure.archive.ubuntu.com/ubuntu/ trusty universe
+       deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty universe
 
 2. Install the fsharp packages with the following commands:
 
