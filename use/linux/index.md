@@ -7,10 +7,6 @@ headline: Use F# on Linux
 To help with Linux packages, please email the [F# Open Source Group](http://fsharp.github.com).  You can also 
 [submit an edit to this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/use/linux/index.md).
 
-## Note on Mono dependency
-
-Please note that a relatively recent version of Mono is a prerequisite of installing F#. It is recommended to install at least `3.2.X`, although `>3.0.6` should be sufficient. Compiling Mono from source is a slow process so it is preferable to install using your package manager. Debian *testing* and Ubuntu 14.04 are known to have sufficiently recent versions available in the package repositories. Xamarin also offer up-to-date packages for various Linux distributions [here] (http://www.go-mono.com/mono-downloads/download.html).
-
 ### Option 1: Use the F# Debian packages 
 
 F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are currently available in Debian _testing_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
@@ -24,6 +20,12 @@ This installs `fsharpc` and `fsharpi`. If you don't have access to these reposit
 
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
+
+
+#### Note on Mono dependency
+
+Please note that a relatively recent version of Mono is a prerequisite of installing F#. It is recommended to install at least `3.2.X`, although `>3.0.6` should be sufficient. Compiling Mono from source is a slow process so it is preferable to install using your package manager. Debian *testing* and Ubuntu 14.04 are known to have sufficiently recent versions available in the package repositories. Xamarin also offer [up-to-date packages for various Linux distributions](http://www.go-mono.com/mono-downloads/download.html).
+
 
 
 ### Option 2: Build and install the F# 3.1 runtime, compiler and tools
