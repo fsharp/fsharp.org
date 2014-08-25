@@ -22,7 +22,7 @@ Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac
 go further.
 
 
-##### Note on Mono, the cross-platform, open source .NET runtime used by F#
+#### Note on Mono, the cross-platform, open source .NET runtime 
 
 For Linux, F# uses [Mono](http://mono-project.com), the cross-platform, open-source .NET implementation. A relatively recent version of Mono is a prerequisite of installing F#. It is recommended to install at least `3.2.X`, although `>3.0.6` should be sufficient. Compiling Mono from source is a slow process so it is preferable to install using your package manager. Debian *testing* and Ubuntu 14.04 are known to have sufficiently recent versions available in the package repositories. Xamarin also offer [up-to-date packages for various Linux distributions](http://www.go-mono.com/mono-downloads/download.html).
 
