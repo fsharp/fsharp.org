@@ -81,7 +81,7 @@ Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac
 go further.
 
 
-### Option 4: Get F# 3.1 on Gentoo ( Sabayon / Funtoo / Calculate )
+### Option 4: Get F# 3.1 on Gentoo (Sabayon/Funtoo/Calculate)
 
 From portage tree:
 
