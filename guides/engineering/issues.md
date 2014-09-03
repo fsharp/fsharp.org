@@ -13,8 +13,6 @@ Please follow the links below to report an issue with F# and contribute a fix.
 | [F# Language Specification](http://fsharp.org/specs/language-spec/)               &nbsp; | &nbsp; | [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     |  &nbsp; |  [Report/Fix an Issue](http://fsharp.org/specs/language-spec/)      | 
 | [F# Compiler and Core Library, Windows](http://visualfsharp.codeplex.com)         &nbsp; | &nbsp; |                                                                                |  &nbsp; |  [Report/Fix an Issue](http://visualfsharp.codeplex.com) | 
 | [F# Compiler and Core Library, cross-platform](http://github.com/fsharp/fsharp)   &nbsp; | &nbsp; |                                                                                |  &nbsp; |  [Report/Fix an Issue](http://github.com/fsharp/fsharp) | 
-| [.NET, Windows](http://www.microsoft.com/net)                                     &nbsp; | &nbsp; | [Make a suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |  &nbsp; |  [Report/Fix an Issue](http://connect.microsoft.com/visualstudio) | 
-| [.NET, open-source, cross-platform](http://www.mono-project.com/)                 &nbsp; | &nbsp; | [Make a suggestion](http://www.mono-project.com/community/)     |  &nbsp; | [Report/Fix an Issue](http://www.mono-project.com/community/) |
 
 ### Editing Tools
 
@@ -27,5 +25,9 @@ Please follow the links below to report an issue with F# and contribute a fix.
 
 ### Other Components and Tools
 
-For other components and tools, please [refer to the relevant project](http://fsharp.org/community/projects).
+For other components and tools, please [refer to the relevant project](http://fsharp.org/community/projects). Some specific links are shown below.
 
+| Component         |   | Make a suggestion   |   | Report/Fix an Issue |
+|:------------------|:--|:--------------------|:--|:------------------|
+| [.NET Runtime and Libraries, Windows](http://www.microsoft.com/net)                                     &nbsp; | &nbsp; | [Make a suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |  &nbsp; |  [Report/Fix an Issue](http://connect.microsoft.com/visualstudio) | 
+| [.NET Runtime and Libraries, open-source, cross-platform](http://www.mono-project.com/)                 &nbsp; | &nbsp; | [Make a suggestion](http://www.mono-project.com/community/)     |  &nbsp; | [Report/Fix an Issue](http://www.mono-project.com/community/) |
