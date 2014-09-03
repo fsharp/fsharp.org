@@ -4,7 +4,7 @@ title: Report/Fix an Issue | The F# Software Foundation
 headline: Report/Fix an Issue
 ---
 
-Please follow the links below to report an issue with F# and contribute a fix.
+Please follow the links below to make a suggestion, report an issue with F# and/or contribute a fix.  
 
 ### Core Tools
 
@@ -29,4 +29,9 @@ For other components and tools, please [refer to the relevant project](http://fs
 | [.NET Runtime and Libraries, Windows](http://www.microsoft.com/net)                                     &nbsp; | &nbsp; | [Make suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |  &nbsp; |  [Report/Fix an issue](http://connect.microsoft.com/visualstudio) | 
 | [.NET Runtime and Libraries, open-source, cross-platform](http://www.mono-project.com/)                 &nbsp; | &nbsp; | [Make suggestion](http://www.mono-project.com/community/)     |  &nbsp; &nbsp; | [Report/Fix an issue](http://www.mono-project.com/community/) |
 
+
+<br>&nbsp;</br>
+<br>&nbsp;</br>
+
+You can contribute to this page [by proposing an edit](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/engineering/issues.md).
 
