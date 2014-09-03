@@ -8,11 +8,11 @@ headline: Report and Fix an Issue | F# Engineering Guide
 
 | Component         |   | Make a suggestion   |   | Report/Fix an Issue |
 |:------------------|:--|:--------------------|:--|:------------------|
-| [F# Language Specification](http://fsharp.org/specs/language-spec/)              |  | [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     |  |  [Report/Fix an Issue](http://fsharp.org/specs/language-spec/)      | 
-| [F# Compiler and Core Library](http://visualfsharp.codeplex.com)                 |  | [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     | |  [Report/Fix an Issue](http://visualfsharp.codeplex.com) | 
-| [F# Compiler and Core Library, cross-platform](http://github.com/fsharp/fsharp)  |  | [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     | |  [Report/Fix an Issue](http://github.com/fsharp/fsharp) | 
-| [.NET (Windows)](http://www.microsoft.com/net)                                   |  | [Make a suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |  |  [Report/Fix an Issue](http://connect.microsoft.com/visualstudio) | 
-| [.NET (open-source, cross-platform)](http://www.mono-project.com/)               |  | [Make a suggestion](http://www.mono-project.com/community/)     |  | [Report/Fix an Issue](http://www.mono-project.com/community/) |
+| [F# Language Specification](http://fsharp.org/specs/language-spec/)               &nbsp; | &nbsp; | [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     |  &nbsp; |  [Report/Fix an Issue](http://fsharp.org/specs/language-spec/)      | 
+| [F# Compiler and Core Library, Windows](http://visualfsharp.codeplex.com)                  &nbsp; | &nbsp; | [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     |  &nbsp; |  [Report/Fix an Issue](http://visualfsharp.codeplex.com) | 
+| [F# Compiler and Core Library, cross-platform](http://github.com/fsharp/fsharp)   &nbsp; | &nbsp; | [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     |  &nbsp; |  [Report/Fix an Issue](http://github.com/fsharp/fsharp) | 
+| [.NET, Windows](http://www.microsoft.com/net)                                    &nbsp; | &nbsp; | [Make a suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |  &nbsp; |  [Report/Fix an Issue](http://connect.microsoft.com/visualstudio) | 
+| [.NET, open-source, cross-platform](http://www.mono-project.com/)                &nbsp; | &nbsp; | [Make a suggestion](http://www.mono-project.com/community/)     |  &nbsp; | [Report/Fix an Issue](http://www.mono-project.com/community/) |
 
 ### Report and Fix an Issue (Editing Tools)
 
