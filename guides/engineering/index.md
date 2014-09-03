@@ -1,10 +1,10 @@
 ---
 layout: default
-title: F# Core Engineering Guide | The F# Software Foundation
-headline: F# Core Engineering Guide
+title: F# Engineering Guide | The F# Software Foundation
+headline: F# Engineering Guide
 ---
 
-F# is developed as a collaboration:
+F# is developed as a collaboration between:
 
 * [The F# Open Engineering Group](http://fsharp.github.io/)  
   manages the cross-platform and open-source [F# Compiler and Components repositories](http://github.com/fsharp] and 
