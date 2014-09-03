@@ -11,7 +11,7 @@ Please follow the links below to report an issue with F# and contribute a fix.
 | Component         |   | Make a suggestion   |   | Report/Fix an Issue |
 |:------------------|:--|:--------------------|:--|:------------------|
 | [F# Language Specification](http://fsharp.org/specs/language-spec/)               &nbsp; | &nbsp; | [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     |  &nbsp; |  [Report/Fix an issue](http://fsharp.org/specs/language-spec/)      | 
-|  [F# Compiler and Core Library](http://fsharp.github.io/2014/06/18/fsharp-contributions.html)                                            &nbsp; | &nbsp; |                                                                                |  &nbsp; |  [Report/Fix an Issue](http://visualfsharp.codeplex.com) | 
+|  [F# Compiler and Core Library](http://fsharp.github.io/2014/06/18/fsharp-contributions.html)                                            &nbsp; | &nbsp; |  [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language) |  &nbsp; |  [Report/Fix an Issue](http://visualfsharp.codeplex.com) | 
 |                                                                                   &nbsp; | &nbsp; |                                                                                |  &nbsp; |  [Report/Fix an issue in cross-platform edition](http://github.com/fsharp/fsharp) |
 
 ### Editing Tools
