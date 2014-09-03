@@ -20,8 +20,7 @@ Please follow the links below to report an issue with F# and contribute a fix.
 |:--------------------|:--|:------------------|:--|:------------------|
 | [Visual F# Tools](http://msdn.microsoft.com/en-us/library/dd233154.aspx)                                              &nbsp; | &nbsp; |  [Make a suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/30935-languages-f-tools)     |  | [Report/Fix an issue](http://visualfsharp.codeplex.com) |
 | [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)                             &nbsp; | &nbsp; | [Make a suggestion](http://vfpt.uservoice.com/)     | |    [Report/Fix an issue](https://github.com/fsprojects/VisualFSharpPowerTools/) |
-| [Xamarin F# Tools](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/)   &nbsp; | &nbsp; |  [Make a suggestion](http://fsharpbinding.uservoice.com/)     | |   [Report/Fix an issue](http://fsharp.github.io/fsharpbinding/) |
-| [Other F# Editing Tools (Emacs, MonoDevelop, ...)](http://fsharp.github.io/fsharpbinding/)               &nbsp; | &nbsp; | [Make a suggestion](http://fsharpbinding.uservoice.com/)     | |  [Report/Fix an issue](http://fsharp.github.io/fsharpbinding/) |
+| [Other F# Editing Tools ](http://fsharp.github.io/fsharpbinding/) ([Xamarin]([Xamarin F# Tools](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/), Emacs, MonoDevelop, ...)]               &nbsp; | &nbsp; | [Make a suggestion](http://fsharpbinding.uservoice.com/)     | |  [Report/Fix an issue](http://fsharp.github.io/fsharpbinding/) |
 
 ### Other Components and Tools
 
