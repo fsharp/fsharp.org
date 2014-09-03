@@ -9,8 +9,8 @@ Please follow the links below to report an issue with F# and contribute a fix.
 ### Core Tools
 
 |:------------------|:--|:--------------------|:--|:------------------|:--|:------------------|
-| [F# Language Specification](http://fsharp.org/specs/language-spec/)               &nbsp; | &nbsp;  |  [Report/Fix an issue](http://fsharp.org/specs/language-spec/)      | 
-|  [F# Compiler and Core Library](http://fsharp.github.io/2014/06/18/fsharp-contributions.html)                                            &nbsp; | &nbsp; |  [Make suggestion](https://fslang.uservoice.com/forums/245727-f-language) |  &nbsp; |  [Report/Fix an Issue](http://visualfsharp.codeplex.com) | |  &nbsp;&nbsp;  |  [Report/Fix a cross-platform issue](http://github.com/fsharp/fsharp) |
+| [F# Language Specification](http://fsharp.org/specs/language-spec/)                                                &nbsp; &nbsp; | &nbsp;&nbsp; |  [Make suggestion](https://fslang.uservoice.com/forums/245727-f-language) |        &nbsp; | &nbsp;  |  [Report/Fix an issue](http://fsharp.org/specs/language-spec/)      | 
+|  [F# Compiler and Core Library](http://fsharp.github.io/2014/06/18/fsharp-contributions.html)                                            &nbsp; &nbsp; | &nbsp;&nbsp; |  [Make suggestion](https://fslang.uservoice.com/forums/245727-f-language) |  &nbsp;&nbsp; |  [Report/Fix an issue (general)](http://visualfsharp.codeplex.com) | |  &nbsp;&nbsp;  |  [(cross-platform)](http://github.com/fsharp/fsharp) |
 
 ### Editing Tools
 
