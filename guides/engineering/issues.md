@@ -30,8 +30,5 @@ For other components and tools, please [refer to the relevant project](http://fs
 | [.NET Runtime and Libraries, open-source, cross-platform](http://www.mono-project.com/)                 &nbsp; | &nbsp; | [Make suggestion](http://www.mono-project.com/community/)     |  &nbsp; &nbsp; | [Report/Fix an issue](http://www.mono-project.com/community/) |
 
 
-<br>&nbsp;</br>
-<br>&nbsp;</br>
-
 You can contribute to this page [by proposing an edit](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/engineering/issues.md).
 
