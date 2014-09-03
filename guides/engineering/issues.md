@@ -6,7 +6,7 @@ headline: Report/Fix an Issue
 
 Please follow the links below to report an issue with F# and contribute a fix.
 
-### Report and Fix an Issue (Core Tools)
+### Report and fix an issue (Core Tools)
 
 | Component         |   | Make a suggestion   |   | Report/Fix an Issue |
 |:------------------|:--|:--------------------|:--|:------------------|
@@ -16,7 +16,7 @@ Please follow the links below to report an issue with F# and contribute a fix.
 | [.NET, Windows](http://www.microsoft.com/net)                                     &nbsp; | &nbsp; | [Make a suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |  &nbsp; |  [Report/Fix an Issue](http://connect.microsoft.com/visualstudio) | 
 | [.NET, open-source, cross-platform](http://www.mono-project.com/)                 &nbsp; | &nbsp; | [Make a suggestion](http://www.mono-project.com/community/)     |  &nbsp; | [Report/Fix an Issue](http://www.mono-project.com/community/) |
 
-### Report and Fix an Issue (Editing Tools)
+### Report and fix an issue (Editing Tools)
 
 | Component           |   | Make a suggestion   |   | Report/Fix an Issue |
 |:--------------------|:--|:------------------|:--|:------------------|
@@ -25,5 +25,7 @@ Please follow the links below to report an issue with F# and contribute a fix.
 | [Xamarin F# Tools](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/)   &nbsp; | &nbsp; |  [Make a suggestion](http://fsharpbinding.uservoice.com/)     | |   [Report/Fix an Issue](http://fsharp.github.io/fsharpbinding/) |
 | [Other F# Editing Tools (Emacs, MonoDevelop, ...)](http://fsharp.github.io/fsharpbinding/)               &nbsp; | &nbsp; | [Make a suggestion](http://fsharpbinding.uservoice.com/)     | |  [Report/Fix an Issue](http://fsharp.github.io/fsharpbinding/) |
 
-For other components, please [refer to the relevant project](http://fsharp.org/community/projects).
+### Report and fix an issue (Other Components and Tools)
+
+For other components and tools, please [refer to the relevant project](http://fsharp.org/community/projects).
 
