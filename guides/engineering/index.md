@@ -6,23 +6,22 @@ headline: F# Engineering Guide
 
 F# is developed as a collaboration between:
 
-* [The F# Open Engineering Group](http://fsharp.github.io/)  
-  manages the cross-platform and open-source [F# Compiler and Components repositories](http://github.com/fsharp] and 
+* [The F# Open Engineering Group](http://fsharp.github.io/), who
+  manage the cross-platform and open-source [F# Compiler and Components repositories](http://github.com/fsharp] and 
   the [F# Community Project Incubation Space](http://github.com/fsprojects).
 
-* [The Visual F# Team](http://blogs.msdn.com/b/fsharpteam/) from Microsoft are highly 
+* [The Visual F# Team](http://blogs.msdn.com/b/fsharpteam/) from Microsoft, who are highly 
   active in the F# community and accept community contributions to the language, compiler and Visual F# Tools. 
 
-* [Xamarin](http://xamarin.com) contribute directly to F# through the [Xamarin F# Tools](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/) .
+* [Xamarin](http://xamarin.com), who contribute the [Xamarin F# Tools](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/) .
 
-* Hundreds of individuals contribute to F#, through both [open source community components](http://fsharp.org/community/projects/) 
-  and other components and tools.
+* Many other companies and individuals, through both [open source projects](http://fsharp.org/community/projects/) 
+  and many other components and tools.
 
   
 ### Contributing to F# Core Engineereing
 
-The F# Open Engineering Group have published [Contributing to the F# Language and Compiler - How Your Contributions to the F# Language, Compiler and Core Library Are Delivered Cross-Platform]
-a guide to contributing to the core engineering on the F# language, compiler and tools](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).
+The F# Open Engineering Group have published [Contributing to the F# Language and Compiler](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).  
 
 ### Report/Fix an Issue
 
