@@ -628,8 +628,8 @@ In our internal engineering group at Microsoft, F# is used for several important
 
 > My team chose F# for its functional paradigm, maturity, and ease of interoperation with the .NET framework
 
-1. Dylan Hutchison
-2. **Microsoft Research (intern)**, **Stevens Institute of Technology**
+1. **Dylan Hutchison**
+2. Microsoft Research (intern), Stevens Institute of Technology
 3. [permalink](#dylan-hutchinson-intern-1)
 
 With an idea for a new domain specific language, my team chose F# for its functional paradigm, maturity, and ease of interoperation with the .NET framework.  I wrote the language primitives in F#’s arsenal of data types (records, discriminated unions, a couple classes at the top level), implemented operations on the types using its hierarchy of modules, and turned our operations into a working demo in F# Interactive, all in about 10 days.  
