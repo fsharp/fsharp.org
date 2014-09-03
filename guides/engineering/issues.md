@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Report and Fix an Issue | F# Engineering Guide | The F# Software Foundation
-headline: Report and Fix an Issue | F# Engineering Guide
+title: Report/Fix an Issue | The F# Software Foundation
+headline: Report/Fix an Issue
 ---
 
 ### Report and Fix an Issue (Core Tools)
