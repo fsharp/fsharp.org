@@ -32,7 +32,7 @@ Core Tools:
 | [F# Language Specification](http://fsharp.org/specs/language-spec/)               |  [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     |    [Report/Fix an Issue](http://fsharp.org/specs/language-spec/)      |   
 | [F# Compiler and Core Library](http://visualfsharp.codeplex.com)                  |  [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     |   [Report/Fix an Issue](http://visualfsharp.codeplex.com) |
 | [F# Compiler and Core Library (cross-platform)](http://github.com/fsharp/fsharp)  |  [Make a suggestion](https://fslang.uservoice.com/forums/245727-f-language)     |   [Report/Fix an Issue](http://github.com/fsharp/fsharp) |
-| [.NET (Windows)  |  [Make a suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |   [Report/Fix an Issue](http://connect.microsoft.com/visualstudio) |
+| [.NET (Windows)](http://www.microsoft.com/net)  |  [Make a suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |   [Report/Fix an Issue](http://connect.microsoft.com/visualstudio) |
 | [.NET (Mono, open-source, cross-platform)](http://www.mono-project.com/)  |  [Make a suggestion](http://www.mono-project.com/community/)     |   [Report/Fix an Issue](http://www.mono-project.com/community/) |
 
 Editing Tools:
