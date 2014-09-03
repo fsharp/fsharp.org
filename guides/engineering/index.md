@@ -19,7 +19,7 @@ F# is developed as a collaboration between:
   and other components and tools.
 
   
-### Contributinng to Core Engineereing
+### Contributing to F# Core Engineereing
 
 The F# Open Engineering Group have published [Contributing to the F# Language and Compiler - How Your Contributions to the F# Language, Compiler and Core Library Are Delivered Cross-Platform]
 a guide to contributing to the core engineering on the F# language, compiler and tools](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).
