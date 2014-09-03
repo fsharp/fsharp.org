@@ -6,6 +6,9 @@ headline: Report/Fix an Issue
 
 Please follow the links below to make a suggestion, report an issue with F# and/or contribute a fix.  
 
+You can contribute to this page [by proposing an edit](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/engineering/issues.md).
+
+
 ### Core Tools
 
 |:------------------|:--|:--------------------|:--|:------------------|:--|:------------------|
@@ -30,5 +33,4 @@ For other components and tools, please [refer to the relevant project](http://fs
 | [.NET Runtime and Libraries, open-source, cross-platform](http://www.mono-project.com/)                 &nbsp; | &nbsp; | [Make suggestion](http://www.mono-project.com/community/)     |  &nbsp; &nbsp; | [Report/Fix an issue](http://www.mono-project.com/community/) |
 
 
-You can contribute to this page [by proposing an edit](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/engineering/issues.md).
 
