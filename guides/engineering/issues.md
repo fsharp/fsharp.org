@@ -28,9 +28,9 @@ You can contribute to this page [by proposing an edit](https://github.com/fsharp
 For other components and tools, please [refer to the relevant project](http://fsharp.org/community/projects). Some specific links are shown below.
 
 |:------------------|:--|:--------------------|:--|:------------------|
-| [Xamarin Mobile Tools](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/)                                     &nbsp; | &nbsp; | [Make suggestion](http://xamarin.com/support)     |  &nbsp; |  [Report/Fix an issue](http://xamarin.com/support) | 
-| [.NET Runtime and Libraries, Windows](http://www.microsoft.com/net)                                     &nbsp; | &nbsp; | [Make suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |  &nbsp; |  [Report/Fix an issue](http://connect.microsoft.com/visualstudio) | 
-| [.NET Runtime and Libraries, open-source, cross-platform](http://www.mono-project.com/)                 &nbsp; | &nbsp; | [Make suggestion](http://www.mono-project.com/community/)     |  &nbsp; &nbsp; | [Report/Fix an issue](http://www.mono-project.com/community/) |
+| [Xamarin Mobile Tools](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/)                                     &nbsp; | &nbsp; | [Make suggestion](http://xamarin.com/support)     |  &nbsp; |  [Support link](http://xamarin.com/support) | 
+| [.NET Runtime and Libraries, Windows](http://www.microsoft.com/net)                                     &nbsp; | &nbsp; | [Make suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/31481-net)     |  &nbsp; |  [Support link](http://connect.microsoft.com/visualstudio) | 
+| [.NET Runtime and Libraries, open-source, cross-platform](http://www.mono-project.com/)                 &nbsp; | &nbsp; | [Make suggestion](http://www.mono-project.com/community/)     |  &nbsp; &nbsp; | [Support link](http://www.mono-project.com/community/) |
 
 
 
