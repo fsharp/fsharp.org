@@ -201,4 +201,7 @@ in whole or in part. Some resources are:
    Includes a simple template for creating F# Silverlight Applications. The template creates a single 
    Silverlight project that creates Silverlight controls from F# code and runs in an automatically generated HTML page.
  
-           
+## Working Groups
+
+If you are interested in contributing to the F# web platform, please join the [F# Web Stack Google Group](https://groups.google.com/forum/#!forum/web-stack-fs). The group is open to all, and you'll find a good summary of the current status of the working group in the group's welcome message.
+
