@@ -52,12 +52,16 @@ F# also shines in the area of web API development through frameworks like  [Serv
    The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
    These templates provide a Pure F# project for implementing a web API with Web API 2.0.
    Everything is implemented in F#.
+   
+   [OWIN and Web API](http://www.asp.net/aspnet/overview/owin-and-katana). Katana is a flexible set of components for building and hosting Open Web Interface for .NET (OWIN)-based web applications.
 
    Some resources on using F# with Web API:
 
    * [How to create a pure F# ASP.NET Web API project](http://blog.ploeh.dk/2013/08/23/how-to-create-a-pure-f-aspnet-web-api-project/)
 
    * [Running a pure F# ASP.NET Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
+   
+   * [Creating Lightweight F# websites that use pure F# OWIN Web APIs and Typescript web applications](http://cockneycoder.wordpress.com/2014/09/03/lightweight-websites-with-f/)
 
    * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
 
