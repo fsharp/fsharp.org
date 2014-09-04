@@ -20,7 +20,6 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
 ## Frameworks for Web Applications
 
-
 * ![logo](/images/thumbs/WebSharper.png)&nbsp;[_WebSharper_](http://www.websharper.com/home) 
 
   WebSharper allows end-to-end web applications with both client and server developed in F#. 
@@ -33,17 +32,16 @@ F# also shines in the area of web API development through frameworks like  [Serv
   Views are implemented in HTML5 using modern Javascript frameworks. 
   Models and controllers are implemented in F#.
 
-* [_FunScript_](http://funscript.info/) 
+* [_FunScript_](http://funscript.info/)
 
   FunScript is an F# to JavaScript converter with TypeScript interoperability.
 
-* [_NancyFx_](https://github.com/NancyFx/Nancy) 
+* [_NancyFx_](https://github.com/NancyFx/Nancy)
 
   NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
   [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
 
- 
 ## Frameworks for Server-Side Web APIs
 
  * ![logo](/images/thumbs/fsharp.web.png)&nbsp;[_Pure F# Web API 2.0_](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
@@ -65,13 +63,11 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
    * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
 
- * [_Frank_](http://frankfs.net/)
+ * [_Dyfrig_](https://github.com/fsprojects/dyfrig) - Dyfrig provides an [OWIN](http://owin.org/) implementation for F# and includes combinators for [railway-oriented programming](https://github.com/fsprojects/dyfrig/blob/master/src/Dyfrig/OwinRailway.fsi), a [computation expression with lenses](https://github.com/fsprojects/dyfrig/blob/master/src/Dyfrig/OwinApp.fs#L35), and [adapters for `System.Net.Http` types](https://github.com/fsprojects/dyfrig/blob/master/src/Dyfrig/SystemNetHttpAdapter.fsi). See a [sample back-end](https://github.com/panesofglass/TodoBackendFSharp/blob/master/docs/index.md).
 
-    Frank provides a functional wrapper around the types in System.Net.Http, the library that drives ASP.NET Web API.
+ * [_Frank_](http://frankfs.net/) - Frank provides combinators for composing web applications using the types in `System.Net.Http`, the library that drives ASP.NET Web API.
 
- * ![logo](/images/thumbs/servicestack.png)&nbsp;[_ServiceStack_](https://servicestack.net/)
-
-   ServiceStack is a framework for simple and fast web services on .NET and Mono.
+ * ![logo](/images/thumbs/servicestack.png)&nbsp;[_ServiceStack_](https://servicestack.net/) - ServiceStack is a framework for simple and fast web services on .NET and Mono.
 
    * [F# ServiceStack Project Template](http://visualstudiogallery.msdn.microsoft.com/278caff1-917a-4ac1-a552-e5a2ce0f6e1f) - (Visual Studio) Includes a template to create a self-hosted, Asp.Net hosted F# ServiceStack service 
    
@@ -83,21 +79,17 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
  * [_NancyFx_](https://github.com/NancyFx/Nancy)
  
-    NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
+   NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
 
-    * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
+   * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
 
-    * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
+   * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
 
- * [_Simple.Web_](https://github.com/markrendle/Simple.Web)
-   
-   Simple.Web is a REST-focused, object-oriented Web Framework for .NET
+ * [_Simple.Web_](https://github.com/markrendle/Simple.Web) - Simple.Web is a REST-focused, object-oriented Web Framework for .NET
 
    * [Pure F# Simple.Web Template](http://visualstudiogallery.msdn.microsoft.com/bbec75fa-0f31-47e9-a8ce-c301edb2fa4b) - (Visual Studio) Includes a template for getting started with Simple.Web.
 
- * _Serving Requests with IHttpHandlers_
-
-   Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
+ * _Serving Requests with `IHttpHandler`s_ - Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
 
    * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
 
@@ -119,6 +111,7 @@ Common hosting options are:
 
  * [_AppHarbor_](http://appharbor.com/) - Free hosting of .NET web applications
 
+
 ## Scaling to the Cloud
 
 The [Cloud Programming](/cloud) section contains more details on cloud programming with F#.
@@ -129,6 +122,7 @@ Some specific resources related to web programming are:
  * [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
 
  * [Using F# and C# with Amazon EC2 Elastic Map/Reduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
+
 
 ## Unit Testing Libraries
 
@@ -147,10 +141,12 @@ Here are a few Visual Studio project templates available for building unit tests
  * [F# MsTest Project](http://visualstudiogallery.msdn.microsoft.com/51ebe64a-899b-4959-8c24-b0148ed6b264)
  * [F# NUnit Template that also includes FsUnit, FsCheck, and Unquote](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) 
 
+
 ## Client-side Testing
 
  * [canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and concise. You can easily leverage your existing .Net code to help you test.
  
+
 ## Books
 
 Several books have been written that include information on building web applications with F#:
@@ -163,6 +159,12 @@ Several books have been written that include information on building web applica
 
 There are  several presentations and tutorials available that include information on 
 build web applications with F#:
+
+ * [Taking F# to the Masses with CloudSharper](http://youtu.be/LvbfY3sl6Lo)
+
+ * [F# on the Web](http://youtu.be/2tVQNjdn-Y0)
+
+ * [Tackle UI with Reactive DOM in F# and WebSharper](http://youtu.be/wEkS09s3KBc)
 
  * [Building an HTML5 application with WebSharper Sitelets, Part 1](http://www.developerfusion.com/article/124078/building-an-html5-application-with-websharper-sitelets-part-1/)
 
