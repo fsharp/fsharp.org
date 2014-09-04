@@ -51,7 +51,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
    These templates provide a Pure F# project for implementing a web API with Web API 2.0.
    Everything is implemented in F#.
    
-   [OWIN and Web API](http://www.asp.net/aspnet/overview/owin-and-katana). Katana is a flexible set of components for building and hosting Open Web Interface for .NET (OWIN)-based web applications.
+   [OWIN and Katana](http://www.asp.net/aspnet/overview/owin-and-katana). Katana is a flexible set of components for building and hosting Open Web Interface for .NET (OWIN)-based web applications.
 
    Some resources on using F# with Web API:
 
