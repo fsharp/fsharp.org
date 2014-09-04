@@ -13,7 +13,7 @@ and those associated with 3rd-party commercial technologies.
 
 The current affiliated technical groups are:
 
- * **F# Web Programming Group** (contact Ryan Riley and Adam Granicz)
+ * [**F# Web Programming Group**](https://groups.google.com/forum/#!forum/web-stack-fs) (contact Ryan Riley and Adam Granicz)
  * **F# in Finance** (contact Natallie Baikevich)
  * **F# for Data and Machine Learning** (contact Mathias Brandewinder)
  * **F# in Academia** (contact Antonio Cisternino)
