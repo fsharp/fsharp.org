@@ -100,6 +100,8 @@ Do it the simple way, and serve web requests direct from code using F# asynchron
 
 * [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
 
+### [Suave.io](http://suave.io/)
+Simple web development library in F# that provides a lightweight web server.
 
 ## Hosting
 
