@@ -13,6 +13,11 @@ algorithm, expressions, patterns and other.
 The F# Language Specification is authored by Microsoft, Microsoft Research and contributors
 from the F# community and is made available here by agreement.
 
+### F# 2.0 
+
+  * [The F# 2.0 Language Specification (final version, PDF)](http://www.scribd.com/doc/40950295/FSharp-Language-Specification-2-0) - The final version of the F# 2.0 language
+    specification.
+
 ### F# 3.0 
 
   * [The F# 3.0 Language Specification (final version, PDF)](3.0/FSharpSpec-3.0-final.pdf) - The final version of the F# 3.0 language
