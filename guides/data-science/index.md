@@ -73,15 +73,24 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  * [Async and event-streaming Excel UDFs with F#](http://excel-dna.net/2013/03/26/async-and-event-streaming-excel-udfs-with-f/)
  * [Machine Learning with Excel: Combine the power of Excel, F# and R](http://luajalla.azurewebsites.net/excel-dna-three-stories/)
 
-##### Integrating F# and Excel through NPOI
+##### Integrating F# and Excel through Open Office XML file manipulation
 
 [NPOI](https://npoi.codeplex.com/) is .NET version of POI Java project at http://poi.apache.org/. POI is an open source project which can help you read/write xls, doc, ppt files.
 
  * [Example of how to work with Excel using NPOI in F#](https://github.com/Heather/FXL/blob/master/RNExceL/Model/NPOI.fs#L19)
 
-##### Interoperating with Excel 
+ [EPPlus] (http://epplus.codeplex.com) is a .NET library that reads and writes Excel 2007/2010/2013 files using the Open Office XML format (xlsx)
+ 
+ [ExcelPackageF] (https://github.com/igorkulman/ExcelPackageF) is a simple F# wrapper over the EPPlus library.
+ 
+ Both NPOI and EPPLus manipulate the Open Office XML format so it does not require having Excel installed and does not use Interop.  You can read,create and edit Excel documents using this approach.
 
-F# can interoperate with Excel through existing Excel APIs. For example:
+##### Interoperating with Excel through type providers
+[FSharpX Excel Type Provider] (http://fsprojects.github.io/fsharpx/) has an experimental Excel type provider that allows you  to read Excel files using typed data provided by the type provider. 
+
+##### Interoperating with Excel through API's
+
+F# can interoperate with Excel through existing Excel API's. For example:
 
  * [Plot functions from F# to Excel](http://www.clear-lines.com/blog/post/Plot-functions-from-FSharp-to-Excel.aspx)
  * [Charting with Excel from F#](http://bit.ly/GGv8z4)
