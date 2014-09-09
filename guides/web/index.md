@@ -20,7 +20,7 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
 ## Frameworks for Web Applications
 
-### ![logo](/images/thumbs/WebSharper.png)&nbsp;[_WebSharper_](http://www.websharper.com/home) 
+### ![logo](/images/thumbs/WebSharper.png)&nbsp;[_WebSharper_](http://websharper.com/) 
 
 WebSharper allows end-to-end web applications with both client and server developed in F#. 
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
@@ -33,6 +33,9 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 ### [_FunScript_](http://funscript.info/)
 
 FunScript is an F# to JavaScript converter with TypeScript interoperability.
+
+* TodoMVC with FunScript and Ractive [part 1](http://youtu.be/smyeLH6HktA) and [part 2](http://youtu.be/hhqKArYkfYA)
+* [FunScript HTML Extensions](http://youtu.be/Xmvehkj8qGM)
 
 ### [_NancyFx_](https://github.com/NancyFx/Nancy)
 
