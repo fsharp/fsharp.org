@@ -49,6 +49,7 @@ Many other resources are available for integrating F#, C# and .NET with these sy
 to F# can't be found, then search for C# instead and adjust the technique appropriately.
 
 <a id="excel-interop" > </a>
+
 ### F# and Microsoft Excel 
 
 F# can be used in conjunction with Microsoft Excel in a number of interesting ways.
@@ -79,14 +80,15 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
 
  * [Example of how to work with Excel using NPOI in F#](https://github.com/Heather/FXL/blob/master/RNExceL/Model/NPOI.fs#L19)
 
- [EPPlus] (http://epplus.codeplex.com) is a .NET library that reads and writes Excel 2007/2010/2013 files using the Open Office XML format (xlsx)
+ [EPPlus](http://epplus.codeplex.com) is a .NET library that reads and writes Excel 2007/2010/2013 files using the Open Office XML format (xlsx)
  
- [ExcelPackageF] (https://github.com/igorkulman/ExcelPackageF) is a simple F# wrapper over the EPPlus library.
+ [ExcelPackageF](https://github.com/igorkulman/ExcelPackageF) is a simple F# wrapper over the EPPlus library.
  
  Both NPOI and EPPLus manipulate the Open Office XML format so it does not require having Excel installed and does not use Interop.  You can read,create and edit Excel documents using this approach.
 
 ##### Interoperating with Excel through type providers
-[F# Excel Type Provider] (http://fsprojects.github.io/ExcelProvider/) is an prototypical F# type providerfor Excel that allows you  to read Excel files using typed data provided by the type provider. 
+
+[F# Excel Type Provider](http://fsprojects.github.io/ExcelProvider/) is an prototypical F# type providerfor Excel that allows you  to read Excel files using typed data provided by the type provider. 
 
 ##### Interoperating with Excel through API's
 
