@@ -86,7 +86,7 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  Both NPOI and EPPLus manipulate the Open Office XML format so it does not require having Excel installed and does not use Interop.  You can read,create and edit Excel documents using this approach.
 
 ##### Interoperating with Excel through type providers
-[FSharpX Excel Type Provider] (http://fsprojects.github.io/fsharpx/) has an experimental Excel type provider that allows you  to read Excel files using typed data provided by the type provider. 
+[F# Excel Type Provider] (http://fsprojects.github.io/ExcelProvider/) is an prototypical F# type providerfor Excel that allows you  to read Excel files using typed data provided by the type provider. 
 
 ##### Interoperating with Excel through API's
 
