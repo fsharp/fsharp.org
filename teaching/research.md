@@ -21,7 +21,7 @@ research projects build on top of F#.
 To add a paper to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/teaching/research.md) and submit a pull request.
 
 
- * **[Information-rich programming](#informationrich-programming)** - publications related to F# 3.0 type providers, a novel mechanism
+ * **[Information-rich programming](#information-rich-programming)** - publications related to F# type providers, a novel mechanism
      that integrates large-scale data into statically typed function programming language.
  
  * **[Asynchronous, Concurrent and Reactive programming](#asynchronous-concurrent-and-reactive-programming)** - publications
