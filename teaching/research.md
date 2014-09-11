@@ -33,7 +33,7 @@ To add a paper to this list, log on to GitHub, [edit this page](https://github.c
     about core F# language features including _active patterns_ and intialization of 
     mutually recursive values.
 
- * **[DSLs and Meta-programming](#dsls-and-metaprogramming)** - publications related to DSL and 
+ * **[DSLs and Meta-programming](#dsls-and-meta-programming)** - publications related to DSL and 
    meta-programming in F#.
 
  * **[Units of Measure](#units-of-measure)** - publications related to the Units of Measure feature of F#.
