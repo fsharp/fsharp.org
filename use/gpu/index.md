@@ -12,7 +12,7 @@ option here, please submit a pull request by [editing this page](https://github.
 
 ### Option 1 - Use Alea.cuBase, for F#-enabled CUDA programming 
 
-Alea.cuBase is a professional F# to GPU compiler supporting 
+![logo](/images/thumbs/quantalea-small.png)&nbsp; Alea.cuBase is a professional GPU programming toolchain supporting 
 
 * Debugging with Visual NSight
 * Profiling with NVProf 
