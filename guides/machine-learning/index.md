@@ -17,6 +17,7 @@ See also the [Math and Statistics](/math) and [Data Science](/data-science) sect
 
 Introductions to different machine learning algorithms with F#:
 
+ * [Gaussian process regression in F#](http://evelinag.com/blog/2014/09-15-introducing-ariadne/index.html)
  * [K-Means clustering in F#](http://clear-lines.com/blog/post/K-Means-Clustering-in-FSharp.aspx)
  * [Simplify data with SVD and Math.NET in F#](http://clear-lines.com/blog/post/Simplify-data-with-SVD-and-MathNET-in-FSharp.aspx)
  * [Recommendation Engine using Math.NET, SVD and F#](http://www.clear-lines.com/blog/post/Recommendation-Engine-with-SVD-and-MathNET-in-FSharp.aspx)
@@ -48,6 +49,8 @@ Several F# machine learning packages are available. Some are accessed through F#
     * [F# Neural Networks with the RProvider and Deedle](http://sergeytihon.wordpress.com/2013/11/18/f-neural-networks-with-rprovider-deedle/)
 
  *  [Vulpes](https://github.com/SpiegelSoft/Vulpes) - A machine learning app using a deep belief network and connecting to the NVIDIA GPU unit using [Alea.cuBase] (http://blog.quantalea.net/).
+
+ * [Ariadne](http://evelinag.com/Ariadne/) - Library for fitting Gaussian process regression models.
 
  * [Encog Machine Learning Framework](http://nuget.org/packages/encog-dotnet-core/) - An advanced neural network and machine learning framework. Encog 
    contains classes to create a wide variety of networks, as well as support classes to normalize and process data for these neural networks. Encog trains using multithreaded resilient propagation. Encog can also make use of a GPU to further speed processing time. A GUI based workbench is also provided to help model and train neural networks. 
