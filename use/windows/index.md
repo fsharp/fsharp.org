@@ -115,3 +115,11 @@ It has a number of unique features ideally suited for Big Data, Data Science and
 
 * Build and contribute to the F# compiler and library from [the source](http://visualfsharp.codeplex.com)
 
+### Option 6: Run already compiled F# code on servers
+
+Compiled F# code depends on the FSharp.Core assembly, which is available in FSharp.Core.dll. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed.
+
+The *Visual F# Tools* downloads from Microsoft contains FSharp.Core, as well as the command-line tools *fsc* (the F# compiler) and *fsi* (F# Interactive).
+
+- [Visual F# Tools 3.1.2](http://www.microsoft.com/en-us/download/details.aspx?id=44011)
+- [Visual F# Out of Band Release 3.1.1](http://www.microsoft.com/en-us/download/details.aspx?id=41654)
