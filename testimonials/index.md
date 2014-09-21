@@ -1275,6 +1275,7 @@ F# is a powerful language and it is great to do cross platform development with 
 2. [Readify](http://readify.net/)
 3. [permalink](#stephen-kennedy)
 
+
 I was consulting at engagement for a large multi-national organization that produces financial software where the need to rewrite the component that deals with importing data from various flat-file formats was identified.  The component needed to handle complex business logic and user defined mapping.
 
 F# was chosen over C# as it provided a large number of language features related to mapping out of the box.  Code quotations, discriminated unions, partial application, matching, and active patterns were used extensively.  Having objects immutable by default made the logic very deterministic and easy to maintain / follow.
@@ -1285,6 +1286,21 @@ F# is definitely a language I will be recommending to clients going forward.
 
 <div class="keywords">mapping, parsing, commercial</div>
 
+
+
+<a id="jon-canning"> &nbsp; </a>
+---
+
+> Type providers made working with external data sources simple and intuitive.
+
+1. **Jon Canning**
+2. [Property To Renovate](http://propertytorenovate.co.uk)
+3. [permalink](#jon-canning)
+
+
+Every day we analyze data for hundreds of thousand of properties, sourced from XML and JSON feeds. Features such as Options and Type Providers have given us incredibly concise, expressive, and testable code with which to handle them, freeing us to focus on business value.
+
+As a developer moving from C#, some of the concepts you read about functional programming can be difficult to grasp and the barrier to entry appears high. However, with just a basic understanding and a helpful and welcoming community, F# has proven to be very productive and has quickly become my language of choice.
 
 
 
