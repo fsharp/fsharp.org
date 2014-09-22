@@ -518,8 +518,26 @@ We developed a ClickOnce F# / WPF application that scores and ranks thousands of
 
 <div class="keywords">manufacturing, optimization, Excel, solver</div>
 
+
+<a id="jon-canning"> &nbsp; </a>
+---
+
+> Type providers made working with external data sources simple and intuitive.
+
+1. **Jon Canning**
+2. [Property To Renovate](http://propertytorenovate.co.uk)
+3. [permalink](#jon-canning)
+
+
+Every day we analyze data for hundreds of thousand of properties, sourced from XML and JSON feeds. Features such as Options and Type Providers have given us incredibly concise, expressive, and testable code with which to handle them, freeing us to focus on business value.
+
+As a developer moving from C#, some of the concepts you read about functional programming can be difficult to grasp and the barrier to entry appears high. However, with just a basic understanding and a helpful and welcoming community, F# has proven to be very productive and has quickly become my language of choice.
+
+
+
 <a id="advertisement-rating-and-ranking-at-microsoft" > &nbsp; </a>
 ---
+
 
 > Around 95% of the code in these projects has been developed in F#
 
@@ -1286,21 +1304,6 @@ F# is definitely a language I will be recommending to clients going forward.
 
 <div class="keywords">mapping, parsing, commercial</div>
 
-
-
-<a id="jon-canning"> &nbsp; </a>
----
-
-> Type providers made working with external data sources simple and intuitive.
-
-1. **Jon Canning**
-2. [Property To Renovate](http://propertytorenovate.co.uk)
-3. [permalink](#jon-canning)
-
-
-Every day we analyze data for hundreds of thousand of properties, sourced from XML and JSON feeds. Features such as Options and Type Providers have given us incredibly concise, expressive, and testable code with which to handle them, freeing us to focus on business value.
-
-As a developer moving from C#, some of the concepts you read about functional programming can be difficult to grasp and the barrier to entry appears high. However, with just a basic understanding and a helpful and welcoming community, F# has proven to be very productive and has quickly become my language of choice.
 
 
 
