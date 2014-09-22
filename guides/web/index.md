@@ -41,6 +41,12 @@ FunScript is an F# to JavaScript converter with TypeScript interoperability.
 
 NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
+### [_SignalR_](http://www.asp.net/signalr)
+
+SignalR provides bi-directional communication between web servers and clients using one of several mechanisms, beginning with [web sockets](http://www.websocket.org/) and falling back through several other approaches depending on client and server capabilities.
+
+* [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02)
+
 
 ## Frameworks for Server-Side Web APIs
 
