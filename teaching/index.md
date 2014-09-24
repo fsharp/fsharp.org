@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Teaching F# | The F# Software Foundation
@@ -142,11 +143,13 @@ type inference. Each chapter has exercises based on such examples.
   scalability, program behaviour, and the correctness of programs. The unit focuses on both 
   fundamental concepts and practical software development, with the former enabling the latter. 
 
-* #### [Functional programming at St Matthews](files/stmatthews.zip)
+* #### [Functional programming at St Matthews]
   Samin Ishtiaq, Microsoft Research Cambridge
 
   Samin Ishtiaq taught a 1 hour crash course in functional programming to 10/11 year olds at 
   a local primary school. The course leads up to calculating areas and volumes, which is what 
   the students were learning in maths at that time. This was the first experience of programming 
   for almost all of the students. 
+
+  The [code](https://github.com/sishtiaq/StMattFP101). 
 
