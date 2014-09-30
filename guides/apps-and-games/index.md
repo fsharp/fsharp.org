@@ -13,13 +13,13 @@ sections for details about getting started with F# on those platforms.
 
 ### Mobile App Development 
 
-These higher-level app development stacks are support F#:
+These higher-level app development stacks support F#:
 
 * ![XamarinStudio](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Mobile](http://docs.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_development) - Use F# to develop for iOS, Android, Mac and Windows development
 
 * ![WebSharper](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com) - Can be used for cross-tier client/server HTML5 development and more
 
-* [Windows Store](http://msdn.microsoft.com/en-us/library/vstudio/hh913781.aspx) - You can use F# Portable libraries as components in Windows 8 and Windows 8 Phone applications
+* [Visual Studio](http://msdn.microsoft.com/en-us/library/vstudio/hh913781.aspx) - Supports use of F# code in both Windows Store apps and cros-platforms apps through the Xamarin Tools for Visual Studio
 
 ### MonoGame - Write Once, Play Everywhere
 
