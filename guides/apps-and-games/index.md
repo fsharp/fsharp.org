@@ -89,6 +89,13 @@ Objective-C as well.  The [Xamarin Developer Center](http://docs.xamarin.com/) c
 
 * [A Platform game in SpriteKit and F# – Part 2 – Start building a level](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-2-start-building-a-level/)
 
+
+### Unity3D
+
+[Visual Studio 2013 Tools for Unity](http://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2) allows you to write and debug your Unity 3D games inside Microsoft Visual Studio.
+With this plugin you can debug DLLs built with F# in Visual Studio while running them from Unity3D, however currently it does not support creating F# scripts directly inside of the Unity3D editor.
+
+
 ### Duality 
 Duality is a plugin based 2D game development framework based on C# and OpenTK. To get a quick overview, please visit the [project page](http://duality.fetzenet.de). Duality's main strengh is a fully featured extensible editor. Make sure to check it out. (OSS and MIT Licensed)
 
@@ -111,12 +118,6 @@ support recent versions of Visual Studio.
 
 * [F# With XNA Game Studio](http://azerdark.wordpress.com/2011/04/05/f-with-xna-game-studio/)
 * [XNA Game Studio for Visual Studio 2013](https://msxna.codeplex.com/)
-
-
-### Unity3D
-
-[Visual Studio 2013 Tools for Unity](http://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2) allows you to write and debug your Unity 3D games inside Microsoft Visual Studio.
-With this plugin you can debug DLLs built with F# in Visual Studio while running them from Unity3D, however currently it does not support creating F# scripts directly inside of the Unity3D editor.
 
   
 ### Projects
