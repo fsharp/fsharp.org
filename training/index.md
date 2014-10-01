@@ -106,6 +106,11 @@ This site will introduce you to F# and show you ways that F# can help in day-to-
 of mainstream commercial business software
 
 
+### [F# Workshop](http://fsharpworkshop.com/)
+
+Material from the F# Introduction Workshop created by Jorge Fioranelli
+
+
 ## Courses
 
 ### [PluralSight: Introduction to F#](http://pluralsight.com/training/Courses/TableOfContents/fsintro)
