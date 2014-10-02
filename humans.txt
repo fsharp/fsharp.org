@@ -6,6 +6,7 @@
 	Tomas Petricek 	 	Organizer 		@tomaspetricek
 	John Fair			Web Developer 	@johnbfair
 	Steffen Forkmann					@Ssforkmann
+    Reed Copsey                         @ReedCopsey
 
 # THANKS
 	Microsoft

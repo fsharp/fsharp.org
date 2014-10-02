@@ -25,6 +25,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>http://fsharp.org/foundation/logo.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>http://fsharp.org/webstacks/index.html</loc>
     <priority>0.5</priority>
   </url>
