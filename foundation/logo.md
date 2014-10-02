@@ -39,7 +39,7 @@ background.
  * [PNG, Darker variant, 100x100, Transparent Background](/img/logo/fsharp100mcdark.png)
 
 The preferred font for use with the logo is [Rajdhani](https://www.google.com/fonts/specimen/Rajdhani), 
-an open source typeface.
+an open source typeface.  The logo uses the following colors specified by hex code: #378BBA and #30B9DB.
 
 The F# Software Foundation logo for F# is an asset of the F# Software Foundation, and as with other
 assets, ownership of the logo will be transferred to the F# Software Foundation once it is legally established.
