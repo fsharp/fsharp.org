@@ -1,22 +1,17 @@
 ---
 layout: default
-title: The F# Logo | The F# Software Foundation
-headline: Usage of the F# logo
+title: The F# Software Foundation Logo for F# | The F# Software Foundation
+headline: The F# Software Foundation Logo for F#
 ---
 
-Projects and companies that are using F# are welcome and encouraged to incorporate the F#
-logo on their website, brochures, and other media.  The logo can be used anywhere suitable
-to indicate a project is intended for use with F# or was implemented in F#.
+The use of the F# Software Foundation Logo for F#  is welcome and encouraged when used in a way
+that is supportive of [the mission statement of the F# Software Foundation](http://fsharp.org/foundation.html).
+Individuals and companies are encouraged to incorporate the F# Software Foundation 
+logo for F# on their website, brochures, and other media for activities that support the mission of the foundation.
 
 ## Guidelines for Use
 
-![F# Logo](/img/logo.png)
-
-The F# logo is a trademark of the F# Software Foundation, which is responsible for defending 
-against any damaging or confusing uses of the trademark.
-
-Usage of the logo is allowed, provided that the logo remains uchanged.  Do not alter the
-color, proportions, or the image in any way.
+![The F# Software Foundation Logo for F#](/img/logo.png)
 
 The logo is available in the following variants:
 
@@ -38,13 +33,12 @@ background.
  * [PNG, Lighter variant, 100x100, Transparent Background](/img/logo/fsharp100mclight.png) 
  * [PNG, Darker variant, 100x100, Transparent Background](/img/logo/fsharp100mcdark.png)
 
-These versions can be used to create logos for projects, companies, or solutions which either
-use F# in their implementation or are specifically intended for use from F#.
-
 The preferred font for use with the logo is [Rajdhani](https://www.google.com/fonts/specimen/Rajdhani), 
 an open source typeface.
 
-Usage of the logo for any other purpose is not allowed without prior approval and permission from 
-the F# Software Foundation.  For more information or to get permission for other scenarios, please 
-contact the F# Software Foundation at [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
+The F# Software Foundation logo for F# is an asset of the F# Software Foundation, and as with other
+assets, ownership of the logo will be transferred to the F# Software Foundation once it is legally established.
+
+Usage of the logo is allowed, provided that the logo remains unchanged and the logo is used in a way that is supportive of the mission statement of the F# Software Foundation. Do not alter the color, proportions or the image.
+
 
