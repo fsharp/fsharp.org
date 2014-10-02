@@ -19,6 +19,7 @@ The logo is available in the following variants:
  * [PNG, 256x256, Transparent Background](/img/logo/fsharp256.png)
  * [PNG, 512x512, Transparent Background](/img/logo/fsharp512.png)
  * [PNG, 2048x2048, Transparent Background](/img/logo/fsharp2048.png)
+ * [SVG, Transparent Background](/img/logo/fsharp.svg)
 
 Versions of the logo have also been made specifically to be used for derivations and combining
 within other project logos.  These are monochromatic, semi-opaque versions which should be used 
