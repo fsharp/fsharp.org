@@ -47,7 +47,7 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * [Xamarin Studio](http://xamarin.com/studio) has built-in support for F# development on OSX and Windows.
 
-* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](http://fsharp.github.io/fsharpbinding/#Emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more. 
+* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](http://github.com/fsharp/fsharpbinding/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more. 
 
 * [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding). On Linux Debian you can use:
   
@@ -55,7 +55,7 @@ Some editors have specific support for F#, either builtin or through addons prov
   
   or [build/install it from source](http://github.com/mono/monodevelop). Then [install or build the F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding)
   
-* [Sublime Text 2]
+* Sublime Text 2
 
   * [Configuring Sublime Text 2 To Work With FSharp](http://onor.io/2012/01/26/configuring-sublime-text-2-to-work-with-fsharp/)
   * [Using Sublime Text 2 as F# REPL](http://blog.kulman.sk/using-sublime-text-2-as-f-repl/)
