@@ -225,3 +225,7 @@ additional material on Numerical Computing by Yin Zhu.
 ### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
 
 The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
+
+### [F# Workshop](http://fsharpworkshop.com/)
+
+Material from the F# Introduction Workshop created by Jorge Fioranelli.
