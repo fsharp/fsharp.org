@@ -143,7 +143,7 @@ type inference. Each chapter has exercises based on such examples.
   scalability, program behaviour, and the correctness of programs. The unit focuses on both 
   fundamental concepts and practical software development, with the former enabling the latter. 
 
-* #### [Functional programming at St Matthews]
+* #### Functional programming at St Matthews
   Samin Ishtiaq, Microsoft Research Cambridge
 
   Samin Ishtiaq taught a 1 hour crash course in functional programming to 10/11 year olds at 
