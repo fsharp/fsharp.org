@@ -48,7 +48,7 @@ of online tutorials demonstrating the concepts of F#:
 
 ## Video lectures
 
- * #### [Teaching programming language concepts with F#](http://channel9.msdn.com/Tags/peter-sestoft)
+ * [Teaching programming language concepts with F#](http://channel9.msdn.com/Tags/peter-sestoft)
    Peter Sestoft, IT University of Copenhagen, Denmark
    
    This is a two-part video lecture by Peter Sestoft, professor from the IT University of Copenhagen, 
@@ -56,14 +56,14 @@ of online tutorials demonstrating the concepts of F#:
    for the course "Programs as data" that uses the functional programming concepts in F# to 
    teach students language concepts and implemen­tation details.
 
- * #### [C9 Lectures - Introduction to F#](http://channel9.msdn.com/Shows/Going+Deep/C9-Lectures-Dr-Don-Syme-Introduction-to-F-1-of-3)
+ * [C9 Lectures - Introduction to F#](http://channel9.msdn.com/Shows/Going+Deep/C9-Lectures-Dr-Don-Syme-Introduction-to-F-1-of-3)
    Don Syme, Microsoft Research, Cambridge, UK
 
    Three part series of introductory video lectures by Don Syme, the designer of the F# 
    language. Don introduces functional concepts such as functional data structures and pattern 
    matching, imperative features of F# as well as the F# object model.
 
- * ####[F# in Education](http://research.microsoft.com/en-us/events/fsharpined/)
+ * [F# in Education](http://research.microsoft.com/en-us/events/fsharpined/)
   
    F# in Education was a one-day workshop for educators and industrialists, held in Cambridge, 
    Massachusetts, U.S., on November, 2010. The workshop investigated F# as a possible teaching 
