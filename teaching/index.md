@@ -111,7 +111,7 @@ type inference. Each chapter has exercises based on such examples.
 
 ## Lectures and course material
 
-* #### [Introduction to functional programming](http://tomasp.net/materials/mff-fsharp-09/)
+* [Introduction to functional programming](http://tomasp.net/materials/mff-fsharp-09/)
   Tomas Petricek, Charles University, Czech Republic
 
   The course explains basic functional concepts such as function composition, functional data 
@@ -121,7 +121,7 @@ type inference. Each chapter has exercises based on such examples.
   interesting insight.
 
 
-* #### [Functional Programming with F#](http://www.idt.mdh.se/kurser/DVA201/)
+* [Functional Programming with F#](http://www.idt.mdh.se/kurser/DVA201/)
   Björn Lisper, Mälardalen University, Sweden
 
   The course gives the students a solid under­standing of functional programming, its appli­cations, 
@@ -130,7 +130,7 @@ type inference. Each chapter has exercises based on such examples.
   also provides short orientations of lambda calculus and type inference, in order to enhance 
   the understanding of the functional prog­ramming paradigm.
 
-* #### [Programming Paradigms](http://undergraduate.csse.uwa.edu.au/units/CITS3242/)
+* [Programming Paradigms](http://undergraduate.csse.uwa.edu.au/units/CITS3242/)
   Rowan Davies, The University of Western Australia
 
   This unit explores and compares the main alternative paradigms for high-level programming. It 
@@ -143,7 +143,7 @@ type inference. Each chapter has exercises based on such examples.
   scalability, program behaviour, and the correctness of programs. The unit focuses on both 
   fundamental concepts and practical software development, with the former enabling the latter. 
 
-* #### Functional programming at St Matthews
+* **Functional programming at St Matthews**
   Samin Ishtiaq, Microsoft Research Cambridge
 
   Samin Ishtiaq taught a 1 hour crash course in functional programming to 10/11 year olds at 
