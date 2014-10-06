@@ -48,7 +48,7 @@ of online tutorials demonstrating the concepts of F#:
 
 ## Video lectures
 
- * [Teaching programming language concepts with F#](http://channel9.msdn.com/Tags/peter-sestoft)
+ * **[Teaching programming language concepts with F#](http://channel9.msdn.com/Tags/peter-sestoft)**
    Peter Sestoft, IT University of Copenhagen, Denmark
    
    This is a two-part video lecture by Peter Sestoft, professor from the IT University of Copenhagen, 
@@ -56,14 +56,14 @@ of online tutorials demonstrating the concepts of F#:
    for the course "Programs as data" that uses the functional programming concepts in F# to 
    teach students language concepts and implemen­tation details.
 
- * [C9 Lectures - Introduction to F#](http://channel9.msdn.com/Shows/Going+Deep/C9-Lectures-Dr-Don-Syme-Introduction-to-F-1-of-3)
+ * **[C9 Lectures - Introduction to F#](http://channel9.msdn.com/Shows/Going+Deep/C9-Lectures-Dr-Don-Syme-Introduction-to-F-1-of-3)**
    Don Syme, Microsoft Research, Cambridge, UK
 
    Three part series of introductory video lectures by Don Syme, the designer of the F# 
    language. Don introduces functional concepts such as functional data structures and pattern 
    matching, imperative features of F# as well as the F# object model.
 
- * [F# in Education](http://research.microsoft.com/en-us/events/fsharpined/)
+ * **[F# in Education](http://research.microsoft.com/en-us/events/fsharpined/)**
   
    F# in Education was a one-day workshop for educators and industrialists, held in Cambridge, 
    Massachusetts, U.S., on November, 2010. The workshop investigated F# as a possible teaching 
@@ -111,7 +111,7 @@ type inference. Each chapter has exercises based on such examples.
 
 ## Lectures and course material
 
-* [Introduction to functional programming](http://tomasp.net/materials/mff-fsharp-09/)
+* **[Introduction to functional programming](http://tomasp.net/materials/mff-fsharp-09/)**
   Tomas Petricek, Charles University, Czech Republic
 
   The course explains basic functional concepts such as function composition, functional data 
@@ -121,7 +121,7 @@ type inference. Each chapter has exercises based on such examples.
   interesting insight.
 
 
-* [Functional Programming with F#](http://www.idt.mdh.se/kurser/DVA201/)
+* **[Functional Programming with F#](http://www.idt.mdh.se/kurser/DVA201/)**
   Björn Lisper, Mälardalen University, Sweden
 
   The course gives the students a solid under­standing of functional programming, its appli­cations, 
@@ -130,7 +130,7 @@ type inference. Each chapter has exercises based on such examples.
   also provides short orientations of lambda calculus and type inference, in order to enhance 
   the understanding of the functional prog­ramming paradigm.
 
-* [Programming Paradigms](http://undergraduate.csse.uwa.edu.au/units/CITS3242/)
+* **[Programming Paradigms](http://undergraduate.csse.uwa.edu.au/units/CITS3242/)**
   Rowan Davies, The University of Western Australia
 
   This unit explores and compares the main alternative paradigms for high-level programming. It 
