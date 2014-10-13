@@ -92,6 +92,14 @@ clusters of commodity hardware. Hadoop derives from Google's MapReduce and Googl
 
  * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources
 
+#### MBrace
+
+[MBrace](http://m-brace.net/) The MBrace framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
+
+ * [Programming model](http://www.m-brace.net/programming-model.html)
+
+ * [Windows Azure support](http://www.m-brace.net/azure-tutorial.html)
+
 #### Riak
 
 [Riak](http://en.wikipedia.org/wiki/Riak) is a NoSQL database implementing the principles from Amazon's Dynamo paper:
