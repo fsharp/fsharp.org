@@ -196,6 +196,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * David Marr
  * [Juan M Gómez](http://www.jmgomez.me)
  * [Ramón Soto Mathiesen](http://blog.stermon.com/), CTO of CRM @ [Delegate A/S](http://www.delegate.dk)
+ * [Colin Bull](http://colinbul.wordpress.com), Developer / Architect, ([@colinbul](https://twitter.com/colinbul))
 
 ## Contact
 
