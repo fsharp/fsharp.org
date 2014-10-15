@@ -89,6 +89,7 @@ Contributions welcome!
 
 *  [FSharp.Data.HiveProvider](http://fsprojects.github.io/FSharp.Data.HiveProvider) - An F# type provider for writing simple Hive/Hadoop queries. Contributions welcome!
 
+*  [DAXIF# - Delegate Automated Xrm Installation Framework](http://delegateas.github.io/Delegate.DAXIFsharp/) - A set of tools that in combination with other Microsoft Tools, make it easier to work with Microsoft Dynamics CRM/xRM on a daily basis, also for developers who are not familiar with the platform.
 
 <br />
 
