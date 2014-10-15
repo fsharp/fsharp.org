@@ -195,6 +195,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Allen O'Neill
  * David Marr
  * [Juan M Gómez](http://www.jmgomez.me)
+ * [Ramón Soto Mathiesen](http://blog.stermon.com/), CTO of CRM @ [Delegate A/S](http://www.delegate.dk)
 
 ## Contact
 
