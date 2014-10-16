@@ -142,6 +142,8 @@ body {
 
 #logo {
     margin: 0 auto;
+    max-height: 256px;
+    max-width: 256px;
 }
 
 #download-btn {
