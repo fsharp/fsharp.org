@@ -246,7 +246,7 @@ pre {
     width: 7%;
 }
 
-.sponsor {
+.carousel-img {
     margin: 20px auto;
 }
 
@@ -386,4 +386,10 @@ div#contentMain.testimonials ul li {
     margin: 0px 0px 6px 0px;
     line-height: normal;
     padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .jumbotron .lead {font-size: 25px;}
+
 }

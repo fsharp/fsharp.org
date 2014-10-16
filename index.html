@@ -46,15 +46,11 @@
             </div>
 
             <div class="row" id="jumbotron">
-                <div class="col-md-7">
-                    <p class="lead">F# is a mature, open source, cross-platform, functional-first programming language which empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.</p>
-
-                </div>
-                <div class="col-md-5 text-center">
-                    <div class="animated flipInY"><img src="../img/logo/fsharp256.png" class="img-responsive img-rounded" alt="F# Logo" id="logo" /></div>
+                <div class="col-md-5 col-md-push-7 text-center">
+                    <div><img src="../img/logo/fsharp256.png" class="img-responsive img-rounded" alt="F# Logo" id="logo" /></div>
                     <div class="btn-group">
                         <button type="button" class="btn dropdown-toggle btn-menu" data-toggle="dropdown" id="download-btn">
-                            <span class="glyphicon glyphicon-download-alt"></span>
+                            <span class="glyphicon glyphicon-download-alt hidden-xs"></span>
                             Install F# <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu">
@@ -65,6 +61,11 @@
                         </ul>
                     </div>
                 </div>
+                <div class="col-md-7 col-md-pull-5">
+                    <p class="lead">F# is a mature, open source, cross-platform, functional-first programming language which empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.</p>
+
+                </div>
+
             </div>
             <div class="push"></div>
         </div>
@@ -177,7 +178,7 @@
     </nav>
 
     <section class="home-section">
-        <div class="container featured lead text-center">
+        <div class="container featured text-center">
             <p id="section-1" class="featured">F# runs on Linux, Mac OS X, Android, iOS, Windows, GPUs, and HTML5. It is free to use and is open source under an OSI-approved license. F# is used in a wide range of application areas and is supported by both an active open community and industry-leading companies providing professional tools.</p>
         </div>
     </section>
@@ -202,7 +203,7 @@
                     <div class="tab-pane fade in active" id="concise">
                         <div class="row">
                             <div class="col-md-6">
-                                <p class="lead">F# is not cluttered up with coding "noise" such as curly brackets, semicolons and so on.</p>
+                                <p>F# is not cluttered up with coding "noise" such as curly brackets, semicolons and so on.</p>
                             </div>
                             <div class="col-md-6">
 <pre><code class="fsharp">// one-liners
@@ -229,7 +230,7 @@ let worker = Worker jdoe</code></pre>
                     <div class="tab-pane fade" id="correct">
                         <div class="row">
                             <div class="col-md-6">
-                                <p class="lead">F# has a powerful type system which prevents many common errors such as null reference exceptions.</p>
+                                <p>F# has a powerful type system which prevents many common errors such as null reference exceptions.</p>
                             </div>
                             <div class="col-md-6">
 <pre><code class="fsharp">// strict type checking
@@ -255,7 +256,7 @@ let distance = 10&lt;m&gt; + 10&lt;ft&gt; // error!</code></pre>
                     <div class="tab-pane fade" id="concurrent">
                         <div class="row">
                             <div class="col-md-6">
-                                <p class="lead">F# has a number of built-in libraries to help when more than one thing at a time is happening. Asynchronous programming is very easy, as is parallelism. F# also has a built-in actor model, and excellent support for event handling and functional reactive programming.</p>
+                                <p>F# has a number of built-in libraries to help when more than one thing at a time is happening. Asynchronous programming is very easy, as is parallelism. F# also has a built-in actor model, and excellent support for event handling and functional reactive programming.</p>
                             </div>
                             <div class="col-md-6">
 <pre><code class="fsharp">// easy async logic with "async" keyword
@@ -319,7 +320,7 @@ MailboxProcessor.Start(fun inbox-> async {
             <div>
                 <h2 class="text-center section-header">Testimonials</h2>
                 <div class="row wow animated fadeIn">
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="testimonials-col-1">
                         <blockquote>
                             <p>We see great potential for F# to be used as a scripting language in CAD, it fits very well for computational design challenges in the construction industry.</p>
                             <footer>
@@ -339,7 +340,7 @@ MailboxProcessor.Start(fun inbox-> async {
                             </footer>
                         </blockquote>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="testimonials-col-2">
                         <blockquote>
                             <p>When F# is combined with Visual Studio... productivity goes through the roof!</p>
                             <footer>
@@ -378,39 +379,24 @@ MailboxProcessor.Start(fun inbox-> async {
 
     <section class="home-section">
         <div class="container featured">
-            <h2 class="text-center section-header">Corporate Sponsors</h2>
+            <h2 class="text-center section-header">Corporate Supporters</h2>
             <div id="sponsors-carousel" class="carousel slide wow animated fadeIn" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="https://www.quantalea.net/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/quantalea.png" alt="..." />
+                                <a class="carousel-link" href="https://www.quantalea.net/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/quantalea.png" alt="..." />
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="http://www.ffconsultancy.com/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/ffconsultancy.png" alt="..." />
+                                <a class="carousel-link" href="http://www.ffconsultancy.com/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/ffconsultancy.png" alt="..." />
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="http://www.m-brace.net/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/mbrace.png" alt="..." />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="http://fpish.net/" target="_blank"><img class="center-block img-responsive sponsor" src="/img/sup/fpish.png" alt="..." /></a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="http://www.statfactory.co.uk/" target="_blank"> <img class="center-block img-responsive sponsor" src="/img/sup/statfactory.jpg" alt="..." /></a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="http://skillsmatter.com/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/skillsmatter.png" alt="..." />
+                                <a class="carousel-link" href="http://www.m-brace.net/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/mbrace.png" alt="..." />
                                 </a>
                             </div>
                         </div>
@@ -418,18 +404,14 @@ MailboxProcessor.Start(fun inbox-> async {
                     <div class="item">
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="http://www.intellifactory.com/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/intelli.gif" alt="..." />
-                                </a>
+                                <a class="carousel-link" href="http://fpish.net/" target="_blank"><img class="center-block img-responsive carousel-img" src="/img/sup/fpish.png" alt="..." /></a>
                             </div>
                             <div class="col-md-4">
-                                <a href="http://www.extremeoptimization.com/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/extremeoptimization.png" alt="..." />
-                                </a>
+                                <a class="carousel-link" href="http://www.statfactory.co.uk/" target="_blank"> <img class="center-block img-responsive carousel-img" src="/img/sup/statfactory.jpg" alt="..." /></a>
                             </div>
                             <div class="col-md-4">
-                                <a href="http://www.tsunami.io/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/tsunami.png" alt="..." />
+                                <a class="carousel-link" href="http://skillsmatter.com/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/skillsmatter.png" alt="..." />
                                 </a>
                             </div>
                         </div>
@@ -437,31 +419,18 @@ MailboxProcessor.Start(fun inbox-> async {
                     <div class="item">
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="http://www.mathdotnet.com/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/mathdotnet.png" alt="..." />
+                                <a class="carousel-link" href="http://www.intellifactory.com/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/intelli.gif" alt="..." />
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a href="http://fsharp.net/" target="_blank"><img class="center-block img-responsive sponsor" src="/img/sup/microsoft.png" alt="..." /></a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="http://xamarin.com/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/xamarin.png" alt="..." />
+                                <a class="carousel-link" href="http://www.extremeoptimization.com/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/extremeoptimization.png" alt="..." />
                                 </a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row">
                             <div class="col-md-4">
-                                <a href="http://servicestack.net/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/servicestack.png" alt="..." />
-                                </a>
-                            </div>
-                            <div class="col-md-4"><a href="http://www.kaggle.com/" target="_blank"><img class="center-block img-responsive sponsor" src="/img/sup/kaggle.png" alt="..." /></a></div>
-                            <div class="col-md-4">
-                                <a href="http://fpbridge.co.uk/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/fpbridge.png" alt="..." />
+                                <a class="carousel-link" href="http://www.tsunami.io/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/tsunami.png" alt="..." />
                                 </a>
                             </div>
                         </div>
@@ -469,18 +438,50 @@ MailboxProcessor.Start(fun inbox-> async {
                     <div class="item">
                         <div class="row">
                             <div class="col-md-4">
-                                <a href="http://fireflylogic.com/" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/fireflylogic.png" alt="..." />
+                                <a class="carousel-link" href="http://www.mathdotnet.com/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/mathdotnet.png" alt="..." />
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a class="carousel-link" href="http://fsharp.net/" target="_blank"><img class="center-block img-responsive carousel-img" src="/img/sup/microsoft.png" alt="..." /></a>
+                            </div>
+                            <div class="col-md-4">
+                                <a class="carousel-link" href="http://xamarin.com/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/xamarin.png" alt="..." />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a class="carousel-link" href="http://servicestack.net/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/servicestack.png" alt="..." />
+                                </a>
+                            </div>
+                            <div class="col-md-4"><a class="carousel-link" href="http://www.kaggle.com/" target="_blank"><img class="center-block img-responsive carousel-img" src="/img/sup/kaggle.png" alt="..." /></a></div>
+                            <div class="col-md-4">
+                                <a class="carousel-link" href="http://fpbridge.co.uk/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/fpbridge.png" alt="..." />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a class="carousel-link" href="http://fireflylogic.com/" target="_blank">
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/fireflylogic.png" alt="..." />
                                 </a>
                             </div>
                             <!--<div class="col-md-4">
                                 <a href="" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/" alt="..." />
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/" alt="..." />
                                 </a>
                             </div>
                             <div class="col-md-4">
                                 <a href="" target="_blank">
-                                    <img class="center-block img-responsive sponsor" src="/img/sup/" alt="..." />
+                                    <img class="center-block img-responsive carousel-img" src="/img/sup/" alt="..." />
                                 </a>
                             </div>-->
                         </div>
