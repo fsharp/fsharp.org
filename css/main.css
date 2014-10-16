@@ -274,6 +274,10 @@ pre {
     margin-bottom: 9px;
 }
 
+.testimonial {color: black;}
+
+.testimonial:hover {text-decoration: none;}
+
 /* Footer */
 #footer-arrow {
     position: absolute;

@@ -77,12 +77,15 @@ $(function () {
         var testimonials = $.map(arr, function (x) {
             var b = document.createElement("blockquote");
             var p = document.createElement("p");
-            p.textContent = x.Text;
+            var link = document.createElement("a");
+            link.setAttribute("href", x.Permalink);
+            link.setAttribute("class", "testimonial");
+            link.text = x.Text;
+            p.appendChild(link);
             var f = document.createElement("footer");
             var c = document.createElement("cite");
             var a = document.createElement("a");
-            a.setAttribute("href", x.Link);
-            a.setAttribute("target", "_blank");
+            a.setAttribute("href", x.Permalink);
             a.textContent = x.Author;
             c.appendChild(a);
             f.appendChild(c);
