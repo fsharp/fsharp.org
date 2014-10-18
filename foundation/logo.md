@@ -47,3 +47,6 @@ assets, ownership of the logo will be transferred to the F# Software Foundation 
 Usage of the logo is allowed, provided that the logo remains unchanged and the logo is used in a way that is supportive of the mission statement of the F# Software Foundation. Do not alter the image color or proportions.
 
 
+## T-shirts and other Merchandise
+
+F# T-Shirts and other merchandise featuring the F# logo can be purchased at [Zazzle](http://www.zazzle.com/fsharporg/gifts) in USA (sales benefit the F# Software Foundation). If you are in UK you can use [zazzle.co.uk](http://www.zazzle.co.uk/fsharporg/gifts), for other countries please check [Zazzle/International](http://www.zazzle.co.uk/international) and find gifts from `fsharporg`.
