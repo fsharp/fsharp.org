@@ -8,7 +8,7 @@ headline: Affiliated Technical Groups
 The F# Software Foundation members actively seek to encourage and facilitate F#-related meetups,
 discussion groups and working groups affiliated with the foundation. 
 
-Any F#-related group can be affiliated with the FSF, including both professional and open-source groups,
+Any F#-related group can be affiliated with the FSSF, including both professional and open-source groups,
 and those associated with 3rd-party commercial technologies.
 
 The current affiliated technical groups are:
