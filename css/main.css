@@ -66,6 +66,18 @@ nav.affix {
     z-index: 10;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
 /* Footer */
 
 html {
@@ -142,7 +154,6 @@ body {
 
 #logo {
     margin: 0 auto;
-    max-height: 256px;
     max-width: 256px;
 }
 
@@ -250,10 +261,12 @@ pre {
 
 .carousel-img {
     margin: 20px auto;
+    height: 50px;
 }
 
 #sponsors-carousel {
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .footer-links {
@@ -277,6 +290,16 @@ pre {
 .testimonial {color: black;}
 
 .testimonial:hover {text-decoration: none;}
+
+@media screen and (max-width: 768px) {
+
+    .jumbotron .lead {font-size: 25px;}
+
+    #sponsors-carousel, .carousel-control {
+        height: 240px;
+    }
+
+}
 
 /* Footer */
 #footer-arrow {
@@ -392,10 +415,4 @@ div#contentMain.testimonials ul li {
     margin: 0px 0px 6px 0px;
     line-height: normal;
     padding: 0px;
-}
-
-@media screen and (max-width: 768px) {
-
-    .jumbotron .lead {font-size: 25px;}
-
 }
