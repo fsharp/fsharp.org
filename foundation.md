@@ -18,7 +18,7 @@ headline: The F# Software Foundation
       growth of a diverse and international community of F# programmers.</p>
 </div>
 
-#### The FSSF:
+#### The F# Software Foundation (FSSF):
 
  * Maintains a core open-source F# code repository and distributions made available to the public free of charge for use across multiple platforms. This includes the F# compiler, F# language specification, the F# core library and assorted tools and applications.
  * Solicits and manages contributions to this open source F# codebase, and may perform these services on behalf of other open source F#-related codebases. Contributions to the open source F# codebase will maintain the integrity of the F# language and will initially focus on broadening the reach of F# across multiple platforms rather than extending the functionality of the F# language (see notes below).
