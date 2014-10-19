@@ -15,6 +15,7 @@ function feedLoaded(result) {
                 var p = document.createElement("p");
                 a.appendChild(document.createTextNode(entry.title.trim()));
                 a.href = entry.link;
+                a.target = "_blank"
                 h4.appendChild(a);
                 p.appendChild(document.createTextNode(entry.contentSnippet.trim()));
                 li.appendChild(h4);
@@ -32,14 +33,11 @@ function feedLoaded(result) {
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
-    // While there remain elements to shuffle...
     while (0 !== currentIndex) {
 
-        // Pick a remaining element...
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
 
-        // And swap it with the current element.
         temporaryValue = array[currentIndex];
         array[currentIndex] = array[randomIndex];
         array[randomIndex] = temporaryValue;
@@ -48,16 +46,7 @@ function shuffle(array) {
     return array;
 }
 
-$(function () {
-    $.ajax({
-        url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=http%3A%2F%2Ffpish.net%2Frss%2Fblogs%2Ftag%2F1%2Ff~23',
-        dataType: 'json',
-        success: function (data) {
-            feedLoaded(data.responseData.feed);
-        }
-    });
-
-    // Corporate supporters shuffling
+function shuffleSupporters() {
     var carouselLink = $(".carousel-link");
     var shuffled = shuffle(carouselLink.toArray());
     var hrefs = $.map(shuffled, function (x) {
@@ -70,8 +59,9 @@ $(function () {
         x.setAttribute("href", hrefs[index]);
         $(".carousel-img", x).attr("src", srcs[index]);
     });
+}
 
-    // Testimonials shuffling
+function shuffleTestimonials() {
     $.getJSON("testimonials.json", function (data) {
         var arr = shuffle(data).slice(0, 6);
         var testimonials = $.map(arr, function (x) {
@@ -105,4 +95,18 @@ $(function () {
             col2.append(x);
         });
     });
+}
+
+$(function () {
+    $.ajax({
+        url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=http%3A%2F%2Ffpish.net%2Frss%2Fblogs%2Ftag%2F1%2Ff~23',
+        dataType: 'json',
+        success: function (data) {
+            feedLoaded(data.responseData.feed);
+        }
+    });
+
+    shuffleSupporters();
+
+    shuffleTestimonials();
 });
