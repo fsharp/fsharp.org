@@ -18,26 +18,27 @@ headline: The F# Software Foundation
       growth of a diverse and international community of F# programmers.</p>
 </div>
 
-#### The FSSF:
+#### The F# Software Foundation (FSSF):
 
  * Maintains a core open-source F# code repository and distributions made available to the public free of charge for use across multiple platforms. This includes the F# compiler, F# language specification, the F# core library and assorted tools and applications.
  * Solicits and manages contributions to this open source F# codebase, and may perform these services on behalf of other open source F#-related codebases. Contributions to the open source F# codebase will maintain the integrity of the F# language and will initially focus on broadening the reach of F# across multiple platforms rather than extending the functionality of the F# language (see notes below).
  * Owns resources relating to F# including
-  * the domain [fsharp.org](http://fsharp.org/)
-  * the [github.com/fsharp](https://github.com/fsharp/) community organization
-  * the [fsharporg](https://twitter.com/fsharporg) twitter account
+   * the domain [fsharp.org](http://fsharp.org/)
+   * the [github.com/fsharp](https://github.com/fsharp/) community organization
+   * the [fsharporg](https://twitter.com/fsharporg) twitter account
 
  * Maintains the fsharp.org domain as:
-  * A website which gives authoritative and up-to-date information about how to get, use and contribute to F# across a diverse range of platforms; links to other F# news, community, Q&A, social, user group and educational; gives clear and helpful links to commercial companies, tools and products that relate to F#; and hosts other content consistent with the mission statement of the FSSF
-  * The email addresses ...@fsharp.org for the use of the foundation
+   * A website which gives authoritative and up-to-date information about how to get, use and contribute to F# across a diverse range 
+   of platforms; links to other F# news, community, Q&A, social, user group and educational; gives clear and helpful links to commercial companies, tools and products that relate to F#; and hosts other content consistent with the mission statement of the FSSF
+   * The email addresses ...@fsharp.org for the use of the foundation
 
  * Seeks to:
-  * expand the relevance and importance of F# skills and knowledge
-  * expand the range of technologies which can interoperate with F#
-  * expand the range of platforms where F# can be used
-  * encourage a broad and diverse range of contributors to F#, including commercial, open source and educational contributors
-  * publicize and promote the adoption of F#
-  * facilitate the ongoing development of F#-related technology and educational resources, including contributing to F# conferences
+   * expand the relevance and importance of F# skills and knowledge
+   * expand the range of technologies which can interoperate with F#
+   * expand the range of platforms where F# can be used
+   * encourage a broad and diverse range of contributors to F#, including commercial, open source and educational contributors
+   * publicize and promote the adoption of F#
+   * facilitate the ongoing development of F#-related technology and educational resources, including contributing to F# conferences
 
 #### Notes:
 
@@ -53,11 +54,11 @@ If you are interested in supporting the activities of The F# Software Foundation
 
 ### Members
 
-The FSF is currently an informal organization formed by the F# community members listed below, with feedback from a number of other F# community members. If you would like to become a person listing themselves as a founding member of this initiative and who agrees with its goals, please contact <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>. If you have commercial interests in F# (which we encourage!) and those go beyond using the language for writing commercial software (otherwise unrelated to F#), please mention this. If you have comments on the above statement, please contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
+The FSSF is currently an informal organization formed by the F# community members listed below, with feedback from a number of other F# community members. If you would like to become a person listing themselves as a founding member of this initiative and who agrees with its goals, please contact <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>. If you have commercial interests in F# (which we encourage!) and those go beyond using the language for writing commercial software (otherwise unrelated to F#), please mention this. If you have comments on the above statement, please contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
 
 ### Affiliated Groups
 
-Any F#-related group which agrees with the mission statement of the FSF can be affiliated with the FSF.
+Any F#-related group which agrees with the mission statement of the FSSF can be affiliated with the FSSF.
 This includes user working groups, discussion groups, those associated with 3rd-party commercial technologies 
 and both professional and open-source groups. 
 
