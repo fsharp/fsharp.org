@@ -157,7 +157,9 @@ Distributed compute problem require a very wide range of communication capabilit
 from simple command line argument passing to heavily optimized, low-latency interprocess
 communications. This section lists a wide range of communication libraries available to F#.
 
- * [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) - Discusses the Agent pattern for inter-thread and inter-process communication using the F# library's MailboxProcessor. 
+ * [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) - Discusses the Agent pattern for inter-thread and inter-process communication using the F# library's MailboxProcessor.
+ 
+ * [FSharp.CloudAgent] (http://isaacabraham.github.io/FSharp.CloudAgent) - A simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native Mailbox Processor, using Azure Service Bus to provide a cheap and reliable message bus.
 
  * [ServiceStack](http://www.servicestack.net/) - "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all", see also [F# web programming](http://fsharp.org/webstacks/index.html)
 
