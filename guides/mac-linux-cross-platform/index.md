@@ -49,11 +49,15 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](http://github.com/fsharp/fsharpbinding/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more. 
 
-* [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding). On Linux Debian you can use:
+* [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding).
+
+  On Debian Linux or derivatives (e.g. Ubuntu, Mint), you can install MonoDevelop via a graphical package manager, such as Synaptic, or through the command line with:
   
        sudo apt-get install monodevelop
   
-  or [build/install it from source](http://github.com/mono/monodevelop). Then [install or build the F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding)
+  Packages are also available for [openSUSE](http://software.opensuse.org/package/monodevelop), [Fedora](https://apps.fedoraproject.org/packages/monodevelop), and [Arch Linux](https://aur.archlinux.org/packages/monodevelop-latest/) (via the AUR).
+
+  You can also [build/install MonoDevelop from source](http://github.com/mono/monodevelop) if a package is not available/updated for your distribution. You will likely need to [build and install the F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding) yourself, even if you install MonoDevelop from a pre-built package.
   
 * Sublime Text 2
 
