@@ -13,11 +13,11 @@ headline: Use F# on Windows
 
 OR:
 
-   Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) plus the free [Visual F# Tools 3.1.1](http://www.microsoft.com/download/details.aspx?id=41654)
+   Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011)
 
 OR:
 
-   Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747) plus the free [Visual F# Tools 3.1.1](http://www.microsoft.com/download/details.aspx?id=41654)
+   Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011)
 
 OR:
 
@@ -121,4 +121,3 @@ Compiled F# code depends on the FSharp.Core assembly, which is available in FSha
 The *Visual F# Tools* downloads from Microsoft contains FSharp.Core, as well as the command-line tools *fsc* (the F# compiler) and *fsi* (F# Interactive).
 
 - [Visual F# Tools 3.1.2](http://www.microsoft.com/en-us/download/details.aspx?id=44011)
-- [Visual F# Out of Band Release 3.1.1](http://www.microsoft.com/en-us/download/details.aspx?id=41654)
