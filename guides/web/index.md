@@ -7,9 +7,9 @@ redirect_from: "/webstacks/index.html"
 
 F# is excellent for building scalable, robust web solutions:
 
-* *Fast and Scalable* - F# is much faster than NodeJS, Python, PHP and Ruby 
+* *Fast* - F# code execution is fast, using native code generation from scripted or project code 
 * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
-* *Asynchronous* - F# provides asynchronous programming to simplify scalable client-server programming
+* *Asynchronous and Scalable* - F# asynchronous programming simplifies scalable, reactive client-server programming
 * *Interoperable* - F# interoperates seamlessly with languages such as C#, JavaScript and TypeScript
 * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
 * *Open-source* and *Cross-platform*  - Like all good web tools!
