@@ -5,7 +5,7 @@ headline: The F# Software Foundation Logo for F#
 ---
 
 The use of the F# Software Foundation Logo for F#  is welcome and encouraged when used in a way
-that is supportive of [the mission statement of the F# Software Foundation](http://fsharp.org/foundation.html).
+that is supportive of [the mission statement of the F# Software Foundation](foundation.html).
 Individuals and companies are encouraged to incorporate the F# Software Foundation 
 logo for F# on their website, brochures, and other media for activities that support the mission of the foundation.
 
