@@ -3,7 +3,7 @@
    ====== */
 body {
     font-family: 'Rajdhani', sans-serif;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 #main {
@@ -401,19 +401,20 @@ div#contentMain.testimonials ul li {
     }
 }
 
-.contributeBox {
+.calloutBox {
     padding: 30px;
     margin: 30px;
 }
 
-.contributeBox h1 {
+.calloutBox h1 {
     font-size: 180%;
     margin: 10px 10px 10px 0px;
 }
 
-.contributeBox p {
+.calloutBox p {
     font-size: 100%;
     margin: 0px 0px 6px 0px;
     line-height: normal;
     padding: 0px;
 }
+
