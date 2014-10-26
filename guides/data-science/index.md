@@ -112,6 +112,7 @@ Resources:
  * [R.NET](http://rdotnet.codeplex.com) - Core interoperability component used by the R Type Provider with some F# extensions.
 
 <a id="matlab-interop" > </a>
+
 ### F# and MATLAB 
 
 Resources:
@@ -120,6 +121,7 @@ Resources:
  * [Integrating MATLAB with F# and C#](http://www.mathworks.com/matlabcentral/fileexchange/12987) - techniques to call MATLAB from C#, F# and other .NET languages
 
 <a id="python-interop" > </a>
+
 ### F# and Python 
 
 Resources:
@@ -127,6 +129,7 @@ Resources:
  * [Python for .NET](http://pythonnet.sourceforge.net/readme.html) - Allows Python to be integrated into F# and C# programs
 
 <a id="mathematica-interop" > </a>
+
 ### F# and Mathematica
 
 Resources:
