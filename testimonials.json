@@ -1,0 +1,102 @@
+﻿[
+  {
+    "Permalink": "http://fsharp.org/testimonials/#goswin-1",
+    "Text": "We see great potential for F# to be used as a scripting language in CAD, it fits very well for computational design challenges in the construction industry.",
+    "Author": "Goswin Rothenthal"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#horspool-1",
+    "Text": "When F# is combined with Visual Studio… productivity goes through the roof!",
+    "Author": "Prof Nigel Horspool"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#simon-cousins-2",
+    "Text": "I have now delivered three business critical projects written in F#. I am still waiting for the first bug to come in.",
+    "Author": "Simon Cousins"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#michael-hansen",
+    "Text": "The simple, well-designed and powerful core of the language was perfect for introducing the fundamental concepts of functional programming.",
+    "Author": "Michael R. Hansen"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#byron-cook-1",
+    "Text": "F# is the night vision goggles I need when I go into the dark and attempt to solve previously unsolved problems.",
+    "Author": "Professor Byron Cook"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#15below-1",
+    "Text": "We would recommend F# as an additional tool in the kit of any company building software on the .NET stack.",
+    "Author": "Michael Newton"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#credit-suisse-abstract",
+    "Text": "At Credit Suisse, we’ve been using F# to develop quantitative models for financial products.",
+    "Author": "Howard Mansell"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#grange-insurance-1",
+    "Text": "Grange Insurance parallelized its rating engine to take better advantage of multicore server hardware.",
+    "Author": "Grange Insurance"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#trafigura-ad-1",
+    "Text": "Our risk and analytic capabilities (…) are entirely written in F#.",
+    "Author": "Lawrence Austen"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#yan-cui",
+    "Text": "The F# solution offers us an order of magnitude increase in productivty.",
+    "Author": "Yan Cui"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#early-warning-1",
+    "Text": "At a major Investment Bank, we used F# to build an Early Warning Indicator System for Liquidity Risk.",
+    "Author": "Stephen Channell"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#cme-1",
+    "Text": "The efficient use of functional programming throughout the R&D cycle helped make the cycle faster and more efficient.",
+    "Author": "Moody Hadi"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#julien-laugel-1",
+    "Text": "F# allows you to move smoothly in your programming style.",
+    "Author": "Julien Laugel"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#jon-canning",
+    "Text": "Type providers made working with external data sources simple and intuitive.",
+    "Author": "Jon Canning"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#advertisement-rating-and-ranking-at-microsoft",
+    "Text": "Around 95% of the code in these projects has been developed in F#.",
+    "Author": "Anton Schwaighofer"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#andrew-phillips-1",
+    "Text": "F# will continue to be our language of choice for scientific computing.",
+    "Author": "Dr. Andrew Phillips"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#atalasoft",
+    "Text": "I evaluated F# and it and found that for certain tasks it was better than C# in terms of performance while maintaining suitable readability.",
+    "Author": "Atalasoft"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#forensic-software-1",
+    "Text": "This software provides the user with maximum flexibility to move quickly through multiple images.",
+    "Author": "Forensic Software"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#darren-platt-1",
+    "Text": "F# rocks ... building out various algorithms for DNA processing here and it’s like a drug.",
+    "Author": "Darren Platt"
+  },
+  {
+    "Permalink": "http://fsharp.org/testimonials/#reminder-hero",
+    "Text": "The power and flexibility of the language lets us ship features faster, with fewer bugs.",
+    "Author": "Marty Dill"
+  }
+]
