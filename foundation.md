@@ -5,7 +5,6 @@ headline: The F# Software Foundation
 ---
 
 <div class="jumbotron visible-lg missionStatement">
-    <h1>Mission Statement</h1>
     <p>The mission of the F# Software Foundation is to promote, protect, and 
       advance the F# programming language, and to support and facilitate the 
       growth of a diverse and international community of F# programmers.</p>
@@ -48,7 +47,7 @@ headline: The F# Software Foundation
 
 ### Funding
 
-The FSSF is currently run as an informal organization. The intention is to eventually move towards an established organizational structure (e.g. charity or legally established foundation). The FSSF may in the future raise or accept funds to support FSSF programs and services. If it does so, it would adopt charitable status in the UK subject to the regulations for public charity funding.
+The FSSF is currently run as an informal organization. The intention is to eventually move towards an established organizational structure (e.g. charity or legally established foundation). The FSSF may in the future raise or accept funds to support FSSF programs and services. If it does so, it would adopt non-profit/charitable status in the USA and/or UK subject to the regulations for public non-profit/charity funding.
 
 If you are interested in supporting the activities of The F# Software Foundation, please contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
 
