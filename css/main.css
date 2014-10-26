@@ -171,7 +171,6 @@ body {
     -o-transition: all ease-in .15s;
     transition: all ease-in .15s;
     width: auto;
-    margin-bottom: 10px;
 }
 
 #download-btn:hover {
