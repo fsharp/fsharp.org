@@ -3,7 +3,7 @@
    ====== */
 body {
     font-family: 'Rajdhani', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 #main {
@@ -58,6 +58,7 @@ h4 {
     background-color: rgba(0,0,0,.2);
     color: #fff;
 }
+
 
 nav.affix {
     position: fixed;

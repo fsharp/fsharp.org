@@ -98,7 +98,7 @@ Simple.Web is a REST-focused, object-oriented Web Framework for .NET
 
 * [Pure F# Simple.Web Template](http://visualstudiogallery.msdn.microsoft.com/bbec75fa-0f31-47e9-a8ce-c301edb2fa4b) - (Visual Studio) Includes a template for getting started with Simple.Web.
 
-### _Serving Requests with `IHttpHandler`s_
+### _Serving Requests with IHttpHandler_
 
 Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
 
