@@ -11,7 +11,7 @@ body {
 }
 
 .push {
-    height: 80px;
+    height: 60px;
 }
 
 .dropdown-menu, blockquote {
@@ -137,7 +137,7 @@ body {
 }
 
 #social-btns {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .btn-circle {
@@ -170,6 +170,7 @@ body {
     -o-transition: all ease-in .15s;
     transition: all ease-in .15s;
     width: auto;
+    margin-bottom: 10px;
 }
 
 #download-btn:hover {
