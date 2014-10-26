@@ -10,6 +10,11 @@ body {
     padding-top: 100px;
 }
 
+.anchor {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
 .push {
     height: 60px;
 }
