@@ -183,12 +183,11 @@ body {
 }
 
 .home-section {
-    padding: 40px 10px;
+    padding: 70px 10px;
     border-bottom: 1px solid #ddd;
 }
 
 .featured {
-    margin: 0 auto;
     max-width: 80%;
 }
 
