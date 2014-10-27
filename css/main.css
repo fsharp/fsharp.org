@@ -3,7 +3,7 @@
    ====== */
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 #main {
@@ -28,12 +28,18 @@ blockquote {
     font-family: 'Rajdhani', sans-serif;
 }
 
+h1,
+h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+}
+
 h3 {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 h4 {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 /* Navbar */
