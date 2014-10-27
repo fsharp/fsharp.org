@@ -19,10 +19,7 @@ F# is a first-class language on a number of platforms including
 Mac and Linux (with tool support in Xamarin Studio, MonoDevelop, Emacs and other) and Windows (with
 Visual Studio, Xamarin Studio and Emacs) as well as on mobile devices and on the web using HTML5.
 
-
-<a id="documentation" class="anchor"> </a>
-
-## Online Documentation
+<h2 id="documentation" class="anchor">Online Documentation</h2>
 
 Microsoft contributes comprehensive F# documentation that includes general information 
 about F#, a language reference explaining all F# constructs as well as documentation for 
