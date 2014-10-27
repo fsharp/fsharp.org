@@ -198,6 +198,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Ramón Soto Mathiesen](http://blog.stermon.com/), CTO of CRM @ [Delegate A/S](http://www.delegate.dk)
  * [Colin Bull](http://colinbul.wordpress.com), Developer / Architect, ([@colinbul](https://twitter.com/colinbul))
  * [Patrick McDonald](http://patrickmcdonald.org/), ([@paddymcdonald](https://twitter.com/paddymcdonald))
+ * [Helge Stahlmann](http://hstm.me/), ([@hstm42](https://twitter.com/hstm42))
 
 ## Contact
 
