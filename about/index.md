@@ -20,7 +20,7 @@ Mac and Linux (with tool support in Xamarin Studio, MonoDevelop, Emacs and other
 Visual Studio, Xamarin Studio and Emacs) as well as on mobile devices and on the web using HTML5.
 
 
-<a id="documentation" > </a>
+<a id="documentation" class="anchor"> </a>
 
 ## Online Documentation
 

@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Teaching F# | The F# Software Foundation
 headline: Using F# for teaching
@@ -31,7 +31,7 @@ Mac OS and Linux. F# language is supported in several editors. Aside from the co
 Studio and Xamarin Studio tools, there is an F# mode for Emacs and open-source language binding for MonoDevelop.
 
 
-## Online Teaching and Learning
+<h2 id="online-teaching-and-learning" class="anchor">Online Teaching and Learning</h2>
 
 [Try F#](http://www.tryfsharp.org) is an interactive environment where you can
 explore F# in your web browser (on Mac and Windows). It contains a number
@@ -46,7 +46,7 @@ of online tutorials demonstrating the concepts of F#:
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
 
-## Video lectures
+<h2 id="video-lectures" class="anchor">Video lectures</h2>
 
  * **[Teaching programming language concepts with F#](http://channel9.msdn.com/Tags/peter-sestoft)**
    Peter Sestoft, IT University of Copenhagen, Denmark
@@ -69,7 +69,7 @@ of online tutorials demonstrating the concepts of F#:
    Massachusetts, U.S., on November, 2010. The workshop investigated F# as a possible teaching 
    language, as well as its use in industry. Developments in cross-platform issues were highlighted. 
 
-## Textbooks for Teaching F&#35;
+<h2 id="textbooks-for-teaching-f" class="anchor">Textbooks for Teaching F#</h2>
 
 <a href="http://www.imm.dtu.dk/~mire/FSharpBook"><img src="files/fpbook.jpg" style="float:right;margin:15px;border-style:none;" /></a>
 
@@ -109,7 +109,7 @@ The examples present several interpreters and compilers for toy languages, inclu
 a small but usable subset of C, several abstract machines, a garbage collector, and ML-style polymorphic 
 type inference. Each chapter has exercises based on such examples.
 
-## Lectures and course material
+<h2 id="lectures-and-course-material" class="anchor">Lectures and course material</h2>
 
 * **[Introduction to functional programming](http://tomasp.net/materials/mff-fsharp-09/)**
   Tomas Petricek, Charles University, Czech Republic
@@ -151,5 +151,4 @@ type inference. Each chapter has exercises based on such examples.
   the students were learning in maths at that time. This was the first experience of programming 
   for almost all of the students. 
 
-  The [code](https://github.com/sishtiaq/StMattFP101). 
-
+  The [code](https://github.com/sishtiaq/StMattFP101).
