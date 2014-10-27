@@ -70,7 +70,6 @@ h4 {
     color: #fff;
 }
 
-
 nav.affix {
     position: fixed;
     top: 0;
@@ -79,15 +78,27 @@ nav.affix {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: white;
+    border-color: whitesmoke;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    border-color: white;
     background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: whitesmoke;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: white;
+        background-color: transparent;
+    }
 }
 
 /* Footer */
