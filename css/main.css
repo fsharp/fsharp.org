@@ -2,7 +2,7 @@
    Shared
    ====== */
 body {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 }
 
@@ -53,6 +53,7 @@ h4 {
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -135,6 +136,7 @@ body {
 
 .jumbotron .lead {
     font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 #jumbotron {
