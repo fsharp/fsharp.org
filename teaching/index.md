@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Teaching F# | The F# Software Foundation
 headline: Using F# for teaching
@@ -37,7 +37,7 @@ Studio and Xamarin Studio tools, there is an F# mode for Emacs and open-source l
 explore F# in your web browser (on Mac and Windows). It contains a number
 of online tutorials demonstrating the concepts of F#:
 
-<img src="files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
  * [Getting started in F#](http://www.tryfsharp.org/Learn/getting-started)
  * [Advanced F# Programming](http://www.tryfsharp.org/Learn/advanced-programming)
