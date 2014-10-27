@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Teaching F# | The F# Software Foundation
 headline: Using F# for teaching
