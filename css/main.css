@@ -19,6 +19,10 @@ body {
     height: 60px;
 }
 
+blockquote {
+    font-size: 20px;
+}
+
 .dropdown-menu, blockquote {
     font-size: 20px;
     font-family: 'Rajdhani', sans-serif;
