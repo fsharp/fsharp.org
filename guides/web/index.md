@@ -20,6 +20,10 @@ the [F# Web Stack Google Group](https://groups.google.com/forum/#!forum/web-stac
 
 ## Frameworks for Web Applications
 
+### [Suave.io](http://suave.io/)
+
+Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+
 ### ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) 
 
 WebSharper allows end-to-end web applications with both client and server developed in F#. 
@@ -40,9 +44,6 @@ and [FunScript HTML Extensions](http://youtu.be/Xmvehkj8qGM).
 
 NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-applications and micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
-### [Suave.io](http://suave.io/)
-
-Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
 ## Frameworks for Micro-services and Server-Side Web APIs
 
