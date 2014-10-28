@@ -378,6 +378,7 @@ pre {
     padding: 0px;
     margin: 0px 10px 0px 0px;
     font-style: italic;
+    font-size: 18px;
 }
 
 .testimonials hr {
@@ -391,7 +392,6 @@ pre {
     padding: 0px;
     color: #606060;
     font-size: 85%;
-    font-style: italic;
 }
 
 .testimonials ol strong {
