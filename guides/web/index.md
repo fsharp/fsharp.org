@@ -5,11 +5,11 @@ headline: Web Programming with F#
 redirect_from: "/webstacks/index.html"
 ---
 
-F# has many advantages for building scalable, robust web solutions:
+F# has many advantages for building efficient, scalable and robust web solutions:
 
 * *Fast* - F# code execution is fast, using native code generation from scripted or project code 
 * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
-* *Asynchronous and Scalable* - F# asynchronous programming simplifies scalable, reactive client-server programming
+* *Reactive and Scalable* - F# asynchronous programming simplifies scalable, reactive web programming
 * *Interoperable* - F# interoperates seamlessly with languages such as C#, JavaScript and TypeScript
 * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
 * *Open-source* and *Cross-platform*  - Like all good web tools!
@@ -34,21 +34,15 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 
 FunScript is an F# to JavaScript converter with TypeScript interoperability.
 
-* TodoMVC with FunScript and Ractive [part 1](http://youtu.be/smyeLH6HktA) and [part 2](http://youtu.be/hhqKArYkfYA)
-* [FunScript HTML Extensions](http://youtu.be/Xmvehkj8qGM)
+* Video: [TodoMVC with FunScript and Ractive (part 1)](http://youtu.be/smyeLH6HktA) and [part 2](http://youtu.be/hhqKArYkfYA)
+* Video: [FunScript HTML Extensions](http://youtu.be/Xmvehkj8qGM)
 
 ### [NancyFx](https://github.com/NancyFx/Nancy)
 
-NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
-
-### [SignalR](http://www.asp.net/signalr)
-
-SignalR provides bi-directional communication between web servers and clients using one of several mechanisms, beginning with [web sockets](http://www.websocket.org/) and falling back through several other approaches depending on client and server capabilities.
-
-* [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02)
+NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-applications and micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
 
-## Frameworks for Server-Side Web APIs
+## Frameworks for Micro-services and Server-Side Web APIs
 
 ### ![logo](/images/thumbs/fsharp.web.png)&nbsp;[Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html)
 
@@ -74,6 +68,12 @@ See a [sample todo-backend](https://github.com/panesofglass/TodoBackendFSharp/bl
 
 Frank provides combinators for composing web applications using the types in `System.Net.Http`, the library that drives ASP.NET Web API.
 
+### [SignalR](http://www.asp.net/signalr)
+
+SignalR provides bi-directional communication between web servers and clients using one of several mechanisms, beginning with [web sockets](http://www.websocket.org/) and falling back through several other approaches depending on client and server capabilities.
+
+* [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02)
+
 ### ![logo](/images/thumbs/servicestack.png)&nbsp;[ServiceStack](https://servicestack.net/)
 
 ServiceStack is a framework for simple and fast web services on .NET and Mono.
@@ -98,19 +98,20 @@ Simple.Web is a REST-focused, object-oriented Web Framework for .NET
 
 * [Pure F# Simple.Web Template](http://visualstudiogallery.msdn.microsoft.com/bbec75fa-0f31-47e9-a8ce-c301edb2fa4b) - (Visual Studio) Includes a template for getting started with Simple.Web.
 
-### _Serving Requests with IHttpHandler_
+### [Suave.io](http://suave.io/)
+
+Simple web development library in F# that provides a lightweight web server.
+
+### Serving Requests with IHttpHandler
 
 Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
 
 * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
 * [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) - (Visual Studio, ASP.NET) Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
 
-### _Making WSDL Services_
+### Making WSDL Services
 
 * [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
-
-### [Suave.io](http://suave.io/)
-Simple web development library in F# that provides a lightweight web server.
 
 ## Hosting
 
