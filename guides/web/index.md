@@ -20,7 +20,7 @@ the [F# Web Stack Google Group](https://groups.google.com/forum/#!forum/web-stac
 
 ## Frameworks for Web Applications
 
-### [Suave.io](http://suave.io/)
+### ![logo](/images/thumbs/suave.png)&nbsp;[Suave.io](http://suave.io/)
 
 Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
