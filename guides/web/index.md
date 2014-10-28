@@ -12,7 +12,7 @@ F# has many advantages for building efficient, scalable and robust web solutions
 * *Reactive and Scalable* - F# asynchronous programming simplifies scalable, reactive web programming
 * *Interoperable* - F# interoperates seamlessly with languages such as C#, JavaScript and TypeScript
 * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
-* *Open-source* and *Cross-platform*  - Like all good web tools!
+* *Open-source* and *Cross-platform*  - like all good web tools
 
 The [Cloud Programming](/cloud) section contains more details on scalable cloud-hosted web programming with F#.
 If you are interested in contributing to F# as a web programming tool, please join 
@@ -46,6 +46,13 @@ NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-a
 ### [Suave.io](http://suave.io/)
 
 Simple web development library in F# that provides a lightweight web server.
+
+### [Serving Requests with IHttpHandler](http://codinglight.blogspot.co.uk/2010/03/writing-your-own-httphandler-in-f.html)
+
+Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
+
+* [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
+
 
 ### [Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html)
 
@@ -91,17 +98,11 @@ NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-s
 * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
 * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
 
-### [Serving Requests with IHttpHandler](http://codinglight.blogspot.co.uk/2010/03/writing-your-own-httphandler-in-f.html)
 
-Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
+### [Canopy for Client-side Testing](http://lefthandedgoat.github.io/canopy)
 
-* [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
-
-
-
-## Client-side Testing
-
-* [canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and concise. You can easily leverage your existing .Net code to help you test.
+[canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and 
+concise. You can easily leverage your existing .NET code to help you test.
  
 
 ## Books
@@ -172,7 +173,7 @@ implemented in HTML with some C#. Models and controllers are implemented in F#.
 * The [F#/C# Web Templates (Xamarin Studio, ASP.NET MVC 4)](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) are a similar set of cross-platform templates for MonoDevelop. 
 * The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 3](http://visualstudiogallery.msdn.microsoft.com/f57aa816-e96b-4133-ab5d-9b9b99914ead) include templates for ASP.NET MVC 3 (ASPX/Razor). 
 
-### Silverlight Applications: 
+### Silverlight Applications
 
 For those still using Silverlight, you can use F# to build Silverlight projects 
 in whole or in part. Some resources are:
