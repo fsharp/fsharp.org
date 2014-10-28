@@ -5,7 +5,7 @@ headline: Web Programming with F#
 redirect_from: "/webstacks/index.html"
 ---
 
-F# is excellent for building scalable, robust web solutions:
+F# has many advantages for building scalable, robust web solutions:
 
 * *Fast* - F# code execution is fast, using native code generation from scripted or project code 
 * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
@@ -20,28 +20,28 @@ F# also shines in the area of web API development through frameworks like  [Serv
 
 ## Frameworks for Web Applications
 
-### ![logo](/images/thumbs/WebSharper.png)&nbsp;[_WebSharper_](http://websharper.com/) 
+### ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) 
 
 WebSharper allows end-to-end web applications with both client and server developed in F#. 
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
-### ![logo](/images/thumbs/fsharp.web.png)&nbsp;[_Pure F# ASP.NET MVC_](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+### ![logo](/images/thumbs/fsharp.web.png)&nbsp;[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
 * [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft.
 * [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) is a pure, F#-only project template for implementing a web application with ASP.NET MVC 5. Views are implemented in HTML5 using modern Javascript frameworks, also known as single-page applications, or SPAs. Models and controllers are implemented in F#.
 
-### [_FunScript_](http://funscript.info/)
+### [FunScript](http://funscript.info/)
 
 FunScript is an F# to JavaScript converter with TypeScript interoperability.
 
 * TodoMVC with FunScript and Ractive [part 1](http://youtu.be/smyeLH6HktA) and [part 2](http://youtu.be/hhqKArYkfYA)
 * [FunScript HTML Extensions](http://youtu.be/Xmvehkj8qGM)
 
-### [_NancyFx_](https://github.com/NancyFx/Nancy)
+### [NancyFx](https://github.com/NancyFx/Nancy)
 
 NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
-### [_SignalR_](http://www.asp.net/signalr)
+### [SignalR](http://www.asp.net/signalr)
 
 SignalR provides bi-directional communication between web servers and clients using one of several mechanisms, beginning with [web sockets](http://www.websocket.org/) and falling back through several other approaches depending on client and server capabilities.
 
@@ -50,7 +50,7 @@ SignalR provides bi-directional communication between web servers and clients us
 
 ## Frameworks for Server-Side Web APIs
 
-### ![logo](/images/thumbs/fsharp.web.png)&nbsp;[_Pure F# Web API 2.0_](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html).
+### ![logo](/images/thumbs/fsharp.web.png)&nbsp;[Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html)
 
 [Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft. The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html). These templates provide a Pure F# project for implementing a web API with Web API 2.0. Everything is implemented in F#.
    
@@ -64,17 +64,17 @@ Some resources on using F# with Web API:
 * [Sample F# ASP.NET Web API hosted with OWIN on an Azure Worker Role](https://github.com/panesofglass/AzureFSharpOwin)
 * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio, ASP.NET Web API) Includes templates for ASP.NET Web API. 
 
-### [_Dyfrig_](https://github.com/fsprojects/dyfrig)
+### [Dyfrig](https://github.com/fsprojects/dyfrig)
 
 Dyfrig provides an [OWIN](http://owin.org/) implementation for F# and includes combinators for [railway-oriented programming](https://github.com/fsprojects/dyfrig/blob/master/src/Dyfrig/OwinRailway.fsi), a [computation expression with lenses](https://github.com/fsprojects/dyfrig/blob/master/src/Dyfrig/OwinApp.fs#L35), and [adapters for `System.Net.Http` types](https://github.com/fsprojects/dyfrig/blob/master/src/Dyfrig/SystemNetHttpAdapter.fsi).
 
 See a [sample todo-backend](https://github.com/panesofglass/TodoBackendFSharp/blob/master/docs/index.md) implementation.
 
-### [_Frank_](http://frankfs.net/)
+### [Frank](http://frankfs.net/)
 
 Frank provides combinators for composing web applications using the types in `System.Net.Http`, the library that drives ASP.NET Web API.
 
-### ![logo](/images/thumbs/servicestack.png)&nbsp;[_ServiceStack_](https://servicestack.net/)
+### ![logo](/images/thumbs/servicestack.png)&nbsp;[ServiceStack](https://servicestack.net/)
 
 ServiceStack is a framework for simple and fast web services on .NET and Mono.
 
@@ -83,14 +83,14 @@ ServiceStack is a framework for simple and fast web services on .NET and Mono.
 * [F# and ServiceStack Example 2](http://www.servicestack.net/mythz_blog/?p=811) - An Async, Cached Twitter API Proxy in F#
 * [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
 
-### [_NancyFx_](https://github.com/NancyFx/Nancy)
+### [NancyFx](https://github.com/NancyFx/Nancy)
 
 NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
 
 * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
 * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
 
-### [_Simple.Web_](https://github.com/markrendle/Simple.Web)
+### [Simple.Web](https://github.com/markrendle/Simple.Web)
 
 Simple.Web is a REST-focused, object-oriented Web Framework for .NET
 
@@ -116,9 +116,9 @@ Simple web development library in F# that provides a lightweight web server.
 
 Common hosting options are:
 
-* [_Heroku_](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
-* [_Azure Web Sites_](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
-* [_AppHarbor_](http://appharbor.com/) - Free hosting of .NET web applications
+* [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
+* [Azure Web Sites](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
+* [AppHarbor](http://appharbor.com/) - Free hosting of .NET web applications
 
 
 ## Scaling to the Cloud
