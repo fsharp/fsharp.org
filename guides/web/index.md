@@ -40,12 +40,11 @@ and [FunScript HTML Extensions](http://youtu.be/Xmvehkj8qGM).
 
 NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-applications and micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
-
-## Frameworks for Micro-services and Server-Side Web APIs
-
 ### [Suave.io](http://suave.io/)
 
-Simple web development library in F# that provides a lightweight web server.
+Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+
+## Frameworks for Micro-services and Server-Side Web APIs
 
 ### [Serving Requests with IHttpHandler](http://codinglight.blogspot.co.uk/2010/03/writing-your-own-httphandler-in-f.html)
 
