@@ -50,7 +50,7 @@ F# allows for the direct integration of scalable data stores into F# programming
 
 ### Exploratory Data Frame and Time Series Programming
 
-* See the (/guides/data-science) section for more information on data science with F#.
+* See the [Data Science](/guides/data-science) guide for more information on data science with F#.
 
 
 
