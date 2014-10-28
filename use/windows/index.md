@@ -18,7 +18,7 @@ headline: Use F# on Windows
 The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
 See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
 
-##### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) #####
+#### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) ####
 
 Optionally, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
 for use with Visual Studio 2012 and 2013 (Professional or higher). They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
@@ -32,7 +32,7 @@ for use with Visual Studio 2012 and 2013 (Professional or higher). They include 
 [union pattern match case generation](http://fsprojects.github.io/VisualFSharpPowerTools/unionpatternmatchcasegeneration.html) and the
 [navigate-to command](http://fsprojects.github.io/VisualFSharpPowerTools/navigateto.html).
 
-##### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users #####
+#### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users ####
 
 With some versions of ReSharper, the `Alt+Enter` shortcut key for the `Execute in Interactive`
 command of the Visual F# Tools  doesn't work, as ReSharper overrides this for its own purposes.

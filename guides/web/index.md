@@ -15,7 +15,7 @@ F# has many advantages for building efficient, scalable and robust web solutions
 * *Open-source* and *Cross-platform*  - like all good web tools
 
 The [Cloud Programming](/cloud) section contains more details on scalable cloud-hosted web programming with F#.
-If you are interested in contributing to F# as a web programming tool, please join 
+To contribute to F# as a web programming tool, please join 
 the [F# Web Stack Google Group](https://groups.google.com/forum/#!forum/web-stack-fs). 
 
 ## Frameworks for Web Applications

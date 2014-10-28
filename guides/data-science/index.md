@@ -9,7 +9,8 @@ Data science is the application of statistical analysis, machine learning, data 
 real-world data sources to bring understanding and insight to data-oriented problem domains.
 
 F# is an excellent solution for programmatic data science as it combines efficient execution
-with powerful libraries and scalable data integration. [Try F#](http://tryfsharp.org/learn) has sections specific to data science. 
+REPL-scripting, powerful libraries and scalable data integration. 
+[Try F#](http://tryfsharp.org/learn) has sections specific to data science. 
 
 ### Base Technologies for F# Data Science
 
@@ -23,16 +24,15 @@ with powerful libraries and scalable data integration. [Try F#](http://tryfsharp
 ### Exploratory Data and Time Series Programming
 
 ![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality 
-package for data and time series manipulation and for scientific programming. It supports working with 
-structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
+package for data and time series manipulation and for scientific programming. 
+It uses a design similar to the Pandas library from Python and the 'tseries' or 'zoo' packages in R, though
+with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
 work well for exploratory programming using F# and C# interactive console, but can be also used in 
 efficient compiled .NET code. 
 
 * [Understanding the world with F# (article)](http://www.thedevelopermag.com/understanding-world-f/)
 * [Understanding the world with F# (video)](http://channel9.msdn.com/posts/Understanding-the-World-with-F)
 
-If you are familiar with the Pandas library from Python or the 'tseries' or 'zoo' packages in R, 
-then this package is for you. 
 
 ### Interoperability with Excel, R, Python, MATLAB and Mathematica
 
@@ -50,11 +50,9 @@ to F# can't be found, then search for C# instead and adjust the technique approp
 
 <a id="excel-interop" > </a>
 
-### F# and Microsoft Excel 
+### F# and Excel 
 
-F# can be used in conjunction with Microsoft Excel in a number of interesting ways.
-
-##### Integrating F# and Excel through FCell
+#### Integrating F# and Excel through FCell
 
 [FCell](http://fcell.io) lets you dynamically create Excel Ribbon, Custom Task Panes, and UDFs in F#, C# and VB. 
 FCell enables you to type F# directly into the spreadsheet and see your changes at a push of button. 
@@ -64,7 +62,7 @@ Use all of the advanced F# features from Excel. For example, Async and Observabl
  * [FCell home pages](http://fcell.io/)
  * [FCell features](http://fcell.io/tour.html)
 
-##### Integrating F# and Excel through Excel-DNA
+#### Integrating F# and Excel through Excel-DNA
 
 [Excel-DNA](http://excel-dna.net/) is an independent project to integrate .NET into Excel. With Excel-DNA you can make native (.xll) add-ins for Excel using C#, Visual Basic.NET or F#, providing high-performance user-defined functions (UDFs), custom ribbon interfaces 
 and more. Your entire add-in can be packed into a single .xll file requiring no installation or registration:
@@ -74,7 +72,7 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  * [Async and event-streaming Excel UDFs with F#](http://excel-dna.net/2013/03/26/async-and-event-streaming-excel-udfs-with-f/)
  * [Machine Learning with Excel: Combine the power of Excel, F# and R](http://luajalla.azurewebsites.net/excel-dna-three-stories/)
 
-##### Integrating F# and Excel through Open Office XML file manipulation
+#### Integrating F# and Excel through Open Office XML file manipulation
 
 [NPOI](https://npoi.codeplex.com/) is .NET version of POI Java project at http://poi.apache.org/. POI is an open source project which can help you read/write xls, doc, ppt files.
 
@@ -86,11 +84,11 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  
 Both NPOI and EPPLus manipulate the Open Office XML format so it does not require having Excel installed and does not use Interop.  You can read,create and edit Excel documents using this approach.
 
-##### Interoperating with Excel through type providers
+#### Interoperating with Excel through type providers
 
 [F# Excel Type Provider](http://fsprojects.github.io/ExcelProvider/) is an prototypical F# type providerfor Excel that allows you  to read Excel files using typed data provided by the type provider. 
 
-##### Interoperating with Excel through API's
+#### Interoperating with Excel through API's
 
 F# can interoperate with Excel through existing Excel API's. For example:
 
