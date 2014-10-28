@@ -4,7 +4,7 @@ title: Learning F# | The F# Software Foundation
 headline: Learning F#
 ---
 
-To learn F# use one of the free online tutorials or books below.
+To learn F# use one of the free online resources or books below.
 
 ### [F# for Fun and Profit](http://fsharpforfunandprofit.com/)
 
