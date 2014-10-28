@@ -289,7 +289,7 @@ to parser generators. We also build an evaluator, and extend the core Simply lan
 primitives and build a graphical shell environment around it. As a warm-up, we give a rudimentary survey 
 of some notable F# features, including sequence expressions and active patterns.
 
-<h2 id="distributed-and-parallel-programming" class="anchor"> Distributed programming </h2>
+<h2 id="distributed-and-parallel-programming" class="anchor"> Parallel and Distributed programming </h2>
 
 
 ### [MBrace: cloud computing with monads](http://dl.acm.org/citation.cfm?id=2525531&dl=ACM&coll=DL&CFID=454202220&CFTOKEN=25283533)
