@@ -52,34 +52,42 @@ Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac
 go further.
 
 
-### Option 3: Get the F# 3.0 CentOS/RHEL/SciLinux packages with puppet
+### Option 3: F# 3.x for RHEL, CentOS, Amazon, Fedora w/ puppet/configuration management
 
-Compiling the RPMs is easy with
-[FPM-recipes](https://github.com/haf/fpm-recipes). This will give you a *mono*
-RPM and a *fsharp* RPM. Either you install these directly on your target system,
-or you set up a [yum repository](https://github.com/haf/puppet-yum) to host
-them.
+To see an example of how to set it up, navigate to https://github.com/haf/vagrant-eventstore#run, read the README and look inside the `run` file and the `Vagrantfile` file. It pulls down all required dependencies and starts vagrant to get you up and running EventStore (as a sample application).
 
-When you have RPMs, the rest is really easy with
-[puppet-mono](https://github.com/haf/puppet-mono) and
-[puppet-fsharp](https://github.com/haf/puppet-fsharp) which take care of pulling
-in the packages for you. The mono module also updates the CA-authority list from
-Mozilla so that you don't get problems with HTTPS requests.
+With the `epel`, `eventstore`, `mono` and `supervisor` puppet module and a reference to [packagecloud/haf/oss](https://packagecloud.io/haf/oss) repository, you can install a full environment and running service in a couple of minutes:
 
-        include mono
-        include fsharp
+``` puppet
+class baseline {
+  include ::epel
+  include ::packagecloud
 
-Or alternatively from the command line:
+  packagecloud::repo { 'haf/oss':
+    type => 'rpm',
+  }
+}
 
-        sudo yum install -y mono fsharp
+node default {
+  include ::baseline
 
-You can now do:
+  class { 'mono':
+    require => [
+      Class['epel'],
+      Packagecloud::Repo['haf/oss']
+    ],
+  }
 
-        fsharpi
+  class { 'supervisor':
+    require => [
+      Class['epel'],
+      Packagecloud::Repo['haf/oss']
+    ],
+  }
 
-Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
-go further.
-
+  include ::eventstore
+}
+```
 
 ### Option 4: Get F# 3.1 on Gentoo (Sabayon/Funtoo/Calculate)
 
