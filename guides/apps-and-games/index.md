@@ -5,8 +5,6 @@ headline: App and Game Programming with F#
 redirect_from: "/apps-and-games/index.html"
 ---
 
-### Platforms
-
 F# executes on a broad range of app and gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), 
 [F# on Mac](/use/mac/), [JavaScript/HTML5](/webstacks) and [Windows](/use/windows/). See those 
 sections for details about getting started with F# on those platforms.
@@ -93,13 +91,13 @@ Objective-C as well.  The [Xamarin Developer Center](http://docs.xamarin.com/) c
 ### Unity3D
 
 [Visual Studio 2013 Tools for Unity](http://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2) allows you to write and debug your Unity 3D games inside Microsoft Visual Studio.
-With this plugin you can debug DLLs built with F# in Visual Studio while running them from Unity3D, however currently it does not support creating F# scripts directly inside of the Unity3D editor.
+With this plugin you can debug DLLs built with F# in Visual Studio while running them from Unity3D.
 
 
 ### Duality 
-Duality is a plugin based 2D game development framework based on C# and OpenTK. To get a quick overview, please visit the [project page](http://duality.fetzenet.de). Duality's main strengh is a fully featured extensible editor. Make sure to check it out. (OSS and MIT Licensed)
 
-F# Scripting plugin. [How to use](http://www.roundcrisis.com/2014/04/21/Fsharp-scripting-for-the-game-engine/) | [Code](https://github.com/BraveSirAndrew/DualityScripting)
+Duality is a plugin based 2D game development framework based on C# and OpenTK. To get a quick overview, please visit the [project page](http://duality.fetzenet.de). Duality's main strengh is a fully featured extensible editor. (OSS and MIT Licensed)
+An [F# Scripting plugin is available](http://www.roundcrisis.com/2014/04/21/Fsharp-scripting-for-the-game-engine/) ([code](https://github.com/BraveSirAndrew/DualityScripting))
 
 ### Server-side of Games
 
@@ -109,15 +107,6 @@ the largest Facebook social games, as described in [this interview](http://www.d
 See the [Web Programming](/webstacks) and [Cloud](/cloud) section for details of using F# with server-side technologies. 
 
 
-### Microsoft XNA
-
-[Microsoft XNA](http://msdn.microsoft.com/en-us/aa937791.aspx) is a set of tools with a managed runtime environment that 
-facilitates video game development and management.
-Although it is no longer developed by Microsoft, it is still popular amond developers and an update is available to
-support recent versions of Visual Studio.
-
-* [F# With XNA Game Studio](http://azerdark.wordpress.com/2011/04/05/f-with-xna-game-studio/)
-* [XNA Game Studio for Visual Studio 2013](https://msxna.codeplex.com/)
 
   
 ### Projects
@@ -129,3 +118,5 @@ support recent versions of Visual Studio.
 * ![learnonthego](https://f.cloud.github.com/assets/738761/1654048/bb001dfe-5b42-11e3-92b6-6a7e6c28241c.png)&nbsp;[Learn On The Go](https://github.com/ovatsus/Apps/tree/master/LearnOnTheGo) - A windows phone app for watching [Coursera](https://www.coursera.org/) lectures implemented in F#.
 
 * ![trains](https://f.cloud.github.com/assets/738761/1654047/b96c323e-5b42-11e3-9856-c000c6206ead.png)&nbsp;[UK Trains](https://github.com/ovatsus/Apps/tree/master/Trains) - A windows phone app for checking train departure and arrival information implemented in F#.
+
+* [XNA Game Studio for Visual Studio 2013](https://msxna.codeplex.com/)

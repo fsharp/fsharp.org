@@ -5,7 +5,7 @@ headline: Machine Learning with F#
 redirect_from: "/machine-learning/index.html"
 ---
 
-F# is ideally suited to machine learning because of its efficient execution, succinct style,
+F# is well-suited to machine learning because of its efficient execution, succinct style,
 data access capabilities and scalability. F# has been successfully used by some of the most advanced machine learning teams in the world, including several groups at Microsoft Research.
 
 [Try F#](http://tryfsharp.org/learn) has some introductory machine learning algorithms.
@@ -41,21 +41,18 @@ Several F# machine learning packages are available. Some are accessed through F#
 
 
  * [Accord.MachineLearning](http://nuget.org/packages/Accord.MachineLearning/) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
-
-    * [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
+   See also [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
 
  * [R Packages](http://bluemountaincapital.github.io/FSharpRProvider/) - All R packages can be accessed through the [RProvider for F#](http://bluemountaincapital.github.io/FSharpRProvider/).
+   See, for example, [F# Neural Networks with the RProvider and Deedle](http://sergeytihon.wordpress.com/2013/11/18/f-neural-networks-with-rprovider-deedle/)
 
-    * [F# Neural Networks with the RProvider and Deedle](http://sergeytihon.wordpress.com/2013/11/18/f-neural-networks-with-rprovider-deedle/)
-
- *  [Vulpes](https://github.com/SpiegelSoft/Vulpes) - A machine learning app using a deep belief network and connecting to the NVIDIA GPU unit using [Alea.cuBase] (http://blog.quantalea.net/).
+ * [Vulpes](https://github.com/SpiegelSoft/Vulpes) - A machine learning app using a deep belief network and connecting to the NVIDIA GPU unit using [Alea.cuBase](http://blog.quantalea.net/).
 
  * [Ariadne](http://evelinag.com/Ariadne/) - Library for fitting Gaussian process regression models.
 
  * [Encog Machine Learning Framework](http://nuget.org/packages/encog-dotnet-core/) - An advanced neural network and machine learning framework. Encog 
    contains classes to create a wide variety of networks, as well as support classes to normalize and process data for these neural networks. Encog trains using multithreaded resilient propagation. Encog can also make use of a GPU to further speed processing time. A GUI based workbench is also provided to help model and train neural networks. 
-
-    * [ENCOG Neural Network XOR example in F#](http://relentlessdevelopment.wordpress.com/2013/11/14/hello-neurons-encog-neural-network-xor-example-in-f/)
+   See, for example, [ENCOG Neural Network XOR example in F#](http://relentlessdevelopment.wordpress.com/2013/11/14/hello-neurons-encog-neural-network-xor-example-in-f/)
 
  * [Numl](http://nuget.org/packages/numl/) - A machine learning library intended to ease the use of using standard modeling techniques for both prediction and clustering
 
