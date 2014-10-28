@@ -29,6 +29,9 @@ To add a paper to this list, log on to GitHub, [edit this page](https://github.c
    event-based programming and "joinads", a research extension of F# _computation expression_ syntax
    for concurrent, reactive and parallel programming patterns.
 
+ * **[Distributed programming](#distributed-programming)** - publications
+   about distributed programming using F#.
+
  * **[Functional programming](#functional-programming)** - publications
     about core F# language features including _active patterns_ and intialization of 
     mutually recursive values.
@@ -48,7 +51,7 @@ To add a paper to this list, log on to GitHub, [edit this page](https://github.c
 --------------
 
 
-## Information-rich programming
+<h2 id="information-rich-programming" class="anchor"> Information-rich programming </h2>
 
 ### [F# 3.0 - Strongly-Typed Language Support for Internet-Scale Information Sources](http://research.microsoft.com/apps/pubs/default.aspx?id=173076)
 
@@ -78,7 +81,7 @@ massively expanded, especially through tooling that benefits from rich types in 
 
 
 
-## Asynchronous, Concurrent and Reactive programming
+<h2 id="asynchronous-concurrent-and-reactive-programming" class="anchor"> Asynchronous, Concurrent and Reactive programming </h2>
 
 ### [The F# Asynchronous Programming Model](http://blogs.msdn.com/b/dsyme/archive/2010/10/21/the-f-asynchronous-programming-model-padl-2010-pre-publication-draft.aspx)
 
@@ -233,9 +236,17 @@ calculus and a parallel model using futures. All three models are implemented as
 that benefit from our syntactic extension. This makes them easier to use and also opens 
 space for exploring new useful programming models. 
 
+<h2 id="distributed-programming" class="anchor"> Distributed programming </h2>
 
 
-## DSLs and Meta-programming
+### [MBrace: cloud computing with monads](http://dl.acm.org/citation.cfm?id=2525531&dl=ACM&coll=DL&CFID=454202220&CFTOKEN=25283533)
+
+Jan Dzik, Nick Palladinos, Konstantinos Rontogiannis, Eirik Tsarpalis, Nikolaos Vathis
+_In pre-proceedings of PLOS '13 Seventh Workshop on Programming Languages and Operating Systems Article No. 7_
+
+As cloud computing and big data gain prominence in today's economic landscape, the challenge of effectively articulating complex algorithms in distributed environments becomes ever more important. In this paper we describe MBrace; a novel programming model/framework for performing large scale computation in the cloud. Based on the .NET software stack, it utilizes the power of the F# programming language. MBrace introduces a declarative style for specifying and composing parallelism patterns, in what is known as cloud workflows or a cloud monad. MBrace is also a distributed execution runtime that handles orchestration of cloud workflows in the data centre.
+
+<h2 id="dsls-and-meta-programming" class="anchor"> DSLs and Meta-programming </h2>
 
 ### [Leveraging .NET meta-programming components from F#: integrated queries and interoperable heterogeneous execution](http://dl.acm.org/citation.cfm?doid=1159876.1159884)
 
@@ -287,12 +298,6 @@ to parser generators. We also build an evaluator, and extend the core Simply lan
 primitives and build a graphical shell environment around it. As a warm-up, we give a rudimentary survey 
 of some notable F# features, including sequence expressions and active patterns.
 
-### [MBrace: cloud computing with monads](http://dl.acm.org/citation.cfm?id=2525531&dl=ACM&coll=DL&CFID=454202220&CFTOKEN=25283533)
-
-Jan Dzik, Nick Palladinos, Konstantinos Rontogiannis, Eirik Tsarpalis, Nikolaos Vathis
-_In pre-proceedings of PLOS '13 Seventh Workshop on Programming Languages and Operating Systems Article No. 7_
-
-As cloud computing and big data gain prominence in today's economic landscape, the challenge of effectively articulating complex algorithms in distributed environments becomes ever more important. In this paper we describe MBrace; a novel programming model/framework for performing large scale computation in the cloud. Based on the .NET software stack, it utilizes the power of the F# programming language. MBrace introduces a declarative style for specifying and composing parallelism patterns, in what is known as cloud workflows or a cloud monad. MBrace is also a distributed execution runtime that handles orchestration of cloud workflows in the data centre.
 
 ### [Specifying and Executing Optimizations for Parallel Programs](http://web.engr.illinois.edu/~mansky1/exec.pdf)
 
@@ -301,7 +306,7 @@ _In pre-proceedings of GRAPHITE '14_
 
 Compiler optimizations, usually expressed as rewrites on program graphs, are a core part of all modern compilers. However, even production compilers have bugs, and these bugs are difficult to detect and resolve. The problem only becomes more complex when compiling parallel programs; from the choice of graph representation to the possibility of race conditions, optimization designers have a range of factors to consider that do not appear when dealing with single-threaded programs. In this paper we present PTRANS, a domain-specific language for formal specification of compiler transformations, and describe its executable semantics. The fundamental approach of PTRANS is to describe program transformations as rewrites on control flow graphs with temporal logic side conditions. The syntax of PTRANS allows cleaner, more comprehensible specification of program optimizations; its executable semantics allows these specifications to act as prototypes for the optimizations themselves, so that candidate optimizations can be tested and refined before going on to include them in a compiler. We demonstrate the use of PTRANS to state, test, and refine the specification of a redundant store elimination optimization on parallel programs.
 
-## Units of Measure
+<h2 id="units-of-measure" class="anchor"> Units of Measure </h2>
 
 ### [Relational parametricity and units of measure](http://dl.acm.org/citation.cfm?id=263761)
 
@@ -340,7 +345,7 @@ Andrew Kennedy
 _Lecture notes , for CEFP'09, Revised July 2010_
 
 
-## Web programming
+<h2 id="web-programming" class="anchor"> Web programming </h2>
 
 ### [Visualizing Data in the Web](http://dl.acm.org/citation.cfm?id=2429376)
 
@@ -383,7 +388,7 @@ Some of the publications about FStar are below.
   Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, no. MSR-TR-2011-37, 24 March 2011
     
 
-## Machine Learning
+<h2 id="machine-learning" class="anchor"> Machine Learning </h2>
 
 ### [Learning with F#](http://dl.acm.org/citation.cfm?id=1362709)
 
@@ -392,7 +397,7 @@ Phil Trelford, _Commercial Users of Funnctional Programming_, 2006. This talk de
 F# plays a crucial role in helping the group process this data efficiently and develop smart algorithms that extract essential features from the data and represent the information using the latest statistical technique called "factor graphs". Our use of F# in conjunction with SQL Server 2005 is especially interesting: we use novel compilation techniques to express the primary schema in F# and then use SQL Server as a data slave.
 
 
-## Applications
+<h2 id="applications" class="anchor"> Applications </h2>
 
 For more applications of F#, see the [Testimonials](/testimonials/) page. Below are peer-reviewed publications related to applications.
 
