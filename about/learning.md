@@ -1,17 +1,19 @@
 ---
 layout: default
 title: Learning F# | The F# Software Foundation
-headline: F# Books and tutorials
+headline: Learning F#
 ---
 
-If you want to learn more about F# or if you want to teach it, you can find
-more information in one of the existing F# books or other online tutorials 
-available online. This page lists the existing F# books and provides links
-to some of the F# tutorials available online.
+To learn F# use one of the free online tutorials or books below.
 
-## Interactive tutorials
+### [F# for Fun and Profit](http://fsharpforfunandprofit.com/)
 
-[Try F#](http://www.tryfsharp.org) is an interactive environment where you can
+Introduces you to F# and show you ways that F# can help in day-to-day development
+of mainstream commercial business software.
+
+### [Try F#](http://www.tryfsharp.org) 
+
+Try F# is an interactive environment where you can
 explore F# in your web browser (on Mac and Windows). It contains a number
 of online tutorials demonstrating the power of F#:
 
@@ -23,6 +25,11 @@ of online tutorials demonstrating the power of F#:
  * [Data Science](http://www.tryfsharp.org/Learn/data-science)
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
+
+### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
+
+The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
+
  
 ## F# Books - General
 
@@ -200,15 +207,6 @@ This section lists of some of the freely available online tutorials on F#.
 You can browse these online guides to find explanation of all important 
 F# language features and see many interesting examples.
 
-### [F# for Fun and Profit](http://fsharpforfunandprofit.com/)
-
-This site will introduce you to F# and show you ways that F# can help in day-to-day development
-of mainstream commercial business software
-
-### [Try F#](http://tryfsharp.org/)
-
-Learn, create and share F# code, in your browser.
-
 ### [F# Programming Wikibook](http://en.wikibooks.org/wiki/Programming:F_Sharp)
 
 The wikibook contains a comprehensive guide to F# programming. It covers 
@@ -221,10 +219,6 @@ features such as active patterns and computation expressions.
 
 This part of MSDN contains chapters from the book by Tomas Petricek and Jon Skeet with
 additional material on Numerical Computing by Yin Zhu.
-
-### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
-
-The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
 
 ### [F# Workshop](http://fsharpworkshop.com/)
 
