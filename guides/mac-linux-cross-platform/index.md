@@ -277,6 +277,35 @@ creating portable libraries to ease cross-platfom use.
 
 A table of .NET unit testing frameworks can be found [here](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages).
 
+There are two major ways of writing unit tests in .Net; in a method-per-test style, having the framework use reflection to read the tests and execute them or with the test-is-a-value style, where you pass the framework your test values (much like immutable objects are values).
+
+## Fuchu
+
+[Fuchu](https://github.com/mausch/Fuchu) is a test library for .NET, supporting C# and VB.NET but with a special focus on F#. It draws heavily from Haskell's test-framework and HUnit. You can read about the rationale and underlying concepts in [this blog post](http://bugsquash.blogspot.com/2012/06/fuchu-functional-test-library-for-net.html), or tests should be first-class values so that you can move them around and execute them in any context that you want. Also, if they are first-class values, then you can take extra care with what the test methods return, making integrations with external libraries much cheaper.
+
+```
+Install-Package Fuchu
+```
+
+Since tests are values, it's easy to extend the framework to integrate with other tooling, e.g. with FsCheck to use a fuzzing/randomization approach to testing (see below)
+
+```
+Install-Package Fuchu.FsCheck
+```
+
+Fuchu also has an integration with PerfUtil which can be used to automate performance testing and trending in a continuous integration environment.
+
+```
+Install-Package Fuchu.PerfUtil
+```
+
+## FsCheck
+
+[FsCheck](https://github.com/fsharp/FsCheck) is a tool for testing .NET programs automatically. 
+The programmer provides a specification of the program, 
+in the form of properties which functions, methods or objects should satisfy, 
+and FsCheck then tests that the properties hold in a large number of randomly generated cases.
+
 ## NUnit
 
 [NUnit](http://nunit.org/) is an open-source, cross-platform unit-testing 
@@ -290,19 +319,11 @@ Some guides to using F# and NUnit together are:
  * [NUnit With F#](http://davefancher.com/2012/09/06/nunit-with-f/)
  * [Using NUnit with F# Code](http://sector0.dk/?p=33)
  * [F# as a Unit Testing Language](http://trelford.com/blog/post/fstestlang.aspx)
- 
 
 ## FsUnit
 
 [FsUnit](http://fsunit.codeplex.com/) is often used by F# programmers as an DSL to access popular unit testing frameworks. 
 An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
-
-## FsCheck
-
-[FsCheck](https://github.com/fsharp/FsCheck) is a tool for testing .NET programs automatically. 
-The programmer provides a specification of the program, 
-in the form of properties which functions, methods or objects should satisfy, 
-and FsCheck then tests that the properties hold in a large number of randomly generated cases.
 
 #  Continuous Integration builds
 
