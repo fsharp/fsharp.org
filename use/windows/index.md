@@ -9,23 +9,14 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
 
-   Install a free trial edition of [Visual Studio 2013  (Professional or higher)](http://www.visualstudio.com/downloads/download-visual-studio-vs)
+*  Install a free trial edition of [Visual Studio 2013  (Professional or higher)](http://www.visualstudio.com/downloads/download-visual-studio-vs); OR
 
-OR:
+*  Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
 
-   Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011)
-
-OR:
-
-   Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011)
-
-OR:
-
-   Install the free [Visual Studio Express 2012 for Web](http://www.microsoft.com/en-us/download/details.aspx?id=30669)  plus the free [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkID=261287)
-
+*  Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
 
 The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
-See [fsharp.net](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
+See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
 
 ##### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) #####
 
@@ -102,11 +93,10 @@ If you're looking for Visual F# Tools 3.0 specifically, its standalone version c
 ### Option 4: Install Tsunami
 
 [Tsunami](http://tsunami.io) is an innovative fully featured F# IDE. 
-It has a number of unique features ideally suited for Big Data, Data Science and Machine Learning. It is capable of being embedded directly into other Desktop Applications and Websites.
+It is capable of being embedded directly into other desktop applications and websites.
 
 - Desktop: Install MSI from [Download](http://tsunami.io/download.html)
 - Browser: Embed the object in [Cloud Tsunami](http://tsunami.io/cloud_tsunami.html)
-
 
 <br />
 
@@ -116,8 +106,9 @@ It has a number of unique features ideally suited for Big Data, Data Science and
 
 ### Option 6: Run already compiled F# code on servers
 
-Compiled F# code depends on the FSharp.Core assembly, which is available in FSharp.Core.dll. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed.
+Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundles with your application.
+The recommended procedure is to bundle this component with your final application.
 
-The *Visual F# Tools* downloads from Microsoft contains FSharp.Core, as well as the command-line tools *fsc* (the F# compiler) and *fsi* (F# Interactive).
+The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC, as well as the command-line tools *fsc* (the F# compiler) and *fsi* (F# Interactive).
 
 - [Visual F# Tools 3.1.2](http://www.microsoft.com/en-us/download/details.aspx?id=44011)
