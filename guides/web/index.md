@@ -14,10 +14,6 @@ F# has many advantages for building efficient, scalable and robust web solutions
 * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
 * *Open-source* and *Cross-platform*  - Like all good web tools!
 
-F# also shines in the area of web API development through frameworks like  [ServiceStack](http://www.servicestack.net/), [Web API](http://www.asp.net/web-api), [Frank](https://github.com/frank-fs/frank) and
-[NancyFx](http://nancyfx.org/).
-
-
 ## Frameworks for Web Applications
 
 ### ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) 
@@ -27,15 +23,14 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 
 ### ![logo](/images/thumbs/fsharp.web.png)&nbsp;[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
-* [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft.
-* [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) is a pure, F#-only project template for implementing a web application with ASP.NET MVC 5. Views are implemented in HTML5 using modern Javascript frameworks, also known as single-page applications, or SPAs. Models and controllers are implemented in F#.
+[ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft. 
+[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) is a pure, F#-only project template for implementing a web application with ASP.NET MVC 5. Views are implemented in HTML5 using modern Javascript frameworks, also known as single-page applications, or SPAs. Models and controllers are implemented in F#.
 
 ### [FunScript](http://funscript.info/)
 
 FunScript is an F# to JavaScript converter with TypeScript interoperability.
-
-* Video: [TodoMVC with FunScript and Ractive (part 1)](http://youtu.be/smyeLH6HktA) and [part 2](http://youtu.be/hhqKArYkfYA)
-* Video: [FunScript HTML Extensions](http://youtu.be/Xmvehkj8qGM)
+For introductory videos watch [TodoMVC with FunScript and Ractive part 1](http://youtu.be/smyeLH6HktA) and [part 2](http://youtu.be/hhqKArYkfYA),
+and [FunScript HTML Extensions](http://youtu.be/Xmvehkj8qGM).
 
 ### [NancyFx](https://github.com/NancyFx/Nancy)
 
@@ -61,7 +56,6 @@ Some resources on using F# with Web API:
 ### [Dyfrig](https://github.com/fsprojects/dyfrig)
 
 Dyfrig provides an [OWIN](http://owin.org/) implementation for F# and includes combinators for [railway-oriented programming](https://github.com/fsprojects/dyfrig/blob/master/src/Dyfrig/OwinRailway.fsi), a [computation expression with lenses](https://github.com/fsprojects/dyfrig/blob/master/src/Dyfrig/OwinApp.fs#L35), and [adapters for `System.Net.Http` types](https://github.com/fsprojects/dyfrig/blob/master/src/Dyfrig/SystemNetHttpAdapter.fsi).
-
 See a [sample todo-backend](https://github.com/panesofglass/TodoBackendFSharp/blob/master/docs/index.md) implementation.
 
 ### [Frank](http://frankfs.net/)
@@ -71,8 +65,7 @@ Frank provides combinators for composing web applications using the types in `Sy
 ### [SignalR](http://www.asp.net/signalr)
 
 SignalR provides bi-directional communication between web servers and clients using one of several mechanisms, beginning with [web sockets](http://www.websocket.org/) and falling back through several other approaches depending on client and server capabilities.
-
-* [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02)
+For a sample see [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02)
 
 ### ![logo](/images/thumbs/servicestack.png)&nbsp;[ServiceStack](https://servicestack.net/)
 
@@ -89,14 +82,6 @@ NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-s
 
 * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
 * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
-
-### [Simple.Web](https://github.com/markrendle/Simple.Web)
-
-Simple.Web is a REST-focused, object-oriented Web Framework for .NET
-
-**NOTE:** Mark Rendle recently noted that [Simple.Web will no longer be actively developed](http://blog.markrendle.net/no-further-development-on-simple-web/).
-
-* [Pure F# Simple.Web Template](http://visualstudiogallery.msdn.microsoft.com/bbec75fa-0f31-47e9-a8ce-c301edb2fa4b) - (Visual Studio) Includes a template for getting started with Simple.Web.
 
 ### [Suave.io](http://suave.io/)
 
