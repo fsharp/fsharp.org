@@ -13,11 +13,11 @@ and those associated with 3rd-party commercial technologies.
 
 The current affiliated technical groups are:
 
- * [**F# Web Programming Group**](https://groups.google.com/forum/#!forum/web-stack-fs) (contact Ryan Riley and Adam Granicz)
+ * [**Community for F#**](http://c4fsharp.net) (contact Mathias Brandewinder and Ryan Riley)
+ * [**F# Web Programming Group**](https://groups.google.com/forum/#!forum/web-stack-fs) (contact Ryan Riley)
+ * [**F# for Data and Machine Learning**](https://groups.google.com/forum/#!forum/fsharp-data-science) (contact Mathias Brandewinder)
  * **F# in Finance** (contact Natallie Baikevich)
- * **F# for Data and Machine Learning** (contact Mathias Brandewinder)
  * **F# in Academia** (contact Antonio Cisternino)
- * **F# for Games and Apps** (contact Phil Trelford and Adam Granicz)
 
 Two technical groups are closely associated with the F# Software Foundation's mission:
 
