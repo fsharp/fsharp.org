@@ -4,6 +4,77 @@ title: Teaching F# | The F# Software Foundation
 headline: Using F# for teaching
 ---
 
+
+F# is a simple and expressive programming language. It can be described as statically typed 
+impure functional language that supports functional, imperative and object-oriented paradigm 
+and also several other programming styles including data-driven, event-driven and parallel 
+programming. This makes it an excellent tool for introducing programming as well as programming 
+paradigms. Using F# for teaching has several advantages:
+
+
+ * **Simplicity and mathematical elegance.** The functional paradigm allows starting with 
+   very simple concepts and gradually introducing advanced programming techniques. The 
+   language is theoretically well-founded, which helps students grasp many mathematical ideas. 
+   It can be also used to introduce theories such as lambda calculus.
+
+ * **Real-world libraries.** When using the language, students have access to a wide range of 
+   Mono and .NET libraries that can be easily used to create impressive and entertaining 
+   applications. Learning how to use some of these libraries is also an important practical 
+   skill valued by the industry.
+
+ * **Explorative, data-rich environment.** Thanks to a large number of libraries, it is easy 
+   to load data from various data sources. F# Interactive and language features such as 
+   units of measure make it easy to explore, analyze and structure the data. The data can 
+   be visualized using several .NET cross-platform charting libraries as well as by calling gnuplot. 
+
+The F# compiler and tools are cross-platform and run using .NET on Windows and using Mono on 
+Mac OS and Linux. F# language is supported in several editors. Aside from the commercial Visual 
+Studio and Xamarin Studio tools, there is an F# mode for Emacs and open-source language binding for MonoDevelop.
+
+
+<h2 id="online-teaching-and-learning" class="anchor">Online Teaching and Learning</h2>
+
+[Try F#](http://www.tryfsharp.org) is an interactive environment where you can
+explore F# in your web browser (on Mac and Windows). It contains a number
+of online tutorials demonstrating the concepts of F#:
+
+<img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+ * [Getting started in F#](http://www.tryfsharp.org/Learn/getting-started)
+ * [Advanced F# Programming](http://www.tryfsharp.org/Learn/advanced-programming)
+ * [Data Visualization and Charting](http://www.tryfsharp.org/data-visualization)
+ * [Data Science](http://www.tryfsharp.org/Learn/data-science)
+ * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
+ * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
+
+<h2 id="video-lectures" class="anchor">Video lectures</h2>
+
+ * **[Teaching programming language concepts with F#](http://channel9.msdn.com/Tags/peter-sestoft)**
+   Peter Sestoft, IT University of Copenhagen, Denmark
+   
+   This is a two-part video lecture by Peter Sestoft, professor from the IT University of Copenhagen, 
+   Denmark. In the lecture, Peter introduces the curriculum, lecture plan and lecture notes 
+   for the course "Programs as data" that uses the functional programming concepts in F# to 
+   teach students language concepts and implemen­tation details.
+
+ * **[C9 Lectures - Introduction to F#](http://channel9.msdn.com/Shows/Going+Deep/C9-Lectures-Dr-Don-Syme-Introduction-to-F-1-of-3)**
+   Don Syme, Microsoft Research, Cambridge, UK
+
+   Three part series of introductory video lectures by Don Syme, the designer of the F# 
+   language. Don introduces functional concepts such as functional data structures and pattern 
+   matching, imperative features of F# as well as the F# object model.
+
+ * **[F# in Education](http://research.microsoft.com/en-us/events/fsharpined/)**
+  
+   F# in Education was a one-day workshop for educators and industrialists, held in Cambridge, 
+   Massachusetts, U.S., on November, 2010. The workshop investigated F# as a possible teaching 
+   language, as well as its use in industry. Developments in cross-platform issues were highlighted. 
+
+<h2 id="textbooks-for-teaching-f" class="anchor">Textbooks for Teaching F#</h2>
+
+<a href="http://www.imm.dtu.dk/~mire/FSharpBook"><img src="files/fpbook.jpg" style="float:right;margin:15px;border-style:none;" /></a>
+
+
 #### [Functional Programming Using F#](http://www.imm.dtu.dk/~mire/FSharpBook)
 
 Michael R. Hansen and Hans Rischel
