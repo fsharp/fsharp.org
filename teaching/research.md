@@ -29,8 +29,8 @@ To add a paper to this list, log on to GitHub, [edit this page](https://github.c
    event-based programming and "joinads", a research extension of F# _computation expression_ syntax
    for concurrent, reactive and parallel programming patterns.
 
- * **[Distributed programming](#distributed-programming)** - publications
-   about distributed programming using F#.
+ * **[Parallel and Distributed programming](#distributed-and-parallel-programming)** - publications
+   related to parallel and distributed programming using F#.
 
  * **[Functional programming](#functional-programming)** - publications
     about core F# language features including _active patterns_ and intialization of 
@@ -120,7 +120,7 @@ take advantage of the clarity and simplicity of the declarative approach as well
 expressivity of the imperative model.
 
 
-## Functional programming
+<h2 id="functional-programming" class="anchor"> Functional programming </h2>
 
 ### [Extensible pattern matching via a lightweight language extension](http://research.microsoft.com/pubs/79947/p29-syme.pdf)
 
@@ -236,15 +236,6 @@ calculus and a parallel model using futures. All three models are implemented as
 that benefit from our syntactic extension. This makes them easier to use and also opens 
 space for exploring new useful programming models. 
 
-<h2 id="distributed-programming" class="anchor"> Distributed programming </h2>
-
-
-### [MBrace: cloud computing with monads](http://dl.acm.org/citation.cfm?id=2525531&dl=ACM&coll=DL&CFID=454202220&CFTOKEN=25283533)
-
-Jan Dzik, Nick Palladinos, Konstantinos Rontogiannis, Eirik Tsarpalis, Nikolaos Vathis
-_In pre-proceedings of PLOS '13 Seventh Workshop on Programming Languages and Operating Systems Article No. 7_
-
-As cloud computing and big data gain prominence in today's economic landscape, the challenge of effectively articulating complex algorithms in distributed environments becomes ever more important. In this paper we describe MBrace; a novel programming model/framework for performing large scale computation in the cloud. Based on the .NET software stack, it utilizes the power of the F# programming language. MBrace introduces a declarative style for specifying and composing parallelism patterns, in what is known as cloud workflows or a cloud monad. MBrace is also a distributed execution runtime that handles orchestration of cloud workflows in the data centre.
 
 <h2 id="dsls-and-meta-programming" class="anchor"> DSLs and Meta-programming </h2>
 
@@ -298,6 +289,15 @@ to parser generators. We also build an evaluator, and extend the core Simply lan
 primitives and build a graphical shell environment around it. As a warm-up, we give a rudimentary survey 
 of some notable F# features, including sequence expressions and active patterns.
 
+<h2 id="distributed-and-parallel-programming" class="anchor"> Distributed programming </h2>
+
+
+### [MBrace: cloud computing with monads](http://dl.acm.org/citation.cfm?id=2525531&dl=ACM&coll=DL&CFID=454202220&CFTOKEN=25283533)
+
+Jan Dzik, Nick Palladinos, Konstantinos Rontogiannis, Eirik Tsarpalis, Nikolaos Vathis
+_In pre-proceedings of PLOS '13 Seventh Workshop on Programming Languages and Operating Systems Article No. 7_
+
+As cloud computing and big data gain prominence in today's economic landscape, the challenge of effectively articulating complex algorithms in distributed environments becomes ever more important. In this paper we describe MBrace; a novel programming model/framework for performing large scale computation in the cloud. Based on the .NET software stack, it utilizes the power of the F# programming language. MBrace introduces a declarative style for specifying and composing parallelism patterns, in what is known as cloud workflows or a cloud monad. MBrace is also a distributed execution runtime that handles orchestration of cloud workflows in the data centre.
 
 ### [Specifying and Executing Optimizations for Parallel Programs](http://web.engr.illinois.edu/~mansky1/exec.pdf)
 
