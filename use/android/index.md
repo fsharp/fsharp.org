@@ -13,11 +13,6 @@ headline: Use F# for Android Development
 
 2. Get [Xamarin Studio](http://xamarin.com/download)
 
-   Note: If using Windows you may also need to install [Visual F# Tools 3.0](http://www.microsoft.com/web/gallery/install.aspx?appid=FSharpVWD11) and the 
-   [F# 2.0 Runtime](http://www.microsoft.com/en-us/download/details.aspx?id=13450) before you can do Android project
-   development. This requirement is being fixed.
-
-
 You can now create a new F# Android app, e.g. an "F# Honeycomb Application". Build and Debug will deploy to an emulator or device.
 
 Report problems as follows:
