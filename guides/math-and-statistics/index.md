@@ -6,18 +6,20 @@ redirect_from: "/math/index.html"
 ---
 
 F# is well-suited to numerical and statistical programming because
-of its focus on data transformations and a natural translation of the underlying mathematics. 
+of its focus on data transformations and the use of functional programming to 
+help give natural translation of the underlying mathematics into executable form.
 
-Efficient execution of numeric code is essential. F# executes as native code, normally through
-[JIT compilation](http://en.wikipedia.org/wiki/Just-in-time_compilation). F# can also utilize highly optimized, native code libraries such as the
+Efficient execution of numeric code is essential, and F# executes as native code, normally through
+[JIT compilation](http://en.wikipedia.org/wiki/Just-in-time_compilation). 
+Vectoried execution of F#-authored code is available through [RyuJIT](http://blogs.msdn.com/b/clrcodegeneration/)
+on Windows and [SIMD primitives](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
+on Linux. F# can also utilize highly optimized, native code libraries such as the
 Intel [Math Kernel Library (MKL)](http://software.intel.com/en-us/intel-mkl)
 through packages like [Math.NET Numerics](http://numerics.mathdotnet.com/) and other
-libraries listed below. Also, F# can be used to [call into Fortran dynamic-link libraries](http://www.letsthinkabout.us/post/calling-fortran-assemblies-from-net) through .NET. On Linux, Mono
-provides easy access to [SIMD](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
-instructions.
+libraries listed below. F# can be used to [call into Fortran dynamic-link libraries](http://www.letsthinkabout.us/post/calling-fortran-assemblies-from-net), and
 
 
-### Open-source libraries
+## Open-source libraries
 
  * ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
    a large collection of algorithms needed in science and engineering, including linear algebra, 
@@ -51,7 +53,7 @@ instructions.
    basic statistical procedures. Fmat is available on GitHub and from NuGet. License: MIT/X11
    
 
-### Commercial libraries
+## Commercial libraries
 
  * [Alea.cuBase](http://www.quantalea.net/products/overview/) - a framework for 
    developing GPU-accelerated algorithms in F# on .NET and Mono.

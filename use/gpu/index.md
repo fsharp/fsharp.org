@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Using F# for GPU Programming | The F# Software Foundation
-headline: Using F# for GPU Programming
+title: Use F# for GPU Programming | The F# Software Foundation
+headline: Use F# for GPU Programming
 ---
 
 GPU execution is a technique for high-performance financial, image processing and other 

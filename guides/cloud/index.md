@@ -8,11 +8,11 @@ redirect_from: "/cloud/index.html"
 This is an overview of the packages and tools for scalable data processing with F#,
 particularly for taking advantage of scalable cloud-computing resources.
 
-## Cloud Programming
+## Cloud Platforms
 
-### Amazon Web Services
+### [Amazon Web Services](http://aws.amazon.com)
 
-[Amazon Web Services](http://aws.amazon.com) (AWS) provide a large array of on-demand and managed computing and 
+Amazon Web Services (AWS) provide a large array of on-demand and managed computing and 
 hosting services. AWS include on-demand and reserved virtual machine instances, 
 a variety of storage options, a content delivery network (CDN), DNS capabilities, and many others. 
 Amazon offers services from multiple data centers around the world.
@@ -27,9 +27,9 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
  * [Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
 
-### Windows Azure
+### [Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/)
 
-[Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/) provides access to  Microsoft's worldwide datacenters through services including 
+Windows Azure provides access to  Microsoft's worldwide datacenters through services including 
 virtual machines, geo-redundant storage, database clusters and website deployment.  [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
 detail on the structure of Azure applications.
 

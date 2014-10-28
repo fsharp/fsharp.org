@@ -9,7 +9,7 @@ F# supports all common data import and access techniques. In addition, the type 
 F# brings simplicity to accessing data, including databases,
 web-scale data and structured text formats like JSON, and XML.
 
-If the data access libraries you need are not listed here, you can search for them on [NuGET](http://nuget.org). 
+If the data access libraries you need are not listed here, you can search for them on [nuget](http://nuget.org). 
 
 [Try F#](http://tryfsharp.org/learn) has specific tutorials related to data access. 
 
@@ -50,11 +50,7 @@ F# allows for the direct integration of scalable data stores into F# programming
 
 ### Exploratory Data Frame and Time Series Programming
 
- * [Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality package 
-   for data and time series manipulation and for scientific programming. It supports working with 
-   structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
-   work well for exploratory programming using F# and C# interactive console, but can be also used in 
-   efficient compiled .NET code.  If you are familiar with the Pandas library from Python or the 'tseries' 
-   package in R, then this package is for you.
+* See the (/guides/data-science) section for more information on data science with F#.
+
 
 
