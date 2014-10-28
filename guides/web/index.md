@@ -14,6 +14,10 @@ F# has many advantages for building efficient, scalable and robust web solutions
 * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
 * *Open-source* and *Cross-platform*  - Like all good web tools!
 
+The [Cloud Programming](/cloud) section contains more details on scalable cloud-hosted web programming with F#.
+If you are interested in contributing to F# as a web programming tool, please join 
+the [F# Web Stack Google Group](https://groups.google.com/forum/#!forum/web-stack-fs). 
+
 ## Frameworks for Web Applications
 
 ### ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) 
@@ -21,7 +25,7 @@ F# has many advantages for building efficient, scalable and robust web solutions
 WebSharper allows end-to-end web applications with both client and server developed in F#. 
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
-### ![logo](/images/thumbs/fsharp.web.png)&nbsp;[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+### [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
 [ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft. 
 [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) is a pure, F#-only project template for implementing a web application with ASP.NET MVC 5. Views are implemented in HTML5 using modern Javascript frameworks, also known as single-page applications, or SPAs. Models and controllers are implemented in F#.
@@ -65,7 +69,7 @@ Frank provides combinators for composing web applications using the types in `Sy
 ### [SignalR](http://www.asp.net/signalr)
 
 SignalR provides bi-directional communication between web servers and clients using one of several mechanisms, beginning with [web sockets](http://www.websocket.org/) and falling back through several other approaches depending on client and server capabilities.
-For a sample see [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02)
+One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02).
 
 ### ![logo](/images/thumbs/servicestack.png)&nbsp;[ServiceStack](https://servicestack.net/)
 
@@ -87,52 +91,12 @@ NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-s
 
 Simple web development library in F# that provides a lightweight web server.
 
-### Serving Requests with IHttpHandler
+### [Serving Requests with IHttpHandler](http://codinglight.blogspot.co.uk/2010/03/writing-your-own-httphandler-in-f.html)
 
 Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
 
 * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
-* [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) - (Visual Studio, ASP.NET) Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
 
-### Making WSDL Services
-
-* [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
-
-## Hosting
-
-Common hosting options are:
-
-* [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
-* [Azure Web Sites](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
-* [AppHarbor](http://appharbor.com/) - Free hosting of .NET web applications
-
-
-## Scaling to the Cloud
-
-The [Cloud Programming](/cloud) section contains more details on cloud programming with F#.
-Some specific resources related to web programming are:
-
-* [F# 3.0 Azure Samples](http://fsharp3sample.codeplex.com/wikipage?Title=AzureSamples)
-* [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
-* [Using F# and C# with Amazon EC2 Elastic Map/Reduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
-
-
-## Unit Testing Libraries
-
-It is common to create a suite of unit tests when building web solutions. A list of open source 
-libraries that assist with unit testing is available here:
-
-* [FsCheck](http://fscheck.codeplex.com/)
-* [FsUnit](https://github.com/fsharp/FsUnit)
-* [Fuchu](https://github.com/mausch/Fuchu)
-* [NaturalSpec](https://github.com/forki/NaturalSpec)
-* [TickSpec](http://trelford.com/blog/post/TickSpec.aspx)
-* [Unquote](http://code.google.com/p/unquote/)
-
-Here are a few Visual Studio project templates available for building unit tests:
-
-* [F# MsTest Project](http://visualstudiogallery.msdn.microsoft.com/51ebe64a-899b-4959-8c24-b0148ed6b264)
-* [F# NUnit Template that also includes FsUnit, FsCheck, and Unquote](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) 
 
 
 ## Client-side Testing
@@ -163,6 +127,42 @@ build web applications with F#:
 * [F# 3.0: data, services, Web, cloud, at your fingertips](http://channel9.msdn.com/Events/Build/BUILD2011/SAC-904T)
 * [F# Introduction](http://skillsmatter.com/podcast/scala/phil-trelford-f-introduction)
 
+
+## Hosting
+
+Common hosting options are:
+
+* [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
+* [Azure Web Sites](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
+* [AppHarbor](http://appharbor.com/) - Free hosting of .NET web applications
+
+
+
+## Unit Testing Libraries
+
+Some open source libraries that assist with web unit testing are:
+
+* [FsCheck](http://fscheck.codeplex.com/)
+* [FsUnit](https://github.com/fsharp/FsUnit)
+* [Fuchu](https://github.com/mausch/Fuchu)
+* [NaturalSpec](https://github.com/forki/NaturalSpec)
+* [TickSpec](http://trelford.com/blog/post/TickSpec.aspx)
+* [Unquote](http://code.google.com/p/unquote/)
+
+Here are a few Visual Studio project templates available for building unit tests:
+
+* [F# MsTest Project](http://visualstudiogallery.msdn.microsoft.com/51ebe64a-899b-4959-8c24-b0148ed6b264)
+* [F# NUnit Template that also includes FsUnit, FsCheck, and Unquote](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) 
+
+
+
+## Resources for Other Frameworks
+
+### Making WSDL and OData Services
+
+* [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
+* [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) - (Visual Studio, ASP.NET) Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
+
 ### Older ASP.NET MVC using two projects (one F#, one C#)
 
 When using MVC ASP.NET 3 or 4, mixed C#/F# ASP.NET MVC are used. In this approach, views are 
@@ -179,7 +179,3 @@ in whole or in part. Some resources are:
 
 * [F# Client-Side Application Template (Visual Studio, Silverlight)](http://visualstudiogallery.msdn.microsoft.com/621d86fb-944f-48db-a69c-e73c5521de9d) - Includes a simple template for creating F# Silverlight Applications. The template creates a single Silverlight project that creates Silverlight controls from F# code and runs in an automatically generated HTML page.
  
-## Working Groups
-
-If you are interested in contributing to the F# web platform, please join the [F# Web Stack Google Group](https://groups.google.com/forum/#!forum/web-stack-fs). The group is open to all, and you'll find a good summary of the current status of the working group in the group's welcome message.
-
