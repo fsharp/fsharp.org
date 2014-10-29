@@ -1,0 +1,1674 @@
+[
+  {
+    "_id": "545079159ca65f123456f0c5",
+    "Title": "Let Awesome = Apps | Seq.map F# - Larry O'Brien, Xamarin",
+    "Url": "https://www.youtube.com/watch?v=2-v4jdQJ5Wo",
+    "Thumbnail": "https://i.ytimg.com/vi_webp/2-v4jdQJ5Wo/mqdefault.webp",
+    "Website": "YouTube",
+    "Date": "2014-10-21T00:00:00Z"
+  },
+  {
+    "_id": "54507a3e9ca65f123456f0c6",
+    "Title": "Event-driven services via F# and EventStore with Lev Gorodinski",
+    "Url": "http://vimeo.com/109343720",
+    "Thumbnail": "http://i.vimeocdn.com/video/493288141_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-10-18T00:00:00Z"
+  },
+  {
+    "_id": "54507bb79ca65f123456f0c7",
+    "Title": "Creating cross platform mobile apps using F# and Xamarin",
+    "Url": "https://www.youtube.com/watch?v=HstHmLM-aEQ",
+    "Thumbnail": "https://i.ytimg.com/vi_webp/HstHmLM-aEQ/mqdefault.webp",
+    "Website": "YouTube",
+    "Date": "2014-10-02T00:00:00Z"
+  },
+  {
+    "_id": "54507d179ca65f123456f0c8",
+    "Title": "Data science with F#: Social network analysis - Evelina Gabasova",
+    "Url": "https://skillsmatter.com/skillscasts/5672-data-science-with-fsharp-social-network-analysis-evelina-gabasova",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2014-09-24T00:00:00Z"
+  },
+  {
+    "_id": "54507e0d9ca65f123456f0c9",
+    "Title": "Building reactive, multi-view applications with WebSharper + UI.Next",
+    "Url": "https://www.youtube.com/watch?v=nuDYI70VtuI",
+    "Thumbnail": "https://i.ytimg.com/vi/nuDYI70VtuI/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-09-24T00:00:00Z"
+  },
+  {
+    "_id": "545080fd9ca65f123456f0ca",
+    "Title": "Vulpes: A functional approach to deep machine learning on the GPU",
+    "Url": "https://www.youtube.com/watch?v=_IFJ4eCBvRo",
+    "Thumbnail": "https://i.ytimg.com/vi/_IFJ4eCBvRo/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-09-20T00:00:00Z"
+  },
+  {
+    "_id": "54508b1e9ca65f123456f0d2",
+    "Title": "F# scripting for 3D geometry in the construction industry",
+    "Url": "https://skillsmatter.com/skillscasts/5737-f-scripting-for-3d-geometry-in-the-construction-industry",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2014-09-17T00:00:00Z"
+  },
+  {
+    "_id": "545087849ca65f123456f0d1",
+    "Title": "Using F# in C# Projects - Brendan Duffy",
+    "Url": "https://www.youtube.com/watch?v=oyckoyehzFQ",
+    "Thumbnail": "https://i.ytimg.com/vi/oyckoyehzFQ/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-09-14T00:00:00Z"
+  },
+  {
+    "_id": "54508b689ca65f123456f0d3",
+    "Title": "F# News - September 2014 - Jorge Fioranelli",
+    "Url": "https://www.youtube.com/watch?v=xyoBb9d7ygg",
+    "Thumbnail": "https://i.ytimg.com/vi/xyoBb9d7ygg/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-09-14T00:00:00Z"
+  },
+  {
+    "_id": "54508cb89ca65f123456f0d6",
+    "Title": "Xamarin.Forms and F# in a minute - Troy Kershaw",
+    "Url": "https://www.youtube.com/watch?v=h39eb_UzNlg",
+    "Thumbnail": "https://i.ytimg.com/vi/h39eb_UzNlg/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-09-14T00:00:00Z"
+  },
+  {
+    "_id": "54508bf89ca65f123456f0d4",
+    "Title": "Composable queries in F# 3.0 with James Cheney",
+    "Url": "https://skillsmatter.com/skillscasts/5736-composable-queries-in-f-3-0-with-james-cheney",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2014-09-11T00:00:00Z"
+  },
+  {
+    "_id": "54508c569ca65f123456f0d5",
+    "Title": "F# - Why you should give an F - Daniel Chambers",
+    "Url": "https://www.youtube.com/watch?v=kKkFabSzZvU",
+    "Thumbnail": "https://i.ytimg.com/vi/kKkFabSzZvU/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-09-09T00:00:00Z"
+  },
+  {
+    "_id": "54508e629ca65f123456f0d9",
+    "Title": "CUFP 2014: Building data and time-series analytics tools for F# - Tomas Petricek",
+    "Url": "https://www.youtube.com/watch?v=BkA8rxkOMoU",
+    "Thumbnail": "https://i.ytimg.com/vi/BkA8rxkOMoU/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-09-06T00:00:00Z"
+  },
+  {
+    "_id": "54508eaa9ca65f123456f0da",
+    "Title": "CUFP 2014: MBrace: large-scale programming in F# - Eirik Tsarpalis",
+    "Url": "https://www.youtube.com/watch?v=hP3NkOVNxFE",
+    "Thumbnail": "https://i.ytimg.com/vi/hP3NkOVNxFE/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-09-06T00:00:00Z"
+  },
+  {
+    "_id": "545085be9ca65f123456f0cf",
+    "Title": "F# Type Providers: DBpedia and the Combinator Framework",
+    "Url": "http://research.microsoft.com/apps/video/default.aspx?id=230432",
+    "Thumbnail": "http://msrvideo.vo.msecnd.net/rmcvideos/230432/sl/000001.jpg",
+    "Website": "Microsoft",
+    "Date": "2014-09-05T00:00:00Z"
+  },
+  {
+    "_id": "54508d6c9ca65f123456f0d8",
+    "Title": "FunScript HTML Extensions",
+    "Url": "https://www.youtube.com/watch?v=Xmvehkj8qGM",
+    "Thumbnail": "https://i.ytimg.com/vi/Xmvehkj8qGM/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-09-05T00:00:00Z"
+  },
+  {
+    "_id": "54508d119ca65f123456f0d7",
+    "Title": "Happily together: F# and SQL with Dmitry Morozov and Dmitry Sevastianov",
+    "Url": "http://vimeo.com/104896802",
+    "Thumbnail": "http://i.vimeocdn.com/video/487606963_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-09-01T00:00:00Z"
+  },
+  {
+    "_id": "53fad24e746d986ca4d60d7a",
+    "Title": "Reaching personal goals with F#, literally!",
+    "Url": "https://www.youtube.com/watch?v=_-LI82FJ0Gg",
+    "Thumbnail": "https://i.ytimg.com/vi/_-LI82FJ0Gg/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-08-24T00:00:00Z"
+  },
+  {
+    "_id": "54508f1c9ca65f123456f0db",
+    "Title": "Write Clean Code using the Pipelining Operator in F# - Jorge Fioranelli",
+    "Url": "https://www.youtube.com/watch?v=H8MwE9F52EU",
+    "Thumbnail": "https://i.ytimg.com/vi/H8MwE9F52EU/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-08-24T00:00:00Z"
+  },
+  {
+    "_id": "54508f6c9ca65f123456f0dc",
+    "Title": "F# News - Aug-2014 - Troy Kershaw",
+    "Url": "https://www.youtube.com/watch?v=30WHpX_Q-_k",
+    "Thumbnail": "https://i.ytimg.com/vi/30WHpX_Q-_k/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-08-24T00:00:00Z"
+  },
+  {
+    "_id": "53fad1ad746d986ca4d60d79",
+    "Title": "F# Web Development with Ryan Riley",
+    "Url": "https://www.youtube.com/watch?v=nbhpwUQLKRo",
+    "Thumbnail": "https://i.ytimg.com/vi/nbhpwUQLKRo/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-08-22T00:00:00Z"
+  },
+  {
+    "_id": "53fad158746d986ca4d60d78",
+    "Title": "Taking F# to the Masses with CloudSharper (and Adam Granicz!)",
+    "Url": "https://www.youtube.com/watch?v=LvbfY3sl6Lo",
+    "Thumbnail": "https://i.ytimg.com/vi/LvbfY3sl6Lo/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-08-20T00:00:00Z"
+  },
+  {
+    "_id": "545085269ca65f123456f0ce",
+    "Title": "FsLab: Doing data science with F#",
+    "Url": "http://research.microsoft.com/apps/video/default.aspx?id=227137&l=i",
+    "Thumbnail": "http://msrvideo.vo.msecnd.net/rmcvideos/227137/sl/000001.jpg",
+    "Website": "Microsoft",
+    "Date": "2014-08-05T00:00:00Z"
+  },
+  {
+    "_id": "53df107c10a13725387f079d",
+    "Title": "Option Types using F#",
+    "Url": "https://www.youtube.com/watch?v=FnjP_nJRk0k",
+    "Thumbnail": "https://i.ytimg.com/vi/FnjP_nJRk0k/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-07-20T00:00:00Z"
+  },
+  {
+    "_id": "53df12db10a13725387f079e",
+    "Title": "Doing Data Science with F#",
+    "Url": "http://www.infoq.com/presentations/f-sharp-data-science",
+    "Thumbnail": "http://www.infoq.com/resource/presentations/f-sharp-data-science/en/slides/sl1.jpg",
+    "Website": "InfoQ",
+    "Date": "2014-07-18T00:00:00Z"
+  },
+  {
+    "_id": "545086ad9ca65f123456f0d0",
+    "Title": "FSCL: homogeneous programming and execution for heterogeneous platforms",
+    "Url": "http://research.microsoft.com/apps/video/default.aspx?id=227139&l=i",
+    "Thumbnail": "http://msrvideo.vo.msecnd.net/rmcvideos/227139/sl/000001.jpg",
+    "Website": "Microsoft",
+    "Date": "2014-07-08T00:00:00Z"
+  },
+  {
+    "_id": "53ba597810a137b9689cf05b",
+    "Title": "Taking your craft seriously with F#",
+    "Url": "http://vimeo.com/99776941",
+    "Thumbnail": "http://i.vimeocdn.com/video/481069572_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-07-02T00:00:00Z"
+  },
+  {
+    "_id": "53ba5a1c10a137b9689cf05c",
+    "Title": "Xamarin FSharp Interactive",
+    "Url": "http://www.screencast.com/users/praeclarum/folders/Default/media/d257a92b-ec14-41e4-abb4-fb5b85ff22c4",
+    "Thumbnail": "http://thumb.screencast.com/3/d257a92b-ec14-41e4-abb4-fb5b85ff22c4/thumb.gif",
+    "Website": "Screencast",
+    "Date": "2014-07-02T00:00:00Z"
+  },
+  {
+    "_id": "53b113d510a1373760462d11",
+    "Title": "F# Open Source Update + Tackling Mutability with Data Flow Graphs",
+    "Url": "https://www.youtube.com/watch?v=pV9AoVGibpU",
+    "Thumbnail": "https://i1.ytimg.com/vi/pV9AoVGibpU/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-06-24T00:00:00Z"
+  },
+  {
+    "_id": "53b1140210a1373760462d12",
+    "Title": "Tackle UI with Reactive DOM in F# and WebSharper",
+    "Url": "https://www.youtube.com/watch?v=wEkS09s3KBc",
+    "Thumbnail": "https://i1.ytimg.com/vi/wEkS09s3KBc/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-06-24T00:00:00Z"
+  },
+  {
+    "_id": "5396898310a1378e546e308e",
+    "Title": "F# and Machine Learning: a winning combination",
+    "Url": "http://vimeo.com/97514517",
+    "Thumbnail": "http://i.vimeocdn.com/video/477919769_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-06-06T00:00:00Z"
+  },
+  {
+    "_id": "53968a0310a1378e546e308f",
+    "Title": "Porting Quake III to F#: A Journey to Functional Programming",
+    "Url": "http://vimeo.com/97530815",
+    "Thumbnail": "http://i.vimeocdn.com/video/477941745_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-06-06T00:00:00Z"
+  },
+  {
+    "_id": "53968a8010a1378e546e3090",
+    "Title": "1) Write cross-platform apps with F# & Xamarin. 2) ??? 3) Profit!",
+    "Url": "http://vimeo.com/97516216",
+    "Thumbnail": "http://i.vimeocdn.com/video/477922527_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-06-06T00:00:00Z"
+  },
+  {
+    "_id": "53968ad910a1378e546e3091",
+    "Title": "Domain modelling with the F# type system",
+    "Url": "http://vimeo.com/97507575",
+    "Thumbnail": "http://i.vimeocdn.com/video/477911574_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-06-06T00:00:00Z"
+  },
+  {
+    "_id": "5396893810a1378e546e308d",
+    "Title": "Domain Specific Languages, the functional way",
+    "Url": "http://vimeo.com/97315970",
+    "Thumbnail": "http://i.vimeocdn.com/video/477647655_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-06-04T00:00:00Z"
+  },
+  {
+    "_id": "538c3a1e10a13760d499dc09",
+    "Title": "Building a Better SQL Type Provider with Ross McKinlay",
+    "Url": "http://vimeo.com/96658740",
+    "Thumbnail": "http://i.vimeocdn.com/video/476776457_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-05-27T00:00:00Z"
+  },
+  {
+    "_id": "5370682310a137597cebf66a",
+    "Title": "Cross-platform mobile with F# & Xamarin with Rachel Reese",
+    "Url": "http://vimeo.com/94300454",
+    "Thumbnail": "http://i.vimeocdn.com/video/474221064_295x166.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-05-06T00:00:00Z"
+  },
+  {
+    "_id": "53706af610a137597cebf66c",
+    "Title": "F#, Canopy and 2048",
+    "Url": "https://www.youtube.com/watch?v=sjGVEkzylUY",
+    "Thumbnail": "https://i1.ytimg.com/vi/sjGVEkzylUY/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-05-04T00:00:00Z"
+  },
+  {
+    "_id": "537068ab10a137597cebf66b",
+    "Title": "Creating Type Providers: Hands On with Michael Newton",
+    "Url": "https://skillsmatter.com/skillscasts/5138-creating-type-providers-hands-on-with-michael-newton",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2014-05-01T00:00:00Z"
+  },
+  {
+    "_id": "534b827410a137a614290cc0",
+    "Title": "Create maps with F#, Deedle and R",
+    "Url": "https://www.youtube.com/watch?v=-w7o9PHsnP8",
+    "Thumbnail": "https://i1.ytimg.com/vi/-w7o9PHsnP8/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-04-12T00:00:00Z"
+  },
+  {
+    "_id": "534b821d10a137a614290cbf",
+    "Title": "The Flying Fox: Deep Machine Learning with F#",
+    "Url": "https://skillsmatter.com/skillscasts/5161-the-flying-fox-deep-machine-learning-with-f",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2014-04-10T00:00:00Z"
+  },
+  {
+    "_id": "533974fe988a714844e8dab1",
+    "Title": "GeekFest #3 - Talking F# (Part 1)",
+    "Url": "https://www.youtube.com/watch?v=dtNfpeQWHDg",
+    "Thumbnail": "https://i1.ytimg.com/vi/dtNfpeQWHDg/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-03-26T00:00:00Z"
+  },
+  {
+    "_id": "53397561988a714844e8dab2",
+    "Title": "F# for the C# developer with Mathias Brandewinder",
+    "Url": "https://www.youtube.com/watch?v=H0pS5UnVa2E",
+    "Thumbnail": "https://i1.ytimg.com/vi/H0pS5UnVa2E/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-03-26T00:00:00Z"
+  },
+  {
+    "_id": "53397638988a714844e8dab4",
+    "Title": "Lambda Days - Anthony Brown - An intro to F#",
+    "Url": "https://www.youtube.com/watch?v=3ARiuiu3EHI",
+    "Thumbnail": "https://i1.ytimg.com/vi/3ARiuiu3EHI/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-03-25T00:00:00Z"
+  },
+  {
+    "_id": "533975d0988a714844e8dab3",
+    "Title": "FCell 2.1: Excel object handles and linear regression with R in F#",
+    "Url": "https://www.youtube.com/watch?v=jtNyFMp4NAg",
+    "Thumbnail": "https://i1.ytimg.com/vi/jtNyFMp4NAg/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-03-22T00:00:00Z"
+  },
+  {
+    "_id": "53313530988a7116e0c7578b",
+    "Title": "Porting Quake III to F# A Journey to Functional Programming with Will Smith",
+    "Url": "http://vimeo.com/89675667",
+    "Thumbnail": "http://b.vimeocdn.com/ts/468/521/468521596_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-03-20T00:00:00Z"
+  },
+  {
+    "_id": "533135db988a7116e0c7578c",
+    "Title": "Building a Language for Spreadsheet Refactoring",
+    "Url": "http://www.infoq.com/presentations/spreadsheet-refactoring",
+    "Thumbnail": "http://www.infoq.com/resource/presentations/spreadsheet-refactoring/en/slides/sl1.jpg",
+    "Website": "InfoQ",
+    "Date": "2014-03-20T00:00:00Z"
+  },
+  {
+    "_id": "53143855988a7177948dade2",
+    "Title": "F# Software Foundation Year in Review",
+    "Url": "https://www.youtube.com/watch?v=GOF2LnJGVV0",
+    "Thumbnail": "https://i1.ytimg.com/vi/GOF2LnJGVV0/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-02-25T00:00:00Z"
+  },
+  {
+    "_id": "531438e5988a7177948dade4",
+    "Title": "Concurrency in F#",
+    "Url": "https://www.youtube.com/watch?v=3nJOZu7EA6s",
+    "Thumbnail": "https://i1.ytimg.com/vi/3nJOZu7EA6s/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-02-24T00:00:00Z"
+  },
+  {
+    "_id": "531438ac988a7177948dade3",
+    "Title": "F# MVC for WPF",
+    "Url": "https://www.youtube.com/watch?v=MuHFgkgnx6I",
+    "Thumbnail": "https://i1.ytimg.com/vi/MuHFgkgnx6I/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-02-20T00:00:00Z"
+  },
+  {
+    "_id": "5301be2e988a71567c132bab",
+    "Title": "F# for the client - from WPF to iOS",
+    "Url": "https://www.youtube.com/watch?v=MriHEnq5MR4",
+    "Thumbnail": "https://i1.ytimg.com/vi/MriHEnq5MR4/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-02-13T00:00:00Z"
+  },
+  {
+    "_id": "5301c023988a71567c132bad",
+    "Title": "Deedle: Effective Data & Time Series Analysis with Tomas Petricek",
+    "Url": "https://skillsmatter.com/skillscasts/4950-deedle-effective-data-time-series-analysis-with-tomas-petricek",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2014-02-13T00:00:00Z"
+  },
+  {
+    "_id": "5301bea8988a71567c132bac",
+    "Title": "Yan Cui - F# in Social Gaming",
+    "Url": "http://vimeo.com/85807155",
+    "Thumbnail": "http://b.vimeocdn.com/ts/463/244/463244505_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2014-02-04T00:00:00Z"
+  },
+  {
+    "_id": "52ef4a02988a71a6481845cd",
+    "Title": "F# for Fun and Games with Anthony Brown",
+    "Url": "https://skillsmatter.com/skillscasts/4949-f-for-fun-and-games-with-anthony-brown",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2014-01-30T00:00:00Z"
+  },
+  {
+    "_id": "52ef4984988a71a6481845cc",
+    "Title": "Reed Copsey: New libraries for Client Side development in F#",
+    "Url": "http://www.youtube.com/watch?v=z6R85_X2ivE",
+    "Thumbnail": "http://i1.ytimg.com/vi/z6R85_X2ivE/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-01-28T00:00:00Z"
+  },
+  {
+    "_id": "52e61438988a718f18d7cc9d",
+    "Title": "SQL Type Provider Deep Dive with Ross McKinlay",
+    "Url": "http://skillsmatter.com/podcast/scala/sql-type-provider-deep-dive-with-ross-mckinlay",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2014-01-16T00:00:00Z"
+  },
+  {
+    "_id": "52e6148e988a718f18d7cc9e",
+    "Title": "FCell 2.0 Demo",
+    "Url": "http://www.youtube.com/watch?v=iWvIpDnDIug",
+    "Thumbnail": "http://i1.ytimg.com/vi/iWvIpDnDIug/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2014-01-15T00:00:00Z"
+  },
+  {
+    "_id": "52b7d684988a710eac479d23",
+    "Title": "F# type provider for Amazon S3",
+    "Url": "http://www.youtube.com/watch?v=LOU00RlArqg",
+    "Thumbnail": "http://i1.ytimg.com/vi/LOU00RlArqg/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-12-18T00:00:00Z"
+  },
+  {
+    "_id": "529d8036988a715b841502e5",
+    "Title": "Understanding the World with F#",
+    "Url": "http://channel9.msdn.com/posts/Understanding-the-World-with-F",
+    "Thumbnail": "http://media.ch9.ms/ch9/b000/c7a2af85-f1ee-4fc0-9742-524a5509b000/UnderstandingtheWorldwithFsharp_220.jpg",
+    "Website": "Channel9",
+    "Date": "2013-12-02T00:00:00Z"
+  },
+  {
+    "_id": "529c3cee988a715a68dd71b6",
+    "Title": "Intro to F# pattern matching",
+    "Url": "http://vimeo.com/80591866",
+    "Thumbnail": "http://b.vimeocdn.com/ts/456/560/456560982_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-11-28T00:00:00Z"
+  },
+  {
+    "_id": "529c3c51988a715a68dd71b5",
+    "Title": "Simpler Data Access and Smarter Calculations",
+    "Url": "http://www.youtube.com/watch?v=dhZPcFrCczA",
+    "Thumbnail": "http://i1.ytimg.com/vi/dhZPcFrCczA/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-11-26T00:00:00Z"
+  },
+  {
+    "_id": "545081999ca65f123456f0cb",
+    "Title": "F# in Finance 2013 - Keynote - Don Syme",
+    "Url": "https://www.youtube.com/watch?v=N7h2UqDHcWc",
+    "Thumbnail": "https://i.ytimg.com/vi/N7h2UqDHcWc/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-11-25T00:00:00Z"
+  },
+  {
+    "_id": "545082109ca65f123456f0cc",
+    "Title": "F# in Finance 2013 - Jon Harrop",
+    "Url": "https://www.youtube.com/watch?v=WI9bNWzTkxs",
+    "Thumbnail": "https://i.ytimg.com/vi/WI9bNWzTkxs/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-11-25T00:00:00Z"
+  },
+  {
+    "_id": "545082b69ca65f123456f0cd",
+    "Title": "F# Expert Panel",
+    "Url": "https://www.youtube.com/watch?v=cILZgsiLOCs",
+    "Thumbnail": "https://i.ytimg.com/vi/cILZgsiLOCs/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-11-25T00:00:00Z"
+  },
+  {
+    "_id": "529c3bd5988a715a68dd71b4",
+    "Title": "Reasonable Code with F#",
+    "Url": "http://www.infoq.com/presentations/readable-code-f-sharp",
+    "Thumbnail": "http://www.infoq.com/resource/presentations/readable-code-f-sharp/en/slides/sl1.jpg",
+    "Website": "InfoQ",
+    "Date": "2013-11-23T00:00:00Z"
+  },
+  {
+    "_id": "5296dce5988a7170d46ace86",
+    "Title": "FQuake3 - F# Script Proof of Concept",
+    "Url": "http://www.youtube.com/watch?v=tWPJGHtgVTM",
+    "Thumbnail": "http://i1.ytimg.com/vi/tWPJGHtgVTM/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-11-17T00:00:00Z"
+  },
+  {
+    "_id": "5296de95988a7170d46ace88",
+    "Title": "DISCOVERING TYPE PROVIDERS IN F# 3.0",
+    "Url": "http://vimeo.com/79402548",
+    "Thumbnail": "http://b.vimeocdn.com/ts/455/084/455084473_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-11-14T00:00:00Z"
+  },
+  {
+    "_id": "5296deef988a7170d46ace89",
+    "Title": "CONCURRENT APPLICATIONS WITH F# AGENTS",
+    "Url": "http://vimeo.com/79390856",
+    "Thumbnail": "http://b.vimeocdn.com/ts/455/061/455061427_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-11-14T00:00:00Z"
+  },
+  {
+    "_id": "5296df63988a7170d46ace8a",
+    "Title": "F# for trading",
+    "Url": "http://vimeo.com/79390854",
+    "Thumbnail": "http://b.vimeocdn.com/ts/455/061/455061257_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-11-14T00:00:00Z"
+  },
+  {
+    "_id": "5296de08988a7170d46ace87",
+    "Title": "Deedle Effective Data and Time Series Analysis",
+    "Url": "http://vimeo.com/79345095",
+    "Thumbnail": "http://b.vimeocdn.com/ts/455/010/455010534_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-11-13T00:00:00Z"
+  },
+  {
+    "_id": "5280680cfa85dcdda89cc3f5",
+    "Title": "F# for C# developers",
+    "Url": "http://vimeo.com/78908217",
+    "Thumbnail": "http://b.vimeocdn.com/ts/454/458/454458010_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-11-09T00:00:00Z"
+  },
+  {
+    "_id": "529c3de7988a715a68dd71b7",
+    "Title": "Using F# to change the way we work",
+    "Url": "http://skillsmatter.com/podcast/scala/programming-with-the-stars-4395",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2013-10-31T00:00:00Z"
+  },
+  {
+    "_id": "526e10aefa85dc8210cffb6b",
+    "Title": "Community-Driven F#",
+    "Url": "http://vimeo.com/album/2481016/video/77106039",
+    "Thumbnail": "http://b.vimeocdn.com/ts/452/199/452199453_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-10-21T00:00:00Z"
+  },
+  {
+    "_id": "526e0fe7fa85dc8210cffb6a",
+    "Title": "F# for the Web with Type providers and FunScript",
+    "Url": "http://vimeo.com/77357721",
+    "Thumbnail": "http://b.vimeocdn.com/ts/452/514/452514630_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-10-15T00:00:00Z"
+  },
+  {
+    "_id": "524928cefa85dcdb74afc29d",
+    "Title": "Ben Taylor on Enticify",
+    "Url": "http://skillsmatter.com/podcast/open-source-dot-net/ben-taylor-on-enticify",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2013-09-26T00:00:00Z"
+  },
+  {
+    "_id": "523e9dd2fa85dc147c546352",
+    "Title": "Rachel Reese on FSharp Agents",
+    "Url": "http://vimeo.com/74996999",
+    "Thumbnail": "http://b.vimeocdn.com/ts/449/460/449460790_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-09-20T00:00:00Z"
+  },
+  {
+    "_id": "523e9e0afa85dc147c546353",
+    "Title": "Jack Fox on Linear Data Structures",
+    "Url": "http://vimeo.com/74996998",
+    "Thumbnail": "http://b.vimeocdn.com/ts/449/461/449461204_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-09-20T00:00:00Z"
+  },
+  {
+    "_id": "522c2113fa85dc6620a7aa87",
+    "Title": "F# Driver for MongoDB",
+    "Url": "http://vimeo.com/74025841",
+    "Thumbnail": "http://b.vimeocdn.com/ts/448/278/448278775_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-09-04T00:00:00Z"
+  },
+  {
+    "_id": "51f607eafa85dc48d47c5a53",
+    "Title": "F# Mobile Apps",
+    "Url": "http://skillsmatter.com/podcast/scala/f-mobile-apps",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2013-07-25T00:00:00Z"
+  },
+  {
+    "_id": "51cc4b6df73fe605d42f5637",
+    "Title": "Succeeding with Functional-first Programming in Industry",
+    "Url": "http://vimeo.com/68226717",
+    "Thumbnail": "http://b.vimeocdn.com/ts/440/458/440458000_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-06-10T00:00:00Z"
+  },
+  {
+    "_id": "51cc4bb2f73fe605d42f5638",
+    "Title": "Making Magic: Combining Data, Information, Services and Programming, at Internet-Scale",
+    "Url": "http://vimeo.com/68215535",
+    "Thumbnail": "http://b.vimeocdn.com/ts/440/437/440437853_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-06-10T00:00:00Z"
+  },
+  {
+    "_id": "51b2eb53f73fe64fc47c023c",
+    "Title": "Build Data-Rich Solutions Faster with Microsoft Visual F#",
+    "Url": "http://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/DEV-B324",
+    "Thumbnail": "http://video.ch9.ms/sessions/teched/na/2013/DEV-B324.jpg",
+    "Website": "Channel 9",
+    "Date": "2013-06-06T00:00:00Z"
+  },
+  {
+    "_id": "51b2eba5f73fe64fc47c023d",
+    "Title": "Data Science with Hive from Tsunami",
+    "Url": "https://www.youtube.com/watch?v=USw0o9Fccac",
+    "Thumbnail": "https://i2.ytimg.com/vi/USw0o9Fccac/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-06-03T00:00:00Z"
+  },
+  {
+    "_id": "517e1d55f73fe62a840f059a",
+    "Title": "F# embedded in Excel",
+    "Url": "http://skillsmatter.com/podcast/open-source-dot-net/f-embedded-in-excel",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2013-04-25T00:00:00Z"
+  },
+  {
+    "_id": "517e1d8af73fe6946ca147fa",
+    "Title": "F# embedded in Excel part 2",
+    "Url": "http://skillsmatter.com/podcast/open-source-dot-net/f-embedded-in-excel-part-2",
+    "Thumbnail": "https://skillsmatter.com/assets/logo_proper-b6f0b7c4b2a97a5db191ae7cb0c75dd7.png",
+    "Website": "SkillsMatter",
+    "Date": "2013-04-25T00:00:00Z"
+  },
+  {
+    "_id": "517788cef73fe60f88a7390d",
+    "Title": "Dmitry Morozov on F# MVC for WPF",
+    "Url": "http://vimeo.com/64695094",
+    "Thumbnail": "http://b.vimeocdn.com/ts/435/436/435436548_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-04-23T00:00:00Z"
+  },
+  {
+    "_id": "516bea67f73fe626f089959e",
+    "Title": "Tsunami Excel with UDFs",
+    "Url": "http://www.youtube.com/watch?v=VoxlpDzWJEA",
+    "Thumbnail": "http://i3.ytimg.com/vi/VoxlpDzWJEA/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-04-15T00:00:00Z"
+  },
+  {
+    "_id": "516b926ef73fe65a5c69213d",
+    "Title": "Visualize World Bank data in R with F# Type Providers",
+    "Url": "http://www.youtube.com/watch?v=_BOST3W88-Y",
+    "Thumbnail": "http://i4.ytimg.com/vi/_BOST3W88-Y/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-04-14T00:00:00Z"
+  },
+  {
+    "_id": "51627dc8f73fe68eac73715b",
+    "Title": "Supervision: Static Analysis for Microsofts Dynamics NAV",
+    "Url": "http://vimeo.com/63376677",
+    "Thumbnail": "http://b.vimeocdn.com/ts/433/611/433611917_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-04-03T00:00:00Z"
+  },
+  {
+    "_id": "515588a1776d410c680ed074",
+    "Title": "Deploying Web Apps to the Cloud (Part 1)",
+    "Url": "http://www.youtube.com/watch?v=StaP_L6xLUg",
+    "Thumbnail": "http://i4.ytimg.com/vi/StaP_L6xLUg/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-03-20T23:00:00Z"
+  },
+  {
+    "_id": "515588ec776d410c680ed075",
+    "Title": "FCell: Creating Excel UDFs in F#",
+    "Url": "http://www.youtube.com/watch?v=XsNa2LbIdFA",
+    "Thumbnail": "http://i1.ytimg.com/vi/XsNa2LbIdFA/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-03-05T23:00:00Z"
+  },
+  {
+    "_id": "5155891f776d410c680ed076",
+    "Title": "FCell: Tsunami F# Editor in Action",
+    "Url": "http://www.youtube.com/watch?v=g3VcjXGhp9U",
+    "Thumbnail": "http://i4.ytimg.com/vi/g3VcjXGhp9U/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-03-05T23:00:00Z"
+  },
+  {
+    "_id": "51558963776d410c680ed077",
+    "Title": "FCell Type Provider",
+    "Url": "http://www.youtube.com/watch?v=9ri0RpT4mMo",
+    "Thumbnail": "http://i2.ytimg.com/vi/9ri0RpT4mMo/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-03-04T23:00:00Z"
+  },
+  {
+    "_id": "5155886c776d410c680ed073",
+    "Title": "Rhino 3D with F#",
+    "Url": "http://www.youtube.com/watch?v=GbahmjW3J5Q",
+    "Thumbnail": "http://i4.ytimg.com/vi/GbahmjW3J5Q/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-03-03T23:00:00Z"
+  },
+  {
+    "_id": "515589a6776d410c680ed078",
+    "Title": "{m}brace on Windows Azure - A distributed GREP algorithm",
+    "Url": "http://www.youtube.com/watch?v=13_4EUJ0v4A",
+    "Thumbnail": "http://i2.ytimg.com/vi/13_4EUJ0v4A/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2013-02-04T23:00:00Z"
+  },
+  {
+    "_id": "51558617776d410c68fbbeff",
+    "Title": "IntelliFactory CloudSharper",
+    "Url": "http://vimeo.com/59499238",
+    "Thumbnail": "http://b.vimeocdn.com/ts/413/531/413531764_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2013-01-31T23:00:00Z"
+  },
+  {
+    "_id": "515586ac776d410c680ed072",
+    "Title": "Data exploration in the cloud with F#",
+    "Url": "http://vimeo.com/57399434",
+    "Thumbnail": "http://b.vimeocdn.com/ts/397/852/397852679_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-12-31T23:00:00Z"
+  },
+  {
+    "_id": "50a09bbf992df10f68f9166b",
+    "Title": "Introducing the F# Software Foundation",
+    "Url": "http://vimeo.com/53136114",
+    "Thumbnail": "http://b.vimeocdn.com/ts/366/841/366841027_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-11-07T23:00:00Z"
+  },
+  {
+    "_id": "50a09a77992df10f68f9166a",
+    "Title": "Building Better Web Apps with FSharp",
+    "Url": "http://vimeo.com/52610636",
+    "Thumbnail": "http://b.vimeocdn.com/ts/363/031/363031319_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-10-29T23:00:00Z"
+  },
+  {
+    "_id": "50851404992df1084c288d24",
+    "Title": "F# 3.0 Type Providers",
+    "Url": "http://vimeo.com/50170965",
+    "Thumbnail": "http://b.vimeocdn.com/ts/345/790/345790066_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-09-30T23:00:00Z"
+  },
+  {
+    "_id": "508f9a6b992df107a42b390f",
+    "Title": "F# Tutorial: For Loop",
+    "Url": "http://www.youtube.com/watch?v=OzISu9udIY0",
+    "Thumbnail": "http://i4.ytimg.com/vi/OzISu9udIY0/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-09-15T23:00:00Z"
+  },
+  {
+    "_id": "508f9efe992df107a42b3914",
+    "Title": "WPF desktop GUI app development in F# with VS Express 2012 for Web",
+    "Url": "http://www.youtube.com/watch?v=e4R9EfFNgLU",
+    "Thumbnail": "http://i2.ytimg.com/vi/e4R9EfFNgLU/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-09-13T23:00:00Z"
+  },
+  {
+    "_id": "508f9a1c992df107a42b390e",
+    "Title": "F# Tutorial: If Else",
+    "Url": "http://www.youtube.com/watch?v=8MRIHwBPyPQ",
+    "Thumbnail": "http://i1.ytimg.com/vi/8MRIHwBPyPQ/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-09-11T23:00:00Z"
+  },
+  {
+    "_id": "508f9c69992df107a42b3911",
+    "Title": "F# Tutorial: Addition of two numbers",
+    "Url": "http://www.youtube.com/watch?v=ugL3tqszZmQ",
+    "Thumbnail": "http://i2.ytimg.com/vi/ugL3tqszZmQ/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-09-11T23:00:00Z"
+  },
+  {
+    "_id": "508f9b3a992df107a42b3910",
+    "Title": "F# Tutorial: Immutable Concept",
+    "Url": "http://www.youtube.com/watch?v=OWdqMTmM5Sw",
+    "Thumbnail": "http://i4.ytimg.com/vi/OWdqMTmM5Sw/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-09-08T23:00:00Z"
+  },
+  {
+    "_id": "50851051992df1084c288d1c",
+    "Title": "Howard Mansell - F# Type Providers and the R Programming Language",
+    "Url": "http://vimeo.com/49045879",
+    "Thumbnail": "http://b.vimeocdn.com/ts/338/390/338390107_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-09-05T23:00:00Z"
+  },
+  {
+    "_id": "508521c6992df1084c288d41",
+    "Title": "F# 3.0: data, services, Web, cloud, at your fingertips",
+    "Url": "http://vimeo.com/49467255",
+    "Thumbnail": "http://b.vimeocdn.com/ts/341/340/341340995_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-08-31T23:00:00Z"
+  },
+  {
+    "_id": "508f99da992df107a42b390d",
+    "Title": "F# Tutorial: Hello World Program",
+    "Url": "http://www.youtube.com/watch?v=xlJeZ-j4Fug",
+    "Thumbnail": "http://i1.ytimg.com/vi/xlJeZ-j4Fug/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-08-19T23:00:00Z"
+  },
+  {
+    "_id": "50850e78992df1084c288d17",
+    "Title": "Rachel Reese - Getting Started with F# Part 1",
+    "Url": "http://vimeo.com/46903828",
+    "Thumbnail": "http://b.vimeocdn.com/ts/326/758/326758678_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-08-01T23:00:00Z"
+  },
+  {
+    "_id": "50850ed5992df1084c288d18",
+    "Title": "Rachel Reese - Getting Started with F# Part 2",
+    "Url": "http://vimeo.com/46910967",
+    "Thumbnail": "http://b.vimeocdn.com/ts/326/803/326803675_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-08-01T23:00:00Z"
+  },
+  {
+    "_id": "5083b1a9992df10bd8270142",
+    "Title": "Pac[Metro]Man - Recreating PacMan for Metro with a little help from F#",
+    "Url": "http://channel9.msdn.com/coding4fun/blog/PacMetroMan-Recreating-PacMan-for-Metro-with-a-little-help-from-F",
+    "Thumbnail": "http://files.channel9.msdn.com/thumbnail/9ee9112e-167e-45b3-8beb-f638153f4f07.png",
+    "Website": "Channel 9",
+    "Date": "2012-07-31T23:00:00Z"
+  },
+  {
+    "_id": "50851398992df1084c288d23",
+    "Title": "Computation Expressions in F# 3.0",
+    "Url": "http://vimeo.com/47218436",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/732/328732848_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-07-31T23:00:00Z"
+  },
+  {
+    "_id": "50851443992df1084c288d25",
+    "Title": "F#, The American Dream",
+    "Url": "http://vimeo.com/46308827",
+    "Thumbnail": "http://b.vimeocdn.com/ts/322/439/322439641_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-07-31T23:00:00Z"
+  },
+  {
+    "_id": "5085186f992df1084c288d31",
+    "Title": "Mathias Brandewinder On Bumblebee",
+    "Url": "http://vimeo.com/46308390",
+    "Thumbnail": "http://b.vimeocdn.com/ts/322/433/322433506_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-05-31T23:00:00Z"
+  },
+  {
+    "_id": "50851ab4992df1084c288d38",
+    "Title": "Web development with F# ",
+    "Url": "http://vimeo.com/43528820",
+    "Thumbnail": "http://b.vimeocdn.com/ts/302/240/302240928_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-04-30T23:00:00Z"
+  },
+  {
+    "_id": "508f9559992df107a42b3905",
+    "Title": "An Introduction to F#",
+    "Url": "http://www.youtube.com/watch?v=HQ887aOZITY",
+    "Thumbnail": "http://i1.ytimg.com/vi/HQ887aOZITY/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-04-09T23:00:00Z"
+  },
+  {
+    "_id": "5085129d992df1084c288d21",
+    "Title": "Tomas Petricek on F# applications: From domain model to user interface",
+    "Url": "http://vimeo.com/41174802",
+    "Thumbnail": "http://b.vimeocdn.com/ts/285/053/285053113_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-03-31T23:00:00Z"
+  },
+  {
+    "_id": "508512fe992df1084c288d22",
+    "Title": "Coding F# (F-Sharp, English): Get Stock Quote Data and Historical Stock Prices",
+    "Url": "http://vimeo.com/37477716",
+    "Thumbnail": "http://b.vimeocdn.com/ts/257/487/257487624_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-03-31T23:00:00Z"
+  },
+  {
+    "_id": "508514a3992df1084c288d26",
+    "Title": "Units of Measure in F#",
+    "Url": "http://vimeo.com/46296644",
+    "Thumbnail": "http://b.vimeocdn.com/ts/322/338/322338329_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-03-31T23:00:00Z"
+  },
+  {
+    "_id": "5083b24a992df10bd8270143",
+    "Title": "C9 Lectures: Donna Malayeri - F# 3.0 - Information Rich Programming, 1 of 1",
+    "Url": "http://channel9.msdn.com/Blogs/Charles/C9-Lectures-Donna-Malayeri-F-30-Information-Rich-Programming-1-of-1",
+    "Thumbnail": "http://ak.channel9.msdn.com/ch9/8cea/cb25a821-adea-4ded-ae32-62bf4a118cea/FSharp3DonnaMalaYeri_220.jpg",
+    "Website": "Channel 9",
+    "Date": "2012-03-18T23:00:00Z"
+  },
+  {
+    "_id": "508f92f7992df107a42b3903",
+    "Title": "Let There Be Functional Programming with F#",
+    "Url": "http://www.youtube.com/watch?v=4WxKFMb5i9Y",
+    "Thumbnail": "http://i1.ytimg.com/vi/4WxKFMb5i9Y/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-03-18T23:00:00Z"
+  },
+  {
+    "_id": "508511a5992df1084c288d1e",
+    "Title": "Barb: How I built a simple dynamic programming language in F#",
+    "Url": "http://vimeo.com/39381728",
+    "Thumbnail": "http://b.vimeocdn.com/ts/271/617/271617627_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-02-29T23:00:00Z"
+  },
+  {
+    "_id": "50852113992df1084c288d40",
+    "Title": "Coding with LINQ, Patterns & Practices",
+    "Url": "http://vimeo.com/37477719",
+    "Thumbnail": "http://b.vimeocdn.com/ts/257/484/257484586_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-02-29T23:00:00Z"
+  },
+  {
+    "_id": "508667ed992df1052435b68e",
+    "Title": "F# (F-Sharp) Tutorial - 3.3 - Reference Values [TutorialGenius.com]",
+    "Url": "http://www.youtube.com/watch?v=GAPiihlizWQ",
+    "Thumbnail": "http://i4.ytimg.com/vi/GAPiihlizWQ/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-02-05T23:00:00Z"
+  },
+  {
+    "_id": "50866832992df1052435b68f",
+    "Title": "F# (F-Sharp) Tutorial - 2.4 - F-Sharp Interactive [TutorialGenius.com]",
+    "Url": "http://www.youtube.com/watch?v=OENr435_tuo",
+    "Thumbnail": "http://i4.ytimg.com/vi/OENr435_tuo/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-02-05T23:00:00Z"
+  },
+  {
+    "_id": "508669c9992df1052435b690",
+    "Title": "F# (F-Sharp) Tutorial - 4.1 - Conditional Expressions [TutorialGenius.com]",
+    "Url": "http://www.youtube.com/watch?v=6GWu09qHlpw",
+    "Thumbnail": "http://i3.ytimg.com/vi/6GWu09qHlpw/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-02-05T23:00:00Z"
+  },
+  {
+    "_id": "50866a97992df1052435b691",
+    "Title": "F# (F-Sharp) Tutorial - 4.4 - For Expressions [TutorialGenius.com]",
+    "Url": "http://www.youtube.com/watch?v=z49Wew284PE",
+    "Thumbnail": "http://i3.ytimg.com/vi/z49Wew284PE/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-02-05T23:00:00Z"
+  },
+  {
+    "_id": "50866b4e992df1052435b692",
+    "Title": "F# (F-Sharp) Tutorial - 3.1 - Values [TutorialGenius.com]",
+    "Url": "http://www.youtube.com/watch?v=2_a9Rd53-jE",
+    "Thumbnail": "http://i3.ytimg.com/vi/2_a9Rd53-jE/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-02-05T23:00:00Z"
+  },
+  {
+    "_id": "50866bfd992df1052435b693",
+    "Title": "F# (F-Sharp) Tutorial - 3.4 - printfn [TutorialGenius.com]",
+    "Url": "http://www.youtube.com/watch?v=MDbnc0sGGjg",
+    "Thumbnail": "http://i2.ytimg.com/vi/MDbnc0sGGjg/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2012-02-05T23:00:00Z"
+  },
+  {
+    "_id": "50851244992df1084c288d20",
+    "Title": "High Performance F# in .NET and on the GPU with Jack Pappas [Part 2]",
+    "Url": "http://vimeo.com/36629292",
+    "Thumbnail": "http://b.vimeocdn.com/ts/251/292/251292721_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-01-31T23:00:00Z"
+  },
+  {
+    "_id": "50851641992df1084c288d2b",
+    "Title": "Building Single Page Web Applications with Pit FW and ServiceStack",
+    "Url": "http://vimeo.com/46715794",
+    "Thumbnail": "http://b.vimeocdn.com/ts/325/420/325420713_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2012-01-31T23:00:00Z"
+  },
+  {
+    "_id": "50850f56992df1084c288d19",
+    "Title": "High Performance F# in .NET and on the GPU with Jack Pappas",
+    "Url": "http://vimeo.com/33699102",
+    "Thumbnail": "http://b.vimeocdn.com/ts/228/946/228946839_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-12-31T23:00:00Z"
+  },
+  {
+    "_id": "50852000992df1084c288d3d",
+    "Title": "Experience report on FPish - Everything Functional",
+    "Url": "http://vimeo.com/46715923",
+    "Thumbnail": "http://b.vimeocdn.com/ts/325/429/325429389_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-12-31T23:00:00Z"
+  },
+  {
+    "_id": "5085154b992df1084c288d28",
+    "Title": "F# Community Roundtable",
+    "Url": "http://vimeo.com/46303863",
+    "Thumbnail": "http://b.vimeocdn.com/ts/322/393/322393255_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-10-31T23:00:00Z"
+  },
+  {
+    "_id": "508f98e4992df107a42b390a",
+    "Title": "F# 3.0",
+    "Url": "http://www.youtube.com/watch?v=-SGPEUuG1I8",
+    "Thumbnail": "http://i2.ytimg.com/vi/-SGPEUuG1I8/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2011-10-27T23:00:00Z"
+  },
+  {
+    "_id": "5083b2be992df10bd8270144",
+    "Title": "Tao Liu: F# Design Patterns",
+    "Url": "http://channel9.msdn.com/posts/Tao-Liu-F-Design-Patterns",
+    "Thumbnail": "http://ak.channel9.msdn.com/ch9/4895/e65504a0-5d93-4a11-af72-9f78013d4895/TaoLiuFSharpDesignPatterns_220_ch9.jpg",
+    "Website": "Channel 9",
+    "Date": "2011-10-16T23:00:00Z"
+  },
+  {
+    "_id": "50850a9e992df1084c288d14",
+    "Title": "FSharpRefactoring Highlight Usages",
+    "Url": "http://vimeo.com/18517106",
+    "Thumbnail": "http://b.vimeocdn.com/ts/116/520/116520141_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-09-30T23:00:00Z"
+  },
+  {
+    "_id": "508511e0992df1084c288d1f",
+    "Title": "F# 3.0 Preview - Big Data in Little Syntax",
+    "Url": "http://vimeo.com/30961156",
+    "Thumbnail": "http://b.vimeocdn.com/ts/208/308/208308090_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-09-30T23:00:00Z"
+  },
+  {
+    "_id": "5085222e992df1084c288d42",
+    "Title": "SprinGraph Demo",
+    "Url": "http://vimeo.com/22416078",
+    "Thumbnail": "http://b.vimeocdn.com/ts/144/858/144858161_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-09-30T23:00:00Z"
+  },
+  {
+    "_id": "50850dff992df1084c288d16",
+    "Title": "Design Patterns In F# with Steve Goguen",
+    "Url": "http://vimeo.com/28805698",
+    "Thumbnail": "http://b.vimeocdn.com/ts/192/447/192447644_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-09-05T23:00:00Z"
+  },
+  {
+    "_id": "508510e5992df1084c288d1d",
+    "Title": "An F# case study: fs-zmq with Paulmichael Blasucci",
+    "Url": "http://vimeo.com/28803344",
+    "Thumbnail": "http://b.vimeocdn.com/ts/192/429/192429066_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-09-05T23:00:00Z"
+  },
+  {
+    "_id": "50851e6a992df1084c288d3c",
+    "Title": "MonoRail 3.0 And F#",
+    "Url": "http://vimeo.com/46710752",
+    "Thumbnail": "http://b.vimeocdn.com/ts/325/387/325387120_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-07-31T23:00:00Z"
+  },
+  {
+    "_id": "50850fef992df1084c288d1b",
+    "Title": "Putting F# to Work for You with Keith Battocchi",
+    "Url": "http://vimeo.com/26696135",
+    "Thumbnail": "http://b.vimeocdn.com/ts/176/563/176563639_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-07-18T23:00:00Z"
+  },
+  {
+    "_id": "50850f9e992df1084c288d1a",
+    "Title": "Getting your Functional on with F# and Chris Marinos",
+    "Url": "http://vimeo.com/25266066",
+    "Thumbnail": "http://b.vimeocdn.com/ts/166/249/166249180_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-06-15T23:00:00Z"
+  },
+  {
+    "_id": "50851752992df1084c288d2e",
+    "Title": "Automating Acceptance Tests with F# and TickSpec",
+    "Url": "http://vimeo.com/46302713",
+    "Thumbnail": "http://b.vimeocdn.com/ts/322/381/322381694_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-05-31T23:00:00Z"
+  },
+  {
+    "_id": "5086675a992df1052435b68d",
+    "Title": "Fsharp 3D visualization demo",
+    "Url": "http://www.youtube.com/watch?v=5PdYmhS48NE",
+    "Thumbnail": "http://i2.ytimg.com/vi/5PdYmhS48NE/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2011-05-29T23:00:00Z"
+  },
+  {
+    "_id": "508666a4992df1052435b68c",
+    "Title": "FSharp Beginners I",
+    "Url": "http://www.youtube.com/watch?v=rZ2AXFhnfoM",
+    "Thumbnail": "http://i3.ytimg.com/vi/rZ2AXFhnfoM/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2011-05-21T23:00:00Z"
+  },
+  {
+    "_id": "50850cba992df1084c288d15",
+    "Title": "F# Today, F# Tomorrow with Don Syme",
+    "Url": "http://vimeo.com/25278085",
+    "Thumbnail": "http://b.vimeocdn.com/ts/166/343/166343763_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-05-18T23:00:00Z"
+  },
+  {
+    "_id": "508f999b992df107a42b390c",
+    "Title": "F# Tutorial: Windows Forms - NO CONSOLE -",
+    "Url": "http://www.youtube.com/watch?v=4YO7HD-UJPw",
+    "Thumbnail": "http://i1.ytimg.com/vi/4YO7HD-UJPw/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2011-05-06T23:00:00Z"
+  },
+  {
+    "_id": "508518da992df1084c288d32",
+    "Title": "F# In The Enterprise Panel",
+    "Url": "http://vimeo.com/46300386",
+    "Thumbnail": "http://b.vimeocdn.com/ts/322/363/322363849_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-04-30T23:00:00Z"
+  },
+  {
+    "_id": "508f9934992df107a42b390b",
+    "Title": "C# + F# + XNA Shooting Game Prototype",
+    "Url": "http://www.youtube.com/watch?v=tUuh_e_oQj4",
+    "Thumbnail": "http://i1.ytimg.com/vi/tUuh_e_oQj4/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2011-04-16T23:00:00Z"
+  },
+  {
+    "_id": "50851919992df1084c288d33",
+    "Title": "Improving Productivity with Custom F# Application Templates and NuGet",
+    "Url": "http://vimeo.com/47218895",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/737/328737065_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-03-31T23:00:00Z"
+  },
+  {
+    "_id": "50851cd3992df1084c288d3a",
+    "Title": "Teaching F#: From numerical expressions to 3D graphics",
+    "Url": "http://vimeo.com/47219139",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/738/328738808_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2011-01-31T23:00:00Z"
+  },
+  {
+    "_id": "50851718992df1084c288d2d",
+    "Title": "Teaching Functional Programming to Young People",
+    "Url": "http://vimeo.com/47219268",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/739/328739970_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-12-31T23:00:00Z"
+  },
+  {
+    "_id": "50851794992df1084c288d2f",
+    "Title": "Introducting WebSharper Sitelets",
+    "Url": "http://vimeo.com/47219370",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/740/328740854_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-12-01T23:00:00Z"
+  },
+  {
+    "_id": "508f984c992df107a42b3909",
+    "Title": "F# Tutorial: Simple Console Calculator [Getting Started]",
+    "Url": "http://www.youtube.com/watch?v=TKvEHTomnsY",
+    "Thumbnail": "http://i1.ytimg.com/vi/TKvEHTomnsY/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2010-11-06T23:00:00Z"
+  },
+  {
+    "_id": "508f9623992df107a42b3907",
+    "Title": "F# Tutorial: Create a Basic Program [Entry-Point Function]",
+    "Url": "http://www.youtube.com/watch?v=GhREMmKxNOk",
+    "Thumbnail": "http://i4.ytimg.com/vi/GhREMmKxNOk/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2010-10-23T23:00:00Z"
+  },
+  {
+    "_id": "508516d5992df1084c288d2c",
+    "Title": "Trees, Language-Oriented Programming and F#",
+    "Url": "http://vimeo.com/47219455",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/741/328741167_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-09-30T23:00:00Z"
+  },
+  {
+    "_id": "508519cc992df1084c288d35",
+    "Title": "Anton Tayanovskyy - Developing WebSharper 2.0 Applications",
+    "Url": "http://vimeo.com/15563573",
+    "Thumbnail": "http://b.vimeocdn.com/ts/939/583/93958356_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-09-30T23:00:00Z"
+  },
+  {
+    "_id": "5085226e992df1084c288d43",
+    "Title": "Scott Theleman - Understanding F# Workflows Part 2 of 2",
+    "Url": "http://vimeo.com/14963006",
+    "Thumbnail": "http://b.vimeocdn.com/ts/893/318/89331823_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-09-30T23:00:00Z"
+  },
+  {
+    "_id": "5083b35d992df10bd8270145",
+    "Title": "F# and Windows Azure with Don Syme (#3 of 4)",
+    "Url": "http://channel9.msdn.com/Blogs/David+Gristwood/F-and-Windows-Azure-with-Don-Syme-3-of-4",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/ch9/2aa7/37091a06-408a-40ae-b990-9df900b72aa7/fsharpanddon3_220_ch9.jpg",
+    "Website": "Channel 9",
+    "Date": "2010-09-26T23:00:00Z"
+  },
+  {
+    "_id": "5083b3b3992df10bd8270146",
+    "Title": "An F# Tutorial with Don Syme (#2 of 4)",
+    "Url": "http://channel9.msdn.com/Blogs/David+Gristwood/An-F-Tutorial-with-Don-Syme-2-of-4",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/ch9/1163/1fb6a177-e3f0-4f37-ba71-9df900b41163/fsharpanddon2_220_ch9.jpg",
+    "Website": "Channel 9",
+    "Date": "2010-09-26T23:00:00Z"
+  },
+  {
+    "_id": "5083b41b992df10bd8270147",
+    "Title": "An Introduction to F# with Don Syme (#1 of 4)",
+    "Url": "http://channel9.msdn.com/Blogs/David+Gristwood/An-Introduction-to-F-with-Don-Syme-1-of-4",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/ch9/e797/cb868473-300d-4d62-aaea-9df900abe797/fsharpanddon1_220_ch9.jpg",
+    "Website": "Channel 9",
+    "Date": "2010-09-26T23:00:00Z"
+  },
+  {
+    "_id": "5083b489992df10bd8270148",
+    "Title": "Teaching programming language concepts with F#, part 2",
+    "Url": "http://channel9.msdn.com/Blogs/martinesmann/Teaching-programming-language-concepts-with-F-part-2",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/ch9/0485/570485/PeterSestoftPart02_512_ch9.jpg",
+    "Website": "Channel 9",
+    "Date": "2010-09-01T23:00:00Z"
+  },
+  {
+    "_id": "5083b4e9992df10bd8270149",
+    "Title": "Teaching programming language concepts with F#, part 1",
+    "Url": "http://channel9.msdn.com/Blogs/martinesmann/Teaching-programming-language-concepts-with-F-part-1",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/570484_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2010-09-01T23:00:00Z"
+  },
+  {
+    "_id": "508515a3992df1084c288d29",
+    "Title": "A Thorough Introduction to WebSharper",
+    "Url": "http://vimeo.com/47219647",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/743/328743448_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-08-31T23:00:00Z"
+  },
+  {
+    "_id": "5083b533992df10bd827014a",
+    "Title": "ELC 2010: Rich Hickey and Joe Pamer - Perspectives on Clojure and F#",
+    "Url": "http://channel9.msdn.com/Blogs/Charles/Emerging-Langs-Clojure-and-F",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/563931_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2010-08-08T23:00:00Z"
+  },
+  {
+    "_id": "50851a6f992df1084c288d37",
+    "Title": "Understanding F# Workflows Part 1 of 2",
+    "Url": "http://vimeo.com/14959931",
+    "Thumbnail": "http://b.vimeocdn.com/ts/893/077/89307721_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-08-01T23:00:00Z"
+  },
+  {
+    "_id": "50851960992df1084c288d34",
+    "Title": "F# Templates, Patterns and Practices",
+    "Url": "http://vimeo.com/47219713",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/751/328751680_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-07-31T23:00:00Z"
+  },
+  {
+    "_id": "508515fb992df1084c288d2a",
+    "Title": "Introduction to Functional Programming",
+    "Url": "http://vimeo.com/47219924",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/745/328745394_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-06-30T23:00:00Z"
+  },
+  {
+    "_id": "508664f9992df1052435b68a",
+    "Title": "F# in Microsoft Visual Studio 2010",
+    "Url": "http://channel9.msdn.com/Events/TechEd/NorthAmerica/2010/DEV307",
+    "Thumbnail": "http://i.msdn.microsoft.com/ff759495.mvs_150x113(en-us).jpg",
+    "Website": "Channel 9",
+    "Date": "2010-06-09T23:00:00Z"
+  },
+  {
+    "_id": "5085209a992df1084c288d3f",
+    "Title": "Steffen Forkmann on F# Open Source Tools",
+    "Url": "http://vimeo.com/13215304",
+    "Thumbnail": "http://b.vimeocdn.com/ts/754/907/75490747_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-06-06T23:00:00Z"
+  },
+  {
+    "_id": "50851e24992df1084c288d3b",
+    "Title": "F# and Silverlight",
+    "Url": "http://vimeo.com/10745902",
+    "Thumbnail": "http://b.vimeocdn.com/ts/895/546/89554698_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-04-04T23:00:00Z"
+  },
+  {
+    "_id": "50851ca9992df1084c288d39",
+    "Title": "Writing a Java to x86 Compiler in F#",
+    "Url": "http://vimeo.com/47220677",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/748/328748902_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-03-31T23:00:00Z"
+  },
+  {
+    "_id": "508662c3992df1052435b684",
+    "Title": "Getting started with F# in VS2010",
+    "Url": "http://msdn.microsoft.com/en-us/vstudio/ff681040",
+    "Thumbnail": "http://i.msdn.microsoft.com/ff681040.gf_150x113(en-us).jpg",
+    "Website": "MSDN",
+    "Date": "2010-03-31T23:00:00Z"
+  },
+  {
+    "_id": "50866300992df1052435b685",
+    "Title": "Editing F# code in VS2010",
+    "Url": "http://msdn.microsoft.com/en-us/vstudio/ff681044",
+    "Thumbnail": "http://i.msdn.microsoft.com/ff681044.ef_150x113(en-us).jpg",
+    "Website": "MSDN",
+    "Date": "2010-03-31T23:00:00Z"
+  },
+  {
+    "_id": "5086632e992df1052435b686",
+    "Title": "Managing F# projects in VS2010",
+    "Url": "http://msdn.microsoft.com/en-us/vstudio/ff681047",
+    "Thumbnail": "http://i.msdn.microsoft.com/ff681047.mf_150x113(en-us).jpg",
+    "Website": "MSDN",
+    "Date": "2010-03-31T23:00:00Z"
+  },
+  {
+    "_id": "5086636a992df1052435b687",
+    "Title": "Using the VS2010 Pro Power Tools Extension with F#",
+    "Url": "http://msdn.microsoft.com/en-us/vstudio/ff742849",
+    "Thumbnail": "http://i.msdn.microsoft.com/ff742849.vs2010_150x113(en-us).jpg",
+    "Website": "MSDN",
+    "Date": "2010-03-31T23:00:00Z"
+  },
+  {
+    "_id": "50866543992df1052435b68b",
+    "Title": "Introduction to FSharp and the Let Keyword",
+    "Url": "http://msdn.microsoft.com/en-us/ee681481.aspx",
+    "Thumbnail": "http://i.msdn.microsoft.com/ff759495.flk_150x113(en-us).jpg",
+    "Website": "MSDN",
+    "Date": "2010-03-31T23:00:00Z"
+  },
+  {
+    "_id": "508517e9992df1084c288d30",
+    "Title": "F# for Testing and Analysis",
+    "Url": "http://vimeo.com/47220570",
+    "Thumbnail": "http://b.vimeocdn.com/ts/328/748/328748790_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-02-28T23:00:00Z"
+  },
+  {
+    "_id": "5083b5aa992df10bd827014b",
+    "Title": "C9 Lectures: Dr. Don Syme - Introduction to F#, 3 of 3",
+    "Url": "http://channel9.msdn.com/Series/C9-Lectures-Dr-Don-Syme-Introduction-to-F-/C9-Lectures-Dr-Don-Syme-Introduction-to-F-3-of-3",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/529500_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2010-02-17T23:00:00Z"
+  },
+  {
+    "_id": "5083b5fb992df10bd827014c",
+    "Title": "C9 Lectures: Dr. Don Syme - Introduction to F#, 2 of 3",
+    "Url": "http://channel9.msdn.com/Series/C9-Lectures-Dr-Don-Syme-Introduction-to-F-/C9-Lectures-Dr-Don-Syme-Introduction-to-F-2-of-3",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/ch9/0/1/7/6/2/5/C9LecturesDonSymeFSharpP2_512_ch9.png",
+    "Website": "Channel 9",
+    "Date": "2010-02-10T23:00:00Z"
+  },
+  {
+    "_id": "508f9685992df107a42b3908",
+    "Title": "F# for Visualization demo video",
+    "Url": "http://www.youtube.com/watch?v=YYQya5c5L-M",
+    "Thumbnail": "http://i2.ytimg.com/vi/YYQya5c5L-M/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2010-02-07T23:00:00Z"
+  },
+  {
+    "_id": "5083b650992df10bd827014d",
+    "Title": "C9 Lectures: Dr. Don Syme - Introduction to F#, 1 of 3",
+    "Url": "http://channel9.msdn.com/Series/C9-Lectures-Dr-Don-Syme-Introduction-to-F-/C9-Lectures-Dr-Don-Syme-Introduction-to-F-1-of-3",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/512054_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2010-02-03T23:00:00Z"
+  },
+  {
+    "_id": "50852050992df1084c288d3e",
+    "Title": "Open Source F# Tools",
+    "Url": "http://vimeo.com/47519741",
+    "Thumbnail": "http://b.vimeocdn.com/ts/329/623/329623965_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2010-01-31T23:00:00Z"
+  },
+  {
+    "_id": "5083b71d992df10bd827014e",
+    "Title": "Missile Launchers with F#",
+    "Url": "http://channel9.msdn.com/coding4fun/blog/Missile-Launchers-with-F",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/c4f/images/9953075_220.jpg",
+    "Website": "Channel 9",
+    "Date": "2010-01-24T23:00:00Z"
+  },
+  {
+    "_id": "50851502992df1084c288d27",
+    "Title": "Answering - Why would I want to use F#?",
+    "Url": "http://vimeo.com/47521955",
+    "Thumbnail": "http://b.vimeocdn.com/ts/329/637/329637474_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2009-12-31T23:00:00Z"
+  },
+  {
+    "_id": "50851a17992df1084c288d36",
+    "Title": "F# Parallel and Concurrent Programming",
+    "Url": "http://vimeo.com/8493636",
+    "Thumbnail": "http://b.vimeocdn.com/ts/397/379/39737997_295.jpg",
+    "Website": "Vimeo",
+    "Date": "2009-12-06T23:00:00Z"
+  },
+  {
+    "_id": "5083b77d992df10bd827014f",
+    "Title": "Lists in F#",
+    "Url": "http://channel9.msdn.com/Blogs/kmcgrath/Lists-in-FSharp",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/505338_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-11-10T23:00:00Z"
+  },
+  {
+    "_id": "5083b7c7992df10bd8270150",
+    "Title": "Discriminated Unions in F#",
+    "Url": "http://channel9.msdn.com/Blogs/kmcgrath/Discriminated-Unions-in-FSharp",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/ch9/3/8/8/3/0/5/DiscriminatedUnions_512_ch9.png",
+    "Website": "Channel 9",
+    "Date": "2009-11-02T23:00:00Z"
+  },
+  {
+    "_id": "5083b803992df10bd8270151",
+    "Title": "Andrew Kennedy: F# Units of Measure",
+    "Url": "http://channel9.msdn.com/Blogs/Charles/Andrew-Kennedy-F-Units-of-Measure",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/488754_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-09-21T23:00:00Z"
+  },
+  {
+    "_id": "5083b844992df10bd8270152",
+    "Title": "Active Patterns (F#)",
+    "Url": "http://channel9.msdn.com/Blogs/kmcgrath/Active-Patterns-F",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/477130_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-07-08T23:00:00Z"
+  },
+  {
+    "_id": "5083b886992df10bd8270153",
+    "Title": "Patterns and Match Expressions in F#",
+    "Url": "http://channel9.msdn.com/Blogs/kmcgrath/Patterns-and-Match-Expressions-in-F",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/477128_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-07-05T23:00:00Z"
+  },
+  {
+    "_id": "5083b8db992df10bd8270154",
+    "Title": "Taking Efficiency One Step Further - F#",
+    "Url": "http://channel9.msdn.com/Blogs/matthijs/Taking-Efficiency-One-Step-Further-FSharp",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/472546_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-06-18T23:00:00Z"
+  },
+  {
+    "_id": "5083b931992df10bd8270155",
+    "Title": "Creating Your First F# Program with Visual Studio 2010",
+    "Url": "http://channel9.msdn.com/Blogs/kmcgrath/Creating-Your-First-FSharp-Program-with-Visual-Studio-2010",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/472134_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-06-03T23:00:00Z"
+  },
+  {
+    "_id": "5083b982992df10bd8270156",
+    "Title": "Luke Hoban: Latest version of F# Released - What's the story? What's next?",
+    "Url": "http://channel9.msdn.com/Blogs/Charles/Luke-Hoban-Latest-version-of-F-Released-Whats-the-story-Whats-next",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/469468_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-05-19T23:00:00Z"
+  },
+  {
+    "_id": "5083b9d6992df10bd8270157",
+    "Title": "Jason Olson: Composing Programming Languages, F# and OO",
+    "Url": "http://channel9.msdn.com/Blogs/Charles/Jason-Olson-Composing-Programming-Languages-F-and-OO",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/466961_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-04-30T23:00:00Z"
+  },
+  {
+    "_id": "5083ba18992df10bd8270158",
+    "Title": "10-4 Episode 17: F# Intro",
+    "Url": "http://channel9.msdn.com/Shows/10-4/10-4-Episode-17-F-Intro",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/467545_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-04-29T23:00:00Z"
+  },
+  {
+    "_id": "508f938a992df107a42b3904",
+    "Title": "MSDN Webcast F# (1/6) | Deutsch",
+    "Url": "http://www.youtube.com/watch?v=1qU7oWHvRKs",
+    "Thumbnail": "http://i2.ytimg.com/vi/1qU7oWHvRKs/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2009-04-13T23:00:00Z"
+  },
+  {
+    "_id": "508f9cbb992df107a42b3912",
+    "Title": "MSDN Webcast F# (3/6) | Deutsch",
+    "Url": "http://www.youtube.com/watch?v=j9d_W_AD9Oc",
+    "Thumbnail": "http://i3.ytimg.com/vi/j9d_W_AD9Oc/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2009-04-13T23:00:00Z"
+  },
+  {
+    "_id": "508f9cf2992df107a42b3913",
+    "Title": "MSDN Webcast F# (4/6) | Deutsch",
+    "Url": "http://www.youtube.com/watch?v=7dLsNswEeAY",
+    "Thumbnail": "http://i4.ytimg.com/vi/7dLsNswEeAY/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2009-04-13T23:00:00Z"
+  },
+  {
+    "_id": "50866492992df1052435b689",
+    "Title": "F# for Parallel and Asynchronous Programming",
+    "Url": "http://www.microsoftpdc.com/2009/FT20",
+    "Thumbnail": "http://i.msdn.microsoft.com/ff759495.pap_150x113(en-us).jpg",
+    "Website": "MICROSOFTPDC.COM",
+    "Date": "2009-03-31T23:00:00Z"
+  },
+  {
+    "_id": "5083ba69992df10bd8270159",
+    "Title": "Don Syme: F# and functional programming in . NET",
+    "Url": "http://channel9.msdn.com/Blogs/martinesmann/Don-Syme-FSharp-and-functional-programming-in-NET",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/462983_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2009-03-30T23:00:00Z"
+  },
+  {
+    "_id": "508663de992df1052435b688",
+    "Title": "An Introduction to Microsoft F#",
+    "Url": "http://channel9.msdn.com/blogs/pdc2008/tl11",
+    "Thumbnail": "http://i.msdn.microsoft.com/ff759495.introduction_150x113(en-us).jpg",
+    "Website": "Channel 9",
+    "Date": "2008-10-28T23:00:00Z"
+  },
+  {
+    "_id": "508f9587992df107a42b3906",
+    "Title": "F#.NET Tutorial",
+    "Url": "http://www.youtube.com/watch?v=QIBSbNaw69U",
+    "Thumbnail": "http://i2.ytimg.com/vi/QIBSbNaw69U/mqdefault.jpg",
+    "Website": "YouTube",
+    "Date": "2008-03-06T23:00:00Z"
+  },
+  {
+    "_id": "5083babb992df10bd827015a",
+    "Title": "Don Syme: What's new in F# - Asynchronous Workflows (and welcome to the .NET family!)",
+    "Url": "http://channel9.msdn.com/Blogs/Charles/Don-Syme-Whats-new-in-F-Asynchronous-Workflows-and-welcome-to-the-NET-family",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/249559_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2007-11-19T23:00:00Z"
+  },
+  {
+    "_id": "5083bb0c992df10bd827015b",
+    "Title": "MSR Cambridge Tour: Machine Learning Group, Computer Vision and F#",
+    "Url": "http://channel9.msdn.com/Blogs/Charles/MSR-Cambridge-Tour-Machine-Learning-Group-Computer-Vision-and-F",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/231745_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2006-09-21T23:00:00Z"
+  },
+  {
+    "_id": "5083bb4e992df10bd827015c",
+    "Title": "Don Syme: Introduction to F#, Part 2",
+    "Url": "http://channel9.msdn.com/Blogs/Charles/Don-Syme-Introduction-to-F-Part-2",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/229608_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2006-09-13T23:00:00Z"
+  },
+  {
+    "_id": "5083bb89992df10bd827015d",
+    "Title": "Don Syme: Introduction to F#, Part 1",
+    "Url": "http://channel9.msdn.com/Blogs/Charles/Don-Syme-Introduction-to-F-Part-1",
+    "Thumbnail": "http://ecn.channel9.msdn.com/o9/previewImages/220/229374_220x165.jpg",
+    "Website": "Channel 9",
+    "Date": "2006-09-12T23:00:00Z"
+  }
+]
