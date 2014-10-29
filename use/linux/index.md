@@ -58,36 +58,34 @@ To see an example of how to set it up, navigate to https://github.com/haf/vagran
 
 With the `epel`, `eventstore`, `mono` and `supervisor` puppet module and a reference to [packagecloud/haf/oss](https://packagecloud.io/haf/oss) repository, you can install a full environment and running service in a couple of minutes:
 
-``` puppet
-class baseline {
-  include ::epel
-  include ::packagecloud
-
-  packagecloud::repo { 'haf/oss':
-    type => 'rpm',
-  }
-}
-
-node default {
-  include ::baseline
-
-  class { 'mono':
-    require => [
-      Class['epel'],
-      Packagecloud::Repo['haf/oss']
-    ],
-  }
-
-  class { 'supervisor':
-    require => [
-      Class['epel'],
-      Packagecloud::Repo['haf/oss']
-    ],
-  }
-
-  include ::eventstore
-}
-```
+    class baseline {
+      include ::epel
+      include ::packagecloud
+    
+      packagecloud::repo { 'haf/oss':
+        type => 'rpm',
+      }
+    }
+    
+    node default {
+      include ::baseline
+    
+      class { 'mono':
+        require => [
+          Class['epel'],
+          Packagecloud::Repo['haf/oss']
+        ],
+      }
+    
+      class { 'supervisor':
+        require => [
+          Class['epel'],
+          Packagecloud::Repo['haf/oss']
+        ],
+      }
+    
+      include ::eventstore
+    }
 
 ### Option 4: Get F# 3.1 on Gentoo (Sabayon/Funtoo/Calculate)
 
