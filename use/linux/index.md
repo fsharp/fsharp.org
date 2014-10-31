@@ -31,7 +31,7 @@ Debian *testing* and Ubuntu 14.04 have sufficiently recent versions available in
 ### Option 2: Build and install the F# 3.1 runtime, compiler and tools
 
 
-1. Get Mono, the cross-platform, open source .NET runtime implementation used by F#. Preferably use a package from your distribution or Xamarin. If this is not possible, install from source following the instructions at https://github.com/mono/mono:
+1. Get Mono, the cross-platform, open source .NET runtime implementation used by F#. Preferably use a package from your distribution or Xamarin. If this is not possible, [install from source by following these instructions](https://github.com/mono/mono).
 
    Note that if you are installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure `LD_LIBRARY_PATH` includes the "lib" directory of that prefix location, e.g.
    
