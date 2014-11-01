@@ -9,7 +9,7 @@ F# is well-suited to machine learning because of its efficient execution, succin
 data access capabilities and scalability. F# has been successfully used by some of the most advanced machine learning teams in the world, including several groups at Microsoft Research.
 
 [Try F#](http://tryfsharp.org/learn) has some introductory machine learning algorithms.
-Further resources related to different aspects of machine learning are below. 
+Further resources related to different aspects of machine learning are below.
 
 See also the [Math and Statistics](/math) and [Data Science](/data-science) sections for related material.
 
@@ -35,7 +35,7 @@ Introductions to different machine learning algorithms with F#:
  * [F# Data Mining](http://fdatamining.blogspot.com/2010/05/why-f-is-language-for-data-mining.html)
  * [Parallel Programming in F#: Aggregating Data:](http://tomasp.net/blog/fsharp-parallel-aggregate.aspx)
 
-### Machine Learning Packages 
+### Machine Learning Packages
 
 Several F# machine learning packages are available. Some are accessed through F#'s interoperability mechanisms to R, Python and Java. .NET packages can be found by [searching on nuget.org](http://nuget.org/packages?q=machine+learning). For example:
 
@@ -50,11 +50,14 @@ Several F# machine learning packages are available. Some are accessed through F#
 
  * [Ariadne](http://evelinag.com/Ariadne/) - Library for fitting Gaussian process regression models.
 
- * [Encog Machine Learning Framework](http://nuget.org/packages/encog-dotnet-core/) - An advanced neural network and machine learning framework. Encog 
-   contains classes to create a wide variety of networks, as well as support classes to normalize and process data for these neural networks. Encog trains using multithreaded resilient propagation. Encog can also make use of a GPU to further speed processing time. A GUI based workbench is also provided to help model and train neural networks. 
+ * [Encog Machine Learning Framework](http://nuget.org/packages/encog-dotnet-core/) - An advanced neural network and machine learning framework. Encog
+   contains classes to create a wide variety of networks, as well as support classes to normalize and process data for these neural networks. Encog trains using multithreaded resilient propagation. Encog can also make use of a GPU to further speed processing time. A GUI based workbench is also provided to help model and train neural networks.
    See, for example, [ENCOG Neural Network XOR example in F#](http://relentlessdevelopment.wordpress.com/2013/11/14/hello-neurons-encog-neural-network-xor-example-in-f/)
 
  * [Numl](http://nuget.org/packages/numl/) - A machine learning library intended to ease the use of using standard modeling techniques for both prediction and clustering
+
+ * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automated differentiation library to incorporate derivative calculus with
+   minimimal changes to existing algorithms.
 
 
 

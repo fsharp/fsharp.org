@@ -5,11 +5,11 @@ headline: F# Community Projects
 ---
 
 Do you want to contribute to F# commmunity projects?  We encourage
-all efforts which support our [mission](/foundation.html). Some of the open community projects 
-you can contribute to are below. 
+all efforts which support our [mission](/foundation.html). Some of the open community projects
+you can contribute to are below.
 
-These projects may be at an early stage, and are not necessarily appropriate for production 
-use. Out of small beginnings, great things come! 
+These projects may be at an early stage, and are not necessarily appropriate for production
+use. Out of small beginnings, great things come!
 
 To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
@@ -20,7 +20,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 <br />
 
-### Community Projects: Foundational Libraries 
+### Community Projects: Foundational Libraries
 
 *  [ExtCore](https://github.com/jack-pappas/ExtCore) - Core library extensions for F#.
 
@@ -32,7 +32,7 @@ To add a project to this list, log on to GitHub, [edit this page](https://github
 
 ### Community Projects: Development Tools
 
-*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](https://github.com/fsprojects/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff). 
+*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](https://github.com/fsprojects/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff).
 Contributions welcome!
 
 *  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](http://www.swensensoftware.com/fseye) - A visual object tree inspector for the F# Interactive
@@ -60,7 +60,7 @@ Contributions welcome!
 *  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[FSharp.Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
 
    *  [Freebase Provider](http://fsharp.github.io/FSharp.Data/library/Freebase.html) - The Freebase graph database contains information on over 23 million real-world entities. The Freebase type provider puts this information at your fingertips.
-    
+
    *  [WorldBank Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html) - Makes the WorldBank data easily accessible to F# programs and scripts in a type safe way, which has a data catalog of over 8000 development indicators and other data about countries in the world.
 
    *  [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) - Read CSV files in a statically typed way.
@@ -96,17 +96,17 @@ Contributions welcome!
 ### Community Projects: Exploratory Data Science Programming
 
 *  ![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) - Deedle is an open, easy to use library for data
-   and time series manipulation and for scientific programming. It supports working with structured data 
-   frames, ordered and unordered data, as well as time series. Deedle is designed to work well for 
-   exploratory programming using F# and C# interactive console, but can be also used in 
-   efficient compiled .NET code. You can financial users of F# including BlueMountatin Capital 
-   in contributing to this library. 
+   and time series manipulation and for scientific programming. It supports working with structured data
+   frames, ordered and unordered data, as well as time series. Deedle is designed to work well for
+   exploratory programming using F# and C# interactive console, but can be also used in
+   efficient compiled .NET code. You can financial users of F# including BlueMountatin Capital
+   in contributing to this library.
 
-*  ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[The R Type Provider for F#](http://github.com/BlueMountainCapital/FSharpRProvider#f-r-provider/) - An F# type 
+*  ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[The R Type Provider for F#](http://github.com/BlueMountainCapital/FSharpRProvider#f-r-provider/) - An F# type
    provider for higher-fidelity integration between F# and R. Primary contributors are BlueMountain Capital, a hedge
    fund, other contributors are warmly welcomed.
 
-*  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider 
+*  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider
    for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
 
 *  [The Python Type Provider for F# (experimental)](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Python type provider for F#.
@@ -128,18 +128,21 @@ Contributions welcome!
 
 ### Community Projects: Math Libraries
 
-*  ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - A large collection of 
-   algorithms including linear algebra, special functions, statistics, probability models, 
+*  ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - A large collection of
+   algorithms including linear algebra, special functions, statistics, probability models,
    interpolation and FFTs. Supports F# 3.0+ with idiomatic extension modules.
 
-*  ![logo](/images/thumbs/fuzzy.png)&nbsp;[FSharp.Fuzzy](http://fsprojects.github.io/FSharp.Fuzzy/) - A basic math library of fuzzy 
+*  ![logo](/images/thumbs/fuzzy.png)&nbsp;[FSharp.Fuzzy](http://fsprojects.github.io/FSharp.Fuzzy/) - A basic math library of fuzzy
    and interval calculus with examples
+
+*  [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automated differentiation library to incorporate derivative calculus with
+   minimimal changes to existing algorithms.
 
 <br />
 
 ### Community Projects: Desktop User Interfaces
 
-*  [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/) - A community 
+*  [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/) - A community
   framework to take advantage of the F# language features to create truly type-safe WPF applications.
 
 <br />
@@ -148,16 +151,16 @@ Contributions welcome!
 
 *  [FSCL](http://fscl.github.io/FSCL.Compiler/) - Framework for OpenCL programming, scheduling and execution abstraction on heterogeneous platforms in F#.
 
-*  [Alea.cuBase](http://blog.quantalea.net/) - Professional GPGPU programming with F# and CUDA(TM). 
+*  [Alea.cuBase](http://blog.quantalea.net/) - Professional GPGPU programming with F# and CUDA(TM).
 
-*  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL 
-   translator. 
+*  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL
+   translator.
 
 <br />
 
 ### Community Projects: Financial Calculations and Data
 
-*  ![logo](/images/thumbs/ExcelFinancialFunctions.png)[ExcelFinancialFunctions](http://fsprojects.github.io/ExcelFinancialFunctions/) - Excel Financial functions, implemented in F#, with a high degree of conformance testing. 
+*  ![logo](/images/thumbs/ExcelFinancialFunctions.png)[ExcelFinancialFunctions](http://fsprojects.github.io/ExcelFinancialFunctions/) - Excel Financial functions, implemented in F#, with a high degree of conformance testing.
 
 *  [The Xenomorph Provider for F#](http://fsprojects.github.io/FSharp.Data.Experimental.XenomorphProvider/) - Connects F# to Xenomorph TimeScape(TM) using a type provider.
 
@@ -166,8 +169,8 @@ Contributions welcome!
 
 ### Community Projects: Web Tools
 
-*  ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform 
-   including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open 
+*  ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform
+   including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open
    source and on bitbucket.org. Contributors welcome!
 
 *  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with intellisense, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
@@ -227,10 +230,10 @@ Contributions welcome!
 
 ### Community Projects: Distribution Tools
 
-*  [f0](https://github.com/joshcough/f0) - A binary [de]serialization combinator library, with binary-format 
+*  [f0](https://github.com/joshcough/f0) - A binary [de]serialization combinator library, with binary-format
    phantom types and a compatible Scala partner implementation.
 
-*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) - A fast, general-purpose binary serializer for 
+*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) - A fast, general-purpose binary serializer for
    .NET written in F# that doubles as a pickler combinator library.
 
 *  ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
@@ -251,7 +254,7 @@ Contributions welcome!
 
 *  [Fog](http://dmohl.github.io/Fog/) - Fog brings the cloud down to earth and wraps it in something more easily used by F#. It provides a more functional approach to creating Windows Azure apps with F#.
 
-*  ![logo](/images/thumbs/FSharp.Azure.png)&nbsp;[FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
+*  ![logo](/images/thumbs/FSharp.Azure.png)&nbsp;[FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types.
 
 <br />
 
@@ -270,7 +273,7 @@ Contributions welcome!
 *  ![logo](/images/thumbs/canopy.jpg)&nbsp;[canopy](http://lefthandedgoat.github.io/canopy/) - F#rictionless web testing with Selenium.
 
 *  [TickSpec](http://tickspec.codeplex.com/) A lightweight F# Behaviour Driven Development (BDD) framework
-  
+
 *  [FSpec](https://github.com/PeteProgrammer/fspec) A context/specification testing framework for F#
 
 <br />
