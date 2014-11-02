@@ -141,7 +141,7 @@ Contributions welcome!
    and interval calculus with examples
 
 *  [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automated differentiation library to incorporate derivative calculus with
-   minimimal changes to existing algorithms.
+   minimal changes to existing algorithms.
 
 <br />
 
@@ -290,7 +290,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](https://code.google.com/p/unquote/) - Includes a fast quotaions evaluator
 
-*  [FSharp.Quotations.Evaluator](https://github.com/fsprojects/FSharp.Quotations.Evaluator) - An evaluator for F# quotations 
+*  [FSharp.Quotations.Evaluator](https://github.com/fsprojects/FSharp.Quotations.Evaluator) - An evaluator for F# quotations
 
 
 <br />
