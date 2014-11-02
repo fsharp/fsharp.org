@@ -11,7 +11,7 @@ you can contribute to are below.
 These projects may be at an early stage, and are not necessarily appropriate for production
 use. Out of small beginnings, great things come! To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
-Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>
+Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#interop">Interop</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>
 
 <br />
 
@@ -47,6 +47,7 @@ Contributions welcome!
 
 * [IfSharp](http://bayardrock.github.io/IfSharp/) - IfSharp is an F# implementation for iPython. It works with iPython Notebook 1.x and 2.x
 
+
 <br />
 
 
@@ -78,6 +79,8 @@ Contributions welcome!
 *  [ExtCore](https://github.com/jack-pappas/ExtCore) - Core library extensions for F#.
 
 *  [FSharpEnt](https://github.com/colinbull/FSharpEnt) - A collection of helpers for enterprise development with F#.
+
+*  ![logo](/images/thumbs/FSharpx.png)&nbsp;[FSharpx.Collections](http://fsprojects.github.io/FSharpx.Collections/) - A set of functional programming collections for F#.
 
 *  ![logo](/images/thumbs/FSharpx.png)&nbsp;[FSharpx](https://github.com/fsprojects/fsharpx) - Extensions and Tools for F# Programming.
 
@@ -125,6 +128,16 @@ Contributions welcome!
 
 <br />
 
+<h2 class="anchor" id="interop" class="anchor">Community Projects: Interoperability</h2>
+
+*  [COM Type Provider](http://fsprojects.github.io/FSharp.ComProvider/) - The COM Type Provider provides a new way to do COM interop from F#. It allows you to access COM components directly from F# projects and scripts without adding any references other than the type provider itself.
+
+* [Python Type Provider](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Early experimental F# type provider for Python. Uses Python for .NET for metadata and interop.
+
+* [FSharp.Compatiblity](https://github.com/fsprojects/FSharp.Compatibility) - Compatibility libraries for F# for Haskell, Standard ML, OCaml and Scala.
+
+<br />
+
 <h2 class="anchor" id="data-science" class="anchor">Community Projects: Data Science Programming</h2>
 
 *  ![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) - Deedle is an open, easy to use library for data
@@ -156,6 +169,9 @@ Contributions welcome!
 
 *  [VegaHub](http://panesofglass.github.io/VegaHub) - SignalR hub accessible from F# interactive with charting made through the [vega](http://trifacta.github.io/vega/) JavaScript library.
 
+
+*  [Foogle Charts](http://fsprojects.github.io/Foogle.Charts/) - Easy to use F# wrapper for Google Charts visualization library .
+
 <br />
 
 <h2 class="anchor" id="math" class="anchor">Community Projects: Math Libraries</h2>
@@ -172,9 +188,11 @@ Contributions welcome!
 
 <br />
 
-<h2 class="anchor" id="ui" class="anchor">Community Projects: Desktop User Interfaces</h2>
+<h2 class="anchor" id="ui" class="anchor">Community Projects: Client User Interfaces</h2>
 
-*  [FsXaml](https://github.com/fsprojects/FsXaml) - F# Tools for working with XAML Projects.
+*  [FsXaml](https://github.com/fsprojects/FsXaml) - F# Tools for working with XAML Projects
+
+*  [Tamarin](https://github.com/fsprojects/Tamarin) - F# MVC framework for Xamarin.Forms
 
 *  [FSharp.Desktop.UI](http://fsprojects.github.io/FSharp.Desktop.UI/) - A community
   framework to take advantage of the F# language features to create truly type-safe WPF applications.
@@ -224,6 +242,9 @@ Contributions welcome!
 *  [Dyfrig](https://github.com/fsprojects/dyfrig) - (WIP) F# types for working with [OWIN](http://owin.org/).
 
 *  [Taliesin](https://github.com/panesofglass/taliesin) - (WIP) Generate types for web clients and servers given [apiary.io](http://apiary.io/) or [alps.io](http://alps.io/) API documentation.
+
+* [FsBlog](https://github.com/fsprojects/FsBlog/) - Blog aware, static site generation using F#
+
 
 <br />
 
