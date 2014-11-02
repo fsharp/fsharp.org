@@ -11,7 +11,7 @@ you can contribute to are below.
 These projects may be at an early stage, and are not necessarily appropriate for production
 use. Out of small beginnings, great things come! To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
-Tags: <a href="#compiler-and-core">Compiler and Library</a>,<a href="#devtools">Dev Tools</h3>, <a href="#data-access">Data Access</h3>, <a href="#data-science">Data Science</h3>, <a href="#visualization">Visualization</h3>, <a href="#libraries">General Libraries</h3>, <a href="#parsing-and-compiler">Parsing</h3>, <a href="#testing">Testing</h3>, <a href="#cloud">Cloud</h3>, <a href="#distribution">Distribution</h3>, <a href="#async-concurrent-parallel">Async/Parallel</h3>, <a href="#scripting">Scripting</h3>, <a href="#web">Web</h3>, <a href="#financial">Financial</h3>, <a href="#gpu">GPU</h3>, <a href="#ui">Desktop UI</h3>, <a href="#math">Math</h3>, <a href="#textsearch">Text Search</h3>
+Tags: <a href="#compiler-and-core">Compiler and Library</a>,<a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">General Libraries</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>
 
 <br />
 
