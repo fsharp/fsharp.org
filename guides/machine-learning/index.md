@@ -57,7 +57,7 @@ Several F# machine learning packages are available. Some are accessed through F#
  * [Numl](http://nuget.org/packages/numl/) - A machine learning library intended to ease the use of using standard modeling techniques for both prediction and clustering
 
  * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automated differentiation library to incorporate derivative calculus with
-   minimimal changes to existing algorithms.
+   minimal changes to existing algorithms.
 
 
 
