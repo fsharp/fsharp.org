@@ -333,11 +333,13 @@ Contributions welcome!
 
 <br />
 
-<h2 class="anchor" id="textsearch" class="anchor">Community Projects: Search Tools</h2>
+<h2 class="anchor" id="textsearch" class="anchor">Community Projects: Text Search Tools</h2>
 
 *  [FlexSearch](http://www.flexsearch.net/) Flexible and fast open source F# based Search Engine
 
 *  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](https://github.com/BlueMountainCapital/FSharpRProvider).
+*  
+
 
 
 
