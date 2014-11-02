@@ -11,8 +11,11 @@ you can contribute to are below.
 These projects may be at an early stage, and are not necessarily appropriate for production
 use. Out of small beginnings, great things come! To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
+Tags: <a href="#compiler-and-core">Compiler and Library</a>,<a href="#devtools">Dev Tools</h3>, <a href="#data-access">Data Access</h3>, <a href="#data-science">Data Science</h3>, <a href="#visualization">Visualization</h3>, <a href="#libraries">General Libraries</h3>, <a href="#parsing-and-compiler">Parsing</h3>, <a href="#testing">Testing</h3>, <a href="#cloud">Cloud</h3>, <a href="#distribution">Distribution</h3>, <a href="#async-concurrent-parallel">Async/Parallel</h3>, <a href="#scripting">Scripting</h3>, <a href="#web">Web</h3>, <a href="#financial">Financial</h3>, <a href="#gpu">GPU</h3>, <a href="#ui">Desktop UI</h3>, <a href="#math">Math</h3>, <a href="#textsearch">Text Search</h3>
 
-<h3 id="compiler-and-core" class="anchor">Community Projects: Compiler and Core Library</h3>
+<br />
+
+<h3 id="compiler-and-core">Community Projects: Compiler and Core Library</h3>
 
 *  [fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library.
 
@@ -252,7 +255,7 @@ Contributions welcome!
 *  [FSpec](https://github.com/PeteProgrammer/fspec) A context/specification testing framework for F#
 
 
-<h3 id="parsing-and-compiler" class="anchor">Community Projects: Parsing and Compiler Tools</h3>
+<a href="# id="parsing-and-compiler" class="anchor">Community Projects: Parsing and Compiler Tools</h3>
 
 *  [FsLex and FsYacc](http://fsprojects.github.io/FsLexYacc/) FsLex and FsYacc implementations for F#. Contributions welcome.
 
