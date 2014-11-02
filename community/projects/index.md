@@ -198,7 +198,7 @@ Contributions welcome!
 
 <h2 class="anchor" id="financial" class="anchor">Community Projects: Financial Calculations and Data</h2>
 
-*  ![logo](/images/thumbs/ExcelFinancialFunctions.png)[ExcelFinancialFunctions](http://fsprojects.github.io/ExcelFinancialFunctions/) - Excel Financial functions, implemented in F#, with a high degree of conformance testing.
+*  ![logo](/images/thumbs/ExcelFinancialFunctions.png)&nbsp;[ExcelFinancialFunctions](http://fsprojects.github.io/ExcelFinancialFunctions/) - Excel Financial functions, implemented in F#, with a high degree of conformance testing.
 
 *  [The Xenomorph Provider for F#](http://fsprojects.github.io/FSharp.Data.Experimental.XenomorphProvider/) - Connects F# to Xenomorph TimeScape(TM) using a type provider.
 
@@ -215,9 +215,9 @@ Contributions welcome!
 
 *  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with intellisense, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
 
-*  ![logo](/images/thumbs/fracture.png)[Fracture I/O](https://github.com/fractureio/fracture) - High performance sockets library.
+*  ![logo](/images/thumbs/fracture.png)&nbsp;[Fracture I/O](https://github.com/fractureio/fracture) - High performance sockets library.
 
-*  ![logo](/images/thumbs/fracture.png)[Fracture.Http](https://github.com/fractureio/fracture.http) - HTTP server built on Fracture I/O.
+*  ![logo](/images/thumbs/fracture.png)&nbsp;[Fracture.Http](https://github.com/fractureio/fracture.http) - HTTP server built on Fracture I/O.
 
 *  [Frank](http://frankfs.net/) - Frank provides a functional wrapper around the types in System.Net.Http, the library used by ASP.NET Web API.
 
