@@ -104,7 +104,7 @@ Contributions welcome!
 
 *  [Apiary Provider](http://fsprojects.github.io/ApiaryProvider) - A type provider that makes it possible to easily call REST services that are documented using the apiary.io service.
 
-*  ![logo](/images/thumbs/SqlCommandProvider.png)&nbsp;[FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - use SQL to specify queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code.
+*  ![logo](/images/thumbs/SqlCommandProvider.png)&nbsp;[FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - use SQL to specify queries, explore Stored Procedures, User Defined Types and Functions with auto-complete right in your F# code.
 
 *  [FSharp.Linq.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.ComposableQuery/) - A Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
@@ -213,7 +213,7 @@ Contributions welcome!
    including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open
    source and on bitbucket.org. Contributors welcome!
 
-*  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with intellisense, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
+*  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with autocomplete, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
 
 *  ![logo](/images/thumbs/fracture.png)&nbsp;[Fracture I/O](https://github.com/fractureio/fracture) - High performance sockets library.
 
@@ -234,7 +234,7 @@ Contributions welcome!
 
    *  [PowerShellTypeProvider](http://fsprojects.github.io/FSharp.Management/PowerShellProvider.html) - PowerShell type provider.
 
-   *  [FileSystemTypeProvider](http://fsprojects.github.io/FSharp.Management/FileSystemProvider.html) - It allows to browse your file system via Intellisense and provides compile time checks for directories and files.
+   *  [FileSystemTypeProvider](http://fsprojects.github.io/FSharp.Management/FileSystemProvider.html) - It allows to browse your file system via autocomplete and provides compile time checks for directories and files.
 
    *  [WMITypeProvider](http://fsprojects.github.io/FSharp.Management/WMIProvider.html) - Typed access to WMI.
 
@@ -302,6 +302,11 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/FSharp.Azure.png)&nbsp;[FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types.
 
+*  [S3 Type Provider](http://fsprojects.github.io/S3Provider/) - An experimental type provider for Amazon S3.
+
+*  [Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - A type provider for Azure Storage assets e.g. Blobs and Tables.
+
+
 
 <br />
 
@@ -356,7 +361,8 @@ Contributions welcome!
 *  [FlexSearch](http://www.flexsearch.net/) Flexible and fast open source F# based Search Engine
 
 *  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](https://github.com/BlueMountainCapital/FSharpRProvider).
-*  
+
+* [MITIE-Dot-Net](https://github.com/BayardRock/MITIE-Dot-Net/blob/master/README.md) - A Nice .NET Wrapper for the MITIE Information Extraction Library (Written in F#, but fully C# compatible)
 
 
 
