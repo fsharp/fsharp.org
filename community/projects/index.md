@@ -11,7 +11,7 @@ you can contribute to are below.
 These projects may be at an early stage, and are not necessarily appropriate for production
 use. Out of small beginnings, great things come! To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
-Tags: <a href="#compiler-and-core">Compiler and Library</a>,<a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">General Libraries</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>
+Tags: <a href="#compiler-and-core">Compiler and Library</a>,<a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">General Libraries</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>
 
 <br />
 
@@ -284,6 +284,13 @@ Contributions welcome!
 
 *  [FSpec](https://github.com/PeteProgrammer/fspec) A context/specification testing framework for F#
 
+<br />
+
+<h2 class="anchor" id="metaprogramming" class="anchor">Community Projects: Metaprogramming</h2>
+
+*  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](https://code.google.com/p/unquote/) - Includes a fast quotaions evaluator
+
+*  [FSharp.Quotations.Evaluator](https://github.com/fsprojects/FSharp.Quotations.Evaluator) - An evaluator for F# quotations 
 
 <h2 id="parsing-and-compiler" class="anchor">Community Projects: Parsing and Compiler Tools</h2>
 
