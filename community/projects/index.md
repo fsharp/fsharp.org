@@ -11,7 +11,7 @@ you can contribute to are below.
 These projects may be at an early stage, and are not necessarily appropriate for production
 use. Out of small beginnings, great things come! To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
-Tags: <a href="#compiler-and-core">Compiler and Library</a>,<a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">General Libraries</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>
+Tags: <a href="#compiler-and-core">Compiler and Library</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">General Libraries</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>
 
 <br />
 
@@ -39,23 +39,34 @@ Tags: <a href="#compiler-and-core">Compiler and Library</a>,<a href="#devtools">
 *  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](https://github.com/fsprojects/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff).
 Contributions welcome!
 
-*  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](http://www.swensensoftware.com/fseye) - A visual object tree inspector for the F# Interactive
+*  [F# for Open Editors](https://github.com/fsharp/fsharpbinding) - F# Language Bindings for Open Editors (Emacs, MonoDevelop)
 
-*  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
+*  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](http://www.swensensoftware.com/fseye) - A visual object tree inspector for the F# Interactive
 
 *  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter, also includes with the [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)
 
 *  [FAKE](http://fsharp.github.io/FAKE) - F# build automation system
 
-*  [fsharpbinding](https://github.com/fsharp/fsharpbinding) - F# Language Bindings for Open Editors (Emacs, MonoDevelop)
+*  [Paket](https://github.com/fsprojects/Paket) - A package dependency manager for .NET with support for NuGet packages and GitHub repositories
 
 *  [F# Type Provider Starter Pack](https://github.com/fsprojects/FSharp.TypeProviders.StarterPack) - Learning materials and code only NuGet package for writing type providers
 
 *  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
 
-*  [F# Project Scaffold](http://github.com/fsprojects/ProjectScaffold/) - A prototypical F# library (file system layout and tooling), recommended by the F# Foundation.
+*  [F# Project Scaffold](http://github.com/fsprojects/ProjectScaffold/) - A prototypical F# library (file system layout and tooling), recommended by the F# Open Engineering Group.
 
 *  [FSharpLint](https://github.com/duckmatt/FSharpLint) - A lint tool for F#.
+
+<br />
+
+<h2 class="anchor" id="literate" class="anchor">Community Projects: Literate Programming, Notebooks and Documentation</h2>
+
+*  [Elucidate](https://github.com/rookboom/Elucidate) - Visual Studio extension for rich inlined comments using markdown.
+
+*  [FsReveal](http://kimsk.github.io/FsReveal/) - FsReveal parses markdown and F# script file and generates reveal.js slides.
+
+*  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
+
 
 <br />
 
@@ -147,8 +158,14 @@ Contributions welcome!
 
 <h2 class="anchor" id="ui" class="anchor">Community Projects: Desktop User Interfaces</h2>
 
-*  [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/) - A community
+*  [FsXaml](https://github.com/fsprojects/FsXaml) - F# Tools for working with XAML Projects.
+
+*  [FSharp.Desktop.UI](http://fsprojects.github.io/FSharp.Desktop.UI/) - A community
   framework to take advantage of the F# language features to create truly type-safe WPF applications.
+
+*  [FSharp.ViewModule](https://github.com/fsprojects/FSharp.ViewModule/) - Type provider to generate an MVVM style ViewModel directly from an idiomatic F# module.
+
+*  [FSharp.ViewModule](https://github.com/fsprojects/FSharp.ViewModule/) - Type provider to generate an MVVM style ViewModel directly from an idiomatic F# module.
 
 <br />
 
@@ -230,6 +247,10 @@ Contributions welcome!
    library for F# with the aim of making it easier to write efficient parallel, asynchronous and concurrent programs.
 
 *  [F# Parallel Sequences](http://fsprojects.github.io/FSharp.Collections.ParallelSeq/). This component provides F#-style API for parallel operations on sequences that are part of .NET 4.0 as System.Linq.ParallelEnumerable class. The API is akin to F# operations on sequences.
+
+*  [FSharp.Control.Reactive](http://fsprojects.github.io/FSharp.Control.Reactive/). F#-style modules for working with the Reactive Extensions (Rx) as a set of extensions to the built-in Observable module. The library includes observe and rxquery computation expressions, as well.
+
+*  [Cricket](https://github.com/fsprojects/Cricket). Cricket is an actor library for F#. The actor programming model is inherently concurrent, an actor is a primitive that wraps a computation, the computation is ran by sending messages to the actor. The actor can then respond to the reciept of the message by executing one or more of the following actions (possibly concurrently).
 
 
 <br />
