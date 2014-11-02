@@ -11,7 +11,7 @@ you can contribute to are below.
 These projects may be at an early stage, and are not necessarily appropriate for production
 use. Out of small beginnings, great things come! To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
-Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">General Libraries</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>
+Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>
 
 <br />
 
@@ -37,17 +37,18 @@ Contributions welcome!
 
 <br />
 
-<h2 class="anchor" id="libraries" class="anchor">Community Projects: Foundational Libraries</h2>
+<h2 class="anchor" id="literate" class="anchor">Community Projects: Literate Programming, Notebooks and Documentation</h2>
 
-*  [ExtCore](https://github.com/jack-pappas/ExtCore) - Core library extensions for F#.
+*  [Elucidate](https://github.com/rookboom/Elucidate) - Visual Studio extension for rich inlined comments using markdown.
 
-*  [FSharp.Enterprise](https://github.com/colinbull/FSharp.Enterprise) - A collection of helpers for enterprise development with F#.
+*  [FsReveal](http://kimsk.github.io/FsReveal/) - FsReveal parses markdown and F# script file and generates reveal.js slides.
 
-*  ![logo](/images/thumbs/FSharpx.png)&nbsp;[FSharpx](https://github.com/fsprojects/fsharpx) - Extensions and Tools for F# Programming.
+*  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
-
+* [IfSharp](http://bayardrock.github.io/IfSharp/) - IfSharp is an F# implementation for iPython. It works with iPython Notebook 1.x and 2.x
 
 <br />
+
 
 <h2 class="anchor" id="devtools" class="anchor">Community Projects: Development Tools</h2>
 
@@ -67,15 +68,21 @@ Contributions welcome!
 
 <br />
 
-<h2 class="anchor" id="literate" class="anchor">Community Projects: Literate Programming, Notebooks and Documentation</h2>
 
-*  [Elucidate](https://github.com/rookboom/Elucidate) - Visual Studio extension for rich inlined comments using markdown.
+<h2 class="anchor" id="libraries" class="anchor">Community Projects: Functional Programming</h2>
 
-*  [FsReveal](http://kimsk.github.io/FsReveal/) - FsReveal parses markdown and F# script file and generates reveal.js slides.
+*  [Streams](http://nessos.github.io/Streams/) - A lightweight F#/C# library for efficient functional-style pipelines on streams of data.
 
-*  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
+*  [LinqOptimizer](http://nessos.github.io/LinqOptimizer/) - An automatic query optimizer-compiler for Sequential and Parallel LINQ. LinqOptimizer compiles declarative LINQ queries into fast loop-based imperative code. The compiled code has fewer virtual calls and heap allocations, better data locality and speedups of up to 15x (Check the Performance page).
 
-* [IfSharp](http://bayardrock.github.io/IfSharp/) - IfSharp is an F# implementation for iPython. It works with iPython Notebook 1.x and 2.x
+*  [ExtCore](https://github.com/jack-pappas/ExtCore) - Core library extensions for F#.
+
+*  [FSharpEnt](https://github.com/colinbull/FSharpEnt) - A collection of helpers for enterprise development with F#.
+
+*  ![logo](/images/thumbs/FSharpx.png)&nbsp;[FSharpx](https://github.com/fsprojects/fsharpx) - Extensions and Tools for F# Programming.
+
+*  [F# Snippets](http://fssnip.net/) - A community-contributed catalog of F# Snippets
+
 
 <br />
 
@@ -200,13 +207,13 @@ Contributions welcome!
 
 <h2 class="anchor" id="web" class="anchor">Community Projects: Web Tools</h2>
 
+*  ![logo](/images/thumbs/suave.png)&nbsp;[Suave](http://suave.io) - Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+
 *  ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform
    including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open
    source and on bitbucket.org. Contributors welcome!
 
 *  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with intellisense, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
-
-*  ![logo](/images/thumbs/suave.png)&nbsp;[Suave](http://suave.io) - Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
 *  ![logo](/images/thumbs/fracture.png)[Fracture I/O](https://github.com/fractureio/fracture) - High performance sockets library.
 
@@ -269,8 +276,10 @@ Contributions welcome!
 *  [f0](https://github.com/joshcough/f0) - A binary [de]serialization combinator library, with binary-format
    phantom types and a compatible Scala partner implementation.
 
-*  [FsPickler](https://github.com/eiriktsarpalis/FsPickler) - A fast, general-purpose binary serializer for
+*  [FsPickler](http://nessos.github.io/FsPickler/) - A fast, general-purpose binary serializer for
    .NET written in F# that doubles as a pickler combinator library.
+
+*  [Vagrant](http://nessos.github.io/Vagrant/) - A library for distributing dynamic assemblies.
 
 *  ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
 
