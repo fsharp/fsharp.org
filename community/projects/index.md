@@ -15,14 +15,14 @@ Tags: <a href="#compiler-and-core">Compiler and Library</a>,<a href="#devtools">
 
 <br />
 
-<h2 id="compiler-and-core">Community Projects: Compiler and Core Library</h2>
+<h2 class="anchor" id="compiler-and-core">Community Projects: Compiler and Core Library</h2>
 
 *  [fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library.
 
 *  [fsharp/FSharp.Compiler.Service](https://github.com/fsharp/FSharp.Compiler.Service) - The F# Compiler as a service.
 
 
-<h2 id="libraries" class="anchor">Community Projects: Foundational Libraries</h2>
+<h2 class="anchor" id="libraries" class="anchor">Community Projects: Foundational Libraries</h2>
 
 *  [ExtCore](https://github.com/jack-pappas/ExtCore) - Core library extensions for F#.
 
@@ -30,7 +30,7 @@ Tags: <a href="#compiler-and-core">Compiler and Library</a>,<a href="#devtools">
 
 *  ![logo](/images/thumbs/FSharpx.png)&nbsp;[FSharpx](https://github.com/fsprojects/fsharpx) - Extensions and Tools for F# Programming.
 
-<h2 id="devtools" class="anchor">Community Projects: Development Tools</h2>
+<h2 class="anchor" id="devtools" class="anchor">Community Projects: Development Tools</h2>
 
 *  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](https://github.com/fsprojects/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff).
 Contributions welcome!
@@ -53,7 +53,7 @@ Contributions welcome!
 
 *  [FSharpLint](https://github.com/duckmatt/FSharpLint) - A lint tool for F#.
 
-<h2 id="data-access" class="anchor">Community Projects: Data Access</h2>
+<h2 class="anchor" id="data-access" class="anchor">Community Projects: Data Access</h2>
 
 *  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[FSharp.Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
 
@@ -90,7 +90,7 @@ Contributions welcome!
 *  [DAXIF# - Delegate Automated Xrm Installation Framework](http://delegateas.github.io/Delegate.DAXIFsharp/) - A set of tools that in combination with other Microsoft Tools, make it easier to work with Microsoft Dynamics CRM/xRM on a daily basis, also for developers who are not familiar with the platform.
 
 
-<h2 id="data-science" class="anchor">Community Projects: Data Science Programming</h2>
+<h2 class="anchor" id="data-science" class="anchor">Community Projects: Data Science Programming</h2>
 
 *  ![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) - Deedle is an open, easy to use library for data
    and time series manipulation and for scientific programming. It supports working with structured data
@@ -110,7 +110,7 @@ Contributions welcome!
 
 *  [Vulpes](https://github.com/SpiegelSoft/Vulpes) - A machine learning app using a deep belief network and connecting to the NVIDIA GPU unit using [Alea.cuBase] (http://blog.quantalea.net/).
 
-<h2 id="visualization" class="anchor">Community Projects: Visualization Tools</h2>
+<h2 class="anchor" id="visualization" class="anchor">Community Projects: Visualization Tools</h2>
 
 *  ![logo](/images/thumbs/FSharp.Charting.png)&nbsp;[FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - The FSharp.Charting library implements charting
    suitable for use from F# scripting.
@@ -119,7 +119,7 @@ Contributions welcome!
 
 *  [VegaHub](http://panesofglass.github.io/VegaHub) - SignalR hub accessible from F# interactive with charting made through the [vega](http://trifacta.github.io/vega/) JavaScript library.
 
-<h2 id="math" class="anchor">Community Projects: Math Libraries</h2>
+<h2 class="anchor" id="math" class="anchor">Community Projects: Math Libraries</h2>
 
 *  ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - A large collection of
    algorithms including linear algebra, special functions, statistics, probability models,
@@ -131,12 +131,12 @@ Contributions welcome!
 *  [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automated differentiation library to incorporate derivative calculus with
    minimimal changes to existing algorithms.
 
-<h2 id="ui" class="anchor">Community Projects: Desktop User Interfaces</h2>
+<h2 class="anchor" id="ui" class="anchor">Community Projects: Desktop User Interfaces</h2>
 
 *  [F# MVC framework for WPF](https://github.com/dmitry-a-morozov/fsharp-wpf-mvc-series/) - A community
   framework to take advantage of the F# language features to create truly type-safe WPF applications.
 
-<h2 id="gpu" class="anchor">Community Projects: GPU Execution</h2>
+<h2 class="anchor" id="gpu" class="anchor">Community Projects: GPU Execution</h2>
 
 *  [FSCL](http://fscl.github.io/FSCL.Compiler/) - Framework for OpenCL programming, scheduling and execution abstraction on heterogeneous platforms in F#.
 
@@ -145,14 +145,14 @@ Contributions welcome!
 *  [Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL
    translator.
 
-<h2 id="financial" class="anchor">Community Projects: Financial Calculations and Data</h2>
+<h2 class="anchor" id="financial" class="anchor">Community Projects: Financial Calculations and Data</h2>
 
 *  ![logo](/images/thumbs/ExcelFinancialFunctions.png)[ExcelFinancialFunctions](http://fsprojects.github.io/ExcelFinancialFunctions/) - Excel Financial functions, implemented in F#, with a high degree of conformance testing.
 
 *  [The Xenomorph Provider for F#](http://fsprojects.github.io/FSharp.Data.Experimental.XenomorphProvider/) - Connects F# to Xenomorph TimeScape(TM) using a type provider.
 
 
-<h2 id="web" class="anchor">Community Projects: Web Tools</h2>
+<h2 class="anchor" id="web" class="anchor">Community Projects: Web Tools</h2>
 
 *  ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform
    including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open
@@ -172,7 +172,7 @@ Contributions welcome!
 
 *  [Taliesin](https://github.com/panesofglass/taliesin) - (WIP) Generate types for web clients and servers given [apiary.io](http://apiary.io/) or [alps.io](http://alps.io/) API documentation.
 
-<h2 id="scripting" class="anchor">Community Projects: Scripting & Configuration</h2>
+<h2 class="anchor" id="scripting" class="anchor">Community Projects: Scripting & Configuration</h2>
 
 
 *  [FSharp.Management](http://fsprojects.github.io/FSharp.Management/index.html) - The FSharp.Management project contains various type providers for the management of the machine.
@@ -200,7 +200,7 @@ Contributions welcome!
 *  [Stellar](https://github.com/panesofglass/stellar) - Typed access to the Windows Azure Management REST APIs.
 
 
-<h2 id="async-concurrent-parallel" class="anchor">Community Projects: Asynchronous, Concurrent and Parallel Programming</h2>
+<h2 class="anchor" id="async-concurrent-parallel" class="anchor">Community Projects: Asynchronous, Concurrent and Parallel Programming</h2>
 
 *  [Hopac](https://github.com/VesaKarvonen/Hopac) - Inspired by languages like Concurrent ML and Cilk, Hopac is a
    library for F# with the aim of making it easier to write efficient parallel, asynchronous and concurrent programs.
@@ -208,7 +208,7 @@ Contributions welcome!
 *  [F# Parallel Sequences](http://fsprojects.github.io/FSharp.Collections.ParallelSeq/). This component provides F#-style API for parallel operations on sequences that are part of .NET 4.0 as System.Linq.ParallelEnumerable class. The API is akin to F# operations on sequences.
 
 
-<h2 id="distribution" class="anchor">Community Projects: Distribution Tools</h2>
+<h2 class="anchor" id="distribution" class="anchor">Community Projects: Distribution Tools</h2>
 
 *  [f0](https://github.com/joshcough/f0) - A binary [de]serialization combinator library, with binary-format
    phantom types and a compatible Scala partner implementation.
@@ -225,7 +225,7 @@ Contributions welcome!
 *  ![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR) - Redis based distributed actors system.
 
 
-<h2 id="cloud" class="anchor">Community Projects: Cloud Tools</h2>
+<h2 class="anchor" id="cloud" class="anchor">Community Projects: Cloud Tools</h2>
 
 *  ![logo](/images/thumbs/swf_ext.png)&nbsp;[Amazon.SimpleWorkflow.Extensions](http://fsprojects.github.io/Amazon.SimpleWorkflow.Extensions/) Extension to Amazon SDK's SimpleWorkflow capabilities to make it more intuitive to use
 
@@ -236,7 +236,7 @@ Contributions welcome!
 *  ![logo](/images/thumbs/FSharp.Azure.png)&nbsp;[FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types.
 
 
-<h2 id="testing" class="anchor">Community Projects: Testing Tools</h2>
+<h2 class="anchor" id="testing" class="anchor">Community Projects: Testing Tools</h2>
 
 *  ![logo](/images/thumbs/FSharpTest.png)&nbsp;[FSharpTest](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) - NUnit Visual Studio Project template with sample failing tests in FsUnit, FsCheck, and Unquote.
 
@@ -270,7 +270,7 @@ Contributions welcome!
 
 
 
-<h2 id="textsearch" class="anchor">Community Projects: Search Tools</h2>
+<h2 class="anchor" id="textsearch" class="anchor">Community Projects: Search Tools</h2>
 
 *  [FlexSearch](http://www.flexsearch.net/) Flexible and fast open source F# based Search Engine
 
