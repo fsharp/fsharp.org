@@ -47,7 +47,7 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * [Xamarin Studio](http://xamarin.com/studio) has built-in support for F# development on OSX and Windows.
 
-* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](http://github.com/fsharp/fsharpbinding/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more. 
+* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](https://github.com/fsharp/fsharpbinding/tree/master/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more. 
 
 * [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding).
 
