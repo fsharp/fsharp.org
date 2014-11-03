@@ -80,7 +80,7 @@ Contributions welcome!
 
 *  [FSharpEnt](https://github.com/colinbull/FSharpEnt) - A collection of helpers for enterprise development with F#.
 
-*  ![logo](/images/thumbs/FSharpx.Collections.png)&nbsp;![logo](/images/thumbs/FSharpx.png)&nbsp;[FSharpx.Collections](http://fsprojects.github.io/FSharpx.Collections/) - A set of functional programming collections for F#.
+*  ![logo](/images/thumbs/FSharpx.Collections.png)&nbsp;[FSharpx.Collections](http://fsprojects.github.io/FSharpx.Collections/) - A set of functional programming collections for F#.
 
 *  ![logo](/images/thumbs/FSharpx.png)&nbsp;[FSharpx](https://github.com/fsprojects/fsharpx) - Extensions and Tools for F# Programming.
 
@@ -346,7 +346,7 @@ Contributions welcome!
 
 *  [TickSpec](http://tickspec.codeplex.com/) A lightweight F# Behaviour Driven Development (BDD) framework
 
-*  ![logo](/images/thumbs/Fspec.jpg)&nbsp;[FSpec](https://github.com/PeteProgrammer/fspec) A context/specification testing framework for F#
+*  ![logo](/images/thumbs/Fspec.png)&nbsp;[FSpec](https://github.com/PeteProgrammer/fspec) A context/specification testing framework for F#
 
 <br />
 
