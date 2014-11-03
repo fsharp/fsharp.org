@@ -91,13 +91,15 @@ Contributions welcome!
 
 <h2 class="anchor" id="data-access" class="anchor">Community Projects: Data Access</h2>
 
-*  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[FSharp.Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
+*  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[F# Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
 
    *  [Freebase Provider](http://fsharp.github.io/FSharp.Data/library/Freebase.html) - The Freebase graph database contains information on over 23 million real-world entities. The Freebase type provider puts this information at your fingertips.
 
    *  [WorldBank Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html) - Makes the WorldBank data easily accessible to F# programs and scripts in a type safe way, which has a data catalog of over 8000 development indicators and other data about countries in the world.
 
    *  [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) - Read CSV files in a statically typed way.
+
+   *  [HTML Type Provider](http://fsharp.github.io/FSharp.Data/library/HtmlProvider.html) - Work with tables and lists in HTML files in a statically typed way.
 
    *  [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) - Access JSON files in a statically typed way.
 
