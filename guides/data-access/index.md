@@ -13,7 +13,7 @@ If the data access libraries you need are not listed here, you can search for th
 
 [Try F#](http://tryfsharp.org/learn) has specific tutorials related to data access. 
 
-### CSV, XML and JSON data
+### CSV, HTML, JSON and XML data
 
 Many [NuGET](http://nuget.org) packages exist for document access. Some specific frameworks dedicated to simplifying document data access are:
 
@@ -21,7 +21,7 @@ Many [NuGET](http://nuget.org) packages exist for document access. Some specific
 
  * [FSharp.Data](http://fsharp.github.io/FSharp.Data/) - The F# Data library (FSharp.Data.dll) implements functionality to access data in your F# applications and scripts. 
 
-   It implements F# type providers for working with structured file formats (CSV, JSON and XML) and for accessing the WorldBank and Freebase data. It also includes helpers for parsing JSON files and for sending HTTP requests.
+   It implements F# type providers for working with structured file formats (CSV, HTML, JSON and XML) and for accessing the WorldBank and Freebase services. It also includes helpers for parsing CSV, HTML and JSON files and for sending HTTP requests.
 
  * [Json.NET](http://json.codeplex.com/) - "Serialize All Things"
 
