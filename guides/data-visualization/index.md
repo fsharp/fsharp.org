@@ -6,7 +6,7 @@ redirect_from: "/data-visualization/index.html"
 ---
 
 
-### FSharp.Charting 
+### Interactive Charting on Windows 
 
 * [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
 
