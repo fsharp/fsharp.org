@@ -6,9 +6,11 @@ redirect_from: "/data-visualization/index.html"
 ---
 
 
-### FSharp.Charting on Windows
+### FSharp.Charting 
 
-The [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) library is frequently used on Windows.
+* [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
+
+* [XPlot (F# Google Charts)](http://tahahachana.github.io/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google's powerful and free data visualization library based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
 ### Using R, MATLAB, Mathematica, Excel and Python for Data Visualization
 
