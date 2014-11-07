@@ -31,7 +31,7 @@ of online tutorials demonstrating the power of F#:
 The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
 
  
-## F# Books - General
+<h2 id="books" class="anchor">F# Books - General</h2>
 
 ### [Building Web, Cloud, and Mobile Solutions with F#](http://shop.oreilly.com/product/0636920026099.do)
 
@@ -201,7 +201,7 @@ _Scott Wlaschin_
 
 A practical approach with examples in F#. Are you an experienced C#, Java or Python developer? Do you want to understand what all the fuss about functional programming is about? Designed for beginners, this book will explain all the core concepts of functional programming in a practical way with no maths or jargon.
 
-## Tutorials
+## Online Tutorials
 
 This section lists of some of the freely available online tutorials on F#. 
 You can browse these online guides to find explanation of all important 
