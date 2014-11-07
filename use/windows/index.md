@@ -11,9 +11,9 @@ headline: Use F# on Windows
 
 *  Install a free trial edition of [Visual Studio 2013  (Professional or higher)](http://www.visualstudio.com/downloads/download-visual-studio-vs); OR
 
-*  Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
+*  Install the free [Visual Studio 2013 Desktop Express](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
 
-*  Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
+*  Install the free [Visual Studio 2013 Web Express](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-web) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
 
 The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
 See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
