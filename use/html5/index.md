@@ -13,7 +13,7 @@ headline: Using F# for HTML5 Web Applications
 
 ### Option 2: Use [FunScript](http://funscript.info/)
 
-FunScript is a standalone converter from F# to JavaScript. It also offers strongly typed interoperabiity 
+FunScript is a standalone converter from F# to JavaScript. It also offers strongly typed interoperability 
 with any components given a TypeScript signature.
 
 <br />
