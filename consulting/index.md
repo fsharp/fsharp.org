@@ -94,3 +94,12 @@ Drastically reduce your development costs and time to market using this state-of
 
 Draw upon our industrial experience of F# and let us guide you past the potential pitfalls so that you can migrate as quickly and painlessly as possible.
 
+### [Xyncro Consultancy](http://xyncro.com/) (Europe)
+
+[<img src="/img/sup/xyncro.gif" style="float:right;margin:5px 0 5px 25px;" />](http://xyncro.com/)
+
+[Xyncro Consultancy](http://xyncro.com/) is a UK based consultancy specializing in helping companies adopt functional practices, or improve existing functional development. From new projects to legacy systems, we believe that functional thinking and approaches can help tame complexity and lead to better, more reliable software.
+
+We also develop bespoke software for companies who wish to have us develop new and trustworthy systems, often at a fraction of the cost of traditional software development approaches.
+
+We work both onsite and remotely. We like nothing more than chatting about how we might be able to help people - [get in touch!](http://xyncro.com/) 

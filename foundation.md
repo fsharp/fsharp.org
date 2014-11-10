@@ -104,7 +104,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Mark Pearl](http://blog.MarkPearl.co.za), [@markpearlcoza](https://twitter.com/MarkPearlCoZa)
  * Robin Taylor
  * [Michael Newton](http://blog.mavnn.co.uk), [@mavnn](https://twitter.com/mavnn)
- * Andrew Cherry
+ * [Andrew Cherry](http://xyncro.com/andrew), [@kolektiv](https://twitter.com/kolektiv), Developer and Consultant, Xyncro
  * [Keith Sheppard](http://keithsheppard.name)
  * Matthew Moloney
  * Nikolay Ulmasov
