@@ -44,8 +44,10 @@ an open source typeface.  [Open Sans](https://www.google.com/fonts/specimen/Open
 The F# Software Foundation logo for F# is an asset of the F# Software Foundation, and as with other
 assets, ownership of the logo will be transferred to the F# Software Foundation once it is legally established.
 
-Usage of the logo is allowed, provided that the logo remains unchanged and the logo is used in a way that is supportive of the mission statement of the F# Software Foundation. Do not alter the image color or proportions.
-
+Usage of the logo is allowed, provided that the logo remains unchanged and the logo is used in a way that is supportive 
+of the mission statement of the F# Software Foundation. Do not alter the image shape, color, or proportions. Do not use 
+the logo in a context which could imply representation of the F# Software Foundation directly.  The F# Software Foundation 
+reserves the right to deny usage of the logo to any person or entity, for any reason.
 
 ## T-shirts and other Merchandise
 
