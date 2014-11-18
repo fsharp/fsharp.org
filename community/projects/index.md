@@ -340,6 +340,8 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/Foq.png)&nbsp;[Foq](http://foq.codeplex.com/) - A lightweight thread-safe mocking library for F#, C# & VB.Net. Use Foq to mock abstract classes and interfaces.
 
+*  [AutoFixture.AutoFoq](http://www.nuget.org/packages/AutoFixture.AutoFoq) - A library which turns [AutoFixture](http://www.nuget.org/packages/AutoFixture) into an [Auto-mocking Container](http://blog.ploeh.dk/2013/03/11/auto-mocking-container/) where the mock instances are created by [Foq](https://github.com/fsprojects/Foq).
+
 *  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](https://code.google.com/p/unquote/) - F# unit test assertions as quoted expressions and step-by-step failure messages.
 
 *  ![logo](/images/thumbs/canopy.jpg)&nbsp;[canopy](http://lefthandedgoat.github.io/canopy/) - F#rictionless web testing with Selenium.
