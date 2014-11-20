@@ -12,14 +12,6 @@ Software Foundation, please submit your material by [editing this page on GitHub
 ## Consulting Services
 
 
-### [FPBridge Consulting](http://fpbridge.co.uk/training.html#consulting) (Europe)
-
-[<img src="/img/sup/fpbridge.png" style="float:right;margin:5px 0px 5px 25px;" />](http://fpbridge.co.uk/training.html#consulting)
-
-[FPBridge](http://fpbridge.co.uk) offers advice, training and support with any issues related to F# projects and libraries, including:
-
-* Advice on a low-risk strategy for introducing F# into your business, and assistance with C# to F# migration, code reviews, etc.
-* Software architecture and design assistance for full-on functional-first development.
 
 ### [Firefly Logic](http://fireflylogic.com/) (North America)
 
@@ -96,6 +88,14 @@ We also develop bespoke software for companies who wish to have us develop new a
 
 We work both onsite and remotely. We like nothing more than chatting about how we might be able to help people - [get in touch!](http://xyncro.com/) 
 
+### [FPBridge Consulting](http://fpbridge.co.uk/training.html#consulting) (Europe)
+
+[<img src="/img/sup/fpbridge.png" style="float:right;margin:5px 0px 5px 25px;" />](http://fpbridge.co.uk/training.html#consulting)
+
+[FPBridge](http://fpbridge.co.uk) offers advice, training and support with any issues related to F# projects and libraries, including:
+
+* Advice on a low-risk strategy for introducing F# into your business, and assistance with C# to F# migration, code reviews, etc.
+* Software architecture and design assistance for full-on functional-first development.
 
 ### [fsharpWorks](http://www.fsharpworks.com) (Worldwide)
 
@@ -105,3 +105,4 @@ We offer a complete range of services including training, F# consulting, and ful
 The fsharpWorks team has many years of experience solving real-world problems with F# in a wide range of areas. 
 We are experts in integrating F# into your software development mix, having written many of the definitive libraries, 
 books, and blogs on these topics! 
+
