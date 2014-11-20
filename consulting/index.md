@@ -11,14 +11,6 @@ Software Foundation, please submit your material by [editing this page on GitHub
 
 ## Consulting Services
 
-### [fsharpWorks](http://www.fsharpworks.com) (Worldwide)
-
-[<img src="/img/sup/fsharpworks.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.fsharpworks.com)
-
-We offer a complete range of services including training, F# consulting, and full project development. 
-The fsharpWorks team has many years of experience solving real-world problems with F# in a wide range of areas. 
-We are experts in integrating F# into your software development mix, having written many of the definitive libraries, 
-books, and blogs on these topics! 
 
 ### [FPBridge Consulting](http://fpbridge.co.uk/training.html#consulting) (Europe)
 
@@ -103,3 +95,13 @@ Draw upon our industrial experience of F# and let us guide you past the potentia
 We also develop bespoke software for companies who wish to have us develop new and trustworthy systems, often at a fraction of the cost of traditional software development approaches.
 
 We work both onsite and remotely. We like nothing more than chatting about how we might be able to help people - [get in touch!](http://xyncro.com/) 
+
+
+### [fsharpWorks](http://www.fsharpworks.com) (Worldwide)
+
+[<img src="/img/sup/fsharpworks.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.fsharpworks.com)
+
+We offer a complete range of services including training, F# consulting, and full project development. 
+The fsharpWorks team has many years of experience solving real-world problems with F# in a wide range of areas. 
+We are experts in integrating F# into your software development mix, having written many of the definitive libraries, 
+books, and blogs on these topics! 
