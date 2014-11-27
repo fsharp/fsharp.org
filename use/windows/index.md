@@ -9,7 +9,7 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
 
-*  Install the free [Visual Studio 2013 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx); if you already have one of the paid editions of Visual Studio 2013 (Professional/Premium/Ultimate), you can use that.  Visual Studio 2013 Community and above come with the Visual F# Tools. 
+*  Install the free [Visual Studio 2013 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx); if you already have Visual Studio 2013 Professional or above, you can use that.  Visual Studio 2013 Community and above come with the Visual F# Tools. 
 
 The Visual F# Tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
 See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
