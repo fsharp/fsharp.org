@@ -9,11 +9,11 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
 
-*  Install a free trial edition of [Visual Studio 2013  (Professional or higher)](http://www.visualstudio.com/downloads/download-visual-studio-vs); OR
+*  Install the free [Visual Studio 2013 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx); if you already have one of the paid editions of Visual Studio 2013 (Professional/Premium/Ultimate), you can use that.
 
-*  Install the free [Visual Studio 2013 Desktop Express](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-desktop) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
+> Note: There are several free varieties of Visual Studio called "Express"; those have limited functionality in various respects and have been superseded by the full-featured and also free "Community" edition of Visual Studio 2013. There should be no reason to use the "Express" editions anymore.  
 
-*  Install the free [Visual Studio 2013 Web Express](http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-web) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
+*  Visual Studio 2013 Community and above already come with the Visual F# Tools. Make sure you have the latest version [(3.1.2)](http://www.microsoft.com/download/details.aspx?id=44011) installed.
 
 The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
 See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
@@ -21,7 +21,7 @@ See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx)
 #### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) ####
 
 Optionally, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
-for use with Visual Studio 2012 and 2013 (Professional or higher). They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
+for use with Visual Studio 2012 and 2013 (Community or higher, not Express, see above). They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
 [auto-generating XML Docs](http://fsprojects.github.io/VisualFSharpPowerTools/xmldoc.html), 
 [navigation bar](http://fsprojects.github.io/VisualFSharpPowerTools/navbar.html), 
 [highlight](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html) and [find](http://fsprojects.github.io/VisualFSharpPowerTools/findallreferences.html) references, 
