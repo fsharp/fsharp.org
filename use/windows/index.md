@@ -9,13 +9,9 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
 
-*  Install the free [Visual Studio 2013 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx); if you already have one of the paid editions of Visual Studio 2013 (Professional/Premium/Ultimate), you can use that.
+*  Install the free [Visual Studio 2013 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx); if you already have one of the paid editions of Visual Studio 2013 (Professional/Premium/Ultimate), you can use that.  Visual Studio 2013 Community and above come with the Visual F# Tools. 
 
-> Note: There are several free varieties of Visual Studio called "Express"; those have limited functionality in various respects and have been superseded by the full-featured and also free "Community" edition of Visual Studio 2013. There should be no reason to use the "Express" editions anymore.  
-
-*  Visual Studio 2013 Community and above already come with the Visual F# Tools. Make sure you have the latest version [(3.1.2)](http://www.microsoft.com/download/details.aspx?id=44011) installed.
-
-The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
+The Visual F# Tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
 See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
 
 #### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) ####
@@ -38,7 +34,8 @@ With some versions of ReSharper, the `Alt+Enter` shortcut key for the `Execute i
 command of the Visual F# Tools  doesn't work, as ReSharper overrides this for its own purposes.
 To fix this, either upgrade to ReSharper 8.0.10.1959 or greater, or install the [resharper-fsi-friendly](https://github.com/citizenmatt/resharper-fsi-friendly) plugin.
 
-If you are using Visual F# Power Tools along side with ReSharper, there is a [known issue](http://youtrack.jetbrains.com/issue/RSRP-409199) where some F# commands are hidden by ReSharper. Until it is fixed, you can workaround by disabling the ReSharper option "Hide overridden Visual Studio menu items" (ReSharper -> Options -> Keyboard & Menus).
+If you are using Visual F# Power Tools along side with ReSharper, there is a [known issue](http://youtrack.jetbrains.com/issue/RSRP-409199) where some F# commands are hidden by ReSharper. This
+is fixed in ReSharper 9.0. For previous versions, you can workaround by disabling the ReSharper option "Hide overridden Visual Studio menu items" (ReSharper -> Options -> Keyboard & Menus).
 
 <br />
 
