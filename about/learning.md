@@ -201,6 +201,14 @@ _Scott Wlaschin_
 
 A practical approach with examples in F#. Are you an experienced C#, Java or Python developer? Do you want to understand what all the fuss about functional programming is about? Designed for beginners, this book will explain all the core concepts of functional programming in a practical way with no maths or jargon.
 
+### [Machine Learning Projects for .NET Developers](http://www.apress.com/9781430267676)
+
+<img src="files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Mathias Brandewinder_
+
+Machine Learning Projects for .NET Developers shows you how to build smarter .NET applications that learn from data, using simple algorithms and techniques that can be applied to a wide range of real-world problems.
+
 ## Tutorials
 
 This section lists of some of the freely available online tutorials on F#. 
