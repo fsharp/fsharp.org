@@ -1,8 +1,8 @@
-﻿----
+---
 layout: default
 title: Learning F# | The F# Software Foundation
 headline: Learning F#
-----
+---
 
 To learn F# use one of the free online resources or books below.
 
@@ -212,7 +212,8 @@ _Mathias Brandewinder_
 Machine Learning Projects for .NET Developers shows you how to build smarter .NET applications that learn from data, using simple algorithms and techniques that can be applied to a wide range of real-world problems.
 
 ## Online Tutorials
-
+
+
 This section lists of some of the freely available online tutorials on F#. 
 You can browse these online guides to find explanation of all important 
 F# language features and see many interesting examples.
