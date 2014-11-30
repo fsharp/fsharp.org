@@ -1,8 +1,8 @@
-﻿---
+﻿----
 layout: default
 title: Learning F# | The F# Software Foundation
 headline: Learning F#
----
+----
 
 To learn F# use one of the free online resources or books below.
 
