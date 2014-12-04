@@ -58,7 +58,7 @@ following requirements and installation steps:
 
    - On Windows 8 and Windows 2012 Server, this is already present by default
    
-   - On Windows 7 and Windows 2008 Server, [install .NET 4.5](http://www.microsoft.com/net/download) from Microsoft
+   - On Windows 7 and Windows 2008 Server, [install .NET 4.5](http://www.microsoft.com/net/downloads) from Microsoft
 
 2. Requires the Windows SDK:
 
