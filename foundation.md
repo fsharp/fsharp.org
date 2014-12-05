@@ -202,6 +202,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Tony Wiliams](http://blog.tonywilliams.me.uk), Head Software Architect for Clicksco, ([@twith2sugars](https://twitter.com/twith2sugars))
  * Shaun Fuchs [@shaunfuchs](https://twitter.com/shaunfuchs)
  * Eric Christensen [@ecounysis](https://twitter.com/ecounysis)
+ * Daniel Robinson
 
 ## Contact
 
