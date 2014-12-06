@@ -4,14 +4,13 @@ title: The F# Software Foundation
 headline: The F# Software Foundation
 ---
 
+## Mission Statement
 <div class="jumbotron visible-lg calloutBox">
     <p>The mission of the F# Software Foundation is to promote, protect, and 
       advance the F# programming language, and to support and facilitate the 
       growth of a diverse and international community of F# programmers.</p>
 </div>
-
-<div class="hidden-lg calloutBox">
-    <h1>Mission Statement</h1>
+<div class="hidden-lg calloutBox" style="padding: 0px;">
     <p>The mission of the F# Software Foundation is to promote, protect, and 
       advance the F# programming language, and to support and facilitate the 
       growth of a diverse and international community of F# programmers.</p>
@@ -42,20 +41,22 @@ headline: The F# Software Foundation
 #### Notes:
 
  * The FSSF acknowledge the role of Microsoft as the current primary developers of the F# language, open-source compiler and open-source core tools, with a focus on the Windows platform. They accept that as an excellent ongoing arrangement. They welcome Microsoft’s contributions to the aims of the FSSF through both the open source releases of the F# compiler and the commercial releases of the Visual F# tooling.
- * Because the FSSF is currently an informal organization, the word "owns" in the text above currently means that one core member owns the relevant property and has agreed to dedicate it to the use of the organization and transfer it to the organization once it is legally established.
+ * The word "owns" in the text above currently means that the relevant property is either owned by the FSSF or one core member owns the relevant property and has agreed to dedicate it to the use of the organization and transfer it to the FSSF at a future point in time.
  * "Open source" is defined as: freely available technology licensed under terms compatible with Version 1.9 (or later) of the Open Source Definition, as established by the Open Source Initiative (see [http://www.opensource.org/](http://www.opensource.org)).
 
-### Funding
+*The Mission Statement above was ratified by the Board of Trustees on December 4th, 2014.*
+ 
+## Funding
 
-The FSSF is currently run as an informal organization. The intention is to eventually move towards an established organizational structure (e.g. charity or legally established foundation). The FSSF may in the future raise or accept funds to support FSSF programs and services. If it does so, it would adopt non-profit/charitable status in the USA and/or UK subject to the regulations for public non-profit/charity funding.
+The FSSF is a corporation according to United States tax law, incorporated as a Non-Profit Corporation in the State of Nevada.
 
-If you are interested in supporting the activities of The F# Software Foundation, please contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
+If you are interested in financially supporting the activities of The F# Software Foundation, please contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
 
-### Members
+## Members
 
-The FSSF is currently an informal organization formed by the F# community members listed below, with feedback from a number of other F# community members. If you would like to become a person listing themselves as a founding member of this initiative and who agrees with its goals, please contact <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>. If you have commercial interests in F# (which we encourage!) and those go beyond using the language for writing commercial software (otherwise unrelated to F#), please mention this. If you have comments on the above statement, please contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org).
+The FSSF is an open membership organization.  The ability to sign up as a member in of the F# Software Foundation as well as details on the various membership types are forthcoming.
 
-### Affiliated Groups
+## Affiliated Groups
 
 Any F#-related group which agrees with the mission statement of the FSSF can be affiliated with the FSSF.
 This includes user working groups, discussion groups, those associated with 3rd-party commercial technologies 
@@ -64,12 +65,14 @@ and both professional and open-source groups.
 See the current [list of affiliated technical groups](/technical-groups) and [user groups](http://fsharp.org/groups/).
 
 
-### Commercial supporters
+## Commercial supporters
 
  * [SkillsMatter](http://skillsmatter.com/) - meetups, conferences, workshops and trainings
  * [Software Acumen](http://www.software-acumen.com/) - organizers of the [FP days](http://fpdays.net) conference
 
-### Founding members
+## Founding members
+
+The F# Software Foundation began as an informal organization formed by the F# community members listed below, with feedback from a number of other F# community members.
 
  * [Phil Trelford](http://trelford.com/blog/), Developer and Architect, Finance and Trading sector, London ([@ptrelford](https://twitter.com/ptrelford))
  * [Tomas Petricek](http://tomasp.net) ([tomas@tomasp.net](mailto:tomas@tomasp.net)), PhD student at the University of Cambridge
@@ -92,7 +95,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * [Rainer Schmidt](http://w3cs-n.hm.edu/die_fakultaet/ansprechpartner/professoren/schmidt/index.de.html), Rainer Schmidt, Professor for Business Information Systems, Munich University of Applied Sciences, Germany
  * [Anh-Dung Phan](http://lonelypad.blogspot.com/), PhD student at Technical University of Denmark
  * Petr Lepilov, New England F# User Group
- * [Dave Thomas](http://7sharpnine.com)
+ * [Dave Thomas](http://7sharpnine.com), ([@7sharp9](https://twitter.com/7sharp9))
  * [Jack Fox](http://jackfoxy.com)
  * [Ben Taylor](http://bentaylor.org), [@bentayloruk](https://twitter.com/bentayloruk)
  * Mathias Brandewinder
@@ -203,7 +206,7 @@ See the current [list of affiliated technical groups](/technical-groups) and [us
  * Shaun Fuchs [@shaunfuchs](https://twitter.com/shaunfuchs)
  * Eric Christensen [@ecounysis](https://twitter.com/ecounysis)
  * Daniel Robinson
-
+ 
 ## Contact
 
  * Email [fsharp@fsharp.org](mailto:fsharp@fsharp.org) to contact the F# Software Foundation.
