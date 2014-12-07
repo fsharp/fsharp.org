@@ -95,7 +95,7 @@ The F# Software Foundation began as an informal organization formed by the F# co
  * [Rainer Schmidt](http://w3cs-n.hm.edu/die_fakultaet/ansprechpartner/professoren/schmidt/index.de.html), Rainer Schmidt, Professor for Business Information Systems, Munich University of Applied Sciences, Germany
  * [Anh-Dung Phan](http://lonelypad.blogspot.com/), PhD student at Technical University of Denmark
  * Petr Lepilov, New England F# User Group
- * [Dave Thomas](http://7sharpnine.com), ([@7sharp9](https://twitter.com/7sharp9))
+ * [Dave Thomas](http://7sharpnine.com)
  * [Jack Fox](http://jackfoxy.com)
  * [Ben Taylor](http://bentaylor.org), [@bentayloruk](https://twitter.com/bentayloruk)
  * Mathias Brandewinder
