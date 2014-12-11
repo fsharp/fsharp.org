@@ -5,7 +5,7 @@ headline: The F# Component Design Guidelines
 redirect_from: "/about/files/guidelines.pdf"
 ---
 
-This documentat is a set of component design guidelines for F# programming, based on [the F# Component Design Guidelines, v14, Microsoft Research](fsharp-design-guidelines-v14.pdf).  The document is now managed by technical contributors to F# including Don Syme and others in [the F# Core Engineering Group](http://fsharp.github.io). 
+This document is a set of component design guidelines for F# programming, based on [the F# Component Design Guidelines, v14, Microsoft Research](fsharp-design-guidelines-v14.pdf).  The document is now managed by technical contributors to F# including Don Syme and others in [the F# Core Engineering Group](http://fsharp.github.io). 
 
 The F# technical community are always very grateful for feedback on these guidelines. Comments and edits are both welcome. To contribute to the documentation, please [fork this repository](http://github.com/fsharp/fsfoundation), edit the working draft document, and send a pull request. 
 
