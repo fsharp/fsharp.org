@@ -8,6 +8,12 @@ redirect_from: "/cloud/index.html"
 This is an overview of the packages and tools for scalable data processing with F#,
 particularly for taking advantage of scalable cloud-computing resources.
 
+## Table of Contents
+
+* auto-gen TOC:
+{:toc}
+
+
 ## Cloud Platforms
 
 ### [Amazon Web Services](http://aws.amazon.com)

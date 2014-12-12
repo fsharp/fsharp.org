@@ -5,6 +5,8 @@ headline: Web Programming with F#
 redirect_from: "/webstacks/index.html"
 ---
 
+This guide is an overview of the packages and tools for web programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/web/index.md) and send the pull request.
+
 F# has many advantages for building efficient, scalable and robust web solutions:
 
 * *Fast* - F# code execution is fast, using native code generation from scripted or project code 
@@ -17,6 +19,13 @@ F# has many advantages for building efficient, scalable and robust web solutions
 The [Cloud Programming](/cloud) section contains more details on scalable cloud-hosted web programming with F#.
 To contribute to F# as a web programming tool, please join 
 the [F# Web Stack Google Group](https://groups.google.com/forum/#!forum/web-stack-fs). 
+
+
+## Table of Contents
+
+* auto-gen TOC:
+{:toc}
+
 
 ## Frameworks for Web Applications
 
