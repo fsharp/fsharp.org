@@ -28,6 +28,7 @@ Amazon offers a .NET SDK for managing the AWS services,
 storage, compute instances, and other Amazon services.
 
 Some additional resources for using F# and .NET on Amazon's AWS service:
+
  * [AWS Toolkit for Visual Studio](http://aws.amazon.com/visualstudio/)
 
  * [Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
