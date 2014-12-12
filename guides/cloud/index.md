@@ -6,7 +6,7 @@ redirect_from: "/cloud/index.html"
 ---
 
 This is an overview of the packages and tools for scalable data processing with F#,
-particularly for taking advantage of scalable cloud-computing resources.
+particularly for taking advantage of scalable cloud-computing resources. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/cloud/index.md) and send the pull request.
 
 ## Table of Contents
 
