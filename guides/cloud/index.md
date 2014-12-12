@@ -75,6 +75,50 @@ Below are resources on using Windows Azure from F# and .NET in general:
 
  * [Running a pure F# Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
 
+## Scalable Distributed Programming and Messaging
+
+Distributed compute problem require a very wide range of communication capabilities, ranging
+from simple command line argument passing to heavily optimized, low-latency interprocess
+communications. This section lists a wide range of communication libraries available to F#.
+
+#### MBrace
+
+The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
+
+ * [Programming model](http://www.m-brace.net/programming-model.html)
+
+ * [Windows Azure support](http://www.m-brace.net/azure-tutorial.html)
+
+#### Orleans
+
+The [Orleans](http://research.microsoft.com/jump/139795/) framework provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was designed for use in the cloud, and has been used extensively in Microsoft Azure.  A simple ['Hello World' F# sample](https://orleans.codeplex.com/SourceControl/latest#src/samples/FSharpHelloWorld/Grains/Grain1.fs) also available.
+
+#### [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) and [FSharp.CloudAgent](http://isaacabraham.github.io/FSharp.CloudAgent) 
+
+
+F# Mailbox Processors are an Agent pattern for inter-thread and inter-process communication using the F# library's MailboxProcessor.
+
+FSharp.CloudAgent is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native Mailbox Processor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
+
+#### [ServiceStack](http://www.servicestack.net/) 
+
+[ServiceStack](http://www.servicestack.net/) is "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all", see also [F# web programming](http://fsharp.org/webstacks/index.html)
+
+#### ZeroMQ
+
+* F# ZeroMQ bindings](http://zeromq.github.io/fszmq)  An F#-specific binding for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
+
+* [ZeroMQ](http://www.zeromq.org/bindings:clr) - A more general .NET binding for ZeroMQ.
+
+#### MPI
+
+* [MPI .NET](http://osl.iu.edu/research/mpi.net/) - A C# implementation of the popular [Message Passing Interface (MPI) protocol](http://en.wikipedia.org/wiki/Message_Passing_Interface).  
+
+* [MS-MPI](http://msdn.microsoft.com/en-us/library/bb524831.aspx) - Microsoft's implementation of the MPI protocol, available on some versions of Windows Server.
+
+#### Ractor.CLR
+
+![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR)  is a Redis-based distributed actors system.
 
 ## Big Data Programming and NoSQL Databases
 
@@ -97,14 +141,6 @@ clusters of commodity hardware. Hadoop derives from Google's MapReduce and Googl
  * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources
 
 
-#### MBrace
-
-The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
-
- * [Programming model](http://www.m-brace.net/programming-model.html)
-
- * [Windows Azure support](http://www.m-brace.net/azure-tutorial.html)
-
 #### Riak
 
 [Riak](http://en.wikipedia.org/wiki/Riak) is a NoSQL database implementing the principles from Amazon's Dynamo paper:
@@ -116,10 +152,6 @@ The [MBrace](http://m-brace.net/) framework is an open-source  programming model
  * [Using Riak MapReduce with F#](http://jyliao.blogspot.com/2013/06/riak-mapreduce-with-f.html) Explores the use Riak from F# (Part III)
 
  * [Riak CAP Tuning and F#](http://jyliao.blogspot.co.uk/2013/06/riak-cap-tuning-and-f.html)
-
-#### Orleans
-
-The [Orleans](http://research.microsoft.com/jump/139795/) framework provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was designed for use in the cloud, and has been used extensively in Microsoft Azure.  A simple ['Hello World' F# sample](https://orleans.codeplex.com/SourceControl/latest#src/samples/FSharpHelloWorld/Grains/Grain1.fs) also available.
 
 #### Cassandra
 
@@ -160,26 +192,3 @@ stores data structured in graphs rather than in tables.
 
  * [Using Neo4j with F# – Cypher 2.0](http://geekswithblogs.net/cskardon/archive/2013/11/27/using-neo4j-with-f-ndash-cypher-2.0.aspx)
 
-## Distributed Communications
-
-Distributed compute problem require a very wide range of communication capabilities, ranging
-from simple command line argument passing to heavily optimized, low-latency interprocess
-communications. This section lists a wide range of communication libraries available to F#.
-
- * [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) - Discusses the Agent pattern for inter-thread and inter-process communication using the F# library's MailboxProcessor.
- 
- * [FSharp.CloudAgent](http://isaacabraham.github.io/FSharp.CloudAgent) - A simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native Mailbox Processor, using Azure Service Bus to provide a cheap and reliable message bus.
-
- * [ServiceStack](http://www.servicestack.net/) - "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all", see also [F# web programming](http://fsharp.org/webstacks/index.html)
-
- * [F# ZeroMQ bindings](http://zeromq.github.io/fszmq) - An F#-specific binding for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
-
- * [ZeroMQ](http://www.zeromq.org/bindings:clr) - A more general .NET binding for ZeroMQ.
-
- * [MPI .NET](http://osl.iu.edu/research/mpi.net/) - A C# implementation of the popular [Message Passing Interface (MPI) protocol](http://en.wikipedia.org/wiki/Message_Passing_Interface).  
-
- * [MS-MPI](http://msdn.microsoft.com/en-us/library/bb524831.aspx) - Microsoft's implementation of the MPI protocol, available on some versions of Windows Server.
-
- * [Windows Communication Foundation](http://msdn.microsoft.com/en-us/library/dd456779.aspx) - A framework from Microsoft for building service-oriented applications.
-
-* ![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR) - Redis based distributed actors system.
