@@ -81,6 +81,21 @@ Distributed compute problem require a very wide range of communication capabilit
 from simple command line argument passing to heavily optimized, low-latency interprocess
 communications. This section lists a wide range of communication libraries available to F#.
 
+#### [FSharp.CloudAgent](http://isaacabraham.github.io/FSharp.CloudAgent) and [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) 
+
+F# Mailbox Processors are an Agent pattern for inter-thread and inter-process communication using the F# library's MailboxProcessor.
+
+FSharp.CloudAgent is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native Mailbox Processor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
+
+
+#### Akka.NET
+
+The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications on .NET and Mono.  It is used in production systems by its own contributors.
+
+ * [General information](http://akkadotnet.github.io/)
+
+ * [F#-specific API](http://akkadotnet.github.io/wiki/FSharp%20API)
+
 #### MBrace
 
 The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
@@ -92,13 +107,6 @@ The [MBrace](http://m-brace.net/) framework is an open-source  programming model
 #### Orleans
 
 The [Orleans](http://research.microsoft.com/jump/139795/) framework provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was designed for use in the cloud, and has been used extensively in Microsoft Azure.  A simple ['Hello World' F# sample](https://orleans.codeplex.com/SourceControl/latest#src/samples/FSharpHelloWorld/Grains/Grain1.fs) also available.
-
-#### [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) and [FSharp.CloudAgent](http://isaacabraham.github.io/FSharp.CloudAgent) 
-
-
-F# Mailbox Processors are an Agent pattern for inter-thread and inter-process communication using the F# library's MailboxProcessor.
-
-FSharp.CloudAgent is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native Mailbox Processor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
 
 #### [ServiceStack](http://www.servicestack.net/) 
 
