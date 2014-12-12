@@ -5,7 +5,7 @@ headline: Machine Learning with F#
 redirect_from: "/machine-learning/index.html"
 ---
 
-This guide is an overview of resources for machine learning programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/machine-learning/index.md) and send the pull request.
+This guide is an overview of resources for machine learning programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/machine-learning/index.md) and send the pull request.
 
 F# is well-suited to machine learning because of its efficient execution, succinct style,
 data access capabilities and scalability. F# has been successfully used by some of the most advanced 

@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-This guide is an overview of resources for data science programming and scripting with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/data-science/index.md) and send the pull request.
+This guide is an overview of resources for data science programming and scripting with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-science/index.md) and send the pull request.
 
 Data science is the application of statistical analysis, machine learning, data visualization and programming to 
 real-world data sources to bring understanding and insight to data-oriented problem domains.
