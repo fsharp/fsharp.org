@@ -21,15 +21,15 @@ This document assumes you are familiar with F# programming. Many thanks to the F
 
 This document looks at some of the issues related to F# component design and coding. In particular, it covers:
 
-* Guidelines for designing “vanilla” .NET libraries for use from any .NET language.
-
 * Guidelines for F#-to-F# libraries and F# implementation code.
 
 * Suggestions on coding conventions for F# implementation code.
 
-F# is often seen as a functional language, but in reality is a multi-paradigm language; the OO, functional and imperative paradigms are all well supported. That is, F# is a functional-oriented language—many of the defaults are set up to encourage functional programming, but programming in the other paradigms is effective and efficient, and a combination is often best of all. It is a common misconception that the functional and object-oriented programming methodologies are competing. In fact, they are generally orthogonal and largely complementary. Often, functional programming playing a stronger role “in the small” (e.g. at the implementation level of functions/method and the code contained therein) and OO playing a bigger role “in the large” (e.g. at the structural level of classes, interfaces, and namespaces, and the organization of APIs for frameworks).
+* Guidelines for designing “vanilla” .NET libraries for use from any .NET language.
 
-Regardless of the methodology, the component and library designer faces a number of practical and prosaic issues when trying to craft an API that is most easily usable by developers. One of the strengths of the .NET platform is its unified programming model that is independent of the programming language being used. The consistency throughout both the .NET Framework and other .NET libraries is the result of conscientious application of the .NET Library Design Guidelines, published online by Microsoft and as a book (“Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NET Libraries” by Krzysztof Cwalina and Brad Abrams) by Addison-Wesley. These guidelines steer library designers towards creating a consistent set of APIs which enables components to be both easily authored in, and seamlessly consumed by, a variety of .NET languages.
+F# is commonly called  a functional-first language: object, functional and imperative paradigms are all well supported, but functional programming tends to be the first technique used. Many of the defaults of F# are set up to encourage functional programming, but programming in the other paradigms is effective and efficient, and a combination is often best of all. It is a common misconception that the functional and object programming methodologies are competing. In fact, they are generally orthogonal and largely complementary. Often, functional programming plays a stronger role “in the small” (e.g. at the implementation level of functions/method and the code contained therein) and object programming playe a bigger role “in the large” (e.g. at the structural level of classes, interfaces, and namespaces, and the organization of APIs for frameworks). A good guide to functional programming is at [fsharpforfunandprofit.com](http://fsharpforfunandprofit.com).
+
+Regardless of the methodology, the component and library designer faces a number of practical and prosaic issues when trying to craft an API that is most easily usable by developers. One of the strengths of the .NET platform is its unified programming model that is independent of the programming language being used. The consistency throughout both the .NET Framework and other .NET libraries is the result of conscientious application of the [.NET Library Design Guidelines](http://msdn.microsoft.com/en-us/library/vstudio/ms229042(v=vs.100).aspx). These steer library designers towards creating a consistent set of APIs which enables components to be both easily authored in, and seamlessly consumed by, a variety of .NET languages.
 
 As a .NET programming language, the general guidelines and conventions for .NET component programming and library design apply to F#. Nevertheless F# has a number of unique features, as well as some of its own conventions and idioms, which make it worthwhile to provide prescriptive advice specific to using F#. Even if you are writing small F# scripts, it can be useful to be familiar with these design guidelines, as today’s scripts and tiny projects often evolve into tomorrow’s reusable library components.
 
@@ -57,15 +57,19 @@ From the perspective of F# programming, you must also consider a variety of othe
 
 * Function types
 
-* F# optional parameters and extension methods
+* F# named parameters, optional parameters and extension methods
+
+* F# option and tuple types
+
+* F# Async programming
 
 Good framework library design is always nontrivial and often underestimated. F# framework and library design methodology is inevitably strongly rooted in the context of .NET object-oriented programming. In this document, we give our guidelines on how you can go about approaching library design in the context of F# programming. As with the .NET Library Design Guidelines, these guidelines are not completely proscriptive –ultimately the final choices lie with F# programmers and software architects.
 
 A primary decision point is whether you are designing components for use exclusively from F#, or whether your components are intended for use from other .NET languages (like C#). APIs aimed specifically at F# developers can and should take advantage of the variety of F#-specific types and constructs that provide some of the unique strengths of the F# language. While it is possible to consume all of these components from other languages, a well-designed API designed for developers of any .NET language should use a more restricted subset of F# in the public interface, so as to provide familiar, idiomatic APIs that are consistent with the rest of .NET Framework.
 
-Sections 2-4 give recommendations for authoring F# libraries depending on the library’s intended audience. First in Section 2 we provide universal guidelines for all F# libraries. Next in Section 3 we offer advice regarding APIs designed specifically for F# developers. Then in Section 4 we describe recommendations for libraries that are intended to be consumed by any .NET language. These Sections together provide all our advice regarding the design of the public interface published by an F# assembly.
+Sections 2, 3 and 5 give recommendations for authoring F# libraries depending on the library’s intended audience. First in Section 2 we provide universal guidelines for all F# libraries. Next in Section 3 we offer advice regarding APIs designed specifically for F# developers. In Section 5 we describe recommendations for libraries that are intended to be consumed by any .NET language. These Sections together provide all our advice regarding the design of the public interface published by an F# assembly.
 
-Section 5 offers suggestions for F# coding conventions. Whereas the other Sections focus on the component design, this Section suggests some recommendations regarding style and conventions for general F# coding (e.g. the implementation of internal components).
+Section 4 offers suggestions for F# coding conventions. Whereas the other Sections focus on the component design, this Section suggests some recommendations regarding style and conventions for general F# coding (e.g. the implementation of internal components).
 
 The document concludes with an appendix containing an extended design example.
 
@@ -87,6 +91,7 @@ XML documents on public APIs ensure that users can get great Intellisense and Qu
 
     /// A class for representing (x,y) coordinates 
     type Point = 
+    
         /// Computes the distance between this point and another 
         member DistanceTo : otherPoint:Point -> float
 
@@ -205,7 +210,7 @@ For example:
         count <- count + 1
         count
 
-#### ✔ Do use interface types to represent related groups of operations that may be implemented in multiple ways.
+#### ✔ Consider using interface types to represent related groups of operations that may be implemented in multiple ways.
 
 In F# there are a number of ways to represent a dictionary of operations, such as using tuples of functions or records of functions. In general, we recommend you use interface types for this purpose.
 
@@ -221,7 +226,9 @@ In preference to:
           Decrement : unit -> unit
           GetValue : unit -> int }
 
-#### ✔ Consider using the “module of collection functions” pattern (e.g. standard set of operations like CollectionType.map and CollectionType.iter) for new collection types.
+#### ✔ Consider using the “module of collection functions” pattern 
+
+When you define a collection type, consider providing a standard set of operations like CollectionType.map and CollectionType.iter) for new collection types.
 
     module CollectionType =
         let map f c = ...
@@ -231,14 +238,15 @@ If you include such a module, follow the standard naming conventions for functio
 
 #### ✔ Consider using the “module of top-level functions” design pattern for common, canonical functions, especially in math and DSL libraries.
 
-For example, Microsoft.FSharp.Core.Operators is an automatically opened collection of top-level functions (like abs and sin) provided by FSharp.Core.dll.
-Likewise, a statistics library might include a module with functions erf and erfc, where this module is designed to be explicitly or automatically opened.
+For example, ``Microsoft.FSharp.Core.Operators`` is an automatically opened collection of top-level functions (like ``abs`` and ``sin``) provided by FSharp.Core.dll.
 
-#### ✔ Consider using the ``[<RequiredQualifiedAccess>]`` and ``[<AutoOpen>]`` attributes if this improves the default ease of use and long-term maintainability of the library in common situations.
+Likewise, a statistics library might include a module with functions ``erf`` and ``erfc``, where this module is designed to be explicitly or automatically opened.
 
-Adding the ``[<AutoOpen>]`` attribute to a module means the module will be opened when the containing namespace is opened. The [<AutoOpen>] attribute may also be applied to an assembly indicate a namespace or module that is automatically opened when the assembly is referenced.
+#### ✔ Consider using the ``[<RequiredQualifiedAccess>]`` and ``[<AutoOpen>]`` attributes  for ease of use and long-term maintainability of the library in common situations.
 
-For example, a statistics library MathsHeaven.Statistics.dll might contain a module MathsHeaven.Statistics.Operators containing functions erf and erfc . It is reasonable to mark this module as ``[<AutoOpen>]``. This means “open MathsHeaven.Statistics” will also open this module and bring the names erf and erfc into scope. Another good use of ``[<AutoOpen>]`` is for modules containing extension methods.
+Adding the ``[<AutoOpen>]`` attribute to a module means the module will be opened when the containing namespace is opened. The ``[<AutoOpen>]`` attribute may also be applied to an assembly indicate a namespace or module that is automatically opened when the assembly is referenced.
+
+For example, a statistics library MathsHeaven.Statistics.dll might contain a module MathsHeaven.Statistics.Operators containing functions ``erf`` and ``erfc`` . It is reasonable to mark this module as ``[<AutoOpen>]``. This means “open MathsHeaven.Statistics” will also open this module and bring the names erf and erfc into scope. Another good use of ``[<AutoOpen>]`` is for modules containing extension methods.
 
 
 Overuse of [<AutoOpen>] leads to polluted namespaces, and the attribute should be used with care. For specific libraries in specific domains, judicious use of [<AutoOpen>] can lead to better usability.
@@ -456,6 +464,7 @@ It is also common and accepted F# style to use camelCase for locally bound funct
 It is common and accepted F# style to use camelCase for private module-bound values, including the following:
 
 * Ad hoc functions in scripts
+
 * Values making up the internal implementation of a module or type
 
     ✔ let emailMyBossTheLatestResults = ...
@@ -515,7 +524,7 @@ Line comments // are easier to see in code because they appear consistently at t
 
 When designing libraries for use from other .NET languages, it is very important to adhere to the .NET Library Design Guidelines. In this document we label these libraries vanilla .NET libraries, as opposed to F#-facing libraries which use F# constructs without restriction and are mostly intended for use by F# applications. Designing vanilla .NET libraries means providing familiar and idiomatic APIs consistent with the rest of the .NET Framework by minimizing the use of F#-specific constructs in the public API. We propose the rules in the following sections.
 
-### 5.1 Namespace and Type Design
+### 5.1 Namespace and Type Design (for libraries for use from other .NET Languages)
 
 ✔ Do apply the .NET Library Design Guidelines to the public API of your components, for vanilla .NET APIs.
 
@@ -613,7 +622,7 @@ You can use this tool to check the public interface of your assembly for complia
 
 ✔ Do design GUI and other components using the design patterns of the particular .NET frameworks you are using. For example, for WPF programming, adopt WPF design patterns for the classes you are designing. For models in user interface programming, use design patterns such as events and notification-based collections such as those found in System.Collections.ObjectModel.
 
-### 5.2 Object and Member Design
+### 5.2 Object and Member Design  (for libraries for use from other .NET Languages)
 
 ✔ Do use the CLIEvent attribute to expose .NET events, and construct a DelegateEvent with a specific .NET delegate type that takes an object and EventArgs (rather than an Event, which just uses the FSharpHandler type by default) so that the events are published in the familiar way to other .NET languages.
 
@@ -861,4 +870,4 @@ The fixes we have made to prepare this type for use as part of a vanilla .NET li
 
 * Edits to change version numbers for F# 3.1, May 2014
 
-© 2005-2013 Microsoft Corporation, the F# Software Foundation and contributors. Made available under the Apache 2.0 License.
+© 2005-2014 Microsoft Corporation, the F# Software Foundation and contributors. Made available under the Apache 2.0 License.
