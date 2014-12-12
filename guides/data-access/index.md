@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Guide: Data Access | The F# Software Foundation
-headline: Guide: Data Access with F#
+title: Guide - Data Access | The F# Software Foundation
+headline: Guide - Data Access with F#
 redirect_from: "/data-access/index.html"
 ---
 

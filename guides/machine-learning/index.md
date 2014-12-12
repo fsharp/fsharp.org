@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Guide: Machine Learning | The F# Software Foundation
-headline: Guide: Machine Learning with F#
+title: Guide - Machine Learning | The F# Software Foundation
+headline: Guide - Machine Learning with F#
 redirect_from: "/machine-learning/index.html"
 ---
 

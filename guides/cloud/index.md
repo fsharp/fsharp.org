@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Guide: Cloud Programming | The F# Software Foundation
-headline: Guide: Cloud Data, Compute and Messaging with F#
+title: Guide - Cloud Programming | The F# Software Foundation
+headline: Guide - Cloud Data, Compute and Messaging with F#
 redirect_from: "/cloud/index.html"
 ---
 

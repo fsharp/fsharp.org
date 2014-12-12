@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Guide: Apps and Games | The F# Software Foundation
-headline: Guide: Mobile App and Game Programming with F#
+title: Guide - Apps and Games | The F# Software Foundation
+headline: Guide - Mobile App and Game Programming with F#
 redirect_from: "/apps-and-games/index.html"
 ---
 
