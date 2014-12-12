@@ -3,25 +3,50 @@ layout: default
 title: Data Science | The F# Software Foundation
 headline: Data Science with F#
 redirect_from: "/data-science/index.html"
+redirect_from: "/data-visualization/index.html"
+redirect_from: "/guides/data-visualization/index.html"
 ---
+
+
+This guide is an overview of resources for data science programming and scripting with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/data-science/index.md) and send the pull request.
 
 Data science is the application of statistical analysis, machine learning, data visualization and programming to 
 real-world data sources to bring understanding and insight to data-oriented problem domains.
-
 F# is an excellent solution for programmatic data science as it combines efficient execution
 REPL-scripting, powerful libraries and scalable data integration. 
 [Try F#](http://tryfsharp.org/learn) has sections specific to data science. 
 
-### Base Technologies for F# Data Science
+## Table of Contents
+
+* auto-gen TOC:
+{:toc}
+
+## Base Technologies for F# Data Science
 
 * [Maths and Statistics](/math) packages for F#
 * [Data Access](/data-access) packages for F#
-* [Data Charting and Visualization](/data-visualization) packages for F#
 * [Machine Learning](/machine-learning) tutorials for F#
 * [Cloud Programming](/cloud) for cloud-scalable data, compute and messaging frameworks and clients for F#.
 
+## Data Visualization
 
-### Exploratory Data and Time Series Programming
+### Interactive Charting on Windows 
+
+* [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
+
+* [XPlot (F# Google Charts)](http://tahahachana.github.io/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google's powerful and free data visualization library based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
+
+### Using R, MATLAB, Mathematica, Excel and Python for Data Visualization
+
+F# can integrate with systems such as R, MATLAB, Mathematica, Excel and Python and these can be used for data visualization.
+See below for more details and the following tutorials specific to visualization:
+
+* [Using F#, R and GGPlot2](http://stackoverflow.com/questions/16820211/r-type-provider-and-ggplot2)
+* [Tutorial: Charting with Excel from F#](http://bit.ly/10WksjA)
+* [Tutorial: Charting with Gnuplot from F#](http://bit.ly/14RwJeW)
+
+
+## Exploratory Data and Time Series Programming
 
 ![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality 
 package for data and time series manipulation and for scientific programming. 
@@ -34,7 +59,7 @@ efficient compiled .NET code.
 * [Understanding the world with F# (video)](http://channel9.msdn.com/posts/Understanding-the-World-with-F)
 
 
-### Interoperability with Excel, R, Python, MATLAB and Mathematica
+## Interoperability with Excel, R, Python, MATLAB and Mathematica
 
 F# can integrate and interoperate with data-science systems such as 
 Microsoft Excel, R, MATLAB, Mathematica and Python. See the sections below:
@@ -50,7 +75,7 @@ to F# can't be found, then search for C# instead and adjust the technique approp
 
 <a id="excel-interop" > </a>
 
-### F# and Excel 
+## F# and Excel 
 
 #### Integrating F# and Excel through FCell
 
@@ -102,7 +127,7 @@ There are also some F# versions of Excel functions, useful when migrating code:
 
 <a id="r-interop" href="#"> </a>
 
-### F# and R
+## F# and R
 
 Resources:
 
@@ -120,7 +145,7 @@ Resources:
 
 <a id="python-interop" > </a>
 
-### F# and Python 
+## F# and Python 
 
 Resources:
 
@@ -128,7 +153,7 @@ Resources:
 
 <a id="mathematica-interop" > </a>
 
-### F# and Mathematica
+## F# and Mathematica
 
 Resources:
 

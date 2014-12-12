@@ -5,9 +5,18 @@ headline: Math and Statistics Programming with F#
 redirect_from: "/math/index.html"
 ---
 
+This guide is an overview of the packages and tools for math and statistics programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/math-and-statistics/index.md) and send the pull request.
+
 F# is well-suited to numerical and statistical programming because
 of its focus on data transformations and the use of functional programming to 
 help give natural translation of the underlying mathematics into executable form.
+
+## Table of Contents
+
+* auto-gen TOC:
+{:toc}
+
+### Efficiency Considerations
 
 Efficient execution of numeric code is essential, and F# executes as native code, normally through
 [JIT compilation](http://en.wikipedia.org/wiki/Just-in-time_compilation). 
@@ -19,7 +28,7 @@ through packages like [Math.NET Numerics](http://numerics.mathdotnet.com/) and o
 libraries listed below. F# can be used to [call into Fortran dynamic-link libraries](http://www.letsthinkabout.us/post/calling-fortran-assemblies-from-net), and
 
 
-## Open-source libraries
+### Open-source libraries
 
  * ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
    a large collection of algorithms needed in science and engineering, including linear algebra, 
@@ -53,7 +62,7 @@ libraries listed below. F# can be used to [call into Fortran dynamic-link librar
    basic statistical procedures. Fmat is available on GitHub and from NuGet. License: MIT/X11
    
 
-## Commercial libraries
+### Commercial libraries
 
  * [Alea.cuBase](http://www.quantalea.net/products/overview/) - a framework for 
    developing GPU-accelerated algorithms in F# on .NET and Mono.
