@@ -92,6 +92,8 @@ clusters of commodity hardware. Hadoop derives from Google's MapReduce and Googl
 
  * [hadoop-sharp](http://code.google.com/p/hadoop-sharp/) - CLR (.NET/Mono) interface for Hadoop 
 
+ * [HadoopFs](https://github.com/isaacabraham/HadoopFs) - A lightweight F# implementation of the Hadoop Streaming API
+
  * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources
 
 #### MBrace
