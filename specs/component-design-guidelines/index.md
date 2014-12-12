@@ -669,7 +669,7 @@ The F# function type appears as ``class FSharpFunc<T,U>`` to other .NET language
 
 On the flip side, .NET delegates are not natural for F#-facing libraries (see the next Section on F#-facing libraries). As a result, a common implementation strategy when developing higher-order methods for vanilla .NET libraries is to author all the implementation using F# function types, and then create the public API using delegates as a thin façade atop the actual F# implementation.
 
-✔ Consider use the TryGetValue pattern instead of returning F# option values (option<T>) in vanilla .NET APIs, and prefer method overloading to taking F# option values as arguments.
+✔ Consider using the TryGetValue pattern instead of returning F# option values (option<T>) in vanilla .NET APIs, and prefer method overloading to taking F# option values as arguments.
 
 Common patterns of use for the F# option type in APIs are better implemented in vanilla .NET APIs using standard .NET design techniques. Instead of returning an F# option value, consider using the bool return type plus an out parameter as in the TryGetValue pattern. And instead of taking F# option values as parameters, consider using method overloading or optional arguments.
 
