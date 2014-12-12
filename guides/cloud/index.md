@@ -5,8 +5,10 @@ headline: Guide - Cloud Data, Compute and Messaging with F#
 redirect_from: "/cloud/index.html"
 ---
 
-This guide is an overview of the packages and tools for scalable data processing with F#,
-particularly for taking advantage of scalable cloud-computing resources. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md) and send a pull request.
+This guide is an overview of the packages and tools for scalable compute, messaging and data processing with F#,
+particularly for taking advantage of cloud-computing resources. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md) and send a pull request.
+
+For cloud-hosted web programming, see the [Web Programming Guide](/guides/web/).
 
 ## Table of Contents
 
