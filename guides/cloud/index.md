@@ -96,9 +96,10 @@ clusters of commodity hardware. Hadoop derives from Google's MapReduce and Googl
 
  * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources
 
+
 #### MBrace
 
-[MBrace](http://m-brace.net/) The MBrace framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
+The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
 
  * [Programming model](http://www.m-brace.net/programming-model.html)
 
@@ -115,6 +116,10 @@ clusters of commodity hardware. Hadoop derives from Google's MapReduce and Googl
  * [Using Riak MapReduce with F#](http://jyliao.blogspot.com/2013/06/riak-mapreduce-with-f.html) Explores the use Riak from F# (Part III)
 
  * [Riak CAP Tuning and F#](http://jyliao.blogspot.co.uk/2013/06/riak-cap-tuning-and-f.html)
+
+#### Orleans
+
+The [Orleans](http://research.microsoft.com/jump/139795/) framework provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was designed for use in the cloud, and has been used extensively in Microsoft Azure.  A simple ['Hello World' F# sample](https://orleans.codeplex.com/SourceControl/latest#src/samples/FSharpHelloWorld/Grains/Grain1.fs) also available.
 
 #### Cassandra
 
