@@ -25,7 +25,7 @@ on Windows and [SIMD primitives](http://www.counity.at/blog/2011/hardware-accele
 on Linux. F# can also utilize highly optimized, native code libraries such as the
 Intel [Math Kernel Library (MKL)](http://software.intel.com/en-us/intel-mkl)
 through packages like [Math.NET Numerics](http://numerics.mathdotnet.com/) and other
-libraries listed below. F# can be used to [call into Fortran dynamic-link libraries](http://www.letsthinkabout.us/post/calling-fortran-assemblies-from-net), and
+libraries listed below. F# can be used to [call into Fortran dynamic-link libraries](http://www.letsthinkabout.us/post/calling-fortran-assemblies-from-net).
 
 
 ### Open-source libraries
