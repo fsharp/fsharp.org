@@ -8,7 +8,7 @@ redirect_from: "/cloud/index.html"
 This guide is an overview of the packages and tools for scalable compute, messaging and data processing with F#,
 particularly for taking advantage of cloud-computing resources. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md) and send a pull request.
 
-For cloud-hosted web programming, see the [Web Programming Guide](/guides/web/).
+For cloud-hosted web programming and services, see the [Web Programming Guide](/guides/web/).
 
 ## Table of Contents
 
@@ -91,7 +91,7 @@ F# Mailbox Processors are an Agent pattern for inter-thread and inter-process co
 FSharp.CloudAgent is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native Mailbox Processor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
 
 
-#### Akka.NET
+#### ![logo](/images/thumbs/AkkaDotNET.png)&nbsp;Akka.NET
 
 The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications on .NET and Mono.  It is used in production systems by its own contributors.
 
