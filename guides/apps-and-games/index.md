@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Apps and Games | The F# Software Foundation
-headline: App and Game Programming with F#
+title: Guide: Apps and Games | The F# Software Foundation
+headline: Guide: Mobile App and Game Programming with F#
 redirect_from: "/apps-and-games/index.html"
 ---
 
-This guide is an overview of resources for app and game programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/apps-and-games/index.md) and send the pull request.
+This guide is an overview of resources for app and game programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/apps-and-games/index.md) and send a pull request.
 
 
 F# executes on a broad range of app and gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), 

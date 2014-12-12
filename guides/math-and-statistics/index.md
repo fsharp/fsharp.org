@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Math and Statistics Programming with F# | The F# Software Foundation
-headline: Math and Statistics Programming with F#
+title: Guide: Math and Statistics Programming with F# | The F# Software Foundation
+headline: Guide: Math and Statistics Programming with F#
 redirect_from: "/math/index.html"
 ---
 
-This guide is an overview of the packages and tools for math and statistics programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/math-and-statistics/index.md) and send the pull request.
+This guide is an overview of the packages and tools for math and statistics programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/math-and-statistics/index.md) and send a pull request.
 
 F# is well-suited to numerical and statistical programming because
 of its focus on data transformations and the use of functional programming to 

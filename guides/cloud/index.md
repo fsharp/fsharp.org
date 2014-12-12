@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Cloud Programming | The F# Software Foundation
-headline: Cloud Data, Compute and Messaging with F#
+title: Guide: Cloud Programming | The F# Software Foundation
+headline: Guide: Cloud Data, Compute and Messaging with F#
 redirect_from: "/cloud/index.html"
 ---
 
-This is an overview of the packages and tools for scalable data processing with F#,
-particularly for taking advantage of scalable cloud-computing resources. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md) and send the pull request.
+This guide is an overview of the packages and tools for scalable data processing with F#,
+particularly for taking advantage of scalable cloud-computing resources. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md) and send a pull request.
 
 ## Table of Contents
 

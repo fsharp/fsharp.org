@@ -5,7 +5,7 @@ headline: Web Programming with F#
 redirect_from: "/webstacks/index.html"
 ---
 
-This guide is an overview of the packages and tools for web programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md) and send the pull request.
+This guide is an overview of the packages and tools for web programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md) and send a pull request.
 
 F# has many advantages for building efficient, scalable and robust web solutions:
 
