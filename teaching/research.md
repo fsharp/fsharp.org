@@ -92,7 +92,7 @@ synchronous and asynchronous code and eliminates callback-style treatments of in
 of control, without disturbing the foundation of CPU-intensive programming that allows F# to 
 interoperate smoothly and compile efficiently to .NET and native code.  
 
-### [Collecting Hollywood’s Garbage: Avoiding Space-Leaks in Composite Events](http://www.cl.cam.ac.uk/~tp322/papers/hollywood.html)
+### [Collecting Hollywood’s Garbage: Avoiding Space-Leaks in Composite Events](http://tomasp.net/academic/papers/hollywood/)
 
 Tomas Petricek, Don Syme  
 _Proceedings of ISMM 2010_
@@ -155,7 +155,7 @@ programming environments semi-safe variations on value-recursion may be appropri
 ML-like languages, because initialization effects from external libraries are difficult to 
 characterize, document and control. 
 
-### [Extending Monads with Pattern Matching](http://www.cl.cam.ac.uk/~tp322/papers/docase.html)
+### [Extending Monads with Pattern Matching](http://tomasp.net/academic/papers/docase/)
 
 Tomas Petricek, Alan Mycroft and Don Syme  
 _Proceedings of Haskell Symposium 2011_
@@ -189,7 +189,7 @@ web site, which contains a number of tutorials that can be tested in web browser
 of running Silverlight (MacOS and Windows).
 
 
-### [Evaluation strategies for monadic computations](http://www.cl.cam.ac.uk/~tp322/papers/malias.html)
+### [Evaluation strategies for monadic computations](http://tomasp.net/academic/papers/malias/)
 
 Tomas Petricek  
 _Proceedings of MSFP 2012_
@@ -212,7 +212,7 @@ change the evaluation strategy of functional code translated to the monadic form
 changing its structure or types. 
 
 
-### [Joinads: a retargetable control-flow construct for reactive, parallel and concurrent programming](http://www.cl.cam.ac.uk/~tp322/papers/joinads.html)
+### [Joinads: a retargetable control-flow construct for reactive, parallel and concurrent programming](http://tomasp.net/academic/papers/joinads/)
 
 Tomas Petricek and Don Syme  
 _Proceedings of PADL 2011_
@@ -251,25 +251,26 @@ an implementation of language integrated SQL queries using the LINQ/SQLMetal lib
 sketch two other applications: the execution of data-parallel quoted F# programs on a GPU via the 
 Accelerator libraries, and dynamic native-code compilation via LINQ.
 
-### [Syntax Matters: Writing abstract computations in F#](http://www.cl.cam.ac.uk/~tp322/drafts/notations.html)
+### [The F# Computation Expression Zoo](http://tomasp.net/academic/papers/computation-zoo/)
 
 Tomas Petricek and Don Syme
-_In pre-proceedings of TFP 2012_
+_In proceedings of PADL 2014_
 
-The academic literature describes a number of abstract computation types such as monads, applicative 
-functors and their compositions. These can be used to describe features of mainstream languages such 
-as generators in Python or asynchronous computations in C# 5, but working with abstract computations 
-without a convenient syntactic sugar is difficult.
+Many computations can be structured using abstract computation types such as monoids, monad 
+transformers or applicative functors. Functional programmers use those abstractions directly while 
+main-stream languages often integrate concrete instances as language features - e.g. generators in 
+Python or asynchronous computations in C# 5.0. The question is, is there a sweet spot between 
+convenient, hardwired language features, and an inconvenient but flexible libraries?
 
-In this paper, we describe computation expressions, which is a syntactic sugar for working with 
-abstract computations in F# 2.0. Unlike the do notation in Haskell, computation expressions are not 
-tied to a single kind of abstract computations. They support wider range of computations, depending on 
-what operations are available and they also provide greater syntactic flexibility.
+F# computation expressions answer this question in the affirmative. Unlike the do notation in Haskell, 
+computation expressions are not tied to a single kind of abstraction. They support a wide range of 
+computations, depending on what operations are available. They also provide greater syntactic 
+flexibility leading to a more intuitive syntax, without resorting to full macro-based meta-programming.
 
-As a result, F# programmers are able to use a single syntactic sugar for a wider range of computations 
-including monoidal sequence generators, monadic parsers and applicative formlets. This removes the need 
-for ad-hoc language extensions that provide “nice syntax” for one particular kind of computations.
-
+We show that computation expressions can structure well-known computations including monoidal list 
+comprehensions, monadic parsers, applicative formlets and asynchronous sequences based on the list 
+monad transformer. We also present typing rules for computation expressions that are capable of 
+capturing all these applications.
 
 
 ### [Rapid Prototyping of DSLs with F#](http://academic.research.microsoft.com/Publication/39281456/rapid-prototyping-of-dsls-with-f#)
