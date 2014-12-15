@@ -9,11 +9,23 @@ To help with Linux packages, please join the [F# Core Engineering Group](http://
 
 ### Option 1: Use the F# Debian packages 
 
-F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are available in Debian _testing_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
+F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are available in Debian _testing_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)).
 
-    sudo apt-get update
-    sudo apt-get install mono-complete
-    sudo apt-get install fsharp
+It is highly recommended (albeit optional) that you add the Mono package repository to your sources in order to get a much more up to date version of the Mono runtime:
+
+```bash
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
+```
+
+(These steps are documented here: http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives)
+
+Then proceed to install the fsharp & mono packages
+
+```bash
+sudo apt-get update
+sudo apt-get install mono-complete fsharp
+```
 
 This installs `fsharpc` and `fsharpi`. If you don't have access to these repositoties, compile from source or see Option 6 below.
 
