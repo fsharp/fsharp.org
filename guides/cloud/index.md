@@ -78,6 +78,14 @@ Below are resources on using Windows Azure from F# and .NET in general:
 
  * [Running a pure F# Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
 
+## Containers
+
+### Docker
+
+[Docker](https://www.docker.io/) automates the deployment of applications inside [software containers](http://en.wikipedia.org/wiki/Operating_system%E2%80%93level_virtualization), by providing an additional layer of abstraction and automation of operating system–level virtualization on Linux.
+
+F# is available by default in [the Docker official images for Mono](https://github.com/docker-library/official-images/blob/master/library/mono).
+
 ## Scalable Distributed Programming and Messaging
 
 Distributed compute problem require a very wide range of communication capabilities, ranging
