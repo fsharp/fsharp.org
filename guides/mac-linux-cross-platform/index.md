@@ -51,30 +51,37 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding).
 
-  On Debian Linux or derivatives (e.g. Ubuntu, Mint), you can install MonoDevelop via a graphical package manager, such as Synaptic, or through the command line with:
-  
-       sudo apt-get install monodevelop
-  
-  Packages are also available for [openSUSE](http://software.opensuse.org/package/monodevelop), [Fedora](https://apps.fedoraproject.org/packages/monodevelop), and [Arch Linux](https://aur.archlinux.org/packages/monodevelop-latest/) (via the AUR).
+  See [the installation instructions for MonoDevelop on Linux](http://www.monodevelop.com/download/).
 
-  You can also [build/install MonoDevelop from source](http://github.com/mono/monodevelop) if a package is not available/updated for your distribution. You will likely need to [build and install the F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding) yourself, even if you install MonoDevelop from a pre-built package.
+  Then install [the F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding) by adding it from the AddIn Manager, or building/installing it yourself from source.
   
 * Sublime Text 2
 
+  Use and contribute to:
+  
+  * [Sublime Text Support for F#](https://github.com/fsharp/fsharpbinding/blob/master/sublimetext/README.md)
+
+  See also:
+  
   * [Configuring Sublime Text 2 To Work With FSharp](http://onor.io/2012/01/26/configuring-sublime-text-2-to-work-with-fsharp/)
   * [Using Sublime Text 2 as F# REPL](http://blog.kulman.sk/using-sublime-text-2-as-f-repl/)
 
 * Vim
+
+  Use and contribute to:
+  
+  * [Vim support for F#](https://github.com/fsharp/fsharpbinding/blob/master/vim/README.mkd)
+
+  See also:
+
   * [Writing and Running F# Scripts with Vim](http://juliankay.com/development/writing-and-running-f-scripts-with-vim/)
   * [Vim Runtime Files for F#](https://github.com/kongo2002/fsharp-vim)
- 
+
 If running F# Interactive in Emacs or another similar environment, use 
               
     > fsharpi --readline- 
 
-to turn of console processing.                    
-
-
+to turn of console processing. 
 ------
 
 #	Documentation 
@@ -187,7 +194,7 @@ It is quite common to check a copy of NuGet.exe into a project, e.g. in lib/NuGe
 
 ### Using nuget in MonoDevelop and Xamarin Studio
 
-You can add NuGet support to these IDEs. See [NuGet for MonoDevelop and Xamarin Studio](https://github.com/mrward/monodevelop-nuget-addin#nuget-addin-for-monodevelop-and-xamarin-studio).
+You can add NuGet support to these IDEs if not already present. See [NuGet for MonoDevelop and Xamarin Studio](https://github.com/mrward/monodevelop-nuget-addin#nuget-addin-for-monodevelop-and-xamarin-studio).
 
 ### Making nuget packages
 
