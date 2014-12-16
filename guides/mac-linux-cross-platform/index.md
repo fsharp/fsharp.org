@@ -79,7 +79,7 @@ If running F# Interactive in Emacs or another similar environment, use
               
     > fsharpi --readline- 
 
-to turn of console processing. 
+to turn off console processing. 
 
 #	Documentation 
 
