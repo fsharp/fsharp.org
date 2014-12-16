@@ -25,7 +25,7 @@ Regardless of which repository source you are using, proceed to install the fsha
     sudo apt-get update
     sudo apt-get install mono-complete fsharp
 
-This installs `fsharpc` and `fsharpi`. If you don't have access to these repositoties, compile from source or see Option 6 below. Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
+This installs `fsharpc` and `fsharpi`. If you don't have access to these repositories, compile from source or see Option 6 below. Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
 
 
@@ -116,25 +116,4 @@ go further.
 ### Option 5: Use a Vagrant VM on Windows
 
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
-
-
-### Option 6: Get access to the Debian packages
-
-If you want to use Debian packages and don't have access to trusty/universe packages, then 
-the following steps may allow access. However, if used on the wrong operation system version (eg some versions of Linux Mint), this can also make your system unable to reboot without some kind of manual fixing, so only do this if you know what you are doing :
-
-1. Add the following using `sudo vi /etc/apt/sources.list`:
-
-       deb http://azure.archive.ubuntu.com/ubuntu/ trusty main
-       deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty main
-        
-       deb http://azure.archive.ubuntu.com/ubuntu/ trusty universe
-       deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty universe
-
-2. Install the fsharp packages with the following commands:
-
-        sudo apt-get update
-        sudo apt-get install mono-complete
-        sudo apt-get install fsharp
-
 
