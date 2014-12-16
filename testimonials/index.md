@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: Testimonials | The F# Software Foundation
 headline: Testimonials and Quotes
@@ -70,7 +70,7 @@ we knew we could use new modules right away.
 > The use of F# demonstrates a sweet spot for the language within enterprise software
 
 1. **Simon Cousins**
-2. [source](http://stackoverflow.com/questions/2785029/in-what-areas-might-the-use-of-f-be-more-appropriate-than-c), [permalink](#simon-cousins-1)
+2. [permalink](#simon-cousins-1)
 
 I have written an application to balance the national power generation schedule for a portfolio 
 of power stations to a trading position for an energy company. The client and server components 
@@ -191,8 +191,8 @@ by weeks and making it far easier for independent agents to sell and service Gra
 
 > Large insurance company developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all...
 
-1. **Large insurance company** 
-2. [source 1](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [source 2](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [source 3](http://stackoverflow.com/questions/179332/anyone-actually-using-f-in-production), [permalink](#aviva-flying-frog-1)
+1. **Large insurance company**
+2. [source 1](http://stackoverflow.com/questions/952318/what-are-the-benefits-of-using-c-sharp-vs-f-or-f-vs-c), [source 2](http://www.quora.com/Which-organizations-use-the-F-programming-language-in-a-non-trivial-fashion/answer/Jon-Harrop-1), [permalink](#aviva-flying-frog-1)
 
 One of the world's largest insurance companies have F# code in production, are starting several 
 more projects in F#. We are currently consulting for this company (£2.5bn profit) who have migrated 
@@ -218,7 +218,7 @@ The 10x performance gain was verified by the client.
 > Our risk and analytic capabilities (...) are entirely written in F#
 
 1. **Lawrence Austen**
-2. Chief Risk Officer at [Trafigura](http://cufp.org/users/lawrenceausten)
+2. Chief Risk Officer at Trafigura
 3. [source](http://cs.hubfs.net/topic/None/59847), [permalink](#trafigura-ad-1)
 
 ...work directly with Trafigura's Chief Risk Officer/Head of Quantitative Analysis, 
@@ -338,7 +338,7 @@ One such project is the *Louvre Abu Dhabi* by Jean Nouvel. Waagner-Biro was awar
 
 1. **Matt Ball**
 2. Liz Earle Beauty Co. Ltd
-3. [source](http://saxonmatt.co.uk/2013/04/adopting-fsharp-part-ii.html), [permalink](#lemball-1)
+3. [permalink](#lemball-1)
 
 As a business we actively seek improvement every single day. This is the same for our IT systems, 
 so we have been searching for a means to do that in our in-house software systems.
@@ -412,7 +412,7 @@ F# computation engine could be seamlessly integrated with other parts of .NET-ba
  
 1. **Stephen Channell**
 2. Cepheis Ltd 
-3. [Case Study](http://docs.cepheis.com/present/Early%20Warning%20Indicators.pdf), [permalink](#early-warning-1)
+3. [permalink](#early-warning-1)
 
 Early Warning Indicators is a standalone dashboard application to monitor real-time market 
 movements and highlight potential risk for further analysis. EWI subscribed to real-time equity, 
@@ -453,7 +453,7 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 > The efficient use of functional programming throughout the R&amp;D cycle helped make the cycle faster and more efficient.
 
 1. Moody Hadi (CME Group)
-2. [source](http://stevanovichcenter.uchicago.edu/conferences/fp/Program.html), [permalink](#cme-1)
+2. [permalink](#cme-1)
 
 The credit markets have varying pockets of liquidity. Market participants would like to understand how the 
 liquidity of their set of entities changes relative to the overall market. A liquidity scoring model is 
@@ -491,7 +491,7 @@ still finish my project with realistic code. You're never disappointed in any ph
 
 1. **UK-based Power Company**
 2. Simon Cousins
-2. [source](http://www.simontylercousins.net/journal/2013/2/22/does-the-language-you-choose-make-a-difference.html), [permalink](#simon-cousins-2)
+2. [permalink](#simon-cousins-2)
 
 I am both a C# dev and an F# dev. I can only offer subjective anecdotal evidence based 
 on my experience of delivering projects in both languages (I am too busy delivering 
@@ -709,9 +709,8 @@ Michael and I spent considerable time solving traditional programming
 problems in F#. A combination of functional and imperative F# with an 
 occasional pinch of OO gives a very pleasing platform for program 
 development - once you have found your way through the wilderness of MSDN 
-documentation (newcomers to the MSDN world may benefit from the
-[keyword index](http://www.compute.dtu.dk/~mire/FSharpBook/keywordindex.html)
-to the MSDN library documentation found on the [web-site of the book](http://www.compute.dtu.dk/~mire/FSharpBook)). 
+documentation (newcomers to the MSDN world may benefit from the 
+MSDN library documentation found on the [web-site of the book](http://www.compute.dtu.dk/~mire/FSharpBook)). 
 All of Chapter 10 and part of Chapter 11 present program examples using 
 this programming style.
 
@@ -963,7 +962,7 @@ intuitive and easy to use features for enhancing digital images.
 > Bohdan ... shows F#'s use for performing aggregations over large datasets, taking advantage of cpu and io parallelism
 
 1. **Bohdan Szymanik**
-2. [source](http://dnufba.preview.intergen.net.nz/Lists/Events%20Calendar/DispForm.aspx?ID=279), [permalink](#bohdan-szymanik-1)
+2. [permalink](#bohdan-szymanik-1)
 
 Bohdan Szymanik, CTO at Kiwibank, is keen to show how he's been using F# for analysis tasks 
 within the bank. He'll provide an intro to the language then show its use for performing 
