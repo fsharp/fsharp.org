@@ -206,6 +206,7 @@ The F# Software Foundation began as an informal organization formed by the F# co
  * Shaun Fuchs [@shaunfuchs](https://twitter.com/shaunfuchs)
  * Eric Christensen [@ecounysis](https://twitter.com/ecounysis)
  * Daniel Robinson
+ * Riccardo Terrell [@trikace] (https://twitter.com/trikace)  
  
 ## Contact
 
