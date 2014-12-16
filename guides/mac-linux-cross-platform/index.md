@@ -19,7 +19,6 @@ This guide is an overview of resources for cross-platform development with F#. T
 * [Getting Started with F# for Android Programming](/use/android)
 
 
--------
 
 # Command Line Tools
 
@@ -39,7 +38,6 @@ You’re off! Some common commands are:
     mono file.exe arg1 ... argN        (runs a compiled F# program)
     mkbundle --static file.exe -o file (makes a static native image, including the F# runtime)
 
-------
 
 #  Editing 
 
@@ -82,13 +80,10 @@ If running F# Interactive in Emacs or another similar environment, use
     > fsharpi --readline- 
 
 to turn of console processing. 
-------
 
 #	Documentation 
 
 For most F# documentation, see the [documentation pages](/about/index.html#documentation).
-
-------
 
 #	Projects and Build Automation
 
@@ -140,7 +135,6 @@ FAKE can be fetched using NuGet.exe, e.g.:
     # Get FAKE.exe
     mono nuget.exe install FAKE -OutputDirectory lib -ExcludeVersion -Prerelease
 
----------
 
 # Package Repositories
 
@@ -208,7 +202,6 @@ Other packaging mechanisms include:
 * Traditional Unix packages
 * Simple .fs files that can be included into projects
 
-------
 
 ## Some Examples of Portable, Cross-Platform Packages
 
@@ -255,7 +248,6 @@ available to F#, for example:
 
 Compatibility guides, [documentation](http://docs.go-mono.com/?link=root) and [migration assessment tools](http://www.mono-project.com/MoMA) are also available.
   
-------
 
 # Portable Libraries
 
@@ -268,7 +260,7 @@ of runtime machinery used and other factors).
 See [Cross-Platform Portable Class Libraries with .NET are Happening](http://www.hanselman.com/blog/CrossPlatformPortableClassLibrariesWithNETAreHappening.aspx)
 for a perspective on cross-platform portable libraries for Visual Studio users.
 
-F# portable libraries use FSharp.Core versions such as 4.3.5.1, with matching mscorlib versions.
+F# portable libraries reference FSharp.Core versions such as 2.3.5.1, with matching mscorlib versions.
 A binding redirect may be neeeded to ensure bindings to these libraries redirect correctly, e.g. to 
 FSharp.Core 4.3.1.0.
 
@@ -278,7 +270,6 @@ on these platforms. If you are developing on Windows, or using libraries on Wind
 creating portable libraries to ease cross-platfom use.
 
 
-------
 
 # Unit Testing
 
@@ -290,21 +281,15 @@ There are two major ways of writing unit tests in .Net; in a method-per-test sty
 
 [Fuchu](https://github.com/mausch/Fuchu) is a test library for .NET, supporting C# and VB.NET but with a special focus on F#. It draws heavily from Haskell's test-framework and HUnit. You can read about the rationale and underlying concepts in [this blog post](http://bugsquash.blogspot.com/2012/06/fuchu-functional-test-library-for-net.html), or tests should be first-class values so that you can move them around and execute them in any context that you want. Also, if they are first-class values, then you can take extra care with what the test methods return, making integrations with external libraries much cheaper.
 
-```
-Install-Package Fuchu
-```
+    Install-Package Fuchu
 
 Since tests are values, it's easy to extend the framework to integrate with other tooling, e.g. with FsCheck to use a fuzzing/randomization approach to testing (see below)
 
-```
-Install-Package Fuchu.FsCheck
-```
+    Install-Package Fuchu.FsCheck
 
 Fuchu also has an integration with PerfUtil which can be used to automate performance testing and trending in a continuous integration environment.
 
-```
-Install-Package Fuchu.PerfUtil
-```
+    Install-Package Fuchu.PerfUtil
 
 ## FsCheck
 
@@ -347,7 +332,6 @@ Travis is free for open source  projects.
 
 To also automate your build and test on Windows, AppVeyor is a good choice.  Here is [an example configuration file](https://github.com/fsharp/FSharp.Compiler.Service/blob/master/appveyor.yml).
 
-------
 
 # Miscellaneous Notes on Open Source and Cross Platform Development
 
