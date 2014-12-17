@@ -54,7 +54,7 @@ If you are interested in financially supporting the activities of The F# Softwar
 
 ## Members
 
-The FSSF is an open membership organization.  The ability to sign up as a member in of the F# Software Foundation as well as details on the various membership types are forthcoming.
+The FSSF is an open membership organization.  The ability to sign up as a member of the F# Software Foundation as well as details on the various membership types are forthcoming.
 
 ## Affiliated Groups
 
@@ -206,7 +206,8 @@ The F# Software Foundation began as an informal organization formed by the F# co
  * Shaun Fuchs [@shaunfuchs](https://twitter.com/shaunfuchs)
  * Eric Christensen [@ecounysis](https://twitter.com/ecounysis)
  * Daniel Robinson
- * Riccardo Terrell [@trikace] (https://twitter.com/trikace)  
+ * Riccardo Terrell [@trikace] (https://twitter.com/trikace)
+ * Anders Mellson [@andersmellson](https://twitter.com/andersmellson)
  
 ## Contact
 
