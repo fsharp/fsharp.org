@@ -183,8 +183,6 @@ _Peter Sestoft_
 
 The book Programming Language Concepts (PLC) provides an introduction to programming language concepts and implementation technology, such as interpretation, compilation, type checking and type inference, abstract machines, and garbage collection. F# is used as a meta language throughout the book expressing all concepts and examples of programming language design in a modern strongly-typed language of the ML-family, enabling the reader to experiment with the ideas right away.
 
-## F# Books (Coming Soon)
-
 ### [F# Deep Dives](http://manning.com/petricek2/)
 
 <img src="files/BookDD.jpg" style="float:right;margin:5px 0px 5px 25px;" />
@@ -192,6 +190,8 @@ The book Programming Language Concepts (PLC) provides an introduction to program
 _Tomas Petricek and Phillip Trelford_
 
 F# Deep Dives presents a collection of real-world F# techniques, each written by expert practitioners. Each chapter presents a new use case where you'll read how the author used F# to solve a complex problem more effectively than would have been possible using a traditional approach. You'll not only see how a specific solution works in a specific domain, you'll also learn how F# developers approach problems, what concepts they use to solve them, and how they integrate F# into existing systems and environments.
+
+## F# Books (Coming Soon)
 
 ### [Understanding Functional Programming](https://leanpub.com/understandingfunctionalprogramming)
 
