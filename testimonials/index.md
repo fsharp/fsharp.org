@@ -1,9 +1,10 @@
-﻿---
+---
 layout: page
 title: Testimonials | The F# Software Foundation
 headline: Testimonials and Quotes
 class: testimonials
 ---
+
 <!-- 
 
 Please contribute your testimonials!
