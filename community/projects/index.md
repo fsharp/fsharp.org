@@ -279,9 +279,6 @@ Contributions welcome!
 
 <h2 class="anchor" id="async-concurrent-parallel" class="anchor">Community Projects: Asynchronous, Concurrent and Parallel Programming</h2>
 
-*  [Hopac](https://github.com/VesaKarvonen/Hopac) - Inspired by languages like Concurrent ML and Cilk, Hopac is a
-   library for F# with the aim of making it easier to write efficient parallel, asynchronous and concurrent programs.
-
 *  ![logo](/images/thumbs/PSeq.png)&nbsp;[F# Parallel Sequences](http://fsprojects.github.io/FSharp.Collections.ParallelSeq/). This component provides F#-style API for parallel operations on sequences that are part of .NET 4.0 as System.Linq.ParallelEnumerable class. The API is akin to F# operations on sequences.
 
 *  ![logo](/images/thumbs/FSharp.Control.Reactive.png)&nbsp;[FSharp.Control.Reactive](http://fsprojects.github.io/FSharp.Control.Reactive/). F#-style modules for working with the Reactive Extensions (Rx) as a set of extensions to the built-in Observable module. The library includes observe and rxquery computation expressions, as well.
