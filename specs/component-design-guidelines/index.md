@@ -242,16 +242,16 @@ For example, ``Microsoft.FSharp.Core.Operators`` is an automatically opened coll
 
 Likewise, a statistics library might include a module with functions ``erf`` and ``erfc``, where this module is designed to be explicitly or automatically opened.
 
-#### ✔ Consider using the ``[<RequiredQualifiedAccess>]`` and ``[<AutoOpen>]`` attributes  for ease of use and long-term maintainability of the library in common situations.
+#### ✔ Consider using the ``[<RequireQualifiedAccess >]`` and ``[<AutoOpen>]`` attributes  for ease of use and long-term maintainability of the library in common situations.
 
 Adding the ``[<AutoOpen>]`` attribute to a module means the module will be opened when the containing namespace is opened. The ``[<AutoOpen>]`` attribute may also be applied to an assembly indicate a namespace or module that is automatically opened when the assembly is referenced.
 
 For example, a statistics library MathsHeaven.Statistics.dll might contain a module MathsHeaven.Statistics.Operators containing functions ``erf`` and ``erfc`` . It is reasonable to mark this module as ``[<AutoOpen>]``. This means “open MathsHeaven.Statistics” will also open this module and bring the names erf and erfc into scope. Another good use of ``[<AutoOpen>]`` is for modules containing extension methods.
 
 
-Overuse of [<AutoOpen>] leads to polluted namespaces, and the attribute should be used with care. For specific libraries in specific domains, judicious use of [<AutoOpen>] can lead to better usability.
+Overuse of ``[<AutoOpen>]`` leads to polluted namespaces, and the attribute should be used with care. For specific libraries in specific domains, judicious use of ``[<AutoOpen>]`` can lead to better usability.
 
-Adding the [<RequireQualifiedAccess>] attribute to a module indicates that the module may not be opened and that references to the elements of the module require explicit qualified access. For example, the Microsoft.FSharp.Collections.List module has this attribute.
+Adding the ``[<RequireQualifiedAccess>]`` attribute to a module indicates that the module may not be opened and that references to the elements of the module require explicit qualified access. For example, the Microsoft.FSharp.Collections.List module has this attribute.
 
 This is useful when functions and values in the module have names that are likely to conflict with names in other modules and requiring qualified access can greatly increase the long-term maintainability and evolvability of a library: functions can be added to the module without breaking source compatibility.
 
