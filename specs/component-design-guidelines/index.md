@@ -870,4 +870,4 @@ The fixes we have made to prepare this type for use as part of a vanilla .NET li
 
 * Edits to change version numbers for F# 3.1, May 2014
 
-© 2005-2014 Microsoft Corporation, the F# Software Foundation and contributors. Made available under the Apache 2.0 License.
+Copyright © 2005-2015 Microsoft Corporation, the F# Software Foundation and invididual contributors. Made available under the [Apache 2.0 License](http://opensource.org/licenses/Apache-2.0).
