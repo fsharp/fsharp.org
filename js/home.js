@@ -47,17 +47,13 @@ function shuffle(array) {
 }
 
 function shuffleSupporters() {
-    var carouselLink = $(".carousel-link");
+    var carouselLink = $(".carousel-img");
     var shuffled = shuffle(carouselLink.toArray());
-    var hrefs = $.map(shuffled, function (x) {
-        return x.getAttribute("href");
-    });
     var srcs = $.map(shuffled, function (x) {
-        return $(".carousel-img", x).attr("src");
+        return x.getAttribute("src");
     });
     carouselLink.each(function (index, x) {
-        x.setAttribute("href", hrefs[index]);
-        $(".carousel-img", x).attr("src", srcs[index]);
+        x.setAttribute("src", srcs[index]);
     });
 }
 
@@ -107,6 +103,6 @@ $(function () {
     });
 
     shuffleSupporters();
-
+    $("#supporter-container").show();
     shuffleTestimonials();
 });
