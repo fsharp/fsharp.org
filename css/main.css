@@ -351,6 +351,14 @@ pre {
 
 .carousel-control {
     width: 7%;
+    color: #eef1f5;
+    opacity: 1.0;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
 }
 
 .carousel-img {
