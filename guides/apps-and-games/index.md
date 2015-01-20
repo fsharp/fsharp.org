@@ -35,7 +35,7 @@ Xamarin provide app and game development tools for Android, iOS and other platfo
 
 Some resources for app and game development with F# and Xamarin tools:
 
-* ![Xamarin Forms Example](https://github.com/rachelreese/Current-Talks/tree/master/Evolve-2014/EvolveXamForms) - An example of using the Xamarin Forms cross-platform front-end framework with F#
+* [Xamarin Forms Example](https://github.com/rachelreese/Current-Talks/tree/master/Evolve-2014/EvolveXamForms) - An example of using the Xamarin Forms cross-platform front-end framework with F#
 
 * [F# and Monogame Part 2 – Android](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-2-android/)
 
