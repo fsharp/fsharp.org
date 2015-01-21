@@ -238,9 +238,7 @@ Contributions welcome!
 
 *  [Frank](http://frankfs.net/) - Frank provides a functional wrapper around the types in System.Net.Http, the library used by ASP.NET Web API.
 
-*  [Dyfrig](https://github.com/fsprojects/dyfrig) - (WIP) F# types for working with [OWIN](http://owin.org/).
-
-*  [Taliesin](https://github.com/panesofglass/taliesin) - (WIP) Generate types for web clients and servers given [apiary.io](http://apiary.io/) or [alps.io](http://alps.io/) API documentation.
+*  [Freya](https://github.com/freya-fs/freya) - F# support for [OWIN](http://owin.org/). Freya is a functional web stack, built on top of OWIN, that offers additional layers for constructing OWIN pipelines, types based on relevant RFC definitions, a router, and an [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram) abstraction similar to that found in [webmachine](https://github.com/basho/webmachine).
 
 * [FsBlog](https://github.com/fsprojects/FsBlog/) - Blog aware, static site generation using F#
 
