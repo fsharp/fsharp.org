@@ -512,14 +512,30 @@ div#contentMain.testimonials ul li {
     margin: 30px;
 }
 
-    .calloutBox h1 {
-        font-size: 180%;
-        margin: 10px 10px 10px 0px;
-    }
+.calloutBox h1 {
+    font-size: 180%;
+    margin: 10px 10px 10px 0px;
+}
 
-    .calloutBox p {
-        font-size: 100%;
-        margin: 0px 0px 6px 0px;
-        line-height: normal;
-        padding: 0px;
-    }
+.calloutBox p {
+    font-size: 100%;
+    margin: 0px 0px 6px 0px;
+    line-height: normal;
+    padding: 0px;
+}
+
+a[href^="http://"]:after, a[href^="https://"]:after {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 7px;
+}
+
+a[href^="http://fsharp.org"]:after, a[href^="https://github.com/fsharp"]:after, a.no_icon:after {
+  content:"" !important;
+  padding-left: 0;
+}
