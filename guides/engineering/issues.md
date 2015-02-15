@@ -13,12 +13,12 @@ You can contribute to this page [by proposing an edit](https://github.com/fsharp
 
 |:------------------|:--|:--------------------|:--|:------------------|:--|:------------------|
 | [F# Language Specification](http://fsharp.org/specs/language-spec/)                                                &nbsp; &nbsp; | &nbsp;&nbsp; |  [Make suggestion](https://fslang.uservoice.com/forums/245727-f-language) |        &nbsp; &nbsp;  |  [Report/Fix an issue](http://fsharp.org/specs/language-spec/)      | 
-|  [F# Compiler and Core Library](http://fsharp.github.io/2014/06/18/fsharp-contributions.html)                                            &nbsp; &nbsp; | &nbsp;&nbsp; |  [Make suggestion](https://fslang.uservoice.com/forums/245727-f-language) |  &nbsp;&nbsp; |  [Report/Fix an issue (general)](http://visualfsharp.codeplex.com) | |  &nbsp;&nbsp;  |  [(cross-platform)](http://github.com/fsharp/fsharp) |
+|  [F# Compiler and Core Library](http://fsharp.github.io/2014/06/18/fsharp-contributions.html)                                            &nbsp; &nbsp; | &nbsp;&nbsp; |  [Make suggestion](https://fslang.uservoice.com/forums/245727-f-language) |  &nbsp;&nbsp; |  [Report/Fix an issue (general)](https://github.com/Microsoft/visualfsharp/issues) | |  &nbsp;&nbsp;  |  [(cross-platform)](http://github.com/fsharp/fsharp) |
 
 ### Editing Tools
 
 |:--------------------|:--|:------------------|:--|:------------------|
-| [Visual F# Tools](http://msdn.microsoft.com/en-us/library/dd233154.aspx)                                              &nbsp; | &nbsp; |  [Make suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/30935-languages-f-tools)     |  | [Report/Fix an issue](http://visualfsharp.codeplex.com) |
+| [Visual F# Tools](http://msdn.microsoft.com/en-us/library/dd233154.aspx)                                              &nbsp; | &nbsp; |  [Make suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/30935-languages-f-tools)     |  | [Report/Fix an issue](https://github.com/Microsoft/visualfsharp/issues) |
 | [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)                             &nbsp; | &nbsp; | [Make suggestion](http://vfpt.uservoice.com/)     | &nbsp;  &nbsp;  |    [Report/Fix an issue](https://github.com/fsprojects/VisualFSharpPowerTools/) |
 | [Other F# Editing Tools ](http://fsharp.github.io/fsharpbinding/) ([Xamarin](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/), [Emacs](http://fsharp.github.io/fsharpbinding/), [MonoDevelop](http://fsharp.github.io/fsharpbinding/), ...)               &nbsp; | &nbsp; | [Make suggestion](http://fsharpbinding.uservoice.com/)     | &nbsp; &nbsp;  |  [Report/Fix an issue](http://fsharp.github.io/fsharpbinding/) |
 

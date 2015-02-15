@@ -99,7 +99,7 @@ It is capable of being embedded directly into other desktop applications and web
 
 ### Option 5: Build F# from source
 
-* Build and contribute to the F# compiler and library from [the source](http://visualfsharp.codeplex.com)
+* Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
 
 ### Option 6: Run already compiled F# code on servers
 
