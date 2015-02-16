@@ -17,7 +17,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="compiler-and-core">Community Projects: Compiler and Core Library</h2>
 
-*  <img src="http://fsharp.org/img/logo/fsharp128.png" alt="logo" style="height:32px">&nbsp;[fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library. See also the [Visual F# Tools](http://visualfsharp.codeplex.com) and [Contributing to the F# Language and Compiler](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).
+*  <img src="http://fsharp.org/img/logo/fsharp128.png" alt="logo" style="height:32px">&nbsp;[fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library. See also the [Visual F# Tools](https://github.com/Microsoft/visualfsharp) and [Contributing to the F# Language and Compiler](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).
 
 *  ![logo](/images/thumbs/FSharp.Compiler.Service.png)&nbsp;[fsharp/FSharp.Compiler.Service](https://github.com/fsharp/FSharp.Compiler.Service) - The F# Compiler as a service
 
