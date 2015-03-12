@@ -297,7 +297,7 @@ Contributions welcome!
 *  ![logo](/images/thumbs/nessos.png)&nbsp;[FsPickler](http://nessos.github.io/FsPickler/) - A fast, general-purpose binary serializer for
    .NET written in F# that doubles as a pickler combinator library.
 
-*  ![logo](/images/thumbs/nessos.png)&nbsp;[Vagrant](http://nessos.github.io/Vagrant/) - A library for distributing dynamic assemblies.
+*  ![logo](/images/thumbs/nessos.png)&nbsp;[Vagabond](http://nessos.github.io/Vagabond/) - A library for distributing dynamic assemblies.
 
 *  ![logo](/images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
 
