@@ -108,6 +108,6 @@ books, and blogs on these topics!
 
 ### [Elastacloud](http://www.elastacloud.com) (Europe)
 
-[<img src="/img/sup/elastacloud.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.elastacloud.com)
+[<img src="/img/sup/elastalogo.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.elastacloud.com)
 
 Elastacloud are a UK-based consultancy and product development house, specializing in the application of big data, harnessing the power of Azure to create low-cost, high performance solutions using high quality engineering practices. We use best of breed technologies and are big fans of functional programming, using F# for customer solutions as well for our own products. Our core team include three Microsoft MVPs including two Azure regional directors.
