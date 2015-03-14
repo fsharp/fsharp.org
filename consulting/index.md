@@ -45,7 +45,7 @@ and providing custom solutions and services to medium and large businesses.
 
 ### [StatFactory](http://www.statfactory.co.uk/professional-services/) (Europe)
 
-[<img src="/img/sup/statfactory.jpg" style="float:right;margin:5px 0px 5px 25px;" />](http://www.statfactory.co.uk/professional-services/)
+<img src="/img/sup/statfactory.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 [StatFactory](http://www.statfactory.co.uk/) offers products, services and training related to F#, its use
 in quantiative finance and how to integrate F# with Excel.
