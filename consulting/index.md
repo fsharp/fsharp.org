@@ -15,7 +15,7 @@ Software Foundation, please submit your material by [editing this page on GitHub
 
 ### [Firefly Logic](http://fireflylogic.com/) (North America)
 
-[<img src="/img/sup/fireflylogic.png" style="float:right;margin:5px 0px 5px 25px;" />](http://fireflylogic.com/)
+<img src="/img/sup/fireflylogic.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 [Firefly Logic](http://fireflylogic.com/) is a functional-first software firm. We can design *and* code apps that millions of people will love, and we can develop backend systems capable of withstanding that success. 
 
