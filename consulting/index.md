@@ -25,7 +25,7 @@ Nashville-based Firefly Logic was founded in 2004. We have F# MVPs on staff, dee
 
 ### [Intellifactory Consulting](http://intellifactory.com/Consulting.aspx) (Europe and North America)
 
-[<img src="/img/sup/intelli.gif" style="float:right;margin:5px 0px 5px 25px;" />](http://intellifactory.com/Consulting.aspx)
+<img src="/img/sup/intelli.gif" style="float:right;margin:5px 0px 5px 25px;" />
 
 Bring in the experts to solve problems!
 
@@ -33,7 +33,7 @@ At [IntelliFactory](http://intellifactory.com) we are experts at functional prog
 
 ### [Nessos IT](http://www.nessos.gr/) (Europe)
 
-[<img src="/img/sup/nessos.png" height="100px" style="float:right;margin:5px 0px 5px 25px" />](http://www.nessos.gr/)
+<img src="/img/sup/nessos.png" height="100px" style="float:right;margin:5px 0px 5px 25px" />
 
 Nessos is an Athens-based ISV with broad experience in consulting and developing .NET based business solutions.
 We are leading F# experts, having utilized its power in distributed and concurrent systems,
@@ -59,7 +59,7 @@ Please do not hesitate to contact us if you need more information.
 
 ### [Perfect Shuffle Ltd](http://www.perfectshuffle.co.uk/) (Europe)
 
-[<img src="/img/sup/perfectshuffle.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.perfectshuffle.co.uk/)
+<img src="/img/sup/perfectshuffle.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 [Perfect Shuffle Ltd](http://www.perfectshuffle.co.uk/) is a London-based software consultancy. We specialise in using functional programming tools and techniques to deliver more reliable software, more quickly. We have worked with companies from publishing and pharmaceuticals to financial trading and asset management to help them deliver more robust software, more quickly.
 
@@ -69,7 +69,7 @@ Available for local and remote work. Please get in touch via [our website](http:
 
 ### [Flying Frog Consultancy](http://www.ffconsultancy.com/) (Europe)
 
-[<img src="/img/sup/ffconsultancy.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.ffconsultancy.com/)
+<img src="/img/sup/ffconsultancy.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 [Flying Frog consultancy](http://www.ffconsultancy.com/) can be contacted for consulting in F# including its application in scientific programming, 
 technical computing, actuarial and trading domains.
@@ -80,7 +80,7 @@ Draw upon our industrial experience of F# and let us guide you past the potentia
 
 ### [Xyncro Consultancy](http://xyncro.com/) (Europe)
 
-[<img src="/img/sup/xyncro.gif" style="float:right;margin:5px 0 5px 25px;" />](http://xyncro.com/)
+<img src="/img/sup/xyncro.gif" style="float:right;margin:5px 0 5px 25px;" />
 
 [Xyncro Consultancy](http://xyncro.com/) is a UK based consultancy specializing in helping companies adopt functional practices, or improve existing functional development. From new projects to legacy systems, we believe that functional thinking and approaches can help tame complexity and lead to better, more reliable software.
 
@@ -90,7 +90,7 @@ We work both onsite and remotely. We like nothing more than chatting about how w
 
 ### [FPBridge Consulting](http://fpbridge.co.uk/training.html#consulting) (Europe)
 
-[<img src="/img/sup/fpbridge.png" style="float:right;margin:5px 0px 5px 25px;" />](http://fpbridge.co.uk/training.html#consulting)
+<img src="/img/sup/fpbridge.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 [FPBridge](http://fpbridge.co.uk) offers advice, training and support with any issues related to F# projects and libraries, including:
 
@@ -99,7 +99,7 @@ We work both onsite and remotely. We like nothing more than chatting about how w
 
 ### [fsharpWorks](http://www.fsharpworks.com) (Worldwide)
 
-[<img src="/img/sup/fsharpworks.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.fsharpworks.com)
+<img src="/img/sup/fsharpworks.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 We offer a complete range of services including training, F# consulting, and full project development. 
 The fsharpWorks team has many years of experience solving real-world problems with F# in a wide range of areas. 
@@ -108,6 +108,6 @@ books, and blogs on these topics!
 
 ### [Elastacloud](http://www.elastacloud.com) (Europe)
 
-[<img src="/img/sup/elastalogo.png" style="float:right;margin:5px 0px 5px 25px;" />](http://www.elastacloud.com)
+<img src="/img/sup/elastalogo.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 Elastacloud are a UK-based consultancy and product development house, specializing in the application of big data, harnessing the power of Azure to create low-cost, high performance solutions using high quality engineering practices. We use best of breed technologies and are big fans of functional programming, using F# for customer solutions as well for our own products. Our core team include three Microsoft MVPs including two Azure regional directors.
