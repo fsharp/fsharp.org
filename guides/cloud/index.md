@@ -67,7 +67,8 @@ detail on the structure of Azure applications.
  * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Cloud-Mobile-Solutions-ebook/dp/B00AANFL60) - Book including details on Azure programming with F#
 
  * [Fake has support for deploying webjobs](http://fsharp.github.io/FAKE/azurewebjobs.html)
-
+ * [Fake also supports packaging cloud services](http://fsharp.github.io/FAKE/azurecloudservices.html)
+ * 
 Below are resources on using Windows Azure from F# and .NET in general:
 
  * [Introduction to Windows Azure](http://www.windowsazure.com/en-us/develop/net/fundamentals/intro-to-windows-azure/)
