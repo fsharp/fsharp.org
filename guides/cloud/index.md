@@ -67,8 +67,9 @@ detail on the structure of Azure applications.
  * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Cloud-Mobile-Solutions-ebook/dp/B00AANFL60) - Book including details on Azure programming with F#
 
  * [Fake has support for deploying webjobs](http://fsharp.github.io/FAKE/azurewebjobs.html)
+
  * [Fake also supports packaging cloud services](http://fsharp.github.io/FAKE/azurecloudservices.html)
- * 
+
 Below are resources on using Windows Azure from F# and .NET in general:
 
  * [Introduction to Windows Azure](http://www.windowsazure.com/en-us/develop/net/fundamentals/intro-to-windows-azure/)
@@ -102,9 +103,9 @@ F# Mailbox Processors are an Agent pattern for inter-thread and inter-process co
 FSharp.CloudAgent is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native Mailbox Processor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
 
 
-#### ![logo](/images/thumbs/AkkaDotNET.png)&nbsp;Akka.NET
+#### Akka.NET
 
-The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications on .NET and Mono.  It is used in production systems by its own contributors.
+![logo](/images/thumbs/AkkaDotNET.png)&nbsp;The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications on .NET and Mono.  It is used in production systems by its own contributors.
 
  * [General information](http://akkadotnet.github.io/)
 
@@ -112,11 +113,11 @@ The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit
 
 #### MBrace
 
-The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
+![logo](/img/sup/mbrace.png)&nbsp;The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
 
  * [Programming model](http://www.m-brace.net/programming-model.html)
 
- * [Windows Azure support](http://www.m-brace.net/azure-tutorial.html)
+ * [Windows Azure support](http://www.m-brace.net/#try)
 
 #### Orleans
 
@@ -138,7 +139,7 @@ The [Orleans](http://research.microsoft.com/jump/139795/) framework provides a s
 
 ![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR)  is a Redis-based distributed actors system.
 
-## Big Data Programming and NoSQL Databases
+## Scalable Data Programming and NoSQL Databases
 
 F# can be used with many scalable data-storage systems. Some are accessible via the Cloud SDKs outlined above.
 Some further resources for specific systems are:
