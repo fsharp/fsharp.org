@@ -48,7 +48,7 @@ the content (so please add some, even though they are not used at the moment).
 > The F# code is consistently shorter, easier to read, easier to refactor and contains far fewer bugs.
 > As our data analysis tools have developed ... we've become more productive. 
 
-1. [**Kaggle**](http://www.kaggle.com/about/)
+1. **Kaggle**
 2. [permalink](#kaggle-1)
 
 At Kaggle we initially chose F# for our core data analysis algorithms because of its expressiveness. 
@@ -172,7 +172,7 @@ The benefits of functional programming in F# have given us a great advantage ove
 > Grange Insurance parallelized its rating engine to take better 
 > advantage of multicore server hardware
 
-1. [**Grange Insurance**](http://www.microsoft.com/casestudies/case_study_detail.aspx?casestudyid=4000005226)
+1. **Grange Insurance**
 2. [permalink](#grange-insurance-1)
 
 For nearly 75 years, Grange Insurance has offered competitive products and services to policyholders 
@@ -315,7 +315,7 @@ is a compelling option.
 
 1. **Goswin Rothenthal**
 2. Design Engineer
-3. [Waagner Biro](http://www.waagner-biro.com/en/company/news-press/news/oriental-jewel-by-waagner-biro-the-domed-roof-of-the-louvre-abu-dhabi)
+3. Waagner Biro
 4. [permalink](#goswin-1)
 
 <a href="http://www.waagner-biro.com/en/company/news-press/news/oriental-jewel-by-waagner-biro-the-domed-roof-of-the-louvre-abu-dhabi"> <img src="/img/big/goswin-waggner.png" /></a>
@@ -526,7 +526,7 @@ We developed a ClickOnce F# / WPF application that scores and ranks thousands of
 > Type providers made working with external data sources simple and intuitive.
 
 1. **Jon Canning**
-2. [Property To Renovate](http://propertytorenovate.co.uk)
+2. Property To Renovate
 3. [permalink](#jon-canning)
 
 
@@ -583,7 +583,7 @@ found that bringing new users up to speed is a quick and painless process.
 
 > F# is the night vision goggles I need when I go into the dark and attempt to solve previously unsolved problems.  
 
-1. [**Professor Byron Cook**](http://research.microsoft.com/en-us/people/bycook/)
+1. **Professor Byron Cook**
 2. Microsoft, [permalink](#byron-cook-1)
 
 I’m one of the first users of F#, since 2004. In my work (e.g. SLAM, Terminator, Zapato, T2, etc)
@@ -597,7 +597,7 @@ previously unsolved problems.  Everything becomes simple and clear when expresse
 
 > F# will continue to be our language of choice for scientific computing.
 
-1. [**Dr. Andrew Phillips**](http://research.microsoft.com/biology)
+1. **Dr. Andrew Phillips**
 2. Head of Bio Computation Group
 3. Microsoft Research, [permalink](#andrew-phillips-1)
 
@@ -663,7 +663,7 @@ I jumped for joy each time my code executed correctly on the first pass, and in 
 
 > The simple, well-designed and powerful core of the language was perfect for introducing the fundamental concepts of functional programming.
 
-1. [**Michael R. Hansen**](http://www2.imm.dtu.dk/~mire)
+1. **Michael R. Hansen**
 2. Associate Professor, Technical University of Denmark
 3. [permalink](#michael-hansen)
 
@@ -766,7 +766,7 @@ visually stunning 3D scenes. It was fully developed in managed code using the XN
 > ...the core logic is written in F# wherever possible...
 
 1. **Andrea D'Intino**
-2. [Yellow blue soft](http://tabbles-dev.blogspot.co.uk/2009/12/tabbles-museum-evolution-of-gui-and-of.html)
+2. Yellow blue soft
 3. [permalink](#tabbles-1)
 
 Yellow blue soft is a truly international Micro-ISV: We are a small, dynamic and international 
@@ -785,7 +785,7 @@ documents, in a totally new way.
 
 > When F# is combined with Visual Studio... productivity goes through the roof!
 
-1. [**Prof Nigel Horspool**](http://webhome.cs.uvic.ca/~nigelh/)
+1. **Prof Nigel Horspool**
 2. University of Victoria, Canada
 3. [source](http://web.archive.org/web/20120410193300/http://www.tryfsharp.org/Experts.aspx), [permalink](#horspool-1)
 
@@ -802,7 +802,7 @@ data types and how to use those methods, productivity goes through the roof!
 > ...That's the reason we have chosen F# for our undergraduate functional programming class...
 
 1. **Prof. Peter Sestoft**
-2. [IT University of Copenhagen](http://www.itu.dk/people/sestoft/)
+2. IT University of Copenhagen
 3. [permalink](#peter-sestoft-1)
 
 F# has a beautiful, simple but expressive language at its core, and many powerful features 
@@ -926,7 +926,7 @@ code that ran in equivalent time to C++ code or in some cases faster.
 > We would recommend F# as an additional tool in the kit of any company building software on the .NET stack.
 
 1. **Michael Newton**, Senior Developer
-2. [15below Ltd](http://15below.com), [permalink](#15below-1)
+2. 15below Ltd, [permalink](#15below-1)
 
 Historically, our code base has been written in a mix of C# and VB.net. F#'s excellent interoperability 
 with the rest of .NET allows us to use it for components where it's particular strength's shine without
@@ -940,22 +940,6 @@ It is a perfect fit for many components within our messaging based architecture.
 
 We would recommend it as an additional tool in the kit of any company building software on the .NET stack.
 
-<a id="forensic-software-1" > &nbsp; </a>
----
-
-> This software provides the user with maximum flexibility to move 
-> quickly through multiple images
-
-1. [**Forensic Software**](http://www.forensic-software.com/)
-2. [permalink](#forensic-software-1)
-
-Forensic Comparison Software is the ideal tool for displaying 
-two digital images, side by side, for comparison purposes. This software provides the user with maximum 
-flexibility to move quickly through multiple images, in a manner that replaces the intensive manual comparison 
-of hard copy photographs. Focusing on the individual's needs, Forensic Comparison Software provides many 
-intuitive and easy to use features for enhancing digital images.
-
-<div class="keywords">security, algorithms</div>
 
 <a id="bohdan-szymanik-1" > &nbsp; </a>
 ---
@@ -1230,7 +1214,7 @@ F# was great because I spent less time figuring out how to answer my question an
 > The power and flexibility of the language lets us ship features faster, with fewer bugs.
 
 1. **Marty Dill**
-2. [**Reminder Hero**](http://reminderhero.com)
+2. **Reminder Hero**
 3. [permalink](#reminder-hero)
 
 All of our back-end data processing and parsing is done in F#. The power and flexibility of the
@@ -1268,8 +1252,7 @@ Language features like record types, discriminated unions and type inference als
 > F# is a powerful language and it is great to do cross platform development with it.
 
 1. **Can Erten**
-2. [Codingday](http://www.codingday.com)
-3. [Vector Code](http://www.vectorcodeapp.com)
+2. Codingday, Vector Code
 4. [permalink](#can-erten)
 
 
@@ -1290,7 +1273,7 @@ F# is a powerful language and it is great to do cross platform development with 
 > F#'s language features not only made it a no-brainer for our project, but allowed us to produce composable, deterministic, and concise code. 
 
 1. **Stephen Kennedy**
-2. [Readify](http://readify.net/)
+2. Readify
 3. [permalink](#stephen-kennedy)
 
 
@@ -1304,17 +1287,5 @@ F# is definitely a language I will be recommending to clients going forward.
 
 <div class="keywords">mapping, parsing, commercial</div>
 
-
-
-
-### Additional Case Studies
-
-The following written or recorded case studies describe the benefits of F# for a range of enterprise scenarios:
-
- * [Banking Firm Speeds Development by 50 Percent](http://www.microsoft.com/casestudies/Case_Study_Detail.aspx?casestudyid=4000006794)
- * [F# for Energy Trading and Energy Portfolio Optimization](http://blogs.msdn.com/b/dsyme/archive/2011/01/12/f-for-energy-trading-and-energy-portfolio-optimization.aspx)
- * [F# Business Intelligence Case Study - XBox Live Trueskill](http://dl.acm.org/citation.cfm?id=1362702.1362709&coll=ACM&dl=ACM&type=series&idx=SERIES824%25E2%2588%2582=series&WantType=Proceedings&title=ICFP)
- * [Insurance Company Improves Time-to-Market with Enhanced Rating Engine](http://www.microsoft.com/casestudies/Case_Study_Detail.aspx?CaseStudyID=4000005226)
- * [F# for Facebook Social Gaming](http://www.dotnetrocks.com/default.aspx?ShowNum=846)
 
 

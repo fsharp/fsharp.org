@@ -28,15 +28,6 @@ for use with Visual Studio 2012 and 2013 (Community or higher, not Express, see 
 [union pattern match case generation](http://fsprojects.github.io/VisualFSharpPowerTools/unionpatternmatchcasegeneration.html) and the
 [navigate-to command](http://fsprojects.github.io/VisualFSharpPowerTools/navigateto.html).
 
-#### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users ####
-
-With some versions of ReSharper, the `Alt+Enter` shortcut key for the `Execute in Interactive`
-command of the Visual F# Tools  doesn't work, as ReSharper overrides this for its own purposes.
-To fix this, either upgrade to ReSharper 8.0.10.1959 or greater, or install the [resharper-fsi-friendly](https://github.com/citizenmatt/resharper-fsi-friendly) plugin.
-
-If you are using Visual F# Power Tools along side with ReSharper, there is a [known issue](http://youtrack.jetbrains.com/issue/RSRP-409199) where some F# commands are hidden by ReSharper. This
-is fixed in ReSharper 9.0. For previous versions, you can workaround by disabling the ReSharper option "Hide overridden Visual Studio menu items" (ReSharper -> Options -> Keyboard & Menus).
-
 <br />
 
 ### Option 2: Install F# and Xamarin Studio 
@@ -87,21 +78,8 @@ If you're looking for Visual F# Tools 3.0 specifically, its standalone version c
     
 <br />
 
-### Option 4: Install Tsunami
 
-[Tsunami](http://tsunami.io) is an innovative fully featured F# IDE. 
-It is capable of being embedded directly into other desktop applications and websites.
-
-- Desktop: Install MSI from [Download](http://tsunami.io/download.html)
-- Browser: Embed the object in [Cloud Tsunami](http://tsunami.io/cloud_tsunami.html)
-
-<br />
-
-### Option 5: Build F# from source
-
-* Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
-
-### Option 6: Run already compiled F# code on servers
+### Option 4: Run already compiled F# code on servers
 
 Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundles with your application.
 The recommended procedure is to bundle this component with your final application.
@@ -109,3 +87,8 @@ The recommended procedure is to bundle this component with your final applicatio
 The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC, as well as the command-line tools *fsc* (the F# compiler) and *fsi* (F# Interactive).
 
 - [Visual F# Tools 3.1.2](http://www.microsoft.com/en-us/download/details.aspx?id=44011)
+
+### Option 5: Build F# from source
+
+* Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
+

@@ -13,10 +13,10 @@ and data-rich analytical services offer a compelling story for businesses.
 
 Modern programming thrives on rich spaces of data, information, and services. The 
 most recent versions of F# greatly simplify data-rich programming 
-through the addition of the F# Type Provider mechanism, F# LINQ Queries 
+through the addition of the F# type provider mechanism, F# queries 
 and a multitude of type providers for enterprise and web data standards. 
 F# is a first-class language on a number of platforms including
-Mac and Linux (with tool support in Xamarin Studio, MonoDevelop, Emacs and other) and Windows (with
+Mac and Linux (with tool support in Xamarin Studio, MonoDevelop, Emacs and others) and Windows (with
 Visual Studio, Xamarin Studio and Emacs) as well as on mobile devices and on the web using HTML5.
 
 <h2 id="documentation" class="anchor">Online Documentation</h2>
@@ -31,12 +31,6 @@ the standard F# library.
  * [F# Core Library Reference](http://msdn.microsoft.com/en-us/library/ee353567.aspx) - 
    Provides reference information about the F# core library, `FSharp.Core.dll`.
 
- * [F# Type Providers](http://msdn.microsoft.com/en-us/library/hh156509.aspx) - 
-   Introduces information-rich programming features available in F# 3.0.
-
- * [Real-World Functional Programming](http://msdn.microsoft.com/en-us/library/hh314518) - 
-   Introduces functional programming in F# and discusses how to use F# for client-side and 
-   server-side development, numerical computing, charting and other.
 
 ## Specification
 
@@ -54,12 +48,19 @@ the standard F# library.
  
 ## Guides
 
+ * [Learning F#](/about/learning.html)
+
  * The [F# Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform)
 
- * [F# Data Science Programming Resources](/data-science)
+ * [F# Data Science Programming Resources](/guides/data-science)
 
- * [F# Cloud Programming Resources](/cloud)
+ * [F# Cloud Programming Resources](/guides/cloud)
 
- * [Using F# for Math and Statistics](/math)
+ * [Using F# for Math and Statistics](/guides/math-and-statistics)
  
- * [App and Game Programming with F#](/apps-and-games)
+ * [Mobile App and Game Programming with F#](/guides/apps-and-games)
+
+ * [Web Programming with F#](/guides/web)
+
+ * [Data Access with F#](/guides/data-access)
+
