@@ -12,7 +12,7 @@ Please contribute your testimonials!
 
 Adding new testimonials to this page is easy - you can write your quote in plain 
 text, using some Markdown formatting. Look at the existing examples to see how 
-this works.
+this works.Su
 
 Here is a simple template that you can copy and use for your testimonial:
 
@@ -1295,7 +1295,7 @@ F# is definitely a language I will be recommending to clients going forward.
 > Many languages are evolving to be ready for the future ... F# is already there.
 
 1. Alex Hardwicke
-2. [Surge](http://www.alexhardwicke.com/Surge/)
+2. Surge
 3. [permalink](#alex-hardwicke)
 
 When starting to work with Microsoft's "Modern" WinRT apps, I started by taking the obvious route and used C#. This worked, and I wrote good, functional apps. Despite this, modern programming with C# has problems. I encountered these when writing my BitTorrent app, Surge, and eventually rewrote the app using F#. Doing this gave me better performance, fewer bugs and better user satisfaction.
