@@ -43,7 +43,7 @@ the content (so please add some, even though they are not used at the moment).
 
 
 
-<a id="kaggle-1" > &nbsp; </a>
+<a id="kaggle-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > The F# code is consistently shorter, easier to read, easier to refactor and contains far fewer bugs.
@@ -66,7 +66,7 @@ we knew we could use new modules right away.
 
 <div class="keywords">data science, machine learning, startup</div>
 
-<a id="simon-cousins-1" > &nbsp; </a>
+<a id="simon-cousins-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > The use of F# demonstrates a sweet spot for the language within enterprise software
@@ -84,7 +84,7 @@ analysis of large data sets. My experience has been a very positive one.
 
 <div class="keywords">energy, trading, calculations, ETL, extract, transform, load</div>
 
-<a id="credit-suisse-abstract" > &nbsp; </a>
+<a id="credit-suisse-abstract" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > At Credit Suisse, we've been using F# to develop quantitative models for financial products
@@ -109,7 +109,7 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
     <p> To add a new testimonial, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send a pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
 </div>              
 
-<a id="handelsbanken-1" > &nbsp; </a>
+<a id="handelsbanken-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > The performance is phenomenal.  We can now re-calculate the entire bank portfolio from scratch in 
@@ -152,7 +152,7 @@ below 70 lines of code just by shifting paradigm (and the rewrite made it much e
 <div class="keywords">financial services, analysis, counterparty risk, fixed income, derivatives, financial modelling</div>
 
 
-<a id="bayard-rock-1" > &nbsp; </a>
+<a id="bayard-rock-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > The benefits of functional programming in F# have given us a great advantage over our slow moving competitors.  
@@ -167,7 +167,7 @@ The benefits of functional programming in F# have given us a great advantage ove
 <div class="keywords">financial services, analysis, anti-money-laundering, counterparty risk, machine-learning</div>
 
 
-<a id="grange-insurance-1" > &nbsp; </a>
+<a id="grange-insurance-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > Grange Insurance parallelized its rating engine to take better 
@@ -188,7 +188,7 @@ by weeks and making it far easier for independent agents to sell and service Gra
 <div class="keywords">insurance, parallelization, financial services</div>
 
 
-<a id="aviva-flying-frog-1" > &nbsp; </a>
+<a id="aviva-flying-frog-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > Large insurance company developed an entire pension quote calculator entirely in F# in under 100 days with no prior F# experience at all...
@@ -214,7 +214,7 @@ The 10x performance gain was verified by the client.
 
 <div class="keywords">financial services, insurance, actuarial</div>
 
-<a id="trafigura-ad-1" > &nbsp; </a>
+<a id="trafigura-ad-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > Our risk and analytic capabilities (...) are entirely written in F#
@@ -233,7 +233,7 @@ financing, hedging, and logistical support....
 
 <div class="keywords">comodities, trading, risk, analysis</div>
 
-<a id="yan-cui" > &nbsp; </a>
+<a id="yan-cui" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > The F# solution offers us an order of magnitude increase in productivty...
@@ -262,7 +262,7 @@ all of our social games!
 
 <div class="keywords">gaming, agents, cloud, big data, scalability</div>
 
-<a id="simard-1" > &nbsp; </a>
+<a id="simard-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 
@@ -309,7 +309,7 @@ is a compelling option.
 
 <div class="keywords">advertising, machine learning, data science, statistics, predication</div>
 
-<a id="goswin-1" > &nbsp; </a>
+<a id="goswin-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > We see great potential for F# to be used as a scripting language in CAD; it fits very well for computational design challenges in the construction industry.
@@ -331,7 +331,7 @@ One such project is the *Louvre Abu Dhabi* by Jean Nouvel. Waagner-Biro was awar
 
 
 
-<a id="lemball-1" > &nbsp; </a>
+<a id="lemball-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 
@@ -356,7 +356,7 @@ have been bug-free since deployment. The results speak for themselves.
 
 <div class="keywords">retail, e-commerce, ETL, web services, soa, correctness</div>
 
-<a id="emea" > &nbsp; </a>
+<a id="emea" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > ...we have decided to use F# as our functional language to have automatic integration with rest of the system...
@@ -374,7 +374,7 @@ area because of its interoperability with .NET.
 
 <div class="keywords">security, integration</div>
 
-<a id="financial-services-1" > &nbsp; </a>
+<a id="financial-services-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > With its new tools, the bank can speed development by 50 percent or more, improve quality, and reduce costs.
@@ -389,7 +389,7 @@ F#. With its new tools, the bank can speed development by 50 percent or more, im
 
 <div class="keywords">financial services, financial modelling, derivatives, fixed income</div>
 
-<a id="boston-based-company" > &nbsp; </a>
+<a id="boston-based-company" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# encourages Reason Driven Development that leads to virtually bug-free code
@@ -407,7 +407,7 @@ F# computation engine could be seamlessly integrated with other parts of .NET-ba
 
 <div class="keywords">fixed income, trading, optimization, financial services</div>
 
-<a id="early-warning-1" > &nbsp; </a>
+<a id="early-warning-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > At a major Investment Bank, we used F# to build an Early Warning Indicator System for Liquidity Risk
@@ -432,7 +432,7 @@ integration with QALib, Market and timer-series data.
 Post implementation review highlighted that (given resource and time constraints) functionality 
 would have been sacrificed without F# and its associated tooling.
  
-<a id="london-based-company" > &nbsp; </a>
+<a id="london-based-company" class="testimonial-anchor"> &nbsp; </a>
 
 ----
 
@@ -449,7 +449,7 @@ how readable it is even when I'm reading code that I hadn't looked at or thought
 
 <div class="keywords">data, analysis, calculation, financial services, derivatives</div>
 
-<a id="cme-1" > &nbsp; </a>
+<a id="cme-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > The efficient use of functional programming throughout the R&amp;D cycle helped make the cycle faster and more efficient.
@@ -471,7 +471,7 @@ The development exercise becomes catered towards optimization, performance tunin
 Functionality is not lost from the prototype due to miscommunication or rather crude documentation/requirements, which saves time in testing.
 Mass regression testing is easy with precise precision level differences between the prototype and the production system.
 
-<a id="julien-laugel-1" > &nbsp; </a>
+<a id="julien-laugel-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# allows you to move smoothly in your programming style
@@ -486,7 +486,7 @@ still finish my project with realistic code. You're never disappointed in any ph
 
 <div class="keywords">imperative, functional, financial services, portfolio analysis</div>
 
-<a id="simon-cousins-2" > &nbsp; </a>
+<a id="simon-cousins-2" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > I have now delivered three business critical projects written in F#. I am still waiting for the first bug to come in.
@@ -508,7 +508,7 @@ but I suspect that the clarity and concision of F# code contributes greatly to i
 <div class="keywords">energy, extract, transform, load, ETL</div>
 
 
-<a id="waisal-1" > &nbsp; </a>
+<a id="waisal-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# proved ideal for the complex data machinations required to build the models from raw Excel input.
@@ -521,7 +521,7 @@ We developed a ClickOnce F# / WPF application that scores and ranks thousands of
 <div class="keywords">manufacturing, optimization, Excel, solver</div>
 
 
-<a id="jon-canning"> &nbsp; </a>
+<a id="jon-canning" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > Type providers made working with external data sources simple and intuitive.
@@ -537,7 +537,7 @@ As a developer moving from C#, some of the concepts you read about functional pr
 
 
 
-<a id="advertisement-rating-and-ranking-at-microsoft" > &nbsp; </a>
+<a id="advertisement-rating-and-ranking-at-microsoft" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 
@@ -555,7 +555,7 @@ Prices, probabilities, derivatives, etc. can already be kept apart at compile ti
 
 <div class="keywords">advertising, ranking, rating, machine learning, statistics</div>
 
-<a id="microsoft-quantum-1" > &nbsp; </a>
+<a id="microsoft-quantum-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# is central to Microsoft’s quantum algorithm research
@@ -579,7 +579,7 @@ found that bringing new users up to speed is a quick and painless process.
 
 <div class="keywords">simulation, quantum, Microsoft, modelling</div>
 
-<a id="byron-cook-1" > &nbsp; </a>
+<a id="byron-cook-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# is the night vision goggles I need when I go into the dark and attempt to solve previously unsolved problems.  
@@ -593,7 +593,7 @@ previously unsolved problems.  Everything becomes simple and clear when expresse
 
 <div class="keywords">verification, algorithms, analysis, problem solving</div>
 
-<a id="andrew-phillips-1" > &nbsp; </a>
+<a id="andrew-phillips-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# will continue to be our language of choice for scientific computing.
@@ -627,7 +627,7 @@ libraries. It will continue to be our language of choice for scientific computin
 
 <div class="keywords">biology, modelling, algorithms, analysis, DNA computing, correct, scientific computing</div>
 
-<a id="miccrosoft-engineering-1" > &nbsp; </a>
+<a id="miccrosoft-engineering-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > In our engineering group at Microsoft we use F# for several projects
@@ -643,7 +643,7 @@ In our internal engineering group at Microsoft, F# is used for several important
 <div class="keywords">tools, engineering, debugging, builds, static analysis</div>
 
 
-<a id="dylan-hutchinson-intern-1" > &nbsp; </a>
+<a id="dylan-hutchinson-intern-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > My team chose F# for its functional paradigm, maturity, and ease of interoperation with the .NET framework
@@ -659,7 +659,7 @@ I jumped for joy each time my code executed correctly on the first pass, and in 
 
 <div class="keywords">DSL, Excel, machine learning, correctness</div>
 
-<a id="michael-hansen" > &nbsp; </a>
+<a id="michael-hansen" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > The simple, well-designed and powerful core of the language was perfect for introducing the fundamental concepts of functional programming.
@@ -690,7 +690,7 @@ another being implementation, application and analysis of a
 functional pearl, and the last being a curriculum planning system
 for studies at the Technical University of Denmark.
 
-<a id="hans-rischel" > &nbsp; </a>
+<a id="hans-rischel" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > Solving a number of programming problems using the language convinced me of the supreme qualities of F#
@@ -724,7 +724,7 @@ succeeded by studying Chapter 12 of the book.
 
 Writing this [textbook](http://www.cambridge.org/9781107019027) with Michael has been an exciting experience.
 
-<a id="dsyme-ad-predict-1" > &nbsp; </a>
+<a id="dsyme-ad-predict-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F#'s powerful type inference means less typing, more thinking
@@ -746,7 +746,7 @@ were used during training. Benefits included  **Quick Coding** - F#'s powerful t
 
 <div class="keywords">integration, machine learning, advertising, prediction</div>
 
-<a id="path-of-go" > &nbsp; </a>
+<a id="path-of-go" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > ...The AI is implemented in F#...
@@ -761,7 +761,7 @@ visually stunning 3D scenes. It was fully developed in managed code using the XN
 
 <div class="keywords">artificial intelligence, statistics, machine learning, TrueSkill</div>
 
-<a id="tabbles-1" > &nbsp; </a>
+<a id="tabbles-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > ...the core logic is written in F# wherever possible...
@@ -781,7 +781,7 @@ documents, in a totally new way.
 
 <div class="keywords">applications, business logic</div>
 
-<a id="horspool-1" > &nbsp; </a>
+<a id="horspool-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > When F# is combined with Visual Studio... productivity goes through the roof!
@@ -797,7 +797,7 @@ data types and how to use those methods, productivity goes through the roof!
 
 <div class="keywords">teaching, research</div>
 
-<a id="peter-sestoft-1" > &nbsp; </a>
+<a id="peter-sestoft-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > ...That's the reason we have chosen F# for our undergraduate functional programming class...
@@ -814,7 +814,7 @@ undergraduate programming language class [(link)](http://www.itu.dk/people/sesto
 
 <div class="keywords">teching, research, cross-platform</div>
 
-<a id="susan-eisenbach-1" > &nbsp; </a>
+<a id="susan-eisenbach-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F#...levels the playing field between beginners and experienced programmers.
@@ -831,7 +831,7 @@ is platform independent, has the potential to become the first programming langu
 
 <div class="keywords">teaching, research, cross-platform</div>
 
-<a id="david-walker-1" > &nbsp; </a>
+<a id="david-walker-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F#...made it trivial... 
@@ -849,7 +849,7 @@ animation of a mock solar system.
 
 <div class="keywords">teaching, research, cross-platform</div>
 
-<a id="uni-pisa-1" > &nbsp; </a>
+<a id="uni-pisa-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > We recommend teaching F# because it is an extraordinary and flexible tool for teaching different areas of Computer Science
@@ -878,7 +878,7 @@ and engineers: I found that its mathematical roots in lambda calculus are more r
 non-programmers, and interactive evaluation recalls environments such as Matlab and Mathematica very 
 popular in these communities.
 
-<a id="simao-sousa-1" > &nbsp; </a>
+<a id="simao-sousa-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# is very popular among my students for the programming projects
@@ -903,7 +903,7 @@ I am  definitively a strong believer of F# and amazed by the language and its co
 
 <div class="keywords">teaching, research, cross-platform</div>
 
-<a id="atalasoft" > &nbsp; </a>
+<a id="atalasoft" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > I evaluated F# and it and found that for certain tasks it was better 
@@ -921,7 +921,7 @@ code that ran in equivalent time to C++ code or in some cases faster.
 
 <div class="keywords">algorithms, performance, immage processing</div>
 
-<a id="15below-1" > &nbsp; </a>
+<a id="15below-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > We would recommend F# as an additional tool in the kit of any company building software on the .NET stack.
@@ -942,7 +942,7 @@ It is a perfect fit for many components within our messaging based architecture.
 We would recommend it as an additional tool in the kit of any company building software on the .NET stack.
 
 
-<a id="synctoday-1" > &nbsp; </a>
+<a id="synctoday-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > "Speed. I am speed." works for F# like a charm.
@@ -961,7 +961,7 @@ Since we are processing a lot of information, but without complex computations e
 <div class="keywords">synchronization, integration, startup</div>
 
 
-<a id="bohdan-szymanik-1" > &nbsp; </a>
+<a id="bohdan-szymanik-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > Bohdan ... shows F#'s use for performing aggregations over large datasets, taking advantage of cpu and io parallelism
@@ -976,7 +976,7 @@ presentation through charting and image generation.
 
 <div class="keywords">financial services, data, analysis</div>
 
-<a id="vitor-pereira" > &nbsp; </a>
+<a id="vitor-pereira" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > I am using F# to develop an API for data encryption using fully homomorphic encryption.
@@ -1003,7 +1003,7 @@ be presented at an event in Microsoft Portugal, which I will surely enjoy!
 
 
 
-<a id="giuseppe-maggiore" > &nbsp; </a>
+<a id="giuseppe-maggiore" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 
@@ -1018,7 +1018,7 @@ Monadic coroutines alone I believe are the reason why we manage to ship the thin
 <div class="keywords">games</div>
 
 
-<a id="namigop" > &nbsp; </a>
+<a id="namigop" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > I am using F# to develop an API for data encryption using fully homomorphic encryption.
@@ -1032,7 +1032,7 @@ The UI part was in C# and the library part was in F#. In my experience it is fun
 <div class="keywords">security, cryptography, student, academia</div>
 
 
-<a id="mario-pereira" > &nbsp; </a>
+<a id="mario-pereira" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > everyone gets really amazed when they try F# and experience its imense expressive power
@@ -1064,7 +1064,7 @@ impossible to achieve with other languages and paradigms. With no
 doubt, I can say I'm a huge fan of F# and I'm always eager to get in
 touch with every new feature the language has to offer.
 
-<a id="dario" > &nbsp; </a>
+<a id="dario" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > ...your code is less error-prone...
@@ -1080,7 +1080,7 @@ languages and use them where they're needed.
 
 <div class="keywords">domain modeling, immutability</div>
 
-<a id="antonio-hayley-1" > &nbsp; </a>
+<a id="antonio-hayley-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > I'd recommend F#... learning another language is one way to become a better programmer.
@@ -1097,7 +1097,7 @@ and understanding of a programmer.
 
 <div class="keywords">learning, imperative, functional</div>
 
-<a id="microsoft-narwhal-1" > &nbsp; </a>
+<a id="microsoft-narwhal-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 
@@ -1113,7 +1113,7 @@ To cope with the horrible we began adding F# scripts; and this has been extremel
 
 <div class="keywords">visualiztion; astronomy; oceanographic research; Microsoft</div>
 
-<a id="jared-parsons-1" > &nbsp; </a>
+<a id="jared-parsons-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > ...I have to say I love the language...
@@ -1129,7 +1129,7 @@ the bulk of the logic yet it only comprises 30% of the overall code base.
 
 <div class="keywords">learning, conciseness</div>
 
-<a id="dmitry-soshnikov-1" > &nbsp; </a>
+<a id="dmitry-soshnikov-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > There is a noticeable interest in the developer community in Russia towards F#.
@@ -1145,7 +1145,7 @@ using F# available in the largest Russian Internet-University (intuit.ru). The c
 is being taught in 2 universities. There is a noticeable interest in the developer community in 
 Russia towards F#.
 
-<a id="darren-platt-1" > &nbsp; </a>
+<a id="darren-platt-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# rocks... building out various algorithms for DNA processing here and 
@@ -1176,7 +1176,7 @@ With Units of Measure I started labelling the coordinates as one or zero based a
 
 <div class="keywords">biotechnology, units of measure, bioinformatics</div>
 
-<a id="robert-boissy" > &nbsp; </a>
+<a id="robert-boissy" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > Many attributes of the F# programming language make it an ideal choice 
@@ -1207,7 +1207,7 @@ There's an exciting future for F# in this huge, emerging, data-rich health care 
 
 <div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
 
-<a id="JamieDixon" > &nbsp; </a>
+<a id="JamieDixon" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# makes is easy to spend your time answering interesting questions about the domain and less time answering questions about the language.
@@ -1228,7 +1228,7 @@ F# was great because I spent less time figuring out how to answer my question an
 <div class="keywords">analytics, open data</div>
 
 
-<a id="reminder-hero" > &nbsp; </a>
+<a id="reminder-hero" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > The power and flexibility of the language lets us ship features faster, with fewer bugs.
@@ -1246,7 +1246,7 @@ along with an increase in readability. We'll definitely be sticking with F# for 
 
 <div class="keywords">data, parsing, processing, readability</div>
 
-<a id="mauricio-scheffer" > &nbsp; </a>
+<a id="mauricio-scheffer" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > With F# I can develop libraries in a fraction of the time.
@@ -1266,7 +1266,7 @@ Language features like record types, discriminated unions and type inference als
 
 
 
-<a id="can-erten" > &nbsp; </a>
+<a id="can-erten" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F# is a powerful language and it is great to do cross platform development with it.
@@ -1287,7 +1287,7 @@ F# is a powerful language and it is great to do cross platform development with 
 
 
 
-<a id="stephen-kennedy"> &nbsp; </a>
+<a id="stephen-kennedy" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > F#'s language features not only made it a no-brainer for our project, but allowed us to produce composable, deterministic, and concise code. 
@@ -1309,7 +1309,7 @@ F# is definitely a language I will be recommending to clients going forward.
 
 
 
-<a id="alex-hardwicke"> &nbsp; </a>
+<a id="alex-hardwicke" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > Many languages are evolving to be ready for the future ... F# is already there.

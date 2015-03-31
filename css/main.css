@@ -429,6 +429,11 @@ pre {
    Testimonials
    ============ */
 
+.testimonial-anchor {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
 .testimonials p {
     margin-left: 200px;
     margin-right: 170px;
@@ -447,8 +452,6 @@ pre {
     margin: 0px;
     border-left-style: none;
     color: #606060;
-    padding-top: 80px;
-    margin-top: -80px;
 }
 
     .testimonials blockquote p {
