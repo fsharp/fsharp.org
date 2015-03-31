@@ -82,8 +82,6 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/FSharpx.Collections.png)&nbsp;[FSharpx.Collections](http://fsprojects.github.io/FSharpx.Collections/) - A set of functional programming collections for F#.
 
-*  ![logo](/images/thumbs/FSharpx.png)&nbsp;[FSharpx](https://github.com/fsprojects/fsharpx) - Extensions and Tools for F# Programming.
-
 *  [F# Snippets](http://fssnip.net/) - A community-contributed catalog of F# Snippets
 
 
@@ -92,8 +90,6 @@ Contributions welcome!
 <h2 class="anchor" id="data-access" class="anchor">Community Projects: Data Access</h2>
 
 *  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[F# Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
-
-   *  [Freebase Provider](http://fsharp.github.io/FSharp.Data/library/Freebase.html) - The Freebase graph database contains information on over 23 million real-world entities. The Freebase type provider puts this information at your fingertips.
 
    *  [WorldBank Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html) - Makes the WorldBank data easily accessible to F# programs and scripts in a type safe way, which has a data catalog of over 8000 development indicators and other data about countries in the world.
 
@@ -141,6 +137,8 @@ Contributions welcome!
 <br />
 
 <h2 class="anchor" id="data-science" class="anchor">Community Projects: Data Science Programming</h2>
+
+*  [FsLab](http://fslab.org) - FsLab is a collection of libraries for data-science. It provides a rapid development envi­ronment that lets you write advanced analysis with few lines of production-quality code.
 
 *  ![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) - Deedle is an open, easy to use library for data
    and time series manipulation and for scientific programming. It supports working with structured data
