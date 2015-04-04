@@ -1012,7 +1012,7 @@ be presented at an event in Microsoft Portugal, which I will surely enjoy!
 1. **Giuseppe Maggiore**
 2. [permalink](#giuseppe-maggiore), [source](http://www.reddit.com/r/programming/comments/1h7xpz/announcing_a_prerelease_of_f_31_and_the_visual_f/carwdwa)
 
-I am the lead developer of [Galaxy Wars](http://www.galaxywars.co.uk/), and I can tell you, F# really saved us a ton of effort.
+I am the lead developer of Galaxy Wars, and I can tell you, F# really saved us a ton of effort.
 Monadic coroutines alone I believe are the reason why we manage to ship the thing on time...
 
 <div class="keywords">games</div>
@@ -1192,7 +1192,7 @@ University of Nebraska Medical Center (UNMC).  In an academic medical center lik
 are heavy demands on my time and a wide range of different types of research projects that 
 I can end up working on.  I have used the F# programming language on both the .NET and Mono 
 frameworks for several of these projects, including one that involved a very productive 
-collaboration with IntelliFactory and the use of WebSharper (http://www.websharper.com/home).  
+collaboration with IntelliFactory and the use of WebSharper.  
 You can visit the resulting [web site](http://app1.unmc.edu/fgx) and read the freely 
 available peer-reviewed scientific publication that describes the important 
 [infectious disease research](http://mbio.asm.org/content/4/1/e00537-12.long) 
