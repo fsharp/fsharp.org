@@ -185,6 +185,8 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/DiffSharpLogoSmall.png)&nbsp;[DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automatic differentiation (AD) library for exact and efficient calculation of derivatives. Also includes symbolic and numerical differentiation.
 
+*  ![logo](/images/thumbs/FsAlgLogoSmall.png)&nbsp;[FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library supporting generic types.
+
 <br />
 
 <h2 class="anchor" id="ui" class="anchor">Community Projects: Client User Interfaces</h2>
