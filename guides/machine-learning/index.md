@@ -14,7 +14,7 @@ Further resources related to different aspects of machine learning are below.
 
 Related material also exists in other Guides.  For detailed information, refer to the guides for:
 
-* [Maths and Statistics](guides/math-and-statistics/)
+* [Math and Statistics](guides/math-and-statistics/)
 * [Data Science](/guides/data-science/)
 * [Cloud Programming](/guides/cloud/)
 

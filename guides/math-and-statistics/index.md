@@ -5,18 +5,9 @@ headline: Guide - Math and Statistics Programming with F#
 redirect_from: "/math/index.html"
 ---
 
-This guide is an overview of the packages and tools for math and statistics programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/math-and-statistics/index.md) and send a pull request.
-
 F# is well-suited to numerical and statistical programming because
 of its focus on data transformations and the use of functional programming to 
 help give natural translation of the underlying mathematics into executable form.
-
-## Table of Contents
-
-* auto-gen TOC:
-{:toc}
-
-### Efficiency Considerations
 
 Efficient execution of numeric code is essential, and F# executes as native code, normally through
 [JIT compilation](http://en.wikipedia.org/wiki/Just-in-time_compilation). 
@@ -25,12 +16,25 @@ on Windows and [SIMD primitives](http://www.counity.at/blog/2011/hardware-accele
 on Linux. F# can also utilize highly optimized, native code libraries such as the
 Intel [Math Kernel Library (MKL)](http://software.intel.com/en-us/intel-mkl)
 through packages like [Math.NET Numerics](http://numerics.mathdotnet.com/) and other
-libraries listed below. F# can be used to [call into Fortran dynamic-link libraries](http://www.letsthinkabout.us/post/calling-fortran-assemblies-from-net).
+libraries, and can be used to [call directly into Fortran dynamic-link libraries](http://www.letsthinkabout.us/post/calling-fortran-assemblies-from-net).
+
+
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+    <p>This guide includes resources related to math and statistics programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/math-and-statistics/index.md">edit this page</a> and send a pull request.</p>
+    <hr />
+    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+</div>              
+
+
+## Resources for Math and Statistics
+
+* auto-gen TOC:
+{:toc}
 
 
 ### Open-source libraries
 
- * ![logo](/images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
+ * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
    a large collection of algorithms needed in science and engineering, including linear algebra, 
    special functions, statistics, probability models, interpolation and FFTs. 
 
@@ -61,7 +65,7 @@ libraries listed below. F# can be used to [call into Fortran dynamic-link librar
    and linear solver algorithms, random number generators for 7 distributions, special functions and 
    basic statistical procedures. Fmat is available on GitHub and from NuGet. License: MIT/X11
    
- * ![logo](/images/thumbs/DiffSharpLogoSmall.png)&nbsp;[DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automatic 
+ * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automatic 
    differentiation (AD) library for exact and efficient calculation of derivatives. Also includes symbolic and numerical differentiation.
 
    AD allows exact and efficient calculation of derivatives, by systematically applying the chain rule of calculus at the elementary operator level. AD is different from numerical differentiation, which is prone to truncation and round-off errors, and symbolic differentiation, which is exact but not efficient for run-time calculations and can only handle closed-form mathematical expressions.
@@ -70,7 +74,7 @@ libraries listed below. F# can be used to [call into Fortran dynamic-link librar
    
    License: GPLv3
 
- * ![logo](/images/thumbs/FsAlgLogoSmall.png)&nbsp;[FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library that supports generic types.
+ * [FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library that supports generic types.
 
    The library provides generic Vector and Matrix types that support most of the commonly used linear algebra operations, including matrix–vector operations, matrix inverse, determinants, eigenvalues, LU and QR decompositions. Its intended use is to enable writing generic linear algebra code with custom numeric types. It can also be used as a lightweight library for prototyping and scripting with primitive floating point types.
 
