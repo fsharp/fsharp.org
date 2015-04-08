@@ -5,8 +5,6 @@ headline: Guide - Machine Learning with F#
 redirect_from: "/machine-learning/index.html"
 ---
 
-This guide is an overview of resources for machine learning programming with F#. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/machine-learning/index.md) and send a pull request.
-
 F# is well-suited to machine learning because of its efficient execution, succinct style,
 data access capabilities and scalability. F# has been successfully used by some of the most advanced 
 machine learning teams in the world, including several groups at Microsoft Research.
@@ -14,14 +12,23 @@ machine learning teams in the world, including several groups at Microsoft Resea
 [Try F#](http://tryfsharp.org/learn) has some introductory machine learning algorithms.
 Further resources related to different aspects of machine learning are below.
 
-See also the [Math and Statistics](/math) and [Data Science](/data-science) sections for related material.
+Related material also exists in other Guides.  For detailed information, refer to the guides for:
 
-## Table of Contents
+* [Maths and Statistics](guides/math-and-statistics/)
+* [Data Science](/guides/data-science/)
+* [Cloud Programming](/guides/cloud/)
 
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+    <p>This guide includes resources related to machine learning programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/machine-learning/index.md">edit this page</a> and send a pull request.</p>
+    <hr />
+    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+</div>              
+
+
+## Resources for Machine Learning
 
 * auto-gen TOC:
 {:toc}
-
 
 ### Tutorials and Introductions
 
@@ -48,7 +55,6 @@ Introductions to different machine learning algorithms with F#:
 ### Machine Learning Packages
 
 Several F# machine learning packages are available. Some are accessed through F#'s interoperability mechanisms to R, Python and Java. .NET packages can be found by [searching on nuget.org](http://nuget.org/packages?q=machine+learning). For example:
-
 
  * [Accord.MachineLearning](http://nuget.org/packages/Accord.MachineLearning/) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
    See also [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
