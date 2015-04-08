@@ -63,7 +63,9 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
    Concrete matrix implementations cover single- and double-precision
    floating point, 32-bit integer, bool, and string types. Fmat contains four matrix factorization 
    and linear solver algorithms, random number generators for 7 distributions, special functions and 
-   basic statistical procedures. Fmat is available on GitHub and from NuGet. License: MIT/X11
+   basic statistical procedures. Fmat is available on GitHub and from NuGet.
+   
+   License: MIT/X11
    
  * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automatic 
    differentiation (AD) library for exact and efficient calculation of derivatives. Also includes symbolic and numerical differentiation.
