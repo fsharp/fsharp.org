@@ -28,7 +28,7 @@ to F# can't be found, then search for C# instead and adjust the technique approp
 
 Data Science also requires strong support for many technologies covered in other Guides.  For detailed information, refer to the guides for:
 
-* [Maths and Statistics](guides/math-and-statistics/)
+* [Math and Statistics](guides/math-and-statistics/)
 * [Data Access](/guides/data-access/)
 * [Machine Learning](/guides/machine-learning/)
 * [Cloud Programming](/guides/cloud/)
