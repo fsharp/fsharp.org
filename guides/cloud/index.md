@@ -5,20 +5,33 @@ headline: Guide - Cloud Data, Compute and Messaging with F#
 redirect_from: "/cloud/index.html"
 ---
 
-This guide is an overview of the packages and tools for scalable compute, messaging and data processing with F#,
-particularly for taking advantage of cloud-computing resources. To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md) and send a pull request.
+Cloud computing relies on leveraging multiple integrated services.  Using multiple services required a unique set 
+of technologies and capabilities, and F# excels in this domain.  With the recent rise of cloud solutions, it has becoming increasingly easy to deploy multiple services "in the cloud", expanding what is possible both by storing large amounts of data and running heavy computations distributed across clusters of machines.  
 
-For cloud-hosted web programming and services, see the [Web Programming Guide](/guides/web/).
+The combination of built in support for asynchronous workflows, data processing capabilities, computation expressions, 
+extensible syntax, composability, expressiveness for numeric code and more make F# uniquely suited to develop 
+scalable cloud solutions efficiently. 
 
-## Table of Contents
+This guide is an overview of the packages and tools for scalable compute, messaging, storage, and data processing with F#, 
+particularly for taking advantage of cloud-computing resources. 
+
+For cloud-hosted web programming and services, refer to the [Web Programming Guide](/guides/web/).
+
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+    <p>This guide includes resources related to cloud programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md">edit this page</a> and send a pull request.</p>
+    <hr />
+    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+</div>              
+
+## Resources for Cloud Programming
 
 * auto-gen TOC:
 {:toc}
 
 
-## Cloud Platforms
+### Cloud Platforms
 
-### [Amazon Web Services](http://aws.amazon.com)
+#### [Amazon Web Services](http://aws.amazon.com)
 
 Amazon Web Services (AWS) provide a large array of on-demand and managed computing and 
 hosting services. AWS include on-demand and reserved virtual machine instances, 
@@ -36,7 +49,7 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
  * [Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
 
-### [Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/)
+#### [Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/)
 
 Windows Azure provides access to  Microsoft's worldwide datacenters through services including 
 virtual machines, geo-redundant storage, database clusters and website deployment.  [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
@@ -82,30 +95,29 @@ Below are resources on using Windows Azure from F# and .NET in general:
 
  * [Running a pure F# Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
 
-## Containers
+### Containers
 
-### Docker
+#### Docker
 
 [Docker](https://www.docker.io/) automates the deployment of applications inside [software containers](http://en.wikipedia.org/wiki/Operating_system%E2%80%93level_virtualization), by providing an additional layer of abstraction and automation of operating system–level virtualization on Linux.
 
 F# is available by default in [the Docker official images for Mono](https://github.com/docker-library/official-images/blob/master/library/mono).
 
-## Scalable Distributed Programming and Messaging
+### Scalable Distributed Programming and Messaging
 
-Distributed compute problem require a very wide range of communication capabilities, ranging
+Distributed compute problem require a wide range of communication capabilities, ranging
 from simple command line argument passing to heavily optimized, low-latency interprocess
 communications. This section lists a wide range of communication libraries available to F#.
 
-#### [FSharp.CloudAgent](http://isaacabraham.github.io/FSharp.CloudAgent) and [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) 
+#### FSharp.CloudAgent and F# Mailbox Processor
 
-F# Mailbox Processors are an Agent pattern for inter-thread and inter-process communication using the F# library's MailboxProcessor.
+The [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) provides an Agent pattern for inter-thread communication directly within the core F# libraries.
 
-FSharp.CloudAgent is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native Mailbox Processor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
-
+[FSharp.CloudAgent](http://isaacabraham.github.io/FSharp.CloudAgent) is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native MailboxProcessor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
 
 #### Akka.NET
 
-![logo](/images/thumbs/AkkaDotNET.png)&nbsp;The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications on .NET and Mono.  It is used in production systems by its own contributors.
+The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications on .NET and Mono.  It is used in production systems by its own contributors.
 
  * [General information](http://akkadotnet.github.io/)
 
@@ -113,7 +125,7 @@ FSharp.CloudAgent is a simple-to-use framework that allows the easy creation of 
 
 #### MBrace
 
-![logo](/img/sup/mbrace.png)&nbsp;The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
+The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
 
  * [Programming model](http://www.m-brace.net/programming-model.html)
 
@@ -137,9 +149,9 @@ The [Orleans](http://research.microsoft.com/jump/139795/) framework provides a s
 
 #### Ractor.CLR
 
-![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR)  is a Redis-based distributed actors system.
+[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR) is a Redis-based distributed actors system.
 
-## Scalable Data Programming and NoSQL Databases
+### Scalable Data Programming and NoSQL Databases
 
 F# can be used with many scalable data-storage systems. Some are accessible via the Cloud SDKs outlined above.
 Some further resources for specific systems are:
