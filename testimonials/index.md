@@ -1327,3 +1327,21 @@ Using a modern, functional language that provides first-class support for things
 It's not just C#, either. Many languages are evolving to be ready for the future, adding features that support the needs of a modern programming language, but F# is already there.
 
 <div class="keywords">apps, conciseness, torrent, winrt</div>
+
+
+<a id="jorge-fioranelli" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> F# allowed us to mix Domain-Driven Design, Functional Programming and Azure to deliver a high quality web application.
+
+1. **Jorge Fioranelli**
+2. [permalink](#jorge-fioranelli)
+
+
+The site amancai.com.au was built combining F#, Domain-Driven Desing, Asp.Net MVC and Azure. F# was an excellent choice as it allowed us to keep the code lean and very functional while having full access to the BCL, Azure and third party libraries. 
+
+Using F# Type Providers also helped us to improve our productivity and find problems early during the development process. 
+
+I personally enjoyed the experience of building the entire system using F#, I believe its "functional-first" approach is excellent for building a wide range of applications.
+
+<div class="keywords">commercial, website, azure, domain-driven design, mvc</div>
