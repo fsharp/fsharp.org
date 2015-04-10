@@ -48,6 +48,10 @@ Training for small groups of developers to cross the bridge to F# and functional
 The approach emphasises under­standing over theory, using business-oriented examples rather than academic ones. 
 It's a lot of fun, and shows how the functional approach works with real-world problems that are relevant to you. 
 
+### [GROSSWEBER F# Training](http://grossweber.com/trainings/methodik/funktionale-programmierung-mit-f-sharp/)
+
+Provides training and two day courses for F# and Functional Programming.
+
 ### [Intellifactory F# Training](http://intellifactory.com/Training.aspx)
 
 <img src="/img/sup/intelli.gif" style="float:right;margin:5px 0px 5px 25px;" />
