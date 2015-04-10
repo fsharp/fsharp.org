@@ -5,12 +5,11 @@ headline: Guide - Enterprise Programming with F#
 redirect_from: "/enterprise/index.html"
 ---
 
-F# is an excellent choice for enterprises that are already using C# and the .NET platform.
+F# is an excellent choice for enterprises.
 
 The benefits of F# for enterprise development are:
 
-* *Compatibility* - F# is completely integrated with the .NET platform and is a fully supported component of Visual Studio.
-  You can continue to use your favorite C# libraries and maintain your existing development processes.
+* *Compatibility* - F# is completely integrated with the .NET platform and is a fully supported component of Visual Studio and Xamarin Studio. You can continue to use your favorite C# libraries and maintain your existing development processes.
 * *Low risk trials* - It's easier to learn F# than you might think. You can easily try out 
   F# for non-critical development tasks such as testing and scripting without committing to wholesale change.
 * *Faster development time* - F# code is generally three times shorter than C# code. And F#
@@ -33,7 +32,7 @@ The benefits of F# for enterprise development are:
   a built-in actor model that's easier than using threads,
   safe parallelization with immutable data, and more.
 * *Improving developer morale* - F# is a fun language to program in, and F# is a great way for developers
-  to learn new skills that will improve their C# as well.
+  to learn new skills that will improve their skills in other languages, such as C# and JavaScript.
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>This guide includes resources related to enterprise programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/enterprise/index.md">edit this page</a> and send a pull request.</p>
