@@ -133,7 +133,7 @@ The [MBrace](http://m-brace.net/) framework is an open-source  programming model
 
 #### Orleans
 
-The [Orleans](http://research.microsoft.com/jump/139795/) framework provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was designed for use in the cloud, and has been used extensively in Microsoft Azure.  A simple ['Hello World' F# sample](https://orleans.codeplex.com/SourceControl/latest#src/samples/FSharpHelloWorld/Grains/Grain1.fs) also available.
+The [Orleans](http://research.microsoft.com/en-us/projects/orleans/) framework provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was designed for use in the cloud, and has been used extensively in Microsoft Azure.  A simple ['Hello World' F# sample](https://orleans.codeplex.com/SourceControl/latest#src/samples/FSharpHelloWorld/Grains/Grain1.fs) also available.
 
 #### ZeroMQ
 
