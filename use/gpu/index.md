@@ -12,7 +12,7 @@ option here, please submit a pull request by [editing this page](https://github.
 
 ### Option 1 - Use Alea GPU, for F#-enabled CUDA programming 
 
-![logo](/images/thumbs/quantalea-small.png)&nbsp; [Alea GPU](http://www.quantalea.net/static/app/tutorial/index.html) is a GPU programming toolchain supporting 
+![logo](/images/thumbs/quantalea-small.png)&nbsp; [Alea GPU](http://www.quantalea.com/static/app/tutorial/index.html) is a GPU programming toolchain supporting 
 
 * Debugging with Visual NSight
 * Profiling with NVProf 
