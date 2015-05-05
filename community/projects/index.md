@@ -382,5 +382,9 @@ Contributions welcome!
 * [MITIE-Dot-Net](https://github.com/BayardRock/MITIE-Dot-Net/blob/master/README.md) - A Nice .NET Wrapper for the MITIE Information Extraction Library (Written in F#, but fully C# compatible)
 
 
+<br />
 
+<h2 class="anchor" id="textsearch" class="anchor">Community Projects: Simulation Tools</h2>
+
+*  [Aivika for .NET](https://github.com/dsorokin/aivika-fsharp-ce) - A simulation library for discrete event simulation, system dynamics and agent-based modeling.
 
