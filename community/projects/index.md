@@ -128,7 +128,7 @@ Contributions welcome!
 
 <h2 class="anchor" id="interop" class="anchor">Community Projects: Interoperability</h2>
 
-*  [COM Type Provider](http://fsprojects.github.io/FSharp.ComProvider/) - The COM Type Provider provides a new way to do COM interop from F#. It allows you to access COM components directly from F# projects and scripts without adding any references other than the type provider itself.
+*  [COM Type Provider](http://fsprojects.github.io/FSharp.Interop.ComProvider/) - The COM Type Provider provides a new way to do COM interop from F#. It allows you to access COM components directly from F# projects and scripts without adding any references other than the type provider itself.
 
 * [Python Type Provider](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Early experimental F# type provider for Python. Uses Python for .NET for metadata and interop.
 
