@@ -11,7 +11,12 @@ you can contribute to are below.
 These projects may be at an early stage, and are not necessarily appropriate for production
 use. Out of small beginnings, great things come! To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
-Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#interop">Interop</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>
+Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, 
+<a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#text">Text Programming</a>, 
+<a href="#interop">Interop</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, 
+<a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, 
+<a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, 
+<a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>
 
 <br />
 
@@ -84,6 +89,11 @@ Contributions welcome!
 
 *  [F# Snippets](http://fssnip.net/) - A community-contributed catalog of F# Snippets
 
+<br />
+
+<h2 class="anchor" id="text" class="anchor">Community Projects: Text Programming</h2>
+
+*  [FSharp.Text.RegexProvider](http://fsprojects.github.io/FSharp.Text.RegexProvider/) - A type provider for regular expressions.
 
 <br />
 
@@ -117,7 +127,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/S3Provider.png)&nbsp;[S3 Type Provider](http://fsprojects.github.io/S3Provider/) - An experimental type provider for Amazon S3.
 
-*  [Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - A type provider for Azure Storage assets e.g. Blobs and Tables.
+*  [Azure Storage Type Provider](http://fsprojects.github.io/AzureStorageTypeProvider/) - A type provider for Azure Storage assets e.g. Blobs and Tables.
 
 *  ![logo](/images/thumbs/HiveProvider.png)&nbsp;[FSharp.Data.HiveProvider](http://fsprojects.github.io/FSharp.Data.HiveProvider) - An F# type provider for writing simple Hive/Hadoop queries. Contributions welcome!
 
@@ -128,11 +138,13 @@ Contributions welcome!
 
 <h2 class="anchor" id="interop" class="anchor">Community Projects: Interoperability</h2>
 
+*  [R Provider](http://bluemountaincapital.github.io/FSharpRProvider/) - An F# type provider for higher-fidelity integration between F# and R. See [Data Science](#data-science) below.
+
 *  [COM Type Provider](http://fsprojects.github.io/FSharp.Interop.ComProvider/) - The COM Type Provider provides a new way to do COM interop from F#. It allows you to access COM components directly from F# projects and scripts without adding any references other than the type provider itself.
 
-* [Python Type Provider](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Early experimental F# type provider for Python. Uses Python for .NET for metadata and interop.
+* [Python Type Provider](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Experimental F# type provider for Python. Uses Python for .NET for metadata and interop. Please contribute.
 
-* [FSharp.Compatiblity](https://github.com/fsprojects/FSharp.Compatibility) - Compatibility libraries for F# for Haskell, Standard ML, OCaml and Scala.
+* [FSharp.Compatiblity](https://github.com/fsprojects/FSharp.Compatibility) - Compatibility libraries for F# for Haskell, Standard ML, OCaml and Scala. Please contribute.
 
 <br />
 
@@ -157,6 +169,9 @@ Contributions welcome!
 *  [The Python Type Provider for F# (experimental)](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Python type provider for F#.
 
 *  [Vulpes](https://github.com/SpiegelSoft/Vulpes) - A machine learning app using a deep belief network and connecting to the NVIDIA GPU unit using [Alea.cuBase] (http://blog.quantalea.net/).
+
+*  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](https://github.com/BlueMountainCapital/FSharpRProvider).
+
 
 <br />
 
@@ -319,7 +334,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/S3Provider.png)&nbsp;[S3 Type Provider](http://fsprojects.github.io/S3Provider/) - An experimental type provider for Amazon S3.
 
-*  [Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - A type provider for Azure Storage assets e.g. Blobs and Tables.
+*  [Azure Storage Type Provider](http://fsprojects.github.io/AzureStorageTypeProvider/) - A type provider for Azure Storage assets e.g. Blobs and Tables.
 
 
 
@@ -376,8 +391,6 @@ Contributions welcome!
 <h2 class="anchor" id="textsearch" class="anchor">Community Projects: Text Search Tools</h2>
 
 *  ![logo](/images/thumbs/FlexSearch.png)&nbsp;[FlexSearch](http://www.flexsearch.net/) Flexible and fast open source F# based Search Engine
-
-*  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](https://github.com/BlueMountainCapital/FSharpRProvider).
 
 * [MITIE-Dot-Net](https://github.com/BayardRock/MITIE-Dot-Net/blob/master/README.md) - A Nice .NET Wrapper for the MITIE Information Extraction Library (Written in F#, but fully C# compatible)
 
