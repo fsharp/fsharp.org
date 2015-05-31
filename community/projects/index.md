@@ -255,7 +255,12 @@ Contributions welcome!
 
 *  [Freya](https://github.com/freya-fs/freya) - F# support for [OWIN](http://owin.org/). Freya is a functional web stack, built on top of OWIN, that offers additional layers for constructing OWIN pipelines, types based on relevant RFC definitions, a router, and an [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram) abstraction similar to that found in [webmachine](https://github.com/basho/webmachine).
 
-* [FsBlog](https://github.com/fsprojects/FsBlog/) - Blog aware, static site generation using F#
+* [FsBlog](https://github.com/fsprojects/FsBlog/) - A blog aware, static site generation using F#. Inpired by the likes of Jekyll and Octopress.
+
+* [Firm](http://andagr.github.io/Firm/) - A blog aware, static site generation using F#. It supports stand-alone pages, blog posts, rss, tags (tag cloud) and post archive. Templates are written in Razor. Posts and pages are written in Markdown.
+
+* [Nini](https://github.com/YoloDev/Nini) - A micro web framework for DNX (ASP.NET vNext).
+
 
 
 <br />
