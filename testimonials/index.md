@@ -1345,3 +1345,21 @@ Using F# Type Providers also helped us to improve our productivity and find prob
 I personally enjoyed the experience of building the entire system using F#, I believe its "functional-first" approach is excellent for building a wide range of applications.
 
 <div class="keywords">commercial, website, azure, domain-driven design, mvc</div>
+
+<a id="green-eagle-solutions" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> The use of F# demonstrates a sweet spot for the language within enterprise software
+
+1. **Green Eagle Solutions**
+2. [permalink](#green-eagle-solutions)
+
+At [Green Eagle Solutions](http://greeneaglesolutions.com/), we develop control systems for renewable energy plants. Thus, it's crucial for us to test our software in a real-time environment where are all the other actors (protocols, weather conditions, legacy software) come into play.
+
+Beforehand, we used Python to quickly build simulators to test our components. With F# we have now all the advantages of a dynamic language, while keeping the static typing safety we are used to. The fact that we don't need to leave Visual Studio and being able to seamlessly use all the APIs we have developed in C# are also a big plus.
+
+We have also started to use F# directly in our components to implementing the core logic, while leaving C# to networking tasks. We've taking advantage of this language mix to create a dependency injector which recompiles the F# logic at runtime whenever the script changes for quick development iterations, but loads a precompiled .dll when deployed in production. The double nature of F# as a scripting and a compiled language really shines here.
+
+F# terse syntax made the final code look really similar to the algorithm we wrote at first in formal language. Also, we've come to really appreciate the numerous metaprogramming libraries in the F# ecosystem: we particularly like FSharp.Formatting and have started to adopt the literate programming style to integrate as much as possible the code and the documentation and prevent them losing sync.
+
+<div class="keywords">energy, renewable, scada, scripting, literate programming</div>
