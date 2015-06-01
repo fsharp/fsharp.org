@@ -28,6 +28,7 @@
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/animate.css" rel="stylesheet" media="screen" />
     <link href="/css/vs.css" rel="stylesheet" media="screen" />
     <link rel="stylesheet" href="/css/main.css" media="screen" />
@@ -76,7 +77,7 @@
                                 <a href="/videos/1">Videos</a>
                             </li>
                             <li>
-                                <a href="/teaching/research.html">Academic publications</a>
+                                <a href="/teaching/research.html">Publications</a>
                             </li>
                         </ul>
                     </li>
@@ -113,7 +114,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="http://fsharpforfunandprofit.com">Enterprise Programming</a>
+                                <a href="/guides/enterprise">Enterprise Programming</a>
                             </li>
                             <li>
                                 <a href="/guides/data-science">Data Science</a>
@@ -175,6 +176,9 @@
                                 <a href="http://www.codeplex.com/site/search?query=&amp;sortBy=Relevance&amp;tagName=%2cF%23%2c">F# on CodePlex</a>
                             </li>
                             <li>
+                                <a href="https://code.google.com/hosting/search?q=fsharp&sa=Search">F# on Google Code</a>
+                            </li>
+                            <li>
                                 <a href="http://www.fssnip.net/">F# code snippets</a>
                             </li>
                             <li>
@@ -201,13 +205,7 @@
                                 <a href="/consulting">Consulting</a>
                             </li>
                             <li>
-                                <a href="/teaching/index.html">Why teach F#</a>
-                            </li>
-                            <li>
-                                <a href="/teaching/index.html#online-teaching-and-learning">Online learning</a>
-                            </li>
-                            <li>
-                                <a href="/teaching/index.html#video-lectures">Video lectures</a>
+                                <a href="/teaching/index.html">Teaching F#</a>
                             </li>
                             <li>
                                 <a href="/teaching/index.html#textbooks-for-teaching-f">Textbooks</a>
@@ -224,23 +222,28 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Foundation <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="/foundation.html">Mission statement</a>
+                                <a href="http://foundation.fsharp.org">Mission statement</a>
                             </li>
                             <li>
-                                <a href="/foundation.html#funding">Funding</a>
+                                <a href="http://foundation.fsharp.org/join">Join</a>
                             </li>
                             <li>
-                                <a href="/foundation.html#founding_members">Members</a>
+                                <a href="http://foundation.fsharp.org/announcements">Announcements</a>
+                            </li>
+                            <li>
+                                <a href="http://foundation.fsharp.org/member_roster">Member Roster</a>
                             </li>
                             <li>
                                 <a href="/technical-groups">Technical groups</a>
                             </li>
                             <li>
-                                <a href="http://fsharp.github.io">F# Open Engineering Group</a>
+                                <a href="http://fsharp.github.io">F# Core Engineering Group</a>
                             </li>
-                            <li><a href="/foundation/logo.html">F# Logo</a></li>
                             <li>
-                                <a href="/foundation.html#contact">Contact</a>
+                                <a href="http://foundation.fsharp.org/logo">F# Logo</a>
+                            </li>
+                            <li>
+                                <a href="http://foundation.fsharp.org/contact">Contact</a>
                             </li>
                         </ul>
                     </li>
@@ -295,14 +298,16 @@
 
     <section class="home-section">
         <div class="container featured">
-            <div class="col-md-4">
-                <p class="featured">F# runs on Linux, Mac OS X, Android, iOS, Windows, GPUs, and browsers. It is free to use and is open source under an OSI-approved license. </p>
-            </div>
-            <div class="col-md-4">
-                <p class="featured">F# is used in a wide range of application areas and is supported by both an active open community and industry-leading companies providing professional tools.</p>
-            </div>
-            <div class="col-md-4">
-                <p class="featured">The mission of the F# Software Foundation is to promote and advance the F# programming language, including a diverse and international community of F# programmers.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="featured">F# runs on Linux, Mac OS X, Android, iOS, Windows, GPUs, and browsers. It is free to use and is open source under an OSI-approved license. </p>
+                </div>
+                <div class="col-md-4">
+                    <p class="featured">F# is used in a wide range of application areas and is supported by both an active open community and industry-leading companies providing professional tools.</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="featured">The mission of the F# Software Foundation is to promote and advance the F# programming language, including a diverse and international community of F# programmers.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -502,112 +507,80 @@ MailboxProcessor.Start(fun inbox-> async {
     </section>
 
     <section class="home-section" style="border-bottom: none;">
-        <div class="container featured">
+        <div id="supporter-container" style="display:none;" class="container featured">
             <h2 class="text-center section-header">Industry Supporters</h2>
-            <div id="sponsors-carousel" class="carousel slide wow animated fadeIn" data-ride="carousel">
+            <div id="sponsors-carousel" class="carousel slide wow animated" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">
                         <div class="row">
                             <div class="col-md-4">
-                                <a class="carousel-link" href="https://www.quantalea.net/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/quantalea.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/quantalea.png" alt="..." />
                             </div>
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://www.ffconsultancy.com/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/ffconsultancy.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/ffconsultancy.png" alt="..." />
                             </div>
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://www.m-brace.net/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/mbrace.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/mbrace.png" alt="..." />                                
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row">
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://fpish.net/" target="_blank"><img class="center-block img-responsive carousel-img" src="/img/sup/fpish.png" alt="..." /></a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/fpish.png" alt="..." />
                             </div>
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://www.statfactory.co.uk/" target="_blank"> <img class="center-block img-responsive carousel-img" src="/img/sup/statfactory.jpg" alt="..." /></a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/statfactory.jpg" alt="..." />
                             </div>
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://skillsmatter.com/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/skillsmatter.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/skillsmatter.png" alt="..." />                                
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row">
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://www.intellifactory.com/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/intelli.gif" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/intelli.gif" alt="..." />                                
                             </div>
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://www.extremeoptimization.com/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/extremeoptimization.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/extremeoptimization.png" alt="..." />                                
                             </div>
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://www.tsunami.io/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/tsunami.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/tsunami.png" alt="..." />
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row">
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://www.mathdotnet.com/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/mathdotnet.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/mathdotnet.png" alt="..." />                                
                             </div>
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://fsharp.net/" target="_blank"><img class="center-block img-responsive carousel-img" src="/img/sup/microsoft.png" alt="..." /></a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/microsoft.png" alt="..." />
                             </div>
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://xamarin.com/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/xamarin.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/xamarin.png" alt="..." />                                
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row">
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://servicestack.net/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/servicestack.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/servicestack.png" alt="..." />                                
                             </div>
-                            <div class="col-md-4"><a class="carousel-link" href="http://www.kaggle.com/" target="_blank"><img class="center-block img-responsive carousel-img" src="/img/sup/kaggle.png" alt="..." /></a></div>
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://fpbridge.co.uk/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/fpbridge.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/kaggle.png" alt="..." />
+                            </div>
+                            <div class="col-md-4">
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/fpbridge.png" alt="..." />                                
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row">
                             <div class="col-md-4">
-                                <a class="carousel-link" href="http://fireflylogic.com/" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/fireflylogic.png" alt="..." />
-                                </a>
+                                <img class="center-block img-responsive carousel-img" src="/img/sup/fireflylogic.png" alt="..." />
                             </div>
-                            <!--<div class="col-md-4">
-                                <a href="" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/" alt="..." />
-                                </a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="" target="_blank">
-                                    <img class="center-block img-responsive carousel-img" src="/img/sup/" alt="..." />
-                                </a>
-                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -646,8 +619,9 @@ MailboxProcessor.Start(fun inbox-> async {
     <footer id="footer">
         <div class="container text-center">
             <a href="#main" id="footer-arrow"><img src="/img/arrow.png" /></a>
-            <p>F# Software Foundation</p>
-            <p>Maintained by the F# community on <a href="https://github.com/fsharp/fsfoundation" target="_blank">GitHub</a>.</p>
+            <p>Copyright © 2012-2015 F# Software Foundation and individual contributors.
+            <br/>
+            <p>Maintained by F# Software Foundation and the F# community on <a href="https://github.com/fsharp/fsfoundation" target="_blank">GitHub</a>.</p>
         </div>
     </footer>
 

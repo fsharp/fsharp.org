@@ -4,27 +4,29 @@ title: Use F# on Linux | The F# Software Foundation
 headline: Use F# on Linux
 ---
 
-To help with Linux packages, please join the [F# Open Engineering Group](http://fsharp.github.io).  You can also 
+To help with Linux packages, please join the [F# Core Engineering Group](http://fsharp.github.io).  You can also 
 [submit an edit to this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/use/linux/index.md).
 
-### Option 1: Use the F# Debian packages 
+### Option 1: Use the F# Debian/Ubuntu packages 
 
-F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). The packages are available in Debian _testing_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)), use:
+F# is available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html). 
+
+It is highly recommended (albeit optional) that you add the [Xamarin Mono package repository](http://download.mono-project.com/repo/debian) to your 
+sources  to get [a much more up-to-date version of the Mono runtime](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives) used by F#. 
+
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+    echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
+
+For Ubuntu 12.04 and 12.10 you will need an additional repository as well, see [these instrutions](http://www.mono-project.com/docs/getting-started/install/linux/#older-ubuntu-releases-ubuntu-1210-and-1204).
+Older F# and Mono packages are available in Debian _testing_ and Ubuntu 14.04 ([_trusty/universe_](http://packages.ubuntu.com/trusty/fsharp)).
+
+Regardless of which repository source you are using, proceed to install the fsharp & mono packages
 
     sudo apt-get update
-    sudo apt-get install mono-complete
-    sudo apt-get install fsharp
+    sudo apt-get install mono-complete fsharp
 
-This installs `fsharpc` and `fsharpi`. If you don't have access to these repositoties, compile from source or see Option 6 below.
-
-
-Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
+This installs `fsharpc` and `fsharpi`. If you don't have access to these repositories, compile from source or see Option 6 below. Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
-
-For Linux, F# uses [Mono](http://mono-project.com), the cross-platform, open-source .NET implementation. Install at least `3.2.8`. 
-Compiling Mono from source is a slow process so it is preferable to install using your package manager or
-an [up-to-date package for various Linux distributions](http://www.go-mono.com/mono-downloads/download.html).
-Debian *testing* and Ubuntu 14.04 have sufficiently recent versions available in the package repositories. 
 
 
 
@@ -114,25 +116,4 @@ go further.
 ### Option 5: Use a Vagrant VM on Windows
 
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
-
-
-### Option 6: Get access to the Debian packages
-
-If you want to use Debian packages and don't have access to trusty/universe packages, then 
-the following steps may allow access. However, if used on the wrong operation system version (eg some versions of Linux Mint), this can also make your system unable to reboot without some kind of manual fixing, so only do this if you know what you are doing :
-
-1. Add the following using `sudo vi /etc/apt/sources.list`:
-
-       deb http://azure.archive.ubuntu.com/ubuntu/ trusty main
-       deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty main
-        
-       deb http://azure.archive.ubuntu.com/ubuntu/ trusty universe
-       deb-src http://azure.archive.ubuntu.com/ubuntu/ trusty universe
-
-2. Install the fsharp packages with the following commands:
-
-        sudo apt-get update
-        sudo apt-get install mono-complete
-        sudo apt-get install fsharp
-
 

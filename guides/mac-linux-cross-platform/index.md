@@ -1,27 +1,32 @@
 ---
 layout: default
-title: Cross Platform Dev Guide | The F# Software Foundation
-headline: Cross-Platform Development with F#
+title: Guide - Cross Platform Dev Guide | The F# Software Foundation
+headline: Guide - Cross-Platform Development with F#
 ---
 
-To contribute to this guide, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/guides/mac-linux-cross-platform/index.md) and send the pull request.
+To get started with F#, please refer to the following documents:
 
-## Table of Contents
+* [Getting Started with F# on Mac](/use/mac)
+* [Getting Started with F# on Linux](/use/linux)
+* [Getting Started with F# on Windows](/use/windows)
+* [Getting Started with F# for iOS Programming](/use/ios)
+* [Getting Started with F# for Android Programming](/use/android)
+
+Once you have F# installed and operating, refer to the resources below for platform specific techniques, 
+tools, and resources.
+
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+    <p>This guide includes resources related to cross-platform development with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/mac-linux-cross-platform/index.md">edit this page</a> and send a pull request.</p>
+    <hr />
+    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+</div>              
+
+## Resources for cross-platform development
 
 * auto-gen TOC:
 {:toc}
 
-# Getting Started
-
-* [Getting Started with F# on Mac](/use/mac)
-* [Getting Started with F# on Linux](/use/linux)
-* [Getting Started with F# for iOS Programming](/use/ios)
-* [Getting Started with F# for Android Programming](/use/android)
-
-
--------
-
-# Command Line Tools
+### Command Line Tools
 
 You can start F# Interactive using 
 
@@ -39,9 +44,8 @@ You’re off! Some common commands are:
     mono file.exe arg1 ... argN        (runs a compiled F# program)
     mkbundle --static file.exe -o file (makes a static native image, including the F# runtime)
 
-------
 
-#  Editing 
+###  Editing 
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
 
@@ -51,41 +55,45 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding).
 
-  On Debian Linux or derivatives (e.g. Ubuntu, Mint), you can install MonoDevelop via a graphical package manager, such as Synaptic, or through the command line with:
-  
-       sudo apt-get install monodevelop
-  
-  Packages are also available for [openSUSE](http://software.opensuse.org/package/monodevelop), [Fedora](https://apps.fedoraproject.org/packages/monodevelop), and [Arch Linux](https://aur.archlinux.org/packages/monodevelop-latest/) (via the AUR).
+  See [the installation instructions for MonoDevelop on Linux](http://www.monodevelop.com/download/).
 
-  You can also [build/install MonoDevelop from source](http://github.com/mono/monodevelop) if a package is not available/updated for your distribution. You will likely need to [build and install the F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding) yourself, even if you install MonoDevelop from a pre-built package.
+  Then install [the F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding) by adding it from the AddIn Manager, or building/installing it yourself from source.
   
 * Sublime Text 2
 
+  Use and contribute to:
+  
+  * [Sublime Text Support for F#](https://github.com/fsharp/fsharpbinding/blob/master/sublimetext/README.md)
+
+  See also:
+  
   * [Configuring Sublime Text 2 To Work With FSharp](http://onor.io/2012/01/26/configuring-sublime-text-2-to-work-with-fsharp/)
   * [Using Sublime Text 2 as F# REPL](http://blog.kulman.sk/using-sublime-text-2-as-f-repl/)
 
 * Vim
+
+  Use and contribute to:
+  
+  * [Vim support for F#](https://github.com/fsharp/fsharpbinding/blob/master/vim/README.mkd)
+
+  See also:
+
   * [Writing and Running F# Scripts with Vim](http://juliankay.com/development/writing-and-running-f-scripts-with-vim/)
   * [Vim Runtime Files for F#](https://github.com/kongo2002/fsharp-vim)
- 
+
 If running F# Interactive in Emacs or another similar environment, use 
               
     > fsharpi --readline- 
 
-to turn of console processing.                    
+to turn off console processing. 
 
-
-------
-
-#	Documentation 
+###	Documentation 
 
 For most F# documentation, see the [documentation pages](/about/index.html#documentation).
 
-------
+###	Projects and Build Automation
 
-#	Projects and Build Automation
-
-##  .fsproj and .sln files
+####  .fsproj and .sln files
 
 You can use xbuild to build projects and solutions from Visual Studio without change.
 Xamarin Studio and MonoDevelop can also create and manage .fsproj and .sln files.
@@ -115,11 +123,11 @@ in a .fsproj like this:
 To create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop, 
 or find an existing one, copy it and edit it by hand.
 
-## Makefiles
+#### Makefiles
 
 The F# command-line compiler (fsharpc) can be used with Makefiles in the usual way.
 
-## FAKE
+#### FAKE
 
 [FAKE](http://fsharp.github.io/FAKE/) is a build-and-publish automation utility sometimes used by F# programmers (partly because
 builds are automated using F# itself, and partly because it is a great tool).
@@ -133,17 +141,16 @@ FAKE can be fetched using NuGet.exe, e.g.:
     # Get FAKE.exe
     mono nuget.exe install FAKE -OutputDirectory lib -ExcludeVersion -Prerelease
 
----------
 
-# Package Repositories
+### Package Repositories
 
-## nuget 
+#### NuGet 
 
-[nuget](http://nuget.org/) is an open-source, cross-platform package management tool with many thousands
+[NuGet](http://nuget.org/) is an open-source, cross-platform package management tool with many thousands
 of packages available. See the [documentation](http://docs.nuget.org/).
 It is used extensively on Windows ecosystem but is growing in its cross-platform use.
 
-### Using nuget from the command line 
+* Using nuget from the command line 
 
 For those on Mac/Linux, familiarity with the command-line NuGet.exe utility is highly useful.
 Get the command line utility like this:
@@ -171,7 +178,7 @@ An example packages.config is:
 
 See also the [documentation](http://docs.nuget.org/docs/reference/command-line-reference).
 
-### Using nuget packages as part of a build
+* Using nuget packages as part of a build
 
 F# project files (.fsproj) can be configure to automatically get NuGet packages during a build. The
 project file should have a line like this (adjust the '...' to reference a copy of NuGet.targets checked into your project).
@@ -185,25 +192,24 @@ A copy of NuGet.exe should be in that directory with executable permissions set.
 It is quite common to check a copy of NuGet.exe into a project, e.g. in lib/NuGet/NuGet.exe.
 
 
-### Using nuget in MonoDevelop and Xamarin Studio
+* Using nuget in MonoDevelop and Xamarin Studio
 
-You can add NuGet support to these IDEs. See [NuGet for MonoDevelop and Xamarin Studio](https://github.com/mrward/monodevelop-nuget-addin#nuget-addin-for-monodevelop-and-xamarin-studio).
+You can add NuGet support to these IDEs if not already present. See [NuGet for MonoDevelop and Xamarin Studio](https://github.com/mrward/monodevelop-nuget-addin#nuget-addin-for-monodevelop-and-xamarin-studio).
 
-### Making nuget packages
+* Making nuget packages
 
 See [http://nuget.org](http://nuget.org) to learn how to make and publish NuGet packages, or look at examples
 from other F# community projects.
 
-## Other Packaging Mechanisms
+#### Other Packaging Mechanisms
 
 Other packaging mechanisms include:
 * Git sub-modules (especially when building from source)
 * Traditional Unix packages
 * Simple .fs files that can be included into projects
 
-------
 
-## Some Examples of Portable, Cross-Platform Packages
+#### Some Examples of Portable, Cross-Platform Packages
 
 Some F# and CLI packages are more cross-platform friendly than others. Many will work with no alteration.
 Here are some of interest:
@@ -248,9 +254,8 @@ available to F#, for example:
 
 Compatibility guides, [documentation](http://docs.go-mono.com/?link=root) and [migration assessment tools](http://www.mono-project.com/MoMA) are also available.
   
-------
 
-# Portable Libraries
+### Portable Libraries
 
 
 Portable .NET libraries have access to less core functionality, called a "portable profile", but can be used 
@@ -261,7 +266,7 @@ of runtime machinery used and other factors).
 See [Cross-Platform Portable Class Libraries with .NET are Happening](http://www.hanselman.com/blog/CrossPlatformPortableClassLibrariesWithNETAreHappening.aspx)
 for a perspective on cross-platform portable libraries for Visual Studio users.
 
-F# portable libraries use FSharp.Core versions such as 4.3.5.1, with matching mscorlib versions.
+F# portable libraries reference FSharp.Core versions such as 2.3.5.1, with matching mscorlib versions.
 A binding redirect may be neeeded to ensure bindings to these libraries redirect correctly, e.g. to 
 FSharp.Core 4.3.1.0.
 
@@ -270,43 +275,34 @@ Mac and Linux, though you can normally build portable libraries successfully usi
 on these platforms. If you are developing on Windows, or using libraries on Windows, then consider
 creating portable libraries to ease cross-platfom use.
 
-
-------
-
-# Unit Testing
+### Unit Testing
 
 A table of .NET unit testing frameworks can be found [here](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages).
 
 There are two major ways of writing unit tests in .Net; in a method-per-test style, having the framework use reflection to read the tests and execute them or with the test-is-a-value style, where you pass the framework your test values (much like immutable objects are values).
 
-## Fuchu
+#### Fuchu
 
 [Fuchu](https://github.com/mausch/Fuchu) is a test library for .NET, supporting C# and VB.NET but with a special focus on F#. It draws heavily from Haskell's test-framework and HUnit. You can read about the rationale and underlying concepts in [this blog post](http://bugsquash.blogspot.com/2012/06/fuchu-functional-test-library-for-net.html), or tests should be first-class values so that you can move them around and execute them in any context that you want. Also, if they are first-class values, then you can take extra care with what the test methods return, making integrations with external libraries much cheaper.
 
-```
-Install-Package Fuchu
-```
+    Install-Package Fuchu
 
 Since tests are values, it's easy to extend the framework to integrate with other tooling, e.g. with FsCheck to use a fuzzing/randomization approach to testing (see below)
 
-```
-Install-Package Fuchu.FsCheck
-```
+    Install-Package Fuchu.FsCheck
 
 Fuchu also has an integration with PerfUtil which can be used to automate performance testing and trending in a continuous integration environment.
 
-```
-Install-Package Fuchu.PerfUtil
-```
+    Install-Package Fuchu.PerfUtil
 
-## FsCheck
+#### FsCheck
 
 [FsCheck](https://github.com/fsharp/FsCheck) is a tool for testing .NET programs automatically. 
 The programmer provides a specification of the program, 
 in the form of properties which functions, methods or objects should satisfy, 
 and FsCheck then tests that the properties hold in a large number of randomly generated cases.
 
-## NUnit
+#### NUnit
 
 [NUnit](http://nunit.org/) is an open-source, cross-platform unit-testing 
 framework for F# and other  .NET languages. It is written 
@@ -320,14 +316,14 @@ Some guides to using F# and NUnit together are:
  * [Using NUnit with F# Code](http://sector0.dk/?p=33)
  * [F# as a Unit Testing Language](http://trelford.com/blog/post/fstestlang.aspx)
 
-## FsUnit
+#### FsUnit
 
-[FsUnit](http://fsunit.codeplex.com/) is often used by F# programmers as an DSL to access popular unit testing frameworks. 
+[FsUnit](https://github.com/fsharp/fsunit) is often used by F# programmers as an DSL to access popular unit testing frameworks. 
 An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
 
-#  Continuous Integration builds
+###  Continuous Integration builds
 
-## Using Travis and AppVeyor
+#### Using Travis and AppVeyor
 
 Perhaps the simplest way to regularly build and test your work across multiple platforms is to use Travis.
 
@@ -340,21 +336,20 @@ Travis is free for open source  projects.
 
 To also automate your build and test on Windows, AppVeyor is a good choice.  Here is [an example configuration file](https://github.com/fsharp/FSharp.Compiler.Service/blob/master/appveyor.yml).
 
-------
 
-# Miscellaneous Notes on Open Source and Cross Platform Development
+### Miscellaneous Notes on Open Source and Cross Platform Development
 
 
-### Testing on multiple platforms
+#### Testing on multiple platforms
 
 If you are Windows developers, you can set up a Vagrant box in order to test your libraries and tools on Mono (though often a Travis build is simpler, see above)
 A detailed guide of setting up Vagrant is available [here](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
-### Dos and Don’ts
+#### Dos and Don’ts
 
 * Generally use `/` instead of `\` on paths. In .fsproj files you can generally use either.
-* In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself ([example](http://msdn.microsoft.com/en-us/library/3e54c37h.aspx))
+* In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself ([example](http://msdn.microsoft.com/en-us/library/3e5f4c37h.aspx))
 * Don't assume pdbs are always created after the compilation
 * Executables included in .NET may not exist in Mono or may have a different name or location e.g. SvcUtil etc
 * Fake build scripts may not work as intended due to Mono issues
@@ -383,7 +378,7 @@ A detailed guide of setting up Vagrant is available [here](http://christoph.rueg
   "solutionDir" argument has an extra space. This breaks package restore on Mono. 
 
 
-### Developing Cross-Platform and Multi-Targeting Type Providers 
+#### Developing Cross-Platform and Multi-Targeting Type Providers 
 
 F# type providers are compile-time components that must execute on your machine during build and development.
 
@@ -400,7 +395,7 @@ To help isolate the problem, try the following:
 
 Switching to command-line compilations will help localize the problem.
 
-# Having trouble?
+### Having trouble?
 
 * Ask questions at the [F# Open Source Group](https://groups.google.com/forum/#!forum/fsharp-opensource)
 * For technical questions on specific scenarios, you can also ask on [StackOverflow](http://stackoverflow.com/questions/tagged/f%23).

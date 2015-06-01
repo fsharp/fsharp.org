@@ -1,17 +1,34 @@
 ---
 layout: default
-title: Machine Learning | The F# Software Foundation
-headline: Machine Learning with F#
+title: Guide - Machine Learning | The F# Software Foundation
+headline: Guide - Machine Learning with F#
 redirect_from: "/machine-learning/index.html"
 ---
 
 F# is well-suited to machine learning because of its efficient execution, succinct style,
-data access capabilities and scalability. F# has been successfully used by some of the most advanced machine learning teams in the world, including several groups at Microsoft Research.
+data access capabilities and scalability. F# has been successfully used by some of the most advanced 
+machine learning teams in the world, including several groups at Microsoft Research.
 
 [Try F#](http://tryfsharp.org/learn) has some introductory machine learning algorithms.
 Further resources related to different aspects of machine learning are below.
 
-See also the [Math and Statistics](/math) and [Data Science](/data-science) sections for related material.
+Related material also exists in other Guides.  For detailed information, refer to the guides for:
+
+* [Math and Statistics](guides/math-and-statistics/)
+* [Data Science](/guides/data-science/)
+* [Cloud Programming](/guides/cloud/)
+
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+    <p>This guide includes resources related to machine learning programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/machine-learning/index.md">edit this page</a> and send a pull request.</p>
+    <hr />
+    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+</div>              
+
+
+## Resources for Machine Learning
+
+* auto-gen TOC:
+{:toc}
 
 ### Tutorials and Introductions
 
@@ -34,11 +51,11 @@ Introductions to different machine learning algorithms with F#:
  * [Kaggle/StackOverflow contest field notes](http://clear-lines.com/blog/post/Kaggle-StackOverflow-field-notes-part-1.aspx)
  * [F# Data Mining](http://fdatamining.blogspot.com/2010/05/why-f-is-language-for-data-mining.html)
  * [Parallel Programming in F#: Aggregating Data:](http://tomasp.net/blog/fsharp-parallel-aggregate.aspx)
+ * [Particle Swarm Optimization in F#](http://www.danielslater.net/2015/05/particle-swarm-optimization-in-f.html)
 
 ### Machine Learning Packages
 
 Several F# machine learning packages are available. Some are accessed through F#'s interoperability mechanisms to R, Python and Java. .NET packages can be found by [searching on nuget.org](http://nuget.org/packages?q=machine+learning). For example:
-
 
  * [Accord.MachineLearning](http://nuget.org/packages/Accord.MachineLearning/) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
    See also [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
@@ -56,8 +73,7 @@ Several F# machine learning packages are available. Some are accessed through F#
 
  * [Numl](http://nuget.org/packages/numl/) - A machine learning library intended to ease the use of using standard modeling techniques for both prediction and clustering
 
- * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automated differentiation library to incorporate derivative calculus with
-   minimal changes to existing algorithms.
+ * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automatic differentiation (AD) library for incorporating derivative calculations with minimal changes into existing code, providing exact and efficient gradients, Jacobians and Hessians for machine learning and optimization applications.
 
 
 

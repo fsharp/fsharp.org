@@ -1,43 +1,21 @@
 ---
 layout: default
-title: Data Science | The F# Software Foundation
-headline: Data Science with F#
-redirect_from: "/data-science/index.html"
+title: Guide - Data Science | The F# Software Foundation
+headline: Guide - Data Science with F#
+redirect_from: 
+    - /data-science/index.html
+    - /data-visualization/index.html
+    - /guides/data-visualization/index.html
 ---
 
 Data science is the application of statistical analysis, machine learning, data visualization and programming to 
 real-world data sources to bring understanding and insight to data-oriented problem domains.
-
-F# is an excellent solution for programmatic data science as it combines efficient execution
+F# is an excellent solution for programmatic data science as it combines efficient execution,
 REPL-scripting, powerful libraries and scalable data integration. 
-[Try F#](http://tryfsharp.org/learn) has sections specific to data science. 
 
-### Base Technologies for F# Data Science
-
-* [Maths and Statistics](/math) packages for F#
-* [Data Access](/data-access) packages for F#
-* [Data Charting and Visualization](/data-visualization) packages for F#
-* [Machine Learning](/machine-learning) tutorials for F#
-* [Cloud Programming](/cloud) for cloud-scalable data, compute and messaging frameworks and clients for F#.
-
-
-### Exploratory Data and Time Series Programming
-
-![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality 
-package for data and time series manipulation and for scientific programming. 
-It uses a design similar to the Pandas library from Python and the 'tseries' or 'zoo' packages in R, though
-with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
-work well for exploratory programming using F# and C# interactive console, but can be also used in 
-efficient compiled .NET code. 
-
-* [Understanding the world with F# (article)](http://www.thedevelopermag.com/understanding-world-f/)
-* [Understanding the world with F# (video)](http://channel9.msdn.com/posts/Understanding-the-World-with-F)
-
-
-### Interoperability with Excel, R, Python, MATLAB and Mathematica
-
-F# can integrate and interoperate with data-science systems such as 
-Microsoft Excel, R, MATLAB, Mathematica and Python. See the sections below:
+As data science employs techniques from many problem domains, numerous base technologies are required. F# has very
+strong support for integration with many systems and libraries, both via direct usage of .NET libraries and type providers, which provide interoperability support with Excel, R, Python, MATLAB and Mathematica, and more. For details on 
+interoperability with these systems, see:
 
 * [F# with Excel](#excel-interop)
 * [F# with R](#r-interop)
@@ -48,6 +26,59 @@ Microsoft Excel, R, MATLAB, Mathematica and Python. See the sections below:
 Many other resources are available for integrating F#, C# and .NET with these systems. If a resource specific
 to F# can't be found, then search for C# instead and adjust the technique appropriately.
 
+Data Science also requires strong support for many technologies covered in other Guides.  For detailed information, refer to the guides for:
+
+* [Math and Statistics](/guides/math-and-statistics/)
+* [Data Access](/guides/data-access/)
+* [Machine Learning](/guides/machine-learning/)
+* [Cloud Programming](/guides/cloud/)
+
+
+[Try F#](http://www.tryfsharp.org/Learn/data-science) contains information and tutorials for learning data science in F#.  
+
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+    <p>This guide includes resources related to data science programming and scripting with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-science/index.md">edit this page</a> and send a pull request.</p>
+    <hr />
+    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+</div>              
+
+## Resources for Data Science
+
+* auto-gen TOC:
+{:toc}
+
+### Data Visualization
+
+#### Interactive Charting on Windows 
+
+* [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
+
+* [XPlot](http://tahahachana.github.io/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
+
+#### Using R, MATLAB, Mathematica, Excel and Python for Data Visualization
+
+F# can integrate with systems such as R, MATLAB, Mathematica, Excel and Python and these can be used for data visualization.
+See below for more details and the following tutorials specific to visualization:
+
+* [Using F#, R and GGPlot2](http://stackoverflow.com/questions/16820211/r-type-provider-and-ggplot2)
+* [Tutorial: Charting with Excel from F#](http://bit.ly/10WksjA)
+* [Tutorial: Charting with Gnuplot from F#](http://bit.ly/14RwJeW)
+
+
+### Exploratory Data and Time Series Programming
+
+[Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality 
+package for data and time series manipulation and for scientific programming. 
+It uses a design similar to the Pandas library from Python and the 'tseries' or 'zoo' packages in R, though
+with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
+work well for exploratory programming using F# and C# interactive console, but can be also used in 
+efficient compiled .NET code. 
+
+* [Understanding the world with F# (article)](http://www.thedevelopermag.com/understanding-world-f/)
+* [Understanding the world with F# (video)](http://channel9.msdn.com/posts/Understanding-the-World-with-F)
+
+
+
 <a id="excel-interop" > </a>
 
 ### F# and Excel 
@@ -55,9 +86,11 @@ to F# can't be found, then search for C# instead and adjust the technique approp
 #### Integrating F# and Excel through FCell
 
 [FCell](http://fcell.io) lets you dynamically create Excel Ribbon, Custom Task Panes, and UDFs in F#, C# and VB. 
-FCell enables you to type F# directly into the spreadsheet and see your changes at a push of button. 
+FCell enables you to type F# directly into the spreadsheet and see changes reflected at a push of a button. 
 Code and DLLs are embedded into the workbook and can be emailed to end users as a single spreadsheet. 
-Use all of the advanced F# features from Excel. For example, Async and Observables for non-blocking UDFs, WSDL Type Provider for a SOA backed Front Office, R Type Provider for Machine Learning, and the Hive Type Provider for Big Data.
+FCell allows the use of many advanced F# features directly from within Excel such as Async and Observables 
+for non-blocking UDFs, WSDL Type Provider for a SOA backed Front Office, R Type Provider for Machine Learning, 
+and the Hive Type Provider for Big Data manipulation.
 
  * [FCell home pages](http://fcell.io/)
  * [FCell features](http://fcell.io/tour.html)
@@ -82,7 +115,7 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  
 [ExcelPackageF](https://github.com/igorkulman/ExcelPackageF) is a simple F# wrapper over the EPPlus library.
  
-Both NPOI and EPPLus manipulate the Open Office XML format so it does not require having Excel installed and does not use Interop.  You can read,create and edit Excel documents using this approach.
+Both NPOI and EPPLus manipulate the Open Office XML format directly so they do not require having Excel installed and do not use Interop. You can read, create, and edit Excel documents using this approach.
 
 #### Interoperating with Excel through type providers
 
@@ -106,7 +139,7 @@ There are also some F# versions of Excel functions, useful when migrating code:
 
 Resources:
 
- * ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[R Type Provider for F#](http://bluemountaincapital.github.io/FSharpRProvider) - An F# type provider for higher-fidelity integration between F# and R
+ * [R Type Provider for F#](http://bluemountaincapital.github.io/FSharpRProvider) - An F# type provider for high fidelity integration between F# and R
  * [R.NET](http://rdotnet.codeplex.com) - Core interoperability component used by the R Type Provider with some F# extensions.
 
 <a id="matlab-interop" > </a>

@@ -9,19 +9,15 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
 
-*  Install a free trial edition of [Visual Studio 2013  (Professional or higher)](http://www.visualstudio.com/downloads/download-visual-studio-vs); OR
+*  Install the free [Visual Studio 2013 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx); if you already have Visual Studio 2013 Professional or above, you can use that.  Visual Studio 2013 Community and above come with the Visual F# Tools. 
 
-*  Install the free [Visual Studio 2013 Desktop Express](http://www.microsoft.com/download/details.aspx?id=40787) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
-
-*  Install the free [Visual Studio 2013 Web Express](http://www.microsoft.com/download/details.aspx?id=40747) plus the free [Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011); OR
-
-The tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
+The Visual F# Tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
 See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
 
 #### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) ####
 
 Optionally, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
-for use with Visual Studio 2012 and 2013 (Professional or higher). They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
+for use with Visual Studio 2012 and 2013 (Community or higher, not Express, see above). They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
 [auto-generating XML Docs](http://fsprojects.github.io/VisualFSharpPowerTools/xmldoc.html), 
 [navigation bar](http://fsprojects.github.io/VisualFSharpPowerTools/navbar.html), 
 [highlight](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html) and [find](http://fsprojects.github.io/VisualFSharpPowerTools/findallreferences.html) references, 
@@ -31,14 +27,6 @@ for use with Visual Studio 2012 and 2013 (Professional or higher). They include 
 [record stub generation](http://fsprojects.github.io/VisualFSharpPowerTools/recordstubgeneration.html),
 [union pattern match case generation](http://fsprojects.github.io/VisualFSharpPowerTools/unionpatternmatchcasegeneration.html) and the
 [navigate-to command](http://fsprojects.github.io/VisualFSharpPowerTools/navigateto.html).
-
-#### ![logo](/images/thumbs/vstudio.png)&nbsp;Note to ReSharper users ####
-
-With some versions of ReSharper, the `Alt+Enter` shortcut key for the `Execute in Interactive`
-command of the Visual F# Tools  doesn't work, as ReSharper overrides this for its own purposes.
-To fix this, either upgrade to ReSharper 8.0.10.1959 or greater, or install the [resharper-fsi-friendly](https://github.com/citizenmatt/resharper-fsi-friendly) plugin.
-
-If you are using Visual F# Power Tools along side with ReSharper, there is a [known issue](http://youtrack.jetbrains.com/issue/RSRP-409199) where some F# commands are hidden by ReSharper. Until it is fixed, you can workaround by disabling the ReSharper option "Hide overridden Visual Studio menu items" (ReSharper -> Options -> Keyboard & Menus).
 
 <br />
 
@@ -61,7 +49,7 @@ following requirements and installation steps:
 
    - On Windows 8 and Windows 2012 Server, this is already present by default
    
-   - On Windows 7 and Windows 2008 Server, [install .NET 4.5](http://www.microsoft.com/net/download) from Microsoft
+   - On Windows 7 and Windows 2008 Server, [install .NET 4.5](http://www.microsoft.com/net/downloads) from Microsoft
 
 2. Requires the Windows SDK:
 
@@ -90,21 +78,8 @@ If you're looking for Visual F# Tools 3.0 specifically, its standalone version c
     
 <br />
 
-### Option 4: Install Tsunami
 
-[Tsunami](http://tsunami.io) is an innovative fully featured F# IDE. 
-It is capable of being embedded directly into other desktop applications and websites.
-
-- Desktop: Install MSI from [Download](http://tsunami.io/download.html)
-- Browser: Embed the object in [Cloud Tsunami](http://tsunami.io/cloud_tsunami.html)
-
-<br />
-
-### Option 5: Build F# from source
-
-* Build and contribute to the F# compiler and library from [the source](http://visualfsharp.codeplex.com)
-
-### Option 6: Run already compiled F# code on servers
+### Option 4: Run already compiled F# code on servers
 
 Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundles with your application.
 The recommended procedure is to bundle this component with your final application.
@@ -112,3 +87,8 @@ The recommended procedure is to bundle this component with your final applicatio
 The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC, as well as the command-line tools *fsc* (the F# compiler) and *fsi* (F# Interactive).
 
 - [Visual F# Tools 3.1.2](http://www.microsoft.com/en-us/download/details.aspx?id=44011)
+
+### Option 5: Build F# from source
+
+* Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
+

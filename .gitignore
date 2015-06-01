@@ -1,3 +1,6 @@
+.paket/paket.exe
+packages/
+paket-files/
 _site/
 *~
 .DS_Store

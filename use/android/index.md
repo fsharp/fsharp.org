@@ -24,4 +24,4 @@ Report problems as follows:
 
 ### Option 2: Build HTML5 Android apps 
 
-* ![logo](/images/thumbs/WebSharper.png)&nbsp;[Using F# + WebSharper for HTML5 Web Applications](/use/html5)
+* [Using F# for HTML5 Web Applications](/use/html5)

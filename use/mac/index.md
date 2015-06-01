@@ -70,10 +70,3 @@ To use the F# 3.1 command-line compiler and tools on Mac OSX in 64-bit mode:
 <br />
 
 
-### Option 4: Learn F# in the Browser on the Mac
-
-* ![logo](/images/thumbs/tryfsharp.jpg)&nbsp;[Learn F# online at Try F#](http://tryfsharp.org)
-
-<br />
-
-

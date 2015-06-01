@@ -1,16 +1,37 @@
 ---
 layout: default
-title: Cloud Programming | The F# Software Foundation
-headline: Cloud Data, Compute and Messaging with F#
+title: Guide - Cloud Programming | The F# Software Foundation
+headline: Guide - Cloud Data, Compute and Messaging with F#
 redirect_from: "/cloud/index.html"
 ---
 
-This is an overview of the packages and tools for scalable data processing with F#,
-particularly for taking advantage of scalable cloud-computing resources.
+Cloud computing relies on leveraging multiple integrated services.  Using multiple services required a unique set 
+of technologies and capabilities, and F# excels in this domain.  With the recent rise of cloud solutions, it has becoming increasingly easy to deploy multiple services "in the cloud", expanding what is possible both by storing large amounts of data and running heavy computations distributed across clusters of machines.  
 
-## Cloud Platforms
+The combination of built in support for asynchronous workflows, data processing capabilities, computation expressions, 
+extensible syntax, composability, expressiveness for numeric code and more make F# uniquely suited to develop 
+scalable cloud solutions efficiently. 
 
-### [Amazon Web Services](http://aws.amazon.com)
+This guide is an overview of the packages and tools for scalable compute, messaging, storage, and data processing with F#, 
+particularly for taking advantage of cloud-computing resources. 
+
+For cloud-hosted web programming and services, refer to the [Web Programming Guide](/guides/web/).
+
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+    <p>This guide includes resources related to cloud programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md">edit this page</a> and send a pull request.</p>
+    <hr />
+    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+</div>              
+
+## Resources for Cloud Programming
+
+* auto-gen TOC:
+{:toc}
+
+
+### Cloud Platforms
+
+#### [Amazon Web Services](http://aws.amazon.com)
 
 Amazon Web Services (AWS) provide a large array of on-demand and managed computing and 
 hosting services. AWS include on-demand and reserved virtual machine instances, 
@@ -22,12 +43,13 @@ Amazon offers a .NET SDK for managing the AWS services,
 storage, compute instances, and other Amazon services.
 
 Some additional resources for using F# and .NET on Amazon's AWS service:
+
  * [AWS Toolkit for Visual Studio](http://aws.amazon.com/visualstudio/)
 
  * [Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
 
-### [Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/)
+#### [Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/)
 
 Windows Azure provides access to  Microsoft's worldwide datacenters through services including 
 virtual machines, geo-redundant storage, database clusters and website deployment.  [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
@@ -57,15 +79,15 @@ detail on the structure of Azure applications.
 
  * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Cloud-Mobile-Solutions-ebook/dp/B00AANFL60) - Book including details on Azure programming with F#
 
+ * [Fake has support for deploying webjobs](http://fsharp.github.io/FAKE/azurewebjobs.html)
+
+ * [Fake also supports packaging cloud services](http://fsharp.github.io/FAKE/azurecloudservices.html)
+
 Below are resources on using Windows Azure from F# and .NET in general:
 
  * [Introduction to Windows Azure](http://www.windowsazure.com/en-us/develop/net/fundamentals/intro-to-windows-azure/)
 
  * [.NET and RESTful management API reference](http://msdn.microsoft.com/en-us/library/windowsazure/ff800682.aspx)
-
- * [Publishing an F#/C# MVC Application to Windows Azure](http://msdn.microsoft.com/en-us/library/vstudio/jj865569.aspx) 
-
- * [Distributed Numerics on Azure with F#](http://blogs.msdn.com/b/cloudnumerics/archive/2012/01/16/cloud-numerics-example-distributed-numerics-on-azure-with-f.aspx)
 
  * [F# 3.0 Azure Samples](http://fsharp3sample.codeplex.com/wikipage?Title=AzureSamples)
 
@@ -73,8 +95,63 @@ Below are resources on using Windows Azure from F# and .NET in general:
 
  * [Running a pure F# Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
 
+### Containers
 
-## Big Data Programming and NoSQL Databases
+#### Docker
+
+[Docker](https://www.docker.io/) automates the deployment of applications inside [software containers](http://en.wikipedia.org/wiki/Operating_system%E2%80%93level_virtualization), by providing an additional layer of abstraction and automation of operating system–level virtualization on Linux.
+
+F# is available by default in [the Docker official images for Mono](https://github.com/docker-library/official-images/blob/master/library/mono).
+
+### Scalable Distributed Programming and Messaging
+
+Distributed compute problem require a wide range of communication capabilities, ranging
+from simple command line argument passing to heavily optimized, low-latency interprocess
+communications. This section lists a wide range of communication libraries available to F#.
+
+#### FSharp.CloudAgent and F# Mailbox Processor
+
+The [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) provides an Agent pattern for inter-thread communication directly within the core F# libraries.
+
+[FSharp.CloudAgent](http://isaacabraham.github.io/FSharp.CloudAgent) is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native MailboxProcessor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
+
+#### Akka.NET
+
+The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications on .NET and Mono.  It is used in production systems by its own contributors.
+
+ * [General information](http://akkadotnet.github.io/)
+
+ * [F#-specific API](http://akkadotnet.github.io/wiki/FSharp%20API)
+
+#### MBrace
+
+The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
+
+ * [Programming model](http://www.m-brace.net/programming-model.html)
+
+ * [Windows Azure support](http://www.m-brace.net/#try)
+
+#### Orleans
+
+The [Orleans](http://research.microsoft.com/en-us/projects/orleans/) framework provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was designed for use in the cloud, and has been used extensively in Microsoft Azure.  A simple ['Hello World' F# sample](https://orleans.codeplex.com/SourceControl/latest#src/samples/FSharpHelloWorld/Grains/Grain1.fs) also available.
+
+#### ZeroMQ
+
+* [F# ZeroMQ bindings](http://zeromq.github.io/fszmq)  An F#-specific binding for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
+
+* [ZeroMQ](http://www.zeromq.org/bindings:clr) - A more general .NET binding for ZeroMQ.
+
+#### MPI
+
+* [MPI .NET](http://osl.iu.edu/research/mpi.net/) - A C# implementation of the popular [Message Passing Interface (MPI) protocol](http://en.wikipedia.org/wiki/Message_Passing_Interface).  
+
+* [MS-MPI](http://msdn.microsoft.com/en-us/library/bb524831.aspx) - Microsoft's implementation of the MPI protocol, available on some versions of Windows Server.
+
+#### Ractor.CLR
+
+[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR) is a Redis-based distributed actors system.
+
+### Scalable Data Programming and NoSQL Databases
 
 F# can be used with many scalable data-storage systems. Some are accessible via the Cloud SDKs outlined above.
 Some further resources for specific systems are:
@@ -90,15 +167,10 @@ clusters of commodity hardware. Hadoop derives from Google's MapReduce and Googl
 
  * [hadoop-sharp](http://code.google.com/p/hadoop-sharp/) - CLR (.NET/Mono) interface for Hadoop 
 
+ * [HadoopFs](https://github.com/isaacabraham/HadoopFs) - A lightweight F# implementation of the Hadoop Streaming API
+
  * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources
 
-#### MBrace
-
-[MBrace](http://m-brace.net/) The MBrace framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
-
- * [Programming model](http://www.m-brace.net/programming-model.html)
-
- * [Windows Azure support](http://www.m-brace.net/azure-tutorial.html)
 
 #### Riak
 
@@ -151,26 +223,3 @@ stores data structured in graphs rather than in tables.
 
  * [Using Neo4j with F# – Cypher 2.0](http://geekswithblogs.net/cskardon/archive/2013/11/27/using-neo4j-with-f-ndash-cypher-2.0.aspx)
 
-## Distributed Communications
-
-Distributed compute problem require a very wide range of communication capabilities, ranging
-from simple command line argument passing to heavily optimized, low-latency interprocess
-communications. This section lists a wide range of communication libraries available to F#.
-
- * [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) - Discusses the Agent pattern for inter-thread and inter-process communication using the F# library's MailboxProcessor.
- 
- * [FSharp.CloudAgent](http://isaacabraham.github.io/FSharp.CloudAgent) - A simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native Mailbox Processor, using Azure Service Bus to provide a cheap and reliable message bus.
-
- * [ServiceStack](http://www.servicestack.net/) - "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all", see also [F# web programming](http://fsharp.org/webstacks/index.html)
-
- * [F# ZeroMQ bindings](http://zeromq.github.io/fszmq) - An F#-specific binding for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
-
- * [ZeroMQ](http://www.zeromq.org/bindings:clr) - A more general .NET binding for ZeroMQ.
-
- * [MPI .NET](http://osl.iu.edu/research/mpi.net/) - A C# implementation of the popular [Message Passing Interface (MPI) protocol](http://en.wikipedia.org/wiki/Message_Passing_Interface).  
-
- * [MS-MPI](http://msdn.microsoft.com/en-us/library/bb524831.aspx) - Microsoft's implementation of the MPI protocol, available on some versions of Windows Server.
-
- * [Windows Communication Foundation](http://msdn.microsoft.com/en-us/library/dd456779.aspx) - A framework from Microsoft for building service-oriented applications.
-
-* ![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR) - Redis based distributed actors system.

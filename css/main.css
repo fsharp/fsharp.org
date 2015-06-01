@@ -30,11 +30,13 @@ blockquote {
 
 h1,
 h2,
-h3, 
-h4, 
+h3,
+h4,
 h5 {
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    padding-top: 70px;
+    margin-top: -70px;
 }
 
 h3 {
@@ -54,30 +56,30 @@ h4 {
     margin-bottom: 0;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    background-color: rgba(0,0,0,.2);
-    color: #fff;
-}
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        background-color: rgba(0,0,0,.2);
+        color: #fff;
+    }
 
-.navbar-default .navbar-nav > li > a {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: 'Rajdhani', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Rajdhani', sans-serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-    background-color: rgba(0,0,0,.2);
-    color: #fff;
-}
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        background-color: rgba(0,0,0,.2);
+        color: #fff;
+    }
 
 nav.affix {
     position: fixed;
@@ -90,25 +92,85 @@ nav.affix {
     border-color: whitesmoke;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: whitesmoke;
-}
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: whitesmoke;
+    }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    border-color: white;
-    background-color: transparent;
-}
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        border-color: white;
+        background-color: transparent;
+    }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: whitesmoke;
     }
 
-    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
-        color: white;
-        background-color: transparent;
-    }
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: white;
+            background-color: transparent;
+        }
 }
+
+.nav > li > a {
+    padding: 10px 13px;
+}
+
+/* Force Bootstrap's table styles */
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+    table > thead > tr > th,
+    table > tbody > tr > th,
+    table > tfoot > tr > th,
+    table > thead > tr > td,
+    table > tbody > tr > td,
+    table > tfoot > tr > td {
+        padding: 8px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+    }
+
+    table > thead > tr > th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #ddd;
+    }
+
+    table > caption + thead > tr:first-child > th,
+    table > colgroup + thead > tr:first-child > th,
+    table > thead:first-child > tr:first-child > th,
+    table > caption + thead > tr:first-child > td,
+    table > colgroup + thead > tr:first-child > td,
+    table > thead:first-child > tr:first-child > td {
+        border-top: 0;
+    }
+
+    table > tbody + tbody {
+        border-top: 2px solid #ddd;
+    }
+
+    table > thead > tr > th,
+    table > tbody > tr > th,
+    table > tfoot > tr > th,
+    table > thead > tr > td,
+    table > tbody > tr > td,
+    table > tfoot > tr > td {
+        border: 1px solid #ddd;
+    }
+
+    table > thead > tr > th,
+    table > thead > tr > td {
+        border-bottom-width: 2px;
+    }
+
+    table > tbody > tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
 
 /* Footer */
 
@@ -144,25 +206,25 @@ body {
     padding-bottom: 0;
 }
 
-.jumbotron h1 {
-    font-size: 50px;
-}
+    .jumbotron h1 {
+        font-size: 50px;
+    }
 
-.jumbotron p {
-    margin-bottom: 5px;
-    font-size: 19px;
-}
+    .jumbotron p {
+        margin-bottom: 5px;
+        font-size: 19px;
+    }
 
-.lead, .jumbotron .lead {
-    font-size: 28px;
-    letter-spacing: 1px;
-    line-height: 40px;
-}
+    .lead, .jumbotron .lead {
+        font-size: 28px;
+        letter-spacing: 1px;
+        line-height: 40px;
+    }
 
-.jumbotron .lead {
-    font-size: 30px;
-    font-family: 'Rajdhani', sans-serif;
-}
+    .jumbotron .lead {
+        font-size: 30px;
+        font-family: 'Rajdhani', sans-serif;
+    }
 
 #jumbotron {
     width: 90%;
@@ -180,10 +242,10 @@ body {
     margin: 5px;
 }
 
-.btn-circle img {
-    margin-top: 3px;
-    margin-left: -3px;
-}
+    .btn-circle img {
+        margin-top: 3px;
+        margin-left: -3px;
+    }
 
 #logo {
     margin: 0 auto;
@@ -205,10 +267,10 @@ body {
     width: auto;
 }
 
-#download-btn:hover {
-    background-color: white;
-    color: black;
-}
+    #download-btn:hover {
+        background-color: white;
+        color: black;
+    }
 
 .btn-menu {
     margin-top: 10px;
@@ -231,22 +293,22 @@ body {
     text-align: center;
 }
 
-.nav-tabs-big > li a {
-    padding: 15px;
-    color: black;
-    font-size: 30px;
-}
+    .nav-tabs-big > li a {
+        padding: 15px;
+        color: black;
+        font-size: 30px;
+    }
 
-.nav-tabs-big > li.active a, .nav-tabs-big > li a:hover {
-    border: none;
-    border-bottom: 2px solid #c4c4c4;
-}
+        .nav-tabs-big > li.active a, .nav-tabs-big > li a:hover {
+            border: none;
+            border-bottom: 2px solid #c4c4c4;
+        }
 
-.nav-tabs-big > li.active > a:hover {
-    background: #eee;
-    border: none;
-    border-bottom: 2px solid #c4c4c4;
-}
+    .nav-tabs-big > li.active > a:hover {
+        background: #eee;
+        border: none;
+        border-bottom: 2px solid #c4c4c4;
+    }
 
 .tab-pane .row {
     padding: 20px;
@@ -274,9 +336,9 @@ pre {
     width: 75%;
 }
 
-#news-list > li {
-    background-color: #eef1f5;
-}
+    #news-list > li {
+        background-color: #eef1f5;
+    }
 
 #news-rss > img {
     vertical-align: baseline;
@@ -289,6 +351,14 @@ pre {
 
 .carousel-control {
     width: 7%;
+    color: #eef1f5;
+    opacity: 1.0;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
 }
 
 .carousel-img {
@@ -315,22 +385,27 @@ pre {
     margin-top: 20px;
 }
 
-.menu ul li, .menu div a {
-    margin-bottom: 9px;
+    .menu ul li, .menu div a {
+        margin-bottom: 9px;
+    }
+
+.testimonial {
+    color: black;
 }
 
-.testimonial {color: black;}
-
-.testimonial:hover {text-decoration: none;}
+    .testimonial:hover {
+        text-decoration: none;
+    }
 
 @media screen and (max-width: 768px) {
 
-    .jumbotron .lead {font-size: 25px;}
+    .jumbotron .lead {
+        font-size: 25px;
+    }
 
     #sponsors-carousel, .carousel-control {
         height: 240px;
     }
-
 }
 
 /* Footer */
@@ -346,13 +421,18 @@ pre {
     border-radius: 40px;
 }
 
-#footer-arrow img {
-    padding-top: 15px;
-}
+    #footer-arrow img {
+        padding-top: 15px;
+    }
 
 /* ============
    Testimonials
    ============ */
+
+.testimonial-anchor {
+    padding-top: 50px;
+    margin-top: -50px;
+}
 
 .testimonials p {
     margin-left: 200px;
@@ -374,12 +454,12 @@ pre {
     color: #606060;
 }
 
-.testimonials blockquote p {
-    padding: 0px;
-    margin: 0px 10px 0px 0px;
-    font-style: italic;
-    font-size: 18px;
-}
+    .testimonials blockquote p {
+        padding: 0px;
+        margin: 0px 10px 0px 0px;
+        font-style: italic;
+        font-size: 18px;
+    }
 
 .testimonials hr {
     clear: both;
@@ -394,10 +474,10 @@ pre {
     font-size: 85%;
 }
 
-.testimonials ol strong {
-    font-size: 120%;
-    font-weight: normal;
-}
+    .testimonials ol strong {
+        font-size: 120%;
+        font-weight: normal;
+    }
 
 div#contentMain.testimonials ol li {
     list-style-type: none;
@@ -449,3 +529,18 @@ div#contentMain.testimonials ul li {
     padding: 0px;
 }
 
+a[href^="http://"]:after, a[href^="https://"]:after {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 7px;
+}
+
+a[href^="http://foundation.fsharp.org"]:after, a[href^="http://fsharp.org"]:after, a[href^="https://github.com/fsharp"]:after, a.no_icon:after {
+  content:"" !important;
+  padding-left: 0;
+}
