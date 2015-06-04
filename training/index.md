@@ -37,6 +37,11 @@ This two day Fast Track to F# course is what you need to start using F# in pract
 of functional and concurrent programming concepts. The course is designed by F# experts Tomas Petricek 
 and Phil Trelford and builds on their real-world experience with F#.
 
+### [Bossart Analytics - Functional Software F# Training ](http://functionalsoftware.net/fsharp-schulungs-kurse-inhouse-training-in-deutsch-funktionale-programmierung-266/)
+F# Inhouse Schulungskurse: Wir bieten 2-tägige F# Kurse als Inhaus-Kurse bei Ihnen vor Ort an. 
+Kurs: Funktionale Programmierung mit F# und .NET
+(Schweiz, Deutschland, Österreich)
+
 ### [Chris Marinos' F# Training](http://chrismarinos.com/about/)
 
 [Chris Marinos](http://chrismarinos.com/about/) offers hands-on, on-site trainings based around 
