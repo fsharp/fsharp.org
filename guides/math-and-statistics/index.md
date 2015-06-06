@@ -67,10 +67,10 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
    
    License: MIT/X11
    
- * [DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automatic 
+ * [DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic 
    differentiation (AD) library for exact and efficient calculation of derivatives. Also includes symbolic and numerical differentiation.
 
-   AD allows exact and efficient calculation of derivatives, by systematically applying the chain rule of calculus at the elementary operator level. AD is different from numerical differentiation, which is prone to truncation and round-off errors, and symbolic differentiation, which is exact but not efficient for run-time calculations and can only handle closed-form mathematical expressions.
+   AD allows exact and efficient calculation of derivatives, by systematically invoking the chain rule of calculus at the elementary operator level during program execution. AD is different from numerical differentiation, which is prone to truncation and round-off errors, and symbolic differentiation, which suffers from expression swell and cannot handle algorithmic control flow.
 
    Using the DiffSharp library, derivative calculations (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products) can be incorporated with minimal change into existing algorithms.
    
