@@ -24,7 +24,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  <img src="http://fsharp.org/img/logo/fsharp128.png" alt="logo" style="height:32px">&nbsp;[fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library. See also the [Visual F# Tools](https://github.com/Microsoft/visualfsharp) and [Contributing to the F# Language and Compiler](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).
 
-*  ![logo](/images/thumbs/FSharp.Compiler.Service.png)&nbsp;[fsharp/FSharp.Compiler.Service](https://github.com/fsharp/FSharp.Compiler.Service) - The F# Compiler as a service
+*  ![logo](/images/thumbs/FSharp.Compiler.Service.png)&nbsp;[fsharp/FSharp.Compiler.Service](http://fsharp.github.io/FSharp.Compiler.Service/) - The F# Compiler, F# Interactive scripting engine and F# editing services as a component library.
 
 <br />
 
@@ -257,7 +257,12 @@ Contributions welcome!
 
 *  [Freya](https://github.com/freya-fs/freya) - F# support for [OWIN](http://owin.org/). Freya is a functional web stack, built on top of OWIN, that offers additional layers for constructing OWIN pipelines, types based on relevant RFC definitions, a router, and an [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram) abstraction similar to that found in [webmachine](https://github.com/basho/webmachine).
 
-* [FsBlog](https://github.com/fsprojects/FsBlog/) - Blog aware, static site generation using F#
+* [FsBlog](https://github.com/fsprojects/FsBlog/) - A blog aware, static site generation using F#. Inpired by the likes of Jekyll and Octopress.
+
+* [Firm](http://andagr.github.io/Firm/) - A blog aware, static site generation using F#. It supports stand-alone pages, blog posts, rss, tags (tag cloud) and post archive. Templates are written in Razor. Posts and pages are written in Markdown.
+
+* [Nini](https://github.com/YoloDev/Nini) - A micro web framework for DNX (ASP.NET vNext).
+
 
 
 <br />
