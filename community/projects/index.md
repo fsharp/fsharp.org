@@ -72,6 +72,8 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](https://github.com/fsprojects/FSharpLint) - A lint tool for F#.
 
+*  [F# SonarQube Plugin](https://github.com/jmecosta/sonar-fsharp-plugin) - F# support for SonarQube
+
 <br />
 
 
