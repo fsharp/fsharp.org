@@ -200,7 +200,7 @@ Contributions welcome!
 *  ![logo](/images/thumbs/fuzzy.png)&nbsp;[FSharp.Fuzzy](http://fsprojects.github.io/FSharp.Fuzzy/) - A basic math library of fuzzy
    and interval calculus with examples
 
-*  ![logo](/images/thumbs/DiffSharpLogoSmall.png)&nbsp;[DiffSharp](http://gbaydin.github.io/DiffSharp/) - An automatic differentiation (AD) library for exact and efficient calculation of derivatives. Also includes symbolic and numerical differentiation.
+*  ![logo](/images/thumbs/DiffSharpLogoSmall.png)&nbsp;[DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library for exact and efficient calculation of derivatives (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products). Also includes symbolic and numerical differentiation.
 
 *  ![logo](/images/thumbs/FsAlgLogoSmall.png)&nbsp;[FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library supporting generic types.
 
