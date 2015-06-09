@@ -33,9 +33,17 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](https://github.com/fsprojects/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff).
 Contributions welcome!
 
-*  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/fsharpbinding) - F# Language Bindings for Open Editors (Emacs, MonoDevelop, Xamarin Studio, Vim, Sublime Text)
+*  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/sublime-fsharp-package) - F# Language Binding Sublime Text
+
+*  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/vim-fsharp) - F# Language Binding for Vim
+
+*  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin) - F# AddIn for MonoDevelop, Xamarin Studio
+
+*  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/emacs-fsharp-mode) - F# Mode for Emacs
 
 *  [LightTable plugin for F#](https://github.com/enricosada/LightTable-FSharp) - LightTable plugin for F# language
+
+*  ![logo](/images/thumbs/fantomas.png)&nbsp;[FsAutoComplete](https://github.com/fsharp/FsAutoComplete) - F# command line tool run as background process to serve information for editor tools such as Emacs, Vim and Sublime Text
 
 *  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter, also includes with the [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)
 
