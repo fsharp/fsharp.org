@@ -251,9 +251,9 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/suave.png)&nbsp;[Suave](http://suave.io) - Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
-*  ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](https://bitbucket.org/IntelliFactory/websharper) - WebSharper is an F#-based web programming platform
+*  ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com) - WebSharper is an F#-based web programming platform
    including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open
-   source and on bitbucket.org. Contributors welcome!
+   source and on GitHub. Contributors welcome!
 
 *  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with autocomplete, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
 
