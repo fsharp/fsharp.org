@@ -77,7 +77,7 @@ to turn off console processing.
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
 
-* Emacs. There is an [F# mode for Emacs](http://fsharp.github.com/fsharpbinding/) that extends Emacs with syntax highlighting and much more.
+* Emacs. There is an [F# mode for Emacs](https://github.com/fsharp/emacs-fsharp-mode) that extends Emacs with syntax highlighting and much more.
 
   For console-only users, install the [editors/emacs-nox11](http://www.freshports.org/editors/emacs-nox11/) port:
 
