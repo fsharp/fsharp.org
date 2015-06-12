@@ -18,7 +18,7 @@ You can now create a new F# Android app, e.g. an "F# Honeycomb Application". Bui
 Report problems as follows:
 
 * For most issues and discussions, use the Xamarin forums and bug tracker
-* For the F# language binding, see [the F# Binding repository](http://github.com/fsharp/fsharpbinding)
+* For the F# language binding in Xamarin Studio, see [the F# Binding repository](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin)
 
 <br />
 
