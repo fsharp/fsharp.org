@@ -51,19 +51,25 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * [Xamarin Studio](http://xamarin.com/studio) has built-in support for F# development on OSX and Windows.
 
-* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](https://github.com/fsharp/fsharpbinding/tree/master/emacs) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more. 
+* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](https://github.com/fsharp/emacs-fsharp-mode) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more. 
 
 * [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding).
 
   See [the installation instructions for MonoDevelop on Linux](http://www.monodevelop.com/download/).
 
-  Then install [the F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding) by adding it from the AddIn Manager, or building/installing it yourself from source.
+  Then install [the F# AddIn for MonoDevelop](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin) by adding it from the AddIn Manager, or building/installing it yourself from source.
   
-* Sublime Text 2
+* Atom
 
   Use and contribute to:
   
-  * [Sublime Text Support for F#](https://github.com/fsharp/fsharpbinding/blob/master/sublimetext/README.md)
+  * [Atom  Support for F#](https://github.com/fsprojects/atom-fsharp)
+
+* Sublime Text 
+
+  Use and contribute to:
+  
+  * [Sublime Text Support for F#](https://github.com/fsharp/sublime-fsharp-package)
 
   See also:
   
@@ -74,7 +80,7 @@ Some editors have specific support for F#, either builtin or through addons prov
 
   Use and contribute to:
   
-  * [Vim support for F#](https://github.com/fsharp/fsharpbinding/blob/master/vim/README.mkd)
+  * [Vim support for F#](https://github.com/fsharp/vim-fsharp/)
 
   See also:
 
@@ -222,6 +228,8 @@ In the wider F# exosystem there are many cross-platform and/or portable packages
 and libraries. Here are some examples:
 
 * [Math.Net Numerics](http://numerics.mathdotnet.com/) - Math.NET Numerics provides cross-platform and portable  methods and algorithms for numerical computations in science, engineering and everyday use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integral transforms and more.
+
+* [Suave](http://suave.io/) - "A simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition"
 
 * [ServiceStack](http://www.servicestack.net/) - "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all"
 
