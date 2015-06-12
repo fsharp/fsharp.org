@@ -20,8 +20,8 @@ You can contribute to this page [by proposing an edit](https://github.com/fsharp
 |:--------------------|:------------------|:------------------|
 | [Visual F# Tools](http://msdn.microsoft.com/en-us/library/dd233154.aspx)  | [Make suggestion](http://visualstudio.uservoice.com/forums/121579-visual-studio/category/30935-languages-f-tools)     | [Report/Fix an issue](https://github.com/Microsoft/visualfsharp/issues) |
 | [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)  | [Make suggestion](http://vfpt.uservoice.com/)     |  [Report/Fix an issue](https://github.com/fsprojects/VisualFSharpPowerTools/) |
-| [Xamarin Studio](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/) | [Make suggestion](http://fsharpbinding.uservoice.com/)     |   [Report/Fix an issue](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin#f-language-support-for-monodevelop--xamarin-studio/) |
-| [Other F# Editing Tools ](http://fsharp.github.io/fsharpbinding/) ([Emacs](http://fsharp.github.io/fsharpbinding/), [MonoDevelop](http://fsharp.github.io/fsharpbinding/), ...) | [Make suggestion](http://fsharpbinding.uservoice.com/)     |   [Report/Fix an issue](http://fsharp.github.io/fsharpbinding/) |
+| [Xamarin Studio](http://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/) | [Make suggestion](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin/issues)     |   [Report/Fix an issue](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin#f-language-support-for-monodevelop--xamarin-studio/) |
+| Other F# Editing Tools | ([Emacs](https://github.com/fsharp/emacs-fsharp-mode), [Vim](https://github.com/fsharp/vim-fsharp), [Vim](https://github.com/fsharp/vim-fsharp), [Sublime](https://github.com/fsharp/sublime-fsharp-package), [Atom](https://github.com/fsprojects/atom-fsharp), [MonoDevelop](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin), ...) |      |  
 
 
 ### Other Components and Tools
