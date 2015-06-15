@@ -50,6 +50,8 @@ It's a lot of fun, and shows how the functional approach works with real-world p
 
 ### [GROSSWEBER F# Training](http://grossweber.com/trainings/methodik/funktionale-programmierung-mit-f-sharp/)
 
+<img src="/img/sup/grossweber.png" style="float:right;margin:5px 0px 5px 25px;" />
+
 Provides training and two day courses for F# and Functional Programming.
 
 ### [Intellifactory F# Training](http://intellifactory.com/Training.aspx)
