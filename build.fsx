@@ -28,7 +28,7 @@ let site = "_site"
 let port = 8080
 
 /// Directories that should be copied to the output directory
-let copy = [ "css"; "img"; "js"; "about/files" ]
+let dirsToCopy = [ "css"; "img"; "js"; "about/files" ]
 
 /// Directories and files that should be skipped (when looking
 /// for source files)
@@ -141,7 +141,7 @@ let generate () =
     File.WriteAllText(output, outputHtml)
 
 let copy() = 
-  for subdir in copy do
+  for subdir in dirsToCopy do
     ensureDirectory (root -/- site -/- subdir)
     CopyRecursive (root -/- subdir) (root -/- site -/- subdir) true |> ignore
 
