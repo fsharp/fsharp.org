@@ -165,7 +165,7 @@ concise. You can easily leverage your existing .NET code to help you test.
 ### Tutorials
 
 * [Web Application Development in F# Using ASP.NET MVC](http://blog.tamizhvendan.in/blog/2014/12/10/web-application-development-in-fsharp-using-asp-dot-net-mvc/)
-
+* [Suave Music Store Tutorial](https://www.gitbook.com/book/theimowski/suave-music-store) for creating applications with Suave.IO
 
 ### Books
 
