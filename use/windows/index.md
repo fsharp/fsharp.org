@@ -81,7 +81,7 @@ If you're looking for Visual F# Tools 3.0 specifically, its standalone version c
 
 ### Option 4: Run already compiled F# code on servers
 
-Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundles with your application.
+Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundled with your application.
 The recommended procedure is to bundle this component with your final application.
 
 The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC, as well as the command-line tools *fsc* (the F# compiler) and *fsi* (F# Interactive).
