@@ -69,7 +69,7 @@ Some editors have specific support for F#, either builtin or through addons prov
 
   Use and contribute to:
   
-  * [Sublime Text Support for F#](https://github.com/fsharp/sublime-fsharp-package)
+  * [F# development tools for Sublime Text 3](https://github.com/fsharp/sublime-fsharp-package)
 
   See also:
   
