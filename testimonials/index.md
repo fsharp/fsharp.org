@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: Testimonials | The F# Software Foundation
 headline: Testimonials and Quotes
@@ -1349,7 +1349,7 @@ I personally enjoyed the experience of building the entire system using F#, I be
 <a id="green-eagle-solutions" class="testimonial-anchor"> &nbsp; </a>
 ---
 
-> The use of F# demonstrates a sweet spot for the language within enterprise software
+> F# terse syntax made the final code look really similar to the algorithm we wrote at first
 
 1. **Green Eagle Solutions**
 2. [permalink](#green-eagle-solutions)
