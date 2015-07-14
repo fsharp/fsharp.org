@@ -10,6 +10,9 @@ If you provide training for F#, please submit your material by [editing this pag
 
 ## Professional Training
 
+### [PluralSight: F# Jumpstart](http://pluralsight.com/training/Courses/TableOfContents/fsharp-jumpstart)
+
+Authored by Kit Eason, this online course introduces the F# language from scratch. It is suitable for anyone with some basic development experience.
 
 ### [PluralSight: F# Functional Data Structures](http://pluralsight.com/training/Courses/TableOfContents/fsharp-functional-data-structures)
 
