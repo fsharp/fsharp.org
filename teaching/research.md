@@ -24,7 +24,7 @@ To add a paper to this list, log on to GitHub, [edit this page](https://github.c
    event-based programming and "joinads", a research extension of F# _computation expression_ syntax
    for concurrent, reactive and parallel programming patterns.
 
- * **[Parallel and Distributed programming](#distributed-and-parallel-programming)** - publications
+ * **[Parallel, Distributed and Cloud programming](#distributed-and-parallel-programming)** - publications
    related to parallel and distributed programming using F#.
 
  * **[Functional programming](#functional-programming)** - publications
