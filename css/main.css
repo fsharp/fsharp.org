@@ -518,12 +518,12 @@ div#contentMain.testimonials ul li {
 }
 
 .calloutBox h1 {
-    font-size: 180%;
+    font-size: 150%;
     margin: 10px 10px 10px 0px;
 }
 
 .calloutBox p {
-    font-size: 100%;
+    font-size: 80%;
     margin: 0px 0px 6px 0px;
     line-height: normal;
     padding: 0px;
