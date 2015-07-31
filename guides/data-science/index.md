@@ -25,8 +25,7 @@ interoperability with these systems, see:
 
 Many other resources are available for integrating F#, C# and .NET with these systems. If a resource specific
 to F# can't be found, then search for C# instead and adjust the technique appropriately.
-
-Data Science also requires strong support for many technologies covered in other Guides.  For detailed information, refer to the guides for:
+Data science also requires strong support for many technologies covered in other Guides.  For detailed information, refer to the guides for:
 
 * [Math and Statistics](/guides/math-and-statistics/)
 * [Data Access](/guides/data-access/)
@@ -46,6 +45,15 @@ Data Science also requires strong support for many technologies covered in other
 
 * auto-gen TOC:
 {:toc}
+
+### Integrated Packages
+
+[FsLab](http://fslab.org/) is an integrated, cross-platform collection of open source data science pacakges for F#, including FSharp.Data, Deedle, RProvider, Math.NET Numerics and more.
+
+  * [Understanding the world with F# (article)](http://www.thedevelopermag.com/understanding-world-f/)
+
+  * [Understanding the world with F# (video)](http://channel9.msdn.com/posts/Understanding-the-World-with-F)
+
 
 ### Data Visualization
 
@@ -73,10 +81,6 @@ It uses a design similar to the Pandas library from Python and the 'tseries' or 
 with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
 work well for exploratory programming using F# and C# interactive console, but can be also used in 
 efficient compiled .NET code. 
-
-* [Understanding the world with F# (article)](http://www.thedevelopermag.com/understanding-world-f/)
-* [Understanding the world with F# (video)](http://channel9.msdn.com/posts/Understanding-the-World-with-F)
-
 
 
 <a id="excel-interop" > </a>
