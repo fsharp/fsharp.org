@@ -12,7 +12,7 @@ algorithm, expressions, patterns and other.
 
 ### F# 2.0 
 
-  * [The F# 2.0 Language Specification (final version, PDF)](http://www.scribd.com/doc/40950295/FSharp-Language-Specification-2-0) - The final version of the F# 2.0 language
+  * [The F# 2.0 Language Specification (final version, PDF)](2.0/FSharpSpec-2.0-April-2012.pdf) - The final version of the F# 2.0 language
     specification.
 
 ### F# 3.0 
