@@ -31,8 +31,6 @@ It implements F# type providers for working with structured file formats (CSV, H
 
 Direct access to CSV and other log file formats is simple. For example, see [Log File Analysis with F#](http://jyliao.blogspot.co.uk/2011/03/log-analysis-with-f.html)
 
-#### Json.NET
-
 [Json.NET](http://json.codeplex.com/) provides full support for serialization of F# types to and from JSON.
 
 
