@@ -168,6 +168,16 @@ _Tomas Petricek and Phillip Trelford_
 
 F# Deep Dives presents a collection of real-world F# techniques, each written by expert practitioners. Each chapter presents a new use case where you'll read how the author used F# to solve a complex problem more effectively than would have been possible using a traditional approach. You'll not only see how a specific solution works in a specific domain, you'll also learn how F# developers approach problems, what concepts they use to solve them, and how they integrate F# into existing systems and environments.
 
+
+### [Machine Learning Projects for .NET Developers](https://books.google.com/books?isbn=1430267674)
+
+<img src="files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Mathias Brandewinder_
+
+Machine Learning Projects for .NET Developers shows you how to build smarter .NET applications that learn from data, using simple algorithms and techniques that can be applied to a wide range of real-world problems.
+
+
 ## F# Books (Coming Soon)
 
 ### [Understanding Functional Programming](https://leanpub.com/understandingfunctionalprogramming)
@@ -177,16 +187,6 @@ F# Deep Dives presents a collection of real-world F# techniques, each written by
 _Scott Wlaschin_
 
 A practical approach with examples in F#. Are you an experienced C#, Java or Python developer? Do you want to understand what all the fuss about functional programming is about? Designed for beginners, this book will explain all the core concepts of functional programming in a practical way with no maths or jargon.
-
-
-
-### [Machine Learning Projects for .NET Developers](https://books.google.com/books?isbn=1430267674)
-
-<img src="files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
-
-_Mathias Brandewinder_
-
-Machine Learning Projects for .NET Developers shows you how to build smarter .NET applications that learn from data, using simple algorithms and techniques that can be applied to a wide range of real-world problems.
 
 ## Online Tutorials
 
