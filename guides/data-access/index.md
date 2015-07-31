@@ -41,24 +41,15 @@ Direct access to CSV and other log file formats is simple. For example, see [Log
 A wide range of high-quality libraries exist for SQL data access from F#. Many can be found on [NuGET](http://nuget.org).
 Some resources are listed below:
 
-#### FSharp.Data.SqlClient
+* [FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - Use SQL to specify your queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code. Requries SQL Server 2012+ or SQL Azure.
 
-[FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - Use SQL to specify your queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code. Requries SQL Server 2012+ or SQL Azure.
+* [FSharp.Data.SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL database type provider, supporting LINQ queries, schema exploration, individuals and much more besides. Requires SQL Server, SQLite, PostgreSQL, Oracle, MySQL or Microsoft Access.
 
-#### FSharp.Data.SQLProvider
+* [SqlDataConnection Type Provider](http://msdn.microsoft.com/en-us/library/hh361033.aspx) - A type provider for accessing SQL using F# 3.0 LINQ queries. Requires Microsoft SQL Server.
 
-[FSharp.Data.SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL database type provider, supporting LINQ queries, schema exploration, individuals and much more besides. Requires SQL Server, SQLite, PostgreSQL, Oracle, MySQL or Microsoft Access.
+* [SqlEntityConnection Type Provider](http://msdn.microsoft.com/en-us/library/hh361035.aspx) - A type provider for accessing SQL using F# 3.0 LINQ queries and Entity Framework. Works with a broad range of databases.
 
-#### SqlDataConnection Type Provider
-The [SqlDataConnection Type Provider](http://msdn.microsoft.com/en-us/library/hh361033.aspx) - For accessing SQL using F# 3.0 LINQ queries. Requires Microsoft SQL Server.
-
-#### SqlEntityConnection Type Provider
-
-[The SqlEntityConnection Type Provider](http://msdn.microsoft.com/en-us/library/hh361035.aspx) - For accessing SQL using F# 3.0 LINQ queries and Entity Framework. Works with a broad range of databases.
-
-#### ADO.NET
-
-[ADO.NET](http://msdn.microsoft.com/en-us/library/aa286484.aspx) - A set of classes that expose data access services to the .NET programmer. Works with a very broad range of databases.
+* [ADO.NET](http://msdn.microsoft.com/en-us/library/aa286484.aspx) - A set of .NET classes exposing data access services to the .NET programmer. Works with a very broad range of databases.
 
 ### Web Data Stores
 
