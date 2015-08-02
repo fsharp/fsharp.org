@@ -63,12 +63,12 @@ following requirements and installation steps:
    
    - On Windows 7 or Windows 2008 Server use the [Windows 7 and .NET 4.0 SDK](http://www.microsoft.com/download/details.aspx?id=8279) from Microsoft
    
-3. [Install the free Visual F# Tools 3.1.2](http://www.microsoft.com/download/details.aspx?id=44011) from Microsoft
+3. [Install the free Visual F# Tools 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=48179) from Microsoft
 
    Alternatively, do a quiet install from a PowerShell administrator prompt (the URL is the redirect of the above). 
 
         $webclient = New-Object Net.WebClient
-        $url = 'http://download.microsoft.com/download/E/A/3/EA38D9B8-E00F-433F-AAB5-9CDA28BA5E7D/FSharp_Bundle.exe'
+        $url = 'http://download.microsoft.com/download/9/1/2/9122D406-F1E3-4880-A66D-D6C65E8B1545/FSharp_Bundle.exe'
         $webclient.DownloadFile($url, "$pwd\FSharp_Bundle.exe")
         .\FSharp_Bundle.exe /install /quiet
 
@@ -90,7 +90,7 @@ The recommended procedure is to bundle this component with your final applicatio
 
 The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC, as well as the command-line tools *fsc* (the F# compiler) and *fsi* (F# Interactive).
 
-- [Visual F# Tools 3.1.2](http://www.microsoft.com/en-us/download/details.aspx?id=44011)
+- [Visual F# Tools 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=48179)
 
 ### Option 5: Build F# from source
 
