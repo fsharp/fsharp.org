@@ -1363,3 +1363,25 @@ We have also started to use F# directly in our components to implementing the co
 F# terse syntax made the final code look really similar to the algorithm we wrote at first in formal language. Also, we've come to really appreciate the numerous metaprogramming libraries in the F# ecosystem: we particularly like FSharp.Formatting and have started to adopt the literate programming style to integrate as much as possible the code and the documentation and prevent them losing sync.
 
 <div class="keywords">energy, renewable, scada, scripting, literate programming</div>
+
+<a id="james-moore" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> Using F# for cross-platform mobile development (Android, iOS) saves development time
+
+1. James Moore
+2. Senior Software Developer
+3. [Digium, Inc](http://digium.com/)
+4. [permalink](#james-moore)
+
+We wanted to develop our Android and iOS applications using as much shared code as possible.
+We built a reactive architecture using F# actors (aka mailbox processors) to build a very robust
+multithreaded system that was easily portable between Android and iOS.
+
+Our F# actors (shared across iOS and Android) expose .Net IObservables that are consumed by UI systems written for the native platforms.
+Dividing the system in that way allowed for testable multithreaded code that would have been difficult to write in other .Net languages.
+
+<div class="keywords">
+iOS,Android,Xamarin,reactive
+</div>
+
