@@ -262,6 +262,27 @@ all of our social games!
 
 <div class="keywords">gaming, agents, cloud, big data, scalability</div>
 
+<a id="james-moore" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> Using F# for cross-platform mobile development (Android, iOS) saves development time
+
+1. James Moore
+2. Senior Software Developer
+3. Digium, Inc
+4. [permalink](#james-moore)
+
+We wanted to develop our Android and iOS applications using as much shared code as possible.
+We built a reactive architecture using F# actors (aka mailbox processors) to build a very robust
+multithreaded system that was easily portable between Android and iOS.
+
+Our F# actors (shared across iOS and Android) expose .Net IObservables that are consumed by UI systems written for the native platforms.
+Dividing the system in that way allowed for testable multithreaded code that would have been difficult to write in other .Net languages.
+
+<div class="keywords">
+iOS,Android,Xamarin,reactive
+</div>
+
 <a id="simard-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
@@ -323,7 +344,7 @@ is a compelling option.
 
 In recent years many Architects have discovered that they can greatly enlarge their design repertoire by the use of parametric design, programming or scripting. Architects can now quickly and easily explore new geometries previously unseen in Architecture. Besides being designed in a novel way these geometries can also be exactly represented and reasoned about in terms of structural feasibility and manufacturing constraints. These facts take new geometries out of the dreams of Architects and make them real candidates for construction.
 
-One such project is the *Louvre Abu Dhabi* by Jean Nouvel. Waagner-Biro was awarded the construction contract for the Dome. For the cladding of this dome more than 450´000 individual cutting and drilling patterns of custom aluminium extrusions had to be described and automated. The sheer scale and complexity of the cladding on the dome required us to re-evaluate our parametric design approach. I developed an F# application to represent and organize all cladding elements of the dome. It includes a small geometry kernel and an adapted version of the Half Edge Data Structure to efficiently query the neighbourhood of each element. I used [Rhino](http://www.rhino3d.com/) and its .NET API to host the F# DLL for drawing and visualisation. This application enabled us to have an integrated workflow from the main geometry setout all the way down to the manufacturing data in a single parametric model. This project was the first use of F# at Waagner-Biro for a large scale project. The switch to F# from dynamic scripting languages helped to reduce development time and execution time. The strongly typed environment, algebraic data types and immutable data helped to avoid a whole range of bugs and fits well the domain of generating static 3d geometry. I see great potential for F# to be used as scripting languages in CAD, especially since most big CAD packages already offer a .NET API.
+One such project is the *Louvre Abu Dhabi* by Jean Nouvel. Waagner-Biro was awarded the construction contract for the Dome. For the cladding of this dome more than 450´000 individual cutting and drilling patterns of custom aluminium extrusions had to be described and automated. The sheer scale and complexity of the cladding on the dome required us to re-evaluate our parametric design approach. I developed an F# application to represent and organize all cladding elements of the dome. It includes a small geometry kernel and an adapted version of the Half Edge Data Structure to efficiently query the neighbourhood of each element. I used Rhino and its .NET API to host the F# DLL for drawing and visualisation. This application enabled us to have an integrated workflow from the main geometry setout all the way down to the manufacturing data in a single parametric model. This project was the first use of F# at Waagner-Biro for a large scale project. The switch to F# from dynamic scripting languages helped to reduce development time and execution time. The strongly typed environment, algebraic data types and immutable data helped to avoid a whole range of bugs and fits well the domain of generating static 3d geometry. I see great potential for F# to be used as scripting languages in CAD, especially since most big CAD packages already offer a .NET API.
 
 (Image credits: Jean Nouvel Architects)
 
@@ -722,7 +743,7 @@ trying to get this concept down to earth, with the purpose of making it accessib
 to simple-minded people like ourselves. The reader may judge how far we 
 succeeded by studying Chapter 12 of the book. 
 
-Writing this [textbook](http://www.cambridge.org/9781107019027) with Michael has been an exciting experience.
+Writing this textbook with Michael has been an exciting experience.
 
 <a id="dsyme-ad-predict-1" class="testimonial-anchor"> &nbsp; </a>
 ---
@@ -1106,7 +1127,7 @@ and understanding of a programmer.
 1. **Rob Fatland**, Microsoft Research
 2. [permalink](#microsoft-narwhal-1)
 
-We use F# in oceanographic research to connect multiple visualizations together in time and space, which is map-plane location and depth. We began by building our Narwhal Developers Library for [Layerscape](http://layerscape.org) 
+We use F# in oceanographic research to connect multiple visualizations together in time and space, which is map-plane location and depth. We began by building our Narwhal Developers Library for Layerscape 
 in C# with emphasis on visualizing flow lines and understanding drift experiment data. These data are quite complex, involving physical ocean state and measurement of microbial metabolic processes, consolidating remote sensing and passive drifters, and adding to all this current measurements with the tracks of autonomous robots. Our technical term for the visualization challenge is ‘horrible’. 
 
 To cope with the horrible we began adding F# scripts; and this has been extremely productive, particularly in morphing ideas about data exploration into real tools quickly. Our most interesting achievement to date is to wire a chart into a 4D visual environment. The set-up is like this: The scientist sees two views of the data: First color coded structure in a curtain plot of time versus depth (chlorophyll coded as color for example), and second this same data time-boxed in the dynamic Worldwide Telescope (WWT) visualization engine. F# is used to wire them together: Left click (and drag) in the chart to scroll the WWT clock back and forth.  Right-click + drag in the chart to select a subset of the data which is then used to construct a new (small) advection visualization. Because the selected pieces are small and chosen interactively we get around the horrible problem of seeing everything at once.  It is like seeing an entire forest and making all but a few curious trees vanish. So F# has been a great way to make rapid progress, and fun to learn as well.  
@@ -1278,7 +1299,7 @@ Language features like record types, discriminated unions and type inference als
 
 Vector code is a code generator for iOS and OsX generating code in Objective C, Swift and C#. It works with vector graphics, parses and runs SVG. It is developed with F# on a Mac.
 
-F# is a first class language for Mac OsX. Thanks to the open source compiler, mono and xamarin, I was able to build a vector drawing, code generator software with F#. It is really amazing experience! The tooling is great and keeps improving. The compiler and the language  are basically the same which is fantastic!
+F# is a first class language for Mac OsX. Thanks to the open source compiler, Mono and Xamarin, I was able to build a vector drawing, code generator software with F#. It is really amazing experience! The tooling is great and keeps improving. The compiler and the language  are basically the same which is fantastic!
 
 F# is a powerful language and it is great to do cross platform development with it. I used heavily quotations for generating code in different languages on vector code. Powerful type system and static compilation meant that, once the application compiled without errors and warnings, it will just work and generate complete code. It did, and now at the App Store.
 
@@ -1354,7 +1375,7 @@ I personally enjoyed the experience of building the entire system using F#, I be
 1. **Green Eagle Solutions**
 2. [permalink](#green-eagle-solutions)
 
-At [Green Eagle Solutions](http://greeneaglesolutions.com/), we develop control systems for renewable energy plants. Thus, it's crucial for us to test our software in a real-time environment where are all the other actors (protocols, weather conditions, legacy software) come into play.
+At Green Eagle Solutions, we develop control systems for renewable energy plants. Thus, it's crucial for us to test our software in a real-time environment where are all the other actors (protocols, weather conditions, legacy software) come into play.
 
 Beforehand, we used Python to quickly build simulators to test our components. With F# we have now all the advantages of a dynamic language, while keeping the static typing safety we are used to. The fact that we don't need to leave Visual Studio and being able to seamlessly use all the APIs we have developed in C# are also a big plus.
 
@@ -1363,25 +1384,4 @@ We have also started to use F# directly in our components to implementing the co
 F# terse syntax made the final code look really similar to the algorithm we wrote at first in formal language. Also, we've come to really appreciate the numerous metaprogramming libraries in the F# ecosystem: we particularly like FSharp.Formatting and have started to adopt the literate programming style to integrate as much as possible the code and the documentation and prevent them losing sync.
 
 <div class="keywords">energy, renewable, scada, scripting, literate programming</div>
-
-<a id="james-moore" class="testimonial-anchor"> &nbsp; </a>
----
-
-> Using F# for cross-platform mobile development (Android, iOS) saves development time
-
-1. James Moore
-2. Senior Software Developer
-3. [Digium, Inc](http://digium.com/)
-4. [permalink](#james-moore)
-
-We wanted to develop our Android and iOS applications using as much shared code as possible.
-We built a reactive architecture using F# actors (aka mailbox processors) to build a very robust
-multithreaded system that was easily portable between Android and iOS.
-
-Our F# actors (shared across iOS and Android) expose .Net IObservables that are consumed by UI systems written for the native platforms.
-Dividing the system in that way allowed for testable multithreaded code that would have been difficult to write in other .Net languages.
-
-<div class="keywords">
-iOS,Android,Xamarin,reactive
-</div>
 
