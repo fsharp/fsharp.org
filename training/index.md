@@ -24,6 +24,10 @@ together with the functions which F# provides for working with them.
 Authored by Mark Seemann, this online course provides an example of how to build a mainstream application in F#, using 
 extensive demos to build a comprehensive demo application from scratch.
 
+### [PluralSight: Building F# Type Providers](http://www.pluralsight.com/courses/building-f-sharp-type-providers)
+
+Authored by Dave Fancher, this online course shows how type providers are useful in a variety of scenarios and teaches how to create custom type providers using the Type Provider Starter Pack.
+
 ### [F# and Functional Programming in Finance](http://quantshub.com/qhworkshopview/42)
 
 <img src="/img/sup/quantshub.png" style="float:right;margin:5px 0px 5px 25px;" />
