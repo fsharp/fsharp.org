@@ -357,7 +357,7 @@ A detailed guide of setting up Vagrant is available [here](http://christoph.rueg
 #### Dos and Don’ts
 
 * Generally use `/` instead of `\` on paths. In .fsproj files you can generally use either.
-* In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself ([example](http://msdn.microsoft.com/en-us/library/3e5f4c37h.aspx))
+* In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself ([example](http://msdn.microsoft.com/en-us/library/3e54c37h.aspx))
 * Don't assume pdbs are always created after the compilation
 * Executables included in .NET may not exist in Mono or may have a different name or location e.g. SvcUtil etc
 * Fake build scripts may not work as intended due to Mono issues
