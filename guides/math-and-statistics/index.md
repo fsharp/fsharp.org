@@ -84,7 +84,7 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
 
 ### Commercial libraries
 
- * [Alea.cuBase](http://www.quantalea.net/products/overview/) - a framework for 
+ * [Alea GPU](https://developer.nvidia.com/alea-gpu) - a framework for 
    developing GPU-accelerated algorithms in F# on .NET and Mono.
 
    Utilizing F# quotations and the
