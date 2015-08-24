@@ -2,6 +2,7 @@
 layout: default
 title: F# Training | The F# Software Foundation
 headline: F# Training
+redirect_from: "/consulting/"
 ---
 
 The following websites, companies and groups offer training in F# and its applications.
