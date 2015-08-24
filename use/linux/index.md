@@ -117,3 +117,14 @@ go further.
 
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
+
+### Option 6: Slackware Slackbuild
+
+1. Get Mono Slackbuild from this page http://slackbuilds.org/repository/14.1/development/mono and run :
+
+     ./mono.SlackBuild
+
+2. Get last FSharp Slackbuild from this page http://slackbuilds.org/repository/14.1/development/fsharp and run :
+
+    ./fsharp.SlackBuild
+   
