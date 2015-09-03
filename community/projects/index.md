@@ -16,7 +16,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 <a href="#interop">Interop</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, 
 <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, 
 <a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, 
-<a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>
+<a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>, <a href="#audioprocessing">Audio Processing</a>
 
 <br />
 
@@ -419,4 +419,10 @@ Contributions welcome!
 <h2 class="anchor" id="textsearch" class="anchor">Community Projects: Simulation Tools</h2>
 
 *  [Aivika for .NET](https://github.com/dsorokin/aivika-fsharp-ce) - A simulation library for discrete event simulation, system dynamics and agent-based modeling.
+
+<br />
+
+<h2 class="anchor" id="audioprocessing" class="anchor">Community Projects: Audio Processing</h2>
+
+*  [FSound](https://github.com/albertp007/FSound) - A sound processing library written in F#
 
