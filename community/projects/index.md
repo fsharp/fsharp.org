@@ -396,7 +396,7 @@ Contributions welcome!
 
 *  [ParsecClone](https://github.com/devshorts/ParsecClone) A fparsec subset clone that works on generalized stream classes
 
-*  ![logo](/images/thumbs/YaccConstructor.jpg)&nbsp;[YaccConstructor](https://recursive-ascent.googlecode.com) Platform for grammarware research and development
+*  ![logo](/images/thumbs/YaccConstructor.jpg)&nbsp;[YaccConstructor](https://github.com/YaccConstructor/YaccConstructor) Platform for grammarware research and development
 
 *  ![logo](https://github.com/fsprojects/YC.PrettyPrinter/blob/master/docs/files/img/logo32.png)&nbsp;[YC.PrettyPrinter](https://github.com/fsprojects/YC.PrettyPrinter) Printer combinators library
 
