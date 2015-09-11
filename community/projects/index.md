@@ -377,6 +377,8 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/Fspec.png)&nbsp;[FSpec](https://github.com/PeteProgrammer/fspec) A context/specification testing framework for F#
 
+*  ![logo](/images/thumbs/AntaniXml.png)&nbsp;[AntaniXml](http://giacomociti.github.io/AntaniXml/) Random generator of XML from XSD, based on FsCheck
+
 <br />
 
 <h2 class="anchor" id="metaprogramming" class="anchor">Community Projects: Metaprogramming</h2>
