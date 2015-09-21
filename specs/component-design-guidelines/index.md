@@ -290,7 +290,7 @@ In general, the .NET guidelines are quite agnostic with regard to the use of imp
 
 Here is a good example of using a tuple in a return type:
 
-✘ val divrem : BigInteger -> BigInteger -> BigInteger * BigInteger
+✔ val divrem : BigInteger -> BigInteger -> BigInteger * BigInteger
 
 For return types containing many components, or where the components are related to a single identifiable entity, consider using a named type instead of a tuple.
 
@@ -357,7 +357,7 @@ F# extension members should generally only be used for operations that are in th
 
 #### ✔ Do use discriminated unions as an alternative to class hierarchies for creating tree-structured data.
 
-#### ✔ Do use the [<RequiredQualifiedAccess>] attribute on union types whose case names are not sufficiently unique.
+#### ✔ Do use the ``[<RequireQualifiedAccess>]`` attribute on union types whose case names are not sufficiently unique.
 
 #### ✔ Consider hiding the representations of discriminated unions for binary compatible APIs if the design of these types is likely to evolve.
 
@@ -414,7 +414,7 @@ As a result, it is generally best to publish your functionality as named functio
 
 #### ✔ Do use units of measure for added type safety in F# code, including in F#-facing libraries.
 
-This type information is erased when viewed by other .Net languages, so be aware that .NET components, tools and reflection will just see types-sans-units (e.g. float rather than float<kg>) after this information has been erased.
+This type information is erased when viewed by other .Net languages, so be aware that .NET components, tools and reflection will just see types-sans-units (e.g. ``float`` rather than ``float<kg>``) after this information has been erased.
 
 ### 3.10 Type Abbreviations
 
@@ -510,11 +510,11 @@ People often ask how to format pipelines. We recommend this style:
         |> Array.map (fun assem -> assem.GetTypes())
         |> Array.concat
 
-Note that this does not apply when piping on a single line (e.g. “expr |> ignore”, “expr |> box”)
+Note that this does not apply when piping on a single line (e.g. ``expr |> ignore``, ``expr |> box``)
 
-#### ✔ Consider using the prefix syntax for generics (Foo<T>) in preference to postfix syntax (T Foo), with four notable exceptions (list, option, array, ref).
+#### ✔ Consider using the prefix syntax for generics (``Foo<T>``) in preference to postfix syntax (``T Foo``), with four notable exceptions (list, option, array, ref).
 
-F# inherits both the postfix ML style of naming generic types, e.g. “int list” as well as the prefix .NET style, e.g. “list<int>”. You should prefer the .NET style, except for four specific types. For F# lists, use the postfix form: “int list” rather than “list<int>”. For options, use the postfix form: “int option” rather than “option<int>”. For arrays, use the syntactic name “int[]” rather than either “int array” or “array<int>”. For refs, use “int ref” rather than “ref<int>” or “Ref<int>”. For all other types, use the prefix form: “HashSet<int>”, “Dictionary<string,int>”, since this conforms to .NET standards.
+F# inherits both the postfix ML style of naming generic types, e.g. ``int list`` as well as the prefix .NET style, e.g. ``list<int>``. You should prefer the .NET style, except for four specific types. For F# lists, use the postfix form: ``int list`` rather than ``list<int>``. For options, use the postfix form: ``int option`` rather than ``option<int>``. For arrays, use the syntactic name ``int[]`` rather than either ``int array`` or ``array<int>``. For refs, use ``int ref`` rather than ``ref<int>`` or ``Ref<int>``. For all other types, use the prefix form: ``HashSet<int>``, ``Dictionary<string,int>``, since this conforms to .NET standards.
 
 #### ✔ Consider using ``//`` comments in preference to ``(*…*)`` comments.
 
@@ -566,7 +566,7 @@ Consider instead:
 
 ✔ Consider using F# record types in vanilla .NET APIs if the design of the types will not evolve.
 
-F# record types compile to a simple .NET class. These are suitable for some simple, stable types in APIs. You should consider using the [<NoEquality>] and [<NoComparison>] attributes to suppress the automatic generation of interfaces. Also avoid using mutable record fields in vanilla .NET APIs as these will expose a public field. Always consider whether a class would provide a more flexible option for future evolution of the API.
+F# record types compile to a simple .NET class. These are suitable for some simple, stable types in APIs. You should consider using the ``[<NoEquality>]`` and ``[<NoComparison>]`` attributes to suppress the automatic generation of interfaces. Also avoid using mutable record fields in vanilla .NET APIs as these will expose a public field. Always consider whether a class would provide a more flexible option for future evolution of the API.
 
 For example, this F# code will expose the public API below to a C# consumer.
 
