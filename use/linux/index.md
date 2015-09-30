@@ -35,9 +35,10 @@ go further.
 
 1. Get Mono, the cross-platform, open source .NET runtime implementation used by F#. Preferably use a package from your distribution or Xamarin. If this is not possible, [install from source by following these instructions](https://github.com/mono/mono).
 
-   Note that if you are installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure `LD_LIBRARY_PATH` includes the "lib" directory of that prefix location, e.g.
+   Note that if you are installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure `LD_LIBRARY_PATH` includes the "lib" directory of that prefix location and `PKG_CONFIG_PATH` includes the "lib/pkgconfig" directory of that prefix location, e.g.
    
         export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/mono/lib/
+        export PKG_CONFIG_PATH=/home/user/mono/lib/pkgconfig/
 
 2. Build and install the F# Compiler (open edition) from source. If using a VM or other memory-constrained system, be aware that errors during compilation may be due to insufficient memory (in particular error 137).
 
