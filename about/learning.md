@@ -182,7 +182,7 @@ Machine Learning Projects for .NET Developers shows you how to build smarter .NE
 
 ### [Multi-Paradigm Programming Using F# and .NET](http://www.naghoospress.ir/bookview.aspx?bookid=1486730)
 
-<img src="https://cloud.githubusercontent.com/assets/10639835/10412844/849c5728-6f9f-11e5-96e5-b042f945aa46.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="https://cloud.githubusercontent.com/assets/10639835/10412877/180622d6-6fa1-11e5-8a79-c1280e9e5e73.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Ali Baghernejad_
 
