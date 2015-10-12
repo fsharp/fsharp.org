@@ -180,6 +180,25 @@ _Mathias Brandewinder_
 
 Machine Learning Projects for .NET Developers shows you how to build smarter .NET applications that learn from data, using simple algorithms and techniques that can be applied to a wide range of real-world problems.
 
+### [Multi-Paradigm Programming Using F# and .NET](http://www.naghoospress.ir/bookview.aspx?bookid=1486730)
+
+<img src="https://cloud.githubusercontent.com/assets/10639835/10412877/180622d6-6fa1-11e5-8a79-c1280e9e5e73.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Ali Baghernejad_
+
+Power and ablities of functional programming when included with imperative and object-oriented approaches the result is a new language in .net framework named F#. Multi-Paradigm Programming In F#.NET is a book that help developers to make Different applications using F# tools and .net libraries. This book is written in persian language in 509 pages. In this book you will read: 
+
+- Introduction to F# (History and Advantages)
+- Get Statring With F# (Installation, Interactive Environment, ...)
+- F# Fundementals (Values, Primitive Types, Functions, Type Inference, Generic, ...)
+- Advance Types (Lists, Tuples, Enums, Discriminated Union, Unit of Measures, ...)
+- Functional Programming (Expressions, Imutability, Function Values, Pattern Matching, Piping, ...)
+- Imperative Programming (Statements, Mutable Values, Side Effects, Arrays, Resource Management, ...)
+- Object Oriented Programming (Objects, Classes, Inheritance, Abstraction, Polymorphism, ...)
+- Error Handling (Exceptions, Exception Types, Throwing and Catching Exceptions, ...)
+- Databases (Sql Server, Query Expressions, Type Providers, ...)
+- User Interfaces (Windows Forms, WPF, GTK#)
+
 
 ## F# Books (Coming Soon)
 
