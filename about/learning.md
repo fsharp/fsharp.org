@@ -186,7 +186,9 @@ Machine Learning Projects for .NET Developers shows you how to build smarter .NE
 
 _Ali Baghernejad_
 
-Power and ablities of functional programming when included with imperative and object-oriented approaches the result is a new language in .net framework named F#. Multi-Paradigm Programming In F#.NET is a book that help developers to make Different applications using F# tools and .net libraries. This book is written in persian language in 509 pages. In this book you will read: 
+F# is the result of combining the  power and capabilities of functional programming with with the imperative and object-oriented paradigms of .NET. Multi-Paradigm Programming In F# is a book that help developers to make  
+applications using F# tools and the .NET libraries. This book is written in Persian language in 509 pages. 
+In this book you will read: 
 
 - Introduction to F# (History and Advantages)
 - Get Statring With F# (Installation, Interactive Environment, ...)
