@@ -26,9 +26,9 @@ There are currently two F# related channels in the Functional Programming Slack:
 
 * [#fsharp](https://functionalprogramming.slack.com/?redir=/archives/fsharp) - This is the general channel for F#. The developers of [Visual F# Power Tools](https://fsprojects.github.io/VisualFSharpPowerTools/), [Xamarin Studio](https://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/), [Ionide](http://ionide.io/), [SqlProvider](http://fsprojects.github.io/SQLProvider/), among others all hang out here and are very active. The channel can be wildly off-topic for hours at a time but specific F# questions are usually answered fairly quickly.
 
-* [#fsharp-beginners](https://functionalprogramming.slack.com/archives/fsharp-beginners) - Since the main F# channel can be a bit overwhelming, this channel was created to be a bit more friendly for those new to F#.
+* [#fsharp-beginners](https://functionalprogramming.slack.com/archives/fsharp-beginners) - Since the main F# channel can be a bit overwhelming, this channel was created to be more friendly for those new to F#.
 
-Other channels that may be of interest are #haskell, #haskell-beginners, #categorytheory, and #scala.
+Other channels that may be of interest include: #haskell, #haskell-beginners, #categorytheory, and #scala.
 
 ## F# Software Foundation Slack Team
 
