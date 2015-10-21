@@ -32,7 +32,7 @@ Other channels that may be of interest include: #haskell, #haskell-beginners, #c
 
 ## F# Software Foundation Slack Team
 
-Only members of the F# Software Foundation can be invited to this team. To join visit [this page](http://foundation.fsharp.org/join).
+Only members of the F# Software Foundation can be invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join visit [this page](http://foundation.fsharp.org/join).
 
 Once you are a member send an email to info@fsharp.org to get an invite to the Slack team.
 
