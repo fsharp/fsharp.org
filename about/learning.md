@@ -172,7 +172,7 @@ _Tomas Petricek and Phillip Trelford_
 F# Deep Dives presents a collection of real-world F# techniques, each written by expert practitioners. Each chapter presents a new use case where you'll read how the author used F# to solve a complex problem more effectively than would have been possible using a traditional approach. You'll not only see how a specific solution works in a specific domain, you'll also learn how F# developers approach problems, what concepts they use to solve them, and how they integrate F# into existing systems and environments.
 
 
-### [Machine Learning Projects for .NET Developers](https://books.google.com/books?isbn=1430267674)
+### [Machine Learning Projects for .NET Developers](https://books.google.com/books?isbn=1430267666)
 
 <img src="files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
