@@ -122,7 +122,7 @@ Freya provides a functional web stack built on top of [OWIN](http://owin.org/). 
 * [Examples (WIP)](https://github.com/freya-fs/freya.examples)
 * [Docs (WIP)](https://github.com/freya-fs/freya.documentation)
 
-#### [Frank](http://frankfs.net/)
+#### [Frank](https://github.com/frank-fs/frank)
 
 Frank provides combinators for composing web applications using the types in `System.Net.Http`, the library that drives ASP.NET Web API.
 
