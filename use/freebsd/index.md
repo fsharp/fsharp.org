@@ -5,7 +5,7 @@ headline: Use F# on FreeBSD
 ---
 
 
-### Option 1: Build and install the F# 3.0 runtime, compiler and tools from the FreeBSD ports collection
+### Option 1: Build and install the F# runtime, compiler and tools from the FreeBSD ports collection
 
 *The commands for steps 1-4 must be run as 'root', e.g., using `su`.*
 
