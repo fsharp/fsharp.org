@@ -30,7 +30,7 @@ go further.
 
 
 
-### Option 2: Build and install the F# 3.1 runtime, compiler and tools
+### Option 2: Build and install the F# runtime, compiler and tools
 
 
 1. Get Mono, the cross-platform, open source .NET runtime implementation used by F#. Preferably use a package from your distribution or Xamarin. If this is not possible, [install from source by following these instructions](https://github.com/mono/mono).
@@ -55,7 +55,7 @@ Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac
 go further.
 
 
-### Option 3: F# 3.x for RHEL, CentOS, Amazon, Fedora w/ puppet/configuration management
+### Option 3: F# for RHEL, CentOS, Amazon, Fedora w/ puppet/configuration management
 
 To see an example of how to set it up, navigate to https://github.com/haf/vagrant-eventstore#run, read the README and look inside the `run` file and the `Vagrantfile` file. It pulls down all required dependencies and starts vagrant to get you up and running EventStore (as a sample application).
 
@@ -90,7 +90,7 @@ With the `epel`, `eventstore`, `mono` and `supervisor` puppet module and a refer
       include ::eventstore
     }
 
-### Option 4: Get F# 3.1 on Gentoo (Sabayon/Funtoo/Calculate)
+### Option 4: Get F# on Gentoo (Sabayon/Funtoo/Calculate)
 
 From portage tree:
 
