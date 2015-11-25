@@ -227,6 +227,14 @@ working with functions and immutable data structures. It also discusses
 imperative and object-oriented programming in F# and advanced langauge 
 features such as active patterns and computation expressions.
 
+### [Analyzing and Visualizing Data with F#](http://www.oreilly.com/programming/free/analyzing-visualizing-data-f-sharp.csp)
+
+<img src="files/BookFsLab.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Tomas Petricek_
+
+This report explains many of the key features of the F# language that make it a great tool for data science and machine learning. Real world examples take you through the entire data science workflow with F#, from data access and analysis to presenting the results. You'll learn about F# Data and type providers, the process of data analysis with Deedle and R type provider and the implementation of basic machine learning algorithm with F#.
+
 ### [F# Workshop](http://fsharpworkshop.com/)
 
 Material from the F# Introduction Workshop created by Jorge Fioranelli.
