@@ -229,7 +229,7 @@ features such as active patterns and computation expressions.
 
 ### [Analyzing and Visualizing Data with F#](http://www.oreilly.com/programming/free/analyzing-visualizing-data-f-sharp.csp)
 
-<img src="files/BookFsLab.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="files/BookFsLab.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tomas Petricek_
 
