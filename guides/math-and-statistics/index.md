@@ -67,6 +67,12 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
    
    License: MIT/X11
    
+ * [FCor](https://github.com/Statfactory/FCor) - High performance F# math and stat library.
+
+   FCor is a F# DSL for matrix calculations and statistical modelling. The math part of the library contains overloaded functions for construction and manipulation of vectors and matrices, including matrix factorizations and solvers, random number generators and vector functions. The stat part contains strongly typed statistical data frame with factors and covariates, strongly typed statistical model formula, ultra fast implementation of Generalized Linear Model and CSV Stat Data Type Provider. FCor is a .NET library but for maximum performance on Intel it is accelerated by Intel Math Kernel Library. Also, it uses native C functions to allocate memory so that .NET memory limits are bypassed and Garbage Collection is minimized.
+   
+   License: MIT/X11
+   
  * [DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic 
    differentiation (AD) library for exact and efficient calculation of derivatives. Also includes symbolic and numerical differentiation.
 
@@ -121,14 +127,6 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
    functions such multiple linear regression, hypothesis testing, and nonnegative matrix 
    factorization. NMath and NMath Stats support .NET 4.5 and are available from 
    [CenterSpace Software](http://www.centerspace.net/).
-   
- * [StatFactory FCore](http://www.statfactory.co.uk/) - a high-performance numerical
-   library supporting both CPU and GPGPU computing.
-
-   The library includes multi-dimensional
-   dense matrix and 2D sparse matrix support, standard linear algebra routines, and summary
-   statistics. The library provides options to run both 100% managed code or to use optimized 
-   native libraries such as MKL.
 
  * [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) - 
    a collection of numeric algorithms including matrix operations, optimization and 
