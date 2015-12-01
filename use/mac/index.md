@@ -22,7 +22,7 @@ go further. For 64-bit support, see below.
 
 To use the F# command-line compiler and tools on Mac OSX:
 
-*  [Install the F# Cross-Platform Runtime (called Mono)](http://www.go-mono.com/mono-downloads/download.html). Use version 3.10.0 or later.
+*  [Install Mono](http://www.go-mono.com/mono-downloads/download.html). Use version 4.2.0 or later.
 
 See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
 go further. For 64-bit support, see below.
@@ -30,8 +30,14 @@ go further. For 64-bit support, see below.
 <br />
 
 
+### Option 3: Install F# via Homebrew
 
-### Option 3: Install F# (64-bit) from source
+F# is installed as part of the Mono homebrew formula:
+
+    brew install mono
+  
+
+### Option 4: Install F# (64-bit) from source
 
 To use the F# command-line compiler and tools on Mac OSX in 64-bit mode:
 
