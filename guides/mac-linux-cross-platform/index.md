@@ -12,14 +12,14 @@ To get started with F#, please refer to the following documents:
 * [Getting Started with F# for iOS Programming](/use/ios)
 * [Getting Started with F# for Android Programming](/use/android)
 
-Once you have F# installed and operating, refer to the resources below for platform specific techniques, 
+Once you have F# installed and operating, refer to the resources below for platform specific techniques,
 tools, and resources.
 
-<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial">
     <p>This guide includes resources related to cross-platform development with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/mac-linux-cross-platform/index.md">edit this page</a> and send a pull request.</p>
     <hr />
     <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
-</div>              
+</div>
 
 ## Resources for cross-platform development
 
@@ -28,12 +28,12 @@ tools, and resources.
 
 ### Command Line Tools
 
-You can start F# Interactive using 
+You can start F# Interactive using
 
     $ fsharpi
-    
+
     > 1+1;;
-    
+
     val it : int = 2
 
 You’re off! Some common commands are:
@@ -45,41 +45,37 @@ You’re off! Some common commands are:
     mkbundle --static file.exe -o file (makes a static native image, including the F# runtime)
 
 
-###  Editing 
+###  Editing
 
-Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
+Some editors have specific support for F#, either builtin or through addons provided by the F# community:
 
 * [Xamarin Studio](http://xamarin.com/studio) has built-in support for F# development on OSX and Windows.
 
-* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](https://github.com/fsharp/emacs-fsharp-mode) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more. 
+* [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](https://github.com/fsharp/emacs-fsharp-mode) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more.
 
 * [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding).
 
   See [the installation instructions for MonoDevelop on Linux](http://www.monodevelop.com/download/).
 
   Then install [the F# AddIn for MonoDevelop](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin) by adding it from the AddIn Manager, or building/installing it yourself from source.
-  
-* Atom
+
+* [Ionide](http://ionide.io) - An [Atom Editor](https://atom.io) and [Visual Studio Code](https://code.visualstudio.com/) package suite for cross platform F# development.
+
+* Sublime Text
 
   Use and contribute to:
-  
-  * [Atom  Support for F#](https://github.com/fsprojects/atom-fsharp)
 
-* Sublime Text 
-
-  Use and contribute to:
-  
   * [F# development tools for Sublime Text 3](https://github.com/fsharp/sublime-fsharp-package)
 
   See also:
-  
+
   * [Configuring Sublime Text 2 To Work With FSharp](http://onor.io/2012/01/26/configuring-sublime-text-2-to-work-with-fsharp/)
   * [Using Sublime Text 2 as F# REPL](http://blog.kulman.sk/using-sublime-text-2-as-f-repl/)
 
 * Vim
 
   Use and contribute to:
-  
+
   * [Vim support for F#](https://github.com/fsharp/vim-fsharp/)
 
   See also:
@@ -87,13 +83,13 @@ Some editors have specific support for F#, either builtin or through addons prov
   * [Writing and Running F# Scripts with Vim](http://juliankay.com/development/writing-and-running-f-scripts-with-vim/)
   * [Vim Runtime Files for F#](https://github.com/kongo2002/fsharp-vim)
 
-If running F# Interactive in Emacs or another similar environment, use 
-              
-    > fsharpi --readline- 
+If running F# Interactive in Emacs or another similar environment, use
 
-to turn off console processing. 
+    > fsharpi --readline-
 
-###	Documentation 
+to turn off console processing.
+
+###	Documentation
 
 For most F# documentation, see the [documentation pages](/about/index.html#documentation).
 
@@ -115,18 +111,18 @@ a collection of .fsproj files. Include, for example, [root.traversals.targets](h
 in a .fsproj like this:
 
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
-    
+
       <ItemGroup>
         <ProjectFiles Include="fsharp-proto-build.fsproj"/>
         <ProjectFiles Include="fsharp-library-build.fsproj"/>
         <ProjectFiles Include="fsharp-compiler-build.fsproj"/>
       </ItemGroup>
-    
+
       <Import Project="root.traversal.targets"/>
-    
+
     </Project>
 
-To create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop, 
+To create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop,
 or find an existing one, copy it and edit it by hand.
 
 #### Makefiles
@@ -143,20 +139,20 @@ FAKE can be fetched using NuGet.exe, e.g.:
     # Get nuget.exe
     sudo mozroots --import --sync
     curl -L http://nuget.org/nuget.exe -o nuget.exe
-    
+
     # Get FAKE.exe
     mono nuget.exe install FAKE -OutputDirectory lib -ExcludeVersion -Prerelease
 
 
 ### Package Repositories
 
-#### NuGet 
+#### NuGet
 
 [NuGet](http://nuget.org/) is an open-source, cross-platform package management tool with many thousands
 of packages available. See the [documentation](http://docs.nuget.org/).
 It is used extensively on Windows ecosystem but is growing in its cross-platform use.
 
-* Using nuget from the command line 
+* Using nuget from the command line
 
 For those on Mac/Linux, familiarity with the command-line NuGet.exe utility is highly useful.
 Get the command line utility like this:
@@ -165,7 +161,7 @@ Get the command line utility like this:
     sudo mozroots --import --sync
     curl -L http://nuget.org/nuget.exe -o nuget.exe
 
-Before using NuGet.exe on Mac/Linux, be sure to run 
+Before using NuGet.exe on Mac/Linux, be sure to run
 
      mozroots --import --sync
 
@@ -224,7 +220,7 @@ Here are some of interest:
 
 * [FSharp.Data](http://fsharp.github.io/FSharp.Data/)
 
-In the wider F# exosystem there are many cross-platform and/or portable packages 
+In the wider F# exosystem there are many cross-platform and/or portable packages
 and libraries. Here are some examples:
 
 * [Math.Net Numerics](http://numerics.mathdotnet.com/) - Math.NET Numerics provides cross-platform and portable  methods and algorithms for numerical computations in science, engineering and everyday use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integral transforms and more.
@@ -233,24 +229,24 @@ and libraries. Here are some examples:
 
 * [ServiceStack](http://www.servicestack.net/) - "Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all"
 
-* [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - Reactive UI is an MVVM framework built on top of 
-  the Reactive Extensions. Version 5.0 is "totally Portable-Friendly", and supports Xamarin.iOS, Xamarin.Android, 
+* [ReactiveUI](https://github.com/reactiveui/ReactiveUI) - Reactive UI is an MVVM framework built on top of
+  the Reactive Extensions. Version 5.0 is "totally Portable-Friendly", and supports Xamarin.iOS, Xamarin.Android,
   Xamarin.Mac, .NET 4.5 (WPF), Windows Phone 8 and Windows Store Apps (WinRT).
 
-* [Akavache](https://github.com/github/Akavache#akavache-an-asynchronous-key-value-store-for-native-applications) - Akavache is an asynchronous, persistent (i.e. writes to disk) key-value store created for writing desktop and mobile applications in C# and F#. Think of it like memcached for desktop apps. 
+* [Akavache](https://github.com/github/Akavache#akavache-an-asynchronous-key-value-store-for-native-applications) - Akavache is an asynchronous, persistent (i.e. writes to disk) key-value store created for writing desktop and mobile applications in C# and F#. Think of it like memcached for desktop apps.
   At the time of writing, it is compatible with .NET 4.0/4.5, Mono 3.0 (including Xamarin.Mac), Silverlight 5, Windows Phone 7.1/8.0, and WinRT (Metro / Modern UI / Windows Store / Whatever Microsoft Is Calling That Tablet'y OS Thing That They Make).
 
-* [Splat](https://github.com/xpaulbettsx/splat#splat) – It has cross platform APIs for 
-  images and colors, with platform-specific extension methods to go back and forth 
-  between the platform-specific native types.  
+* [Splat](https://github.com/xpaulbettsx/splat#splat) – It has cross platform APIs for
+  images and colors, with platform-specific extension methods to go back and forth
+  between the platform-specific native types.
 
 * [OxyPlot](https://oxyplot.codeplex.com/) – OxyPlot is a cross-platform plotting library for .NET.
   The core is a portable library, the package OxyPlot.GtkSharp is usable on Mac/OSX.
 
-There are a wide range of cross-platform libraries available as part of the core libraries 
+There are a wide range of cross-platform libraries available as part of the core libraries
 available to F#, for example:
 
-* [Versions of .NET Frameworks Libraries](http://www.mono-project.com/Start).  
+* [Versions of .NET Frameworks Libraries](http://www.mono-project.com/Start).
 
 * [Bindings to Unix functionality](http://docs.go-mono.com/index.aspx?link=N%3aMono.Unix)
 
@@ -261,24 +257,24 @@ available to F#, for example:
 * [Xamarin.Mac](http://xamarin.com/mac)
 
 Compatibility guides, [documentation](http://docs.go-mono.com/?link=root) and [migration assessment tools](http://www.mono-project.com/MoMA) are also available.
-  
+
 
 ### Portable Libraries
 
 
-Portable .NET libraries have access to less core functionality, called a "portable profile", but can be used 
+Portable .NET libraries have access to less core functionality, called a "portable profile", but can be used
 across multiple platforms and multiple profiles of .NET. For example, a portable library may
-be usable on Mac, Linux, Android, iOS, Windows and Windows Store apps (depending on the versions 
+be usable on Mac, Linux, Android, iOS, Windows and Windows Store apps (depending on the versions
 of runtime machinery used and other factors).
 
 See [Cross-Platform Portable Class Libraries with .NET are Happening](http://www.hanselman.com/blog/CrossPlatformPortableClassLibrariesWithNETAreHappening.aspx)
 for a perspective on cross-platform portable libraries for Visual Studio users.
 
 F# portable libraries reference FSharp.Core versions such as 2.3.5.1, with matching mscorlib versions.
-A binding redirect may be neeeded to ensure bindings to these libraries redirect correctly, e.g. to 
+A binding redirect may be neeeded to ensure bindings to these libraries redirect correctly, e.g. to
 FSharp.Core 4.3.1.0.
 
-At the time of writing, creating portable libraries was not yet fully supported in IDES on 
+At the time of writing, creating portable libraries was not yet fully supported in IDES on
 Mac and Linux, though you can normally build portable libraries successfully using xbuild and command-line tools
 on these platforms. If you are developing on Windows, or using libraries on Windows, then consider
 creating portable libraries to ease cross-platfom use.
@@ -305,17 +301,17 @@ Fuchu also has an integration with PerfUtil which can be used to automate perfor
 
 #### FsCheck
 
-[FsCheck](https://github.com/fsharp/FsCheck) is a tool for testing .NET programs automatically. 
-The programmer provides a specification of the program, 
-in the form of properties which functions, methods or objects should satisfy, 
+[FsCheck](https://github.com/fsharp/FsCheck) is a tool for testing .NET programs automatically.
+The programmer provides a specification of the program,
+in the form of properties which functions, methods or objects should satisfy,
 and FsCheck then tests that the properties hold in a large number of randomly generated cases.
 
 #### NUnit
 
-[NUnit](http://nunit.org/) is an open-source, cross-platform unit-testing 
-framework for F# and other  .NET languages. It is written 
-in C# and has been completely redesigned to take advantage of many .NET language features, 
-for example custom attributes and other reflection related capabilities. 
+[NUnit](http://nunit.org/) is an open-source, cross-platform unit-testing
+framework for F# and other  .NET languages. It is written
+in C# and has been completely redesigned to take advantage of many .NET language features,
+for example custom attributes and other reflection related capabilities.
 Also [xUnit](http://xunit.codeplex.com/) is a good alternative for NUnit.
 
 Some guides to using F# and NUnit together are:
@@ -326,7 +322,7 @@ Some guides to using F# and NUnit together are:
 
 #### FsUnit
 
-[FsUnit](https://github.com/fsharp/fsunit) is often used by F# programmers as an DSL to access popular unit testing frameworks. 
+[FsUnit](https://github.com/fsharp/fsunit) is often used by F# programmers as an DSL to access popular unit testing frameworks.
 An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
 
 ###  Continuous Integration builds
@@ -335,7 +331,7 @@ An [FsUnit NuGet package](http://nuget.org/packages/FsUnit) is available.
 
 Perhaps the simplest way to regularly build and test your work across multiple platforms is to use Travis.
 
-You can automate the build and test of all commits and pull requests to GitHub projects 
+You can automate the build and test of all commits and pull requests to GitHub projects
 on Linux and OSX by using Travis.  This is very easy to arrange, just add a .travis.yml file to your project root ([example](https://github.com/fsharp/FSharp.Data/blob/master/.travis.yml), [example](https://github.com/fsharp/FSharp.Compiler.Service/blob/master/.travis.yml) ), and register the project in your Travis account.
 
 Setting the language to "objective-c" causes Travis to use an OSX machine for build.
@@ -361,7 +357,7 @@ A detailed guide of setting up Vagrant is available [here](http://christoph.rueg
 * Don't assume pdbs are always created after the compilation
 * Executables included in .NET may not exist in Mono or may have a different name or location e.g. SvcUtil etc
 * Fake build scripts may not work as intended due to Mono issues
-* MSBuild API is incomplete in Mono, programatic API usage might fail 
+* MSBuild API is incomplete in Mono, programatic API usage might fail
 * Changing the build order inside Xamarin Studio won't have effect when using MSBuild or Visual Studio, prefer editing the project file by hand
 * NuGet can be troublesome
 * External components that would be available via NuGet in Windows might be included as part of Mono - Rx, TDF etc
@@ -370,27 +366,27 @@ A detailed guide of setting up Vagrant is available [here](http://christoph.rueg
 * Avoid Windows Forms/WPF in favour of native UI frameworks
 * Beware differences in [behaviour with loading assemblies](https://bugzilla.xamarin.com/show_bug.cgi?id=10906) which is a very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
 * When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C# (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio).
-* Differences in F# Interactive DLL resolution. Use  
-  
+* Differences in F# Interactive DLL resolution. Use
+
         #I @"./lib/FAKE/tools"
         #r @"./lib/FAKE/tools/FakeLib.dll"
-    
+
   Not just
-  
+
         #r @"./lib/FAKE/tools/FakeLib.dll"
-  
-* If your build executes binaries and tasks, make sure the “x” permissions are 
+
+* If your build executes binaries and tasks, make sure the “x” permissions are
   set for Fsc.exe etc. and all other executables triggered by xbuild.
 
-* Beware of [NuGet package restore bug](https://nuget.codeplex.com/workitem/3435). In NuGet.targets, the 
-  "solutionDir" argument has an extra space. This breaks package restore on Mono. 
+* Beware of [NuGet package restore bug](https://nuget.codeplex.com/workitem/3435). In NuGet.targets, the
+  "solutionDir" argument has an extra space. This breaks package restore on Mono.
 
 
-#### Developing Cross-Platform and Multi-Targeting Type Providers 
+#### Developing Cross-Platform and Multi-Targeting Type Providers
 
 F# type providers are compile-time components that must execute on your machine during build and development.
 
-A type provider executing on Mac/Linux  can expose some small differences in the implementation of .NET, for example in 
+A type provider executing on Mac/Linux  can expose some small differences in the implementation of .NET, for example in
 the System.Type implementation. The ProvidedTypes API can normally be adjusted to account for these.
 
 To help isolate the problem, try the following:
