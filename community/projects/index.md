@@ -80,6 +80,8 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](http://github.com/fsprojects/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
 
+*  [Yeoman F# generator](https://github.com/fsprojects/generator-fsharp) - scaffolding F# projects outside of IDE such as Visual Studio and Xamarin Studio. Avaliable in the [npm](https://www.npmjs.com/package/generator-fsharp).
+
 *  ![logo](/images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](https://github.com/fsprojects/FSharpLint) - A lint tool for F#.
 
 *  [F# SonarQube Plugin](https://github.com/jmecosta/sonar-fsharp-plugin) - F# support for SonarQube
