@@ -400,7 +400,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/YaccConstructor.jpg)&nbsp;[YaccConstructor](https://github.com/YaccConstructor/YaccConstructor) Platform for grammarware research and development
 
-*  ![logo](https://github.com/fsprojects/YC.PrettyPrinter/blob/master/docs/files/img/logo32.png)&nbsp;[YC.PrettyPrinter](https://github.com/fsprojects/YC.PrettyPrinter) Printer combinators library
+*  ![logo](https://github.com/fsprojects/YC.PrettyPrinter/raw/master/docs/files/img/logo32.png)&nbsp;[YC.PrettyPrinter](https://github.com/fsprojects/YC.PrettyPrinter) Printer combinators library
 
 *  [LLVM-FS](https://github.com/fsprojects/llvm-fs) - LLVM bindings for F#
 
