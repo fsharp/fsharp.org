@@ -57,21 +57,6 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
    plots. ILNumerics supports .NET 4.0 as well as Mono (recommend 2.10 or above).
 
    License: GPLv3 or commercial (paid) license.
-
- * [Fmat](https://github.com/Statfactory/Fmat) - a 100% F# library for manipulating n-dimensional dense matrices.
-
-   Concrete matrix implementations cover single- and double-precision
-   floating point, 32-bit integer, bool, and string types. Fmat contains four matrix factorization 
-   and linear solver algorithms, random number generators for 7 distributions, special functions and 
-   basic statistical procedures. Fmat is available on GitHub and from NuGet.
-   
-   License: MIT/X11
-   
- * [FCor](https://github.com/Statfactory/FCor) - High performance F# math and stat library.
-
-   FCor is a F# DSL for matrix calculations and statistical modelling. The math part of the library contains overloaded functions for construction and manipulation of vectors and matrices, including matrix factorizations and solvers, random number generators and vector functions. The stat part contains strongly typed statistical data frame with factors and covariates, strongly typed statistical model formula, ultra fast implementation of Generalized Linear Model and CSV Stat Data Type Provider. FCor is a .NET library but for maximum performance on Intel it is accelerated by Intel Math Kernel Library. Also, it uses native C functions to allocate memory so that .NET memory limits are bypassed and Garbage Collection is minimized.
-   
-   License: MIT/X11
    
  * [DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic 
    differentiation (AD) library for exact and efficient calculation of derivatives. Also includes symbolic and numerical differentiation.
