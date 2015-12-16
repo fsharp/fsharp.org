@@ -89,8 +89,6 @@ Contributions welcome!
 
 <h2 class="anchor" id="libraries" class="anchor">Community Projects: Functional Programming</h2>
 
-*  [Aether](https://xyncro.tech/aether) - An optics (lenses, prisms, morphisms) library for F# that enables  powerful ways of working with data structures.
-
 *  ![logo](/images/thumbs/nessos.png)&nbsp;[Streams](http://nessos.github.io/Streams/) - A lightweight F#/C# library for efficient functional-style pipelines on streams of data.
 
 *  ![logo](/images/thumbs/nessos.png)&nbsp;[LinqOptimizer](http://nessos.github.io/LinqOptimizer/) - An automatic query optimizer-compiler for Sequential and Parallel LINQ. LinqOptimizer compiles declarative LINQ queries into fast loop-based imperative code. The compiled code has fewer virtual calls and heap allocations, better data locality and speedups of up to 15x (Check the Performance page).
@@ -100,6 +98,8 @@ Contributions welcome!
 *  [FSharpEnt](https://github.com/colinbull/FSharpEnt) - A collection of helpers for enterprise development with F#.
 
 *  ![logo](/images/thumbs/FSharpx.Collections.png)&nbsp;[FSharpx.Collections](http://fsprojects.github.io/FSharpx.Collections/) - A set of functional programming collections for F#.
+
+*  [Aether](https://xyncro.tech/aether) - An optics (lenses, prisms, morphisms) library for F# that enables  powerful ways of working with data structures.
 
 *  [F# Snippets](http://fssnip.net/) - A community-contributed catalog of F# Snippets
 
@@ -112,8 +112,6 @@ Contributions welcome!
 <br />
 
 <h2 class="anchor" id="data-access" class="anchor">Community Projects: Data Access</h2>
-
-*  [Chiron](https://xyncro.tech/chiron) - A library for functional JSON in F#, including parsing, formatting, serialization and deserialization (through explicit object mapping), and working effectively with complex JSON data.
 
 *  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[F# Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
 
@@ -128,6 +126,8 @@ Contributions welcome!
    *  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - Access XML documents in a statically typed way.
 
 *  ![logo](/images/thumbs/FSharp.Data.Toolbox.png)&nbsp;[FSharp.Data.Toolbox](http://fsprojects.github.io/FSharp.Data.Toolbox) - F# Data-based library for various data access APIs, includes a Twitter access package.
+
+*  [Chiron](https://xyncro.tech/chiron) - A library for functional JSON in F#, including parsing, formatting, serialization and deserialization (through explicit object mapping), and working effectively with complex JSON data.
 
 *  [Apiary Provider](http://fsprojects.github.io/ApiaryProvider) - A type provider that makes it possible to easily call REST services that are documented using the apiary.io service.
 
