@@ -89,6 +89,8 @@ Contributions welcome!
 
 <h2 class="anchor" id="libraries" class="anchor">Community Projects: Functional Programming</h2>
 
+*  [Aether](https://xyncro.tech/aether) - An optics (lenses, prisms, morphisms) library for F# that enables  powerful ways of working with data structures.
+
 *  ![logo](/images/thumbs/nessos.png)&nbsp;[Streams](http://nessos.github.io/Streams/) - A lightweight F#/C# library for efficient functional-style pipelines on streams of data.
 
 *  ![logo](/images/thumbs/nessos.png)&nbsp;[LinqOptimizer](http://nessos.github.io/LinqOptimizer/) - An automatic query optimizer-compiler for Sequential and Parallel LINQ. LinqOptimizer compiles declarative LINQ queries into fast loop-based imperative code. The compiled code has fewer virtual calls and heap allocations, better data locality and speedups of up to 15x (Check the Performance page).
@@ -110,6 +112,8 @@ Contributions welcome!
 <br />
 
 <h2 class="anchor" id="data-access" class="anchor">Community Projects: Data Access</h2>
+
+*  [Chiron](https://xyncro.tech/chiron) - A library for functional JSON in F#, including parsing, formatting, serialization and deserialization (through explicit object mapping), and working effectively with complex JSON data.
 
 *  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[F# Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
 
