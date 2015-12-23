@@ -11,11 +11,11 @@ you can contribute to are below.
 These projects may be at an early stage, and are not necessarily appropriate for production
 use. Out of small beginnings, great things come! To add a project to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/community/projects/index.md) and submit a pull request.
 
-Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>, 
-<a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#text">Text Programming</a>, 
-<a href="#interop">Interop</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>, 
-<a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>, 
-<a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>, 
+Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>,
+<a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#text">Text Programming</a>,
+<a href="#interop">Interop</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>,
+<a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>,
+<a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>,
 <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>, <a href="#audioprocessing">Audio Processing</a>
 
 <br />
@@ -33,6 +33,8 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](https://github.com/fsprojects/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff).
 Contributions welcome!
 
+*  ![logo](/images/thumbs/ionide.png)&nbsp;[Ionide](https://github.com/ionide/) - Set of Atom and VS Code plugins for F# development
+
 *  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/sublime-fsharp-package) - F# development tools for Sublime Text 3
 
 *  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/vim-fsharp) - F# Language Binding for Vim
@@ -43,7 +45,7 @@ Contributions welcome!
 
 *  [LightTable plugin for F#](https://github.com/enricosada/LightTable-FSharp) - LightTable plugin for F# language
 
-*  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[FsAutoComplete](https://github.com/fsharp/FsAutoComplete) - F# command line tool run as background process to serve information for editor tools such as Emacs, Vim and Sublime Text
+*  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[FsAutoComplete](https://github.com/fsharp/FsAutoComplete) - F# command line tool run as background process to serve information for editor tools such as Emacs, Vim, Sublime Text, Atom and VS Code
 
 *  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter, also includes with the [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)
 
@@ -78,10 +80,12 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](http://github.com/fsprojects/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
 
+*  [Yeoman F# generator](https://github.com/fsprojects/generator-fsharp) - scaffolding F# projects outside of IDE such as Visual Studio and Xamarin Studio. Avaliable in the [npm](https://www.npmjs.com/package/generator-fsharp).
+
 *  ![logo](/images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](https://github.com/fsprojects/FSharpLint) - A lint tool for F#.
 
 *  [F# SonarQube Plugin](https://github.com/jmecosta/sonar-fsharp-plugin) - F# support for SonarQube
-  
+
 *  [Lambda Container](https://lambdacontainer.codeplex.com) - An IoC container written in F# for .NET code.
 
 <br />
