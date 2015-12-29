@@ -14,6 +14,18 @@ headline: Guide - F# Slack Teams
 * [File](https://slack.zendesk.com/hc/en-us/articles/201330736-Uploading-and-sharing-files) and [text snippet](https://slack.zendesk.com/hc/en-us/articles/204145658-Creating-a-Snippet) sharing
 * Privacy - Unlike [freenode](https://freenode.net/) IP addresses are not publicly visible
 
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+    <p>This guide includes resources related to F# Slack teams. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/slack/index.md">edit this page</a> and send a pull request.</p>
+    <hr />
+    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services, unless directly managed by the Foundation. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+</div>              
+
+## F# Software Foundation Slack Team
+
+Only members of the F# Software Foundation can be invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join visit [this page](http://foundation.fsharp.org/join).
+
+Once you are a member send an email to info@fsharp.org to get an invite to the Slack team.
+
 ## Functional Programming Slack Team
 
 To get an invite to the [Functional Programming
@@ -28,14 +40,3 @@ There are currently two F# related channels in the Functional Programming Slack:
 
 * [#fsharp-beginners](https://functionalprogramming.slack.com/archives/fsharp-beginners) - Since the main F# channel can be a bit overwhelming, this channel was created to be more friendly for those new to F#.
 
-Other channels that may be of interest include: #haskell, #haskell-beginners, #categorytheory, and #scala.
-
-## F# Software Foundation Slack Team
-
-Only members of the F# Software Foundation can be invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join visit [this page](http://foundation.fsharp.org/join).
-
-Once you are a member send an email to info@fsharp.org to get an invite to the Slack team.
-
-<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>This guide includes resources related to F# Slack teams. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/slack/index.md">edit this page</a> and send a pull request.</p>
-</div>              
