@@ -7,20 +7,18 @@ headline: Technical Groups
 The F# Software Foundation members actively seek to encourage and facilitate community operated F# related meetups,
 discussion groups, as well as working groups directly affiliated with the foundation. 
 
-The following Working Groups are directly affiliated with the F# Software Foundation:
+[Working Groups](http://foundation.fsharp.org/working_groups) are the official mechanism whereby the F# Software Foundation coordinates volunteer resources and engages directly with the F# community to fulfill the [Mission of the F# Software Foundation](http://foundation.fsharp.org). The following Working Groups are currently active and open to accepting new volunteers:
 
- * [**F# Core Engineering**](http://fsharp.github.io) (contact Michael Newton or Dave Thomas)  
- * **F# Software Foundation Communications Group** (contact [fsharp@fsharp.org](mailto:fsharp@fsharp.org))
-
-More details of the working groups can be found by contacting the people above or 
-emailing [fsharp@fsharp.org](mailto:fsharp@fsharp.org). 
+ * [**Training and Education Working Group**](http://foundation.fsharp.org/training_and_education_wg)
+ * [**Communications Working Group**](http://foundation.fsharp.org/communications_wg)
+ * [**Core Engineering Working Group**](http://foundation.fsharp.org/core_engineering_wg) 
+ 
+More details of the working groups can be found in the [Working Groups](http://foundation.fsharp.org/working_groups) page.
 
 Current communitiy operated technical groups which fit with [the mission](http://foundation.fsharp.org) include:
 
  * [**Community for F#**](http://c4fsharp.net) (contact Mathias Brandewinder and Ryan Riley)
  * [**F# Web Programming Group**](https://groups.google.com/forum/#!forum/web-stack-fs) (contact Ryan Riley)
  * [**F# for Data and Machine Learning**](https://groups.google.com/forum/#!forum/fsharp-data-science) (contact Mathias Brandewinder)
- * **F# in Finance** (contact Natallie Baikevich)
- * **F# in Academia** (contact Antonio Cisternino)
 
 We encourage community operated groups to adopt a public presence and [submit an edit to this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/technical-groups/index.md) with details (GitHub login required).
