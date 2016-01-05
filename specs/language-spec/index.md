@@ -22,11 +22,14 @@ algorithm, expressions, patterns and other.
 
 ### F# 3.1 
 
-  * [The F# 3.1 Language Specification (working draft)](3.1/FSharpSpec-3.1-working.docx) - The working draft of the F# 3.1 language
-    specification. 
+  * [The F# 3.1 Language Specification (final version, PDF)](3.1/FSharpSpec-3.1-final.pdf) - The final version of the F# 3.1 language specification. 
+	
+### F# 4.0 
+
+  * [The F# 4.0 Language Specification (latest, DOCX)](4.0/FSharpSpec-4.0.docx), [(latest, PDF)(4.0/FSharpSpec-4.0.pdf) - The latest, working version of the F# 4.0  language specification. 
 	
 	Comments and edits are both welcome. To contribute to the specification, please <a href="http://github.com/fsharp/fsfoundation">fork this repository</a>, edit the working draft document, and send a pull request.
-	The custodians of the specification (principally, the language designers at Microsoft Research) will
+	The custodians of the specification will
 	review these pull requests and consider them for acceptance into the working drafts, which will 
 	then be updated here.
 
