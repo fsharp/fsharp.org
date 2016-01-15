@@ -81,16 +81,13 @@ patterns. Further, you will also see powerful new things like pattern matching, 
 first-class events, object expressions, options, tuples, records, discriminated unions, 
 active patterns, agents, computation expressions and, perhaps most distinctively, type providers. 
 
-### [Expert F# 3.0](https://books.google.com/books?isbn=1430246502)
+### [Expert F# 3.0](https://books.google.com/books?isbn=1484207424)
 
 <img src="files/BookEF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Don Syme, Adam Granicz, Antonio Cisternino_
 
-Expert F# 3.0 is about practical programming in a beautiful language that puts the 
-power and elegance of functional programming into the hands of professional 
-developers. In combination with .NET, F# achieves unrivaled levels of programmer 
-productivity and program clarity. 
+Expert F# 4.0 is about practical programming in a beautiful language that puts the power and elegance of data-rich functional programming into the hands of professional developers.
 
 ### [Real World Functional Programming](https://books.google.com/books?isbn=1933988924)
 
