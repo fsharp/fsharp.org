@@ -81,7 +81,7 @@ patterns. Further, you will also see powerful new things like pattern matching, 
 first-class events, object expressions, options, tuples, records, discriminated unions, 
 active patterns, agents, computation expressions and, perhaps most distinctively, type providers. 
 
-### [Expert F# 3.0](https://books.google.com/books?isbn=1484207424)
+### [Expert F# 4.0](https://books.google.com/books?isbn=1484207424)
 
 <img src="files/BookEF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
