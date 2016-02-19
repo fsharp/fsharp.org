@@ -1,7 +1,7 @@
 ---
 layout: default
 title: F# Mentorship program | The F# Software Foundation
-headline: F# Metorship
+headline: F# Mentorship
 ---
 ## F# Mentorship Program Overview
 
