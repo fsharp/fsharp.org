@@ -1,8 +1,10 @@
 ---
 layout: default
 title: F# Mentorship program | The F# Software Foundation
-headline: F# Metorship
+headline: F# Mentorship program
 ---
+
+
 ## F# Mentorship Program Overview
 
 Many of us have been lucky to have mentors in our careers who have helped us become better programmers (and people).
