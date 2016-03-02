@@ -35,7 +35,7 @@ The program is free-of-charge. The mentors are volunteering their time to benefi
 
 ### What do I need to do next?
 
-If you are a member of the FSSF, just complete the [form here](https://fssfedu.typeform.com/to/QZEJEZ) before Sunday 28th February 2016.
+If you are a member of the FSSF, just complete the [form here](https://fssfedu.typeform.com/to/QZEJEZ) before Sunday 13th March  2016.
 The FSSF will then select at random 10 candidates for the initial batch. We will contact you regardless of whether you were selected or not.
 
 There are only a limited number of mentors available right now, so if we are over-subscribed, we will add you to a waiting list.
