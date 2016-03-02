@@ -75,12 +75,18 @@ following requirements and installation steps:
         $webclient.DownloadFile($url, "$pwd\FSharp_Bundle.exe")
         .\FSharp_Bundle.exe /install /quiet
 
-The compiler tools are installed at
+The compiler tools on 64-bit Windows are installed at
 
     C:\Program Files (x86)\Microsoft SDKs\F#\4.0\Framework\v4.0\fsc.exe
     C:\Program Files (x86)\Microsoft SDKs\F#\4.0\Framework\v4.0\fsi.exe
     C:\Program Files (x86)\Microsoft SDKs\F#\4.0\Framework\v4.0\fsiAnyCpu.exe
     
+The compiler tools on 32-bit Windows are installed at
+
+    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.0\fsc.exe
+    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.0\fsi.exe
+    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.0\fsiAnyCpu.exe
+
 If you're looking for Visual F# Tools 3.0 specifically, its standalone version could be downloaded [here](http://go.microsoft.com/fwlink/?LinkId=261286). 
     
 <br />
