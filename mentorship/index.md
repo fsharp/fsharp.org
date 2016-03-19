@@ -30,7 +30,7 @@ If you want to be mentored, please [register here](register.md). If you would li
 * The first round of the program is full, and we are closed to new applicants for the time being. 
 * We have selected 10 lucky people from the first round of registrants. Unfortunately, the other registrants will have to wait until the next round. :(
 * If you were a successful registrant, you should have been contacted and paired with a mentor already.
-* If you were a unsuccessful registrant, you should also have been contacted to let you know that you were unlucky.
+* If you were a unsuccessful registrant, you will be contacted shortly to let you know that you were unlucky.
 
 If you think you should have heard from us, but haven't, please do get in touch via our twitter account [@fsharpedu](https://twitter.com/fsharpedu).
 
