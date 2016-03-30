@@ -171,6 +171,15 @@ clusters of commodity hardware. Hadoop derives from Google's MapReduce and Googl
 
  * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources
 
+#### Storm
+
+[Storm](http://storm.apache.org/) is platform for realtime analytics, online machine learning, continuous computation, distributed RPC, ETL, and more. Capable of running on the same infrastructure as Hadoop clusters, it is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate. 
+
+ * [FsStorm](http://fsstorm.github.io/FsStorm) - F# library for implementation of Apache Storm components and definition of topologies in F# DSL, with fine-grained access to multilang via Json AST.
+
+ * [FsShelter](https://prolucid.github.io/FsShelter) - reimagined FsStorm that favours static typing, simplicity and modularity.
+
+ * [Hosted Storm on Azure HDInsight](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-storm-overview/) - Storm as a service on Azure HDInsight.
 
 #### Riak
 
