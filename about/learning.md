@@ -1,4 +1,4 @@
-﻿---
+﻿--
 layout: default
 title: Learning F# | The F# Software Foundation
 headline: Learning F#
