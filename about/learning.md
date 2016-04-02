@@ -2,9 +2,8 @@
 layout: default
 title: Learning F# | The F# Software Foundation
 headline: Learning F#
-redirect_from:
-  - "/consulting/"
-  - "/training/"
+redirect_from: "/consulting/"
+redirect_from: "/training/"
 ---
 
 To learn F# use one of the free online resources or books below.
