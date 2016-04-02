@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Learning F# | The F# Software Foundation
 headline: Learning F#
@@ -176,6 +176,14 @@ F# Deep Dives presents a collection of real-world F# techniques, each written by
 _Mathias Brandewinder_
 
 Machine Learning Projects for .NET Developers shows you how to build smarter .NET applications that learn from data, using simple algorithms and techniques that can be applied to a wide range of real-world problems.
+
+### [Mastering .NET Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/mastering-net-machine-learning)
+
+<img src="files/MasterDotNetML.PNG" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Jamie Dixon_
+
+This book is packed with real-world examples to easily use machine learning techniques in your business applications.
 
 ### [Multi-Paradigm Programming Using F# and .NET](http://www.naghoospress.ir/bookview.aspx?bookid=1486730)
 
