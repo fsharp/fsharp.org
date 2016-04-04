@@ -10,9 +10,11 @@ To help with Linux packages, please join the [F# Core Engineering Group](http://
 ### Option 1: Use the F# Debian/Ubuntu packages 
 
 To use the latest stable version of the F# Debian/Ubuntu package, it is highly
-recommended that you [follow these instructions](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives). 
+recommended that you:
 
-Then install packages mono-complete and fsharp.
+1. [Follow these instructions](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives). 
+
+2. Then install packages mono-complete and fsharp.
 
     sudo apt-get update
     sudo apt-get install mono-complete fsharp
