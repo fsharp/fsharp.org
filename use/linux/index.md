@@ -9,7 +9,8 @@ To help with Linux packages, please join the [F# Core Engineering Group](http://
 
 ### Option 1: Use the F# Debian/Ubuntu packages 
 
-To add repositories for Mono and F# just follow instructions in [Mono documentation](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives). 
+To use the latest stable version of the F# Debian/Ubuntu package, it is highly
+recommended that you follow the instructions in the [Mono documentation](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives). 
 
 Then install packages mono-complete and fsharp.
 
@@ -19,7 +20,8 @@ Then install packages mono-complete and fsharp.
 This installs `fsharpc` and `fsharpi`. If you don't have access to these repositories, compile from source or see Option 6 below. Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
 
-
+F# is also available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html) though the package
+tends to be less up-to-date than the packages above.
 
 ### Option 2: Build and install the F# runtime, compiler and tools
 
