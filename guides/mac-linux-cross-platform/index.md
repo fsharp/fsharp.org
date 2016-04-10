@@ -106,9 +106,12 @@ Use xbuild to build projects and solutions:
     xbuild RocketSolution.sln
 
 Many people doing cross-platform or Mac/Linux development don't like .sln files.
-If so, you can also create a .fsproj file that brings together
-a collection of .fsproj files. Include, for example, [root.traversals.targets](https://github.com/fsharp/fsharp/blob/master/src/root.traversal.targets) used in the F# compiler source
-in a .fsproj like this:
+If so, you can also create a .fsproj file that brings together a collection of
+.fsproj files. Example of this can be found
+[on F# Core Engineering](http://fsharp.github.io/2015/04/18/fsharp-core-notes.html#examples-of-how-project-files-reference-fsharpcore-and-the-f-targets-file)
+. Also the F# compiler source uses .fsproj files in this way on
+[root.traversals.targets](https://github.com/fsharp/fsharp/blob/master/src/root.traversal.targets). In
+essence the reference looks like the following:
 
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
 
@@ -121,9 +124,26 @@ in a .fsproj like this:
       <Import Project="root.traversal.targets"/>
 
     </Project>
+    
+Tooling around projects relies on .fsproj files being present, for example the
+autocompletion in [emacs mode](https://github.com/fsharp/emacs-fsharp-mode) or
+[Vim](https://github.com/fsharp/vim-fsharp) will not work with out one. .fsproj
+files are special XML files, and can therefor be somewhat unwieldy to maintain
+by hand, to help with this you can either Xamarin Studio or MonoDevelop to
+create and maintain them if you work in either of those. Alternatively
+[forge](https://github.com/fsprojects/forge) will allow you to manage the files
+from the command line. It is always possible to edit the files by hand as well
+should need be.
 
-To create a .fsproj file from scratch yourself, either install Xamarin Studio or MonoDevelop,
-or find an existing one, copy it and edit it by hand.
+#### Forge
+
+[Forge](https://github.com/fsprojects/forge) is a self contained tool for
+generating and managing projects. It allows the generation of new projects based
+on an expanding list of templates. It also encapsulates the best practices for those
+projects in terms of tooling and layout. The generated projects contain .fsproj files, 
+which can in turn be managed via forge as well making sure cross platform builds as well
+as editor integration works out of the box. Of course forge can also manage the .fsproj
+files for existing projects.
 
 #### Makefiles
 
