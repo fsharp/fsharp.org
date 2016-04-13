@@ -29,13 +29,13 @@ go further. For 64-bit support, see below.
 
 <br />
 
-
-### Option 3: Install F# via Homebrew
+### Option 3: Install F# via Homebrew (64-bit)
 
 F# is installed as part of the Mono homebrew formula:
 
     brew install mono
-  
+
+You can configure Xamarin Studio to use this 64-bit installation: Preferences > .NET Runtimes > Add > ```/usr/local```
 
 ### Option 4: Install F# (64-bit) from source
 
@@ -71,7 +71,7 @@ To use the F# command-line compiler and tools on Mac OSX in 64-bit mode:
 
 * When you run mono, use ```/mono64/bin/mono``` and put ```/mono64/bin``` on your path.  Adjust other applications that launch mono to use this location.
 
-* Xamarin Studio and MonoDevelop run applications in 32-bit mode by default. You will need to run programs from the command line to benefit from 64-bit execution.
+* Xamarin Studio and MonoDevelop run applications in 32-bit mode by default. You can configure additional runtimes under Preferences > .NET Runtimes to benefit from 64-bit execution.
 
 <br />
 
