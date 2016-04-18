@@ -295,6 +295,30 @@ _In pre-proceedings of PLOS '13 Seventh Workshop on Programming Languages and Op
 
 As cloud computing and big data gain prominence in today's economic landscape, the challenge of effectively articulating complex algorithms in distributed environments becomes ever more important. In this paper we describe MBrace; a novel programming model/framework for performing large scale computation in the cloud. Based on the .NET software stack, it utilizes the power of the F# programming language. MBrace introduces a declarative style for specifying and composing parallelism patterns, in what is known as cloud workflows or a cloud monad. MBrace is also a distributed execution runtime that handles orchestration of cloud workflows in the data centre.
 
+### [Implementation of MBrace for large-scale cloud computing](https://github.com/krontogiannis/MBrace.Azure/raw/thesis/docs/mbrace-thesis-en.pdf)
+
+Konstantinos Rontogiannis
+_Diploma Thesis, National Technical University of Athens, School of Electrical and Computer Engineering, 2015_
+
+The purpose of this diploma dissertation is on one hand the description of MBrace; a programming
+model for performing large scale distributed computations, and on the other hand the implementation
+of MBrace on the Microsoft Azure cloud computing platform.
+
+In the era of big data and cloud computing, the need for efficient and effective orchestration of distributed
+computations becomes a necessity. Cloud computing providers make it easy for someone to
+get access to computational resources needed.
+
+Programming large scale distributed systems is a remarkably difficult task, that requires the management
+and orchestration of multiple concurrent processes, software and hardware failures, scalability
+and elasticity.
+
+In this diploma dissertation we describe MBrace; a programming model for large scale cloud computing.
+Based on the F# programming language and the .NET framework stack, MBrace provides a
+declarative, expressive and rich model for creating and composing distributed computations. This
+pattern is also known as cloud workflows, or cloud monad. Finally, we have implemented this model
+on top of the Microsoft Azure platform, providing MBrace.Azure: a distributed execution runtime for
+cloud computations.
+
 ### [Specifying and Executing Optimizations for Parallel Programs](http://web.engr.illinois.edu/~mansky1/exec.pdf)
 
 William Mansky, Dennis Griffith, Elsa L. Gunter
