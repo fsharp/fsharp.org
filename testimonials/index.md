@@ -59,7 +59,7 @@ the content (so please add some, even though they are not used at the moment).
     existing C# code, and that the F# code deployed to and ran as an Azure app service 
     without any special configuration. Adding F# to the code base was completely painless.
     
-    The developers on our team are all intruiged by F# and eager to learn more. As well, 
+    The developers on our team are all intrigued by F# and eager to learn more. As well, 
     we find that at college recruiting events, prospective students are very excited to hear 
     that we are using a functional language in production
   
