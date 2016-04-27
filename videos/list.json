@@ -120,14 +120,6 @@
     "Date": "2014-09-05T00:00:00Z"
   },
   {
-    "_id": "54508d6c9ca65f123456f0d8",
-    "Title": "FunScript HTML Extensions",
-    "Url": "https://www.youtube.com/watch?v=Xmvehkj8qGM",
-    "Thumbnail": "https://i.ytimg.com/vi/Xmvehkj8qGM/mqdefault.jpg",
-    "Website": "YouTube",
-    "Date": "2014-09-05T00:00:00Z"
-  },
-  {
     "_id": "54508d119ca65f123456f0d7",
     "Title": "Happily together: F# and SQL with Dmitry Morozov and Dmitry Sevastianov",
     "Url": "http://vimeo.com/104896802",

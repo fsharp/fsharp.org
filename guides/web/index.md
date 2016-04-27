@@ -13,7 +13,7 @@ well to a stateless, functional approach. Advantages to using F# for web program
 * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
 * *Reactive and Scalable* - F# asynchronous programming simplifies scalable, reactive web programming
 * *Interoperable* - F# interoperates seamlessly with languages such as C#, JavaScript and TypeScript
-* *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [FunScript](http://funscript.info/)
+* *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com), [FunScript](http://funscript.info/) and [Fable](https://github.com/fsprojects/Fable)
 * *Open-source* and *cross-platform*
 
 
@@ -68,11 +68,19 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 FunScript is an F# to JavaScript converter with TypeScript interoperability.
 
 * [Examples](http://funscript.info/learn.html)
-* Introductory videos:
-  * [TodoMVC with FunScript and Ractive part 1](http://youtu.be/smyeLH6HktA)
-  * [TodoMVC with FunScript and Ractive part 2](http://youtu.be/hhqKArYkfYA)
-  * [FunScript HTML Extensions](http://youtu.be/Xmvehkj8qGM)
 * [Visual Studio templates](https://visualstudiogallery.msdn.microsoft.com/4688fe33-a41a-4c62-8322-4a7dccffa97c)
+
+#### [Fable](https://github.com/fsprojects/Fable)
+
+[Fable](https://github.com/fsprojects/Fable) is an F# to JS compiler designed to generate clean
+and standard code in order to maximize interoperability in both ways. It integrates with most
+of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
+or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you develop
+not only web apps but also [node.js](https://nodejs.org/en/), desktop with [Electron](http://electron.atom.io)
+or mobile with [React native](https://facebook.github.io/react-native/).
+
+* [Docs](https://github.com/fsprojects/Fable/tree/master/docs)
+* [Examples](https://github.com/fsprojects/Fable/tree/master/samples)
 
 #### [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
