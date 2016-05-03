@@ -349,6 +349,10 @@ pre {
     padding: 5px 0;
 }
 
+.list-group-item-heading {
+    padding-top: 5px;
+}
+
 .carousel-control {
     width: 7%;
     color: #eef1f5;
