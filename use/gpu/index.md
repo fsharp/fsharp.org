@@ -7,7 +7,7 @@ headline: Use F# for GPU Programming
 GPU execution is a technique for high-performance financial, image processing and other 
 data-parallel numerical programming. The following options are available for executing F# on the GPU. 
 
-If you would to list an 
+If you would like to list an 
 option here, please submit a pull request by [editing this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/use/gpu/index.md).
 
 ### Option 1 - Use Alea GPU, for F#-enabled CUDA programming 
