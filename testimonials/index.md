@@ -42,7 +42,7 @@ the content (so please add some, even though they are not used at the moment).
 -->
 <a id="oconnors-1" class="testimonial-anchor"> &nbsp; </a>
 ---
- > F# was so easy to pick up we went from complete novices to having our code in production in less than a week.
+> F# was so easy to pick up we went from complete novices to having our code in production in less than a week.
 
 1. Jack Mott
 2. O'Connor's Online
