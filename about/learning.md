@@ -19,7 +19,7 @@ The cheat sheet is a small and concise guide to F# syntax for newcomers to get s
 
 ### [The F# Koans](https://github.com/ChrisMarinos/FSharpKoans#functional-koans---f)
 
-Just fill in the gaps! Learn F# through code snippets where you have to fill in gaps as you go.  Also available as a [snippet](http://fssnip.net/bG).
+Learn F# by just filling in the gaps! The F# Koans are a fun set of code snippets where you have to fill in gaps to get tests to pass, and you learn the language along the way.  Also available as a [snippet](http://fssnip.net/bG) which can be loaded into interactive environments or your editor of choice.
 
 ### [Try F#](http://www.tryfsharp.org) 
 
