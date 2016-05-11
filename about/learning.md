@@ -13,6 +13,14 @@ To learn F# use one of the free online resources or books below.
 Introduces you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software.
 
+### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
+
+The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
+
+### [The F# Koans](https://github.com/ChrisMarinos/FSharpKoans#functional-koans---f)
+
+Just fill in the gaps! Learn F# through code snippets where you have to fill in gaps as you go.  Also available as a [snippet](http://fssnip.net/bG).
+
 ### [Try F#](http://www.tryfsharp.org) 
 
 Try F# is an interactive environment where you can
@@ -28,9 +36,14 @@ of online tutorials demonstrating the power of F#:
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
 
-### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
+### [F# Snippets](http://fssnip.net/)
 
-The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
+A collection of snippets of F# code.
+
+### [.NET Fiddle](https://dotnetfiddle.net/)
+
+Allows you to try F# code in your browser.
+
 
  
 <h2 id="books" class="anchor">F# Books - General</h2>
