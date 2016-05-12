@@ -20,23 +20,6 @@ headline: Guide - F# Slack Teams
     <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services, unless directly managed by the Foundation. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
 </div>              
 
-## F# Software Foundation Slack Team
+## F# Software Foundation Slack
 
-Only members of the F# Software Foundation can be invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join visit [this page](http://foundation.fsharp.org/join).
-
-Once you are a member send an email to info@fsharp.org to get an invite to the Slack team.
-
-## Functional Programming Slack Team
-
-To get an invite to the [Functional Programming
-Slack](https://functionalprogramming.slack.com/) team visit
-[fpchat.com](http://fpchat.com). An invitation will be sent to the email
-address you supply. Follow the instructions to join the Functional
-Programming Slack team.
-
-There are currently two F# related channels in the Functional Programming Slack:
-
-* [#fsharp](https://functionalprogramming.slack.com/?redir=/archives/fsharp) - This is the general channel for F#. The developers of [Visual F# Power Tools](https://fsprojects.github.io/VisualFSharpPowerTools/), [Xamarin Studio](https://developer.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview/), [Ionide](http://ionide.io/), [SqlProvider](http://fsprojects.github.io/SQLProvider/), among others all hang out here and are very active. The channel can be wildly off-topic for hours at a time but specific F# questions are usually answered fairly quickly.
-
-* [#fsharp-beginners](https://functionalprogramming.slack.com/archives/fsharp-beginners) - Since the main F# channel can be a bit overwhelming, this channel was created to be more friendly for those new to F#.
-
+Members of the F# Software Foundation can be invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join visit [this page](http://foundation.fsharp.org/join). Once you are a member send an email to info@fsharp.org to get an invite to the Slack team.
