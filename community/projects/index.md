@@ -80,6 +80,8 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](http://fsprojects.github.io/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
 
+*  [Forge](http://fsprojects.github.io/Forge/) - F# CLI tool for project, file, and solution management.
+
 *  [Yeoman F# generator](https://github.com/fsprojects/generator-fsharp) - scaffolding F# projects outside of IDE such as Visual Studio and Xamarin Studio. Avaliable in the [npm](https://www.npmjs.com/package/generator-fsharp).
 
 *  ![logo](/images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](http://fsprojects.github.io/FSharpLint/) - A lint tool for F#.
