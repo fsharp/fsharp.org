@@ -30,10 +30,10 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="editing" class="anchor">Community Projects: Editing Tools</h2>
 
-*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](https://github.com/fsprojects/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff).
+*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff).
 Contributions welcome!
 
-*  ![logo](/images/thumbs/ionide.png)&nbsp;[Ionide](https://github.com/ionide/) - Set of Atom and VS Code plugins for F# development
+*  ![logo](/images/thumbs/ionide.png)&nbsp;[Ionide](http://ionide.io) - Set of Atom and VS Code plugins for F# development
 
 *  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/sublime-fsharp-package) - F# development tools for Sublime Text 3
 
@@ -47,7 +47,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[FsAutoComplete](https://github.com/fsharp/FsAutoComplete) - F# command line tool run as background process to serve information for editor tools such as Emacs, Vim, Sublime Text, Atom and VS Code
 
-*  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter, also includes with the [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)
+*  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter, also included with the [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)
 
 
 <br />
@@ -72,17 +72,19 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/FAKE.png)&nbsp;[FAKE](http://fsharp.github.io/FAKE) - F# build automation system
 
-*  ![logo](/images/thumbs/Paket.png)&nbsp;[Paket](https://github.com/fsprojects/Paket) - A package dependency manager for .NET with support for NuGet packages and GitHub repositories
+*  ![logo](/images/thumbs/Paket.png)&nbsp;[Paket](http://fsprojects.github.io/Paket/) - A package dependency manager for .NET with support for NuGet packages and GitHub repositories
 
 *  [F# Type Provider Starter Pack](https://github.com/fsprojects/FSharp.TypeProviders.StarterPack) - Learning materials and code only NuGet package for writing type providers
 
 *  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
 
-*  ![logo](/images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](http://github.com/fsprojects/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
+*  ![logo](/images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](http://fsprojects.github.io/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
+
+*  [Forge](http://fsprojects.github.io/Forge/) - F# CLI tool for project, file, and solution management.
 
 *  [Yeoman F# generator](https://github.com/fsprojects/generator-fsharp) - scaffolding F# projects outside of IDE such as Visual Studio and Xamarin Studio. Avaliable in the [npm](https://www.npmjs.com/package/generator-fsharp).
 
-*  ![logo](/images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](https://github.com/fsprojects/FSharpLint) - A lint tool for F#.
+*  ![logo](/images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](http://fsprojects.github.io/FSharpLint/) - A lint tool for F#.
 
 *  [F# SonarQube Plugin](https://github.com/jmecosta/sonar-fsharp-plugin) - F# support for SonarQube
 
@@ -139,7 +141,7 @@ Contributions welcome!
 
 *  [FSharp.Linq.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.ComposableQuery/) - A Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
-*  [SQLProvider](https://github.com/fsprojects/SQLProvider/) - A general SQL type provider, supporting LINQ queries, schema exploration, stored procedures, individuals and much more besides.  Currently supports MS SQL Server, MS Access, SQLite, PostgreSQL, Oracle and MySQL.
+*  [SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL type provider, supporting LINQ queries, schema exploration, stored procedures, individuals and much more besides.  Currently supports MS SQL Server, MS Access, SQLite, PostgreSQL, Oracle and MySQL.
 
 *  [DynamicsNAVProvider](https://github.com/fsprojects/DynamicsNAVProvider) - A Microsoft Dynamics NAV type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
 
@@ -200,10 +202,13 @@ Contributions welcome!
 *  ![logo](/images/thumbs/FSharp.Charting.png)&nbsp;[FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - The FSharp.Charting library implements charting
    suitable for use from F# scripting.
 
-*  [FsPlot](https://github.com/TahaHachana/FsPlot) - FsPlot is an interactive data visualization library for F# using HTML5/JavaScript.
+*  [XPlot](http://tahahachana.github.io/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries.
+   It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.
+   You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
+
+*  [FsPlot](http://tahahachana.github.io/FsPlot/) - FsPlot is an interactive data visualization library for F# using HTML5/JavaScript.
 
 *  [VegaHub](http://panesofglass.github.io/VegaHub) - SignalR hub accessible from F# interactive with charting made through the [vega](http://trifacta.github.io/vega/) JavaScript library.
-
 
 *  ![logo](/images/thumbs/Foogle.Charts.png)&nbsp;[Foogle Charts](http://fsprojects.github.io/Foogle.Charts/) - Easy to use F# wrapper for Google Charts visualization library .
 
@@ -266,6 +271,13 @@ Contributions welcome!
 *  ![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com) - WebSharper is an F#-based web programming platform
    including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open
    source and on GitHub. Contributors welcome!
+
+*  [Fable](https://github.com/fsprojects/Fable/) is an F# to JS compiler designed to generate clean
+   and standard code in order to maximize interoperability in both ways. It integrates with most
+   of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
+   or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you develop
+   not only web apps but also [node.js](https://nodejs.org/en/), desktop with [Electron](http://electron.atom.io)
+   or mobile with [React native](https://facebook.github.io/react-native/).
 
 *  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with autocomplete, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
 
@@ -373,13 +385,13 @@ Contributions welcome!
 
 *  [FsUnit](http://fsprojects.github.io/FsUnit/) - Add F# functional syntax to NUnit, MbUnit, xUnit, and MsTest.
 
-*  [FsCheck](https://github.com/fsharp/FsCheck) - Random testing generator combinators, port of Haskell's QuickCheck.
+*  [FsCheck](https://fscheck.github.io/FsCheck/) - Random testing generator combinators, port of Haskell's QuickCheck.
 
 *  ![logo](/images/thumbs/Foq.png)&nbsp;[Foq](http://foq.codeplex.com/) - A lightweight thread-safe mocking library for F#, C# & VB.Net. Use Foq to mock abstract classes and interfaces.
 
 *  [AutoFixture.AutoFoq](http://www.nuget.org/packages/AutoFixture.AutoFoq) - A library which turns [AutoFixture](http://www.nuget.org/packages/AutoFixture) into an [Auto-mocking Container](http://blog.ploeh.dk/2013/03/11/auto-mocking-container/) where the mock instances are created by [Foq](https://github.com/fsprojects/Foq).
 
-*  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](https://code.google.com/p/unquote/) - F# unit test assertions as quoted expressions and step-by-step failure messages.
+*  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](http://www.swensensoftware.com/unquote/) - F# unit test assertions as quoted expressions and step-by-step failure messages.
 
 *  ![logo](/images/thumbs/canopy.jpg)&nbsp;[canopy](http://lefthandedgoat.github.io/canopy/) - F#rictionless web testing with Selenium.
 
@@ -393,9 +405,9 @@ Contributions welcome!
 
 <h2 class="anchor" id="metaprogramming" class="anchor">Community Projects: Metaprogramming</h2>
 
-*  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](https://code.google.com/p/unquote/) - Includes a fast quotaions evaluator
+*  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](http://www.swensensoftware.com/unquote/) - Includes a fast quotaions evaluator
 
-*  ![logo](/images/thumbs/FSharp.Quotations.Evaluator.png)&nbsp;[FSharp.Quotations.Evaluator](https://github.com/fsprojects/FSharp.Quotations.Evaluator) - An evaluator for F# quotations
+*  ![logo](/images/thumbs/FSharp.Quotations.Evaluator.png)&nbsp;[FSharp.Quotations.Evaluator](http://fsprojects.github.io/FSharp.Quotations.Evaluator/) - An evaluator for F# quotations
 
 
 <br />
