@@ -44,7 +44,7 @@ _Daniel Mohl_
 
 Learn how to build key aspects of web, cloud, and mobile solutions by combining F# with various .NET and open source technologies. With helpful examples, this hands-on book shows you how to tackle concurrency, asynchrony, and other server-side challenges. You’ll quickly learn how to be productive with F#, whether you want to integrate the language into your existing web application or use it to create the next Twitter. 
 
-### [Beginning F# 4.0](https://books.google.by/books?id=puQgDAAAQBAJ)
+### [Beginning F# 4.0](https://books.google.com/books?id=puQgDAAAQBAJ)
 
 <img src="files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
