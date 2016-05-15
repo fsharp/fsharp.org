@@ -252,6 +252,8 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/ExcelFinancialFunctions.png)&nbsp;[ExcelFinancialFunctions](http://fsprojects.github.io/ExcelFinancialFunctions/) - Excel Financial functions, implemented in F#, with a high degree of conformance testing.
 
+*  [Spreads](https://github.com/Spreads/Spreads/#spreads) - Spreads is an ultra-fast library for complex event processing and time series manipulation.  Spreads is a library, not a framework, and could be plugged into existing code bases and used immediately. Even though the primary domain is financial data, Spreads is designed as a generic complex event processing library.
+
 *  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[The Xenomorph Provider for F#](http://fsprojects.github.io/FSharp.Data.Experimental.XenomorphProvider/) - Connects F# to Xenomorph TimeScape(TM) using a type provider.
 
 
