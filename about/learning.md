@@ -44,17 +44,16 @@ _Daniel Mohl_
 
 Learn how to build key aspects of web, cloud, and mobile solutions by combining F# with various .NET and open source technologies. With helpful examples, this hands-on book shows you how to tackle concurrency, asynchrony, and other server-side challenges. You’ll quickly learn how to be productive with F#, whether you want to integrate the language into your existing web application or use it to create the next Twitter. 
 
-### [Beginning F#](https://books.google.com/books?id=UObTv4SB_5UC)
+### [Beginning F# 4.0](https://books.google.by/books?id=puQgDAAAQBAJ)
 
 <img src="files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
-_Robert Pickering_
+_Robert Pickering, Kit Eason_
 
-Functional programming is perhaps the next big wave in application development. 
-With Beginning F#, you have a companion that that will help you explore F# and 
-functional programming in a .NET environment. This book is both a comprehensive 
-introduction to all aspects of the language and an incisive guide to using F# for 
-real-world professional development.
+This book is a great foundation for exploring functional-first programming and 
+its role in the future of application development. The best-selling introduction to F#, 
+now thoroughly updated to version 4.0, will help you learn the language and explore 
+its new features.
 
 ### [Programming F# 3.0](https://books.google.com/books?isbn=1449326048)
 
