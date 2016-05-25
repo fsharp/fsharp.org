@@ -506,7 +506,7 @@ The following operators are defined in the F# standard library and should be use
 People often ask how to format pipelines. We recommend this style:
 
     let allTypes =
-         System.AppDomain.CurrentDomain.GetAssemblies()
+        System.AppDomain.CurrentDomain.GetAssemblies()
         |> Array.map (fun assem -> assem.GetTypes())
         |> Array.concat
 
