@@ -5,7 +5,7 @@ headline: Learning F#
 redirect_from: 
     - "/consulting/"
     - "/training/"
-    - "/learn/"
+    - "/about/learning/"
 
 ---
 
