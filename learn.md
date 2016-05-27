@@ -6,6 +6,7 @@ redirect_from:
     - "/consulting/"
     - "/training/"
     - "/about/learning/"
+    - "/about/learning.html"
 
 ---
 
