@@ -41,9 +41,13 @@ NuGet packages (not all packages load correctly in .NET Fiddle).
 
 ### [Visual F# Development Portal](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp-development-portal)
 
+<img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" />
+
 Documentation, walkthroughs, videos, and more.
 
 ### [Try F#](http://www.tryfsharp.org) 
+
+<img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 Try F# is an interactive environment where you can
 explore F# in your web browser (on Mac and Windows). It contains a number
@@ -51,7 +55,6 @@ of online tutorials demonstrating the power of F#:
 
 The site requires Silverlight for in-browser execution end editing.
 
-<img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
  * [Getting started in F#](http://www.tryfsharp.org/Learn/getting-started)
  * [Advanced F# Programming](http://www.tryfsharp.org/Learn/advanced-programming)
