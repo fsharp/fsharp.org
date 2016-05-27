@@ -14,14 +14,14 @@ To learn F# use one of the free online resources or books below.
 
 ### [F# for C#, Java or Python developers](http://fsharpforfunandprofit.com/)
 
-<img src="images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="http://fsharpforfunandprofit.com/"><img src="images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
 Introduces you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software.
 
 ### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
 
-<img src="images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="http://dungpa.github.io/fsharp-cheatsheet/"><img src="images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
 
 The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
@@ -46,16 +46,42 @@ NuGet packages (not all packages load correctly in .NET Fiddle).
 The Microsoft documentation for Visual F# provides a language reference, walkthroughs, videos, samples, and more.  You can also
 contribute to the documentation on GitHub.
 
+### [F# Programming Wikibook](http://en.wikibooks.org/wiki/Programming:F_Sharp)
+
+The wikibook contains a comprehensive guide to F# programming. It covers 
+F# language basics and essential functional programming concepts such as 
+working with functions and immutable data structures. It also discusses 
+imperative and object-oriented programming in F# and advanced langauge 
+features such as active patterns and computation expressions.
+
+### [Analyzing and Visualizing Data with F#](http://www.oreilly.com/programming/free/analyzing-visualizing-data-f-sharp.csp)
+
+<img src="/about/files/BookFsLab.png" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Tomas Petricek_
+
+This report explains many of the key features of the F# language that make it a great tool for data science and machine learning. Real world examples take you through the entire data science workflow with F#, from data access and analysis to presenting the results. You'll learn about F# Data and type providers, the process of data analysis with Deedle and R type provider and the implementation of basic machine learning algorithm with F#.
+
+### [F# Workshop Materials](http://fsharpworkshop.com/)
+
+Material from the F# Introduction Workshop created by Jorge Fioranelli.
+ 
+### [Community for F# Coding Dojos](http://c4fsharp.net/#fsharp-coding-dojos)
+
+A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) including the famous
+[Digits Recognizer](https://github.com/c4fsharp/Dojo-Digits-Recognizer), [Fractal Forest](https://github.com/c4fsharp/Dojo-Fractal-Forest), [Canopy 2048](https://github.com/c4fsharp/Dojo-Canopy-2048),
+[Markov Bot](https://github.com/c4fsharp/Dojo-Markov-Bot), [Type Provider Treasure Hunt](https://github.com/c4fsharp/Dojo-Type-Provider-Treasure-Hunt), [Classics Mash-up](https://github.com/c4fsharp/Dojo-Picasquez-and-Velasso) and [Ham or Spam](https://github.com/c4fsharp/Dojo-Ham-Or-Spam) dojos.
+ 
 ### [Try F#](http://www.tryfsharp.org) 
 
-<img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="http://www.tryfsharp.org"><img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
 Try F# is an interactive environment where you can
 explore F# in your web browser (on Mac and Windows). It contains a number
 of online tutorials demonstrating the power of F#:
 
-The site requires Silverlight for in-browser execution end editing.
-
+The site requires Silverlight for in-browser execution end editing and these options may not be
+available on all browsers.
 
  * [Getting started in F#](http://www.tryfsharp.org/Learn/getting-started)
  * [Advanced F# Programming](http://www.tryfsharp.org/Learn/advanced-programming)
@@ -63,13 +89,12 @@ The site requires Silverlight for in-browser execution end editing.
  * [Data Science](http://www.tryfsharp.org/Learn/data-science)
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
-
  
 <h2 id="books" class="anchor">F# Books - General</h2>
 
 ### [Building Web, Cloud, and Mobile Solutions with F#](http://books.google.com/books?id=dZrslEoAb58C)
 
-<img src="/about/files/BookWCMSF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="http://books.google.com/books?id=dZrslEoAb58C"><img src="/about/files/BookWCMSF.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
 _Daniel Mohl_
 
@@ -77,7 +102,7 @@ Learn how to build key aspects of web, cloud, and mobile solutions by combining 
 
 ### [Beginning F# 4.0](https://books.google.com/books?id=puQgDAAAQBAJ)
 
-<img src="/about/files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?id=puQgDAAAQBAJ"><img src="/about/files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
 _Robert Pickering, Kit Eason_
 
@@ -88,7 +113,7 @@ its new features.
 
 ### [Programming F# 3.0](https://books.google.com/books?isbn=1449326048)
 
-<img src="/about/files/BookPGF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1449326048"><img src="/about/files/BookPGF.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
 _Chris Smith_
 
@@ -101,7 +126,7 @@ and libraries of the .NET platform.
 
 ### [F# For C# Developers](https://books.google.com/books?isbn=0735670226)
 
-<img src="/about/files/BookFC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=0735670226"><img src="/about/files/BookFC.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
 _Tao Liu_
 
@@ -113,7 +138,7 @@ active patterns, agents, computation expressions and, perhaps most distinctively
 
 ### [Expert F# 4.0](https://books.google.com/books?isbn=1484207424)
 
-<img src="/about/files/BookEF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1484207424"><img src="/about/files/BookEF.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
 _Don Syme, Adam Granicz, Antonio Cisternino_
 
@@ -121,7 +146,7 @@ Expert F# 4.0 is about practical programming in a beautiful language that puts t
 
 ### [Real World Functional Programming](https://books.google.com/books?isbn=1933988924)
 
-<img src="/about/files/BookRWFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1933988924"><img src="/about/files/BookRWFP.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
 _Tomas Petricek with Jon Skeet_
 
@@ -134,7 +159,7 @@ programming problems in C#.
 
 ### [Functional Programming Using F#](https://books.google.com/books?isbn=1107019028)
 
-<img src="/about/files/BookFPUF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1107019028"><img src="/about/files/BookFPUF.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Michael R. Hansen, Hans Rischel_
 
@@ -150,7 +175,7 @@ slides, a mini-projects and links to further F# sources.
 
 ### [F# for Scientists](https://books.google.com/books?isbn=1118210816)
 
-<img src="/about/files/BookFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1118210816"><img src="/about/files/BookFS.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Jon Harrop_
 
@@ -164,7 +189,7 @@ ideal supplemental text for advanced undergraduate and graduate students with a 
 
 ### [F# for Quantitative Finance](https://books.google.com/books?isbn=1782164634)
 
-<img src="/about/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1782164634"><img src="/about/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Johan Astborg_
 
@@ -176,7 +201,7 @@ trading system throughout the book.
 
 ### [The Book of F#](https://books.google.com/books?isbn=1593275528)
 
-<img src="/about/files/BookOfFSharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1593275528"><img src="/about/files/BookOfFSharp.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Dave Fancher_
 
@@ -184,7 +209,7 @@ The Book of F# aims to introduce intermediate and experienced developers to func
 
 ### [Programming Language Concepts](https://books.google.com/books?isbn=1447141563)
 
-<img src="/about/files/BookPLC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1447141563"><img src="/about/files/BookPLC.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Peter Sestoft_
 
@@ -192,7 +217,7 @@ The book Programming Language Concepts (PLC) provides an introduction to program
 
 ### [F# Deep Dives](https://books.google.com/books?isbn=1617291323)
 
-<img src="/about/files/BookDD.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1617291323"><img src="/about/files/BookDD.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Tomas Petricek and Phillip Trelford_
 
@@ -201,7 +226,7 @@ F# Deep Dives presents a collection of real-world F# techniques, each written by
 
 ### [Machine Learning Projects for .NET Developers](https://books.google.com/books?isbn=1430267666)
 
-<img src="/about/files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://books.google.com/books?isbn=1430267666"><img src="/about/files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Mathias Brandewinder_
 
@@ -209,7 +234,7 @@ Machine Learning Projects for .NET Developers shows you how to build smarter .NE
 
 ### [Mastering .NET Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/mastering-net-machine-learning)
 
-<img src="/about/files/MasterDotNetML.PNG" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/mastering-net-machine-learning"><img src="/about/files/MasterDotNetML.PNG" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Jamie Dixon_
 
@@ -217,7 +242,7 @@ This book is packed with real-world examples to easily use machine learning tech
 
 ### [Multi-Paradigm Programming Using F# and .NET](http://www.naghoospress.ir/bookview.aspx?bookid=1486730)
 
-<img src="/about/files/BookDotNet.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="http://www.naghoospress.ir/bookview.aspx?bookid=1486730"><img src="/about/files/BookDotNet.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Ali Baghernejad_
 
@@ -241,35 +266,9 @@ In this book you will read:
 
 ### [Understanding Functional Programming](https://leanpub.com/understandingfunctionalprogramming)
 
-<img src="/about/files/BookUFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://leanpub.com/understandingfunctionalprogramming"><img src="/about/files/BookUFP.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
 
 _Scott Wlaschin_
 
 A practical approach with examples in F#. Are you an experienced C#, Java or Python developer? Do you want to understand what all the fuss about functional programming is about? Designed for beginners, this book will explain all the core concepts of functional programming in a practical way with no maths or jargon.
 
-## Online Tutorials
-
-
-This section lists of some of the freely available online tutorials on F#. 
-You can browse these online guides to find explanation of all important 
-F# language features and see many interesting examples.
-
-### [F# Programming Wikibook](http://en.wikibooks.org/wiki/Programming:F_Sharp)
-
-The wikibook contains a comprehensive guide to F# programming. It covers 
-F# language basics and essential functional programming concepts such as 
-working with functions and immutable data structures. It also discusses 
-imperative and object-oriented programming in F# and advanced langauge 
-features such as active patterns and computation expressions.
-
-### [Analyzing and Visualizing Data with F#](http://www.oreilly.com/programming/free/analyzing-visualizing-data-f-sharp.csp)
-
-<img src="/about/files/BookFsLab.png" style="float:right;margin:5px 0px 5px 25px;" />
-
-_Tomas Petricek_
-
-This report explains many of the key features of the F# language that make it a great tool for data science and machine learning. Real world examples take you through the entire data science workflow with F#, from data access and analysis to presenting the results. You'll learn about F# Data and type providers, the process of data analysis with Deedle and R type provider and the implementation of basic machine learning algorithm with F#.
-
-### [F# Workshop](http://fsharpworkshop.com/)
-
-Material from the F# Introduction Workshop created by Jorge Fioranelli.
