@@ -17,7 +17,7 @@ To learn F# use one of the free online resources or books below.
 Introduces you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software.
 
-<img src="images/thumbs/IHeartFSharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 ### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
 
