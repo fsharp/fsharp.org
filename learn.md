@@ -14,14 +14,14 @@ To learn F# use one of the free online resources or books below.
 
 ### [F# for C#, Java or Python developers](http://fsharpforfunandprofit.com/)
 
-<a href="http://fsharpforfunandprofit.com/"><img src="images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 Introduces you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software.
 
 ### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
 
-<a href="http://dungpa.github.io/fsharp-cheatsheet/"><img src="images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 
 The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
@@ -41,7 +41,7 @@ NuGet packages (not all packages load correctly in .NET Fiddle).
 
 ### [Visual F# Development Portal](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp-development-portal)
 
-<a href="https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp-development-portal"><img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 The Microsoft documentation for Visual F# provides a language reference, walkthroughs, videos, samples, and more.  You can also
 contribute to the documentation on GitHub.
@@ -74,7 +74,7 @@ A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) incl
  
 ### [Try F#](http://www.tryfsharp.org) 
 
-<a href="http://www.tryfsharp.org"><img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 Try F# is an interactive environment where you can
 explore F# in your web browser (on Mac and Windows). It contains a number
@@ -94,7 +94,7 @@ available on all browsers.
 
 ### [Building Web, Cloud, and Mobile Solutions with F#](http://books.google.com/books?id=dZrslEoAb58C)
 
-<a href="http://books.google.com/books?id=dZrslEoAb58C"><img src="/about/files/BookWCMSF.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="/about/files/BookWCMSF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Daniel Mohl_
 
@@ -102,7 +102,7 @@ Learn how to build key aspects of web, cloud, and mobile solutions by combining 
 
 ### [Beginning F# 4.0](https://books.google.com/books?id=puQgDAAAQBAJ)
 
-<a href="https://books.google.com/books?id=puQgDAAAQBAJ"><img src="/about/files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="/about/files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Robert Pickering, Kit Eason_
 
@@ -113,7 +113,7 @@ its new features.
 
 ### [Programming F# 3.0](https://books.google.com/books?isbn=1449326048)
 
-<a href="https://books.google.com/books?isbn=1449326048"><img src="/about/files/BookPGF.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="/about/files/BookPGF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Chris Smith_
 
@@ -126,7 +126,7 @@ and libraries of the .NET platform.
 
 ### [F# For C# Developers](https://books.google.com/books?isbn=0735670226)
 
-<a href="https://books.google.com/books?isbn=0735670226"><img src="/about/files/BookFC.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="/about/files/BookFC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tao Liu_
 
@@ -138,7 +138,7 @@ active patterns, agents, computation expressions and, perhaps most distinctively
 
 ### [Expert F# 4.0](https://books.google.com/books?isbn=1484207424)
 
-<a href="https://books.google.com/books?isbn=1484207424"><img src="/about/files/BookEF.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="/about/files/BookEF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Don Syme, Adam Granicz, Antonio Cisternino_
 
@@ -146,7 +146,7 @@ Expert F# 4.0 is about practical programming in a beautiful language that puts t
 
 ### [Real World Functional Programming](https://books.google.com/books?isbn=1933988924)
 
-<a href="https://books.google.com/books?isbn=1933988924"><img src="/about/files/BookRWFP.jpg" style="float:right;margin:5px 0px 5px 25px;" /> </a>
+<img src="/about/files/BookRWFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tomas Petricek with Jon Skeet_
 
@@ -159,7 +159,7 @@ programming problems in C#.
 
 ### [Functional Programming Using F#](https://books.google.com/books?isbn=1107019028)
 
-<a href="https://books.google.com/books?isbn=1107019028"><img src="/about/files/BookFPUF.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/BookFPUF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Michael R. Hansen, Hans Rischel_
 
@@ -175,7 +175,7 @@ slides, a mini-projects and links to further F# sources.
 
 ### [F# for Scientists](https://books.google.com/books?isbn=1118210816)
 
-<a href="https://books.google.com/books?isbn=1118210816"><img src="/about/files/BookFS.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/BookFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Jon Harrop_
 
@@ -189,7 +189,7 @@ ideal supplemental text for advanced undergraduate and graduate students with a 
 
 ### [F# for Quantitative Finance](https://books.google.com/books?isbn=1782164634)
 
-<a href="https://books.google.com/books?isbn=1782164634"><img src="/about/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Johan Astborg_
 
@@ -201,7 +201,7 @@ trading system throughout the book.
 
 ### [The Book of F#](https://books.google.com/books?isbn=1593275528)
 
-<a href="https://books.google.com/books?isbn=1593275528"><img src="/about/files/BookOfFSharp.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/BookOfFSharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Dave Fancher_
 
@@ -209,7 +209,7 @@ The Book of F# aims to introduce intermediate and experienced developers to func
 
 ### [Programming Language Concepts](https://books.google.com/books?isbn=1447141563)
 
-<a href="https://books.google.com/books?isbn=1447141563"><img src="/about/files/BookPLC.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/BookPLC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Peter Sestoft_
 
@@ -217,7 +217,7 @@ The book Programming Language Concepts (PLC) provides an introduction to program
 
 ### [F# Deep Dives](https://books.google.com/books?isbn=1617291323)
 
-<a href="https://books.google.com/books?isbn=1617291323"><img src="/about/files/BookDD.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/BookDD.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tomas Petricek and Phillip Trelford_
 
@@ -226,7 +226,7 @@ F# Deep Dives presents a collection of real-world F# techniques, each written by
 
 ### [Machine Learning Projects for .NET Developers](https://books.google.com/books?isbn=1430267666)
 
-<a href="https://books.google.com/books?isbn=1430267666"><img src="/about/files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Mathias Brandewinder_
 
@@ -234,7 +234,7 @@ Machine Learning Projects for .NET Developers shows you how to build smarter .NE
 
 ### [Mastering .NET Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/mastering-net-machine-learning)
 
-<a href="https://www.packtpub.com/big-data-and-business-intelligence/mastering-net-machine-learning"><img src="/about/files/MasterDotNetML.PNG" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/MasterDotNetML.PNG" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Jamie Dixon_
 
@@ -242,7 +242,7 @@ This book is packed with real-world examples to easily use machine learning tech
 
 ### [Multi-Paradigm Programming Using F# and .NET](http://www.naghoospress.ir/bookview.aspx?bookid=1486730)
 
-<a href="http://www.naghoospress.ir/bookview.aspx?bookid=1486730"><img src="/about/files/BookDotNet.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/BookDotNet.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Ali Baghernejad_
 
@@ -266,7 +266,7 @@ In this book you will read:
 
 ### [Understanding Functional Programming](https://leanpub.com/understandingfunctionalprogramming)
 
-<a href="https://leanpub.com/understandingfunctionalprogramming"><img src="/about/files/BookUFP.jpg" style="float:right;margin:5px 0px 5px 25px;" /></a>
+<img src="/about/files/BookUFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Scott Wlaschin_
 
