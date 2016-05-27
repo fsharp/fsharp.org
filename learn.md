@@ -25,13 +25,26 @@ The cheat sheet is a small and concise guide to F# syntax for newcomers to get s
 
 Learn F# by just filling in the gaps! The F# Koans are a fun set of code snippets where you have to fill in gaps to get tests to pass, and you learn the language along the way.  Also available as a [snippet](http://fssnip.net/bG) which can be loaded into interactive environments or your editor of choice.
 
-### [Try F#](http://www.tryfsharp.org) 
+### [F# Snippets](http://fssnip.net/)
 
-(Requires Silverlight.)
+A collection of snippets of F# code.
+
+### [.NET Fiddle](https://dotnetfiddle.net/)
+
+Allows you to try F# code in your browser. You an also view generated IL, and load some
+NuGet packages (not all packages load correctly in .NET Fiddle).
+
+### [Visual F# Development Portal](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp-development-portal)
+
+Documentation, walkthroughs, videos, and more.
+
+### [Try F#](http://www.tryfsharp.org) 
 
 Try F# is an interactive environment where you can
 explore F# in your web browser (on Mac and Windows). It contains a number
 of online tutorials demonstrating the power of F#:
+
+The site requires Silverlight for in-browser execution end editing.
 
 <img src="files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -42,17 +55,6 @@ of online tutorials demonstrating the power of F#:
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
 
-### [F# Snippets](http://fssnip.net/)
-
-A collection of snippets of F# code.
-
-### [.NET Fiddle](https://dotnetfiddle.net/)
-
-Allows you to try F# code in your browser, view IL, load some NuGet packages (not all packages load correctly in .NET Fiddle).
-
-### [Visual F# Development Portal](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp-development-portal)
-
-Documentation, walkthroughs, videos, and more.
  
 <h2 id="books" class="anchor">F# Books - General</h2>
 
