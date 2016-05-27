@@ -14,12 +14,15 @@ To learn F# use one of the free online resources or books below.
 
 ### [F# for C#, Java or Python developers](http://fsharpforfunandprofit.com/)
 
+<img src="images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
+
 Introduces you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software.
 
-<img src="images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
-
 ### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
+
+<img src="images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
+
 
 The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
 
