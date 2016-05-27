@@ -41,9 +41,10 @@ NuGet packages (not all packages load correctly in .NET Fiddle).
 
 ### [Visual F# Development Portal](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp-development-portal)
 
-<img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" />
+<a href="https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp-development-portal"><img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" /> </a>
 
-Documentation, walkthroughs, videos, and more.
+The Microsoft documentation for Visual F# provides a language reference, walkthroughs, videos, samples, and more.  You can also
+contribute to the documentation on GitHub.
 
 ### [Try F#](http://www.tryfsharp.org) 
 
