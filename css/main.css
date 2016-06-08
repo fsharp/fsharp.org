@@ -35,8 +35,7 @@ h4,
 h5 {
     font-family: 'Rajdhani', sans-serif;
     font-weight: 600;
-    padding-top: 70px;
-    margin-top: -70px;
+    margin-top: 0px;
 }
 
 h3 {
