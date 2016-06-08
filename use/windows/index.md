@@ -41,7 +41,6 @@ It is supported by the [Ionide](http://ionide.io/) project and has, among [a lot
 Open the Quick Open Menu in VS Code by pressing `Ctrl+P` and write the following command: <br />
         ext install Ionide-fsharp
 
-
 ### Option 3: Install the free F# compiler and tools alone
 
 If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then use the 
@@ -53,7 +52,7 @@ following requirements and installation steps:
 
    - On Windows 8 and Windows 2012 Server, this is already present by default
    
-   - On Windows 7 and Windows 2008 Server, [install .NET 4.5](http://www.microsoft.com/net/downloads) from Microsoft
+   - On Windows 7 and Windows 2008 Server, [install .NET 4.5](https://www.microsoft.com/en-US/download/details.aspx?id=30653) from Microsoft
 
 2. Requires the Windows SDK:
 
