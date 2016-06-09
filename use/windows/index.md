@@ -31,15 +31,15 @@ for use with Visual Studio 2013 and 2015 (Community or higher, not Express, see 
 
 <br />
 
-### Option 2: Install F# and Xamarin Studio 
+### Option 2: Install Visual Studio Code
 
-![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development with commercial add-ins for mobile development. [MonoDevelop](http://monodevelop.com) is a free and open source IDE based on the same code.  F# can be used with either.
+![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is Microsoft's free, [open source](https://github.com/microsoft/vscode), cross platform source code editor written entirely in TypeScript.
+It is supported by the [Ionide](http://ionide.io/) project and has, among [a lot of languages](https://code.visualstudio.com/docs/languages/overview), a nice F# integration.
 
-1. Install the free standalone F# compiler tools, following _Option 1_ above or _Option 3_ below. 
-2. Install [Xamarin Studio](http://xamarin.com/studio) or [MonoDevelop](http://monodevelop.com) for Windows
-
-<br />
-
+1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows
+2. Install the [Ionide package for VS Code](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp) <br />
+Open the Quick Open Menu in VS Code by pressing `Ctrl+P` and write the following command: <br />
+        ext install Ionide-fsharp
 
 ### Option 3: Install the free F# compiler and tools alone
 
@@ -52,7 +52,7 @@ following requirements and installation steps:
 
    - On Windows 8 and Windows 2012 Server, this is already present by default
    
-   - On Windows 7 and Windows 2008 Server, [install .NET 4.5](http://www.microsoft.com/net/downloads) from Microsoft
+   - On Windows 7 and Windows 2008 Server, [install .NET 4.5](https://www.microsoft.com/en-US/download/details.aspx?id=30653) from Microsoft
 
 2. Requires the Windows SDK:
 

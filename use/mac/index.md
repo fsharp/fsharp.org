@@ -18,7 +18,17 @@ go further. For 64-bit support, see below.
 
 <br />
 
-### Option 2: Install F# alone
+### Option 2: Install Visual Studio Code
+
+![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is Microsoft's free, [open source](https://github.com/microsoft/vscode), cross platform source code editor written entirely in TypeScript that is running on Mac OS, Linux and Windows.
+It is supported by the [Ionide](http://ionide.io/) project and has, among [a lot of languages](https://code.visualstudio.com/docs/languages/overview), a nice F# integration.
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows
+2. Install the [Ionide package for VS Code](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp) <br />
+Open the Quick Open Menu in VS Code by pressing `Ctrl+P` and write the following command: <br />
+        ext install Ionide-fsharp
+
+### Option 3: Install F# alone
 
 To use the F# command-line compiler and tools on Mac OSX:
 
@@ -29,7 +39,7 @@ go further. For 64-bit support, see below.
 
 <br />
 
-### Option 3: Install F# via Homebrew (64-bit)
+### Option 4: Install F# via Homebrew (64-bit)
 
 F# is installed as part of the Mono homebrew formula:
 
@@ -37,7 +47,7 @@ F# is installed as part of the Mono homebrew formula:
 
 You can configure Xamarin Studio to use this 64-bit installation: Preferences > .NET Runtimes > Add > ```/usr/local```
 
-### Option 4: Install F# (64-bit) from source
+### Option 5: Install F# (64-bit) from source
 
 To use the F# command-line compiler and tools on Mac OSX in 64-bit mode:
 
