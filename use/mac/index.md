@@ -20,13 +20,16 @@ go further. For 64-bit support, see below.
 
 ### Option 2: Install Visual Studio Code
 
-![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is Microsoft's free, [open source](https://github.com/microsoft/vscode), cross platform source code editor written entirely in TypeScript that is running on Mac OS, Linux and Windows.
-It is supported by the [Ionide](http://ionide.io/) project and has, among [a lot of languages](https://code.visualstudio.com/docs/languages/overview), a nice F# integration.
+![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
+supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
+F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration.
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows
-2. Install the [Ionide package for VS Code](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp) <br />
+1. Install F# commmand line tools - either via Options 1 or 3.
+2. Install [Visual Studio Code](https://code.visualstudio.com/download) for Mac
+3. Install the [Ionide package for VS Code](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp) <br />
 Open the Quick Open Menu in VS Code by pressing `Ctrl+P` and write the following command: <br />
         ext install Ionide-fsharp
+
 
 ### Option 3: Install F# alone
 
