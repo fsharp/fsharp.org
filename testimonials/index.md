@@ -1253,6 +1253,43 @@ There's an exciting future for F# in this huge, emerging, data-rich health care 
 
 <div class="keywords">bioinformatics, genomics, health, molecular analysis, simulation</div>
 
+
+<a id="doctors-lab" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> I could not recommend F# highly enough – I insist that you try it!
+
+1. **Ben Lynch**
+2. The Doctors Laboratory
+2. [permalink](#doctors-lab)
+
+
+The Doctors Laboratory is the largest independent provider of clinical laboratory diagnostic services in the UK. We use F# for the majority of our in house development, from ETL tasks, via reporting scripts to full web applications. 
+
+F#’s idiomatic development style, starting with a script in the REPL, before moving functions into a more structured project, makes it trivial to explore different approaches, refactor &c. before committing to a particular approach. It also makes developing more enjoyable and direct – there’s no need to get all the boiler plate/plumbing in place; you can just create a script and start coding. The compiler’s type inference system also means quicker coding, with less ‘cruft’. Features such as pattern matching and discriminated unions also lead to leaner, more expressive and transparent code.
+
+Type providers mean data can be accessed in a few lines, and there are a wealth of community driven OSS projects available here for a heterogeneous range of data sources. If you need to access a data source not supported by existing providers, then the community positively encourages getting involved to provide one yourself, as in fact we did with the MSACCESS provider for the SQLProvider type provider. The community is first rate in terms of providing support in forums like Stack Overflow, gitter, etc. Other community projects such as Paket (dependency management) and FAKE (build too) make build automation a breeze, too.
+
+<div class="keywords">web, datascience, healthcare, etl</div>
+
+<a id="green-eagle-solutions" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> F# terse syntax made the final code look really similar to the algorithm we wrote at first
+
+1. **Green Eagle Solutions**
+2. [permalink](#green-eagle-solutions)
+
+At Green Eagle Solutions, we develop control systems for renewable energy plants. Thus, it's crucial for us to test our software in a real-time environment where are all the other actors (protocols, weather conditions, legacy software) come into play.
+
+Beforehand, we used Python to quickly build simulators to test our components. With F# we have now all the advantages of a dynamic language, while keeping the static typing safety we are used to. The fact that we don't need to leave Visual Studio and being able to seamlessly use all the APIs we have developed in C# are also a big plus.
+
+We have also started to use F# directly in our components to implementing the core logic, while leaving C# to networking tasks. We've taking advantage of this language mix to create a dependency injector which recompiles the F# logic at runtime whenever the script changes for quick development iterations, but loads a precompiled .dll when deployed in production. The double nature of F# as a scripting and a compiled language really shines here.
+
+F#'s terse syntax made the final code look really similar to the algorithm we wrote at first in formal language. Also, we've come to really appreciate the numerous metaprogramming libraries in the F# ecosystem: we particularly like FSharp.Formatting and have started to adopt the literate programming style to integrate as much as possible the code and the documentation and prevent them losing sync.
+
+<div class="keywords">energy, renewable, scada, scripting, literate programming</div>
+
 <a id="JamieDixon" class="testimonial-anchor"> &nbsp; </a>
 ---
 
@@ -1392,23 +1429,6 @@ I personally enjoyed the experience of building the entire system using F#, I be
 
 <div class="keywords">commercial, website, azure, domain-driven design, mvc</div>
 
-<a id="green-eagle-solutions" class="testimonial-anchor"> &nbsp; </a>
----
-
-> F# terse syntax made the final code look really similar to the algorithm we wrote at first
-
-1. **Green Eagle Solutions**
-2. [permalink](#green-eagle-solutions)
-
-At Green Eagle Solutions, we develop control systems for renewable energy plants. Thus, it's crucial for us to test our software in a real-time environment where are all the other actors (protocols, weather conditions, legacy software) come into play.
-
-Beforehand, we used Python to quickly build simulators to test our components. With F# we have now all the advantages of a dynamic language, while keeping the static typing safety we are used to. The fact that we don't need to leave Visual Studio and being able to seamlessly use all the APIs we have developed in C# are also a big plus.
-
-We have also started to use F# directly in our components to implementing the core logic, while leaving C# to networking tasks. We've taking advantage of this language mix to create a dependency injector which recompiles the F# logic at runtime whenever the script changes for quick development iterations, but loads a precompiled .dll when deployed in production. The double nature of F# as a scripting and a compiled language really shines here.
-
-F# terse syntax made the final code look really similar to the algorithm we wrote at first in formal language. Also, we've come to really appreciate the numerous metaprogramming libraries in the F# ecosystem: we particularly like FSharp.Formatting and have started to adopt the literate programming style to integrate as much as possible the code and the documentation and prevent them losing sync.
-
-<div class="keywords">energy, renewable, scada, scripting, literate programming</div>
 
 <a id="maria-gorinova" class="testimonial-anchor"> &nbsp; </a>
 ---
@@ -1421,21 +1441,3 @@ F# terse syntax made the final code look really similar to the algorithm we wrot
 When I started working on the T2 temporal logic prover, I knew little about termination analysis and formal verification. F# made it easy to dive into these concepts and boosted my productivity by allowing me to write clean, concise, and accurate programs. Its functional nature, clear syntax and type inference is combined with the flexibility to write in an imperative style and use the .NET framework. This combination powerfully bridges the gap between thinking about a concept and implementing it. Programming in F# feels like writing out ideas rather than code.
 
 <div class="keywords">verification, logic, static analysis, termination analysis</div>
-
-<a id="doctors-lab" class="testimonial-anchor"> &nbsp; </a>
----
-
-> I could not recommend F# highly enough – I insist that you try it!
-
-1. **Ben Lynch**
-2. The Doctors Laboratory
-2. [permalink](#doctors-lab)
-
-
-The Doctors Laboratory is the largest independent provider of clinical laboratory diagnostic services in the UK. We use F# for the majority of our in house development, from ETL tasks, via reporting scripts to full web applications. 
-
-F#’s idiomatic development style, starting with a script in the REPL, before moving functions into a more structured project, makes it trivial to explore different approaches, refactor &c. before committing to a particular approach. It also makes developing more enjoyable and direct – there’s no need to get all the boiler plate/plumbing in place; you can just create a script and start coding. The compiler’s type inference system also means quicker coding, with less ‘cruft’. Features such as pattern matching and discriminated unions also lead to leaner, more expressive and transparent code.
-
-Type providers mean data can be accessed in a few lines, and there are a wealth of community driven OSS projects available here for a heterogeneous range of data sources. If you need to access a data source not supported by existing providers, then the community positively encourages getting involved to provide one yourself, as in fact we did with the MSACCESS provider for the SQLProvider type provider. The community is first rate in terms of providing support in forums like Stack Overflow, gitter, etc. Other community projects such as Paket (dependency management) and FAKE (build too) make build automation a breeze, too.
-
-<div class="keywords">web, datascience, heatlthcare, etl</div>
