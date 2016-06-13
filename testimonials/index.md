@@ -90,6 +90,12 @@ we knew we could use new modules right away.
 
 <div class="keywords">data science, machine learning, startup</div>
 
+
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+  <h3>Contribute testimonials</h3>
+    <p> To add a new testimonial, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send a pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
+</div>              
+
 <a id="simon-cousins-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
@@ -127,11 +133,6 @@ The abstract to [a talk at the Commercial Users of Functional Programming worksh
 
 <div class="keywords">financial services, analysis, fixed income, derivatives, financial modelling</div>
  
-
-<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-  <h3>Contribute testimonials</h3>
-    <p> To add a new testimonial, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send a pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
-</div>              
 
 <a id="handelsbanken-1" class="testimonial-anchor"> &nbsp; </a>
 ---
@@ -1421,19 +1422,20 @@ When I started working on the T2 temporal logic prover, I knew little about term
 
 <div class="keywords">verification, logic, static analysis, termination analysis</div>
 
-<a id="ben-lynch" class="testimonial-anchor"> &nbsp; </a>
+<a id="doctors-lab" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > I could not recommend F# highly enough – I insist that you try it!
 
 1. **Ben Lynch**
 2. The Doctors Laboratory
+2. [permalink](#doctors-lab)
 
 
 The Doctors Laboratory is the largest independent provider of clinical laboratory diagnostic services in the UK. We use F# for the majority of our in house development, from ETL tasks, via reporting scripts to full web applications. 
 
 F#’s idiomatic development style, starting with a script in the REPL, before moving functions into a more structured project, makes it trivial to explore different approaches, refactor &c. before committing to a particular approach. It also makes developing more enjoyable and direct – there’s no need to get all the boiler plate/plumbing in place; you can just create a script and start coding. The compiler’s type inference system also means quicker coding, with less ‘cruft’. Features such as pattern matching and discriminated unions also lead to leaner, more expressive and transparent code.
 
-Type providers mean data can be accessed in a few lines, and there are a wealth of community driven OSS projects available here for a heterogeneous range of data sources. If you need to access a data source not supported by existing providers, then the community positively encourages getting involved to provide one yourself, as in fact we did with the MSACCESS provider for the SQLProvider type provider. The community is first rate in terms of providing support in forums like SO, gitter, &c. Other community projects such as paket (dependency management) and FAKE (build too) make build automation a breeze, too.
+Type providers mean data can be accessed in a few lines, and there are a wealth of community driven OSS projects available here for a heterogeneous range of data sources. If you need to access a data source not supported by existing providers, then the community positively encourages getting involved to provide one yourself, as in fact we did with the MSACCESS provider for the SQLProvider type provider. The community is first rate in terms of providing support in forums like Stack Overflow, gitter, etc. Other community projects such as Paket (dependency management) and FAKE (build too) make build automation a breeze, too.
 
 <div class="keywords">web, datascience, heatlthcare, etl</div>
