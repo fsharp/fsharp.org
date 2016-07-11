@@ -113,7 +113,7 @@ communications. This section lists a wide range of communication libraries avail
 
 The [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/async-and-parallel-design-patterns-in-f-part-3-agents.aspx) provides an Agent pattern for inter-thread communication directly within the core F# libraries.
 
-[FSharp.CloudAgent](http://isaacabraham.github.io/FSharp.CloudAgent) is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native MailboxProcessor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
+[FSharp.CloudAgent](http://fsprojects.github.io/FSharp.CloudAgent) is a simple-to-use framework that allows the easy creation of distributable pools of workers or agents using F#'s native MailboxProcessor agent framework, using Azure Service Bus to provide a cheap and reliable message bus.
 
 #### Akka.NET
 
