@@ -125,11 +125,11 @@ The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit
 
 #### MBrace
 
-The [MBrace](http://m-brace.net/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
+The [MBrace](http://mbrace.io/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
 
- * [Programming model](http://www.m-brace.net/programming-model.html)
+ * [Programming model](http://mbrace.io/programming-model.html)
 
- * [Windows Azure support](http://www.m-brace.net/#try)
+ * [Windows Azure support](http://mbrace.io/azure-tutorial.html)
 
 #### Orleans
 
