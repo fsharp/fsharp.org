@@ -1441,3 +1441,21 @@ I personally enjoyed the experience of building the entire system using F#, I be
 When I started working on the T2 temporal logic prover, I knew little about termination analysis and formal verification. F# made it easy to dive into these concepts and boosted my productivity by allowing me to write clean, concise, and accurate programs. Its functional nature, clear syntax and type inference is combined with the flexibility to write in an imperative style and use the .NET framework. This combination powerfully bridges the gap between thinking about a concept and implementing it. Programming in F# feels like writing out ideas rather than code.
 
 <div class="keywords">verification, logic, static analysis, termination analysis</div>
+
+<a id="prolucid" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> Anyone who has developed software can appreciate that while a working program is an asset the source code is a liability, especially when working in a regulated industry. F# lets us keep the codebase small and agile while delivering feature-rich and proven to work solutions.
+
+1. **Eugene Tolmachev, Prolucid**
+2. [permalink](#prolucid)
+
+Prolucid delivers solutions to customers in markets ranging from Medical Devices, Aerospace & Defence, Nuclear & Energy, Transportation to Advanced Manufacturing.
+
+Our E2C reference architecture has been developed around small F# core and offers platform independence, linear scalability and easy of customization. F# allowed us to leverage the .NET expertise many of us had and combine it with the elegance of functional programming to provide real-time connectivity, event processing and complex analytics solutions for out customers.
+
+We have open-sourced some of this work and you can find it on [GitHub](https://github.com/prolucid).
+
+<div class="keywords">energy, medical, scada, iot, cloud</div>
+
+
