@@ -40,7 +40,6 @@ Some of Slack's features include:
 * [Message Formatting](https://slack.zendesk.com/hc/en-us/articles/202288908-Formatting-your-messages)
 * [Message editing](https://slack.zendesk.com/hc/en-us/articles/202395258-Editing-or-deleting-messages) - you can correct message typos or delete them entirely
 * [File](https://slack.zendesk.com/hc/en-us/articles/201330736-Uploading-and-sharing-files) and [text snippet](https://slack.zendesk.com/hc/en-us/articles/204145658-Creating-a-Snippet) sharing
-* Privacy - Unlike [freenode](https://freenode.net/) IP addresses are not publicly visible
 
 History within the main channels is persisted via [SlackArchive](http://fsharp.slackarchive.io/).
 
