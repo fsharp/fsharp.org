@@ -49,4 +49,3 @@ History within the main channels is persisted via [SlackArchive](http://fsharp.s
     <hr />
     <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services, unless directly managed by the Foundation. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
 </div>              
-
