@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Guide - F# on Slack | The F# Software Foundation
-headline: Guide - F# Slack Teams
+headline: Guide - F# Slack Team
 ---
 
 ## F# Software Foundation Slack
@@ -9,6 +9,8 @@ headline: Guide - F# Slack Teams
 [Slack](https://slack.com/) is a persistent chat service. 
 
 Members of the F# Software Foundation can be invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join, become a member of the F# Software Foundation by [visiting this page](http://foundation.fsharp.org/join). Once you are a member, you will automatically be queued to receive an invite to the Foundation's Slack team.  
+
+### Channels in Slack Team
 
 Once you sign into the Slack team, there are various channels containing topics in which you can participate:
 
@@ -27,6 +29,8 @@ Once you sign into the Slack team, there are various channels containing topics 
 
 
 If you don't receive the invite within 48 hours, or if you have any questions, please send an email to info@fsharp.org to follow up.
+
+### Features of Slack
 
 Some of Slack's features include:
 
