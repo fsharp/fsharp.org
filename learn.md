@@ -95,7 +95,7 @@ available on all browsers.
 
 ### [Introduction to F#](https://fsharp.tv/courses/fsharp-programming-intro/)
 
-<img src="/about/files/CoursesFSharpTV.png" style="float:right;margin:5px 0px 5px 25px;width:200px;" />
+<img src="/about/files/CoursesFSharpTV.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 FSharpTV is a crowdfunded company that produces F# courses with practical, real-world examples. The introductory course is free and accessible to everyone, including beginners.
 
