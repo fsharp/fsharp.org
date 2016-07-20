@@ -2,7 +2,7 @@
 layout: default
 title: Learning F# | The F# Software Foundation
 headline: Learning F#
-redirect_from: 
+redirect_from:
     - "/consulting/"
     - "/training/"
     - "/about/learning/"
@@ -49,10 +49,10 @@ contribute to the documentation on GitHub.
 
 ### [F# Programming Wikibook](http://en.wikibooks.org/wiki/Programming:F_Sharp)
 
-The wikibook contains a comprehensive guide to F# programming. It covers 
-F# language basics and essential functional programming concepts such as 
-working with functions and immutable data structures. It also discusses 
-imperative and object-oriented programming in F# and advanced langauge 
+The wikibook contains a comprehensive guide to F# programming. It covers
+F# language basics and essential functional programming concepts such as
+working with functions and immutable data structures. It also discusses
+imperative and object-oriented programming in F# and advanced langauge
 features such as active patterns and computation expressions.
 
 ### [Analyzing and Visualizing Data with F#](http://www.oreilly.com/programming/free/analyzing-visualizing-data-f-sharp.csp)
@@ -66,14 +66,14 @@ This report explains many of the key features of the F# language that make it a 
 ### [F# Workshop Materials](http://fsharpworkshop.com/)
 
 Material from the F# Introduction Workshop created by Jorge Fioranelli.
- 
+
 ### [Community for F# Coding Dojos](http://c4fsharp.net/#fsharp-coding-dojos)
 
 A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) including the famous
 [Digits Recognizer](https://github.com/c4fsharp/Dojo-Digits-Recognizer), [Fractal Forest](https://github.com/c4fsharp/Dojo-Fractal-Forest), [Canopy 2048](https://github.com/c4fsharp/Dojo-Canopy-2048),
 [Markov Bot](https://github.com/c4fsharp/Dojo-Markov-Bot), [Type Provider Treasure Hunt](https://github.com/c4fsharp/Dojo-Type-Provider-Treasure-Hunt), [Classics Mash-up](https://github.com/c4fsharp/Dojo-Picasquez-and-Velasso) and [Ham or Spam](https://github.com/c4fsharp/Dojo-Ham-Or-Spam) dojos.
- 
-### [Try F#](http://www.tryfsharp.org) 
+
+### [Try F#](http://www.tryfsharp.org)
 
 <img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -90,7 +90,15 @@ available on all browsers.
  * [Data Science](http://www.tryfsharp.org/Learn/data-science)
  * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
  * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
- 
+
+<h2 id="courses" class="anchor">F# Courses - General</h2>
+
+### [Introduction to F#](https://fsharp.tv/courses/fsharp-programming-intro/)
+
+<img src="/about/files/CoursesFSharpTV.png" style="float:right;margin:5px 0px 5px 25px;" />
+
+FSharpTV is a crowdfunded company that produces F# courses with practical, real-world examples. The introductory course is free and accessible to everyone, including beginners.
+
 <h2 id="books" class="anchor">F# Books - General</h2>
 
 ### [Building Web, Cloud, and Mobile Solutions with F#](http://books.google.com/books?id=dZrslEoAb58C)
@@ -99,7 +107,7 @@ available on all browsers.
 
 _Daniel Mohl_
 
-Learn how to build key aspects of web, cloud, and mobile solutions by combining F# with various .NET and open source technologies. With helpful examples, this hands-on book shows you how to tackle concurrency, asynchrony, and other server-side challenges. You’ll quickly learn how to be productive with F#, whether you want to integrate the language into your existing web application or use it to create the next Twitter. 
+Learn how to build key aspects of web, cloud, and mobile solutions by combining F# with various .NET and open source technologies. With helpful examples, this hands-on book shows you how to tackle concurrency, asynchrony, and other server-side challenges. You’ll quickly learn how to be productive with F#, whether you want to integrate the language into your existing web application or use it to create the next Twitter.
 
 ### [Beginning F# 4.0](https://books.google.com/books?id=puQgDAAAQBAJ)
 
@@ -107,9 +115,9 @@ Learn how to build key aspects of web, cloud, and mobile solutions by combining 
 
 _Robert Pickering, Kit Eason_
 
-This book is a great foundation for exploring functional-first programming and 
-its role in the future of application development. The best-selling introduction to F#, 
-now thoroughly updated to version 4.0, will help you learn the language and explore 
+This book is a great foundation for exploring functional-first programming and
+its role in the future of application development. The best-selling introduction to F#,
+now thoroughly updated to version 4.0, will help you learn the language and explore
 its new features.
 
 ### [Programming F# 3.0](https://books.google.com/books?isbn=1449326048)
@@ -118,11 +126,11 @@ its new features.
 
 _Chris Smith_
 
-Why learn F#? This multi-paradigm language not only offers you an enormous 
+Why learn F#? This multi-paradigm language not only offers you an enormous
 productivity boost through functional programming, it also lets you develop
-applications using your existing object-oriented and imperative programming 
-skills. With Programming F#, you'll quickly discover the many advantages 
-of Microsoft's new language, which includes access to all the great tools 
+applications using your existing object-oriented and imperative programming
+skills. With Programming F#, you'll quickly discover the many advantages
+of Microsoft's new language, which includes access to all the great tools
 and libraries of the .NET platform.
 
 ### [F# For C# Developers](https://books.google.com/books?isbn=0735670226)
@@ -131,11 +139,11 @@ and libraries of the .NET platform.
 
 _Tao Liu_
 
-People often ask, “What can F# do that C# cannot?” In this book, you will discover much 
-of what F# can do! You will see familiar things such as object programming and design 
-patterns. Further, you will also see powerful new things like pattern matching, piping, 
-first-class events, object expressions, options, tuples, records, discriminated unions, 
-active patterns, agents, computation expressions and, perhaps most distinctively, type providers. 
+People often ask, “What can F# do that C# cannot?” In this book, you will discover much
+of what F# can do! You will see familiar things such as object programming and design
+patterns. Further, you will also see powerful new things like pattern matching, piping,
+first-class events, object expressions, options, tuples, records, discriminated unions,
+active patterns, agents, computation expressions and, perhaps most distinctively, type providers.
 
 ### [Expert F# 4.0](https://books.google.com/books?isbn=1484207424)
 
@@ -151,12 +159,12 @@ Expert F# 4.0 is about practical programming in a beautiful language that puts t
 
 _Tomas Petricek with Jon Skeet_
 
-Real World Functional Programming is a unique tutorial that explores the 
-functional programming model through the F# and C# languages. The clearly 
-presented ideas and examples teach readers how functional programming 
-differs from other approaches. It explains how ideas look in F#-a 
-functional language-as well as how they can be successfully used to solve 
-programming problems in C#. 
+Real World Functional Programming is a unique tutorial that explores the
+functional programming model through the F# and C# languages. The clearly
+presented ideas and examples teach readers how functional programming
+differs from other approaches. It explains how ideas look in F#-a
+functional language-as well as how they can be successfully used to solve
+programming problems in C#.
 
 ### [Functional Programming Using F#](https://books.google.com/books?isbn=1107019028)
 
@@ -164,14 +172,14 @@ programming problems in C#.
 
 _Michael R. Hansen, Hans Rischel_
 
-This comprehensive introduction to the principles of functional programming using F# 
-shows how to apply basic theoretical concepts to produce succinct and elegant programs. 
-It demonstrates the role of functional programming in a wide spectrum of applications 
-including databases and systems. Coverage also includes advanced features in the .NET 
-library, the imperative features of F# and topics such as text processing, sequences, 
-computation expressions and asynchronous computation. With a broad spectrum of examples 
-and exercises, the book is perfect for courses in functional programming and for self-study. 
-Enhancing its use as a text is an accompanying website with downloadable programs, lecture 
+This comprehensive introduction to the principles of functional programming using F#
+shows how to apply basic theoretical concepts to produce succinct and elegant programs.
+It demonstrates the role of functional programming in a wide spectrum of applications
+including databases and systems. Coverage also includes advanced features in the .NET
+library, the imperative features of F# and topics such as text processing, sequences,
+computation expressions and asynchronous computation. With a broad spectrum of examples
+and exercises, the book is perfect for courses in functional programming and for self-study.
+Enhancing its use as a text is an accompanying website with downloadable programs, lecture
 slides, a mini-projects and links to further F# sources.
 
 ### [F# for Scientists](https://books.google.com/books?isbn=1118210816)
@@ -180,11 +188,11 @@ slides, a mini-projects and links to further F# sources.
 
 _Jon Harrop_
 
-F# for Scientists explains and demonstrates the powerful features of this important new 
-programming language. The book assumes no prior experience and guides the reader from 
-the basics of computer programming to the implementation of state-of-the-art algorithms. 
-Written in a clear and concise style, F# for Scientists is well suited for researchers, 
-scientists. It also serves as an 
+F# for Scientists explains and demonstrates the powerful features of this important new
+programming language. The book assumes no prior experience and guides the reader from
+the basics of computer programming to the implementation of state-of-the-art algorithms.
+Written in a clear and concise style, F# for Scientists is well suited for researchers,
+scientists. It also serves as an
 ideal supplemental text for advanced undergraduate and graduate students with a background in science or engineering.
 
 
@@ -194,10 +202,10 @@ ideal supplemental text for advanced undergraduate and graduate students with a 
 
 _Johan Astborg_
 
-This book will cover everything you need to know about using functional 
-programming for quantitative finance. Using a functional programming language 
-will enable you to concentrate more on the problem itself rather than 
-implementation details. Tutorials and snippets are summarized into an automated 
+This book will cover everything you need to know about using functional
+programming for quantitative finance. Using a functional programming language
+will enable you to concentrate more on the problem itself rather than
+implementation details. Tutorials and snippets are summarized into an automated
 trading system throughout the book.
 
 ### [The Book of F#](https://books.google.com/books?isbn=1593275528)
@@ -248,8 +256,8 @@ This book is packed with real-world examples to easily use machine learning tech
 _Ali Baghernejad_
 
 F# is the result of combining the  power and capabilities of functional programming with with the imperative and object-oriented paradigms of .NET. Multi-Paradigm Programming In F# is a book that help developers to make  
-applications using F# tools and the .NET libraries. This book is written in Persian language in 509 pages. 
-In this book you will read: 
+applications using F# tools and the .NET libraries. This book is written in Persian language in 509 pages.
+In this book you will read:
 
 - Introduction to F# (History and Advantages)
 - Get Statring With F# (Installation, Interactive Environment, ...)
@@ -287,4 +295,3 @@ In this book you will read:
 _Scott Wlaschin_
 
 A practical approach with examples in F#. Are you an experienced C#, Java or Python developer? Do you want to understand what all the fuss about functional programming is about? Designed for beginners, this book will explain all the core concepts of functional programming in a practical way with no maths or jargon.
-
