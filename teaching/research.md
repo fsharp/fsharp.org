@@ -48,6 +48,18 @@ To add a paper to this list, log on to GitHub, [edit this page](https://github.c
 
 <h2 id="information-rich-programming" class="anchor"> Information-rich programming </h2>
 
+### [Types from data: Making structured data first-class citizens in F#](http://conf.researchr.org/event/pldi-2016/pldi-2016-papers-types-from-data-making-structured-data-first-class-citizens-in-f-)
+
+Tomas Petricek, Don Syme, Gustavo Guerra  
+[Distinguished Paper Award, _PLDI 2016_](http://conf.researchr.org/home/pldi-2016)
+
+Most modern applications interact with external services and access data in structured formats such as XML, JSON and CSV. Static type systems do not understand such formats, often making data access more cumbersome. Should we give up and leave the messy world of external data to dynamic typing and runtime checks? Of course, not!
+
+In this paper, we integrate external structured data into F# programming. As most real-world data does not come with an explicit schema, we develop a shape inference algorithm that infers a shape from representative sample documents and transforms the shape into F# types using type providers. We present a formalization and a relative type soundness theorem for a simplified version of this process.
+
+Our library significantly reduces the amount of data access code and it provides additional safety guarantees when contrasted with the widely used weakly typed techniques.
+
+
 ### [F# 3.0 - Strongly-Typed Language Support for Internet-Scale Information Sources](http://research.microsoft.com/apps/pubs/default.aspx?id=173076)
 
 Don Syme et al.  
@@ -72,6 +84,14 @@ data markets, content management systems, economic data and hosted scripting. Ty
 becomes relative to the soundness of the type providers and the schema change in 
 information sources, but the role of types in information-rich programming tasks is 
 massively expanded, especially through tooling that benefits from rich types in explorative programming.
+
+### [Themes in Information-Rich Functional Programming for Internet-Scale Data Sources](http://tomasp.net/academic/papers/inforich/)
+
+Don Syme et al.  
+_DDFP 2013_
+
+The F# language includes a feature called F# 3.0 Type Providers to support the integration of internet-scale information sources into a strongly typed functional-first programming environment. In this position paper we describe the key themes in information-rich functional programming that we have observed during this work. Our contribution is to document these themes and highlight future challenges and opportunities, in the context of a recently released, practical, open-source system for information-rich functional programming. We believe that this area is rich in excellent opportunities for future language and tooling research, information-space integration and schematization techniques.
+
 
 
 
@@ -232,6 +252,18 @@ that benefit from our syntactic extension. This makes them easier to use and als
 space for exploring new useful programming models. 
 
 
+### [The F# Computation Expression Zoo](http://tomasp.net/academic/papers/computation-zoo/)
+
+Tomas Petricek, Don Syme  
+_Proceedings of PADL 2014_
+
+Many computations can be structured using abstract computation types such as monoids, monad transformers or applicative functors. Functional programmers use those abstractions directly while main-stream languages often integrate concrete instances as language features - e.g. generators in Python or asynchronous computations in C# 5.0. The question is, is there a sweet spot between convenient, hardwired language features, and an inconvenient but flexible libraries?
+
+F# computation expressions answer this question in the affirmative. Unlike the do notation in Haskell, computation expressions are not tied to a single kind of abstraction. They support a wide range of computations, depending on what operations are available. They also provide greater syntactic flexibility leading to a more intuitive syntax, without resorting to full macro-based meta-programming.
+
+We show that computation expressions can structure well-known computations including monoidal list comprehensions, monadic parsers, applicative formlets and asynchronous sequences based on the list monad transformer. We also present typing rules for computation expressions that are capable of capturing all these applications.
+
+
 <h2 id="dsls-and-meta-programming" class="anchor"> DSLs and Meta-programming </h2>
 
 ### [Leveraging .NET meta-programming components from F#: integrated queries and interoperable heterogeneous execution](http://dl.acm.org/citation.cfm?doid=1159876.1159884)
@@ -325,6 +357,24 @@ William Mansky, Dennis Griffith, Elsa L. Gunter
 _In pre-proceedings of GRAPHITE '14_
 
 Compiler optimizations, usually expressed as rewrites on program graphs, are a core part of all modern compilers. However, even production compilers have bugs, and these bugs are difficult to detect and resolve. The problem only becomes more complex when compiling parallel programs; from the choice of graph representation to the possibility of race conditions, optimization designers have a range of factors to consider that do not appear when dealing with single-threaded programs. In this paper we present PTRANS, a domain-specific language for formal specification of compiler transformations, and describe its executable semantics. The fundamental approach of PTRANS is to describe program transformations as rewrites on control flow graphs with temporal logic side conditions. The syntax of PTRANS allows cleaner, more comprehensible specification of program optimizations; its executable semantics allows these specifications to act as prototypes for the optimizations themselves, so that candidate optimizations can be tested and refined before going on to include them in a compiler. We demonstrate the use of PTRANS to state, test, and refine the specification of a redundant store elimination optimization on parallel programs.
+
+### [Prajna: Cloud Service and Interactive Big Data Analytics](http://msrccs.github.io/Prajna/)
+
+Jin Li, Sanjeev Mehrotra and Weirong Zhu
+
+In this paper, we describe Prajna, a distributed functional
+programming platform. Prajna is built on top of .Net and F#,
+and is open source released. Prajna not only
+supports (and extends) in-memory data analytics on large
+clusters like that of Spark, but also supports development
+and deployment of cloud services. Moreover, we show that
+Prajna can harmonize cloud service and data analytical service,
+and add rich data analytics on any existing cloud service/application.
+Prajna supports running of cloud service and interactive data analytics in both managed code and unmanaged
+code, and supports running of remote code with significant data components (e.g., a recognition model that is hundreds of megabytes in size). 
+
+
+
 
 <h2 id="units-of-measure" class="anchor"> Units of Measure </h2>
 
