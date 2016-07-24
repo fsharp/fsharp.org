@@ -43,7 +43,7 @@ It is a complete solution to develop CUDA accelerated GPU applications on .NET. 
 
 ### Option 5 - Use Brahma.FSharp, an open source F# tool for OpenCL programming
 
-* See [the Brahma.FSharp project](https://sites.google.com/site/semathsrprojects/home/brahma-fsharp/)
+* See [the Brahma.FSharp project](http://yaccconstructor.github.io/Brahma.FSharp/)
 
 <br />
 
