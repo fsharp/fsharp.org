@@ -73,6 +73,16 @@ A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) incl
 [Digits Recognizer](https://github.com/c4fsharp/Dojo-Digits-Recognizer), [Fractal Forest](https://github.com/c4fsharp/Dojo-Fractal-Forest), [Canopy 2048](https://github.com/c4fsharp/Dojo-Canopy-2048),
 [Markov Bot](https://github.com/c4fsharp/Dojo-Markov-Bot), [Type Provider Treasure Hunt](https://github.com/c4fsharp/Dojo-Type-Provider-Treasure-Hunt), [Classics Mash-up](https://github.com/c4fsharp/Dojo-Picasquez-and-Velasso) and [Ham or Spam](https://github.com/c4fsharp/Dojo-Ham-Or-Spam) dojos.
  
+### [Learning F#: Case study with branch and bound](http://opcoast.com/demos/fsharp/index.html)
+
+Follows the **process** for developing a non-trivial algorithm, here *branch and bound*, into a very functional
+form, starting at the beginning. Assumes you know the very basics of F#, and general programming concepts, but
+otherwise steps through a process for arriving at a very functional form of the branch and bound method
+that accepts arbitrary functions for the evaluation, bounding, and branching elements of the algorithm. 
+This generalized form is applied to solve the problems of 0-1 knapsack, maximum Boolean satisfiability (MAX-SAT),
+and the traveling salesman problem (TSP). 
+Many code downloads are provided. 
+ 
 ### [Try F#](http://www.tryfsharp.org) 
 
 <img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
