@@ -64,9 +64,9 @@ the standard F# library.
 
  * [Data Access with F#](/guides/data-access)
  
- * Edit the link for this book [F# for Quantitative Finance](https://www.packtpub.com/big-data-and-business-intelligence/f-quantitative-finance) to http://fsharp.org/learn.html
+ * Edit the link for this book [F# for Quantitative Finance] (https://www.packtpub.com/big-data-and-business-intelligence/f-quantitative-finance) to http://fsharp.org/learn.html
  
- * Add this book [F# for Machine Learning Essentials ](https://www.packtpub.com/big-data-and-business-intelligence/f-machine-learning) to http://fsharp.org/learn.html
+ * Add this book [F# for Machine Learning Essentials ] (https://www.packtpub.com/big-data-and-business-intelligence/f-machine-learning) to http://fsharp.org/learn.html
  
  
  
