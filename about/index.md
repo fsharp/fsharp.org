@@ -63,4 +63,12 @@ the standard F# library.
  * [Web Programming with F#](/guides/web)
 
  * [Data Access with F#](/guides/data-access)
+ 
+ * [F# for Quantitative Finance](https://www.packtpub.com/big-data-and-business-intelligence/f-quantitative-finance)
+ 
+ * [F# for Machine Learning Essentials ](https://www.packtpub.com/big-data-and-business-intelligence/f-machine-learning)
+ 
+ 
+ 
+
 
