@@ -952,13 +952,13 @@ I am  definitively a strong believer of F# and amazed by the language and its co
 <a id="atalasoft" class="testimonial-anchor"> &nbsp; </a>
 ---
 
-> I evaluated F# and it and found that for certain tasks it was better 
+> I evaluated F# and found that for certain tasks it was better 
 > than C# in terms of performance while maintaining suitable readability
 
 1. **Atalasoft**
 2. [source](http://www.atalasoft.com/cs/blogs/stevehawley/archive/2011/08/01/building-pure-managed-dotimage.aspx), [permalink](#atalasoft)
 
-I evaluated F# and it and found that for certain tasks it was better than C# in terms of performance 
+I evaluated F# and found that for certain tasks it was better than C# in terms of performance 
 while maintaining suitable readability and for certain tasks, it leant itself better to certain 
 algorithms (OctTree based color quantization stands out). ...we were able to heavily leverage inline functions in F#......Since each of 
 these are inlines, the F# optimizer can actually do something useful with the code. By using F#, we were able to address this cost by using 
@@ -1010,14 +1010,14 @@ Since we are processing a lot of information, but without complex computations e
 <a id="bohdan-szymanik-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
-> Bohdan ... shows F#'s use for performing aggregations over large datasets, taking advantage of cpu and io parallelism
+> Bohdan ... shows F#'s use for performing aggregations over large datasets, taking advantage of CPU and IO parallelism
 
 1. **Bohdan Szymanik**
 2. [permalink](#bohdan-szymanik-1)
 
 Bohdan Szymanik, CTO at Kiwibank, is keen to show how he's been using F# for analysis tasks 
 within the bank. He'll provide an intro to the language then show its use for performing 
-aggregations over large datasets, taking advantage of cpu and io parallelism, and data 
+aggregations over large datasets, taking advantage of CPU and IO parallelism, and data 
 presentation through charting and image generation.
 
 <div class="keywords">financial services, data, analysis</div>
@@ -1067,7 +1067,7 @@ Monadic coroutines alone I believe are the reason why we manage to ship the thin
 <a id="namigop" class="testimonial-anchor"> &nbsp; </a>
 ---
 
-> I am using F# to develop an API for data encryption using fully homomorphic encryption.
+> it is fun language to code in
 
 1. **namigop** (Erik Araojo)
 2. [permalink](#namigop), [source](http://www.reddit.com/r/programming/comments/1h7xpz/announcing_a_prerelease_of_f_31_and_the_visual_f/cart1dq)
@@ -1081,7 +1081,7 @@ The UI part was in C# and the library part was in F#. In my experience it is fun
 <a id="mario-pereira" class="testimonial-anchor"> &nbsp; </a>
 ---
 
-> everyone gets really amazed when they try F# and experience its imense expressive power
+> everyone gets really amazed when they try F# and experience its immense expressive power
 
 1. **Mário Pereira**
 2. Microsoft Student Partner (MSP)
@@ -1096,7 +1096,7 @@ experience giving introductory seminars to F# and functional
 programming using F#. So far, I have given these presentations on most
 portuguese faculties and also at Microsoft portuguese headquarters. The
 result is always the same: everyone gets really amazed when they try
-F# and experience its imense expressive power, its delightful
+F# and experience its immense expressive power, its delightful
 syntax and realize they can do functional programming (which is
 oftenly taken as something boring and complicated) on a familiar and
 confortable environment. Currently, along with a fellow portuguese
@@ -1293,7 +1293,7 @@ F#'s terse syntax made the final code look really similar to the algorithm we wr
 <a id="JamieDixon" class="testimonial-anchor"> &nbsp; </a>
 ---
 
-> F# makes is easy to spend your time answering interesting questions about the domain and less time answering questions about the language.
+> F# makes it easy to spend your time answering interesting questions about the domain and less time answering questions about the language.
 
 1. **Jamie Dixon**
 2. Coder
