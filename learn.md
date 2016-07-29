@@ -241,6 +241,15 @@ _Jamie Dixon_
 
 This book is packed with real-world examples to easily use machine learning techniques in your business applications.
 
+### [F# for Machine Learning Essentials](https://www.packtpub.com/big-data-and-business-intelligence/f-machine-learning)
+
+<img src="/about/files/IMG9348.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Sudipta Mukherjee_
+
+If you want to learn how to use F# to build machine learning systems, then this is the book you want. 
+Familiarity with theoretical concepts and notation of mathematics and statistics would be an added advantage.
+
 ### [Multi-Paradigm Programming Using F# and .NET](http://www.naghoospress.ir/bookview.aspx?bookid=1486730)
 
 <img src="/about/files/BookDotNet.jpg" style="float:right;margin:5px 0px 5px 25px;" />
