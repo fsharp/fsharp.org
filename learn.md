@@ -243,7 +243,7 @@ This book is packed with real-world examples to easily use machine learning tech
 
 ### [F# for Machine Learning Essentials](https://www.packtpub.com/big-data-and-business-intelligence/f-machine-learning)
 
-<img src="fsfoundation/about/files/F# for Machine Learning Essentials.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="https://github.com/gavincardoza/fsfoundation/blob/gh-pages/about/files/F%23%20for%20Machine%20Learning%20Essentials.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Sudipta Mukherjee_
 
