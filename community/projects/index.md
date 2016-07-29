@@ -248,8 +248,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/quantalea.png)&nbsp;[Alea.cuBase](http://blog.quantalea.net/) - Professional GPGPU programming with F# and CUDA(TM).
 
-*  ![logo](/images/thumbs/Brahma.FSharp.jpg)&nbsp;[Brahma.FSharp](https://github.com/gsvgit/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL
-   translator.
+*  ![logo](/images/thumbs/Brahma.FSharp.jpg)&nbsp;[Brahma.FSharp](https://github.com/YaccConstructor/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL translator.
 
 <br />
 
