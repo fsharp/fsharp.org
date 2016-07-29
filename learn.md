@@ -188,7 +188,7 @@ scientists. It also serves as an
 ideal supplemental text for advanced undergraduate and graduate students with a background in science or engineering.
 
 
-### [F# for Quantitative Finance](https://books.google.com/books?isbn=1782164634)
+### [F# for Quantitative Finance](https://www.packtpub.com/big-data-and-business-intelligence/f-quantitative-finance)
 
 <img src="/about/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
