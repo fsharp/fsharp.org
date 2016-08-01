@@ -65,7 +65,8 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 
 #### [FunScript](http://funscript.info/)
 
-FunScript is an F# to JavaScript converter with TypeScript interoperability.
+FunScript is an F# to JavaScript converter with TypeScript interoperability
+(No longer actively maintained).
 
 * [Examples](http://funscript.info/learn.html)
 * [Visual Studio templates](https://visualstudiogallery.msdn.microsoft.com/4688fe33-a41a-4c62-8322-4a7dccffa97c)
