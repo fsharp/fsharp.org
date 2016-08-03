@@ -38,11 +38,11 @@ supporting [a lot of languages](https://code.visualstudio.com/docs/languages/ove
 F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration.
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows
-2. Install the [Ionide package for VS Code](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp) <br />
-Open the Quick Open Menu in VS Code by pressing `Ctrl+P` and write the following command: <br />
+2. Open the Quick Open Menu in VS Code by pressing `Ctrl+P` and write the following command to install the Ionide package for VS Code.
+
         ext install Ionide-fsharp
 
-For many purposes you will also want to install the free F# compiler and command line tools in Step 3.
+You will also need to install the free F# compiler and command line tools in Step 3.
 
 ### Option 3: Install the free F# compiler and tools alone
 
