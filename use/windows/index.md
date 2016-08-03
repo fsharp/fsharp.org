@@ -18,8 +18,8 @@ See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx)
 
 #### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) ####
 
-Optionally, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
-for use with Visual Studio 2013 and 2015 (Community or higher, not Express, see above). They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
+In addition, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
+for use with Visual Studio 2013 and 2015. They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
 [auto-generating XML Docs](http://fsprojects.github.io/VisualFSharpPowerTools/xmldoc.html), 
 [highlight](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html) and [find](http://fsprojects.github.io/VisualFSharpPowerTools/findallreferences.html) references, 
 [rename refactoring](http://fsprojects.github.io/VisualFSharpPowerTools/rename.html),
@@ -100,7 +100,7 @@ If you're looking for Visual F# Tools 3.0 specifically, its standalone version c
 Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundled with your application.
 The recommended procedure is to bundle this component with your final application.
 
-The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC, as well as the command-line tools *fsc* (the F# compiler) and *fsi* (F# Interactive).
+The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC.
 
 - [Visual F# Tools 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=48179)
 
