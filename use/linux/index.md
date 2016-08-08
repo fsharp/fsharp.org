@@ -71,7 +71,7 @@ go further.
 
 ### Option 4: F# for RHEL, CentOS, Amazon, Fedora w/ puppet/configuration management
 
-To see an example of how to set it up, navigate to https://github.com/haf/vagrant-eventstore#run, read the README and look inside the `run` file and the `Vagrantfile` file. It pulls down all required dependencies and starts vagrant to get you up and running EventStore (as a sample application).
+To see an example of how to set up F# using [puppet configuration management](https://en.wikipedia.org/wiki/Puppet_(software)), see the example [here](https://github.com/haf/vagrant-eventstore#run), read the README and look inside the `run` file and the `Vagrantfile` file. It pulls down all required dependencies and starts vagrant to get you up and running EventStore (as a sample application).
 
 With the `epel`, `eventstore`, `mono` and `supervisor` puppet module and a reference to [packagecloud/haf/oss](https://packagecloud.io/haf/oss) repository, you can install a full environment and running service in a couple of minutes:
 
