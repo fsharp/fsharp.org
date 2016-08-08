@@ -106,5 +106,5 @@ Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part 
 
 ### Option 5: Build F# from source
 
-* Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
+Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
 
