@@ -9,12 +9,13 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
 
-* Install the free [Visual Studio 2015 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx). All recent versions of Visual Studio  come with the Visual F# Tools. So if you already have Visual Studio 2012/13/15 Professional or above, you can use that.
+* If you already have Visual Studio 2012/13/15 Professional or above, you can use that. All recent versions of Visual Studio come with the Visual F# Tools. The Visual F# Tools are installed automatically when you first create or open an F# project. You can also install the support [directly as a separate download](https://www.microsoft.com/en-us/download/details.aspx?id=48179).
 
-The Visual F# Tools are installed automatically when you first create or open an F# project. You can also install the support [directly as a separate download](https://www.microsoft.com/en-us/download/details.aspx?id=48179).
- 
-The Visual F# Tools include the command-line compiler (`fsc.exe`) and F# Interactive (`fsi.exe`).
+* Otherwise, install the free [Visual Studio 2015 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx).
+
 See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
+
+<br />
 
 #### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) ####
 
@@ -38,11 +39,13 @@ supporting [a lot of languages](https://code.visualstudio.com/docs/languages/ove
 F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration.
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows
-2. Open the Quick Open Menu in VS Code by pressing `Ctrl+P` and write the following command to install the Ionide package for VS Code.
+2. Press `Ctrl+P` and enter the following to install the Ionide package for VS Code.
 
         ext install Ionide-fsharp
 
 You will also need to install the free F# compiler and command line tools in Step 3.
+
+<br />
 
 ### Option 3: Install the free F# compiler and tools alone
 
@@ -97,12 +100,9 @@ If you're looking for Visual F# Tools 3.0 specifically, its standalone version c
 
 ### Option 4: Run already compiled F# code on servers
 
-Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundled with your application.
-The recommended procedure is to bundle this component with your final application.
+Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundled with your application. The recommended procedure is to bundle this component with your final application. The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC.
 
-The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC.
-
-- [Visual F# Tools 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=48179)
+<br />
 
 ### Option 5: Build F# from source
 
