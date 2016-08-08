@@ -53,13 +53,19 @@ Some editors have specific support for F#, either builtin or through addons prov
 
 * [Emacs for Mac](http://emacsformacosx.com/) and [Linux](http://wikemacs.org/index.php/Installing_Emacs_on_GNU/Linux). There is an [F# mode for Emacs](https://github.com/fsharp/emacs-fsharp-mode) that extends Emacs with syntax highlighting for F#, support for working with F# Interactive, automatic indentation and more.
 
+* [Visual Studio Code](https://code.visualstudio.com/) for Mac, Linux and Windows. This is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
+supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
+F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration. To install, press `Ctrl+P` and enter the following to install the Ionide package for VS Code.
+
+        ext install Ionide-fsharp
+
 * [MonoDevelop](http://monodevelop.com) with the [F# AddIn for MonoDevelop](http://fsharp.github.io/fsharpbinding).
 
   See [the installation instructions for MonoDevelop on Linux](http://www.monodevelop.com/download/).
 
   Then install [the F# AddIn for MonoDevelop](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin) by adding it from the AddIn Manager, or building/installing it yourself from source.
 
-* [Ionide](http://ionide.io) - An [Atom Editor](https://atom.io) and [Visual Studio Code](https://code.visualstudio.com/) package suite for cross platform F# development.
+* [Atom Editor](https://atom.io) supports F# via [Ionide](http://ionide.io) for cross platform F# development.
 
 * Sublime Text
 
@@ -109,31 +115,13 @@ Many people doing cross-platform or Mac/Linux development don't like .sln files.
 If so, you can also create a .fsproj file that brings together a collection of
 .fsproj files. Example of this can be found
 [on F# Core Engineering](http://fsharp.github.io/2015/04/18/fsharp-core-notes.html#examples-of-how-project-files-reference-fsharpcore-and-the-f-targets-file)
-. Also the F# compiler source uses .fsproj files in this way on
-[root.traversals.targets](https://github.com/fsharp/fsharp/blob/master/src/root.traversal.targets). In
-essence the reference looks like the following:
 
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
-
-      <ItemGroup>
-        <ProjectFiles Include="fsharp-proto-build.fsproj"/>
-        <ProjectFiles Include="fsharp-library-build.fsproj"/>
-        <ProjectFiles Include="fsharp-compiler-build.fsproj"/>
-      </ItemGroup>
-
-      <Import Project="root.traversal.targets"/>
-
-    </Project>
-    
 Tooling around projects relies on .fsproj files being present, for example the
 autocompletion in [emacs mode](https://github.com/fsharp/emacs-fsharp-mode) or
 [Vim](https://github.com/fsharp/vim-fsharp) will not work with out one. .fsproj
 files are special XML files, and can therefor be somewhat unwieldy to maintain
 by hand, to help with this you can either Xamarin Studio or MonoDevelop to
-create and maintain them if you work in either of those. Alternatively
-[forge](https://github.com/fsprojects/forge) will allow you to manage the files
-from the command line. It is always possible to edit the files by hand as well
-should need be.
+create and maintain them if you work in either of those.
 
 #### Forge
 
@@ -292,18 +280,11 @@ for a perspective on cross-platform portable libraries for Visual Studio users.
 
 F# portable libraries reference FSharp.Core versions such as 2.3.5.1, with matching mscorlib versions.
 A binding redirect may be neeeded to ensure bindings to these libraries redirect correctly, e.g. to
-FSharp.Core 4.3.1.0.
-
-At the time of writing, creating portable libraries was not yet fully supported in IDES on
-Mac and Linux, though you can normally build portable libraries successfully using xbuild and command-line tools
-on these platforms. If you are developing on Windows, or using libraries on Windows, then consider
-creating portable libraries to ease cross-platfom use.
+FSharp.Core 4.4.0.0.
 
 ### Unit Testing
 
 A table of .NET unit testing frameworks can be found [here](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages).
-
-There are two major ways of writing unit tests in .Net; in a method-per-test style, having the framework use reflection to read the tests and execute them or with the test-is-a-value style, where you pass the framework your test values (much like immutable objects are values).
 
 #### Fuchu
 
@@ -356,7 +337,7 @@ on Linux and OSX by using Travis.  This is very easy to arrange, just add a .tra
 
 Setting the language to "objective-c" causes Travis to use an OSX machine for build.
 
-Travis is free for open source  projects.
+Travis is free for open source projects.
 
 To also automate your build and test on Windows, AppVeyor is a good choice.  Here is [an example configuration file](https://github.com/fsharp/FSharp.Compiler.Service/blob/master/appveyor.yml).
 
