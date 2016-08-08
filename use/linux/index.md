@@ -16,8 +16,8 @@ recommended that you:
 
 2. Then install packages mono-complete and fsharp.
 
-    sudo apt-get update
-    sudo apt-get install mono-complete fsharp
+        sudo apt-get update
+        sudo apt-get install mono-complete fsharp
 
 This installs `fsharpc` and `fsharpi`. If you don't have access to these repositories, compile from source or see Option 6 below. Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
@@ -36,7 +36,7 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
 
         ext install Ionide-fsharp
 
-You will also need to install the free F# compiler and command line tools in Step 1.
+You will also need to install the F# packages from Step 1.
 
 ### Option 3: Build and install the F# runtime, compiler and tools
 
