@@ -25,6 +25,8 @@ go further.
 F# is also available as a [Debian package](http://packages.qa.debian.org/f/fsharp.html) though the package
 tends to be less up-to-date than the packages above.
 
+<br />
+
 ### Option 2: Install Visual Studio Code
 
 ![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
@@ -37,6 +39,8 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
         ext install Ionide-fsharp
 
 You will also need to install the F# packages from Step 1.
+
+<br />
 
 ### Option 3: Build and install the F# runtime, compiler and tools
 
@@ -63,7 +67,9 @@ Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac
 go further.
 
 
-### Option 3: F# for RHEL, CentOS, Amazon, Fedora w/ puppet/configuration management
+<br />
+
+### Option 4: F# for RHEL, CentOS, Amazon, Fedora w/ puppet/configuration management
 
 To see an example of how to set it up, navigate to https://github.com/haf/vagrant-eventstore#run, read the README and look inside the `run` file and the `Vagrantfile` file. It pulls down all required dependencies and starts vagrant to get you up and running EventStore (as a sample application).
 
@@ -98,7 +104,9 @@ With the `epel`, `eventstore`, `mono` and `supervisor` puppet module and a refer
       include ::eventstore
     }
 
-### Option 4: Get F# on Gentoo (Sabayon/Funtoo/Calculate)
+<br />
+
+### Option 5: Get F# on Gentoo (Sabayon/Funtoo/Calculate)
 
 From portage tree:
 
@@ -121,13 +129,16 @@ Alternatively there is an overlay available with current versions of various .NE
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
 
+<br />
 
-### Option 5: Use a Vagrant VM on Windows
+### Option 6: Use a Vagrant VM on Windows
 
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
-### Option 6: Slackware Slackbuild
+<br />
+
+### Option 7: Slackware Slackbuild
 
 1. Get Mono Slackbuild from this page [http://slackbuilds.org/repository/14.1/development/mono/](http://slackbuilds.org/repository/14.1/development/mono/) and run :
 
@@ -137,3 +148,4 @@ To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.
 
     ./fsharp.SlackBuild
    
+<br />
