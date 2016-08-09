@@ -1458,4 +1458,18 @@ We have open-sourced some of this work and you can find it on [GitHub](https://g
 
 <div class="keywords">energy, medical, scada, iot, cloud</div>
 
+<a id="mangel-maxime" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> Using a full F# stack to provide Server, Browser client and Mobile apps.
+
+1. **Maxime Mangel**
+2. [permalink](#mangel-maxime)
+
+Since I started programming, I tested a lot of language. I used php, JavaScript, C#, Elm, lua, etc. And now I am using F# for all my project. Since I discovered F# I just find the language that I searched for so long as it has a lot of possibilities.
+
+The tooling over the language is great and also this language is really ported by is community and I love that.
+
+And finally, F# is a language with which I become really efficient and I know that if I write a code the type inference assured me the correctness. I am still waiting for the first bug to appear in my productions app.
+
 
