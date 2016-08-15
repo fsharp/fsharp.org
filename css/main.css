@@ -7,7 +7,8 @@ body {
 }
 
 #main {
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 .anchor {
@@ -215,15 +216,17 @@ body {
     }
 
     .lead, .jumbotron .lead {
-        font-size: 28px;
+        font-size: 24px;
         letter-spacing: 1px;
         line-height: 40px;
     }
 
     .jumbotron .lead {
-        font-size: 30px;
+        font-size: 26px;
         font-family: 'Rajdhani', sans-serif;
     }
+    
+    .jumbotron
 
 #jumbotron {
     width: 90%;
@@ -231,7 +234,8 @@ body {
 }
 
 #social-btns {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    float: left;
 }
 
 .btn-circle {
@@ -239,6 +243,9 @@ body {
     height: 50px;
     border-radius: 25px;
     margin: 5px;
+}
+.btn-social {
+    background-color: #ccc;
 }
 
     .btn-circle img {
@@ -276,7 +283,7 @@ body {
 }
 
 .home-section {
-    padding: 70px 10px;
+    padding: 30px 10px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -543,7 +550,13 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   padding-left: 7px;
 }
 
-a[href^="http://foundation.fsharp.org"]:after, a[href^="http://fsharp.org"]:after, a[href^="https://github.com/fsharp"]:after, a.no_icon:after {
+a[href^="http://foundation.fsharp.org"]:after, 
+a[href^="http://fsharp.org"]:after, 
+a[href^="https://github.com/fsharp"]:after, 
+a[href^="https://twitter.com/fsharporg"]:after, 
+a[href^="http://www.facebook.com/fsharp.org"]:after, 
+a.no_icon:after {
   content:"" !important;
   padding-left: 0;
 }
+
