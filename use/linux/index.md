@@ -154,28 +154,24 @@ To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.
 
 1. Install Nix if you don't already have it:
 
-```bash
-    sudo mkdir /nix && sudo chown `id -u`.`id -g` /nix # create /nix
-    sudo -k                                            # root privileges not needed any longer
-    curl https://nixos.org/nix/install | bash          # install Nix
-    . $HOME/.nix-profile/etc/profile.d/nix.sh          # update PATH accordingly
-```    
+        sudo mkdir /nix && sudo chown `id -u`.`id -g` /nix # create /nix
+        sudo -k                                            # give up root privileges
+        curl https://nixos.org/nix/install | bash          # install Nix
+        . $HOME/.nix-profile/etc/profile.d/nix.sh          # update PATH accordingly
  
 2. Get F#
 
-```bash
-    nix-env -iA nixpkgs.fsharp
-```    
+        nix-env -iA nixpkgs.fsharp
     
 3. You might also like…
 
-```bash
-    # List all the .NET packages that are readily available in the Nix package collection:
-    nix-instantiate --eval --expr 'with import <nixpkgs> {}; lib.attrNames dotnetPackages' 
-
-    # Download FSharp.Data in the Nix store and make it available in ./FSData
-    nix-build '<nixpkgs>' -A dotnetPackages.FSharpData --out-link FSData
-```
+        # List all the .NET packages that are readily available in the Nix
+        # package collection:
+        nix-instantiate --eval --expr 'with import <nixpkgs> {};
+                                         lib.attrNames dotnetPackages' 
+    
+        # Download FSharp.Data in the Nix store and make it available in ./FSData
+        nix-build '<nixpkgs>' -A dotnetPackages.FSharpData --out-link FSData
 
 Find out more about the [Nix package manager](https://nixos.org/nix/) and [NixOS](https://nixos.org/) (the purely functional Linux distribution based on it)
 
