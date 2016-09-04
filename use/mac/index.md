@@ -4,7 +4,6 @@ title: Use F# on Mac OSX | The F# Software Foundation
 headline: Use F# on Mac OSX
 ---
 
-
 ### Option 1: Install F# with Xamarin Studio
 
 ![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development, with freemium add-ins for mobile development. 
@@ -25,11 +24,11 @@ supporting [a lot of languages](https://code.visualstudio.com/docs/languages/ove
 F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration.
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Mac
-2. Press `Ctrl+P` and enter the following to install the Ionide package for VS Code.
+1. Add Mono `/bin` folder to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
+1. Go back to VS Code, press `Ctrl+P` and enter the following to install the Ionide package.
 
         ext install Ionide-fsharp
 
-You will also need to install the F# packages from Step 1 or 3.
 
 <br />
 
@@ -38,6 +37,7 @@ You will also need to install the F# packages from Step 1 or 3.
 To use the F# command-line compiler and tools on Mac OSX:
 
 *  [Install Mono](http://www.go-mono.com/mono-downloads/download.html). Use version 4.2.0 or later.
+*  Add Mono `/bin` folder to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
 
 See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
 go further. For 64-bit support, see below.
