@@ -90,6 +90,8 @@ Contributions welcome!
 
 *  [Lambda Container](https://lambdacontainer.codeplex.com) - An IoC container written in F# for .NET code.
 
+*  [SemVer.FromAssembly](https://github.com/wallymathieu/SemVer.FromAssembly) - Helper tool to guess SemVer version based on public surface area differences.
+
 <br />
 
 
