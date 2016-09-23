@@ -151,7 +151,13 @@ active patterns, agents, computation expressions and, perhaps most distinctively
 
 _Don Syme, Adam Granicz, Antonio Cisternino_
 
-Expert F# 4.0 is about practical programming in a beautiful language that puts the power and elegance of data-rich functional programming into the hands of professional developers.
+Expert F# 3.0 is about practical programming in a beautiful language that puts the power and elegance of data-rich functional programming into the hands of professional developers. In combination with .NET, F# achieves unrivaled levels of programmer productivity and program clarity.
+
+ - A comprehensive guide to F# by the inventor of F#
+ - A treasury of F# techniques for practical problem-solving
+ - An in-depth case book of how F# applications and of F# 3.0 concepts, syntax, and features
+ 
+The world's experts in F# show you how to program in F# the way they do!
 
 ### [Real World Functional Programming](https://books.google.com/books?isbn=1933988924)
 
@@ -247,7 +253,7 @@ Machine Learning Projects for .NET Developers shows you how to build smarter .NE
 
 _Jamie Dixon_
 
-This book is packed with real-world examples to easily use machine learning techniques in your business applications.
+This book is packed with real-world examples to easily use machine learning techniques in your business applications. You will begin with introduction to F# and prepare yourselves for machine learning using .NET framework. You will be writing a simple linear regression model using an example which predicts sales of a product. Forming a base with the regression model, you will start using machine learning libraries available in .NET framework such as Math.NET, Numl.NET and Accord.NET with the help of a sample application. You will then move on to writing multiple linear regressions and logistic regressions.
 
 ### [Multi-Paradigm Programming Using F# and .NET](http://www.naghoospress.ir/bookview.aspx?bookid=1486730)
 
@@ -285,7 +291,7 @@ In this book you will read:
 - How to set up continuous integration and continuous deployment using FAKE and Docker
 - How to leverage libraries like Rx, FSharp.Data and Paket
 
-### [Learn F#] (https://www.manning.com/books/learn-fsharp)
+### [Learn F#](https://www.manning.com/books/learn-fsharp)
 
 <img src="/about/files/BookLFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
