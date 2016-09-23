@@ -285,6 +285,21 @@ In this book you will read:
 - How to set up continuous integration and continuous deployment using FAKE and Docker
 - How to leverage libraries like Rx, FSharp.Data and Paket
 
+### [Learn F#] (https://www.manning.com/books/learn-fsharp)
+
+<img src="/about/files/BookLFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Isaac Abraham_
+
+Learn F# is a practical guide for experienced C# and .NET developers that teaches the F# language, tools, techniques, and practices that can be applied in common scenarios. You’ll start with F# language basics and best development practices. You’ll also learn the core set of FP techniques in F#, and why to use them. Then you’ll discover how to write idiomatic F# code on the .NET framework in Visual Studio, and what tools to use to give you the best experience within VS. The second part of the book shows you how to apply F# in larger, real world scenarios, including features such as: -
+
+- Interop with C# /VB projects
+- Working with disparate data sources
+- SQL database access
+- Web Programming
+- Unit testing.
+
+By the end of the book, you’ll be able to use F# in your day-to-day development, and know how and where to deepen your knowledge.
 
 ## F# Books (Coming Soon)
 
