@@ -26,7 +26,7 @@ tools, and resources.
 * auto-gen TOC:
 {:toc}
 
-### Command Line Tools
+### Compilation, Command Line Tools and Scripting
 
 You can start F# Interactive using
 
@@ -44,6 +44,7 @@ You’re off! Some common commands are:
     mono file.exe arg1 ... argN        (runs a compiled F# program)
     mkbundle --static file.exe -o file (makes a static native image, including the F# runtime)
 
+Cross-platform users may also be interested in [Fable](https://github.com/fsprojects/Fable), an F# compiler that emits JavaScript.
 
 ###  Editing
 
@@ -103,7 +104,8 @@ For most F# documentation, see the [documentation pages](/about/index.html#docum
 
 ####  .fsproj and .sln files
 
-You can use xbuild to build projects and solutions from Visual Studio without change.
+You can use ``xbuild`` to build projects and solutions described by the ``.fsproj`` and ``.sln`` file
+formats from Visual Studio without change.
 Xamarin Studio and MonoDevelop can also create and manage .fsproj and .sln files.
 
 Use xbuild to build projects and solutions:
@@ -111,17 +113,17 @@ Use xbuild to build projects and solutions:
     xbuild RocketPart.fsproj
     xbuild RocketSolution.sln
 
-Many people doing cross-platform or Mac/Linux development don't like .sln files.
-If so, you can also create a .fsproj file that brings together a collection of
-.fsproj files. Example of this can be found
+Many people doing cross-platform or Mac/Linux development don't like ``.sln`` files because the file format
+is not very amenable to human editing. If so, you can also create a ``.fsproj`` file that brings together a collection of
+``.fsproj`` files. Example of this can be found
 [on F# Core Engineering](http://fsharp.github.io/2015/04/18/fsharp-core-notes.html#examples-of-how-project-files-reference-fsharpcore-and-the-f-targets-file)
 
-Tooling around projects relies on .fsproj files being present, for example the
+Tooling around F# projects often relies on ``.fsproj`` files being present, for example the
 autocompletion in [emacs mode](https://github.com/fsharp/emacs-fsharp-mode) or
-[Vim](https://github.com/fsharp/vim-fsharp) will not work with out one. .fsproj
+[Vim](https://github.com/fsharp/vim-fsharp) will not work with out one, except when editing an F# script. These ``.fsproj``
 files are special XML files, and can therefor be somewhat unwieldy to maintain
-by hand, to help with this you can either Xamarin Studio or MonoDevelop to
-create and maintain them if you work in either of those.
+by hand.  To help with this you can use tools such as Xamarin Studio or MonoDevelop to
+create and maintain them, or command line tools such as ``Forge`` (see below).
 
 #### Forge
 
@@ -152,7 +154,7 @@ FAKE can be fetched using NuGet.exe, e.g.:
     mono nuget.exe install FAKE -OutputDirectory lib -ExcludeVersion -Prerelease
 
 
-### Package Repositories
+### Package Repositories and Dependency Management
 
 #### NuGet
 
@@ -211,15 +213,23 @@ You can add NuGet support to these IDEs if not already present. See [NuGet for M
 See [http://nuget.org](http://nuget.org) to learn how to make and publish NuGet packages, or look at examples
 from other F# community projects.
 
-#### Other Packaging Mechanisms
+#### Paket
 
-Other packaging mechanisms include:
-* Git sub-modules (especially when building from source)
-* Traditional Unix packages
-* Simple .fs files that can be included into projects
+[Paket](http://fsprojects.github.com/Paket) is a dependency manager client for .NET that is very popuar with the F# community.
+Excellent documentation is available for using Paket with F# on the Paket site.
+
+You can also use Paket specifications as prefixes in F# scripting.  For example, see [Paket and Suave](https://suave.io/paket.html).
+
+Some tips:
+* Use ``frameworks: net46`` at the top of your ``paket.dependencies`` file when developing for Mono or F# scripting.  This makes Paket dependency resolution much faster with far fewer downloads
+
+#### Paket Load Script Generation
+
+Paket has a feature [``--generate-include-scripts``](https://fsprojects.github.io/Paket/paket-generate-include-scripts.html) that is very useful for doing cross-patform scripting that references many nuget packages.
 
 
-#### Some Examples of Portable, Cross-Platform Packages
+
+#### Some Examples of Cross-Platform Packages
 
 Some F# and CLI packages are more cross-platform friendly than others. Many will work with no alteration.
 Here are some of interest:
@@ -267,7 +277,7 @@ available to F#, for example:
 Compatibility guides, [documentation](http://docs.go-mono.com/?link=root) and [migration assessment tools](http://www.mono-project.com/MoMA) are also available.
 
 
-### Portable Libraries
+### Portable (PCL) Libraries
 
 
 Portable .NET libraries have access to less core functionality, called a "portable profile", but can be used
@@ -281,6 +291,18 @@ for a perspective on cross-platform portable libraries for Visual Studio users.
 F# portable libraries reference FSharp.Core versions such as 2.3.5.1, with matching mscorlib versions.
 A binding redirect may be neeeded to ensure bindings to these libraries redirect correctly, e.g. to
 FSharp.Core 4.4.0.0.
+
+When authoring a Portable library on OSX and Linux, be sure to reference [the FSharp.Core nuget package](https://www.nuget.org/packages/FSharp.Core) to find the right profile version of FSharp.Core.  This is simpler
+than reying on any specific version incuded with your F# installation.
+
+For more information on FSharp.Core, see the [Notes and Guidance on FSharp.Core](http://fsharp.github.io/2015/04/18/fsharp-core-notes.html) from the Core Engineering Group of [the F# Software Foundation](http://fsharp.org).
+
+### Binding Redirects
+
+Applications will almost certainly need to specify "binding redirects" for some or all components where multiple
+versions of components need to be "unified" to one master version at runtime.  This applies particularly to ``FSharp.Core``
+but also to other components. For instance, see [examples of binding redirects for FSharp.Cpre](http://fsharp.github.io/2015/04/18/fsharp-core-notes.html#use-binding-redirects-for-applications).
+
 
 ### Unit Testing
 
@@ -357,14 +379,9 @@ A detailed guide of setting up Vagrant is available [here](http://christoph.rueg
 * In .fsproj files, don't use copy commands on PostBuildEvent's, but use the MSBuild Copy task itself ([example](http://msdn.microsoft.com/en-us/library/3e54c37h.aspx))
 * Don't assume pdbs are always created after the compilation
 * Executables included in .NET may not exist in Mono or may have a different name or location e.g. SvcUtil etc
-* Fake build scripts may not work as intended due to Mono issues
-* MSBuild API is incomplete in Mono, programatic API usage might fail
-* Changing the build order inside Xamarin Studio won't have effect when using MSBuild or Visual Studio, prefer editing the project file by hand
-* NuGet can be troublesome
 * External components that would be available via NuGet in Windows might be included as part of Mono - Rx, TDF etc
-* MSBuild targets might be different in Mono
-* Don't rely the registry, also Mono can use a version of it, it can be fright with issues
-* Avoid Windows Forms/WPF in favour of native UI frameworks
+* Don't rely the registry, also Mono can use a version of it, it can have permissions issues
+* Avoid Windows Forms/WPF in favour of Javascript or native UI frameworks
 * Beware differences in [behaviour with loading assemblies](https://bugzilla.xamarin.com/show_bug.cgi?id=10906) which is a very niche problem though. Generally the less trodden the code is, the more subtle differences there are.
 * When using NUnit, create your test fixtures with classes and methods, exactly the way you'd do in C# (Trying to use modules as test fixtures will trigger odd behaviors on Xamarin Studio).
 * Differences in F# Interactive DLL resolution. Use
@@ -378,9 +395,6 @@ A detailed guide of setting up Vagrant is available [here](http://christoph.rueg
 
 * If your build executes binaries and tasks, make sure the “x” permissions are
   set for Fsc.exe etc. and all other executables triggered by xbuild.
-
-* Beware of [NuGet package restore bug](https://nuget.codeplex.com/workitem/3435). In NuGet.targets, the
-  "solutionDir" argument has an extra space. This breaks package restore on Mono.
 
 
 #### Developing Cross-Platform and Multi-Targeting Type Providers
