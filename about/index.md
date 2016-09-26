@@ -63,4 +63,15 @@ the standard F# library.
  * [Web Programming with F#](/guides/web)
 
  * [Data Access with F#](/guides/data-access)
+ 
+ * [F# for Quantitative Finance] (https://www.packtpub.com/big-data-and-business-intelligence/f-quantitative-finance) to http://fsharp.org/learn.html
+ 
+ *[F# for Machine Learning Essentials] (https://www.packtpub.com/big-data-and-business-intelligence/f-machine-learning) to http://fsharp.org/learn.html
+
+     Sudipta Mukherjee
+
+   If you want to learn how to use F# to build machine learning systems, then this is the book you want.  Starting with an introduction to the several categories on machine learning, you will quickly learn to implement time-tested, supervised learning algorithms. 
+
+ 
+
 

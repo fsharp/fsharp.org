@@ -202,7 +202,7 @@ scientists. It also serves as an
 ideal supplemental text for advanced undergraduate and graduate students with a background in science or engineering.
 
 
-### [F# for Quantitative Finance](https://books.google.com/books?isbn=1782164634)
+### [F# for Quantitative Finance](https://www.packtpub.com/big-data-and-business-intelligence/f-quantitative-finance)
 
 <img src="/about/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -254,6 +254,15 @@ Machine Learning Projects for .NET Developers shows you how to build smarter .NE
 _Jamie Dixon_
 
 This book is packed with real-world examples to easily use machine learning techniques in your business applications. You will begin with introduction to F# and prepare yourselves for machine learning using .NET framework. You will be writing a simple linear regression model using an example which predicts sales of a product. Forming a base with the regression model, you will start using machine learning libraries available in .NET framework such as Math.NET, Numl.NET and Accord.NET with the help of a sample application. You will then move on to writing multiple linear regressions and logistic regressions.
+
+### [F# for Machine Learning Essentials](https://www.packtpub.com/big-data-and-business-intelligence/f-machine-learning)
+
+<img src="https://github.com/gavincardoza/fsfoundation/blob/gh-pages/about/files/F%23%20for%20Machine%20Learning%20Essentials.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Sudipta Mukherjee_
+
+If you want to learn how to use F# to build machine learning systems, then this is the book you want. 
+Familiarity with theoretical concepts and notation of mathematics and statistics would be an added advantage.
 
 ### [Multi-Paradigm Programming Using F# and .NET](http://www.naghoospress.ir/bookview.aspx?bookid=1486730)
 
