@@ -13,7 +13,7 @@ well to a stateless, functional approach. Advantages to using F# for web program
 * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
 * *Reactive and Scalable* - F# asynchronous programming simplifies scalable, reactive web programming
 * *Interoperable* - F# interoperates seamlessly with languages such as C#, JavaScript and TypeScript
-* *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com), [FunScript](http://funscript.info/) and [Fable](https://github.com/fsprojects/Fable)
+* *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [Fable](https://github.com/fsprojects/Fable)
 * *Open-source* and *cross-platform*
 
 
@@ -23,28 +23,15 @@ To contribute to tooling for F# web programming, please join the
 [F# Web Stack Google Group](https://groups.google.com/forum/#!forum/web-stack-fs). 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>This guide includes resources related to web programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md">edit this page</a> and send a pull request.</p>
+    <p>To contribute to this guide, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md">edit this page on GitHub</a>.</p>
     <hr />
-    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+    <p>The resources listed below are provided for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any specific commercial products, processes, or services</p>
 </div>              
 
 ## Resources for Web Programming
 
 * auto-gen TOC:
 {:toc}
-
-
-### Live Examples
-
-#### [TodoBackend](http://todobackend.com/)
-
-TodoBackend is a project that aims to be "a shared example to showcase backend tech stacks." The F# community has contributed some examples, and a few more are in progress:
-
-* [F# - Freya (OWIN)](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/owin)
-* [F# - ASP.NET Web API](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/webapi)
-* [F# - Frank](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/frank)
-
-Please consider contributing, either directly to the TodoBackend project or via the [TodoBackendFSharp](https://github.com/panesofglass/TodoBackendFSharp) project.
 
 
 ### Frameworks for Web Applications
@@ -63,22 +50,14 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 * [MonoDevelop templates](https://github.com/intellifactory/monodevelop.websharper)
 * [CloudSharper templates](http://cloudsharper.com/)
 
-#### [FunScript](http://funscript.info/)
-
-FunScript is an F# to JavaScript converter with TypeScript interoperability
-(No longer actively maintained).
-
-* [Examples](http://funscript.info/learn.html)
-* [Visual Studio templates](https://visualstudiogallery.msdn.microsoft.com/4688fe33-a41a-4c62-8322-4a7dccffa97c)
-
 #### [Fable](https://github.com/fsprojects/Fable)
 
 [Fable](https://github.com/fsprojects/Fable) is an F# to JS compiler designed to generate clean
 and standard code in order to maximize interoperability in both ways. It integrates with most
 of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
-or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you develop
-not only web apps but also [node.js](https://nodejs.org/en/), desktop with [Electron](http://electron.atom.io)
-or mobile with [React native](https://facebook.github.io/react-native/).
+or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you to develop
+[node.js](https://nodejs.org/en/) services, desktop apps with [Electron](http://electron.atom.io)
+and mobile apps with [React native](https://facebook.github.io/react-native/).
 
 * [Docs](https://github.com/fsprojects/Fable/tree/master/docs)
 * [Examples](https://github.com/fsprojects/Fable/tree/master/samples)
@@ -104,6 +83,10 @@ Do it the simple way, and serve web requests direct from code using F# asynchron
 
 * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
 
+#### [Serving Requests with Suave.io](http://suave.io/)
+
+Suave can be used for microservices in addition to serving web content.
+
 
 #### [Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html)
 
@@ -121,6 +104,11 @@ Some resources on using F# with Web API:
 * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio) Includes templates for ASP.NET Web API. 
 * [A Simple Nowin F# Example](http://mikehadlow.blogspot.com/2015/04/a-simple-nowin-f-example.html) - example showing an F# OWIN app running on a web server other than IIS.
 
+#### [Canopy for Client-side Testing](http://lefthandedgoat.github.io/canopy)
+
+[canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and 
+concise. You can easily leverage your existing .NET code to help you test.
+ 
 #### [Freya](https://github.com/freya-fs/freya)
 
 Freya provides a functional web stack built on top of [OWIN](http://owin.org/). At its core, Freya wraps the OWIN environment dictionary with a computation expression and provides access to that dictionary with lenses. Additional layers of the stack provide types based on the HTTP and related RFCs, a pipeline abstraction for connecting Freya computations, a router, and an implementation of the [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram), like that found in [webmachine](https://github.com/basho/webmachine).
@@ -154,11 +142,6 @@ One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.m
 
 ServiceStack is a framework for simple and fast web services on .NET and Mono.
 
-* [F# ServiceStack Project Template](http://visualstudiogallery.msdn.microsoft.com/278caff1-917a-4ac1-a552-e5a2ce0f6e1f) - (Visual Studio) Includes a template to create a self-hosted, Asp.Net hosted F# ServiceStack service 
-* [F# and ServiceStack Example 1](http://www.servicestack.net/mythz_blog/?p=785) - Web Services on any platform in and out of a web server! An async+parallel cached twitter proxy that works cross platform on Windows/OSX and Linux in 100 LOC
-* [F# and ServiceStack Example 2](http://www.servicestack.net/mythz_blog/?p=811) - An Async, Cached Twitter API Proxy in F#
-* [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) - Using ServiceStack and Heroku with F#
-
 #### [NancyFx](http://nancyfx.org/)
 
 NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
@@ -166,11 +149,18 @@ NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-s
 * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
 * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
 
-#### [Canopy for Client-side Testing](http://lefthandedgoat.github.io/canopy)
+### Live Examples
 
-[canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and 
-concise. You can easily leverage your existing .NET code to help you test.
- 
+#### [TodoBackend](http://todobackend.com/)
+
+TodoBackend is a project that aims to be "a shared example to showcase backend tech stacks." The F# community has contributed some examples, and a few more are in progress:
+
+* [F# - Freya (OWIN)](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/owin)
+* [F# - ASP.NET Web API](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/webapi)
+* [F# - Frank](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/frank)
+
+Please consider contributing, either directly to the TodoBackend project or via the [TodoBackendFSharp](https://github.com/panesofglass/TodoBackendFSharp) project.
+
 ### Tutorials
 
 * [Web Application Development in F# Using ASP.NET MVC](http://blog.tamizhvendan.in/blog/2014/12/10/web-application-development-in-fsharp-using-asp-dot-net-mvc/)
@@ -226,27 +216,4 @@ Here are a few Visual Studio project templates available for building unit tests
 * [F# NUnit Template that also includes FsUnit, FsCheck, and Unquote](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) 
 
 
-
-### Resources for Other Frameworks
-
-#### Making WSDL and OData Services
-
-* [F#/C# Web Service Template for WSDL](http://visualstudiogallery.msdn.microsoft.com/279345a4-f189-4d1f-98fe-6b1af322d164) - (Visual Studio, ASP.NET) Includes a template for WCF.
-* [F# Web Data Feed Template for OData](http://visualstudiogallery.msdn.microsoft.com/62042780-c1bb-456a-a552-c7d88d5d7aef) - (Visual Studio, ASP.NET) Provides a project template for creating a convention-based OData Web Service in F# that runs under ASP.NET.   
-
-#### Older ASP.NET MVC using two projects (one F#, one C#)
-
-When using MVC ASP.NET 3 or 4, mixed C#/F# ASP.NET MVC are used. In this approach, views are 
-implemented in HTML with some C#. Models and controllers are implemented in F#.
-
-* The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 4)](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) include templates for ASP.NET MVC 4 (ASPX/Razor) and Single Page Applications with Backbone.js or Knockout.js.
-* The [F#/C# Web Templates (Xamarin Studio, ASP.NET MVC 4)](http://bloggemdano.blogspot.de/2012/12/using-new-aspnet-mvc-4-template-in.html) are a similar set of cross-platform templates for MonoDevelop. 
-* The [F#/C# Web Templates (Visual Studio, ASP.NET MVC 3](http://visualstudiogallery.msdn.microsoft.com/f57aa816-e96b-4133-ab5d-9b9b99914ead) include templates for ASP.NET MVC 3 (ASPX/Razor). 
-
-#### Silverlight Applications
-
-For those still using Silverlight, you can use F# to build Silverlight projects 
-in whole or in part. Some resources are:
-
-* [F# Client-Side Application Template (Visual Studio, Silverlight)](http://visualstudiogallery.msdn.microsoft.com/621d86fb-944f-48db-a69c-e73c5521de9d) - Includes a simple template for creating F# Silverlight Applications. The template creates a single Silverlight project that creates Silverlight controls from F# code and runs in an automatically generated HTML page.
  
