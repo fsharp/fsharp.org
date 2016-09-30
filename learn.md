@@ -40,11 +40,11 @@ A collection of snippets of F# code.
 Allows you to try F# code in your browser. You an also view generated IL, and load some
 NuGet packages (not all packages load correctly in .NET Fiddle).
 
-### [Visual F# Development Portal](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp-development-portal)
+### [F# Guide and Visual F# Development Portal](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/)
 
-<img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" /> 
 
-The Microsoft documentation for Visual F# provides a language reference, walkthroughs, videos, samples, and more.  You can also
+The Microsoft documentation for F# provides a language reference, walkthroughs, videos, samples, and more.  You can also
 contribute to the documentation on GitHub.
 
 ### [F# Programming Wikibook](http://en.wikibooks.org/wiki/Programming:F_Sharp)
