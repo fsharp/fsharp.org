@@ -99,6 +99,10 @@ XML documents on public APIs ensure that users can get great Intellisense and Qu
 
 Using explicit signatures files in an F# library provides a succinct summary of public API, which both helps to ensure that you know the full public surface of your library, as well as provides a clean separation between public documentation and internal implementation details. Note that signature files add friction to changing the public API, by requiring changes to be made in both the implementation and signature files. As a result, signature files should typically only be introduced when an API has become solidified and is no longer expected to change significantly.
 
+#### ✔ Always follow the long-established Best Practices for using strings in the .NET Framework.
+
+Follow Microsoft’s official [Best Practices for Using Strings in the .NET Framework](https://msdn.microsoft.com/en-us/library/dd465121.aspx) guidance.  In particular, always explicitly state *cultural intent* in the conversion and comparison of strings (where applicable).
+
 ## 3. Guidelines for F#-Facing Libraries
 
 In this section, we will present recommendations for developing public F#-facing libraries, that is, libraries exposing public APIs that are intended to be consumed by F# developers. (For guidance for internal/private F# implementation code, see the Section 4.) There are a variety of library-design recommendations applicable specifically to F#. In the absence of specific recommendations below, the .NET Library Design Guidelines are the fallback guidance.
