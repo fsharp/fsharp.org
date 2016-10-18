@@ -84,6 +84,8 @@ Contributions welcome!
 
 *  [Yeoman F# generator](https://github.com/fsprojects/generator-fsharp) - scaffolding F# projects outside of IDE such as Visual Studio and Xamarin Studio. Avaliable in the [npm](https://www.npmjs.com/package/generator-fsharp).
 
+* [GFlat](https://github.com/avysk/gflat) - CLI (make-based) project scaffolding generator for simple Mono / F# projects.
+
 *  ![logo](/images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](http://fsprojects.github.io/FSharpLint/) - A lint tool for F#.
 
 *  [F# SonarQube Plugin](https://github.com/jmecosta/sonar-fsharp-plugin) - F# support for SonarQube
