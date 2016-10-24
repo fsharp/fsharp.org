@@ -48,50 +48,23 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
 
  * [Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
+ * [FSharp.AWS.DynamoDB](https://github.com/fsprojects/FSharp.AWS.DynamoDB#fsharpawsdynamodb) - an F# wrapper over the standard Amazon.DynamoDB library which allows you to represent table items using F# records and perform updates, queries and scans using F# quotation expressions
 
-#### [Windows Azure](http://www.windowsazure.com/en-us/home/features/overview/)
 
-Windows Azure provides access to  Microsoft's worldwide datacenters through services including 
-virtual machines, geo-redundant storage, database clusters and website deployment.  [This page](http://www.windowsazure.com/en-us/develop/net/fundamentals/compute/) provides 
-detail on the structure of Azure applications.
+#### [Microsoft Azure](https://azure.microsoft.com/)
 
- * [Fog](http://dmohl.github.io/Fog/) - A simple and pleasant set of wrappers for accessing
-   basic Azure API services such as blob, table, queue, Service Bus and caching in one simple, 
-   uniform set of functions.
+[Microsoft Azure](https://azure.microsoft.com/) provides access to  Microsoft's worldwide datacenters through services including 
+virtual machines, geo-redundant storage, database clusters, website deployment and other services.  
 
- * [FSharp.Azure](https://github.com/daniel-chambers/FSharp.Azure) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
+ * [Using F# on Azure](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/using-fsharp-on-azure/) - Microsoft's comprehensive guide to using F# on Azure.
  
- * [F# Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - Provides strongly-typed access to Blobs and Tables with automatic schema generation of table schema based off EDM metadata.
-
- * F# material based on the Windows Azure Training Kit for developers, focusing on web and data programming:
-
-   * [Part 1: Building and Publishing Windows Azure Web Sites using F#](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt1)
-
-   * [Part 2 - WATK in F#, Part 2: Deploying an Azure Web Site with Git](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt2)
-
-   * [Part 3 - WATK in F#, Part 3: Using Entity Framework with an Azure Database](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-Pt3)
-
-   * [Part 4 - WATK in F#, Part 4: Introduction to Cloud Services](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-CS-Pt01)
-
-   * [Part 5 - WATK in F#, Part 5: Background Processing with Worker Roles and Queues](http://sireel-world.azurewebsites.net/sir-eel-visions/WATK-FS-CS-Pt02)
-
-   * [Part 6 - WATK in F#, Part 6: Debugging Applications in Windows Azure](http://sireel-world.azurewebsites.net/sir-eel-visions/watk-in-f-part-6-debugging-applications-in-windows-azure)
-
+ * [F# and Azure Functions](https://azure.microsoft.com/en-us/documentation/articles/functions-reference-fsharp/) - Developer reference for using F# with Azure Functions.
+ 
  * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Cloud-Mobile-Solutions-ebook/dp/B00AANFL60) - Book including details on Azure programming with F#
 
- * [Fake has support for deploying webjobs](http://fsharp.github.io/FAKE/azurewebjobs.html)
-
- * [Fake also supports packaging cloud services](http://fsharp.github.io/FAKE/azurecloudservices.html)
-
-Below are resources on using Windows Azure from F# and .NET in general:
-
- * [Introduction to Windows Azure](http://www.windowsazure.com/en-us/develop/net/fundamentals/intro-to-windows-azure/)
-
- * [.NET and RESTful management API reference](http://msdn.microsoft.com/en-us/library/windowsazure/ff800682.aspx)
-
- * [F# 3.0 Azure Samples](http://fsharp3sample.codeplex.com/wikipage?Title=AzureSamples)
-
- * [How to Create a Cloud-Scalable Internet Game Using F#, C#, and ASP.NET](http://blogs.msdn.com/b/fsharpteam/archive/2013/02/05/learn-how-to-create-an-internet-game-using-f-c-and-asp-net.aspx)
+ * [FSharp.Azure.Storage](https://github.com/daniel-chambers/FSharp.Azure.Storage) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
+ 
+ * [F# Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - Provides strongly-typed access to Blobs and Tables with automatic schema generation of table schema based off EDM metadata.
 
  * [Running a pure F# Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
 
@@ -101,7 +74,7 @@ Below are resources on using Windows Azure from F# and .NET in general:
 
 [Docker](https://www.docker.io/) automates the deployment of applications inside [software containers](http://en.wikipedia.org/wiki/Operating_system%E2%80%93level_virtualization), by providing an additional layer of abstraction and automation of operating system–level virtualization on Linux.
 
-F# is available by default in [the Docker official images for Mono](https://github.com/docker-library/official-images/blob/master/library/mono).
+F# is available by default in [the Docker official images for Mono](https://github.com/docker-library/official-images/blob/master/library/mono).  There is also an [official Docker image for F#](https://hub.docker.com/r/fsharp/), [source](https://github.com/fsprojects/docker-fsharp).
 
 ### Scalable Distributed Programming and Messaging
 
@@ -129,11 +102,17 @@ The [MBrace](http://mbrace.io/) framework is an open-source  programming model a
 
  * [Programming model](http://mbrace.io/programming-model.html)
 
- * [Windows Azure support](http://mbrace.io/azure-tutorial.html)
+ * [Microsoft Azure support](http://mbrace.io/azure-tutorial.html)
 
 #### Orleans
 
 The [Orleans](http://research.microsoft.com/en-us/projects/orleans/) framework provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was designed for use in the cloud, and has been used extensively in Microsoft Azure.  A simple ['Hello World' F# sample](https://github.com/dotnet/orleans/blob/master/Samples/FSharpHelloWorld/Grains/Grain1.fs) also available.
+
+#### Kafka
+
+* [Kafunk](https://jet.github.io/kafunk/) - An F# Kafka client.
+
+* [anaerobic](https://github.com/anaerobic/fsharp-kafka-simple) - A simple implementation of a Kafka producer and consumer in F#.
 
 #### ZeroMQ
 
