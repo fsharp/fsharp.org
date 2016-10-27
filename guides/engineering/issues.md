@@ -12,8 +12,8 @@ You can contribute to this page [by proposing an edit](https://github.com/fsharp
 ### Core Tools
 
 |:------------------|:--------------------|:------------------|:------------------|
-| [F# Language Specification](http://fsharp.org/specs/language-spec/) |   [Make suggestion](https://fslang.uservoice.com/forums/245727-f-language) |          [Report/Fix an issue](http://fsharp.org/specs/language-spec/)      | |
-| [F# Compiler and Core Library](http://fsharp.github.io/2014/06/18/fsharp-contributions.html)   |                 [Make suggestion](https://fslang.uservoice.com/forums/245727-f-language) | [Report/Fix an issue (general)](https://github.com/Microsoft/visualfsharp/issues) | [(cross-platform)](http://github.com/fsharp/fsharp) |
+| [F# Language Specification](http://fsharp.org/specs/language-spec/) |   [Make suggestion](https://github.com/fsharp/fslang-suggestions) |          [Report/Fix an issue](http://fsharp.org/specs/language-spec/)      | |
+| [F# Compiler and Core Library](http://fsharp.github.io/2014/06/18/fsharp-contributions.html)   |                 [Make suggestion](https://github.com/fsharp/fslang-suggestions) | [Report/Fix an issue (general)](https://github.com/Microsoft/visualfsharp/issues) | [(cross-platform)](http://github.com/fsharp/fsharp) |
 
 ### Editing Tools
 
