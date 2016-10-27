@@ -27,7 +27,7 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
 1. Add Mono `/bin` folder to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
 1. Go back to VS Code, press `Ctrl+P` and enter the following to install the Ionide package.
 
-```ext install Ionide-fsharp```
+        ext install Ionide-fsharp
 
 
 <br />
