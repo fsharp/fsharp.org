@@ -46,12 +46,7 @@ headline: Use F# on FreeBSD
        make install clean BATCH=yes
 
 
-4. Adjust the permissions on the Mono registry folder. This is required for users to run ``fsharpi``:
-
-       chmod -R 777 /usr/local/etc/mono/registry
-
-
-5. F# is now installed on your system. Confirm the installation was successful by launching F# interactive:
+4. F# is now installed on your system. Confirm the installation was successful by launching F# interactive:
 
        fsharpi
 
