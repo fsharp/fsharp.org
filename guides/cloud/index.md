@@ -31,6 +31,24 @@ For cloud-hosted web programming and services, refer to the [Web Programming Gui
 
 ### Cloud Platforms
 
+
+#### [Microsoft Azure](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/using-fsharp-on-azure/)
+
+[Microsoft Azure](https://azure.microsoft.com/) provides access to  Microsoft's worldwide datacenters through services including 
+virtual machines, geo-redundant storage, database clusters, website deployment and other services.  
+
+ * [Using F# on Azure](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/using-fsharp-on-azure/) - Microsoft's comprehensive guide to using F# on Azure.
+ 
+ * [F# and Azure Functions](https://azure.microsoft.com/en-us/documentation/articles/functions-reference-fsharp/) - Developer reference for using F# with Azure Functions.
+ 
+ * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Cloud-Mobile-Solutions-ebook/dp/B00AANFL60) - Book including details on Azure programming with F#
+
+ * [FSharp.Azure.Storage](https://github.com/daniel-chambers/FSharp.Azure.Storage) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
+ 
+ * [F# Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - Provides strongly-typed access to Blobs and Tables with automatic schema generation of table schema based off EDM metadata.
+
+ * [Running a pure F# Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
+
 #### [Amazon Web Services](http://aws.amazon.com)
 
 Amazon Web Services (AWS) provide a large array of on-demand and managed computing and 
@@ -49,24 +67,6 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
  * [Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
  * [FSharp.AWS.DynamoDB](https://github.com/fsprojects/FSharp.AWS.DynamoDB#fsharpawsdynamodb) - an F# wrapper over the standard Amazon.DynamoDB library which allows you to represent table items using F# records and perform updates, queries and scans using F# quotation expressions
-
-
-#### [Microsoft Azure](https://azure.microsoft.com/)
-
-[Microsoft Azure](https://azure.microsoft.com/) provides access to  Microsoft's worldwide datacenters through services including 
-virtual machines, geo-redundant storage, database clusters, website deployment and other services.  
-
- * [Using F# on Azure](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/using-fsharp-on-azure/) - Microsoft's comprehensive guide to using F# on Azure.
- 
- * [F# and Azure Functions](https://azure.microsoft.com/en-us/documentation/articles/functions-reference-fsharp/) - Developer reference for using F# with Azure Functions.
- 
- * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Cloud-Mobile-Solutions-ebook/dp/B00AANFL60) - Book including details on Azure programming with F#
-
- * [FSharp.Azure.Storage](https://github.com/daniel-chambers/FSharp.Azure.Storage) - FSharp.Azure provides an idiomatic F# API to query and modify data in Azure table storage using immutable F# record types. 
- 
- * [F# Azure Storage Type Provider](https://github.com/isaacabraham/AzureStorageTypeProvider) - Provides strongly-typed access to Blobs and Tables with automatic schema generation of table schema based off EDM metadata.
-
- * [Running a pure F# Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
 
 ### Containers
 
