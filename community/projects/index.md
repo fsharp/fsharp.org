@@ -340,6 +340,7 @@ Contributions welcome!
 
 *  [Cricket](https://github.com/fsprojects/Cricket). Cricket is an actor library for F#. The actor programming model is inherently concurrent, an actor is a primitive that wraps a computation, the computation is ran by sending messages to the actor. The actor can then respond to the reciept of the message by executing one or more of the following actions (possibly concurrently).
 
+*  ![logo](/images/thumbs/FSharp.Control.FusionTasks.png)&nbsp;[FusionTasks](https://github.com/kekyo/FSharp.Control.FusionTasks/). F# Async workflow <--> .NET Task easy seamless interoperability library.
 
 <br />
 
