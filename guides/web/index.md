@@ -13,7 +13,7 @@ well to a stateless, functional approach. Advantages to using F# for web program
 * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
 * *Reactive and Scalable* - F# asynchronous programming simplifies scalable, reactive web programming
 * *Interoperable* - F# interoperates seamlessly with languages such as C#, JavaScript and TypeScript
-* *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [Fable](https://github.com/fsprojects/Fable)
+* *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [Fable](http://fable.io/)
 * *Open-source* and *cross-platform*
 
 
@@ -50,17 +50,17 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 * [MonoDevelop templates](https://github.com/intellifactory/monodevelop.websharper)
 * [CloudSharper templates](http://cloudsharper.com/)
 
-#### [Fable](https://github.com/fsprojects/Fable)
+#### [Fable](http://fable.io/)
 
-[Fable](https://github.com/fsprojects/Fable) is an F# to JS compiler designed to generate clean
+[Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
 and standard code in order to maximize interoperability in both ways. It integrates with most
 of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
 or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you to develop
 [node.js](https://nodejs.org/en/) services, desktop apps with [Electron](http://electron.atom.io)
 and mobile apps with [React native](https://facebook.github.io/react-native/).
 
-* [Docs](https://github.com/fsprojects/Fable/tree/master/docs)
-* [Examples](https://github.com/fsprojects/Fable/tree/master/samples)
+* [Docs](http://fable.io/docs.html)
+* [Samples](http://fable.io/samples.html)
 
 #### [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
