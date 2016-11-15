@@ -94,6 +94,8 @@ Contributions welcome!
 
 *  [SemVer.FromAssembly](https://github.com/wallymathieu/SemVer.FromAssembly) - Helper tool to guess SemVer version based on public surface area differences.
 
+*  ![logo](/images/thumbs/CenterCLR.RelaxVersioner.png)&nbsp;[RelaxVersioner](https://github.com/kekyo/CenterCLR.RelaxVersioner) - Easy-usage, Git-based, auto-generate version informations toolset for .NET (Supported F#).
+
 <br />
 
 
