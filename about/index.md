@@ -63,4 +63,3 @@ the standard F# library.
  * [Web Programming with F#](/guides/web)
 
  * [Data Access with F#](/guides/data-access)
-

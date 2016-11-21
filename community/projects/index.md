@@ -62,6 +62,11 @@ Contributions welcome!
 
 * [IfSharp](http://bayardrock.github.io/IfSharp/) - IfSharp is an F# implementation for iPython. It works with iPython Notebook 1.x and 2.x
 
+*  ![logo](/images/thumbs/FSDN.png)&nbsp;[FSDN](http://fsdn.azurewebsites.net/) - FSDN is a web application that uses F# API Search library. F# API Search library supports the standard signature of F# with some extentions. This document describes the F# API Search library specific formats.
+
+   *  [FSDN GitHub project](https://github.com/fsdn-projects/FSDN)
+
+   *  [F# API Search library project](https://github.com/hafuu/FSharpApiSearch)
 
 <br />
 
