@@ -77,9 +77,7 @@ A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) incl
 
 <img src="/images/thumbs/FSDN.png" style="float:right;margin:5px 0px 5px 25px;" />
 
-You can search F# API at yourself to just Search F# APIs.
-[F# API Search library](https://github.com/hafuu/FSharpApiSearch) supports the standard signature of F# with some extentions.
-This document describes the F# API Search library specific formats.
+Site which allows interactive searches by an F# API. The [F# API Search library](https://github.com/hafuu/FSharpApiSearch) document describes the search formats, which support the standard signature of F# with some extentions.  
 Source code available on [GitHub FSDN](https://github.com/fsdn-projects/FSDN)
 
 <!---
