@@ -14,7 +14,7 @@ recommended that you:
 
 1. [Follow these instructions](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives). 
 
-2. Then install packages mono-complete and fsharp.
+2. Then install packages `mono-complete` and `fsharp`.
 
         sudo apt-get update
         sudo apt-get install mono-complete fsharp
@@ -69,40 +69,20 @@ go further.
 
 <br />
 
-### Option 4: F# for RHEL, CentOS, Amazon, Fedora w/ puppet/configuration management
+### Option 4: Get F# on CentOS (RHEL/Amazon/Fedora)
 
-To see an example of how to set up F# using [puppet configuration management](https://en.wikipedia.org/wiki/Puppet_(software)), see the example [here](https://github.com/haf/vagrant-eventstore#run), read the README and look inside the `run` file and the `Vagrantfile` file. It pulls down all required dependencies and starts vagrant to get you up and running EventStore (as a sample application).
+To use the latest stable version of the F# RHEL/CentOS/Amazon/Fedora package, it is highly
+recommended that you:
 
-With the `epel`, `eventstore`, `mono` and `supervisor` puppet module and a reference to [packagecloud/haf/oss](https://packagecloud.io/haf/oss) repository, you can install a full environment and running service in a couple of minutes:
+1. [Follow these instructions](http://www.mono-project.com/docs/getting-started/install/linux/#centos-7-fedora-19-and-later-and-derivatives). 
 
-    class baseline {
-      include ::epel
-      include ::packagecloud
-    
-      packagecloud::repo { 'haf/oss':
-        type => 'rpm',
-      }
-    }
-    
-    node default {
-      include ::baseline
-    
-      class { 'mono':
-        require => [
-          Class['epel'],
-          Packagecloud::Repo['haf/oss']
-        ],
-      }
-    
-      class { 'supervisor':
-        require => [
-          Class['epel'],
-          Packagecloud::Repo['haf/oss']
-        ],
-      }
-    
-      include ::eventstore
-    }
+2. Then install packages `mono-complete` and `fsharp`.
+
+        sudo yum update
+        sudo yum install mono-complete fsharp
+
+Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
+go further.
 
 <br />
 
@@ -110,7 +90,7 @@ With the `epel`, `eventstore`, `mono` and `supervisor` puppet module and a refer
 
 From portage tree:
 
-        emerge fsharp
+       emerge fsharp
 
 Alternatively there is an overlay available with current versions of various .NET programs, including F#, FAKE, NuGet and others.
 

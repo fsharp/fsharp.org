@@ -7,7 +7,6 @@ redirect_from:
     - "/training/"
     - "/about/learning/"
     - "/about/learning.html"
-
 ---
 
 To learn F# use one of the free online resources or books below.
