@@ -67,6 +67,8 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
  * [Using F# and C# with Elastic MapReduce](http://atbrox.com/2011/02/07/an-example-of-using-f-and-c-netmono-with-amazons-elastic-mapreduce-hadoop/)
 
  * [FSharp.AWS.DynamoDB](https://github.com/fsprojects/FSharp.AWS.DynamoDB#fsharpawsdynamodb) - an F# wrapper over the standard Amazon.DynamoDB library which allows you to represent table items using F# records and perform updates, queries and scans using F# quotation expressions
+ 
+ * [F# Template for AWS Lambda](https://github.com/lukemerrett/FSharp-Template-for-Aws-Lambda) - a .Net Core 1.0 project & guide for publishing to AWS Lambda.  Lambda doesn't officially support F#, however the recent support for .Net Core allows us to run compiled F# assemblies
 
 ### Containers
 
