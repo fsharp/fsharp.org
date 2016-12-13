@@ -256,13 +256,13 @@
                             Use F# <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="/use/mac/">Mac</a></li>
-                            <li><a href="/use/linux/">Linux</a></li>
-                            <li><a href="/use/windows/">Windows</a></li>
-                            <li><a href="/use/freebsd/">FreeBSD</a></li>
-                            <li><a href="/use/android/">Make Android Apps</a></li>
-                            <li><a href="/use/ios/">Make iOS Apps</a></li>
-                            <li><a href="/use/gpu/">Write GPU Code</a></li>
+                            <li><a href="/use/mac/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'mac'])">Mac</a></li>
+                            <li><a href="/use/linux/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'linux'])">Linux</a></li>
+                            <li><a href="/use/windows/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'windows'])">Windows</a></li>
+                            <li><a href="/use/freebsd/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'freebsd'])">FreeBSD</a></li>
+                            <li><a href="/use/android/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'android'])">Make Android Apps</a></li>
+                            <li><a href="/use/ios/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'ios'])">Make iOS Apps</a></li>
+                            <li><a href="/use/gpu/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'gpu'])">Write GPU Code</a></li>
                         </ul>
                     </div>
                     <div style="height: 10px;"></div>
@@ -407,19 +407,19 @@ MailboxProcessor.Start(fun inbox-> async {
                 <div class="col-md-6">
                     <h3><span class="glyphicon glyphicon-pencil"></span> Learn</h3>
                     <ul class="">
-                        <li>Learn F# online with <a href="http://www.tryfsharp.org/Learn" target="_blank">Try F#</a></li>
-                        <li>Read <a href="/about/learning.html">F# books and tutorials</a></li>
-                        <li>Read the <a href="/about/index.html#documentation">documentation</a></li>
-                        <li>Watch <a href="/videos/1">F# videos</a></li>
+                        <li>Learn F# online with <a href="http://www.tryfsharp.org/Learn" target="_blank" onclick="_gaq.push(['_trackEvent', 'home-learn', 'clicked', 'tryfsharp'])">Try F#</a></li>
+                        <li>Read <a href="/about/learning.html" onclick="_gaq.push(['_trackEvent', 'home-learn', 'clicked', 'books'])">F# books and tutorials</a></li>
+                        <li>Read the <a href="/about/index.html#documentation" onclick="_gaq.push(['_trackEvent', 'home-learn', 'clicked', 'documentation'])">documentation</a></li>
+                        <li>Watch <a href="/videos/1" onclick="_gaq.push(['_trackEvent', 'home-learn', 'clicked', 'videos'])">F# videos</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <h3><span class="glyphicon glyphicon-user"></span> Community</h3>
                     <ul>
-                        <li>Join <a href="http://foundation.fsharp.org/join">the F# Software Foundation</a></li>
-                        <li>Ask questions on <a href="http://stackoverflow.com/questions/tagged/f%23" target="_blank">StackOverflow</a></li>
-                        <li>Attend <a href="http://c4fsharp.net/events.html" target="_blank">F# events</a> and join <a href="http://c4fsharp.net/groups.html" target="_blank">F# meetups</a></li>
-                        <li>Contribute to <a href="/community/projects/">F# projects</a></li>
+                        <li>Join <a href="http://foundation.fsharp.org/join" onclick="_gaq.push(['_trackEvent', 'home-community', 'clicked', 'join'])">the F# Software Foundation</a></li>
+                        <li>Ask questions on <a href="http://stackoverflow.com/questions/tagged/f%23" target="_blank" onclick="_gaq.push(['_trackEvent', 'home-community', 'clicked', 'stackoverflow'])">StackOverflow</a></li>
+                        <li>Attend <a href="http://c4fsharp.net/events.html" target="_blank" onclick="_gaq.push(['_trackEvent', 'home-community', 'clicked', 'events'])">F# events</a> and join <a href="http://c4fsharp.net/groups.html" target="_blank" onclick="_gaq.push(['_trackEvent', 'home-community', 'clicked', 'meetups'])">F# meetups</a></li>
+                        <li>Contribute to <a href="/community/projects/" onclick="_gaq.push(['_trackEvent', 'home-community', 'clicked', 'contribute'])">F# projects</a></li>
                     </ul>
                 </div>
             </div>
@@ -479,7 +479,7 @@ MailboxProcessor.Start(fun inbox-> async {
                         </blockquote>
                     </div>
                 </div>
-                <a href="/testimonials/" class="pull-right">More testimonials &#65125;&#65125;</a>
+                <a href="/testimonials/" class="pull-right" onclick="_gaq.push(['_trackEvent', 'home-testimonials', 'clicked'])">More testimonials &#65125;&#65125;</a>
             </div>
         </div>
     </section>
