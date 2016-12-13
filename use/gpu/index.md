@@ -4,21 +4,30 @@ title: Use F# for GPU Programming | The F# Software Foundation
 headline: Use F# for GPU Programming
 ---
 
-GPU execution is a technique for high-performance financial, image processing and other 
+GPU execution is a technique for high-performance machine learning, financial, image processing and other 
 data-parallel numerical programming. The following options are available for executing F# on the GPU. 
 
 If you would like to list an 
 option here, please submit a pull request by [editing this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/use/gpu/index.md).
 
-### Option 1 - Use Alea GPU, for F#-enabled CUDA programming 
+### Option 1 - Use Alea GPU V3, for F#-enabled CUDA programming 
 
-![logo](/images/thumbs/quantalea-small.png)&nbsp; [Alea GPU](http://www.quantalea.com/static/app/tutorial/index.html) is a GPU programming toolchain supporting 
+![logo](/images/thumbs/quantalea-small.png)&nbsp; [Alea GPU](http://www.aleagpu.com) is a GPU programming toolchain supporting 
 
-* Debugging with Visual NSight
-* Profiling with NVProf 
-* GPU scripting for rapid prototyping
+* Free [community edition](http://www.aleagpu.com/license.html) for GeForce and Quadro GPUs with a [Creative Commons license](https://creativecommons.org/licenses/by/4.0/)
+* Simplified GPU programming with GPU parallel-for and parallel aggregate
+* Automatic memory management to move data to and from the GPU
+* GPU scripting for rapid prototyping in the interactive console
+* GPU JIT compilation 
+* Seamless integration of NVIDIA GPU libraries such as cuRand, cuBlas, cuDNN etc.
+* Debugging F# GPU code in Visual Studio with Visual NSight 
+* Profiling F# GPU code in Visual Studio with NVProf 
+* Large [gallery of samples](http://www.aleagpu.com/gallery.html) 
+* Also supporting C#
  
-It is a complete solution to develop CUDA accelerated GPU applications on .NET. and relies on F# and LLVM to generate highly optimized CUDA code performing at the same level as CUDA C/C++ or Fortran code. 
+Alea GPU is a complete solution to develop CUDA accelerated GPU applications on .NET. It is a full compiler based on F# and LLVM to generate highly optimized GPU code. [Alea GPU performs at the same level as CUDA C/C++ or Fortran code](http://blog.quantalea.com/?p=9871). 
+
+[Alea TK](http://www.aleatk.com) is a new open source machine learning library for .NET based on Alea GPU, which shows how to use Alea GPU in larger projects. 
 
 <br />
 
