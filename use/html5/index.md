@@ -22,7 +22,13 @@ or mobile with [React native](https://facebook.github.io/react-native/).
 
 <br />
 
-### Option 3: Use F# on the Server with JavaScript, CoffeeScript or TypeScript on the client
+### Option 3: Use FunScript
+
+[FunScript](http://funscript.info/) is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with intellisense, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. You can use any IDE and get autocomplete while using all F# langauge features.
+
+<br />
+
+### Option 4: Use F# on the Server with JavaScript, CoffeeScript or TypeScript on the client
 
 You can use F# on the server with JavaScript, CoffeeScript or TypeScript as the front end, in conjunction 
 with modern JS/HTML5 web frameworks. More details at [F# Web Programming](/guides/web/).
