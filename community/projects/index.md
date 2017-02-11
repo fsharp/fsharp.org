@@ -335,7 +335,7 @@ Contributions welcome!
 <br />
 
 *  [Stellar](https://github.com/panesofglass/stellar) - Typed access to the Windows Azure Management REST APIs.
-
+ 
 
 <br />
 
@@ -352,7 +352,7 @@ Contributions welcome!
 <br />
 
 <h2 class="anchor" id="distribution" class="anchor">Community Projects: Distribution Tools</h2>
-
+ 
 *  [f0](https://github.com/joshcough/f0) - A binary [de]serialization combinator library, with binary-format
    phantom types and a compatible Scala partner implementation.
 
@@ -386,7 +386,7 @@ Contributions welcome!
 
 *  [Azure Storage Type Provider](http://fsprojects.github.io/AzureStorageTypeProvider/) - A type provider for Azure Storage assets e.g. Blobs and Tables.
 
-
+*  [FlowSharp](https://github.com/glenbraun/FlowSharp) F# computation expression builder for AWS Simple Workflow deciders.
 
 <br />
 
