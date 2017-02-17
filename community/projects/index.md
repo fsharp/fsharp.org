@@ -386,7 +386,7 @@ Contributions welcome!
 
 *  [Azure Storage Type Provider](http://fsprojects.github.io/AzureStorageTypeProvider/) - A type provider for Azure Storage assets e.g. Blobs and Tables.
 
-*  [FlowSharp](https://github.com/glenbraun/FlowSharp) F# computation expression builder for AWS Simple Workflow deciders.
+*  [FsDecider](https://github.com/glenbraun/FsDecider) F# computation expression builder for AWS Simple Workflow deciders.
 
 <br />
 
