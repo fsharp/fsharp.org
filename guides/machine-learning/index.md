@@ -34,6 +34,7 @@ Related material also exists in other Guides.  For detailed information, refer t
 
 Introductions to different machine learning algorithms with F#:
 
+ * [FSML - A machine learning project in F#](https://github.com/rnorm/FSML)
  * [Gaussian process regression in F#](http://evelinag.com/blog/2014/09-15-introducing-ariadne/index.html)
  * [K-Means clustering in F#](http://clear-lines.com/blog/post/K-Means-Clustering-in-FSharp.aspx)
  * [Simplify data with SVD and Math.NET in F#](http://clear-lines.com/blog/post/Simplify-data-with-SVD-and-MathNET-in-FSharp.aspx)
