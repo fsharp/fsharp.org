@@ -211,7 +211,7 @@ scientists. It also serves as an
 ideal supplemental text for advanced undergraduate and graduate students with a background in science or engineering.
 
 
-### [F# for Quantitative Finance](https://books.google.com/books?isbn=1782164634)
+### [F# for Quantitative Finance](https://www.packtpub.com/big-data-and-business-intelligence/f-quantitative-finance)
 
 <img src="/about/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -222,6 +222,18 @@ programming for quantitative finance. Using a functional programming language
 will enable you to concentrate more on the problem itself rather than
 implementation details. Tutorials and snippets are summarized into an automated
 trading system throughout the book.
+
+In this book you will:
+
+- Use Visual Studio as your main tool for writing F#
+- Utilize F# to aggregate data and calculate statistics
+- Plot and visualize data in F#
+- Learn about volatility, delta hedging, and volatility arbitrage
+- Understand basic numerical analysis and algorithm implementation
+- Model orders and market data together with basic pre-trade risk
+- Structure and write object-oriented code
+- Develop larger programs using F#
+- Explore automated trading systems and quantitative trading models
 
 ### [The Book of F#](https://books.google.com/books?isbn=1593275528)
 
@@ -316,6 +328,23 @@ Learn F# is a practical guide for experienced C# and .NET developers that teache
 
 By the end of the book, you’ll be able to use F# in your day-to-day development, and know how and where to deepen your knowledge.
 
+### [F# for Machine Learning Essentials](https://www.packtpub.com/big-data-and-business-intelligence/f-machine-learning)
+
+<img src="/about/files/BookFSMLE.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Sudipta Mukherjee_
+
+This book is a fast-paced tutorial guide that uses hands-on examples to explain real-world applications of machine learning. 
+
+In this book you will:
+
+- Use F# to find patterns through raw data
+- Build a set of classification systems using Accord.NET, Weka, and F#
+- Run machine learning jobs on the Cloud with MBrace
+- Perform mathematical operations on matrices and vectors using Math.NET
+- Use a recommender system for your own problem domain
+- Identify tourist spots across the globe using inputs from the user with decision tree algorithms
+
 ### [F# 4.0 Design Patterns](https://www.packtpub.com/application-development/f-40-design-patterns)
 
 <img src="/about/files/BookFS4DP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
@@ -334,6 +363,41 @@ In this book you will:
 - Recognize and measure the difference in resource consumption between sequences and materialized data collections
 - Navigate and use F# Core libraries with ease by seeing patterns behind specific library functions
 - Master writing generic polymorphic code
+
+### [Mastering F#](https://www.packtpub.com/application-development/mastering-f)
+
+<img src="/about/files/BookMFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Alfonso García-Caro Núñez & Suhaib Fahad_
+
+This easy-to-follow guide with syntaxes will help you master the concepts of F#. Packed with in-depth examples of real-world uses, this book covers each topic in detail with a reference to C#, so you will understand the difference between the languages.
+
+In this book you will:
+
+- Understand the basics of F# and organize F# source code with Visual Studio
+- Work with F# data structures and create functional data structures in F# interoperate with C#
+- Build and use asynchronous programming patterns with F#
+- Create and use type providers that help perform data analysis from within Visual Studio
+- Develop applications with pure F# code in WPF or ASP.NET MVC
+- Find out how to perform distributed programming with ServiceBus or ZeroMQ
+- Visualize data with charts, and work with Excel and R language Type providers
+
+### [F# High Performance](https://www.packtpub.com/application-development/f-high-performance)
+
+<img src="/about/files/BookFSHP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Eriawan Kusumawardhono_
+
+This easy-to-follow guide is full of hands-on examples of real-world multithreading tasks. Each topic is explained and placed in context, and for the more inquisitive, there are also more in-depth details of the concepts used.
+
+In this book you will:
+
+- Understand how the execution of functions in F# works
+- Identify common performance bottlenecks
+- Implement best practices to optimize performance
+- Use the available tooling to help measure performance
+- Combine the best practice of asynchronous and synchronous
+- Optimize further using various F# language constructs
 
 ## F# Books (Coming Soon)
 
