@@ -79,27 +79,6 @@ A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) incl
 Site which allows interactive searches by an F# API. The [F# API Search library](https://github.com/hafuu/FSharpApiSearch) document describes the search formats, which support the standard signature of F# with some extentions.  
 Source code available on [GitHub FSDN](https://github.com/fsdn-projects/FSDN)
 
-<!---
-### [Try F#](http://www.tryfsharp.org)
-
-<img src="/about/files/tryfsharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
-
-Try F# is an interactive environment where you can
-explore F# in your web browser (on Mac and Windows). It contains a number
-of online tutorials demonstrating the power of F#:
-
-The site requires Silverlight for in-browser execution end editing and these options may not be
-available on all browsers.
-
- * [Getting started in F#](http://www.tryfsharp.org/Learn/getting-started)
- * [Advanced F# Programming](http://www.tryfsharp.org/Learn/advanced-programming)
- * [Data Visualization and Charting](http://www.tryfsharp.org/Learn/data-visualization)
- * [Data Science](http://www.tryfsharp.org/Learn/data-science)
- * [Scientific and Numerical Computing](http://www.tryfsharp.org/Learn/scientific-computing)
- * [Financial Computing](http://www.tryfsharp.org/Learn/financial-computing)
-
---->
-
 <h2 id="courses" class="anchor">F# Courses - General</h2>
 
 ### [Introduction to F#](https://fsharp.tv/courses/fsharp-programming-intro/)

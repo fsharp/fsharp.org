@@ -33,8 +33,6 @@ Data science also requires strong support for many technologies covered in other
 * [Cloud Programming](/guides/cloud/)
 
 
-[Try F#](http://www.tryfsharp.org/Learn/data-science) contains information and tutorials for learning data science in F#.  
-
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>This guide includes resources related to data science programming and scripting with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-science/index.md">edit this page</a> and send a pull request.</p>
     <hr />
