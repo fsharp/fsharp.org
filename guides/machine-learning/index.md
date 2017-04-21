@@ -9,10 +9,7 @@ F# is well-suited to machine learning because of its efficient execution, succin
 data access capabilities and scalability. F# has been successfully used by some of the most advanced 
 machine learning teams in the world, including several groups at Microsoft Research.
 
-[Try F#](http://tryfsharp.org/learn) has some introductory machine learning algorithms.
-Further resources related to different aspects of machine learning are below.
-
-Related material also exists in other Guides.  For detailed information, refer to the guides for:
+Other guides contain some material related to machine learning:
 
 * [Math and Statistics](guides/math-and-statistics/)
 * [Data Science](/guides/data-science/)
