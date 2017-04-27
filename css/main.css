@@ -338,18 +338,6 @@ pre {
     margin-bottom: 40px;
 }
 
-#news-list {
-    width: 75%;
-}
-
-    #news-list > li {
-        background-color: #eef1f5;
-    }
-
-#news-rss > img {
-    vertical-align: baseline;
-}
-
 .list-group-item {
     border: none;
     padding: 5px 0;
