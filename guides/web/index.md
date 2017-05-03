@@ -40,16 +40,6 @@ To contribute to tooling for F# web programming, please join the
 
 Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
-#### [WebSharper](http://websharper.com/) 
-
-WebSharper allows end-to-end web applications with both client and server developed in F#. 
-It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
-
-* [Examples](http://websharper.com/samples)
-* [Visual Studio templates](http://websharper.com/WebSharper.vsix)
-* [MonoDevelop templates](https://github.com/intellifactory/monodevelop.websharper)
-* [CloudSharper templates](http://cloudsharper.com/)
-
 #### [Fable](http://fable.io/)
 
 [Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
@@ -61,6 +51,23 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 
 * [Docs](http://fable.io/docs.html)
 * [Samples](http://fable.io/samples.html)
+
+#### [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/)
+
+ASP.NET Core is a new open-source and cross-platform framework for building modern cloud based internet connected applications, such as web apps, IoT apps and mobile backends. ASP.NET Core apps can run on .NET Core or on the full .NET Framework.
+
+* [F#, ASP.NET Core and Docker](https://github.com/jakkaj/aspnetcore_fsharp_docker)
+
+
+#### [WebSharper](http://websharper.com/) 
+
+WebSharper allows end-to-end web applications with both client and server developed in F#. 
+It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
+
+* [Examples](http://websharper.com/samples)
+* [Visual Studio templates](http://websharper.com/WebSharper.vsix)
+* [MonoDevelop templates](https://github.com/intellifactory/monodevelop.websharper)
+* [CloudSharper templates](http://cloudsharper.com/)
 
 #### [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
 
@@ -87,6 +94,9 @@ Do it the simple way, and serve web requests direct from code using F# asynchron
 
 Suave can be used for microservices in addition to serving web content.
 
+#### [Serving Requests with Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-fsharp)
+
+Azure Functions can host and execute F# handlers as micro-services in a serverless architecture,
 
 #### [Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html)
 
