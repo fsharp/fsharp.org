@@ -1492,7 +1492,7 @@ And to top it all up, working in F# is very enjoyable - the terseness and the ex
 
 <div class="keywords">identity and access, idaaaas, kyc, azure, nemid, bankid, lean startup</div>
 
-<a id="grean" class="testimonial-anchor"> &nbsp; </a>
+<a id="compositional-it" class="testimonial-anchor"> &nbsp; </a>
 ---
 
 > On a release of a complex rules engine and data transformation system to one of our customers, we were delighted to hear that across 90+ markets, not one of them found any issues with any of the calculations in the datasets. F# just works.
