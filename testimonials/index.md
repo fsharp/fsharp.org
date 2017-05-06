@@ -1491,3 +1491,15 @@ The type system really makes all the difference when dealing with a complex doma
 And to top it all up, working in F# is very enjoyable - the terseness and the expressiveness of the language provide a more distraction-free experience than other languages we have worked with. As an aside, we'll note that we have been quite surprised by how addictive compile-time errors can be. Even if they are annoying at the outset, once one realizes how they can be used as a very effective substitute for quite a lot of boilerplate unit tests, they really end up being a very important (and constructive) part of a daily workflow.
 
 <div class="keywords">identity and access, idaaaas, kyc, azure, nemid, bankid, lean startup</div>
+
+<a id="grean" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> On a release of a complex rules engine and data transformation system to one of our customers, we were delighted to hear that across 90+ markets, not one of them found any issues with any of the calculations in the datasets. F# just works.
+
+1. **Isaac Abraham, Compositional IT**
+2. [Compositional IT](http://compositional-it.com/)
+
+As a consultancy geared towards delivering solutions to customers in a variety of sectors, we rely on F# for all of our solutions, whether it's a rules engine, a distributed and scalable data transformation system on Azure or a customer-facing web application. I love the fact that we have confidence in our deliverables thanks in no small part to the pit of success that F# leads us down; we very, very rarely encounted bugs that we saw time and again with other languages and frameworks. At the same time, we're able to consistently deliver to our customers much more quickly than we might have done otherwise - a key value proposition for many of our customers  who often need a short time to market.
+
+<div class="keywords">azure, consultancy, functional programming, time to market, startup</div>
