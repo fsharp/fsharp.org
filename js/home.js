@@ -31,7 +31,8 @@ function feedLoaded(result) {
 }
 
 function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
+    var currentIndex = array.length,
+        temporaryValue, randomIndex;
 
     while (0 !== currentIndex) {
 
@@ -49,18 +50,18 @@ function shuffle(array) {
 function shuffleSupporters() {
     var carouselLink = $(".carousel-img");
     var shuffled = shuffle(carouselLink.toArray());
-    var srcs = $.map(shuffled, function (x) {
+    var srcs = $.map(shuffled, function(x) {
         return x.getAttribute("src");
     });
-    carouselLink.each(function (index, x) {
+    carouselLink.each(function(index, x) {
         x.setAttribute("src", srcs[index]);
     });
 }
 
 function shuffleTestimonials() {
-    $.getJSON("testimonials.json", function (data) {
+    $.getJSON("testimonials.json", function(data) {
         var arr = shuffle(data).slice(0, 6);
-        var testimonials = $.map(arr, function (x) {
+        var testimonials = $.map(arr, function(x) {
             var b = document.createElement("blockquote");
             var p = document.createElement("p");
             var link = document.createElement("a");
@@ -84,20 +85,20 @@ function shuffleTestimonials() {
         var col2 = $("#testimonials-col-2");
         col1.empty();
         col2.empty();
-        $.each(testimonials.slice(0, 3), function (i, x) {
+        $.each(testimonials.slice(0, 3), function(i, x) {
             col1.append(x);
         });
-        $.each(testimonials.slice(3), function (i, x) {
+        $.each(testimonials.slice(3), function(i, x) {
             col2.append(x);
         });
     });
 }
 
-$(function () {
+$(function() {
     $.ajax({
-        url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=http%3A%2F%2Ffpish.net%2Frss%2Fblogs%2Ftag%2F1%2Ff~23',
+        url: 'https://api.rss2json.com/v1/api.json?rss_url=http://fpish.net/rss/blogs/tag/1/f~23',
         dataType: 'json',
-        success: function (data) {
+        success: function(data) {
             feedLoaded(data.responseData.feed);
         }
     });
