@@ -1,9 +1,9 @@
 function feedLoaded(result) {
-    if (!result.error) {
+    if (result.status === "ok") {
         var newsContent = document.getElementById("news-list");
 
         var count = 1;
-        var entries = result.entries;
+        var entries = result.items;
         for (var i = 0; i < entries.length; i++) {
             var entry = entries[i];
             try {
@@ -17,7 +17,7 @@ function feedLoaded(result) {
                 a.href = entry.link;
                 a.target = "_blank"
                 h4.appendChild(a);
-                p.appendChild(document.createTextNode(entry.contentSnippet.trim()));
+                p.appendChild(document.createTextNode(entry.content.trim()));
                 li.appendChild(h4);
                 li.appendChild(p);
                 newsContent.appendChild(li);
@@ -99,7 +99,7 @@ $(function() {
         url: 'https://api.rss2json.com/v1/api.json?rss_url=http://fpish.net/rss/blogs/tag/1/f~23',
         dataType: 'json',
         success: function(data) {
-            feedLoaded(data.responseData.feed);
+            feedLoaded(data);
         }
     });
 

@@ -8,7 +8,7 @@
 #r "FSharp.Compiler.Service.dll"
 #r "FSharp.Literate.dll"
 #r "FSharp.CodeFormat.dll"
-#load "paket-files/www.fssnip.net/raw/pj/HttpServer.fs"
+#load "paket-files/www.fssnip.net/HttpServer.fs"
 open System
 open System.IO
 open System.Collections.Generic
