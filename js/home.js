@@ -17,7 +17,7 @@ function feedLoaded(result) {
                 a.href = entry.link;
                 a.target = "_blank"
                 h4.appendChild(a);
-                p.appendChild(document.createTextNode(entry.content.trim()));
+                // p.appendChild(document.createTextNode(entry.content.trim()));
                 li.appendChild(h4);
                 li.appendChild(p);
                 newsContent.appendChild(li);
