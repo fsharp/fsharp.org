@@ -9,6 +9,8 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
 
+* [Visual Studio 2017](https://www.visualstudio.com/downloads/) comes with F# support in all its editions: Community, Professional and Enterprise. The installer includes it with some of the selectable workloads, or you can select it manually in the "Individual components" tab: under the "Development activities" category, check "F# language support".
+
 * If you already have Visual Studio 2012/13/15 Professional or above, you can use that. All recent versions of Visual Studio come with the Visual F# Tools. The Visual F# Tools are installed automatically when you first create or open an F# project. You can also install the support [directly as a separate download](https://www.microsoft.com/en-us/download/details.aspx?id=48179).
 
 * Otherwise, install the free [Visual Studio 2015 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx).
@@ -29,6 +31,8 @@ for use with Visual Studio 2013 and 2015. They include [source code formatting](
 [record stub generation](http://fsprojects.github.io/VisualFSharpPowerTools/recordstubgeneration.html),
 [union pattern match case generation](http://fsprojects.github.io/VisualFSharpPowerTools/unionpatternmatchcasegeneration.html) and the
 [navigate-to command](http://fsprojects.github.io/VisualFSharpPowerTools/navigateto.html).
+
+Visual Studio 2017 doesn't need the Power Tools, because it includes most of their functionality out of the box.
 
 <br />
 
