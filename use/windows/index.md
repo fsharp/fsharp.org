@@ -64,7 +64,7 @@ following requirements and installation steps:
    
    - On Windows 7 and Windows 2008 Server, [install .NET 4.5](https://www.microsoft.com/en-US/download/details.aspx?id=30653) from Microsoft
 
-2. Requires the Windows SDK:
+2. Requires the Windows SDK: *(Optional to build native Windows Apps)*
 
    - On Windows 10 use the [Windows 10 and .NET 4.6 SDK](https://dev.windows.com/en-US/downloads/windows-10-sdk) from Microsoft
 
@@ -74,7 +74,7 @@ following requirements and installation steps:
    
    - On Windows 7 or Windows 2008 Server use the [Windows 7 and .NET 4.0 SDK](http://www.microsoft.com/download/details.aspx?id=8279) from Microsoft
  
-3. Requires Microsoft Build Tools 2015 - [Install Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)  
+3. [Install Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)  
 
 4. [Install the free Visual F# Tools 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=48179) from Microsoft
 
