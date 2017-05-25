@@ -31,19 +31,7 @@ Alea GPU is a complete solution to develop CUDA accelerated GPU applications on 
 
 <br />
 
-### Option 2 - Use FSCL, an open-source F#-to-OpenCL compiler
-
-* See [the FSCL project blog](https://github.com/FSCL/FSCL.Compiler). FSCL Compiler is a source-to-source compiler that translates quoted F# function calls and other contructs into valid C99 OpenCL kernel sources, enabling programming OpenCL-enabled parallel devices from within F#. Contributions welcome!
-
-<br />
-
-### Option 3 - Use GpuLINQ, an open source F#/C# LINQ-to-OpenCL compiler
-
-* See [the GpuLINQ project](https://github.com/nessos/GpuLinq/)
-
-<br />
-
-### Option 4 - Use Brahma.FSharp, an open source F# tool for OpenCL programming
+### Option 2 - Use Brahma.FSharp, an open source F# tool for OpenCL programming
 
 [Brahma.FSharp](http://yaccconstructor.github.io/Brahma.FSharp/) is a library for F# quotations to OpenCL translation.
 
@@ -53,6 +41,18 @@ Features of [Brahma.FSharp](http://yaccconstructor.github.io/Brahma.FSharp/):
  * Usage of OpenCL for communication with GPU allows you to work not only with NVIDIA hardware but with any device, which supports OpenCL (e.g. with AMD devices).
  * Support tuples and structures.
  * Ability to reuse existing OpenCl kernels by loading strongly typed signatures.
+
+<br />
+
+### Option 3 - Use FSCL, an open-source F#-to-OpenCL compiler
+
+* See [the FSCL project blog](https://github.com/FSCL/FSCL.Compiler). FSCL Compiler is a source-to-source compiler that translates quoted F# function calls and other contructs into valid C99 OpenCL kernel sources, enabling programming OpenCL-enabled parallel devices from within F#. Contributions welcome!
+
+<br />
+
+### Option 4 - Use GpuLINQ, an open source F#/C# LINQ-to-OpenCL compiler
+
+* See [the GpuLINQ project](https://github.com/nessos/GpuLinq/)
 
 <br />
 
