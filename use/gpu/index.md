@@ -45,7 +45,14 @@ Alea GPU is a complete solution to develop CUDA accelerated GPU applications on 
 
 ### Option 4 - Use Brahma.FSharp, an open source F# tool for OpenCL programming
 
-* See [the Brahma.FSharp project](http://yaccconstructor.github.io/Brahma.FSharp/)
+[Brahma.FSharp](http://yaccconstructor.github.io/Brahma.FSharp/) is a library for F# quotations to OpenCL translation.
+
+Features of [Brahma.FSharp](http://yaccconstructor.github.io/Brahma.FSharp/):
+
+ * Basic aim is to translate native F# code to OpenCL with minimization of different wrappers and custom types.
+ * Usage of OpenCL for communication with GPU allows you to work not only with NVIDIA hardware but with any device, which supports OpenCL (e.g. with AMD devices).
+ * Support tuples and structures.
+ * Ability to reuse existing OpenCl kernels by loading strongly typed signatures.
 
 <br />
 
