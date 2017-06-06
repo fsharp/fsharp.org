@@ -58,7 +58,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/FsReveal.png)&nbsp;[FsReveal](http://fsprojects.github.io/FsReveal/) - FsReveal parses markdown and F# script file and generates reveal.js slides.
 
-*  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
+*  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://fsprojects.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
 * [IfSharp](http://bayardrock.github.io/IfSharp/) - IfSharp is an F# implementation for iPython. It works with iPython Notebook 1.x and 2.x
 
