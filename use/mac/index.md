@@ -32,7 +32,17 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
 
 <br />
 
-### Option 3: Install F# alone
+### Option 3: Install JetBrains Rider
+
+![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+
+1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Mac.
+2. Install the [latest version of Mono](http://www.mono-project.com/download/#download-mac).
+3. Ensure Mono `/bin` folder is added to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
+
+<br />
+
+### Option 4: Install F# alone
 
 To use the F# command-line compiler and tools on Mac OSX:
 
@@ -44,7 +54,7 @@ go further. For 64-bit support, see below.
 
 <br />
 
-### Option 4: Install F# via Homebrew (64-bit)
+### Option 5: Install F# via Homebrew (64-bit)
 
 F# is installed as part of the Mono homebrew formula:
 
@@ -54,7 +64,7 @@ You can configure Xamarin Studio to use this 64-bit installation: Preferences > 
 
 <br />
 
-### Option 5: Install F# (64-bit) from source
+### Option 6: Install F# (64-bit) from source
 
 To use the F# command-line compiler and tools on Mac OSX in 64-bit mode:
 

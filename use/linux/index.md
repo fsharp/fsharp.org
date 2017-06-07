@@ -42,7 +42,22 @@ You will also need to install the F# packages from Step 1.
 
 <br />
 
-### Option 3: Build and install the F# runtime, compiler and tools
+### Option 3: Install JetBrains Rider
+
+![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+
+1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Linux.
+2. [Follow these instructions](http://www.mono-project.com/download/#download-lin-ubuntu). 
+3. Then install packages `mono-complete`, `msbuild` and `fsharp`.
+
+        sudo apt-get update
+        sudo apt-get install mono-complete msbuild fsharp
+		
+4. (optional) Install latest `dotnet-dev-x.y.z` [.NET Core packages](https://www.microsoft.com/net/core#linuxubuntu)
+
+<br />
+
+### Option 4: Build and install the F# runtime, compiler and tools
 
 
 1. Get Mono, the cross-platform, open source .NET runtime implementation used by F#. Preferably use a package from your distribution or Xamarin. If this is not possible, [install from source by following these instructions](https://github.com/mono/mono).
@@ -69,7 +84,7 @@ go further.
 
 <br />
 
-### Option 4: Get F# on CentOS (RHEL/Amazon/Fedora)
+### Option 5: Get F# on CentOS (RHEL/Amazon/Fedora)
 
 To use the latest stable version of the F# RHEL/CentOS/Amazon/Fedora package, it is highly
 recommended that you:
@@ -86,7 +101,7 @@ go further.
 
 <br />
 
-### Option 5: Get F# on Gentoo (Sabayon/Funtoo/Calculate)
+### Option 6: Get F# on Gentoo (Sabayon/Funtoo/Calculate)
 
 From portage tree:
 
@@ -111,14 +126,14 @@ go further.
 
 <br />
 
-### Option 6: Use a Vagrant VM on Windows
+### Option 7: Use a Vagrant VM on Windows
 
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 
 <br />
 
-### Option 7: Slackware Slackbuild
+### Option 8: Slackware Slackbuild
 
 1. Get Mono Slackbuild from this page [http://slackbuilds.org/repository/14.1/development/mono/](http://slackbuilds.org/repository/14.1/development/mono/) and run :
 
@@ -130,7 +145,7 @@ To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.
    
 <br />
 
-### Option 8: Using Nix on any Linux distribution or Mac OS X
+### Option 9: Using Nix on any Linux distribution or Mac OS X
 
 1. Install Nix if you don't already have it:
 
