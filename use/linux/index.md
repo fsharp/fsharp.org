@@ -12,7 +12,7 @@ To help with Linux packages, please join the [F# Core Engineering Group](http://
 To use the latest stable version of the F# Debian/Ubuntu package, it is highly
 recommended that you:
 
-1. [Follow these instructions](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives). 
+1. [Follow these instructions](http://www.mono-project.com/download/#download-lin). 
 
 2. Then install packages `mono-complete` and `fsharp`.
 
