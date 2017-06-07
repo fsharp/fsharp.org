@@ -47,11 +47,22 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
 
         ext install Ionide-fsharp
 
-You will also need to install the free F# compiler and command line tools in Step 3.
+You will also need to install the free F# compiler and command line tools in Step 4.
 
 <br />
 
-### Option 3: Install the free F# compiler and tools alone
+### Option 3: Install JetBrains Rider
+
+![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+
+1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Windows.
+2. (optional) Install latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd)
+
+You will also need to install the free F# compiler and command line tools in Step 4.
+
+<br />
+
+### Option 4: Install the free F# compiler and tools alone
 
 If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then use the 
 following requirements and installation steps:
@@ -102,13 +113,13 @@ If you're looking for Visual F# Tools 3.0 specifically, its standalone version c
 <br />
 
 
-### Option 4: Run already compiled F# code on servers
+### Option 5: Run already compiled F# code on servers
 
 Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundled with your application. The recommended procedure is to bundle this component with your final application. The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC.
 
 <br />
 
-### Option 5: Build F# from source
+### Option 6: Build F# from source
 
 Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
 

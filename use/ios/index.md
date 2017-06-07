@@ -17,8 +17,20 @@ headline: Use F# for iOS App Development
 You can now create a new F# iOS app, e.g. an "iPad Single View Application".  See the 
 [Mobile Apps and Games](/apps-and-games) section for more information on getting going with F# iOS development. 
 
+### Option 2: Build F# iOS Apps using JetBrains Rider
 
-### Option 2: Build HTML5 iOS apps
+![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+
+1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/).
+2. Get the [Visual F# tools for Windows](/use/windows) or [F# Tools for Mac](/use/mac). 
+3. Get [Xamarin iOS](https://www.xamarin.com/platform#ios) and the Xamarin iOS SDK.
+4. Install the [latest version of Mono](http://www.mono-project.com/download/) for your OS.
+
+To run/debug applications, the MacOS Remote Agent is required.
+
+<br />
+
+### Option 3: Build HTML5 iOS apps
 
 *  [Using F# for HTML5 Web Applications](/use/html5)
 
