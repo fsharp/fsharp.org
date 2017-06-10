@@ -64,8 +64,15 @@ You will also need to install the free F# compiler and command line tools in Ste
 
 ### Option 4: Install the free F# compiler and tools alone
 
-If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then use the 
-following requirements and installation steps:
+If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then you have two primary options.
+
+#### Option A: Visual Studio 2017 Build Tools SKU
+
+The [Visual Studio 2017 Build Tools SKU](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017), despite the name, actually does not install Visual Studio.  It installs MSBuild and various other build tools and compiler toolchains.
+
+Starting with Visual Studio 2017 Update 3, F# is an optional component.  Simply select F# from the Individual Components tab and press **Install**.
+
+### Option B: Standalone installations
 
 1. Requires .NET 4.5:
 
@@ -85,30 +92,35 @@ following requirements and installation steps:
    
    - On Windows 7 or Windows 2008 Server use the [Windows 7 and .NET 4.0 SDK](http://www.microsoft.com/download/details.aspx?id=8279) from Microsoft
  
-3. Requires Microsoft Build Tools 2015 - [Install Microsoft Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)  
+3. Requires Microsoft Build Tools 2017 if you don't have it on the box already - [Install Microsoft Build Tools 2017 through the Build Tools SKU of VS 2017](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017)
 
-4. [Install the free Visual F# Tools 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=48179) from Microsoft
+    (Note: Although this download says Visual Studio 2017, the Build Tools SKU does not install Visual Studio.  Only MSBuild and other tools required for build servers.)
+
+4. [Install the free F# 4.1 Compiler SDK](http://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi) from Microsoft
 
    Alternatively, do a quiet install from a PowerShell administrator prompt (the URL is the redirect of the above). 
 
         $webclient = New-Object Net.WebClient
-        $url = 'http://download.microsoft.com/download/9/1/2/9122D406-F1E3-4880-A66D-D6C65E8B1545/FSharp_Bundle.exe'
+        $url = 'http://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi'
         $webclient.DownloadFile($url, "$pwd\FSharp_Bundle.exe")
         .\FSharp_Bundle.exe /install /quiet
 
 The compiler tools on 64-bit Windows are installed at
 
-    C:\Program Files (x86)\Microsoft SDKs\F#\4.0\Framework\v4.0\fsc.exe
-    C:\Program Files (x86)\Microsoft SDKs\F#\4.0\Framework\v4.0\fsi.exe
-    C:\Program Files (x86)\Microsoft SDKs\F#\4.0\Framework\v4.0\fsiAnyCpu.exe
+    C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\fsc.exe
+    C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\fsi.exe
+    C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\fsiAnyCpu.exe
     
 The compiler tools on 32-bit Windows are installed at
 
-    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.0\fsc.exe
-    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.0\fsi.exe
-    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.0\fsiAnyCpu.exe
+    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.1\fsc.exe
+    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.1\fsi.exe
+    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.1\fsiAnyCpu.exe
 
-If you're looking for Visual F# Tools 3.0 specifically, its standalone version could be downloaded [here](http://go.microsoft.com/fwlink/?LinkId=261286). 
+Previous versions:
+
+* [Visual F# Tools 4.0](http://go.microsoft.com/fwlink/?LinkId=261286)
+* [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkId=261286)
     
 <br />
 
