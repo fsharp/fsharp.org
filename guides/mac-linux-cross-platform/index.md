@@ -127,7 +127,7 @@ create and maintain them, or command line tools such as ``Forge`` (see below).
 
 #### Forge
 
-[Forge](https://github.com/fsprojects/forge) is a self contained tool for
+[Forge](https://github.com/fsharp-editing/Forge) is a self contained tool for
 generating and managing projects. It allows the generation of new projects based
 on an expanding list of templates. It also encapsulates the best practices for those
 projects in terms of tooling and layout. The generated projects contain .fsproj files, 
