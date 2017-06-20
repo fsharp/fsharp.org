@@ -116,7 +116,7 @@ Both NPOI and EPPLus manipulate the Open Office XML format directly so they do n
 #### Interoperating with Excel through type providers
 {:  .anchor }
 
-[F# Excel Type Provider](http://fsprojects.github.io/ExcelProvider/) is an prototypical F# type providerfor Excel that allows you  to read Excel files using typed data provided by the type provider. 
+The [F# Excel Type Provider](http://fsprojects.github.io/ExcelProvider/) is a prototypical F# type providerfor Excel that allows you  to read Excel files using typed data provided by the type provider. 
 
 <br /> <br />
 #### Interoperating with Excel through API's
