@@ -16,12 +16,9 @@ well to a stateless, functional approach. Advantages to using F# for web program
 * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [Fable](http://fable.io/)
 * *Open-source* and *cross-platform*
 
+The [Cloud Programming](/guides/cloud/) guide contains more details on scalable cloud-hosted web programming with F#.
 
-The [Cloud Programming](/guides/cloud/) section contains more details on scalable cloud-hosted web programming with F#.
-To contribute to tooling for F# web programming, please join the 
-[F# Web Stack Google Group](https://groups.google.com/forum/#!forum/web-stack-fs). 
-
-To contribute to this guide, [edit this page on GitHub](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md). The resources listed below are provided for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any specific commercial products, processes, or services</p>
+> To contribute to this guide, [edit this page on GitHub](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md). The resources listed below are provided for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any specific commercial products, processes, or services.
 
 * auto-gen TOC:
 {:toc}
