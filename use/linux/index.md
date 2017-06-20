@@ -8,7 +8,7 @@ headline: Use F# on Linux
 ## Option 1: Install from your Linux distribution's package manager
 
 When being used as .NET language, F# requires a .NET runtime. On Linux this runtime is Mono or .NET Core.
-Most Linux distributions include a version of Mono in their repositories. Unfortunately, these versions
+Most Linux distributions include a version of Mono in their repositories. However, these versions
 are typically pretty old. Therefore, it is *highly recommended* that you add the official Mono package
 repository to your package manager, as described below. This makes it easy to get updates or uninstall, if 
 required.
