@@ -161,7 +161,7 @@ Explore (and contribute to) the collection of .NET applications and libraries in
 <br />
 
 ## Highly recommended: Install a smart editor
-{: #smart-editor}
+{: #smart-editor .anchor }
 
 Like other strongly typed languages, F# can benefit tremendously from an editor that has support
 for the language. This makes smart auto-completion and compiling while you edit possible, which 
