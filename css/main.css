@@ -11,12 +11,6 @@ body {
     padding-bottom: 20px;
 }
 
-/* This use of padding and margin works around a problem with the navbar sitting over anchors when they are clicked */
-.anchor {
-    padding-top: 70px;
-    margin-top: -70px;
-}
-
 .push {
     height: 60px;
 }
@@ -38,6 +32,8 @@ h5 {
     font-family: 'Rajdhani', sans-serif;
     font-weight: 600;
 }
+
+/* These uses of padding and margin works around a problem with the navbar sitting over anchors when they are clicked */
 
 h1 {
     padding-top: 100px;
