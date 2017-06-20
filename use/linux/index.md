@@ -13,17 +13,18 @@ are typically pretty old. Therefore, it is *highly recommended* that you add the
 repository to your package manager, as described below. This makes it easy to get updates or uninstall, if 
 required.
 
-* [Ubuntu/Mint](#ubuntu-mint)
+* [Ubuntu/Mint](#ubuntu)
 * [Debian](#debian)
-* [CentOS/RHEL/Amazon/Fedora](#centos-rhel-amazon-fedora)
-* [Gentoo/Sabayon/Funtoo/Calculate](#gentoo-sabayon-funtoo-calculate)
+* [CentOS/RHEL/Amazon/Fedora](#centos)
+* [Gentoo/Sabayon/Funtoo/Calculate](#gentoo)
 
-Once installed, see [installing a smart editor](#highly-recommended-install-a-smart-editor) and the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform).
+Once installed, see [installing a smart editor](#smart-editor) and the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform).
 
 Note that the Mono runtime is available for a wide variety of CPU architectures, not just x86 and ARM. All
 of these support F#.
 
 ### Ubuntu/Mint
+{: #ubuntu .anchor  }
 
 1. Add the mono repository to your package manager, as detailed [here](http://www.mono-project.com/download/#download-lin-ubuntu). 
 
@@ -35,6 +36,7 @@ of these support F#.
 This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`. 
 
 ### Debian
+{: #debian .anchor }
 
 1. Add the mono repository to your package manager, as detailed [here](http://www.mono-project.com/download/#download-lin-debian). 
 
@@ -47,6 +49,7 @@ This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`.
 Please note that the [Debian package](https://tracker.debian.org/pkg/fsharp) tends to be less up-to-date than the packages above.
 
 ### CentOS/RHEL/Amazon/Fedora
+{: #centos .anchor  }
 
 1. Add the mono repository to your package manager, as detailed [here](http://www.mono-project.com/download/#download-lin-centos)
 1. [Follow these instructions](http://www.mono-project.com/docs/getting-started/install/linux/#centos-7-fedora-19-and-later-and-derivatives). 
@@ -60,6 +63,7 @@ This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`.
 
 
 ### Gentoo/Sabayon/Funtoo/Calculate
+{: #gentoo .anchor  }
 
 From portage tree:
 
@@ -101,9 +105,6 @@ Alternatively there is an overlay available with current versions of various .NE
         sudo make install
 
    If installing to a different prefix, use the same prefix as for the Mono runtime above.
-
-Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
-go further.
 
 <br />
 
@@ -160,6 +161,7 @@ Explore (and contribute to) the collection of .NET applications and libraries in
 <br />
 
 ## Highly recommended: Install a smart editor
+{: #smart-editor}
 
 Like other strongly typed languages, F# can benefit tremendously from an editor that has support
 for the language. This makes smart auto-completion and compiling while you edit possible, which 
