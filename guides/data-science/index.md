@@ -39,12 +39,12 @@ Data science also requires strong support for many technologies covered in other
     <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
 </div>              
 
-## Resources for Data Science
-
 * auto-gen TOC:
 {:toc}
 
-### Integrated Packages
+<br /> <br />
+### Integrated Data Science Packages
+{:  .anchor }
 
 [FsLab](http://fslab.org/) is an integrated, cross-platform collection of open source data science pacakges for F#, including FSharp.Data, Deedle, RProvider, Math.NET Numerics and more.
 
@@ -53,15 +53,21 @@ Data science also requires strong support for many technologies covered in other
   * [Understanding the world with F# (video)](http://channel9.msdn.com/posts/Understanding-the-World-with-F)
 
 
+<br /> <br />
 ### Data Visualization
+{:  .anchor }
 
+<br /> <br />
 #### Interactive Charting on Windows 
+{:  .anchor }
 
 * [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
 
 * [XPlot](http://tahahachana.github.io/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
+<br /> <br />
 #### Using R, MATLAB, Mathematica, Excel and Python for Data Visualization
+{:  .anchor }
 
 F# can integrate with systems such as R, MATLAB, Mathematica, Excel and Python and these can be used for data visualization.
 See below for more details and the following tutorials specific to visualization:
@@ -71,7 +77,9 @@ See below for more details and the following tutorials specific to visualization
 * [Tutorial: Charting with Gnuplot from F#](http://bit.ly/14RwJeW)
 
 
-### Exploratory Data and Time Series Programming
+<br /> <br />
+### Time Series Programming
+{:  .anchor }
 
 [Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality 
 package for data and time series manipulation and for scientific programming. 
@@ -81,23 +89,14 @@ work well for exploratory programming using F# and C# interactive console, but c
 efficient compiled .NET code. 
 
 
-<a id="excel-interop" > </a>
 
+<br /> <br />
 ### F# and Excel 
+{: #excel-interop .anchor }
 
-#### Integrating F# and Excel through FCell
-
-[FCell](http://fcell.io) lets you dynamically create Excel Ribbon, Custom Task Panes, and UDFs in F#, C# and VB. 
-FCell enables you to type F# directly into the spreadsheet and see changes reflected at a push of a button. 
-Code and DLLs are embedded into the workbook and can be emailed to end users as a single spreadsheet. 
-FCell allows the use of many advanced F# features directly from within Excel such as Async and Observables 
-for non-blocking UDFs, WSDL Type Provider for a SOA backed Front Office, R Type Provider for Machine Learning, 
-and the Hive Type Provider for Big Data manipulation.
-
- * [FCell home pages](http://fcell.io/)
- * [FCell features](http://fcell.io/tour.html)
-
+<br /> <br />
 #### Integrating F# and Excel through Excel-DNA
+{:  .anchor }
 
 [Excel-DNA](http://excel-dna.net/) is an independent project to integrate .NET into Excel. With Excel-DNA you can make native (.xll) add-ins for Excel using C#, Visual Basic.NET or F#, providing high-performance user-defined functions (UDFs), custom ribbon interfaces 
 and more. Your entire add-in can be packed into a single .xll file requiring no installation or registration:
@@ -107,7 +106,9 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  * [Async and event-streaming Excel UDFs with F#](http://excel-dna.net/2013/03/26/async-and-event-streaming-excel-udfs-with-f/)
  * [Machine Learning with Excel: Combine the power of Excel, F# and R](http://luajalla.azurewebsites.net/excel-dna-three-stories/)
 
+<br /> <br />
 #### Integrating F# and Excel through Open Office XML file manipulation
+{:  .anchor }
 
 [NPOI](https://npoi.codeplex.com/) is .NET version of POI Java project at http://poi.apache.org/. POI is an open source project which can help you read/write xls, doc, ppt files.
 
@@ -119,11 +120,15 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  
 Both NPOI and EPPLus manipulate the Open Office XML format directly so they do not require having Excel installed and do not use Interop. You can read, create, and edit Excel documents using this approach.
 
+<br /> <br />
 #### Interoperating with Excel through type providers
+{:  .anchor }
 
 [F# Excel Type Provider](http://fsprojects.github.io/ExcelProvider/) is an prototypical F# type providerfor Excel that allows you  to read Excel files using typed data provided by the type provider. 
 
+<br /> <br />
 #### Interoperating with Excel through API's
+{:  .anchor }
 
 F# can interoperate with Excel through existing Excel API's. For example:
 
@@ -135,34 +140,34 @@ There are also some F# versions of Excel functions, useful when migrating code:
  * [Excel Financial Functions for .NET](https://github.com/fsprojects/ExcelFinancialFunctions)
 
 
-<a id="r-interop" href="#"> </a>
-
+<br /> <br />
 ### F# and R
+{: #r-interop  .anchor }
 
 Resources:
 
  * [R Type Provider for F#](http://bluemountaincapital.github.io/FSharpRProvider) - An F# type provider for high fidelity integration between F# and R
  * [R.NET](http://rdotnet.codeplex.com) - Core interoperability component used by the R Type Provider with some F# extensions.
 
-<a id="matlab-interop" > </a>
-
+<br /> <br />
 ### F# and MATLAB 
+{: #matlab-interop  .anchor }
 
 Resources:
 
  * [MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider for higher-fidelity integration between F# and MATLAB
 
-<a id="python-interop" > </a>
-
+<br /> <br />
 ### F# and Python 
+{: #python-interop  .anchor }
 
 Resources:
 
  * [Python for .NET](http://pythonnet.sourceforge.net/readme.html) - Allows Python to be integrated into F# and C# programs
 
-<a id="mathematica-interop" > </a>
-
+<br /> <br />
 ### F# and Mathematica/Wolfram Language
+{: #mathematica-interop  .anchor }
 
 Resources:
 
