@@ -25,12 +25,7 @@ interoperability with these systems, see:
 
 Many other resources are available for integrating F#, C# and .NET with these systems. If a resource specific
 to F# can't be found, then search for C# instead and adjust the technique appropriately.
-Data science also requires strong support for many technologies covered in other Guides.  For detailed information, refer to the guides for:
-
-* [Math and Statistics](/guides/math-and-statistics/)
-* [Data Access](/guides/data-access/)
-* [Machine Learning](/guides/machine-learning/)
-* [Cloud Programming](/guides/cloud/)
+Data science also requires strong support for many technologies covered in other Guides.  For detailed information, refer to the guides for [Math and Statistics](/guides/math-and-statistics/), [Data Access](/guides/data-access/), [Machine Learning](/guides/machine-learning/) and [Cloud Programming](/guides/cloud/).
 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
@@ -38,9 +33,6 @@ Data science also requires strong support for many technologies covered in other
     <hr />
     <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
 </div>              
-
-* auto-gen TOC:
-{:toc}
 
 <br /> <br />
 ### Integrated Data Science Packages
