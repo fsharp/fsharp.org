@@ -36,11 +36,11 @@ To contribute to tooling for F# web programming, please join the
 
 ### Frameworks for Web Applications
 
-#### [Suave.io](http://suave.io/)
+#### Suave
 
-Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+[Suave]((http://suave.io/) is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
-#### [Fable](http://fable.io/)
+#### Fable
 
 [Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
 and standard code in order to maximize interoperability in both ways. It integrates with most
@@ -52,16 +52,16 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 * [Docs](http://fable.io/docs.html)
 * [Samples](http://fable.io/samples.html)
 
-#### [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/)
+#### ASP.NET Core
 
-ASP.NET Core is a new open-source and cross-platform framework for building modern cloud based internet connected applications, such as web apps, IoT apps and mobile backends. ASP.NET Core apps can run on .NET Core or on the full .NET Framework.
+[ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/) is an open-source and cross-platform framework for building modern cloud based internet connected applications, such as web apps, IoT apps and mobile backends. ASP.NET Core apps run on .NET Core.
 
 * [F#, ASP.NET Core and Docker](https://github.com/jakkaj/aspnetcore_fsharp_docker)
 
 
-#### [WebSharper](http://websharper.com/) 
+#### WebSharper
 
-WebSharper allows end-to-end web applications with both client and server developed in F#. 
+[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
 * [Examples](http://websharper.com/samples)
@@ -69,36 +69,30 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 * [MonoDevelop templates](https://github.com/intellifactory/monodevelop.websharper)
 * [CloudSharper templates](http://cloudsharper.com/)
 
-#### [Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) 
+#### NancyFx
 
-[ASP.NET MVC](http://www.asp.net/mvc) is a widely used open source web framework from Microsoft. 
-[Pure F# ASP.NET MVC](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html) is a pure, F#-only project template for implementing a web application with ASP.NET MVC 5. Views are implemented in HTML5 using modern Javascript frameworks, also known as single-page applications, or SPAs. Models and controllers are implemented in F#.
-
-* [Visual Studio templates](https://visualstudiogallery.msdn.microsoft.com/39ae8dec-d11a-4ac9-974e-be0fdadec71b)
-
-#### [NancyFx](http://nancyfx.org/)
-
-NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-applications and micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
+[NancyFx](http://nancyfx.org/) is a lightweight, low-ceremony framework for building HTTP-based micro-applications and micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
 
 * [Visual Studio templates](https://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f)
 
 ### Frameworks for Micro-services and Server-Side Web APIs
 
-#### [Serving Requests with IHttpHandler](http://codinglight.blogspot.co.uk/2010/03/writing-your-own-httphandler-in-f.html)
+#### Serving Requests with IHttpHandler
 
 Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
 
+* [Summary](http://codinglight.blogspot.co.uk/2010/03/writing-your-own-httphandler-in-f.html)
 * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
 
-#### [Serving Requests with Suave.io](http://suave.io/)
+#### Serving Requests with Suave
 
-Suave can be used for microservices in addition to serving web content.
+[Suave](http://suave.io/) can be used for microservices in addition to serving web content.
 
-#### [Serving Requests with Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-fsharp)
+#### Serving Requests with Azure Functions
 
-Azure Functions can host and execute F# handlers as micro-services in a serverless architecture,
+[Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-fsharp) can host and execute F# handlers as micro-services in a serverless architecture,
 
-#### [Pure F# Web API 2.0](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html)
+#### Pure F# Web API 2.0
 
 [Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft. The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html). These templates provide a Pure F# project for implementing a web API with Web API 2.0. Everything is implemented in F#.
    
@@ -114,14 +108,14 @@ Some resources on using F# with Web API:
 * [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio) Includes templates for ASP.NET Web API. 
 * [A Simple Nowin F# Example](http://mikehadlow.blogspot.com/2015/04/a-simple-nowin-f-example.html) - example showing an F# OWIN app running on a web server other than IIS.
 
-#### [Canopy for Client-side Testing](http://lefthandedgoat.github.io/canopy)
+#### Canopy for Client-side Testing
 
 [canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and 
 concise. You can easily leverage your existing .NET code to help you test.
  
-#### [Freya](https://github.com/freya-fs/freya)
+#### Freya
 
-Freya provides a functional web stack built on top of [OWIN](http://owin.org/). At its core, Freya wraps the OWIN environment dictionary with a computation expression and provides access to that dictionary with lenses. Additional layers of the stack provide types based on the HTTP and related RFCs, a pipeline abstraction for connecting Freya computations, a router, and an implementation of the [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram), like that found in [webmachine](https://github.com/basho/webmachine).
+[Freya](https://github.com/freya-fs/freya) provides a functional web stack built on top of [OWIN](http://owin.org/). At its core, Freya wraps the OWIN environment dictionary with a computation expression and provides access to that dictionary with lenses. Additional layers of the stack provide types based on the HTTP and related RFCs, a pipeline abstraction for connecting Freya computations, a router, and an implementation of the [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram), like that found in [webmachine](https://github.com/basho/webmachine).
 
 * [NuGet](http://www.nuget.org/packages?q=freya)
 * [GitHub](https://github.com/freya-fs/freya)
@@ -129,18 +123,18 @@ Freya provides a functional web stack built on top of [OWIN](http://owin.org/). 
 * [Examples (WIP)](https://github.com/freya-fs/freya.examples)
 * [Docs (WIP)](https://github.com/freya-fs/freya.documentation)
 
-#### [Frank](https://github.com/frank-fs/frank)
+#### Frank
 
-Frank provides combinators for composing web applications using the types in `System.Net.Http`, the library that drives ASP.NET Web API.
+[Frank](https://github.com/frank-fs/frank) provides combinators for composing web applications using the types in `System.Net.Http`, the library that drives ASP.NET Web API.
 
 * [NuGet](http://www.nuget.org/packages/Frank)
 * [GitHub](https://github.com/frank-fs/frank)
 * [Web-host example](https://github.com/frank-fs/Frank.Samples.WebHost)
 * [Self-host example](https://github.com/frank-fs/Frank.Samples.SelfHost)
 
-#### [SignalR](http://www.asp.net/signalr)
+#### SignalR
 
-SignalR provides bi-directional communication between web servers and clients using one of several mechanisms, beginning with [web sockets](http://www.websocket.org/) and falling back through several other approaches depending on client and server capabilities.
+[SignalR](http://www.asp.net/signalr) provides bi-directional communication between web servers and clients using one of several mechanisms, beginning with [web sockets](http://www.websocket.org/) and falling back through several other approaches depending on client and server capabilities.
 One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02).
 
 * [Skillscast: F# and SignalR for a fast Web](https://skillsmatter.com/skillscasts/6155-f-and-signalr-for-a-fast-web)
@@ -148,22 +142,22 @@ One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.m
 * F# and SignalR Stock Ticker [part 1](https://jamessdixon.wordpress.com/2013/11/26/f-and-singalr-stock-ticker-example/) [part 2](https://jamessdixon.wordpress.com/2013/12/03/f-and-signalr-stock-ticker-part-2/)
 * [StackOverflow answer demonstrating typed access to SignalR client methods](http://stackoverflow.com/a/20380210/2089257)
 
-#### [ServiceStack](https://servicestack.net/)
+#### ServiceStack
 
-ServiceStack is a framework for simple and fast web services on .NET and Mono.
+[ServiceStack](https://servicestack.net/) is a framework for simple and fast web services on .NET and Mono.
 
-#### [NancyFx](http://nancyfx.org/)
+#### NancyFx
 
-NancyFx is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
+[NancyFx](http://nancyfx.org/) is a lightweight, low-ceremony framework for building HTTP-based micro-services on .NET and Mono.
 
 * [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
 * [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
 
 ### Live Examples
 
-#### [TodoBackend](http://todobackend.com/)
+#### TodoBackend
 
-TodoBackend is a project that aims to be "a shared example to showcase backend tech stacks." The F# community has contributed some examples, and a few more are in progress:
+[TodoBackend](http://todobackend.com/) is a project that aims to be "a shared example to showcase backend tech stacks." The F# community has contributed some examples, and a few more are in progress:
 
 * [F# - Freya (OWIN)](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/owin)
 * [F# - ASP.NET Web API](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/webapi)
