@@ -46,11 +46,7 @@ Data science also requires strong support for many technologies covered in other
 
 
 <br /> <br />
-### Data Visualization
-{:  .anchor }
-
-<br /> <br />
-#### Interactive Charting on Windows 
+### Interactive Charting on Windows 
 {:  .anchor }
 
 * [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
@@ -58,7 +54,7 @@ Data science also requires strong support for many technologies covered in other
 * [XPlot](http://tahahachana.github.io/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
 <br /> <br />
-#### Using R, MATLAB, Mathematica, Excel and Python for Data Visualization
+### Using R, MATLAB, Mathematica, Excel and Python for Data Visualization
 {:  .anchor }
 
 F# can integrate with systems such as R, MATLAB, Mathematica, Excel and Python and these can be used for data visualization.
