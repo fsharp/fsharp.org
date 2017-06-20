@@ -95,6 +95,7 @@ The F# language includes a feature called F# 3.0 Type Providers to support the i
 
 
 
+--------------
 
 
 ## Asynchronous, Concurrent and Reactive programming
@@ -136,6 +137,7 @@ allows us to safely combine both of the reactive programming patterns. As a resu
 take advantage of the clarity and simplicity of the declarative approach as well as the 
 expressivity of the imperative model.
 
+--------------
 
 ## Functional programming
 {: #functional-programming .anchor }
@@ -266,6 +268,7 @@ F# computation expressions answer this question in the affirmative. Unlike the d
 
 We show that computation expressions can structure well-known computations including monoidal list comprehensions, monadic parsers, applicative formlets and asynchronous sequences based on the list monad transformer. We also present typing rules for computation expressions that are capable of capturing all these applications.
 
+--------------
 
 ## DSLs and Meta-programming
 {: #dsls-and-meta-programming .anchor }
@@ -320,6 +323,8 @@ which as we demonstrate provide an elegant and type-safe mechanism to embed pars
 to parser generators. We also build an evaluator, and extend the core Simply language with Logo-like 
 primitives and build a graphical shell environment around it. As a warm-up, we give a rudimentary survey 
 of some notable F# features, including sequence expressions and active patterns.
+
+--------------
 
 ##  Parallel and Distributed programming
 {: #distributed-and-parallel-programming   .anchor }
@@ -379,6 +384,7 @@ Prajna supports running of cloud service and interactive data analytics in both 
 code, and supports running of remote code with significant data components (e.g., a recognition model that is hundreds of megabytes in size). 
 
 
+--------------
 
 
 ## Units of Measure
@@ -421,6 +427,7 @@ _PhD Thesis, University of Cambridge, 1995_
 Andrew Kennedy
 _Lecture notes , for CEFP'09, Revised July 2010_
 
+--------------
 
 ##  Web programming
 {: #web-programming    .anchor }
@@ -441,6 +448,7 @@ flowlets, an extension of formlets providing interactivity. Realworld
 examples are given using the current implementation that compiles
 flowlets defined in F# to JavaScript with WebSharper
 
+--------------
 
 ##  Security and Verification Research
 {: #security-and-verification-research  .anchor }
@@ -467,6 +475,7 @@ Some of the publications about FStar are below.
   Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, no. MSR-TR-2011-37, 24 March 2011
     
 
+--------------
 
 ##  Applications
 {: #applications   .anchor }
