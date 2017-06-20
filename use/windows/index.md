@@ -13,26 +13,9 @@ headline: Use F# on Windows
 
 * If you already have Visual Studio 2012/13/15 Professional or above, you can use that. All recent versions of Visual Studio come with the Visual F# Tools. The Visual F# Tools are installed automatically when you first create or open an F# project. You can also install the support [directly as a separate download](https://www.microsoft.com/en-us/download/details.aspx?id=48179).
 
-* Otherwise, install the free [Visual Studio 2015 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx).
+* Otherwise, install the free [Visual Studio 2017 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx).
 
 See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
-
-<br />
-
-#### ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/) ####
-
-In addition, install the community-provided [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/),
-for use with Visual Studio 2013 and 2015. They include [source code formatting](http://fsprojects.github.io/VisualFSharpPowerTools/codeformatting.html), 
-[auto-generating XML Docs](http://fsprojects.github.io/VisualFSharpPowerTools/xmldoc.html), 
-[highlight](http://fsprojects.github.io/VisualFSharpPowerTools/highlightusage.html) and [find](http://fsprojects.github.io/VisualFSharpPowerTools/findallreferences.html) references, 
-[rename refactoring](http://fsprojects.github.io/VisualFSharpPowerTools/rename.html),
-[depth colorizer](http://fsprojects.github.io/VisualFSharpPowerTools/depthcolorizer.html),
-[implement interface](http://fsprojects.github.io/VisualFSharpPowerTools/implementinterface.html),
-[record stub generation](http://fsprojects.github.io/VisualFSharpPowerTools/recordstubgeneration.html),
-[union pattern match case generation](http://fsprojects.github.io/VisualFSharpPowerTools/unionpatternmatchcasegeneration.html) and the
-[navigate-to command](http://fsprojects.github.io/VisualFSharpPowerTools/navigateto.html).
-
-Visual Studio 2017 doesn't need the Power Tools, because it includes most of their functionality out of the box.
 
 <br />
 
@@ -66,13 +49,13 @@ You will also need to install the free F# compiler and command line tools in Ste
 
 If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then you have two primary options.
 
-#### Option A: Visual Studio 2017 Build Tools SKU
+#### Option A: Visual Studio 2017 Build Tools 
 
 The [Visual Studio 2017 Build Tools SKU](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017), despite the name, actually does not install Visual Studio.  It installs MSBuild and various other build tools and compiler toolchains.
 
 Starting with Visual Studio 2017 Update 3, F# is an optional component.  Simply select F# from the Individual Components tab and press **Install**.
 
-### Option B: Standalone installations
+#### Option B: Standalone installations
 
 1. Requires .NET 4.5:
 
