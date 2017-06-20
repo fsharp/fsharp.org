@@ -123,14 +123,6 @@ Some resources on using F# with Web API:
 
 <br /> <br />
 
-#### Canopy for Client-side Testing
-{: #canopy    .anchor }
-
-[canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and 
-concise. You can easily leverage your existing .NET code to help you test.
- 
-<br /> <br />
-
 #### Freya
 {: #freya    .anchor }
 
@@ -173,6 +165,19 @@ One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.m
 {: #service-stack    .anchor }
 
 [ServiceStack](https://servicestack.net/) is a framework for simple and fast web services on .NET and Mono.
+
+### Web Testing Frameworks 
+{:  .anchor }
+
+<br /> <br />
+
+#### Canopy for Client-side Testing
+{: #canopy    .anchor }
+
+[canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and 
+concise. You can easily leverage your existing .NET code to help you test.
+ 
+<br /> <br />
 
 
 ## Live Examples
