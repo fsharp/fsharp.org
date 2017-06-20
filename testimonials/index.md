@@ -1503,3 +1503,18 @@ And to top it all up, working in F# is very enjoyable - the terseness and the ex
 As a consultancy geared towards delivering solutions to customers in a variety of sectors, we rely on F# for all of our solutions, whether it's a rules engine, a distributed and scalable data transformation system on Azure or a customer-facing web application. I love the fact that we have confidence in our deliverables thanks in no small part to the pit of success that F# leads us down; we very, very rarely encounted bugs that we saw time and again with other languages and frameworks. At the same time, we're able to consistently deliver to our customers much more quickly than we might have done otherwise - a key value proposition for many of our customers  who often need a short time to market.
 
 <div class="keywords">azure, consultancy, functional programming, time to market, startup</div>
+
+<a id="cleartax" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> At ClearTax, We have built a whole product from the ground-up in F#. It's been running in production for a couple of years — this has been a great experience for us.
+
+1. **Ankit Solanki, [ClearTax](https://cleartax.in
+)**
+2. [ClearTax](https://www.youtube.com/watch?v=BYRpZ7qEMi0)
+
+The expressiveness and power of F# has resulted in shorter build cycles, simpler business logic (with fewer bugs!) and the ability to quickly evolve the product.
+
+Type Providers have let us add support for a lot of data formats (Government formats, Excel files, third party sources) very quickly. Pattern matching has made it possible to simplify complex business logic. F# has been a joy to work with, and we're using it more and more throughout our products now.
+
+<div class="keywords">startup, finance, taxation, type providers, functional programming</div>
