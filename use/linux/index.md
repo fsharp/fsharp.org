@@ -7,15 +7,21 @@ headline: Use F# on Linux
 
 ## Option 1: Install from your Linux distribution's package manager
 
-As a .Net-based language, F# requires a .Net runtime. Typically, on Linux this runtime is Mono, although
-this may change in the future to the up-and-coming .Net Core. Most Linux distributions include a version
-of Mono in their repositories. Unfortunately, these versions are typically pretty old. Therefore, it his 
-*highly recommended* that you add the official Mono package
+When being used as .NET language, F# requires a .NET runtime. On Linux this runtime is Mono or .NET Core.
+Most Linux distributions include a version of Mono in their repositories. However, these versions
+are typically pretty old. Therefore, it is *highly recommended* that you add the official Mono package
 repository to your package manager, as described below. This makes it easy to get updates or uninstall, if 
 required.
 
-Note that the Mono runtime is available for a big variety of CPU architectures, not just x86 and ARM. All
-of these should support F#.
+* [Ubuntu/Mint](#ubuntu-mint)
+* [Debian](#debian)
+* [CentOS/RHEL/Amazon/Fedora](#centos-rhel-amazon-fedora)
+* [Gentoo/Sabayon/Funtoo/Calculate](#gentoo-sabayon-funtoo-calculate)
+
+Once installed, see [installing a smart editor](#highly-recommended-install-a-smart-editor) and the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform).
+
+Note that the Mono runtime is available for a wide variety of CPU architectures, not just x86 and ARM. All
+of these support F#.
 
 ### Ubuntu/Mint
 
@@ -27,9 +33,6 @@ of these should support F#.
         sudo apt-get install fsharp
 
 This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`. 
-
-Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
-go further.
 
 ### Debian
 
@@ -43,9 +46,6 @@ go further.
 This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`. 
 Please note that the [Debian package](https://tracker.debian.org/pkg/fsharp) tends to be less up-to-date than the packages above.
 
-Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
-go further.
-
 ### CentOS/RHEL/Amazon/Fedora
 
 1. Add the mono repository to your package manager, as detailed [here](http://www.mono-project.com/download/#download-lin-centos)
@@ -58,8 +58,6 @@ go further.
 
 This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`. 
 
-Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
-go further.
 
 ### Gentoo/Sabayon/Funtoo/Calculate
 
@@ -80,9 +78,6 @@ Alternatively there is an overlay available with current versions of various .NE
 3. (Optional) There are emacs mode and monodevelop bindings, you can chose what you want by setting use flags alike in following example:
    
        USE="+emacs -monodevelop" emerge fsharpbinding
-
-Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
-go further.
 
 <br />
 
@@ -110,14 +105,20 @@ go further.
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
 
+<br />
+
 
 ## Other options
+
+<br />
+
 
 ### Use a Vagrant VM on Windows
 
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 ### Slackware Slackbuild
+
 1. Get Mono Slackbuild from this page [http://slackbuilds.org/repository/14.1/development/mono/](http://slackbuilds.org/repository/14.1/development/mono/) and run :
 
      ./mono.SlackBuild
@@ -126,6 +127,8 @@ To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.
 
     ./fsharp.SlackBuild
    
+<br />
+
 
 ### Using Nix on any Linux distribution or Mac OS X
 
@@ -154,7 +157,6 @@ Find out more about the [Nix package manager](https://nixos.org/nix/) and [NixOS
 
 Explore (and contribute to) the collection of .NET applications and libraries in the [Nixpkgs GitHub repo](https://github.com/NixOS/nixpkgs/blob/master/pkgs/top-level/dotnet-packages.nix)
    
-
 <br />
 
 ## Highly recommended: Install a smart editor
@@ -162,6 +164,9 @@ Explore (and contribute to) the collection of .NET applications and libraries in
 Like other strongly typed languages, F# can benefit tremendously from an editor that has support
 for the language. This makes smart auto-completion and compiling while you edit possible, which 
 increases the discoverability of features and programmer productivity in general.
+
+<br />
+
 
 ### Option 1: Visual Studio Code
 
@@ -175,6 +180,8 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
         ext install Ionide-fsharp
 
 You will also need to install the F# packages from Step 1.
+
+<br />
 
 
 ### Option 2: JetBrains Rider
