@@ -155,7 +155,7 @@ Resources:
 
 Resources:
 
- * [Python for .NET](http://pythonnet.sourceforge.net/readme.html) - Allows Python to be integrated into F# and C# programs
+ * [Python for .NET](http://pythonnet.github.io/) - Allows Python to be integrated into F# and C# programs
 
 <br /> <br />
 ### F# and Mathematica/Wolfram Language
