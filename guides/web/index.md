@@ -26,8 +26,9 @@ To contribute to this guide, [edit this page on GitHub](https://github.com/fshar
 * auto-gen TOC:
 {:toc}
 
+------
 
-### Web Frameworks 
+## Web Frameworks 
 
 <br /> <br />
 
@@ -168,7 +169,9 @@ One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.m
 
 <br /> <br />
 
-### Web Testing Frameworks 
+------
+
+## Web Testing Frameworks 
 {:  .anchor }
 
 <br /> <br />
@@ -181,6 +184,20 @@ concise. You can easily leverage your existing .NET code to help you test.
  
 <br /> <br />
 
+#### Unit Testing Libraries
+{:  .anchor }
+
+Some open source libraries that assist with web unit testing are:
+
+* [FsCheck](http://fscheck.codeplex.com/)
+* [FsUnit](https://github.com/fsharp/FsUnit)
+* [Fuchu](https://github.com/mausch/Fuchu)
+* [NaturalSpec](https://github.com/forki/NaturalSpec)
+* [TickSpec](http://trelford.com/blog/post/TickSpec.aspx)
+* [Unquote](http://code.google.com/p/unquote/)
+
+
+------
 
 ## Live Examples
 {:  .anchor }
@@ -196,13 +213,16 @@ concise. You can easily leverage your existing .NET code to help you test.
 
 Please consider contributing, either directly to the TodoBackend project or via the [TodoBackendFSharp](https://github.com/panesofglass/TodoBackendFSharp) project.
 
-### Tutorials
+------
+
+## Tutorials
 {:  .anchor }
 
-* [Web Application Development in F# Using ASP.NET MVC](http://blog.tamizhvendan.in/blog/2014/12/10/web-application-development-in-fsharp-using-asp-dot-net-mvc/)
 * [Suave Music Store Tutorial](https://www.gitbook.com/book/theimowski/suave-music-store) for creating applications with Suave.IO
 
-### Books
+------
+
+## Books
 {:  .anchor }
 
 Several books have been written that include information on building web applications with F#:
@@ -210,7 +230,9 @@ Several books have been written that include information on building web applica
 * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Web-Cloud-Mobile-Solutions/dp/1449333761) 
 * [Expert F# 3.0](http://www.amazon.com/Expert-F-3-0-Apress/dp/1430246502/ref=sr_1_2?s=books&ie=UTF8&qid=1353176560&sr=1-2&keywords=F%23)
 
-### Presentations
+------
+
+## Presentations
 {:  .anchor }
 
 There are  several presentations and tutorials available that include information on 
@@ -226,8 +248,9 @@ build web applications with F#:
 * [F# 3.0: data, services, Web, cloud, at your fingertips](http://channel9.msdn.com/Events/Build/BUILD2011/SAC-904T)
 * [F# Introduction](http://skillsmatter.com/podcast/scala/phil-trelford-f-introduction)
 
+------
 
-### Hosting
+## Hosting
 {:  .anchor }
 
 Common hosting options are:
@@ -238,22 +261,3 @@ Common hosting options are:
 
 
 
-### Unit Testing Libraries
-{:  .anchor }
-
-Some open source libraries that assist with web unit testing are:
-
-* [FsCheck](http://fscheck.codeplex.com/)
-* [FsUnit](https://github.com/fsharp/FsUnit)
-* [Fuchu](https://github.com/mausch/Fuchu)
-* [NaturalSpec](https://github.com/forki/NaturalSpec)
-* [TickSpec](http://trelford.com/blog/post/TickSpec.aspx)
-* [Unquote](http://code.google.com/p/unquote/)
-
-Here are a few Visual Studio project templates available for building unit tests:
-
-* [F# MsTest Project](http://visualstudiogallery.msdn.microsoft.com/51ebe64a-899b-4959-8c24-b0148ed6b264)
-* [F# NUnit Template that also includes FsUnit, FsCheck, and Unquote](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) 
-
-
- 
