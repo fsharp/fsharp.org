@@ -36,15 +36,29 @@ h4,
 h5 {
     font-family: 'Rajdhani', sans-serif;
     font-weight: 600;
-    margin-top: 0px;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 20px;
 }
 
 h3 {
     font-size: 24px;
+    margin-top: 10px;
 }
 
 h4 {
     font-size: 20px;
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 /* Navbar */
