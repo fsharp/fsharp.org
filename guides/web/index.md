@@ -18,7 +18,7 @@ well to a stateless, functional approach. Advantages to using F# for web program
 
 The [Cloud Programming](/guides/cloud/) guide contains more details on scalable cloud-hosted web programming with F#.
 
-> To contribute to this guide, [edit this page on GitHub](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md). The resources listed below are provided for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any specific commercial products, processes, or services.
+To contribute to this guide, [edit this page on GitHub](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md). 
 
 * auto-gen TOC:
 {:toc}
@@ -258,3 +258,4 @@ Common hosting options are:
 
 
 
+The resources listed on this page are provided for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any specific commercial products, processes, or services.
