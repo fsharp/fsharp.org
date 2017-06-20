@@ -18,7 +18,7 @@ required.
 * [CentOS/RHEL/Amazon/Fedora](#centos-rhel-amazon-fedora)
 * [Gentoo/Sabayon/Funtoo/Calculate](#gentoo-sabayon-funtoo-calculate)
 
-Once installed, see [installing a smart editor](#highly-recommended-install-a-smart-editor) and the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform.
+Once installed, see [installing a smart editor](#highly-recommended-install-a-smart-editor) and the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform).
 
 Note that the Mono runtime is available for a wide variety of CPU architectures, not just x86 and ARM. All
 of these support F#.
