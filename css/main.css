@@ -24,6 +24,13 @@ blockquote {
     font-family: 'Rajdhani', sans-serif;
 }
 
+
+/* These uses of padding and margin works around a problem with the navbar sitting over anchors when they are clicked */
+.anchor {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
 h1,
 h2,
 h3,
@@ -33,34 +40,16 @@ h5 {
     font-weight: 600;
 }
 
-/* These uses of padding and margin works around a problem with the navbar sitting over anchors when they are clicked */
-
-h1 {
-    padding-top: 100px;
-    margin-top: -100px;
-}
-
-h2 {
-    padding-top: 150px;
-    margin-top: -70px;
-}
-
 h3 {
     font-size: 24px;
-    padding-top: 80px;
-    margin-top: -80px;
 }
 
 h4 {
     font-size: 20px;
-    padding-top: 80px;
-    margin-top: -70px;
 }
 
 h5 {
     font-size: 18px;
-    padding-top: 80px;
-    margin-top: -70px;
 }
 
 /* Navbar */
