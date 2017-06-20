@@ -58,6 +58,7 @@ Please note that the [Debian package](https://tracker.debian.org/pkg/fsharp) ten
 
 This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`. 
 
+
 ### Gentoo/Sabayon/Funtoo/Calculate
 
 From portage tree:
@@ -104,8 +105,13 @@ Alternatively there is an overlay available with current versions of various .NE
 Once installed, see the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform) to
 go further.
 
+<br />
+
 
 ## Other options
+
+<br />
+
 
 ### Use a Vagrant VM on Windows
 
@@ -121,6 +127,8 @@ To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.
 
     ./fsharp.SlackBuild
    
+<br />
+
 
 ### Using Nix on any Linux distribution or Mac OS X
 
@@ -149,12 +157,16 @@ Find out more about the [Nix package manager](https://nixos.org/nix/) and [NixOS
 
 Explore (and contribute to) the collection of .NET applications and libraries in the [Nixpkgs GitHub repo](https://github.com/NixOS/nixpkgs/blob/master/pkgs/top-level/dotnet-packages.nix)
    
+<br />
 
 ## Highly recommended: Install a smart editor
 
 Like other strongly typed languages, F# can benefit tremendously from an editor that has support
 for the language. This makes smart auto-completion and compiling while you edit possible, which 
 increases the discoverability of features and programmer productivity in general.
+
+<br />
+
 
 ### Option 1: Visual Studio Code
 
@@ -168,6 +180,8 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
         ext install Ionide-fsharp
 
 You will also need to install the F# packages from Step 1.
+
+<br />
 
 
 ### Option 2: JetBrains Rider
