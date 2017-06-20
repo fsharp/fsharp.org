@@ -46,7 +46,8 @@ To add a paper to this list, log on to GitHub, [edit this page](https://github.c
 --------------
 
 
-<h2 id="information-rich-programming" class="anchor"> Information-rich programming </h2>
+## Information-rich programming
+{: #information-rich-programming .anchor }
 
 ### [Types from data: Making structured data first-class citizens in F#](http://conf.researchr.org/event/pldi-2016/pldi-2016-papers-types-from-data-making-structured-data-first-class-citizens-in-f-)
 
@@ -96,7 +97,8 @@ The F# language includes a feature called F# 3.0 Type Providers to support the i
 
 
 
-<h2 id="asynchronous-concurrent-and-reactive-programming" class="anchor"> Asynchronous, Concurrent and Reactive programming </h2>
+## Asynchronous, Concurrent and Reactive programming
+{: #asynchronous-concurrent-and-reactive-programming .anchor }
 
 ### [The F# Asynchronous Programming Model](http://blogs.msdn.com/b/dsyme/archive/2010/10/21/the-f-asynchronous-programming-model-padl-2010-pre-publication-draft.aspx)
 
@@ -135,7 +137,8 @@ take advantage of the clarity and simplicity of the declarative approach as well
 expressivity of the imperative model.
 
 
-<h2 id="functional-programming" class="anchor"> Functional programming </h2>
+## Functional programming
+{: #functional-programming .anchor }
 
 ### [Extensible pattern matching via a lightweight language extension](http://research.microsoft.com/pubs/79947/p29-syme.pdf)
 
@@ -264,7 +267,8 @@ F# computation expressions answer this question in the affirmative. Unlike the d
 We show that computation expressions can structure well-known computations including monoidal list comprehensions, monadic parsers, applicative formlets and asynchronous sequences based on the list monad transformer. We also present typing rules for computation expressions that are capable of capturing all these applications.
 
 
-<h2 id="dsls-and-meta-programming" class="anchor"> DSLs and Meta-programming </h2>
+## DSLs and Meta-programming
+{: #dsls-and-meta-programming .anchor }
 
 ### [Leveraging .NET meta-programming components from F#: integrated queries and interoperable heterogeneous execution](http://dl.acm.org/citation.cfm?doid=1159876.1159884)
 
@@ -317,7 +321,8 @@ to parser generators. We also build an evaluator, and extend the core Simply lan
 primitives and build a graphical shell environment around it. As a warm-up, we give a rudimentary survey 
 of some notable F# features, including sequence expressions and active patterns.
 
-<h2 id="distributed-and-parallel-programming" class="anchor"> Parallel and Distributed programming </h2>
+##  Parallel and Distributed programming
+{: #distributed-and-parallel-programming   .anchor }
 
 
 ### [MBrace: cloud computing with monads](http://dl.acm.org/citation.cfm?id=2525531&dl=ACM&coll=DL&CFID=454202220&CFTOKEN=25283533)
@@ -376,7 +381,9 @@ code, and supports running of remote code with significant data components (e.g.
 
 
 
-<h2 id="units-of-measure" class="anchor"> Units of Measure </h2>
+## Units of Measure
+{: #units-of-measure .anchor }
+
 
 ### [Relational parametricity and units of measure](http://dl.acm.org/citation.cfm?id=263761)
 
@@ -415,7 +422,8 @@ Andrew Kennedy
 _Lecture notes , for CEFP'09, Revised July 2010_
 
 
-<h2 id="web-programming" class="anchor"> Web programming </h2>
+##  Web programming
+{: #web-programming    .anchor }
 
 ### [Visualizing Data in the Web](http://dl.acm.org/citation.cfm?id=2429376)
 
@@ -434,7 +442,8 @@ examples are given using the current implementation that compiles
 flowlets defined in F# to JavaScript with WebSharper
 
 
-<h2 id="security-and-verification-research" class="anchor"> Security and Verification Research </h2>
+##  Security and Verification Research
+{: #security-and-verification-research  .anchor }
 
 The experimental [FStar language](http://research.microsoft.com/en-us/projects/fstar/) is inspired by F#. 
 Some of the publications about FStar are below.
@@ -459,7 +468,8 @@ Some of the publications about FStar are below.
     
 
 
-<h2 id="applications" class="anchor"> Applications </h2>
+##  Applications
+{: #applications   .anchor }
 
 For more applications of F#, see the [Testimonials](/testimonials/) page. Below are some peer-reviewed publications or academic presentations related to applications of F#.
 
