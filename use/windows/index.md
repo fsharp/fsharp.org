@@ -100,10 +100,8 @@ Starting with Visual Studio 2017 Update 3, F# is an optional component.  Simply 
 
    Alternatively, do a quiet install from a PowerShell administrator prompt (the URL is the redirect of the above). 
 
-        $webclient = New-Object Net.WebClient
-        $url = 'http://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi'
-        $webclient.DownloadFile($url, "$pwd\FSharp_Bundle.exe")
-        .\FSharp_Bundle.exe /install /quiet
+        Invoke-WebRequest -Uri "http://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi" -OutFile "$pwd\Microsoft.FSharp.SDK.Core.msi"
+        msiexec /i Microsoft.FSharp.SDK.Core.msi /quiet
 
 The compiler tools on 64-bit Windows are installed at
 
