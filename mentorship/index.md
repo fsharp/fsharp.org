@@ -27,14 +27,15 @@ If you want to be mentored, please [register here](register.html). If you would 
 
 ### What is the current status of the program?
 
-* The first round of the program is full, and we are closed to new applicants for the time being. 
-* We have selected 10 lucky people from the first round of registrants. Unfortunately, the other registrants will have to wait until the next round. :(
-* If you were a successful registrant, you should have been contacted and paired with a mentor already.
+* The next round starts in the beginning of September, however registration opens in the beginning of August.
+<!--* If you were a successful registrant, you should have been contacted and paired with a mentor already.
 * If you were a unsuccessful registrant, you will be contacted shortly to let you know that you were unlucky.
 
 If you think you should have heard from us, but haven't, please do get in touch via email (education(at)fsharp.org) or twitter ([@fsharpedu](https://twitter.com/fsharpedu)).
 
-Thanks to everyone who registered and who is helping to move the program forward.
+Thanks to everyone who registered and who is helping to move the program forward.-->
+
+Thanks for your patience, we will provide further information soon here and on twitter [@fsharporg](https://twitter.com/fsharporg).
 
 The F# Software Foundation
 
