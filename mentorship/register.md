@@ -3,10 +3,11 @@ layout: default
 title: Registering for the F# Mentorship program | The F# Software Foundation
 headline: Registering for the F# Mentorship program
 ---
+Another mentorship round is planned for the beginning of September, registration will be opened in the beginning of August!
 
-**Registration is currently closed. We hope to do another round in the future.**
+For more information on the mentorship program, see the [main page](index.html) or follow on twitter [@fsharporg](https://twitter.com/fsharporg).
 
-<!--
+<!-- Needs to be updated for 2017 as soon as we have more information!
 If you are a member of the FSSF, just complete the [form here](https://fssfedu.typeform.com/to/QZEJEZ) before Sunday 13th March  2016.
 The FSSF will then select at random 10 candidates for the initial batch. We will contact you regardless of whether you were selected or not.
 
@@ -22,5 +23,4 @@ The F# Software Foundation
 
 -->
 
-For more information on the mentorship program, see the [main page](index.html).
 

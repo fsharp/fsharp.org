@@ -32,8 +32,8 @@ The program is free-of-charge. The mentors are volunteering their time to benefi
 
 ### What do I need to do next?
 
-Please register at [this page](register.html).
+Unfortunately, you need to wait until the beginning of August, then further information will be available [here](register.html). Any updates will be on twitter [@fsharporg](https://twitter.com/fsharporg) too.
 
 ### Questions or comments?
 
-If you have any questions or comments, please get in touch via email (education(at)fsharp.org) or twitter ([@fsharpedu](https://twitter.com/fsharpedu)).
+If you have any questions or comments, please get in touch via email (education(at)fsharp.org) or twitter [@fsharporg](https://twitter.com/fsharporg).
