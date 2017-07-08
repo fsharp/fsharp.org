@@ -295,7 +295,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/fracture.png)&nbsp;[Fracture.Http](https://github.com/fractureio/fracture.http) - HTTP server built on Fracture I/O.
 
-*  [Frank](http://frankfs.net/) - Frank provides a functional wrapper around the types in System.Net.Http, the library used by ASP.NET Web API.
+*  [Frank](https://frank-fs.github.io/frank) - Frank provides a functional wrapper around the types in System.Net.Http, the library used by ASP.NET Web API.
 
 *  [Freya](https://github.com/freya-fs/freya) - F# support for [OWIN](http://owin.org/). Freya is a functional web stack, built on top of OWIN, that offers additional layers for constructing OWIN pipelines, types based on relevant RFC definitions, a router, and an [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram) abstraction similar to that found in [webmachine](https://github.com/basho/webmachine).
 
