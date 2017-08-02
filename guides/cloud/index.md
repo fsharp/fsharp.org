@@ -6,7 +6,7 @@ redirect_from: "/cloud/index.html"
 ---
 
 Cloud computing relies on leveraging multiple integrated services.  Using multiple services required a unique set 
-of technologies and capabilities, and F# excels in this domain.  With the recent rise of cloud solutions, it has becoming increasingly easy to deploy multiple services "in the cloud", expanding what is possible both by storing large amounts of data and running heavy computations distributed across clusters of machines.  
+of technologies and capabilities, and F# excels in this domain.  With the recent rise of cloud solutions, it is becoming increasingly easy to deploy multiple services "in the cloud", expanding what is possible both by storing large amounts of data and running heavy computations distributed across clusters of machines.  
 
 The combination of built in support for asynchronous workflows, data processing capabilities, computation expressions, 
 extensible syntax, composability, expressiveness for numeric code and more make F# uniquely suited to develop 
@@ -80,7 +80,7 @@ F# is available by default in [the Docker official images for Mono](https://gith
 
 ### Scalable Distributed Programming and Messaging
 
-Distributed compute problem require a wide range of communication capabilities, ranging
+Distributed compute problems require a wide range of communication capabilities, ranging
 from simple command line argument passing to heavily optimized, low-latency interprocess
 communications. This section lists a wide range of communication libraries available to F#.
 
@@ -100,7 +100,7 @@ The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit
 
 #### MBrace
 
-The [MBrace](http://mbrace.io/) framework is an open-source  programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
+The [MBrace](http://mbrace.io/) framework is an open-source programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
 
  * [Programming model](http://mbrace.io/programming-model.html)
 
