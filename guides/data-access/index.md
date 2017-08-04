@@ -47,6 +47,8 @@ Some resources are listed below:
 
 * [ADO.NET](http://msdn.microsoft.com/en-us/library/aa286484.aspx) - A set of .NET classes exposing data access services to the .NET programmer. Works with a very broad range of databases.
 
+* [Rezoom.SQL](https://github.com/rspeele/Rezoom.SQL) - A library that statically typechecks a common SQL dialect and translates it to various RDBMS backends.
+
 ### Web Data Stores
 
 F# allows for the direct integration of scalable data stores into F# programming. For example, a type provider for the World bank data sets is available in the [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library. Other
