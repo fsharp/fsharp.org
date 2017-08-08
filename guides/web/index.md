@@ -61,6 +61,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 
 [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/) is an open-source and cross-platform framework for building modern cloud based internet connected applications, such as web apps, IoT apps and mobile backends. ASP.NET Core apps run on .NET Core.
 
+* [Giraffe - A native functional ASP.NET Core framework for F#](https://github.com/dustinmoris/Giraffe)
 * [F#, ASP.NET Core and Docker](https://github.com/jakkaj/aspnetcore_fsharp_docker)
 
 
