@@ -268,6 +268,20 @@ F# computation expressions answer this question in the affirmative. Unlike the d
 
 We show that computation expressions can structure well-known computations including monoidal list comprehensions, monadic parsers, applicative formlets and asynchronous sequences based on the list monad transformer. We also present typing rules for computation expressions that are capable of capturing all these applications.
 
+### [Classes for the Masses](http://www.mlworkshop.org/2016-7.pdf)
+
+Claudio Russo, Matthew Windsor, Don Syme, Rupert Horlick, James Clarke
+_Proceedings of ML 2016_
+
+Type classes are an immensely popular and productive feature of Haskell. They have since been adopted in, 
+and adapted to, numerous other languages, including theorem provers. 
+We show that type classes have a natural and efﬁcient representation in .NET that paves
+the way for the extension of F#, C# and other .NET languages with type classes. 
+Our encoding is type preserving and promises easy and safe cross-language inter-operation. 
+We have extended the open source C# compiler and language service, Roslyn,
+with pervasive support for type classes and have prototyped a more minimalist design for F#.
+
+
 --------------
 
 ## DSLs and Meta-programming
