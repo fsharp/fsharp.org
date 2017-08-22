@@ -94,9 +94,9 @@ The compiler tools on 64-bit Windows are installed at
     
 The compiler tools on 32-bit Windows are installed at
 
-    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.1\fsc.exe
-    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.1\fsi.exe
-    C:\Program Files\Microsoft SDKs\F#\4.0\Framework\v4.1\fsiAnyCpu.exe
+    C:\Program Files\Microsoft SDKs\F#\4.1\Framework\v4.9\fsc.exe
+    C:\Program Files\Microsoft SDKs\F#\4.1\Framework\v4.0\fsi.exe
+    C:\Program Files\Microsoft SDKs\F#\4.1\Framework\v4.0\fsiAnyCpu.exe
 
 Previous versions:
 
