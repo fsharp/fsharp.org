@@ -11,7 +11,7 @@ machine learning teams in the world, including several groups at Microsoft Resea
 
 Other guides contain some material related to machine learning:
 
-* [Math and Statistics](guides/math-and-statistics/)
+* [Math and Statistics](/guides/math-and-statistics/)
 * [Data Science](/guides/data-science/)
 * [Cloud Programming](/guides/cloud/)
 
