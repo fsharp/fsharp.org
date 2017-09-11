@@ -104,10 +104,6 @@ Mobile.
 With this plugin you can debug DLLs built with F# in Visual Studio while running them from Unity3D.
 
 
-### Duality 
-
-Duality is a plugin based 2D game development framework based on C# and OpenTK. To get a quick overview, please visit the [project page](http://duality.fetzenet.de). Duality's main strength is a fully featured extensible editor which is open source and MIT Licensed. An [F# Scripting plugin](http://www.roundcrisis.com/2014/04/21/Fsharp-scripting-for-the-game-engine/) ([code](https://github.com/BraveSirAndrew/DualityScripting)) is also available.
-
 
 ### Open Source Sample Projects
 
