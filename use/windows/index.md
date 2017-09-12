@@ -86,13 +86,13 @@ Starting with Visual Studio 2017 Update 3, F# is an optional component.  Simply 
         Invoke-WebRequest -Uri "https://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi" -OutFile "$pwd\Microsoft.FSharp.SDK.Core.msi"
         msiexec /i Microsoft.FSharp.SDK.Core.msi /quiet
 
-The compiler tools on 64-bit Windows are installed at
+The compiler tools on 32-bit Windows are installed at
 
     C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\fsc.exe
     C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\fsi.exe
     C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\fsiAnyCpu.exe
     
-The compiler tools on 32-bit Windows are installed at
+The compiler tools on 64-bit Windows are installed at
 
     C:\Program Files\Microsoft SDKs\F#\4.1\Framework\v4.9\fsc.exe
     C:\Program Files\Microsoft SDKs\F#\4.1\Framework\v4.0\fsi.exe
