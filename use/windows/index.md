@@ -100,7 +100,7 @@ The compiler tools on 32-bit Windows are installed at
 
 Previous versions:
 
-* [Visual F# Tools 4.0](http://go.microsoft.com/fwlink/?LinkId=261286)
+* [Visual F# Tools 4.0](https://download.microsoft.com/download/9/1/2/9122D406-F1E3-4880-A66D-D6C65E8B1545/FSharp_Bundle.exe)
 * [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkId=261286)
     
 <br />
