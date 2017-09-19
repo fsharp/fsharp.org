@@ -378,11 +378,11 @@ In this book you will:
 - Combine the best practice of asynchronous and synchronous
 - Optimize further using various F# language constructs
 
-### [Learning Basics of Functional Programming (Integrated Course(](https://www.packtpub.com/web-development/learning-basics-functional-programming-integrated-course)
+### [Learning Basics of Functional Programming (Integrated Course)](https://www.packtpub.com/web-development/learning-basics-functional-programming-integrated-course)
 
-<img src="/about/files/Learning-Basics-of-Functional-Programming-Integrated-Course.png" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/about/files/CourrseLBFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
-_ Onur Gumus _
+_Onur Gumus_
 
 Build end-to-end web applications with F# 
 Develop web applications that includes server-side as well as the client-side programming using Fable, F# to JavaScript compiler.
