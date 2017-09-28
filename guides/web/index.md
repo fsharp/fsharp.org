@@ -57,13 +57,23 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 <br />
 
 #### ASP.NET Core
-{: #aspnet-core    .anchor }
 
-[ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/) is an open-source and cross-platform framework for building modern cloud based internet connected applications, such as web apps, IoT apps and mobile backends. ASP.NET Core apps run on .NET Core.
+{: #aspnetcore  .anchor }
 
-* [Giraffe - A native functional ASP.NET Core framework for F#](https://github.com/dustinmoris/Giraffe)
-* [F#, ASP.NET Core and Docker](https://github.com/jakkaj/aspnetcore_fsharp_docker)
+[ASP.NET Core](https://www.asp.net/core) is a modern, cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications. It runs on .NET Core and supports F# out of the box. If you install the [.NET Core SDK](https://www.microsoft.com/net/download/core), there are F# templates available via the `dotnet new` command.
 
+* [Docs](https://docs.microsoft.com/aspnet/core/fundamentals/?tabs=aspnetcore2x)
+
+<br />
+
+#### Giraffe
+{: #giraffe  .anchor }
+
+[Giraffe](https://github.com/dustinmoris/Giraffe) is an F# micro web framework for building rich web applications. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
+
+* [Docs](https://github.com/dustinmoris/Giraffe#basics)
+* [Samples](https://github.com/dustinmoris/Giraffe/tree/master/samples)
+* [Blog post showing how to use it with .NET Core 2.0](https://blogs.msdn.microsoft.com/dotnet/2017/09/26/build-a-web-service-with-f-and-net-core-2-0/)
 
 <br />
 
