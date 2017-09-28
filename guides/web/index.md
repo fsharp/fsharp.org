@@ -60,7 +60,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 
 {: #aspnetcore  .anchor }
 
-[ASP.NET Core](https://www.asp.net/core) is a modern,cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications.  It runs on .NET Core and supports F# out of the box.  If you install the [.NET Core SDK](https://www.microsoft.com/net/download/core), there are F# templates available via the `dotnet new` command.
+[ASP.NET Core](https://www.asp.net/core) is a modern, cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications. It runs on .NET Core and supports F# out of the box. If you install the [.NET Core SDK](https://www.microsoft.com/net/download/core), there are F# templates available via the `dotnet new` command.
 
 * [Docs](https://docs.microsoft.com/aspnet/core/fundamentals/?tabs=aspnetcore2x)
 
@@ -69,7 +69,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 #### Giraffe
 {: #giraffe  .anchor }
 
-[Giraffe](https://github.com/dustinmoris/Giraffe) is anF# micro web framework for building rich web applications. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
+[Giraffe](https://github.com/dustinmoris/Giraffe) is an F# micro web framework for building rich web applications. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
 
 * [Docs](https://github.com/dustinmoris/Giraffe#basics)
 * [Samples](https://github.com/dustinmoris/Giraffe/tree/master/samples)
