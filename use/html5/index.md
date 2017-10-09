@@ -22,9 +22,9 @@ or mobile with [React native](https://facebook.github.io/react-native/).
 
 <br />
 
-### Option 3: Use F# on the Server with JavaScript, CoffeeScript or TypeScript on the client
+### Option 3: Use F# on the Server with other languages on the client
 
-You can use F# on the server with JavaScript, CoffeeScript or TypeScript as the front end, in conjunction 
+You can use F# on the server with JavaScript, Elm, Livescript, TypeScript and so on as the front end, in conjunction 
 with modern JS/HTML5 web frameworks. More details at [F# Web Programming](/guides/web/).
 
 
