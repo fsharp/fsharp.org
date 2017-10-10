@@ -51,7 +51,7 @@ or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows 
 [node.js](https://nodejs.org/en/) services, desktop apps with [Electron](http://electron.atom.io)
 and mobile apps with [React native](https://facebook.github.io/react-native/).
 
-* [Docs](http://fable.io/docs.html)
+* [Docs](http://fable.io/docs/)
 * [Samples](http://fable.io/samples.html)
 
 <br />
