@@ -391,6 +391,41 @@ Develop web applications that includes server-side as well as the client-side pr
 - This single course covers all the basics so you can start building powerful applications
 - Get familiar with all the top modules and components included in this course
 
+### [F# ile Fonksiyonel Programlama (Türkçe/Turkish)](https://www.dikeyeksen.com/products/f-ile-fonksiyonel-programlama?variant=5564153102374)
+
+<img src="/about/files/fsharp_fonk_kitap.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Ali Özgür_
+
+This book is the first and the only F# book in Turkish. The book covers F# and general functional programming principles. 
+
+F#, aktif ve bağımsız geliştirici topluluğu tarafından yön verilen, özellikle bulut teknolojileri, veri analizi ve bilimsel çalışmalarda kullanımı her geçen gün artan sade ve şık bir programlama dilidir.
+F# ile Microsoft'un .NET platformu üzerinde Windows, Linux ve OSX işletim sistemlerinde çalışabilen her çapta ve özllikte uygulamalar geliştirebilirsiniz. Hatta sistem yönetimi scriptlerinizi bile F# ile oluşturabilirsiniz. F# ile Fonksiyonel Programlama kitabında F#'ın sunduğu tüm bu imkanlar ile sizi tanıştırmayı ve bol kod örnekleri ile F#'ı özümsemenizi hedefliyoruz.
+
+- Kısa F# Tarihçesi
+- Neden F#?
+- Matematiksel Bakış
+- Fonksiyonel Programlama
+- F# Geliştirme Platformu
+- Merhaba F#
+- F# Temelleri
+- Veri Tipleri
+- Fonksiyonlar
+- Desen Eşleme
+- Listeler
+- Diziler
+- Genel Amaçlı Programlama
+- Değişkenler
+- .NET Koleksiyonları
+- Dallamalar
+- Nesne Yönelimli Programlama
+- Metodlar
+- Programlama Yöntemleri
+- Monadlar ve Hesaplama İfadeleri
+- İpuçları
+- Asenkron ve Paralel Programlama
+
+
 ## F# Books (Coming Soon)
 
 ### [Understanding Functional Programming](https://leanpub.com/understandingfunctionalprogramming)
