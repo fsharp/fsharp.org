@@ -24,9 +24,11 @@ algorithm, expressions, patterns and other.
 
   * [The F# 3.1 Language Specification (final version, PDF)](3.1/FSharpSpec-3.1-final.pdf) - The final version of the F# 3.1 language specification. 
 	
-### F# 4.0 
+### F# 4.0 and 4.1
 
-  * [The F# 4.0 Language Specification (latest, PDF)](4.0/FSharpSpec-4.0-latest.pdf), [(latest, DOCX)](4.0/FSharpSpec-4.0-latest.docx) - The latest, working version of the F# 4.0  language specification. 
+  * [The F# 4.0/4.1 Language Specification (latest, PDF)](4.0/FSharpSpec-4.0-latest.pdf), [(latest, DOCX)](4.0/FSharpSpec-4.0-latest.docx) - The latest, working version of the F# 4.0/4.1  language specification. 
+  
+  * The [RFCs for F# 4.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.0) and [F# 4.1](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.1) and [F# 4.1 update](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.1b) provide primary documentation for the features added.  Not all details of these have been applied to the language specification document as yet:
 	
 	Comments and edits are both welcome. To contribute to the specification, please <a href="http://github.com/fsharp/fsfoundation">fork this repository</a>, edit the working draft document, and send a pull request.
 	The custodians of the specification will
