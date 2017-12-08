@@ -426,6 +426,20 @@ F# ile Microsoft'un .NET platformu üzerinde Windows, Linux ve OSX işletim sist
 - Asenkron ve Paralel Programlama
 
 
+### [Building F# Applications (Video)](https://www.packtpub.com/application-development/building-f-applications-video)
+
+<img src="/about/files/VideoBFA.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Richard Broida_
+
+Learn how to use F#'s functional features to rapidly turn requirements into software designs that are correct, complete, extensible, bug-free, and easy to read and understand.
+
+- Setup your IDE for F# development
+- Use F#-friendly tools for test automation, builds, and dependency management
+- Model your application's problem domain using F#'s immutable data types and collections
+- Build simple-to-complex application behavior with F# functions
+- Interoperate between your F# applications and other .NET languages
+
 ## F# Books (Coming Soon)
 
 ### [Understanding Functional Programming](https://leanpub.com/understandingfunctionalprogramming)
