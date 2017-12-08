@@ -203,7 +203,7 @@ You will also need to install the F# packages from Step 1.
 
 
 ## Get involved!
-To help improve this docuemtnation, you can [submit an edit to this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/use/linux/index.md).
+To help improve this documentation, you can [submit an edit to this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/use/linux/index.md).
 Or to help with Linux packages, consider joining the [F# Core Engineering Group](http://fsharp.github.io).  
 
 <br />
