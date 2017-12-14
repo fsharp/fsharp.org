@@ -4,20 +4,7 @@ title: Use F# on Mac OSX | The F# Software Foundation
 headline: Use F# on Mac OSX
 ---
 
-### Option 1: Install F# with Xamarin Studio
-
-![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin Studio](http://xamarin.com/studio) is a free IDE for general purpose development, with freemium add-ins for mobile development. 
-
-* [Install Xamarin Studio](http://xamarin.com/studio) 
-
-You can create new projects and cross-compile projects built in 
-Visual Studio and other environments.
-See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
-go further. For 64-bit support, see below.
-
-<br />
-
-### Option 2: Install Visual Studio Code
+### Option 1: Install Visual Studio Code
 
 ![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
@@ -29,7 +16,19 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
 1. Go back to VS Code, press `Cmd+P` and enter the following to install the Ionide package.
 
         ext install Ionide-fsharp
+        
+<br />
 
+### Option 2: Install Visual Studio for Mac
+
+![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/) is a free IDE for general purpose development. 
+
+* [Install Visual Studio for mac](https://www.visualstudio.com/vs/visual-studio-mac/) 
+
+You can create new projects and cross-compile projects built in 
+Visual Studio and other environments.
+See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
+go further. For 64-bit support, see below.
 
 <br />
 
@@ -43,9 +42,15 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
 
 <br />
 
-### Option 4: Install F# alone
+### Option 4: Install the .NET Core CLI
 
-To use the F# command-line compiler and tools on Mac OSX:
+You can use the .NET Core CLI to install F#. To learn more, see [Get started with F# with the .NET Core CLI](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
+
+<br />
+
+### Option 5: Install F# via Mono
+
+To use the F# command-line compiler via Mono and tools on Mac OSX:
 
 *  [Install Mono](http://www.go-mono.com/mono-downloads/download.html). Use version 4.2.0 or later.
 *  Add Mono `/bin` folder to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
@@ -55,7 +60,7 @@ go further. For 64-bit support, see below.
 
 <br />
 
-### Option 5: Install F# via Homebrew (64-bit)
+### Option 5: Install F# with Mono via Homebrew (64-bit)
 
 F# is installed as part of the Mono homebrew formula:
 
@@ -102,5 +107,3 @@ To use the F# command-line compiler and tools on Mac OSX in 64-bit mode:
 * Xamarin Studio and MonoDevelop run applications in 32-bit mode by default. You can configure additional runtimes under Preferences > .NET Runtimes to benefit from 64-bit execution.
 
 <br />
-
-
