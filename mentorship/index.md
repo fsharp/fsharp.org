@@ -27,8 +27,8 @@ If you want to be a mentor or be mentored, please [register here](register.html)
 
 ### What is the current status of the program?
 
-* The registrations are now open for round 3 of the mentorship program. You can register [here](https://goo.gl/forms/xLkWpiR7ZcTYKN6u1) until the 21st of August.
-* The round will start at the beginning of September.
+* The registrations for the 4th round are closed, but will open in January.
+* The round will start at the beginning of February.
 
 
 Thanks for your patience, we will provide further information soon here and on twitter [@fsharporg](https://twitter.com/fsharporg).
