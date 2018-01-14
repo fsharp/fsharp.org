@@ -32,7 +32,7 @@ The program is free-of-charge. The mentors are volunteering their time to benefi
 
 ### What do I need to do next?
 
-Unfortunately, you need to wait until the beginning of January, then further information will be available [here](register.html). Any updates will be on twitter [@fsharporg](https://twitter.com/fsharporg) too.
+Information is available [here](register.html). Any updates will be on twitter [@fsharporg](https://twitter.com/fsharporg) too.
 
 ### Questions or comments?
 
