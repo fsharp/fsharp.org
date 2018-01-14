@@ -27,7 +27,7 @@ If you want to be a mentor or be mentored, please [register here](register.html)
 
 ### What is the current status of the program?
 
-* The registrations for the 4th round are closed, but will open in January.
+* The registrations for the 4th round are open.
 * The round will start at the beginning of February.
 
 
