@@ -276,7 +276,7 @@ In this book you will read:
 - Databases (Sql Server, Query Expressions, Type Providers, ...)
 - User Interfaces (Windows Forms, WPF, GTK#)
 
-### [F# Applied](http://products.tamizhvendan.in/fsharp-applied/)
+### [F# Applied](https://www.demystifyfp.com/FsApplied)
 
 <img src="/about/files/BookFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -404,6 +404,26 @@ Learn how to use F#'s functional features to rapidly turn requirements into soft
 - Model your application's problem domain using F#'s immutable data types and collections
 - Build simple-to-complex application behavior with F# functions
 - Interoperate between your F# applications and other .NET languages
+
+
+### [F# Applied II](https://www.demystifyfp.com/FsApplied2)
+
+<img src="/about/files/BookFP2.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Tamizhvendan S_
+
+"F# Applied II" helps you to learn how to build a real-world, production-ready, end-to-end web application in F# using the functional programming principles by developing a Twitter clone from scratch. 
+
+In this book you will learn:
+
+- The Application of functional programming principles in a real-world application
+- Server-Side Rendering in Suave using DotLiquid
+- Authentication and Authorisation in Suave
+- Application Logging using [Logary](https://logary.github.io/)
+- Error handling in asynchronous operations using [Chessie](http://fsprojects.github.io/Chessie/).
+- Database access using [SQLProvider](http://fsprojects.github.io/SQLProvider/)
+- Database schema management using [Fluent Migrator](https://github.com/fluentmigrator/fluentmigrator)
+- Realtime Tweet Feeds and Notifications using [GetStream.io](https://getstream.io/)
 
 ## F# Books (Coming Soon)
 
