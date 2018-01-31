@@ -34,7 +34,7 @@ of these support F#.
         sudo apt-get update
         sudo apt-get install fsharp
 
-This installs the F# compiler `fsharpc` and and the F# interactive `fsharpi`. 
+This installs the F# compiler `fsharpc` and the F# interactive `fsharpi`. 
 
 <br />
 ### Debian
