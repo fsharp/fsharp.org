@@ -19,7 +19,7 @@ interoperability with these systems, see:
 
 * [F# with Excel](#excel-interop)
 * [F# with R](#r-interop)
-s* [F# with MATLAB](#matlab-interop)
+* [F# with MATLAB](#matlab-interop)
 * [F# with Mathematica](#mathematica-interop)
 * [F# with Python](#python-interop)
 
