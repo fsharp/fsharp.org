@@ -4,7 +4,7 @@ title: Use F# for Android Development | The F# Software Foundation
 headline: Use F# for Android Development
 ---
 
-### Option 1: Build F# Android Apps using JetBrains Rider
+### Option 1: Build F# Android Apps using F# + Xamarin Tools and JetBrains Rider
 
 ![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
@@ -20,14 +20,8 @@ headline: Use F# for Android Development
 
 ![logo](/images/thumbs/xamarin-studio.png)&nbsp;![logo](/images/thumbs/vstudio.png)&nbsp;[Xamarin](http://xamarin.com) provide F# tools for  Android and iOS modile development with F#, using Microsoft Visual Studio.
 
-1. Get the [Visual F# tools for Windows](/use/windows) or [F# Tools for Mac](/use/mac). 
+1. Get [Visual Studio for Windows](/use/windows) or [Visual Studio for Mac](/use/mac). 
 
-You can now create a new F# Android app, e.g. an "F# Honeycomb Application". Build and Debug will deploy to an emulator or device.
-
-Report problems as follows:
-
-* For most issues and discussions, use the Xamarin forums and bug tracker
-* For the F# language binding in Xamarin Studio, see [the F# Binding repository](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin)
 
 <br />
 
