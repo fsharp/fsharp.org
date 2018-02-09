@@ -5,20 +5,18 @@ headline: Guide - Mobile App and Game Programming with F#
 redirect_from: "/apps-and-games/index.html"
 ---
 
-F# executes on a broad range of app and gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), [Mac OS X](/use/mac/), [JavaScript/React/ReactNative/HTML5](/use/html5/) and [Windows](/use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines, and more make it an ideal tool for many aspects of game development.
-
-In addition, F# can be used to implement the server-side of games or apps. See the [Web Programming](/webstacks) and [Cloud](/cloud) sections. 
+F# executes on a broad range of app and gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), [Mac OS X](/use/mac/), [JavaScript/React/ReactNative/HTML5](/use/html5/) and [Windows](/use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines, and more make it an ideal tool for many aspects of game development. 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>This guide includes resources related to app and game programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/apps-and-games/index.md">edit this page</a> and send a pull request.</p>
     <hr />
-    <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+    <p>The resources listed below are provided only for educational purposes. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services.</p>
 </div>              
-
-## Frameworks
 
 * auto-gen TOC:
 {:toc}
+
+## Frameworks
 
 * [Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
 
