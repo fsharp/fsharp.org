@@ -5,13 +5,9 @@ headline: Guide - Mobile App and Game Programming with F#
 redirect_from: "/apps-and-games/index.html"
 ---
 
-F# executes on a broad range of app and gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), 
-[Mac OS X](/use/mac/), [JavaScript/HTML5](/webstacks) and [Windows](/use/windows/). Its concise syntax, interoperability
-with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines, and more
-make it an ideal tool for many aspects of game and app development.
+F# executes on a broad range of app and gaming platforms such as  [Android](/use/android/), [iOS](/use/ios/), [Mac OS X](/use/mac/), [JavaScript/React/ReactNative/HTML5](/use/html5/) and [Windows](/use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines, and more make it an ideal tool for many aspects of game development.
 
-In addition, F# has excellent support for managing the server-side of games or apps. This provides a compelling story of full stack development with a single language for both client and server. See the [Web Programming](/webstacks) and [Cloud](/cloud) section for details of using F# with server-side technologies. For example, F# is used on the server-side of one of 
-the largest Facebook social games, as described in [this interview](http://www.dotnetrocks.com/default.aspx?ShowNum=846).
+In addition, F# can be used to implement the server-side of games or apps. See the [Web Programming](/webstacks) and [Cloud](/cloud) sections. 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>This guide includes resources related to app and game programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/apps-and-games/index.md">edit this page</a> and send a pull request.</p>
@@ -19,34 +15,30 @@ the largest Facebook social games, as described in [this interview](http://www.d
     <p>Note that the resources listed below are provided only for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
 </div>              
 
-## Resources for App and Game Development
+## Frameworks
 
 * auto-gen TOC:
 {:toc}
 
-### Higher-Level Application Development
+* [Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
 
-These higher-level app development frameworks and tools support F#:
+* [Xamarin](http://docs.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_development) - Use F# to develop for iOS, Android, Mac and Windows development
 
-* [Xamarin Mobile](http://docs.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_development) - Use F# to develop for iOS, Android, Mac and Windows development
+* [MonoGame](http://www.monogame.net/) is an open implementation of a cross-platform gaming framework originally
+based on the XNA 4 framework design. The goal of the project is to allow XNA developers on Xbox 360, Windows and 
+Windows Phone to port their games to the iOS, Android, Mac OS X, Linux, Windows 8 Metro, and PlayStation 
+Mobile.  
 
-* [WebSharper](http://websharper.com) - Can be used for cross-tier client/server HTML5 development and more
+ * [Unity3D] It is possible to use F# code with Unity3D, e.g. [search](https://www.google.co.uk/search?q=F%23+unity&rlz=1C1CHBF_en-GBGB744GB744&oq=F%23+unity+&aqs=chrome..69i57j69i58j0l4.1375j0j7&sourceid=chrome&ie=UTF-8)
 
-* [Visual Studio](http://msdn.microsoft.com/en-us/library/vstudio/hh913781.aspx) - Supports use of F# code in both Windows Store apps and cross-platforms apps through the Xamarin Tools for Visual Studio
 
-### Xamarin App and Game Development 
-
-Xamarin provides app and game development tools for Android, iOS and other platforms. They [support F#](http://docs.xamarin.com/guides/cross-platform/fsharp/fsharp_support_overview) as part of their stack.
-
-#### Cross platform examples and resources:
+## Resource Links
 
 * [Xamarin Forms Example](https://github.com/rachelreese/Current-Talks/tree/master/2014-10%20Evolve/EvolveXamForms) - An example of using the Xamarin Forms cross-platform front-end framework with F#
 
 * [F# and Monogame Part 2 – Android](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-2-android/)
 
 * [F# and Monogame Part 3 – iOS](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-3-ios/)
-
-#### iOS examples and resources:
 
 * A [video by Rachel Reese](https://www.youtube.com/watch?v=H9uzJFM2Hl0) showing a number of techniques for using F# to build iOS applications.
 
@@ -73,14 +65,6 @@ Xamarin provides app and game development tools for Android, iOS and other platf
 
 * A Platform game in SpriteKit and F# – [Part 2 – Start building a level](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-2-start-building-a-level/)
 
-
-### MonoGame
-
-[MonoGame](http://www.monogame.net/) is an open implementation of a cross-platform gaming framework originally
-based on the XNA 4 framework design. The goal of the project is to allow XNA developers on Xbox 360, Windows and 
-Windows Phone to port their games to the iOS, Android, Mac OS X, Linux, Windows 8 Metro, and PlayStation 
-Mobile.  
-
 * F# and Monogame [Part 1 – MacOS](http://neildanson.wordpress.com/2013/07/30/f-and-monogame/)
 
 * F# and Monogame [Part 2 – Android](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-2-android/)
@@ -98,12 +82,6 @@ Mobile.
 * [Making an endless runner game in F# using MonoGame](http://timjones.tw/blog/archive/2014/12/28/make-santa-jump-game-in-fsharp-using-monogame)
 
 
-### Unity3D
-
-[Visual Studio 2013 Tools for Unity](http://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2) allows you to write and debug your Unity 3D games inside Microsoft Visual Studio.
-With this plugin you can debug DLLs built with F# in Visual Studio while running them from Unity3D.
-
-
 
 ### Open Source Sample Projects
 
@@ -112,10 +90,5 @@ With this plugin you can debug DLLs built with F# in Visual Studio while running
 
 * [MXA Framework](https://github.com/insma/MXA-Framework) is an open-source XNA like based framework based on SharpDX.Direct3D11. It allow you to develop high performance game, 2D and 3D graphics rendering with familiar API.
 
-* [FQuake3](https://github.com/TIHan/FQuake3) - An attempt to re-implement id Software's Quake III Arena in F#.
-
-* [Learn On The Go](https://github.com/ovatsus/Apps/tree/master/LearnOnTheGo) - A windows phone app for watching [Coursera](https://www.coursera.org/) lectures implemented in F#.
-
-* [UK Trains](https://github.com/ovatsus/Apps/tree/master/Trains) - A windows phone app for checking train departure and arrival information implemented in F#.
 
 
