@@ -27,8 +27,8 @@ If you want to be a mentor or be mentored, please [register here](register.html)
 
 ### What is the current status of the program?
 
-* The registrations for the 4th round are open.
-* The round will start at the beginning of February.
+* The registrations for the 4th round are closed.
+* The next round will start at the beginning of September 2018.
 
 
 Thanks for your patience, we will provide further information soon here and on twitter [@fsharporg](https://twitter.com/fsharporg).
