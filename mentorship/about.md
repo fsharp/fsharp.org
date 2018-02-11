@@ -10,7 +10,7 @@ We think that mentorship is a powerful way to help you learn and be inspired, es
 
 And so, we have created a FSSF Mentorship program! 
 
-We are going to keep the program small for now. The first mentorship batch will be just a handful of mentors and learners providing one-to-one mentorship for about 8 weeks.  After this initial batch, we'll gather feedback and see what changes the program needs before starting the next batch.
+We are going to keep the program small for now. The first mentorship batch will be just a handful of mentors and learners providing one-to-one mentorship for about 6 weeks.  After this initial batch, we'll gather feedback and see what changes the program needs before starting the next batch.
 
 This program is offered free of charge, as mentors are volunteering their time. The FSSF is sponsoring this program and providing the coordination between mentors and learners. 
 
@@ -24,7 +24,7 @@ You must be a member of the FSSF to participate in the program. Membership is fr
 
 ### How does it work?
 
-You get a certain amount of minutes a week (30 by default) with a mentor for certain amount of weeks (8 by default) working on some particular area.
+You get a certain amount of minutes a week (30 by default) with a mentor for certain amount of weeks (6 by default) working on some particular area.
 
 ### How much does it cost?
 
