@@ -27,7 +27,7 @@ based on the XNA 4 framework design. The goal of the project is to allow XNA dev
 Windows Phone to port their games to the iOS, Android, Mac OS X, Linux, Windows 8 Metro, and PlayStation 
 Mobile.  
 
- * [Unity3D] It is possible to use F# code with Unity3D, e.g. [search](https://www.google.co.uk/search?q=F%23+unity&rlz=1C1CHBF_en-GBGB744GB744&oq=F%23+unity+&aqs=chrome..69i57j69i58j0l4.1375j0j7&sourceid=chrome&ie=UTF-8)
+ * [Unity3D](https://github.com/eriksvedang/FSharp-Unity) Unity3D is a popular closed source game engine. 
  
  * [Urho3D](https://github.com/xamarin/urho) Open source implementation in Urho.
 
@@ -87,8 +87,6 @@ Mobile.
 
 
 * [Nu Game Engine](https://github.com/bryanedds/FPWorks) - A cross-platform F# 2D game engine built in the functional style. Uses SDL2 and Farseer Physics.
-
-* [MXA Framework](https://github.com/insma/MXA-Framework) is an open-source XNA like based framework based on SharpDX.Direct3D11. It allow you to develop high performance game, 2D and 3D graphics rendering with familiar API.
 
 
 
