@@ -202,7 +202,7 @@ concise. You can easily leverage your existing .NET code to help you test.
 
 Some open source libraries that assist with web unit testing are:
 
-* [Expecto](https://github.com/haf/excpecto)
+* [Expecto](https://github.com/haf/expecto) - An evolution of Fuchu
 * [FsCheck](http://fscheck.codeplex.com/)
 * [FsUnit](https://github.com/fsharp/FsUnit)
 * [Fuchu](https://github.com/mausch/Fuchu)
