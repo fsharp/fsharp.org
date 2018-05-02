@@ -105,7 +105,6 @@ Alternatively there is an overlay available with current versions of various .NE
         sudo apt-get install autoconf libtool pkg-config make git automake
         git clone https://github.com/fsharp/fsharp
         cd fsharp
-        ./autogen.sh --prefix /usr
         make
         sudo make install
 
