@@ -8,7 +8,7 @@ headline: Guide - F# Slack Team
 
 [Slack](https://slack.com/) is a persistent chat service. 
 
-Members of the F# Software Foundation can be invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join, become a member of the F# Software Foundation by [visiting this page](http://foundation.fsharp.org/join). Once you are a member, you will automatically be queued to receive an invite to the Foundation's Slack team.  
+Members of the F# Software Foundation are invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join, become a member of the F# Software Foundation by [visiting this page](http://foundation.fsharp.org/join). Once you are a member, you will automatically be queued to receive an invite to the Foundation's Slack team.  
 
 ### Channels in Slack Team
 
@@ -17,7 +17,6 @@ Once you sign into the Slack team, there are various channels containing topics 
 * [#general](https://fsharp.slack.com/messages/general/): General discussions on any topic, including social conversations for members of the Foundation
 * [#beginners](https://fsharp.slack.com/messages/beginners/): Questions and answers for beginners coming to F# and the F# Community
 * [#code](https://fsharp.slack.com/messages/code/): Code-focused discussion on any F# related topic
-* [#help](https://fsharp.slack.com/messages/help/): Help on any F# related topic
 * [#web](https://fsharp.slack.com/messages/web/): Discussion focused on using F# with web based technologies
 * [#compiler](https://fsharp.slack.com/messages/compiler/): Discussion surrounding the F# compiler and FSharp.Core
 * [#editor_support](https://fsharp.slack.com/messages/editor_support/): Discussion focused on adding IDE support for F#
@@ -35,13 +34,12 @@ If you don't receive the invite within 48 hours, or if you have any questions, p
 Some of Slack's features include:
 
 * Persistence - No need to be continually logged in
-* Searchable chat history - For large Slacks this is limited to 10 days or so, but older topics can be searched from the [archives](http://fsharp.slackarchive.io/).
 * [Link Sharing](https://slack.zendesk.com/hc/en-us/articles/204399343-Sharing-links-in-Slack) - For example linked images can be automatically shown
 * [Message Formatting](https://slack.zendesk.com/hc/en-us/articles/202288908-Formatting-your-messages)
 * [Message editing](https://slack.zendesk.com/hc/en-us/articles/202395258-Editing-or-deleting-messages) - you can correct message typos or delete them entirely
 * [File](https://slack.zendesk.com/hc/en-us/articles/201330736-Uploading-and-sharing-files) and [text snippet](https://slack.zendesk.com/hc/en-us/articles/204145658-Creating-a-Snippet) sharing
 
-History within the main channels is persisted via [SlackArchive](http://fsharp.slackarchive.io/).
+History within Slack is limited. We recommend using the [F# Software Foundation Community Forums](https://forums.fsharp.org/t/welcome-to-the-f-software-foundation-community-forums/8) for questions or discussions where persistance and history are important.
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>This guide includes resources related to F# Slack teams. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/slack/index.md">edit this page</a> and send a pull request.</p>
