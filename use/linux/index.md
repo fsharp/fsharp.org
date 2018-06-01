@@ -4,8 +4,12 @@ title: Use F# on Linux | The F# Software Foundation
 headline: Use F# on Linux
 ---
 
+## Option 1: Install the .NET Core CLI
 
-## Option 1: Install from your Linux distribution's package manager
+You can use the .NET Core CLI to install F#. To learn more, see [Get started with F# with the .NET Core CLI](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
+
+
+## Option 2: Install from your Linux distribution's package manager
 
 When being used as .NET language, F# requires a .NET runtime. On Linux this runtime is [Mono](http://www.mono-project.com/) or [.NET Core](https://docs.microsoft.com/en-us/dotnet/).
 Most Linux distributions include a version of Mono in their repositories. However, these versions
@@ -24,6 +28,7 @@ Note that the Mono runtime is available for a wide variety of CPU architectures,
 of these support F#.
 
 <br />
+
 ### Ubuntu/Mint
 {: #ubuntu .anchor  }
 
@@ -37,6 +42,7 @@ of these support F#.
 This installs the F# compiler `fsharpc` and the F# interactive `fsharpi`. 
 
 <br />
+
 ### Debian
 {: #debian .anchor }
 
@@ -51,6 +57,7 @@ This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`.
 Please note that the [Debian package](https://tracker.debian.org/pkg/fsharp) tends to be less up-to-date than the packages above.
 
 <br />
+
 ### CentOS/RHEL/Amazon/Fedora
 {: #centos .anchor  }
 
@@ -66,6 +73,7 @@ This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`.
 
 
 <br />
+
 ### Gentoo/Sabayon/Funtoo/Calculate
 {: #gentoo .anchor  }
 
@@ -90,7 +98,8 @@ Alternatively there is an overlay available with current versions of various .NE
 <br />
 
 <br />
-## Option 2: Install from source
+
+## Option 3: Install from source
 
 
 1. Get Mono, the cross-platform, open source .NET runtime implementation used by F#. Preferably use a package from your distribution or Xamarin. If this is not possible, [install from source by following these instructions](https://github.com/mono/mono).
@@ -114,17 +123,20 @@ Alternatively there is an overlay available with current versions of various .NE
 
 
 <br />
+
 ## Other options
 
 <br />
 
 
 <br />
+
 ### Use a Vagrant VM on Windows
 
 To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
 
 <br />
+
 ### Slackware Slackbuild
 
 1. Get Mono Slackbuild from this page [http://slackbuilds.org/repository/14.1/development/mono/](http://slackbuilds.org/repository/14.1/development/mono/) and run :
@@ -136,6 +148,7 @@ To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.
     ./fsharp.SlackBuild
    
 <br />
+
 ### Using Nix on any Linux distribution or Mac OS X
 
 1. Install Nix if you don't already have it:
@@ -173,6 +186,7 @@ for the language. This makes smart auto-completion and compiling while you edit 
 increases the discoverability of features and programmer productivity in general.
 
 <br />
+
 ### Option 1: Visual Studio Code
 
 ![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
@@ -187,6 +201,7 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
 You will also need to install the F# packages from Step 1.
 
 <br />
+
 ### Option 2: JetBrains Rider
 
 ![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.

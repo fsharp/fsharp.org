@@ -19,33 +19,11 @@ See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx)
 
 <br />
 
-### Option 2: Install Visual Studio Code
+### Option 2: Install the .NET Core SDK
 
-![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
-supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
-F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration.
+You can use the .NET Core SDK to install F#. To learn more, see [Get started with F# with the .NET Core CLI](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows
-2. Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
-
-        ext install Ionide-fsharp
-
-You will also need to install the free F# compiler and command line tools in Step 4.
-
-<br />
-
-### Option 3: Install JetBrains Rider
-
-![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
-
-1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Windows.
-2. (optional) Install latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd)
-
-You will also need to install the free F# compiler and command line tools in Step 4.
-
-<br />
-
-### Option 4: Install the free F# compiler and tools alone
+### Option 3: Install the free F# compiler and tools alone
 
 If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then you have two primary options.
 
@@ -116,3 +94,32 @@ Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part 
 
 Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
 
+## Editors
+### Option 1: Visual Studio 2017
+
+See the section above to learn how to install Visual Studio 2017
+
+### Option 2: Install Visual Studio Code
+
+![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
+supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
+F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration.
+
+1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows
+2. Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
+
+        ext install Ionide-fsharp
+
+You will also need to install the free F# compiler and command line tools in Step 4.
+
+<br />
+
+### Option 3: Install JetBrains Rider
+
+![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+
+1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Windows.
+
+You will also need to install the free F# compiler and command line tools in Step 4.
+
+<br />
