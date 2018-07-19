@@ -58,7 +58,9 @@ Several F# machine learning packages are available. Some are accessed through F#
  * [Accord.MachineLearning](http://nuget.org/packages/Accord.MachineLearning/) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
    See also [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
 
- * [R Packages](http://bluemountaincapital.github.io/FSharpRProvider/) - All R packages can be accessed through the [RProvider for F#](http://bluemountaincapital.github.io/FSharpRProvider/).
+ * [ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet/) - ML.NET is an open source and cross-platform machine learning framework sponsored by Microsoft.
+
+ * [R Packages](http://fslab.org/RProvider/) - All R packages can be accessed through the [RProvider for F#](http://fslab.org/RProvider/).
    See, for example, [F# Neural Networks with the RProvider and Deedle](http://sergeytihon.wordpress.com/2013/11/18/f-neural-networks-with-rprovider-deedle/)
 
  * [Vulpes](https://github.com/SpiegelSoft/Vulpes) - A machine learning app using a deep belief network and connecting to the NVIDIA GPU unit using [Alea.cuBase](http://blog.quantalea.net/).
