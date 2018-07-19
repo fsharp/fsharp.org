@@ -15,10 +15,15 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#text">Text Programming</a>,
 <a href="#interop">Interop</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>,
 <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>,
-<a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#math">Math</a>,
+<a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#mobile">Mobile</a>, <a href="#math">Math</a>,
 <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>, <a href="#audioprocessing">Audio Processing</a>
 
 <br />
+
+<h2 class="anchor" id="compiler-and-core">Community Projects: Other Catalogs</h2>
+
+* [Awesome F#](https://github.com/fsprojects/awesome-fsharp) - A curated list of awesome F# frameworks, libraries, software and resources.
+
 
 <h2 class="anchor" id="compiler-and-core">Community Projects: Compiler and Core Library</h2>
 
@@ -30,39 +35,34 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="editing" class="anchor">Community Projects: Editing Tools</h2>
 
-*  ![logo](/images/thumbs/FSharpVSPowerTools.png)&nbsp;[Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools) - A collection of community-provided (editing, formatting, navigation, refactoring) commands for F# in Visual Studio, available in the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff).
-Contributions welcome!
+*  ![logo](/images/thumbs/vstudio.png)&nbsp;[Visual F# Tools](https://github.com/Microsoft/visualfsharp) - The IDE tools for F# that are part of Visual Studio. Contributions welcome!
 
-*  ![logo](/images/thumbs/ionide.png)&nbsp;[Ionide](http://ionide.io) - Set of Atom and VS Code plugins for F# development
+*  ![logo](/images/thumbs/ionide.png)&nbsp;[Ionide](http://ionide.io) - The Visual Studio Code plugin for F# development
 
-*  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/sublime-fsharp-package) - F# development tools for Sublime Text 3
+*  ![logo](/images/thumbs/vstudio.png)&nbsp;[Visual Studio for Mac](https://github.com/mono/monodevelop/tree/master/main/external/fsharpbinding/MonoDevelop.FSharpBinding) - The F# editing support in Visual Studio for Mac and MonoDevelop.
 
 *  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/vim-fsharp) - F# Language Binding for Vim
 
-*  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/xamarin-monodevelop-fsharp-addin) - F# AddIn for MonoDevelop, Xamarin Studio
-
 *  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/emacs-fsharp-mode) - F# Mode for Emacs
-
-*  [LightTable plugin for F#](https://github.com/enricosada/LightTable-FSharp) - LightTable plugin for F# language
 
 *  ![logo](/images/thumbs/fsharpbinding.png)&nbsp;[FsAutoComplete](https://github.com/fsharp/FsAutoComplete) - F# command line tool run as background process to serve information for editor tools such as Emacs, Vim, Sublime Text, Atom and VS Code
 
-*  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/dungpa/fantomas) - F# source code formatter, also included with the [Visual F# Power Tools](http://fsprojects.github.io/VisualFSharpPowerTools/)
+*  ![logo](/images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/fsprojects/fantomas) - F# source code formatter
 
 
 <br />
 
 <h2 class="anchor" id="literate" class="anchor">Community Projects: Literate Programming, Notebooks and Documentation</h2>
 
-*  [Elucidate](https://github.com/rookboom/Elucidate) - Visual Studio extension for rich inlined comments using markdown.
+* [iFSharp](https://github.com/fsprojects/IfSharp/) - IfSharp is an F# implementation for Jupyter notebooks.
 
 *  ![logo](/images/thumbs/FsReveal.png)&nbsp;[FsReveal](http://fsprojects.github.io/FsReveal/) - FsReveal parses markdown and F# script file and generates reveal.js slides.
 
 *  ![logo](/images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://fsprojects.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
-* [IfSharp](http://bayardrock.github.io/IfSharp/) - IfSharp is an F# implementation for iPython. It works with iPython Notebook 1.x and 2.x
-
 *  ![logo](/images/thumbs/FSDN.png)&nbsp;[FSDN](http://fsdn.azurewebsites.net/) - FSDN is a web application that uses F# API Search library. F# API Search library supports the standard signature of F# with some extentions. This document describes the F# API Search library specific formats.
+
+*  [Elucidate](https://github.com/rookboom/Elucidate) - Visual Studio extension for rich inlined comments using markdown.
 
    *  [FSDN GitHub project](https://github.com/fsdn-projects/FSDN)
 
@@ -79,7 +79,7 @@ Contributions welcome!
 
 *  ![logo](/images/thumbs/Paket.png)&nbsp;[Paket](http://fsprojects.github.io/Paket/) - A package dependency manager for .NET with support for NuGet packages and GitHub repositories
 
-*  [F# Type Provider Starter Pack](https://github.com/fsprojects/FSharp.TypeProviders.StarterPack) - Learning materials and code only NuGet package for writing type providers
+*  [F# Type Provider SDK](https://github.com/fsprojects/FSharp.TypeProviders.SDK) - Learning materials and code only NuGet package for writing type providers
 
 *  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
 
@@ -171,7 +171,7 @@ Contributions welcome!
 
 <h2 class="anchor" id="interop" class="anchor">Community Projects: Interoperability</h2>
 
-*  [R Provider](http://bluemountaincapital.github.io/FSharpRProvider/) - An F# type provider for higher-fidelity integration between F# and R. See [Data Science](#data-science) below.
+*  [R Provider](http://fslab.org/FSharpRProvider/) - An F# type provider for higher-fidelity integration between F# and R. See [Data Science](#data-science) below.
 
 *  [COM Type Provider](http://fsprojects.github.io/FSharp.Interop.ComProvider/) - The COM Type Provider provides a new way to do COM interop from F#. It allows you to access COM components directly from F# projects and scripts without adding any references other than the type provider itself.
 
@@ -185,14 +185,14 @@ Contributions welcome!
 
 *  [FsLab](http://fslab.org) - FsLab is a collection of libraries for data-science. It provides a rapid development envi­ronment that lets you write advanced analysis with few lines of production-quality code.
 
-*  ![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://bluemountaincapital.github.io/Deedle/) - Deedle is an open, easy to use library for data
+*  ![logo](/images/thumbs/Deedle.png)&nbsp;[Deedle](http://fslab.org/Deedle/) - Deedle is an open, easy to use library for data
    and time series manipulation and for scientific programming. It supports working with structured data
    frames, ordered and unordered data, as well as time series. Deedle is designed to work well for
    exploratory programming using F# and C# interactive console, but can be also used in
    efficient compiled .NET code. You can financial users of F# including BlueMountatin Capital
    in contributing to this library.
 
-*  ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[The R Type Provider for F#](http://bluemountaincapital.github.io/FSharpRProvider/) - An F# type
+*  ![logo](/images/thumbs/FSharpRProvider.png)&nbsp;[The R Type Provider for F#](http://fslab.org/RProvider/) - An F# type
    provider for higher-fidelity integration between F# and R. Primary contributors are BlueMountain Capital, a hedge
    fund, other contributors are warmly welcomed.
 
@@ -203,25 +203,21 @@ Contributions welcome!
 
 *  [Vulpes](https://github.com/SpiegelSoft/Vulpes) - A machine learning app using a deep belief network and connecting to the NVIDIA GPU unit using [Alea.cuBase] (http://blog.quantalea.net/).
 
-*  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](https://github.com/BlueMountainCapital/FSharpRProvider).
+*  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](http://fslab.org/RProvider).
 
 *  ![logo](/images/thumbs/HypeLogo32.png)&nbsp;[Hype](http://hypelib.github.io/Hype/) - An experimental deep learning library, where you can perform optimization on compositional machine learning systems of many components, even when such components themselves internally perform optimization. Underlying computations are run by a BLAS/LAPACK backend (OpenBLAS by default).
 <br />
 
 <h2 class="anchor" id="visualization" class="anchor">Community Projects: Visualization Tools</h2>
 
-*  ![logo](/images/thumbs/FSharp.Charting.png)&nbsp;[FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - The FSharp.Charting library implements charting
+*  ![logo](/images/thumbs/FSharp.Charting.png)&nbsp;[FSharp.Charting](http://fslab.org/FSharp.Charting/) - The FSharp.Charting library implements charting
    suitable for use from F# scripting.
 
-*  [XPlot](http://tahahachana.github.io/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries.
+*  [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries.
    It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.
    You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
-*  [FsPlot](http://tahahachana.github.io/FsPlot/) - FsPlot is an interactive data visualization library for F# using HTML5/JavaScript.
-
 *  [VegaHub](http://panesofglass.github.io/VegaHub) - SignalR hub accessible from F# interactive with charting made through the [vega](http://trifacta.github.io/vega/) JavaScript library.
-
-*  ![logo](/images/thumbs/Foogle.Charts.png)&nbsp;[Foogle Charts](http://fsprojects.github.io/Foogle.Charts/) - Easy to use F# wrapper for Google Charts visualization library .
 
 <br />
 
@@ -240,9 +236,17 @@ Contributions welcome!
 
 <br />
 
+<h2 class="anchor" id="mobile" class="anchor">Community Projects: Mobile Programming</h2>
+
+*  [Elmish.XamarinForms](https://fsprojects.github.io/Elmish.XamarinForms/) - Allows you to use the Elm architecture, to build Xamarin.Forms applications for iOS, Android, Mac and more
+
+*  [Fable + React Native](https://github.com/fable-compiler/fable-react-native/) - Allows you to use Fable + React Native to write mobile applications
+
 <h2 class="anchor" id="ui" class="anchor">Community Projects: Client User Interfaces</h2>
 
 *  [FsXaml](https://github.com/fsprojects/FsXaml) - F# Tools for working with XAML Projects
+
+*  [Gjallarhorn](http://reedcopsey.github.io/Gjallarhorn/) - Gjallarhorn is a library designed to manage notifications and mutable state. It provides mechanisms for signaling of changes, represented via signals
 
 *  ![logo](/images/thumbs/Tamarin.png)&nbsp;[Tamarin](https://github.com/fsprojects/Tamarin) - F# MVC framework for Xamarin.Forms
 
