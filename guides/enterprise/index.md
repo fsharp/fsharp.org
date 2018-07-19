@@ -142,11 +142,12 @@ the safety of static types, and the ease of use of intellisense.
 
 #### Using F# to analyze data
 
-F# also has powerful tools to analyze and process data, such as [Deedle](http://bluemountaincapital.github.io/Deedle/) (for data and time series manipulation)
-and the [R type provider](http://bluemountaincapital.github.io/FSharpRProvider/) which makes it possible to use all of R's capabilities from the F# interactive environment,
+F# also has powerful tools to analyze and process data, such as [Deedle](http://fslab.org/Deedle/) (for data and time series manipulation)
+and the [R type provider](http://fslab.org/RProvider/) which makes it possible to use all of R's capabilities from the F# interactive environment,
 including on-the-fly charting and data analysis.
 
 * [Information Rich Programming in F#](https://channel9.msdn.com/Blogs/Charles/C9-Lectures-Donna-Malayeri-F-30-Information-Rich-Programming-1-of-1) (video).
+
 * [How F# Learned to Stop Worrying and Love the Data](https://channel9.msdn.com/posts/Tomas-Petricek-How-F-Learned-to-Stop-Worrying-and-Love-the-Data) and [Understanding the World with F#](https://channel9.msdn.com/posts/Understanding-the-World-with-F) (video).
   In these demos, you'll learn how to acquire and understand data with F#.
   You'll see how to analyze the survival rate of Titanic passengers, how to correlate different indicators 
