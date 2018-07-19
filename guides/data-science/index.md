@@ -136,7 +136,7 @@ There are also some F# versions of Excel functions, useful when migrating code:
 
 Resources:
 
- * [R Type Provider for F#](http://fslab.org/FSharpRProvider) - An F# type provider for high fidelity integration between F# and R
+ * [R Type Provider for F#](http://fslab.org/RProvider) - An F# type provider for high fidelity integration between F# and R
  * [R.NET](https://github.com/jmp75/rdotnet) - Core interoperability component used by the R Type Provider with some F# extensions.
 
 <br />
