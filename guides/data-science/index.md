@@ -51,7 +51,7 @@ Data science also requires strong support for many technologies covered in other
 
 * [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
 
-* [XPlot](http://tahahachana.github.io/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
+* [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
 * [FSharp.Plotly](http://muehlhaus.github.io/FSharp.Plotly/index.html) - a powerful and free charting library. FSharp.Plotly provids Plotly's awesome graphing support with strongly typed style options for F#. 
 
@@ -71,7 +71,7 @@ See below for more details and the following tutorials specific to visualization
 ### Time Series Programming
 {:  .anchor }
 
-[Deedle](http://bluemountaincapital.github.io/Deedle/) is an easy-to-use, high quality 
+[Deedle](http://fslab.org/Deedle/) is an easy-to-use, high quality 
 package for data and time series manipulation and for scientific programming. 
 It uses a design similar to the Pandas library from Python and the 'tseries' or 'zoo' packages in R, though
 with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
@@ -136,8 +136,8 @@ There are also some F# versions of Excel functions, useful when migrating code:
 
 Resources:
 
- * [R Type Provider for F#](http://bluemountaincapital.github.io/FSharpRProvider) - An F# type provider for high fidelity integration between F# and R
- * [R.NET](http://rdotnet.codeplex.com) - Core interoperability component used by the R Type Provider with some F# extensions.
+ * [R Type Provider for F#](http://fslab.org/FSharpRProvider) - An F# type provider for high fidelity integration between F# and R
+ * [R.NET](https://github.com/jmp75/rdotnet) - Core interoperability component used by the R Type Provider with some F# extensions.
 
 <br />
 ### F# and MATLAB 
