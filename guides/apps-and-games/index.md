@@ -88,5 +88,6 @@ Mobile.
 
 * [Nu Game Engine](https://github.com/bryanedds/FPWorks) - A cross-platform F# 2D game engine built in the functional style. Uses SDL2 and Farseer Physics.
 
+* [Tetris](https://github.com/ChrisPritchard/Tetris) - Tetris in F#, Dotnet Core and MonoGame. An exercise in functional, immutable game logic.
 
-
+* [MiniKnight](https://github.com/ChrisPritchard/MiniKnight) - A 2D platformer in F#, Dotnet Core and MonoGame. Pixel graphics, music and sound effects included!
