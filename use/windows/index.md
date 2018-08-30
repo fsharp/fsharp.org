@@ -4,18 +4,13 @@ title: Use F# on Windows | The F# Software Foundation
 headline: Use F# on Windows
 ---
 
+### Option 1: Install Visual Studio
 
-### Option 1: Install the Visual F# Tools from Microsoft
+![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual Studio tools for F#.
 
-![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual F# Tools from Microsoft.
+* [Visual Studio 2017](https://www.visualstudio.com/downloads/) comes with F# support in all its editions: Community, Professional and Enterprise. Community is completely free. See [Get started with F# in Visual Studio](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-visual-studio) for more information.
 
-* [Visual Studio 2017](https://www.visualstudio.com/downloads/) comes with F# support in all its editions: Community, Professional and Enterprise. The installer includes it with some of the selectable workloads, or you can select it manually in the "Individual components" tab: under the "Development activities" category, check "F# language support".
-
-* If you already have Visual Studio 2012/13/15 Professional or above, you can use that. All recent versions of Visual Studio come with the Visual F# Tools. The Visual F# Tools are installed automatically when you first create or open an F# project. You can also install the support [directly as a separate download](https://www.microsoft.com/en-us/download/details.aspx?id=48179).
-
-* Otherwise, install the free [Visual Studio 2017 Community](http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx).
-
-See [Visual F# Resources](http://msdn.microsoft.com/en-us/vstudio/hh388569.aspx) for more information about the Visual F# Tools from Microsoft.
+* If you already have Visual Studio 2012/13/15 Professional or above, you can use that. They also include F# support, though the tooling is not as advanced as in Visual Studio 2017.
 
 <br />
 
@@ -30,7 +25,7 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
 
         ext install Ionide-fsharp
 
-You will also need to install the free F# compiler and command line tools in Step 4.
+You will also need to install either Visual Studio or the F# compiler and build tools in step 4.
 
 <br />
 
@@ -41,70 +36,39 @@ You will also need to install the free F# compiler and command line tools in Ste
 1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Windows.
 2. (optional) Install latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd)
 
-You will also need to install the free F# compiler and command line tools in Step 4.
+You will also need to install either Visual Studio or the F# compiler and build tools in step 4.
 
 <br />
 
-### Option 4: Install the free F# compiler and tools alone
+### Option 4: Install the Visual Studio 2017 Build Tools
 
-If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then you have two primary options.
+If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then the Visual Studio 2017 Build Tools are your best option.
 
-#### Option A: Visual Studio 2017 Build Tools 
+The [Visual Studio 2017 Build Tools SKU](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017), despite the name, actually does not install Visual Studio. It just installs MSBuild and various other compiler toolchains.
 
-The [Visual Studio 2017 Build Tools SKU](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017), despite the name, actually does not install Visual Studio.  It installs MSBuild and various other build tools and compiler toolchains.
+Simply select F# from the Individual Components tab (or on the right-hand side in the MSBuild workload) and press **Install**.
 
-Starting with Visual Studio 2017 Update 3, F# is an optional component.  Simply select F# from the Individual Components tab and press **Install**.
+The installation location will be:
 
-#### Option B: Standalone installations
+```
+C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\Common7\IDE\CommonExtensions\Microsoft\FSharp
+```
 
-1. Requires .NET 4.5:
+#### Older F# installations
 
-   - On Windows 10 .NET 4.6 is already present by default
+The following downloads are unsupported (i.e., you will be asked to upgrade your compiler if you find a bug), but they can be used on build servers for older F# projects if you do not wish to use a newer compiler to compile these older projects.
 
-   - On Windows 8 and Windows 2012 Server, this is already present by default
-   
-   - On Windows 7 and Windows 2008 Server, [install .NET 4.5](https://www.microsoft.com/en-US/download/details.aspx?id=30653) from Microsoft
-
-2. Requires the Windows SDK:
-
-   - On Windows 10 use the [Windows 10 and .NET 4.6 SDK](https://dev.windows.com/en-US/downloads/windows-10-sdk) from Microsoft
-
-   - On Windows 8.1 use the [Windows 8.1 and .NET 4.5.1 SDK](http://msdn.microsoft.com/windows/desktop/bg162891) from Microsoft
-   
-   - On Windows 8 or Windows 2012 Server use the [Windows 8 and .NET 4.5 SDK](http://msdn.microsoft.com/windows/hardware/hh852363.aspx) from Microsoft
-   
-   - On Windows 7 or Windows 2008 Server use the [Windows 7 and .NET 4.0 SDK](http://www.microsoft.com/download/details.aspx?id=8279) from Microsoft
- 
-3. Requires Microsoft Build Tools 2017 if you don't have it on the box already - [Install Microsoft Build Tools 2017 through the Build Tools SKU of VS 2017](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017)
-
-    (Note: Although this download says Visual Studio 2017, the Build Tools SKU does not install Visual Studio.  Only MSBuild and other tools required for build servers.)
-
-4. [Install the free F# 4.1 Compiler SDK](http://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi) from Microsoft
-
-   Alternatively, do a quiet install from a PowerShell administrator prompt (the URL is the redirect of the above). 
-
-        Invoke-WebRequest -Uri "https://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi" -OutFile "$pwd\Microsoft.FSharp.SDK.Core.msi"
-        msiexec /i Microsoft.FSharp.SDK.Core.msi /quiet
-
-The compiler tools on 64-bit Windows are installed at
-
-    C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\fsc.exe
-    C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\fsi.exe
-    C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\fsiAnyCpu.exe
-    
-The compiler tools on 32-bit Windows are installed at
-
-    C:\Program Files\Microsoft SDKs\F#\4.1\Framework\v4.9\fsc.exe
-    C:\Program Files\Microsoft SDKs\F#\4.1\Framework\v4.0\fsi.exe
-    C:\Program Files\Microsoft SDKs\F#\4.1\Framework\v4.0\fsiAnyCpu.exe
-
-Previous versions:
-
+* [F# 4.1 Compiler SDK](http://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi)
 * [Visual F# Tools 4.0](https://download.microsoft.com/download/9/1/2/9122D406-F1E3-4880-A66D-D6C65E8B1545/FSharp_Bundle.exe)
-* [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkId=261286)
+* [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkId=261286
+
+The installation location will be under:
+
+```
+C:\Program Files (x86)\Microsoft SDKs\F#
+```
     
 <br />
-
 
 ### Option 5: Run already compiled F# code on servers
 
@@ -115,4 +79,3 @@ Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part 
 ### Option 6: Build F# from source
 
 Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
-
