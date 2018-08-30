@@ -60,7 +60,7 @@ The following downloads are unsupported (i.e., you will be asked to upgrade your
 
 * [F# 4.1 Compiler SDK](http://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi)
 * [Visual F# Tools 4.0](https://download.microsoft.com/download/9/1/2/9122D406-F1E3-4880-A66D-D6C65E8B1545/FSharp_Bundle.exe)
-* [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkId=261286
+* [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkId=261286)
 
 The installation location will be under:
 
