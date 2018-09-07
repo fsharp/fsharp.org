@@ -20,6 +20,8 @@ F# executes on a broad range of app and gaming platforms such as  [Android](/use
 
 * [Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
 
+* [Fabulous](http://fsprojects.github.io/Fabulous) - F# Functional App Development for Android, iOS and more (Elmish for Xamarin.Forms)
+
 * [Xamarin](http://docs.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_development) - Use F# to develop for iOS, Android, Mac and Windows development
 
 * [MonoGame](http://www.monogame.net/) is an open implementation of a cross-platform gaming framework originally
@@ -27,9 +29,9 @@ based on the XNA 4 framework design. The goal of the project is to allow XNA dev
 Windows Phone to port their games to the iOS, Android, Mac OS X, Linux, Windows 8 Metro, and PlayStation 
 Mobile.  
 
- * [Unity3D](https://github.com/eriksvedang/FSharp-Unity) Unity3D is a popular closed source game engine. 
+* [Unity3D](https://github.com/eriksvedang/FSharp-Unity) Unity3D is a popular closed source game engine. 
  
- * [Urho3D](https://github.com/xamarin/urho) Open source implementation in Urho.
+* [Urho3D](https://github.com/xamarin/urho) Open source implementation in Urho.
 
 
 ## Resource Links
