@@ -240,7 +240,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="mobile" class="anchor">Community Projects: Mobile Programming</h2>
 
-*  [Elmish.XamarinForms](https://fsprojects.github.io/Elmish.XamarinForms/) - Allows you to use the Elm architecture, to build Xamarin.Forms applications for iOS, Android, Mac and more
+*  [Fabulous](https://fsprojects.github.io/Fabulous/) - Allows you to use the Elm architecture (Redux/Flow/MVU), to build Xamarin.Forms applications for iOS, Android, Mac and more
 
 *  [Fable + React Native](https://github.com/fable-compiler/fable-react-native/) - Allows you to use Fable + React Native to write mobile applications
 
