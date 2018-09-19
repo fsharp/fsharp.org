@@ -18,7 +18,9 @@ Once you sign into the Slack team, there are various channels containing topics 
 * [#beginners](https://fsharp.slack.com/messages/beginners/): Questions and answers for beginners coming to F# and the F# Community
 * [#code](https://fsharp.slack.com/messages/code/): Code-focused discussion on any F# related topic
 * [#web](https://fsharp.slack.com/messages/web/): Discussion focused on using F# with web based technologies
+* [#mobiledev](https://fsharp.slack.com/messages/mobiledev/): Discussion focused on using F# with mobile technologies
 * [#compiler](https://fsharp.slack.com/messages/compiler/): Discussion surrounding the F# compiler and FSharp.Core
+* [#langdesign](https://fsharp.slack.com/messages/compiler/): Discussion surrounding the F# language design
 * [#editor_support](https://fsharp.slack.com/messages/editor_support/): Discussion focused on adding IDE support for F#
 * [#jobs](https://fsharp.slack.com/messages/jobs/): Job and career related discussions for F# Software Foundation members
 * [#dotnetcore](https://fsharp.slack.com/messages/dotnetcore/): Discussion around F# support for .NET Core, as well as porting libraries
