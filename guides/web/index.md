@@ -90,6 +90,18 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 
 <br />
 
+#### Freya
+{: #freya    .anchor }
+
+[Freya](https://github.com/xyncro/freya) provides a functional web stack built on top of [OWIN](http://owin.org/). At its core, Freya wraps the OWIN environment dictionary with a computation expression and provides access to that dictionary with lenses. Additional layers of the stack provide types based on the HTTP and related RFCs, a pipeline abstraction for connecting Freya computations, a router, and an implementation of the [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram), like that found in [webmachine](https://github.com/basho/webmachine).
+
+* [NuGet](http://www.nuget.org/packages?q=freya)
+* [GitHub](https://github.com/xyncro/freya)
+* [Docs](https://freya.io/)
+* Install the project template with `dotnet new --install Freya.Template`
+
+<br />
+
 #### NancyFx
 {: #nancyfx    .anchor }
 
@@ -137,31 +149,6 @@ Some resources on using F# with Web API:
 
 <br />
 
-#### Freya
-{: #freya    .anchor }
-
-[Freya](https://github.com/freya-fs/freya) provides a functional web stack built on top of [OWIN](http://owin.org/). At its core, Freya wraps the OWIN environment dictionary with a computation expression and provides access to that dictionary with lenses. Additional layers of the stack provide types based on the HTTP and related RFCs, a pipeline abstraction for connecting Freya computations, a router, and an implementation of the [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram), like that found in [webmachine](https://github.com/basho/webmachine).
-
-* [NuGet](http://www.nuget.org/packages?q=freya)
-* [GitHub](https://github.com/freya-fs/freya)
-* [Introductory slide deck](https://github.com/freya-fs/freya.intro)
-* [Examples (WIP)](https://github.com/freya-fs/freya.examples)
-* [Docs (WIP)](https://github.com/freya-fs/freya.documentation)
-
-<br />
-
-#### Frank
-{: #frank    .anchor }
-
-[Frank](https://github.com/frank-fs/frank) provides combinators for composing web applications using the types in `System.Net.Http`, the library that drives ASP.NET Web API.
-
-* [NuGet](http://www.nuget.org/packages/Frank)
-* [GitHub](https://github.com/frank-fs/frank)
-* [Web-host example](https://github.com/frank-fs/Frank.Samples.WebHost)
-* [Self-host example](https://github.com/frank-fs/Frank.Samples.SelfHost)
-
-<br />
-
 #### SignalR
 {: #signalr    .anchor }
 
@@ -181,6 +168,18 @@ One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.m
 [ServiceStack](https://servicestack.net/) is a framework for simple and fast web services on .NET and Mono.
 
 <br />
+
+#### ASP.NET Blazor
+{: #blazor .anchor }
+
+[ASP.NET Blazor](https://blazor.net/) is a web framework for running .NET on [WebAssembly](https://webassembly.org/) similar to React, Angular, Vue, etc. It uses Razor `.cshtml` files to define components and render but can be used with F# libraries.
+
+[BlazorRedux](https://github.com/torhovland/blazor-redux) provides Redux-like state management for Blazor and works well with F#.
+
+[Trail](https://github.com/panesofglass/trail) provides an F# DSL for rendering in Blazor, allowing for a complete F# solution.
+
+<br />
+
 
 ------
 
@@ -216,6 +215,7 @@ Some open source libraries that assist with web unit testing are:
 {:  .anchor }
 
 <br />
+
 #### TodoBackend
 {:  .anchor }
 
@@ -223,7 +223,6 @@ Some open source libraries that assist with web unit testing are:
 
 * [F# - Freya (OWIN)](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/owin)
 * [F# - ASP.NET Web API](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/webapi)
-* [F# - Frank](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/frank)
 
 Please consider contributing, either directly to the TodoBackend project or via the [TodoBackendFSharp](https://github.com/panesofglass/TodoBackendFSharp) project.
 
