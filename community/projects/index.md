@@ -69,6 +69,8 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
    *  [FSDN GitHub project](https://github.com/fsdn-projects/FSDN)
 
    *  [F# API Search library project](https://github.com/hafuu/FSharpApiSearch)
+   
+*  [RemarkFS](https://github.com/lqdev/RemarkFS) - F# Markdown slide creation tool based on [Remark](https://github.com/gnab/remark)
 
 <br />
 
