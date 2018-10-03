@@ -11,7 +11,7 @@ supporting [a lot of languages](https://code.visualstudio.com/docs/languages/ove
 F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration.
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Mac
-1. Install the [latest version of Mono](http://www.mono-project.com/download/#download-mac) from the Mono project or via Homebrew (see option 5 below).
+1. Install the [latest version of Mono](https://www.mono-project.com/download/stable/#download-mac) from the Mono project or via Homebrew (see option 5 below).
 1. Add Mono `/bin` folder to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
 1. Go back to VS Code, press `Cmd+P` and enter the following to install the Ionide package.
 
@@ -37,7 +37,7 @@ go further. For 64-bit support, see below.
 ![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
 1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Mac.
-2. Install the [latest version of Mono](http://www.mono-project.com/download/#download-mac).
+2. Install the [latest version of Mono](https://www.mono-project.com/download/stable/#download-mac).
 3. Ensure Mono `/bin` folder is added to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
 
 <br />
@@ -52,7 +52,7 @@ You can use the .NET Core CLI to install F#. To learn more, see [Get started wit
 
 To use the F# command-line compiler via Mono and tools on Mac OSX:
 
-*  [Install Mono](http://www.go-mono.com/mono-downloads/download.html). Use version 4.2.0 or later.
+*  [Install Mono](https://www.mono-project.com/download/stable/#download-mac). Use version 4.2.0 or later.
 *  Add Mono `/bin` folder to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
 
 See the [Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform) to
