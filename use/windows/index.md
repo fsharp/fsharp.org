@@ -25,7 +25,7 @@ F# is supported by the [Ionide](http://ionide.io/) project and is a nice integra
 
         ext install Ionide-fsharp
 
-You will also need to install either Visual Studio or the F# compiler and build tools in step 4.
+You will also need to install either Visual Studio or the F# compiler and build tools in option 4.
 
 <br />
 
@@ -36,7 +36,7 @@ You will also need to install either Visual Studio or the F# compiler and build 
 1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Windows.
 2. (optional) Install latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd)
 
-You will also need to install either Visual Studio or the F# compiler and build tools in step 4.
+You will also need to install either Visual Studio or the F# compiler and build tools in option 4.
 
 <br />
 
