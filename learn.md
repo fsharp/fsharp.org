@@ -84,6 +84,10 @@ A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) incl
 Site which allows interactive searches by an F# API. The [F# API Search library](https://github.com/hafuu/FSharpApiSearch) document describes the search formats, which support the standard signature of F# with some extentions.  
 Source code available on [GitHub FSDN](https://github.com/fsdn-projects/FSDN)
 
+### [F# Tutorials](https://gitconnected.com/learn/f-sharp)
+
+F# tutorials submitted and ranked by F# developers. Filter and find the best tutorials that fit your learning style.
+
 <h2 id="courses" class="anchor">F# Courses - General</h2>
 
 ### [Introduction to F#](https://fsharp.tv/courses/fsharp-programming-intro/)
