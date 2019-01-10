@@ -66,54 +66,6 @@ This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`.
 
 
 <br />
-### Gentoo/Sabayon/Funtoo/Calculate
-{: #gentoo .anchor  }
-
-From portage tree:
-
-       emerge fsharp
-
-Alternatively there is an overlay available with current versions of various .NET programs, including F#, FAKE, NuGet and others.
-
-1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
-   
-       layman -a dotnet 
-   
-2. Now you can build F#.
-   
-       emerge fsharp
-   
-3. (Optional) There are emacs mode and monodevelop bindings, you can chose what you want by setting use flags alike in following example:
-   
-       USE="+emacs -monodevelop" emerge fsharpbinding
-
-<br />
-
-<br />
-## Option 2: Install from source
-
-
-1. Get Mono, the cross-platform, open source .NET runtime implementation used by F#. Preferably use a package from your distribution or Xamarin. If this is not possible, [install from source by following these instructions](https://github.com/mono/mono).
-
-   Note that if you are installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure `LD_LIBRARY_PATH` includes the "lib" directory of that prefix location and `PKG_CONFIG_PATH` includes the "lib/pkgconfig" directory of that prefix location, e.g.
-   
-        export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/mono/lib/
-        export PKG_CONFIG_PATH=/home/user/mono/lib/pkgconfig/
-
-2. Build and install the F# Compiler (open edition) from source. If using a VM or other memory-constrained system, be aware that errors during compilation may be due to insufficient memory (in particular error 137).
-
-        sudo apt-get install autoconf libtool pkg-config make git automake
-        git clone https://github.com/fsharp/fsharp
-        cd fsharp
-        make
-        sudo make install
-
-   If installing to a different prefix, use the same prefix as for the Mono runtime above.
-
-<br />
-
-
-<br />
 ## Other options
 
 <br />
