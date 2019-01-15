@@ -210,6 +210,9 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](http://fslab.org/RProvider).
 
 *  ![logo](/images/thumbs/HypeLogo32.png)&nbsp;[Hype](http://hypelib.github.io/Hype/) - An experimental deep learning library, where you can perform optimization on compositional machine learning systems of many components, even when such components themselves internally perform optimization. Underlying computations are run by a BLAS/LAPACK backend (OpenBLAS by default).
+
+*  ![logo](/images/thumbs/BioFSharp_small.png)&nbsp;[BioFSharp](https://csbiology.github.io/BioFSharp/) - BioFSharp is an open source F# bioinformatics library and toolbox. It provides data structures for common biological entities like amino acids and nucleotides, as well as various algorithms suited for computational biology. Additionally, it contains a steadily growing amount of parsers for biological file formats. Contributors welcome!
+
 <br />
 
 <h2 class="anchor" id="visualization" class="anchor">Community Projects: Visualization Tools</h2>
