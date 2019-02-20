@@ -27,8 +27,8 @@ If you want to be a mentor or be mentored, please [register here](register.html)
 
 ### What is the current status of the program?
 
-* The registrations for the 6th round are open, you can sign up [here](https://goo.gl/forms/H3CNyMA4RWFSOZrp2).
-* The registrations will close the 3rd of February 2019.
+* The registrations for the 6th round are closed.
+* The registrations for the 7th round will open August 2019.
 
 
 Thanks for your patience, we will provide further information soon here and on twitter [@fsharporg](https://twitter.com/fsharporg).
