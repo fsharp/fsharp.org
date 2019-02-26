@@ -25,12 +25,12 @@ Microsoft contributes comprehensive F# documentation that includes general infor
 about F#, a language reference explaining all F# constructs as well as documentation for 
 the standard F# library.
 
- * [F# Language Reference](http://msdn.microsoft.com/en-us/library/dd233181.aspx) - 
+ * [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/) - 
    Provides reference information about the F# language, including information about keywords, symbols, and operators.
-
+<!--- Broken, not able to find...
  * [F# Core Library Reference](http://msdn.microsoft.com/en-us/library/ee353567.aspx) - 
    Provides reference information about the F# core library, `FSharp.Core.dll`.
-
+-->
 
 ## Specification
 
