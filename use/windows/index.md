@@ -20,12 +20,12 @@ headline: Use F# on Windows
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
 F# is supported by the [Ionide](http://ionide.io/) project.
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows
+1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows.
 2. Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
 
         ext install Ionide-fsharp
 
-You will also need to install either Visual Studio or the [Visual Studio 2019 Build Tools](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019). (See http://ionide.io/ for more information.)
+You will also need to install either Visual Studio or the [Visual Studio 2019 Build Tools](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019). (See [Ionide](http://ionide.io/) for more information.)
 
 <br />
 
@@ -34,7 +34,7 @@ You will also need to install either Visual Studio or the [Visual Studio 2019 Bu
 ![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
 1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Windows.
-2. (optional) Install latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd)
+2. (optional) Install the latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd).
 
 You will also need either to install Visual Studio or to follow the steps [here](https://rider-support.jetbrains.com/hc/en-us/articles/207288089-Using-Rider-under-Windows-without-Visual-Studio-prerequisites).
 
@@ -48,4 +48,4 @@ If you're just looking for F# command-line tools, e.g. for a build server or clo
 
 ### Option 5: Build F# from source
 
-Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
+Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp).
