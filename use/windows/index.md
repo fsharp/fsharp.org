@@ -56,12 +56,6 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\Commo
     
 <br />
 
-### Option 5: Run already compiled F# code on servers
-
-Compiled F# code depends on the FSharp.Core.dll assembly. This file is not part of a standard .NET installation, so in order to execute applications written in F# on servers (or other machines without developer tools), it must be installed or bundled with your application. The recommended procedure is to bundle this component with your final application. The *Visual F# Tools* downloads from Microsoft installs FSharp.Core.dll into GAC.
-
-<br />
-
-### Option 6: Build F# from source
+### Option 5: Build F# from source
 
 Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp)
