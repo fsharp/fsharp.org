@@ -50,4 +50,4 @@ If you're just looking for F# command-line tools, e.g. for a build server or clo
 
 ### Option 5: Build F# from source
 
-Build and contribute to the F# compiler and library from [the source](https://github.com/Microsoft/visualfsharp).
+Build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp).
