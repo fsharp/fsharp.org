@@ -27,6 +27,8 @@ F# is supported by the [Ionide](http://ionide.io/) project.
 
 You will also need to install either Visual Studio or the [Visual Studio 2019 Build Tools](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019). (See [Ionide](http://ionide.io/) for more information.)
 
+Warning: until [Ionide 4.0](https://github.com/ionide/ionide-vscode-fsharp/issues/1108) is released, avoid using the integrated project creation; instead create new F# projects using the command line ([`dotnet new`](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line)).
+
 <br />
 
 ### Option 3: Install JetBrains Rider
