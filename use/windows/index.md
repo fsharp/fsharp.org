@@ -18,14 +18,14 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
-F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration.
+F# is supported by the [Ionide](http://ionide.io/) project.
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows
 2. Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
 
         ext install Ionide-fsharp
 
-You will also need to install either Visual Studio or the F# compiler and build tools in option 4.
+You will also need to install either Visual Studio or the [Visual Studio 2019 Build Tools](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019). (See http://ionide.io/ for more information.)
 
 <br />
 
@@ -36,24 +36,14 @@ You will also need to install either Visual Studio or the F# compiler and build 
 1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Windows.
 2. (optional) Install latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd)
 
-You will also need to install either Visual Studio or the F# compiler and build tools in option 4.
+You will also need either to install Visual Studio or to follow the steps [here](https://rider-support.jetbrains.com/hc/en-us/articles/207288089-Using-Rider-under-Windows-without-Visual-Studio-prerequisites).
 
 <br />
 
-### Option 4: Install the Visual Studio 2019 Build Tools
+### Option 4: Install the .NET Core SDK
 
-If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then the Visual Studio 2019 Build Tools are your best option.
+If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then the .NET Core SDK is your best option. To learn more, see [Get started with F# with the .NET Core CLI](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
 
-The [Visual Studio 2019 Build Tools SKU](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019), despite the name, actually does not install Visual Studio. It just installs MSBuild and various other compiler toolchains.
-
-Simply select F# from the Individual Components tab (or on the right-hand side in the MSBuild workload) and press **Install**.
-
-The installation location will be:
-
-```
-C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\FSharp
-```
-    
 <br />
 
 ### Option 5: Build F# from source
