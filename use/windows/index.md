@@ -8,9 +8,9 @@ headline: Use F# on Windows
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual Studio tools for F#.
 
-* [Visual Studio 2017](https://www.visualstudio.com/downloads/) comes with F# support in all its editions: Community, Professional and Enterprise. Community is completely free. See [Get started with F# in Visual Studio](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-visual-studio) for more information.
+* [Visual Studio 2019](https://www.visualstudio.com/downloads/) comes with F# support in all its editions: Community, Professional and Enterprise. Community is completely free. See [Get started with F# in Visual Studio](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-visual-studio) for more information.
 
-* If you already have Visual Studio 2012/13/15 Professional or above, you can use that. They also include F# support, though the tooling is not as advanced as in Visual Studio 2017.
+* If you already have Visual Studio 2015/17, you can use that. They also include F# support, though the tooling is not as advanced as in Visual Studio 2019.
 
 <br />
 
@@ -40,32 +40,18 @@ You will also need to install either Visual Studio or the F# compiler and build 
 
 <br />
 
-### Option 4: Install the Visual Studio 2017 Build Tools
+### Option 4: Install the Visual Studio 2019 Build Tools
 
-If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then the Visual Studio 2017 Build Tools are your best option.
+If you're just looking for F# command-line tools, e.g. for a build server or cloud VM image, then the Visual Studio 2019 Build Tools are your best option.
 
-The [Visual Studio 2017 Build Tools SKU](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017), despite the name, actually does not install Visual Studio. It just installs MSBuild and various other compiler toolchains.
+The [Visual Studio 2019 Build Tools SKU](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019), despite the name, actually does not install Visual Studio. It just installs MSBuild and various other compiler toolchains.
 
 Simply select F# from the Individual Components tab (or on the right-hand side in the MSBuild workload) and press **Install**.
 
 The installation location will be:
 
 ```
-C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\Common7\IDE\CommonExtensions\Microsoft\FSharp
-```
-
-#### Older F# installations
-
-The following downloads are unsupported (i.e., you will be asked to upgrade your compiler if you find a bug), but they can be used on build servers for older F# projects if you do not wish to use a newer compiler to compile these older projects.
-
-* [F# 4.1 Compiler SDK](http://download.microsoft.com/download/F/3/D/F3D6045E-4040-4058-ADAD-2698F1793CBC/Microsoft.FSharp.SDK.Core.msi)
-* [Visual F# Tools 4.0](https://download.microsoft.com/download/9/1/2/9122D406-F1E3-4880-A66D-D6C65E8B1545/FSharp_Bundle.exe)
-* [Visual F# Tools 3.0](http://go.microsoft.com/fwlink/?LinkId=261286)
-
-The installation location will be under:
-
-```
-C:\Program Files (x86)\Microsoft SDKs\F#
+C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\FSharp
 ```
     
 <br />
