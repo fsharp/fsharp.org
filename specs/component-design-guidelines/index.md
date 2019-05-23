@@ -246,7 +246,7 @@ For example, ``Microsoft.FSharp.Core.Operators`` is an automatically opened coll
 
 Likewise, a statistics library might include a module with functions ``erf`` and ``erfc``, where this module is designed to be explicitly or automatically opened.
 
-#### ✔ Consider using the ``[<RequireQualifiedAccess >]`` and ``[<AutoOpen>]`` attributes  for ease of use and long-term maintainability of the library in common situations.
+#### ✔ Consider using the ``[<RequireQualifiedAccess>]`` and ``[<AutoOpen>]`` attributes  for ease of use and long-term maintainability of the library in common situations.
 
 Adding the ``[<AutoOpen>]`` attribute to a module means the module will be opened when the containing namespace is opened. The ``[<AutoOpen>]`` attribute may also be applied to an assembly indicate a namespace or module that is automatically opened when the assembly is referenced.
 
@@ -479,7 +479,7 @@ In large assemblies and implementation files, PascalCase is sometimes used to in
 
 Historically, some F# libraries have used underscores in names. However, this is no longer widely accepted, partly because it clashes with .NET naming conventions. That said, some F# programmers use underscores heavily, partly for historical reasons, and tolerance and respect is important. However, be aware that the style is often disliked by others who have a choice about whether to use it.
 
-Note Some F# programmers choose to use naming conventions much more closely associated with OCaml, Python, or with a particular application domain such as hardware verification.
+Note that some F# programmers choose to use naming conventions much more closely associated with OCaml, Python, or with a particular application domain such as hardware verification.
 
 ### 4.2 Suggested Coding Conventions in F# Implementation Code
 
