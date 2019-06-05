@@ -174,6 +174,8 @@ One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.m
 
 [ASP.NET Blazor](https://blazor.net/) is a web framework for running .NET on [WebAssembly](https://webassembly.org/) similar to React, Angular, Vue, etc. It uses Razor `.cshtml` files to define components and render but can be used with F# libraries.
 
+[Bolero](https://fsbolero.io/) is simply another way to bring F# to WebAssembly. 
+
 [BlazorRedux](https://github.com/torhovland/blazor-redux) provides Redux-like state management for Blazor and works well with F#.
 
 [Trail](https://github.com/panesofglass/trail) provides an F# DSL for rendering in Blazor, allowing for a complete F# solution.
