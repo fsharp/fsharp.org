@@ -21,6 +21,11 @@ of mainstream commercial business software.
 
 <img src="images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
 
+### [Try F#](https://try.fsharp.org/)
+
+This 2019 edition of TryFSharp enables you to try F# in an online editor/compiler without having to install anything on your computer. It includes example code for many of F#'s basic features. It's based on the  [Fable 2 REPL](https://fable.io/repl/).
+
+
 ### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
 
 The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
@@ -41,7 +46,7 @@ A collection of snippets of F# code.
 
 ### [.NET Fiddle](https://dotnetfiddle.net/)
 
-Allows you to try F# code in your browser. You an also view generated IL, and load some
+Allows you to try F# code in your browser. You can also view generated IL, and load some
 NuGet packages (not all packages load correctly in .NET Fiddle).
 
 ### [F# Guide and Visual F# Development Portal](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/)
