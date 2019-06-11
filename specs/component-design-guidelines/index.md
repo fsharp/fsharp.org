@@ -27,7 +27,7 @@ This document looks at some of the issues related to F# component design and cod
 
 * Guidelines for designing “vanilla” .NET libraries for use from any .NET language.
 
-F# is commonly called  a functional-first language: object, functional and imperative paradigms are all well supported, but functional programming tends to be the first technique used. Many of the defaults of F# are set up to encourage functional programming, but programming in the other paradigms is effective and efficient, and a combination is often best of all. It is a common misconception that the functional and object programming methodologies are competing. In fact, they are generally orthogonal and largely complementary. Often, functional programming plays a stronger role “in the small” (e.g. at the implementation level of functions/method and the code contained therein) and object programming playe a bigger role “in the large” (e.g. at the structural level of classes, interfaces, and namespaces, and the organization of APIs for frameworks). A good guide to functional programming is at [fsharpforfunandprofit.com](http://fsharpforfunandprofit.com).
+F# is commonly called  a functional-first language: object, functional and imperative paradigms are all well supported, but functional programming tends to be the first technique used. Many of the defaults of F# are set up to encourage functional programming, but programming in the other paradigms is effective and efficient, and a combination is often best of all. It is a common misconception that the functional and object programming methodologies are competing. In fact, they are generally orthogonal and largely complementary. Often, functional programming plays a stronger role “in the small” (e.g. at the implementation level of functions/method and the code contained therein) and object programming plays a bigger role “in the large” (e.g. at the structural level of classes, interfaces, and namespaces, and the organization of APIs for frameworks). A good guide to functional programming is at [fsharpforfunandprofit.com](http://fsharpforfunandprofit.com).
 
 Regardless of the methodology, the component and library designer faces a number of practical and prosaic issues when trying to craft an API that is most easily usable by developers. One of the strengths of the .NET platform is its unified programming model that is independent of the programming language being used. The consistency throughout both the .NET Framework and other .NET libraries is the result of conscientious application of the [.NET Library Design Guidelines](http://msdn.microsoft.com/en-us/library/vstudio/ms229042(v=vs.100).aspx). These steer library designers towards creating a consistent set of APIs which enables components to be both easily authored in, and seamlessly consumed by, a variety of .NET languages.
 
@@ -134,7 +134,7 @@ Table 1 summarizes the .NET guidelines for naming and capitalization in code. We
 Be aware of the following specific guidelines:
 
 
-✘ Avoid abbreviaitons
+✘ Avoid abbreviations
 
 The .NET guidelines discourage the use of abbreviations (for example, “use OnButtonClick rather than OnBtnClick”). Very common abbreviations, such as “Async” for “Asynchronous”, are tolerated. This guideline is sometimes ignored for functional programming; for example, List.iter uses an abbreviation for “iterate”. For this reason, using abbreviations tends to be tolerated to a greater degree in F#-to-F# programming, but should still generally be avoided in public component design.
 
