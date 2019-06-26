@@ -470,6 +470,24 @@ In this book you will learn:
 - Database schema management using [Fluent Migrator](https://github.com/fluentmigrator/fluentmigrator)
 - Realtime Tweet Feeds and Notifications using [GetStream.io](https://getstream.io/)
 
+### [Stylish F#: Crafting Elegant Functional Code for .NET and .NET Core](https://books.google.com.au/books?id=WqR8DwAAQBAJ)
+
+<img src="/about/files/BookSF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Kit Eason_
+
+Stylish F# covers every design decision that a developer makes in constructing F# programs, helping you make the most educated and valuable design choices at every stage of code development. You will learn about the design of types and function signatures, the benefits of immutability, and the uses of partial function application. You will understand best practices for writing APIs to be used by F#, C#, and other languages. Each carefully vetted design choice is supported with compelling examples, illustrations, and rationales.
+
+What You'll Learn
+
+- Know why, when, and how to code in immutable style
+- Use collection functions, piping, and function composition to build working software quickly
+- Be aware of the techniques available to bring error handling into the mainstream of program logic
+- Optimize F# code for maximum performance
+- Identify and implement opportunities to use function injection to improve program design
+- Appreciate the methods available to handle unknown data values
+- Understand asynchronous and parallel programming in F#, and how it differs from C# asynchronous programming
+
 ## F# Books (Coming Soon)
 
 ### [Understanding Functional Programming](https://leanpub.com/understandingfunctionalprogramming)
