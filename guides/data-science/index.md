@@ -38,7 +38,7 @@ Data science also requires strong support for many technologies covered in other
 ### Integrated Data Science Packages
 {:  .anchor }
 
-[FsLab](http://fslab.org/) is an integrated, cross-platform collection of open source data science pacakges for F#, including FSharp.Data, Deedle, RProvider, Math.NET Numerics and more.
+[FsLab](http://fslab.org/) is an integrated, cross-platform collection of open source data science packages for F#, including FSharp.Data, Deedle, RProvider, Math.NET Numerics and more.
 
   * [Understanding the world with F# (article)](http://www.thedevelopermag.com/understanding-world-f/)
 
