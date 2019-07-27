@@ -7,3 +7,4 @@ _site/
 run-jekyll.*
 Gemfile
 Gemfile.lock
+.ionide
