@@ -27,7 +27,7 @@ If you want to be a mentor or be mentored, please review the application guideli
 
 ### What is the current status of the program?
 
-* Applications for the 2019 Fall round are now open. You 
+* Applications for the 2019 Fall round are now open.
 * Applications for the 2020 winter round will open in January.
 
 
