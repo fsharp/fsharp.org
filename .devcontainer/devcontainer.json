@@ -1,0 +1,12 @@
+
+{
+    "name": "Open F# sample",
+    "dockerFile": "Dockerfile",
+    "appPort": 4000,
+    "extensions": [
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "bundle install"
+}
