@@ -6,9 +6,9 @@ headline: Registering for the F# Mentorship program
 
 Applications for the Fall 2019 mentorship round (#7) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/ooJHNn5i4hGzK2TT7). Applications close on August 31, 2019.
 
-You must be a member of the F# Software Foundation (FSSF) to apply. Membership is free - see http://foundation.fsharp.org/membership
+You must be a member of the F# Software Foundation (FSSF) to apply. Membership is free - see [the membership page](http://foundation.fsharp.org/membership) for details.
 
-Imposter Syndrome Disclaimer (for prospective mentors)
+## Imposter Syndrome Disclaimer (for prospective mentors)
 
 You can be a mentor! You really can!
 
