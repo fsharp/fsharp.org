@@ -23,7 +23,7 @@ More details [here](about.html).
 
 ### How do I participate?
 
-If you want to be a mentor or be mentored, please review the application guidelines [here](register.html).
+If you want to be a mentor or mentee, please review the application guidelines [here](register.html).
 
 ### What is the current status of the program?
 
