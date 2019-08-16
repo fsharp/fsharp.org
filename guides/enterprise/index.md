@@ -48,9 +48,6 @@ The benefits of F# for enterprise development are:
 
 ### Benefits of F# for enterprise and line-of-business applications
 
-* [Does the Language You Use Make a Difference?](http://simontylercousins.net/does-the-language-you-use-make-a-difference-revisited/).
-  A comparison of the same real-world project (energy contract management) being written twice, once in C# and F#,
-  including training an F# developer from scratch.
 * [The F# Way To Relaxation](https://vimeo.com/113594249) (video).
   A journey through the modern programming landscape and the F# approach to research, language design, interoperability, tooling and community.
 * [White paper: F# in the Enterprise](https://msdn.microsoft.com/en-US/vstudio/gg634701)
