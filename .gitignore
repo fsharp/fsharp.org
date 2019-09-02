@@ -5,5 +5,4 @@ _site/
 *~
 .DS_Store
 run-jekyll.*
-Gemfile
-Gemfile.lock
+.ionide

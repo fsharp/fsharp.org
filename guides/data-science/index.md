@@ -38,7 +38,7 @@ Data science also requires strong support for many technologies covered in other
 ### Integrated Data Science Packages
 {:  .anchor }
 
-[FsLab](http://fslab.org/) is an integrated, cross-platform collection of open source data science pacakges for F#, including FSharp.Data, Deedle, RProvider, Math.NET Numerics and more.
+[FsLab](http://fslab.org/) is an integrated, cross-platform collection of open source data science packages for F#, including FSharp.Data, Deedle, RProvider, Math.NET Numerics and more.
 
   * [Understanding the world with F# (article)](http://www.thedevelopermag.com/understanding-world-f/)
 
@@ -53,7 +53,7 @@ Data science also requires strong support for many technologies covered in other
 
 * [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
-* [FSharp.Plotly](http://muehlhaus.github.io/FSharp.Plotly/index.html) - a powerful and free charting library. FSharp.Plotly provids Plotly's awesome graphing support with strongly typed style options for F#. 
+* [FSharp.Plotly](http://muehlhaus.github.io/FSharp.Plotly/index.html) - a powerful and free charting library. FSharp.Plotly provides Plotly's awesome graphing support with strongly typed style options for F#. 
 
 <br />
 ### Using R, MATLAB, Mathematica, Excel and Python for Data Visualization
