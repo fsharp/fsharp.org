@@ -4,7 +4,5 @@ title: About F# | History
 headline: History
 ---
 
-* [The Early History of the F# Language (HOPL IV draft 1, September 2018)](hopl-draft-1.pdf) 
-
-* [The Early History of the F# Language (in-progress revision, PDF)](hopl-draft-3.pdf) 
+* [The Early History of the F# Language, second draft, HOPL-IV (PDF)](hopl-draft-3b.pdf), [DOCX](hopl-draft-3b.docx) 
 
