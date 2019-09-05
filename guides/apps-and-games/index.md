@@ -36,6 +36,8 @@ Mobile.
 
 ## Resource Links
 
+* [F# Platform Game Series](https://www.youtube.com/playlist?list=PLIH3o_QrxxcfNMC3TjZ5NlHnB1AmcyaiV) - A YouTube series on building a platform game from scratch using F# and MonoGame
+
 * [Xamarin Forms Example](https://github.com/rachelreese/Current-Talks/tree/master/2014-10%20Evolve/EvolveXamForms) - An example of using the Xamarin Forms cross-platform front-end framework with F#
 
 * [F# and Monogame Part 2 – Android](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-2-android/)
@@ -61,7 +63,7 @@ Mobile.
 
 * [SpriteKit iOS7 and Physics in F#](http://neildanson.wordpress.com/2013/09/24/spritekit-and-physics-in-f/)
 
-* [Adding Touch to SpriteKit](http://7sharpnine.com/posts/adding-touch-to-spritekit/)
+* [Adding Touch to SpriteKit](https://7sharp9.github.io/2013/09/29/2013-09-29-adding-touch-to-spritekit/)
 
 * A Platform game in SpriteKit and F# – [Part 1 – Game State Management](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-1-game-state-management/)
 
@@ -75,7 +77,7 @@ Mobile.
 
 * F# and Monogame [Part 4 – Content Pipeline](http://neildanson.wordpress.com/2013/08/13/f-and-monogame-part-4-content-pipeline/)
 
-* [Running MonoGame with F# on the Mac](http://7sharpnine.com/posts/Fsharp-and-MonoGame-on-the-Mac/)
+* [Running MonoGame with F# on the Mac](https://7sharp9.github.io/2012/11/11/2012-11-11-fsharp-and-monogame-on-the-mac/)
 
 * [Using F# with MonoGame to get basic platformer mechanics](http://bruinbrown.wordpress.com/2013/10/06/making-a-platformer-in-f-with-monogame/)
 
