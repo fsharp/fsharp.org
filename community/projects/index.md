@@ -466,6 +466,8 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [Aivika for .NET](https://github.com/dsorokin/aivika-fsharp-ce) - A simulation library for discrete event simulation, system dynamics and agent-based modeling.
 
+* [F# RISC-V Instruction Set formal specification](https://github.com/mrLSD/riscv-fs) - RISC-V CPU formal ISA Specification. RISC-V CPU simulator with ELF files execution and CLI support. [MIT]
+
 <br />
 
 <h2 class="anchor" id="audioprocessing" class="anchor">Community Projects: Audio Processing</h2>
