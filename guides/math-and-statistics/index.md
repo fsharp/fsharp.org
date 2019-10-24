@@ -5,19 +5,10 @@ headline: Guide - Math and Statistics Programming with F#
 redirect_from: "/math/index.html"
 ---
 
-F# is well-suited to numerical and statistical programming because
-of its focus on data transformations and the use of functional programming to 
-help give natural translation of the underlying mathematics into executable form.
+## Resources for Math and Statistics
 
-Efficient execution of numeric code is essential, and F# executes as native code, normally through
-[JIT compilation](http://en.wikipedia.org/wiki/Just-in-time_compilation). 
-Vectoried execution of F#-authored code is available through [RyuJIT](http://blogs.msdn.com/b/clrcodegeneration/)
-on Windows and [SIMD primitives](http://www.counity.at/blog/2011/hardware-acceleration-in-net-part-1-1-mono-simd-introduction/)
-on Linux. F# can also utilize highly optimized, native code libraries such as the
-Intel [Math Kernel Library (MKL)](http://software.intel.com/en-us/intel-mkl)
-through packages like [Math.NET Numerics](http://numerics.mathdotnet.com/) and other
-libraries, and can be used to [call directly into Fortran dynamic-link libraries](http://www.letsthinkabout.us/post/calling-fortran-assemblies-from-net).
-
+* auto-gen TOC:
+{:toc}
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>This guide includes resources related to math and statistics programming with F#. To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/math-and-statistics/index.md">edit this page</a> and send a pull request.</p>
@@ -26,14 +17,14 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
 </div>              
 
 
-## Resources for Math and Statistics
-
-* auto-gen TOC:
-{:toc}
-
-
 ### Open-source libraries
 
+ * [SciSharp Stack](https://scisharp.github.io/SciSharp/) - A .NET based Open Source Ecosystem for Data Science, Machine Learning and AI.
+
+   SciSharp provides ports and bindings to cutting edge Machine Learning frameworks like TensorFlow, Keras, PyTorch, Numpy and many more in .NET Core. Since the APIs of the ported libraries are so similar to the originals you can easily re-use all existing resources, documentation and community solutions to common problems in C# or F# without much effort.
+
+   License: Various, mostly Apache 2.0 or MIT
+   
  * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
    a large collection of algorithms needed in science and engineering, including linear algebra, 
    special functions, statistics, probability models, interpolation and FFTs. 
@@ -47,17 +38,6 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
 
    License: MIT/X11
    
- * [ILNumerics](http://ilnumerics.net/) - an open- or closed-source library offering high-
-   performance numerical algorithms as well as charting and plotting capabilities.
-
-   The library is based on efficient, general-purpose array classes implementing vectors, matrices, and
-   n-dimensional arrays. Provided algorithms include standard linear algebra transforms,
-   a high-performance Fast Fourier Transform (FFT) library, and a collection of sorting 
-   and machine learning algorithms. Plotting is based on OpenGL and supports both 2D and 3D
-   plots. ILNumerics supports .NET 4.0 as well as Mono (recommend 2.10 or above).
-
-   License: GPLv3 or commercial (paid) license.
-   
  * [DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic 
    differentiation (AD) library for exact and efficient calculation of derivatives. Also includes symbolic and numerical differentiation.
 
@@ -65,7 +45,7 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
 
    Using the DiffSharp library, derivative calculations (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products) can be incorporated with minimal change into existing algorithms.
    
-   License: GPLv3
+   License: BSD 2-Clause
 
  * [FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library that supports generic types.
 
@@ -83,6 +63,17 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
    more nVidia GPU's. Advanced GPU features such as textures and shared memory are
    supported. Available from [Quantalea](http://www.quantalea.net/).
 
+ * [ILNumerics](http://ilnumerics.net/) - an open- or closed-source library offering high-
+   performance numerical algorithms as well as charting and plotting capabilities.
+
+   The library is based on efficient, general-purpose array classes implementing vectors, matrices, and
+   n-dimensional arrays. Provided algorithms include standard linear algebra transforms,
+   a high-performance Fast Fourier Transform (FFT) library, and a collection of sorting 
+   and machine learning algorithms. Plotting is based on OpenGL and supports both 2D and 3D
+   plots. ILNumerics supports .NET 4.0 as well as Mono (recommend 2.10 or above).
+
+   License: GPLv3 or commercial (paid) license.
+   
  * [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) - 
    a set of three libraries focused on vector and matrix processing, 
    linear algebra methods, and statistics functions.
@@ -94,15 +85,6 @@ libraries, and can be used to [call directly into Fortran dynamic-link libraries
    additional performance. Extreme Optimization supports .NET 3.5 and 4.0 (2.0 version 
    available) and execution on Mono.
 
- * [Microsoft Solver Foundation (MSF)](http://msdn.microsoft.com/en-us/devlabs/hh145003.aspx) -
-   a .NET package for designing and optimizing mathematical models.
-
-   MSF provides built-in
-   solvers for linear- and quadratic-programming, as well as non-linear models based on Nelder-Mead
-   or quasi-Newtonian algorithms. Models can be built using the Optimization Modeling Language
-   (OML) or using C# or F# and other .NET languages. MSF version 3.1 is available in a free
-   Express Edition or via an MSDN subscription.
-   
  * [NMath, NMath Stats](http://www.centerspace.net/products/c-sharp-vb-net-math-library-products/) -
    a suite providing core math and statistics functions.
 
