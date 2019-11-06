@@ -220,7 +220,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  ![logo](/images/thumbs/FSharp.Charting.png)&nbsp;[FSharp.Charting](http://fslab.org/FSharp.Charting/) - The FSharp.Charting library implements charting
    suitable for use from F# scripting.
 
-*  [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries.
+*  ![logo](/images/thumbs/XPlot.png)[XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries.
    It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.
    You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
