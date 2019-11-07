@@ -107,7 +107,7 @@ type inference. Each chapter has exercises based on such examples.
   interesting insight.
 
 
-* **[Functional Programming with F#](http://www.idt.mdh.se/kurser/DVA201/)**
+* **[Functional Programming with F#](http://www.idt.mdh.se/kurser/DVA229/)**
   Björn Lisper, Mälardalen University, Sweden
 
   The course gives the students a solid under­standing of functional programming, its appli­cations, 
