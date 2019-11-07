@@ -273,6 +273,7 @@ Common hosting options are:
 * [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
 * [Azure Web Sites](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
 * [AppHarbor](http://appharbor.com/) - Free hosting of .NET web applications
+* [GearHost](https://www.gearhost.com/) - Free hosting of .NET web applications (100 MB), IIS based, support for both .NET Framework and [Core](https://www.gearhost.com/documentation/deploy-net-core-application), MSSQL and MySQL databases (10 MB), support of simple WebJobs.
 
 
 
