@@ -406,7 +406,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](/images/thumbs/FSharpTest.png)&nbsp;[FSharpTest](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) - NUnit Visual Studio Project template with sample failing tests in FsUnit, FsCheck, and Unquote.
 
-*  [FsUnit](http://fsprojects.github.io/FsUnit/) - Add F# functional syntax to NUnit, MbUnit, xUnit, and MsTest.
+*  [FsUnit](http://fsprojects.github.io/FsUnit/) - Add F# functional syntax to NUnit, xUnit, and MsTest.
 
 *  [FsCheck](https://fscheck.github.io/FsCheck/) - Random testing generator combinators, port of Haskell's QuickCheck.
 
