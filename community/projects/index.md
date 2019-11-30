@@ -406,7 +406,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](/images/thumbs/FSharpTest.png)&nbsp;[FSharpTest](http://visualstudiogallery.msdn.microsoft.com/a52388eb-e1d3-4900-a25a-d18c8d23a1f3) - NUnit Visual Studio Project template with sample failing tests in FsUnit, FsCheck, and Unquote.
 
-*  [FsUnit](http://fsprojects.github.io/FsUnit/) - Add F# functional syntax to NUnit, MbUnit, xUnit, and MsTest.
+*  [FsUnit](http://fsprojects.github.io/FsUnit/) - Add F# functional syntax to NUnit, xUnit, and MsTest.
 
 *  [FsCheck](https://fscheck.github.io/FsCheck/) - Random testing generator combinators, port of Haskell's QuickCheck.
 
@@ -428,7 +428,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="metaprogramming" class="anchor">Community Projects: Metaprogramming</h2>
 
-*  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](http://www.swensensoftware.com/unquote/) - Includes a fast quotaions evaluator
+*  ![logo](/images/thumbs/Unquote.png)&nbsp;[Unquote](http://www.swensensoftware.com/unquote/) - Includes a fast quotations evaluator
 
 *  ![logo](/images/thumbs/FSharp.Quotations.Evaluator.png)&nbsp;[FSharp.Quotations.Evaluator](http://fsprojects.github.io/FSharp.Quotations.Evaluator/) - An evaluator for F# quotations
 
