@@ -89,7 +89,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](/images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](http://fsprojects.github.io/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
 
-*  [Forge](http://fsprojects.github.io/Forge/) - F# CLI tool for project, file, and solution management.
+*  [Forge](https://github.com/ionide/Forge) - F# CLI tool for project, file, and solution management.
 
 *  [Yeoman F# generator](https://github.com/fsprojects/generator-fsharp) - scaffolding F# projects outside of IDE such as Visual Studio and Xamarin Studio. Avaliable in the [npm](https://www.npmjs.com/package/generator-fsharp).
 
@@ -235,7 +235,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
    algorithms including linear algebra, special functions, statistics, probability models,
    interpolation and FFTs. Supports F# 3.0+ with idiomatic extension modules.
 
-*  ![logo](/images/thumbs/fuzzy.png)&nbsp;[FSharp.Fuzzy](http://fsprojects.github.io/FSharp.Fuzzy/) - A basic math library of fuzzy
+*  ![logo](/images/thumbs/fuzzy.png)&nbsp;[FSharp.Numerics.FuzzyIntervals](http://fsprojects.github.io/FSharp.Numerics.FuzzyIntervals/) - A basic math library of fuzzy
    and interval calculus with examples
 
 *  ![logo](/images/thumbs/DiffSharpLogoSmall.png)&nbsp;[DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library for exact and efficient calculation of derivatives (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products). Also includes symbolic and numerical differentiation.
