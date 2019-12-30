@@ -51,7 +51,7 @@ NuGet packages (not all packages load correctly in .NET Fiddle).
 
 ### [F# Guide and Visual F# Development Portal](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/)
 
-<img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" /> 
+<img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 The Microsoft documentation for F# provides a language reference, walkthroughs, videos, samples, and more.  You can also
 contribute to the documentation on GitHub.
@@ -86,7 +86,7 @@ A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) incl
 
 <img src="/images/thumbs/FSDN.png" style="float:right;margin:5px 0px 5px 25px;" />
 
-Site which allows interactive searches by an F# API. The [F# API Search library](https://github.com/hafuu/FSharpApiSearch) document describes the search formats, which support the standard signature of F# with some extentions.  
+Site which allows interactive searches by an F# API. The [F# API Search library](https://github.com/hafuu/FSharpApiSearch) document describes the search formats, which support the standard signature of F# with some extentions.
 Source code available on [GitHub FSDN](https://github.com/fsdn-projects/FSDN)
 
 <h2 id="courses" class="anchor">F# Courses - General</h2>
@@ -154,7 +154,7 @@ Expert F# 4.0 is about practical programming in a beautiful language that puts t
  - A comprehensive guide to F# by the inventor of F#
  - A treasury of F# techniques for practical problem-solving
  - An in-depth case book of how F# applications and of F# 4.0 concepts, syntax, and features
- 
+
 The world's experts in F# show you how to program in F# the way they do!
 
 ### [Real World Functional Programming](https://books.google.com/books?isbn=1933988924)
@@ -271,7 +271,7 @@ This book is packed with real-world examples to easily use machine learning tech
 
 _Ali Baghernejad_
 
-F# is the result of combining the  power and capabilities of functional programming with with the imperative and object-oriented paradigms of .NET. Multi-Paradigm Programming In F# is a book that help developers to make  
+F# is the result of combining the  power and capabilities of functional programming with with the imperative and object-oriented paradigms of .NET. Multi-Paradigm Programming In F# is a book that help developers to make
 applications using F# tools and the .NET libraries. This book is written in Persian language in 509 pages.
 In this book you will read:
 
@@ -303,7 +303,7 @@ In this book you will read:
 
 ### [Get Programming with F#](https://www.manning.com/books/get-programming-with-f-sharp)
 
-<img src="/about/files/BookLFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/about/files/BookGPWF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Isaac Abraham_
 
@@ -323,7 +323,7 @@ By the end of the book, you’ll be able to use F# in your day-to-day developmen
 
 _Sudipta Mukherjee_
 
-This book is a fast-paced tutorial guide that uses hands-on examples to explain real-world applications of machine learning. 
+This book is a fast-paced tutorial guide that uses hands-on examples to explain real-world applications of machine learning.
 
 In this book you will:
 
@@ -394,7 +394,7 @@ In this book you will:
 
 _Onur Gumus_
 
-Build end-to-end web applications with F# 
+Build end-to-end web applications with F#
 Develop web applications that includes server-side as well as the client-side programming using Fable, F# to JavaScript compiler.
 
 - Learn F# with this learner-friendly approach in this course
@@ -407,7 +407,7 @@ Develop web applications that includes server-side as well as the client-side pr
 
 _Ali Özgür_
 
-This book is the first and the only F# book in Turkish. The book covers F# and general functional programming principles. 
+This book is the first and the only F# book in Turkish. The book covers F# and general functional programming principles.
 
 F#, aktif ve bağımsız geliştirici topluluğu tarafından yön verilen, özellikle bulut teknolojileri, veri analizi ve bilimsel çalışmalarda kullanımı her geçen gün artan sade ve şık bir programlama dilidir.
 F# ile Microsoft'un .NET platformu üzerinde Windows, Linux ve OSX işletim sistemlerinde çalışabilen her çapta ve özllikte uygulamalar geliştirebilirsiniz. Hatta sistem yönetimi scriptlerinizi bile F# ile oluşturabilirsiniz. F# ile Fonksiyonel Programlama kitabında F#'ın sunduğu tüm bu imkanlar ile sizi tanıştırmayı ve bol kod örnekleri ile F#'ı özümsemenizi hedefliyoruz.
@@ -457,7 +457,7 @@ Learn how to use F#'s functional features to rapidly turn requirements into soft
 
 _Tamizhvendan S_
 
-"F# Applied II" helps you to learn how to build a real-world, production-ready, end-to-end web application in F# using the functional programming principles by developing a Twitter clone from scratch. 
+"F# Applied II" helps you to learn how to build a real-world, production-ready, end-to-end web application in F# using the functional programming principles by developing a Twitter clone from scratch.
 
 In this book you will learn:
 
