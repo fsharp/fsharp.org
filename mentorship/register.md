@@ -4,7 +4,15 @@ title: Registering for the F# Mentorship program | The F# Software Foundation
 headline: Registering for the F# Mentorship program
 ---
 
-Applications for the Fall 2019 mentorship round (#7) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/ooJHNn5i4hGzK2TT7). Applications close on August 31, 2019.
+Applications for the Winter 2020 mentorship round (#8) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/gkD4t1o9TxQqahbW9). 
+
+## Timeline for Round 8
+
+* 2020-01-01 - 2020-01-31: Applications accepted for round 8
+* 2020-02-01 - 2020-02-04: Volunteers will review applications and pair mentors/mentees
+* 2020-02-05 - 2020-04-01: Mentors mentees meet regularly for 6 to 8 mentorship sessions
+
+## Membership in the F# Software Foundation Required
 
 You must be a member of the F# Software Foundation (FSSF) to apply. Membership is free - see [the membership page](http://foundation.fsharp.org/membership) for details.
 

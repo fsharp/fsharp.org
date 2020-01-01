@@ -27,8 +27,7 @@ If you want to be a mentor or mentee, please review the application guidelines [
 
 ### What is the current status of the program?
 
-* Applications for the 2019 Fall round are now open. They will close on August 31st, 2019.
-* Applications for the 2020 winter round will open in January.
-
+* Applications for the 2020 winter round (round 8) open on January 1st 2020. They will be accepted until January 31st, 2020.
+* Applications for the 2020 fall round will open in August, 2020.
 
 Thanks for your patience, we will provide further information soon here and on twitter [@fsharporg](https://twitter.com/fsharporg).
