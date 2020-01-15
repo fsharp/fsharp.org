@@ -76,4 +76,6 @@ Several F# machine learning packages are available. Some are accessed through F#
  * [DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library for incorporating derivative calculations with minimal changes into existing code, providing exact and efficient gradients, Jacobians and Hessians for machine learning and optimization applications.
 
  * [Hype](http://hypelib.github.io/Hype/) - An experimental deep learning library, where you can perform optimization on compositional machine learning systems of many components, even when such components themselves internally perform optimization. Underlying computations are run by a BLAS/LAPACK backend (OpenBLAS by default).
+ 
+ * [Synapses](https://mrdimosthenis.github.io/Synapses) - A lightweight Neural Network library, for js, jvm and .net.
 
