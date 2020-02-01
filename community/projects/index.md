@@ -29,7 +29,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="compiler-and-core">Community Projects: Compiler and Core Library</h2>
 
-*  <img src="http://fsharp.org/img/logo/fsharp128.png" alt="logo" style="height:32px">&nbsp;[fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library. See also the [Visual F# Tools](https://github.com/Microsoft/visualfsharp) and [Contributing to the F# Language and Compiler](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).
+*  <img src="https://fsharp.org/img/logo/fsharp128.png" alt="logo" style="height:32px">&nbsp;[fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library. See also the [Visual F# Tools](https://github.com/Microsoft/visualfsharp) and [Contributing to the F# Language and Compiler](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).
 
 *  ![logo](/images/thumbs/FSharp.Compiler.Service.png)&nbsp;[fsharp/FSharp.Compiler.Service](http://fsharp.github.io/FSharp.Compiler.Service/) - The F# Compiler, F# Interactive scripting engine and F# editing services as a component library.
 
@@ -77,17 +77,17 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="devtools" class="anchor">Community Projects: Development Tools</h2>
 
-*  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](http://www.swensensoftware.com/fseye) - A visual object tree inspector for the F# Interactive
+*  ![logo](/images/thumbs/FsEye.png)&nbsp;[FsEye](https://github.com/SwensenSoftware/fseye) - A visual object tree inspector for the F# Interactive
 
-*  ![logo](/images/thumbs/FAKE.png)&nbsp;[FAKE](http://fsharp.github.io/FAKE) - F# build automation system
+*  ![logo](/images/thumbs/FAKE.png)&nbsp;[FAKE](https://fake.build) - F# build automation system
 
-*  ![logo](/images/thumbs/Paket.png)&nbsp;[Paket](http://fsprojects.github.io/Paket/) - A package dependency manager for .NET with support for NuGet packages and GitHub repositories
+*  ![logo](/images/thumbs/Paket.png)&nbsp;[Paket](https://fsprojects.github.io/Paket/) - A package dependency manager for .NET with support for NuGet packages and GitHub repositories
 
 *  [F# Type Provider SDK](https://github.com/fsprojects/FSharp.TypeProviders.SDK) - Learning materials and code only NuGet package for writing type providers
 
 *  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
 
-*  ![logo](/images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](http://fsprojects.github.io/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
+*  ![logo](/images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](https://fsprojects.github.io/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
 
 *  [Forge](https://github.com/ionide/Forge) - F# CLI tool for project, file, and solution management.
 
@@ -95,15 +95,17 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 * [GFlat](https://github.com/avysk/gflat) - CLI (make-based) project scaffolding generator for simple Mono / F# projects.
 
-*  ![logo](/images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](http://fsprojects.github.io/FSharpLint/) - A lint tool for F#.
+*  ![logo](/images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](https://fsprojects.github.io/FSharpLint/) - A lint tool for F#.
 
-*  [F# SonarQube Plugin](https://github.com/jmecosta/sonar-fsharp-plugin) - F# support for SonarQube
+*  [F# SonarQube Plugin](https://github.com/jmecosta/sonar-fsharp-plugin) - F# support for SonarQube.
 
 *  [Lambda Container](https://github.com/Remboel/LambdaContainer) - An IoC container written in F# for .NET code.
 
 *  [SemVer.FromAssembly](https://github.com/wallymathieu/SemVer.FromAssembly) - Helper tool to guess SemVer version based on public surface area differences.
 
 *  ![logo](/images/thumbs/CenterCLR.RelaxVersioner.png)&nbsp;[RelaxVersioner](https://github.com/kekyo/CenterCLR.RelaxVersioner) - Easy-usage, Git-based, auto-generate version informations toolset for .NET (Supported F#).
+
+*  [Covarsky](https://github.com/teo-tsirpanis/Covarsky) - Enabling co(ntra)variance in F# types.
 
 <br />
 
@@ -449,8 +451,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [LLVM-FS](https://github.com/fsprojects/llvm-fs) - LLVM bindings for F#
 
-
-
+* ![Farkle's logo](/images/thumbs/Farkle.png)&nbsp;[Farkle](https://teo-tsirpanis.github.io/Farkle/) - LALR parsing with combinator-like objects for F# and C#.
 
 <br />
 
