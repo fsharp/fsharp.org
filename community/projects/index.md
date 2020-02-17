@@ -170,7 +170,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](/images/thumbs/DAXIFsharp.png)&nbsp;[DAXIF# - Delegate Automated Xrm Installation Framework](http://delegateas.github.io/Delegate.DAXIFsharp/) - A set of tools that in combination with other Microsoft Tools, make it easier to work with Microsoft Dynamics CRM/xRM on a daily basis, also for developers who are not familiar with the platform.
 
-* ![logo](/images/thumbs/sqlfun-small.png)&nbsp;[SqlFun](https://github.com/jacentino/SqlFun) - An SQL database access library. Supports direct SQL calls, automatic CRUD operations, stored procedures, collection parameters and complex result structures. Allows to define custom query DSL-s. Type safe and idiomatically functional.
+* ![logo](/images/thumbs/sqlfun-small.png)&nbsp;[SqlFun](https://jacentino.github.io/SqlFun) - An SQL database access library. Supports direct SQL calls, automatic CRUD operations, stored procedures, collection parameters and complex result structures. Allows to define custom query DSL-s. Type safe and idiomatically functional.
 
 <br />
 
