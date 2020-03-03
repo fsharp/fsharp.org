@@ -9,6 +9,17 @@
 %% For final camera-ready submission, w/ required CCS and ACM Reference
 %\documentclass[acmsmall]{acmart}\settopmatter{}
 
+\usepackage{listings,lipsum}
+
+\lstnewenvironment{verbquote}[1][]
+  {\lstset{columns=fullflexible,
+           basicstyle=\ttfamily\small\it,
+           xleftmargin=2em,
+           xrightmargin=2em,
+           breaklines,
+           breakindent=0pt,
+           #1}}% \begin{verbquote}[..]
+  {}% \end{verbquote}
 
 %% Journal information
 %% Supplied to authors by publisher for camera-ready submission;
@@ -177,7 +188,7 @@ This paper describes the genesis and early history of the F\# programming langua
 \maketitle
 
 
-\section{Introduction}
+\section*{Introduction}
 
 The history of the F\# programming language is an arc drawn from the 1970s to the present day.  Somewhere, back in the early 1970s, an idea was born in the mind of Robin Milner and his colleagues Lockwood Morris and Malcolm Newey of a succinct, fully type-inferred functional programming language suitable for manipulating structured information. (Gordon, 2000).  Building on the tradition of LISP (and indeed using LISP as their implementation vehicle), this language became ML – Meta Language - and is the root of a tradition of “strongly typed functional programming languages” that includes Edinburgh ML, Miranda, Haskell, Standard ML, OCaml, Elm, ReasonML and PureScript. F\# is part of this family.
 
@@ -196,7 +207,7 @@ The leap from 1970s to the present day spans a period of massive change in the c
 
 I have started with the core idea of the ML-family of programming languages: type-safe, succinct, accurate, domain-oriented functional programming. From my perspective, this idea has “held strong, held true” throughout this era of change. Whether that is through obstinacy, coherence or coincidence is something I leave the reader to assess. 
 
-\section{What is F\# in 2020?}
+\section*{What is F\# in 2020?}
 
 In 2020, F\# is described on its documentation pages as “a functional programming language that runs on .NET.” The F\# language guide (Microsoft, 2019) calls out the following major features of the language, providing useful clarity about what the language is today:
 \begin{itemize}
@@ -228,7 +239,7 @@ Other resources for F\# follow a similar order of explanation, e.g. Fable  is a 
 
 That's what F\# is today: an open-source, cross-platform, strongly-typed, succinct programming language with broad applicability to many different programming scenarios and much loved by its users.  The language community centers around the F\# Software Foundation (FSSF, a US non-profit), and social media such as Twitter. F\# has had influence – most directly on C\# but also more broadly – I discuss this in the conclusion.  But how did we get there?
 
-\section{Background: Languages, Programmability at Microsoft and the Creation of .NET}
+\section*{Background: Languages, Programmability at Microsoft and the Creation of .NET}
 
 The 1970s-80s saw continual, rapid expansion of the computing industry, from transistor design and chip fabrication to software development and applications. Software development tooling both boomed and consolidated with the development and adoption of many different programming paradigms and languages, including BASIC, PASCAL, Prolog, Modula 2 and C.  Accompanying each were commercial variations (Visual Basic, Turbo Pascal, Borland C for example). Languages such as Logo served to spark the imagination of a new generation that programming could be “different”  and a bold new era of “fourth generation languages” was promised. 
 
@@ -266,7 +277,7 @@ Suddenly Microsoft was brimming with academic computer scientists, though in a s
 
 On the other side, Microsoft was entering a phase where it was becoming deeply committed to a multi-language runtime and wanted to be seen to innovate positively.  Lightning already had many of the core elements of a typical functional language implementation (GC, JIT, bytecode), and promised to unite disparate themes in programming, though initially within the confines of the Windows operating system. The scene was set for interesting things to happen. The Lightning effort was renamed NGWS and then finally called .NET on launch in 2000.  
 
-\section{Background: Strongly Typed Functional Programming through the 1990s – Calculi, Miranda, OCaml, Haskell and Pizza}
+\section*{Background: Strongly Typed Functional Programming through the 1990s – Calculi, Miranda, OCaml, Haskell and Pizza}
 
 While Microsoft was establishing its monopoly position in the early 1990s, and object-orientation was sweeping the globe, the world of strongly typed functional programming was small and marginalized yet active and vibrant.  This world overlapped with other fields of activity, which we would now call “PL research” but at the time included formal verification, type theory and programming logics and an increasing dose of category theory. This world was heavily influenced by foundational calculi, most obviously the Lambda Calculus and its variations such as System F, followed by concurrent calculi such as CCS and the Pi Calculus (REF: Sangiorgi \& Walker, 2001).  Efforts to identify unifying object calculi were well underway (REF: Cardelli \& Abadi, 1996) and workshops such as FOOL searched for foundational formalisms for new constructs being added to existing languages. 
 
@@ -301,7 +312,7 @@ That completes our summary of the general surrounding context as I joined Micros
 \item I was part of discussions trying to reimagine how we deliver strongly-typed functional programming to “the masses”.
 \end{itemize}
 
-\section{Project 7 and .NET Generics}
+\section*{Project 7 and .NET Generics}
 
 When Project 7 kicked off at Microsoft, the researchers at MSR Cambridge recommended the following languages for inclusion on the academic stream: Eiffel, Mercury, Standard ML, OCaml, Scheme, Alice and Haskell.  The biases of the research group at MSR are clear here: 6 of 7 recommendations were strongly typed languages, and 3 of 7 were firmly “strongly typed functional languages” in a specific sense of the term, e.g. incorporating Hindley-Milner type inference and having functions as first-class values. Commercial languages in Project 7 included Perl, Python, Cobol and Ada. Academic or commercial partners were found for each, funding was provided by Microsoft and workshops were arranged at MSR Cambridge and elsewhere.
 
@@ -338,6 +349,211 @@ let y = Array.map (keyAndData add) data
 Here the generic code has been instantiated at integer type. In many systems of generics such as GJ, values of generic type such as parameter \texttt{x} to \texttt{keyAndData} would be represented in boxed (heap-allocated) form.  Thus, in the absence of other optimizations, the code above would cause the boxing of the integers as they enter the (generic) \texttt{keyAndData} function, and then unboxing as they are passed on to the (non-generic) \texttt{add} function.  Such implicit costs for basic collection types would be unbearable and make any Hindley-Milner type-inferred language intrinsically low-performance on .NET. With .NET Generics these specific performance problems go away.  In crucial ways .NET Generics laid a foundation for later work on F\#.
 
 
+\section*{The Decision to Create F\#}
+
+At MSR, Project 7 also led to the SML.NET project (REF: Benton, Kennedy, \& Russo, 2004).  SML.NET was a continuation of MLj, mentioned earlier, retargeted to .NET.  SML.NET used a sophisticated whole-program optimizer with de-virtualization and representation transformations and was a faithful implementation of Standard ML with extensions for object programming. The system was of high quality but didn’t gain significant external mindshare.   During 2001, I grew frustrated with SML.NET, which was not yet released even though .NET itself was now public. While respecting the research goals of my colleagues, I was keen to see strongly typed FP delivered in a way that could be readily adopted by large numbers of programmers, and on a path to addressing the seven major themes identified by Wadler in 1998.  The implementation of OCaml was influential on me here: OCaml used a relatively direct and simple compilation strategy, and it was not clear that a whole-program compilation strategy was needed to achieve acceptable and reliable performance.  Further, SML.NET didn’t target .NET Generics, and there was no definite plan to make it do so: the compiler was predicated on the benefits of whole-program compilation and pervasive monomorphization, with the aim of recovering performance and compact code.  As commonly happens in research labs, a divergence of opinion occurred.
+
+
+Initially, in late 2000, in conjunction with Reuben Thomas, I attempted an implementation of Haskell for .NET, using a direct translation from the “Core” intermediate representation of the Glasgow Haskell Compiler (GHC) to the .NET bytecode. This experience was partly successful: small programs ran. However, the advice of Simon Peyton Jones led me to believe that Haskell.NET couldn’t be successful for several technical and cultural reasons: 
+
+\begin{itemize}
+\item As with other Project 7 languages, running Haskell on .NET “in isolation” was not enough in itself: a primary goal was to make a functional language that was fully part of the .NET ecosystem, with full interop with .NET libraries. 
+\item Full interop means that every .NET function would need a rendering in Haskell with a Haskell type, so type translation is needed. The type systems were not the same, so the translation is onerous or simply impossible in many cases.  
+\item Moreover, to ease the translation, Haskell itself would need to be adapted to incorporate some form of subtyping and object programming and would eventually need the ability to extend an existing .NET class.   The Haskell community was reluctant to contemplate such substantial language changes driven by the requirements of a particular platform. 
+\item At the time, almost all Haskell code (if you include libraries) needed technical features that lacked corresponding .NET support, including higher-kinded type variables, lightweight concurrency, exceptions (with Haskell’s exception semantics), ephemerons and software transactional memory. So, even interop aside, it would be hard to claim that any Haskell program would run well on .NET; only a subset would do so.   
+\end{itemize}
+So, work on Haskell.NET stopped.
+
+The question of OCaml and JVM/.NET was also being discussed on the Caml mailing list around this time.  An example is the following message from myself, on February 6, 2001:
+\begin{verbquote}
+Subject: OCaml on CLR/JVM? (Was RE: OCaml <--> ODBC/SQL Server)
+
+> What I cannot find around is a way to easily interrogate and interface 
+> in OCaml with an ODBC data source...
+
+Now I have to say the obvious: wouldn't it be wonderful if Caml interfaced with either Java or the .NET Common Language Runtime seamlessly so we wouldn't have to keep facing these kinds of questions and problems, and could just leverage existing libraries?   
+
+I'm very interested to know if there are people with some time to spare who would be keen to work with me toward a .NET version of OCaml.  I've talked this over from time to time with Xavier, and have done a lot of foundational work for the core language when building a .NET compiler for Haskell.  If you think would be interested, or would simply like to join a mailing list devoted to talking about getting Caml running and interoperating on .NET, then please let me know! 
+\end{verbquote}
+This was the first explicit public indication of my desire to create a version of OCaml targeting .NET. Leroy replied on February 8, 2001:
+\begin{verbquote}
+I've been working on and off (mostly off, lately) on an OCaml/Java interface that works by coupling the two systems at the C level via their foreign-function interfaces (Java's JNI and OCaml's C interface).  This was strongly inspired by the work of Erik Meijer et al. on a similar Haskell/Java interface.  (These Haskell guys sure are at the bleeding edge of language interoperability.  This is the second interop idea I steal from them, after the IDL/COM binding.)
+
+The low-level coupling is surprisingly easy, including making the two garbage collectors cooperate: both the JNI and OCaml's C interface provide enough functionality to get the coupling to work without *any* modification on either of the implementations.  How nice! The only limitation is that a cross-heap cycle (a Java object pointing to a Caml block pointing back to the Java object) can never be reclaimed... (Thanks to Martin Odersky for pointing this out.)
+
+Of course, the low-level interface is type-unsafe, so the real fun is to build a type-safe view of Java classes and objects as Caml classes and objects, and conversely.  I'm still struggling with some of the issues involved.  For instance, it turns out to be much simpler (for the implementation, not for the final user!) to map Java objects to values of abstract Caml types, and treat methods as functions over these abstract types, than mapping Java objects to Caml objects.  That was quite unexpected!
+
+One thing I learnt is that the real problem with language interoperability is not how to compile language X to virtual machine Y (this can always be done, albeit more or less efficiently), but rather how to map between X's data structures and objects and those of all other languages Z1 ... Zn that also compile down to Y.  This is obvious in retrospect, but I think many (myself included) often overlook this point and believe that compiling to the same virtual machine is necessary and sufficient for interoperability.  It is actually neither necessary nor sufficient...
+
+While this work started with the JVM, I'm pretty sure it can be made to work with the .NET CLR, as soon as it will have a foreign-function interface with features comparable to those of the JNI.  (And I'm sure this will happen eventually, not only because it makes sense, but also because Java has it, so .NET must too :-)
+Stay tuned for further developments. 
+\end{verbquote}
+
+This lays out the basic question many languages have faced since: should a language have its own runtime and interoperate indirectly with .NET and/or the JVM, or should it target those runtimes directly?  Leroy’s response represented a divergence of opinion: Project 7 had envisaged very close interoperability, sharing one virtual machine including memory, code, reflection, JIT, GC and library capabilities, and potentially bringing the object system of the host ecosystem into the language.  The approach described by Leroy was, technically, highly sensible for the existing OCaml implementation, however it didn’t feel right once .NET could be assumed. To me, it would intrinsically run into performance, interoperability, tooling and other issues at boundaries between the languages, and adoption would be limited to the intersection of those willing to rely on both the .NET and OCaml implementations.
+
+The discussion also brought contributions from Dave Berry, based on his prior experience of implementing Harlequin’s MLWorks , a proprietary implementation of Standard ML (Dave later contracted with MSR Cambridge on an open source version of .NET Generics), on February 9, 2001:
+\begin{verbquote}
+> > Now I have to say the obvious: wouldn't it be wonderful if Caml interfaced with either 
+> > Java or the .NET Common Language Runtime seamlessly so we wouldn't have to 
+> > keep facing these kinds of questions and problems, and could just leverage existing 
+> > libraries?   
+
+Although this view is understandable, I think it is rather naive. ... To look at it another way, OCaml already shares a platform with C (at least with the native-code compiler), so all the C libraries are already available... Yet it can still be a lot of effort to link with a C library.  Why should Java and .NET be any easier?  Also, look at the effort that went into making an ML/Java system with MLj... Threads are another area of potential problems.  In fact they can be a total minefield.   
+\end{verbquote}
+To which I replied on February 10, 2001:
+\begin{verbquote}
+There's hard work to be done to realise this vision, but in principle a clean interop story sure beats the endless rehashing of other people's code in language X as a library in language Y.  Myself and others involved in the Project 7 are working on one approach to achieve this interop, i.e. compiling languages directly to .NET MS-IL, in the style of MLj, often adding extensions to the language in order to improve the interop.  We are also working on improving the .NET infrastructure, proposing support for features such as parametric polymorphism in MS-IL.  
+
+Xavier is also working on a solution for OCaml, as he mentioned, though the problem of how to reflect the constructs of an object model into ML, Haskell or OCaml remains similar whichever approach you take to actually running the stuff.
+
+There are several reasons why it is easier: exceptions, for example, can be propagated across the interop boundary, without any effort at all if you compile to MS-IL or Java bytecode.  If you're compiling to bytecode you can also ensure more compatibilities of representations, e.g. make sure ML int64's are exactly representationally equivalent to C's int64s.  Note if you don't compile to a bytecode then you even have to marshal integers across the interop boundary in Caml, though this could be automated.
+
+You can also transfer objects more consistently, as the semantics of the object models of Java and .NET are fairly simple in contrast to C, e.g. no need to have an IDL to help interpret pointers as "in-out", "in", "out" parameters.
+
+While at a certain level I like Xavier's approach, i.e. maintaining two runtimes, garbage collectors etc., I have troubles seeing it scaling to the multi-language component programming envisioned as part of .NET approach (and indeed currently in practice with C#, C++, VB.NET and other .NET languages).  Two GC's are already trouble enough (performance might suck as they will both be tuned to fill up the cache), but if you have components from 10 languages in one process?  10 GCs competing for attention?  Maybe it can be made to work, but there's a certain conceptual clarity in just accepting that a GC should form part of the computing infrastructure, and share that service.  These are the aspects of the .NET approach that I find quite compelling.
+
+As an aside, I think it would be an interesting question to say "OK, let's take it for granted that the end purpose of our language is to produce components whose interface is expressed in terms of the Java or .NET type systems, but which retains as many of the features and conceptual simplicity of OCaml and ML as possible."  I'm not sure exactly what you'd end up with, but whatever it was it could be the language to take over from C\# and/or Java (if that's what you're interested in...)  But without really taking Java/.NET component building seriously right from the start I feel you're always just going to end up with a bit of a hack - an interesting, usable hack perhaps, but not a really \emph{good} language.
+
+Probably the greatest recurring technical problem that I see in this kind of work is that of type inference, and the way both the Java and .NET models rely on both subtyping and overloading to help make APIs palatable.  Type inference just doesn't work well with either subtyping or overloading.  This is a great, great shame, as it's obviously one of the main things ML has to offer to improve productivity.  
+
+P.S. As for threads - I don't think the story is half as bad as you might think.  After all, OCaml threads map down to Windows threads at some point, and I just don't see that there are that many special logical properties of typical ML and Caml threading libraries that make it semantically ridiculous to share threads between languages (though it is true asynchronous exceptions can make things hard when compiling to a bytecode).  But I'll admit I'm not an expert on this. 
+\end{verbquote}
+Finally, there was techno-political controversy too, this time in a reply from Fabrice le Fessant on February 12, 2001:
+\begin{verbquote}
+Is the .NET VM open source ? Which part is Microsoft-independent ?...
+
+If Microsoft wants its new product to be used, it is Microsoft problem to port more languages to its VM, and not only say: "We have ported our homemade languages to it (C#, C++, VB.NET) [because it was designed for them], so, you see, we have proved it's the universal VM. Now, do the same for your languages, or your language will not be used anymore by our customers..."
+
+So, why do we really need a .NET port of OCaml ? OCaml is working fine on Windows, and on many other OS ... 
+\end{verbquote}
+A discussion thread followed on the merits of open source, standards, interoperability and cross-platform execution, issues which weren’t resolved for F\# for another 13 years, when F\#, C\# and .NET Core were finally open source and cross-platform.  A contribution by Dave Berry on February 16, 2001 was more positive:
+\begin{verbquote}
+I think Microsoft should be congratulated on their outreach to programming language researchers.  I for one would certainly welcome a widely distributed VM that is a good target for compiling ML.  Interoperability with other languages on the same VM would be a bonus... That said, interoperability is still hard...
+\end{verbquote}
+There were many valid arguments and sensitivities here, and I proceeded from this point determined to be highly respectful towards OCaml and its existing user base: I genuinely loved the language and the approach to programming it represented. 
+
+Predicting the future trajectory of software infrastructure like .NET and architecture was also an important factor in making decisions, e.g. in this final response by Arturo Borquez on March 3, 2001:
+\begin{verbquote}
+Perhaps I am wrong, but let me state what I believe about this stuff.... C# is not really important as it will never reach the 'mass' of VB... The real issue is ... the Client/Server model ... In my opinion this model has no future, ...clients would become minimal.... with a diverse and broad family of client devices (terminals). My conclusion is CLR/JVM ... are not important for the future of Caml, as all will die. Caml will need only some library updates to match the communication tech upgrades.  
+\end{verbquote}
+In hindsight, predictions like these were both right and wrong: the structure of applications evolved extensively, and .NET and the JVM ultimately de-emphasized their role as “middleware”, but neither .NET nor the JVM have died.  Languages and runtimes seem to endure longer than software architectures.
+
+So, in mid-2001 the itch remained: how was MSR going to bring strongly typed functional programming to .NET in a way that could be readily adopted by large numbers of programmers?  By October 10, 2001 I felt firm enough in this conviction to reply as follows:
+
+\begin{verbquote}
+When time permits I plan to implement a .NET CLR compiler for Caml. Initially I will implement only the core language, and perhaps first-order modules, and then to assess things after that.  I will be coding the implementation up from scratch rather than using the sources for the existing OCaml compiler...
+
+My first reason for doing this is because I have an existing OCaml code base that I would like to make available as a .NET library...  Plus I love Caml, and would like to see it supported on .NET, and I'm interested in proving that interoperability between functional languages is practical in .NET. 
+
+This implementation path would give object introspection capabilities for free.  However it would no doubt be slower than the existing native code Caml implementation: you don't get something for nothing.
+
+I don't know of any other \emph{active} efforts to do a .NET compiler for Caml.  SML.NET will, hopefully, be available publicly soon.
+\end{verbquote}
+
+So by late 2001 this path remained: to bring a variant of the OCaml language to target .NET itself. The Project 7 effort around OCaml had led to the above approach by Leroy and didn’t look likely to continue.  This left a space for a new Caml.NET initiative, though one targeting the .NET IL itself, and in December 2001 I decided to move ahead with an “Caml.NET”. This was later rebranded “F\#” after private discussion with Cedric Fournet and Georges Gonthier, to allow for greater divergence from OCaml and to bring language experimentation into scope.   
+
+
+\section*{Early F\# - 2002 – 2003}
+
+tbd
+
+\section*{Early F\# - Release}
+
+tbd
+
+\section*{F\# 1.0 – 2004-2006 - Overview}
+
+tbd
+
+\section*{F\# 1.0 – Pipelines}
+
+tbd
+
+\section*{F\# 1.0 –Tackling Object Programming}
+
+
+tbd
+
+\section*{F\# 1.0 – Improving the Functional Core: Initialization Graphs}
+
+tbd
+
+\section*{F\# 1.0 – Improving the Functional Core: Overloaded Arithmetic }
+
+tbd
+
+\section*{F\# 1.0 – Improving the Functional Core: Active Patterns}
+
+tbd
+
+\section*{F\# 1.0 – Improving the Functional Core: First-class Events}
+
+tbd
+
+\section*{F\# 1.0 – Improving the Functional Core: Computation Expressions and Async}
+
+tbd
+
+\section*{F\# 1.0 – Meta-programming}
+
+tbd
+
+\section*{F\# 1.0 – Improving the Functional Core: Indentation-aware Syntax}
+
+tbd
+
+\section*{F\# 1.0 – IDE Tooling}
+
+tbd
+
+\section*{Finance and Functional: Microsoft Commits to F\#, 2007}
+
+tbd
+
+\section*{F\# 2.0 – 2007 to 2010}
+
+tbd
+
+\section*{F\# 2.0 – Units of Measure }
+
+tbd
+
+\section*{Type Providers and F\# 3.0 }
+
+tbd
+
+
+\section*{.NET, F\# and the Shift to Cloud and Mobile Computing}
+
+tbd
+
+
+\section*{A New Dawn for F\#, C\# and .NET: Open and Cross-Platform, At Last!}
+
+tbd
+
+\section*{The F\# Community and the F\# Software Foundation }
+
+tbd
+
+\section*{.NET Core: Microsoft take C\#, F\# and .NET Cross-Platform}
+
+tbd
+
+\section*{F\# for Mobile}
+
+
+tbd
+
+\section*{F\#, JavaScript and Full Stack Programming}
+
+tbd
+
+\section*{Retrospective}
+
+tbd
+
+
 %% Acknowledgments
 \begin{acks}                            %% acks environment is optional
                                         %% contents suppressed with 'anonymous'
@@ -363,7 +579,7 @@ acks
 
 %% Appendix
 \appendix
-\section{Appendix}
+\section*{Appendix}
 
 Text of appendix \ldots
 
