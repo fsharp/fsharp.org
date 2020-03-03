@@ -1,0 +1,370 @@
+%% For double-blind review submission, w/o CCS and ACM Reference (max submission space)
+%\documentclass[acmsmall,review,anonymous]{acmart}\settopmatter{printfolios=true,printccs=false,printacmref=false}
+%% For double-blind review submission, w/ CCS and ACM Reference
+%\documentclass[acmsmall,review,anonymous]{acmart}\settopmatter{printfolios=true}
+%% For single-blind review submission, w/o CCS and ACM Reference (max submission space)
+\documentclass[acmsmall,review]{acmart}\settopmatter{printfolios=true,printccs=false,printacmref=false}
+%% For single-blind review submission, w/ CCS and ACM Reference
+%\documentclass[acmsmall,review]{acmart}\settopmatter{printfolios=true}
+%% For final camera-ready submission, w/ required CCS and ACM Reference
+%\documentclass[acmsmall]{acmart}\settopmatter{}
+
+
+%% Journal information
+%% Supplied to authors by publisher for camera-ready submission;
+%% use defaults for review submission.
+\acmJournal{PACMPL}
+\acmVolume{1}
+\acmNumber{HOPL} % CONF = POPL or ICFP or OOPSLA
+\acmArticle{1}
+\acmYear{2018}
+\acmMonth{1}
+\acmDOI{} % \acmDOI{10.1145/nnnnnnn.nnnnnnn}
+\startPage{1}
+
+%% Copyright information
+%% Supplied to authors (based on authors' rights management selection;
+%% see authors.acm.org) by publisher for camera-ready submission;
+%% use 'none' for review submission.
+\setcopyright{none}
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\copyrightyear{2018}           %% If different from \acmYear
+
+%% Bibliography style
+\bibliographystyle{ACM-Reference-Format}
+%% Citation style
+%% Note: author/year citations are required for papers published as an
+%% issue of PACMPL.
+\citestyle{acmauthoryear}   %% For author/year citations
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Note: Authors migrating a paper from PACMPL format to traditional
+%% SIGPLAN proceedings format must update the '\documentclass' and
+%% topmatter commands above; see 'acmart-sigplanproc-template.tex'.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% Some recommended packages.
+\usepackage{booktabs}   %% For formal tables:
+                        %% http://ctan.org/pkg/booktabs
+\usepackage{subcaption} %% For complex figures with subfigures/subcaptions
+                        %% http://ctan.org/pkg/subcaption
+
+
+\begin{document}
+
+%% Title information
+\title{The Early History of F\#}         %% [Short Title] is optional;
+                                        %% when present, will be used in
+                                        %% header instead of Full Title.
+%\titlenote{with title note}             %% \titlenote is optional;
+                                        %% can be repeated if necessary;
+                                        %% contents suppressed with 'anonymous'
+%\subtitle{Subtitle}                     %% \subtitle is optional
+%\subtitlenote{with subtitle note}       %% \subtitlenote is optional;
+                                        %% can be repeated if necessary;
+                                        %% contents suppressed with 'anonymous'
+
+
+%% Author information
+%% Contents and number of authors suppressed with 'anonymous'.
+%% Each author should be introduced by \author, followed by
+%% \authornote (optional), \orcid (optional), \affiliation, and
+%% \email.
+%% An author may have multiple affiliations and/or emails; repeat the
+%% appropriate command.
+%% Many elements are not rendered, but should be provided for metadata
+%% extraction tools.
+
+%% Author with single affiliation.
+\author{Don Syme}
+                                        %% can be repeated if necessary
+%\orcid{nnnn-nnnn-nnnn-nnnn}             %% \orcid is optional
+\affiliation{
+  \position{Principal Researcher}          %% \authornote is optional;
+  %\department{Department1}              %% \department is recommended
+  \institution{Microsoft}            %% \institution is required
+  %\streetaddress{Street1 Address1}
+  %\city{City1}
+  %\state{State1}
+  %\postcode{Post-Code1}
+  \country{United Kingdom}                    %% \country is recommended
+}
+\email{don.syme@microsoft.com}          %% \email is recommended
+\affiliation{
+  \position{Technical Advisor}          %% \authornote is optional;
+  %\department{Department1}              %% \department is recommended
+  \institution{F\# Software Foundation}            %% \institution is required
+  %\streetaddress{Street1 Address1}
+  %\city{City1}
+  %\state{State1}
+  %\postcode{Post-Code1}
+  %\country{United Kingdom}                    %% \country is recommended
+}
+%\email{don.syme@microsoft.com}          %% \email is recommended
+
+%% Author with two affiliations and emails.
+%\author{First2 Last2}
+%\authornote{with author2 note}          %% \authornote is optional;
+                                        %% can be repeated if necessary
+%\orcid{nnnn-nnnn-nnnn-nnnn}             %% \orcid is optional
+%\affiliation{
+ % \position{Position2a}
+  %\department{Department2a}             %% \department is recommended
+  %\institution{Institution2a}           %% \institution is required
+  %\streetaddress{Street2a Address2a}
+  %\city{City2a}
+  %\state{State2a}
+  %\postcode{Post-Code2a}
+  %\country{Country2a}                   %% \country is recommended
+%}
+%\email{first2.last2@inst2a.com}         %% \email is recommended
+%\affiliation{
+  %\position{Position2b}
+  %\department{Department2b}             %% \department is recommended
+  %\institution{Institution2b}           %% \institution is required
+  %\streetaddress{Street3b Address2b}
+%  \city{City2b}
+ % \state{State2b}
+ % \postcode{Post-Code2b}
+ % \country{Country2b}                   %% \country is recommended
+%}
+%\email{first2.last2@inst2b.org}         %% \email is recommended
+
+
+%% Abstract
+%% Note: \begin{abstract}...\end{abstract} environment must come
+%% before \maketitle command
+\begin{abstract}
+This paper describes the genesis and early history of the F\# programming language. I start with the origins of strongly-typed functional programming (FP) in the 1970s, 80s and 90s. During the same period, Microsoft was founded and grew to dominate the software industry. In 1997, as a response to Java, Microsoft initiated internal projects which eventually became the .NET programming framework and the C\# language. From 1997 the worlds of academic functional programming and industry combined at Microsoft Research, Cambridge. The researchers engaged with the company through Project 7, the initial effort to bring multiple languages to .NET, leading to the initiation of1 .NET Generics in 1998 and F\# in 2002. F\# was one of several responses by advocates of strongly-typed functional programming to the "object-oriented tidal wave" of the mid-1990s. The development of the core features of F\# happened from 2004-2007, and I describe the decision-making process that led to the "productization" of F\# by Microsoft in 2007-10 and the release of F\# 2.0.  The origins of F\#'s characteristic features are covered: object programming, quotations, statically resolved type parameters, active patterns, computation expressions, async, units-of-measure and type providers. I describe key developments in F\# since 2010, including F\# 3.0-4.5, and its evolution as an open source, cross-platform language with multiple delivery channels.  I conclude by examining some uses of  F\# and the influence F\# has had on other languages so far.
+\end{abstract}
+
+
+%% 2012 ACM Computing Classification System (CSS) concepts
+%% Generate at 'http://dl.acm.org/ccs/ccs.cfm'.
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10011007.10011006.10011008</concept_id>
+<concept_desc>Software and its engineering~General programming languages</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003456.10003457.10003521.10003525</concept_id>
+<concept_desc>Social and professional topics~History of programming languages</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Software and its engineering~General programming languages}
+\ccsdesc[300]{Social and professional topics~History of programming languages}
+%% End of generated code
+
+
+%% Keywords
+%% comma separated list
+\keywords{Functional Programming, Programming Languages, F\#}  %% \keywords are mandatory in final camera-ready submission
+
+
+%% \maketitle
+%% Note: \maketitle command must come after title commands, author
+%% commands, abstract environment, Computing Classification System
+%% environment and commands, and keywords command.
+\maketitle
+
+
+\section{Introduction}
+
+The history of the F\# programming language is an arc drawn from the 1970s to the present day.  Somewhere, back in the early 1970s, an idea was born in the mind of Robin Milner and his colleagues Lockwood Morris and Malcolm Newey of a succinct, fully type-inferred functional programming language suitable for manipulating structured information. (Gordon, 2000).  Building on the tradition of LISP (and indeed using LISP as their implementation vehicle), this language became ML – Meta Language - and is the root of a tradition of “strongly typed functional programming languages” that includes Edinburgh ML, Miranda, Haskell, Standard ML, OCaml, Elm, ReasonML and PureScript. F\# is part of this family.
+
+The history of Standard ML has been told elsewhere (REF: MacQueen, 2015). ML-family languages are often associated with formalism, a theme I explore later in this article. However, a primary concern of Milner and co. from the outset was pragmatic usability. This group needed their language for a specific purpose: to succinctly and accurately program the proof rules and transformations (“tactics”) of a theorem proving system called LCF, at that time on PDP-10 machines. Pragmatic choices included the use of mutable state (to allow proof state to be stored in an interactive system) and a type inference system (later called Hindley-Milner or Damas-Milner type inference), allowing the code for derived tactics to be both succinct and automatically generalized.  A similar theme of pragmatism ran through later ML dialects as well, including OCaml (REF: Leroy), witnessed by both the language design and tooling such as the OCaml C Foreign Function Interface (FFI).
+
+Rolling forward, to the present day, key ideas stemming from the 1970s are at the core of the F\# language design and central to the day-to-day experience of using the language.  Like all ML-family languages:
+\begin{itemize}
+\item The core paradigm supported by F\# is still strongly typed functional programming;
+\item The core activity of F\# is still defining types (\texttt{type X}) and functions (\texttt{let f x = …}) and these declarations are type-inferred and generalized automatically;
+\item F\# still aims to support a mode of programming where the focus is on the domain being manipulated rather than on the details of programming itself.
+\end{itemize}
+
+Today, books are published which extoll the virtues of F\# for “Domain Driven Design” (REF: Wlaschin, 2017).  This is not so far removed from the early role of ML where the “domain” was the symbolic representation of terms and theorems of the LCF logic. The “spirit” of ML is very much alive in F\#, as it was always intended to be. 
+
+The leap from 1970s to the present day spans a period of massive change in the computing industry: we have shifted from PDP-10s to cloud systems, from punch cards to mobile phones, from edit-line to tooling-rich IDEs, from small to massive storage, from no-network to ubiquitous network. This article tells the story of how F\# developed, the industry and academic contexts in which this occurred, the immediate influences on the language and its distinctive contributions. The story intersects with many other histories in programming language design, including the complex histories of functional programming, object-oriented programming, type systems, runtime design, operating systems and open source software, and emphasis is placed on the genesis of F\# as one of several reactions to the “object-oriented tidal wave” of the early 1990s.  The story is necessarily incomplete and told largely from the personal perspective of the author, the designer of the language, and I apologize for that. Where references are not provided the text is offered as source material based on the recollection of the author.
+
+I have started with the core idea of the ML-family of programming languages: type-safe, succinct, accurate, domain-oriented functional programming. From my perspective, this idea has “held strong, held true” throughout this era of change. Whether that is through obstinacy, coherence or coincidence is something I leave the reader to assess. 
+
+\section{What is F\# in 2020?}
+
+In 2020, F\# is described on its documentation pages as “a functional programming language that runs on .NET.” The F\# language guide (Microsoft, 2019) calls out the following major features of the language, providing useful clarity about what the language is today:
+\begin{itemize}
+\item functions and modules
+\item pipelines and composition
+\item lists, arrays, sequences
+\item pattern matching 
+\item active patterns 
+\item type inference
+\item recursive functions
+\item quotations
+\item record types, discriminated union types
+\item option types
+\item units of measure
+\item object programming
+\item asynchronous programming
+\item computation expressions
+\item type providers
+\end{itemize}
+The documentation continues with an explanation of the main tooling and libraries available for F\# programming, including
+\begin{itemize}
+\item cross-platform compilation and execution;
+\item the primary F\# and .NET libraries;
+\item web, mobile and data programming toolkits;
+\item editing tools from Emacs to Visual Studio, VS Code and Jet Brains Rider (TM);
+\item how to use F\# with the cloud platform of the company providing the documentation.
+\end{itemize}
+Other resources for F\# follow a similar order of explanation, e.g. Fable  is a packaging of F\# for client-side web programming compiling to JavaScript (REF:   Fable - The compiler that emits JavaScript you can be proud of! August 2019, Retrieved from http://fable.io ) , and WebSharper (REF: Granicz, 2018) and SAFE-Stack  emphasize the use of F\# as a “full-stack” language where both client and server components are written in the same language (REF:   SAFE Stack, An end-to-end functional-first stack for cloud-ready web development that emphasizes type-safe programming, August 2019,  Retrieved from https://safe-stack.github.io/)
+
+That's what F\# is today: an open-source, cross-platform, strongly-typed, succinct programming language with broad applicability to many different programming scenarios and much loved by its users.  The language community centers around the F\# Software Foundation (FSSF, a US non-profit), and social media such as Twitter. F\# has had influence – most directly on C\# but also more broadly – I discuss this in the conclusion.  But how did we get there?
+
+\section{Background: Languages, Programmability at Microsoft and the Creation of .NET}
+
+The 1970s-80s saw continual, rapid expansion of the computing industry, from transistor design and chip fabrication to software development and applications. Software development tooling both boomed and consolidated with the development and adoption of many different programming paradigms and languages, including BASIC, PASCAL, Prolog, Modula 2 and C.  Accompanying each were commercial variations (Visual Basic, Turbo Pascal, Borland C for example). Languages such as Logo served to spark the imagination of a new generation that programming could be “different”  and a bold new era of “fourth generation languages” was promised. 
+
+At this time, Microsoft also saw massive expansion as an operating system and applications company.  Microsoft started by building programming tools in 1975 and the importance of programmability – both as a commercial and technical undertaking – was “in the bones” of the company and its CEO Bill Gates (Microsoft, 2012).  Through the 1980s his primary concern with regard to programmability was commercial: how to support the creation of applications and a commercial ecosystem of independent software vendors (ISVs) for the DOS and Windows ecosystems.  What mattered most was the sheer number of developers using these platforms, for developers would feed the growth of these ecosystems.  The company created tools such as Visual Basic to satisfy the mass-developer market, and versions of C for more hard-core developers, a distinction that later got characterized as tools for “Mort” (Visual Basic) and “Einstein” (C++) . Such tooling was pitted against a myriad of rapid development environments such as HyperCard  and ToolBook  and Microsoft succeeded hands-down, becoming dominant in application development worldwide and achieving a monopoly position in operating systems.  Microsoft also made numerous other programming tools including FoxPro  and a FORTRAN compiler , later discontinued.
+
+The late 1980s saw a new wave of thinking coalesce around “object-oriented” programming, and this became increasingly influential in applied software development and academia.  Indeed, object-orientation moved from the margins to be central to the conceptualization of software development.  The pattern of languages with commercial toolchains repeated: examples include the first C++ commercial compilers in 1985, Borland C++ in 1992 and IBM Smalltalk in 1993.   Foremost amongst the drivers towards OO was the rising prevalence of user interface elements in software: applications were now interactive and made of “buttons” and other “widgets”, these widgets were easily conceptualized as “objects” combining state and behavior, and these widgets could be hierarchically classified. Procedurally-oriented languages were unable to express such abstractions directly in code, and languages without subtyping found it hard to express the necessary relationships between widgets. People assessed languages by asking two primary questions: “does it support inheritance?” and “is everything an object?”.  Any newly proposed language that did not meet these criteria quickly became marginalized into relative obscurity. 
+
+The prospect of an industry-shifting nexus between this new wave of software development methodology and an operating system company drew tantalizingly near. For example, the launch of NEXTStep 3.0 in 1993 featured heavy focus on “objects” as a concept that the NEXTStep OS somehow supported (in practice this meant that NeXTStep application development was based on Objective C – the OS itself, was written in C). This was used by Jobs to demonstrate its sophistication and technical maturity. When Java was developed in 1991-95, and released in 1996, it was a deep challenge to Microsoft in at least six ways: 
+\begin{itemize}
+\item Java was object-oriented and “modern”;
+\item Java promised Write Once Run Anywhere software development that could in theory cut the dependence on a particular operating system; 
+\item Java was developed by a direct rival in the upper-end operating system market; 
+\item Java was positioned as a web-technology at the dawn of the web, potentially capable of delivering end-user applications via the browser;
+\item Java used a set of technical devices such as a virtual machine (VM) and garbage collection (GC);  and 
+\item Java was recognized as a contribution to applied academic computer science , bringing on board a constituency who had been largely ignored by Microsoft. As a result, Java became embraced as a de-facto standard for typed object-orientation.
+\end{itemize}
+
+Microsoft was initially slow to respond.  Internally, the company was committed to C for implementing its flagship products but had plenty of assembly code as well. Given the target hardware specs it was unrealistic to write Windows or Microsoft Word in a heap-allocating “toy” language like Java, so Java was not going to become the major language of internal use at Microsoft quickly. Further, external-facing RAD environments like Visual Basic didn’t immediately benefit from the structured approach to OO found in class-oriented languages. With a tidal wave of Java hype flooding the industry, Microsoft responded by embracing Java, licensed from Sun in 1996 (Microsoft J++), but subsequently faced legal action for extending the language. This formed part of the background to United States v. Microsoft Corp, a legal case running from formally from 1998 to 2001 though with its roots in earlier actions. In this case the U.S. government accused Microsoft of illegally maintaining its monopoly position in the PC market, through restrictions on PC manufacturers relating to internet browser software and other programs such as Netscape and Java. The initial trial recommendations were to break-up Microsoft as a company, later settled to lesser remedies. 
+
+In 1997, Microsoft changed tack and started the internal development of a new programmability platform which could address the fundamental challenge of Java, while also addressing the needs specific to Windows programmability.  Initially called COM+ 2.0 or Lightning, and eventually .NET, the founding principles of the runtime environment were as follows:
+\begin{itemize}
+\item It would support multiple programming languages, including Visual Basic, C++ and Java. Additionally, a new language was started, under the design of Anders Hejlsberg, initially called COOL and later C\#.
+\item It would support a bytecode, garbage collection, JIT compilation and “middleware” features such as stack-based security checks and remoting. Additionally, the runtime would support unsigned integers, unboxed representations and install-time compilation.
+\item It would be made specifically for application development on Windows, including native interoperability to C-based Win32 APIs and built-in support for COM. However, it would also be sufficiently general that porting to other operating systems would be theoretically possible.
+\item Its SDK would be offered free and aligned with emerging efforts in academic relations, then managed by Microsoft Research, founded in 1992.
+\end{itemize}
+
+The decisions around Lightning were regularly reviewed by Bill Gates. Through the efforts of two “developer evangelists” - Peter and James Plamondon  – a key decision was made: Lightning would be a \emph{multi-language runtime} rather than just a fixed set of languages decided by Microsoft.  An outreach project called “Project 7” was initiated: the aim was to bring seven commercial languages and seven academic languages to target Lightning at launch. While in some ways this was a marketing activity, there was also serious belief and intent.  For help with defining the academic languages James Plamondon turned to Microsoft Research (MSR).
+
+From the perspective of the history of F\#, this is a moment when largely unrelated traditions in the history of computer science began to merge and intertwine: the worlds of Robin Milner and Bill Gates began to meet.
+
+MSR had been founded in 1992 and expanded to Cambridge UK in September 1997. Andy Gordon (a high-profile young researcher in programming language theory) and Luca Cardelli (author of one of the first ML implementations and prolific researcher) were hired, followed in September 1998 by Simon Peyton Jones (a leading Haskell contributor), Nick Benton (a theorist and initiator of MLj, discussed later), Cedric Fournet (a core member of the OCaml team), Sir Tony Hoare (world famous computer scientist) and Don Syme (the author of this paper; undergraduate student of early ML contributor Malcolm Newey in Australia; PhD student of Mike Gordon; with a background in functional programming, formal verification and Java). MSR eventually employed over 500 researchers and engineers in various locations.  
+
+Suddenly Microsoft was brimming with academic computer scientists, though in a separate “org” to the “product teams”.  Many were eager to make an impact on Microsoft’s product range, and there was cultural memory from Bell Labs (Cardelli), DEC-SRC (Cardelli), Compaq (Gordon) and Intel (Syme) that this was how such labs “paid the bills”.  Each researcher was in their own way deeply evangelical about one point-of-view or another in computer science and often held tribal allegiances to their corresponding communities in academia, both of which shaped their interactions with product teams and the projects they chose. Many in the formal verification and theory areas had experience of strongly-typed functional programming. Robin Milner, the originator of the ML family of languages, was head of department at Cambridge University “across the road” and was held in high esteem as a pioneer in the field of research. 
+
+On the other side, Microsoft was entering a phase where it was becoming deeply committed to a multi-language runtime and wanted to be seen to innovate positively.  Lightning already had many of the core elements of a typical functional language implementation (GC, JIT, bytecode), and promised to unite disparate themes in programming, though initially within the confines of the Windows operating system. The scene was set for interesting things to happen. The Lightning effort was renamed NGWS and then finally called .NET on launch in 2000.  
+
+\section{Background: Strongly Typed Functional Programming through the 1990s – Calculi, Miranda, OCaml, Haskell and Pizza}
+
+While Microsoft was establishing its monopoly position in the early 1990s, and object-orientation was sweeping the globe, the world of strongly typed functional programming was small and marginalized yet active and vibrant.  This world overlapped with other fields of activity, which we would now call “PL research” but at the time included formal verification, type theory and programming logics and an increasing dose of category theory. This world was heavily influenced by foundational calculi, most obviously the Lambda Calculus and its variations such as System F, followed by concurrent calculi such as CCS and the Pi Calculus (REF: Sangiorgi \& Walker, 2001).  Efforts to identify unifying object calculi were well underway (REF: Cardelli \& Abadi, 1996) and workshops such as FOOL searched for foundational formalisms for new constructs being added to existing languages. 
+
+“Formal methods” was an overlapping field in its hey-day in the 1980s, with major government initiatives in formalized hardware and software.  Controversies (MacKenzie, 2001) and the relatively modest successes of formal methods in industry saw researchers in the 1990s look to more pragmatic techniques for bug-finding including model checking and static analysis tools. Systems such as SMV, Z, ACL, HOL88, PVS, HOL90, Isabelle and commercial offerings were used to model, formalize and verify aspects of software and hardware designs.   Functional languages were often used to implement and script these systems, e.g. Edinburgh ML (HOL88), Standard ML (HOL90, Isabelle), OCaml (Coq, NuPRL), Caml Light (HOL-Lite), LISP (ACL2, PVS).  These systems thus formed a core constituency of adoption of strongly-typed functional languages and held functional programming close to more theoretical communities.  The Formal Definition of Standard ML (REF: Harper, Milner, \& Tofte, 1990) and its commentary were seen by some as almost holy texts, enshrining the virtues of standardization, cooperation, formalism and theory. At the same time, some functional programming systems were closely aligned to research on parallel programming, e.g. Parallel ML (REF: Rabhi \& Gorlatch, 2003) and parallel versions of Haskell.  Together these formed the context in which I first encountered strongly typed functional programming and ML in my undergraduate research work (Syme, 1993).
+
+The FDIV bug at Intel, discovered in 1994,  led to a significant increase in formal verification investment on the part of hardware manufacturers. Intel turned to academia for help and among the projects brought in was Forte, led by Carl Seger, a toolchain using BDDs and theorem proving to verify the data paths of floating point circuits with respect to an IEEE model.  The Forte toolchain was built around a strongly typed functional language called Forte FL. Although not otherwise influential on programming language design, this is mentioned because I was employed as an intern on this project in 1996-97 and in this context experienced the extreme effectiveness of strongly-typed FP as a “glue language” for symbolic manipulations in applied formal verification, an early application domain for F\#. (Seger, et al., 2005). Forte FL also made many pragmatic choices, for example when interoperating with external data and the inclusion of quotations in the design of a strongly-typed language. This experience had significant impact on the later design of F\#.
+
+Strongly-typed FP also saw significant use through Miranda, first released in 1985.  During the 1990s the small world of strongly-typed functional programming also split and diverged in ways typical of active research communities.  Haskell 98 united the streams of lazy, pure functional programming, precursors included HOPE and Miranda.  Standard ML from 1989 remained the unifying effort for mixed functional-imperative languages. However, the INRIA Project Cristal group saw the standardization as premature, and instead created Caml Light and then OCaml. (Leroy, 2019). Standard ML itself was heavily associated with its innovative module system and saw practical implementations in Poly ML, Standard ML of New Jersey and MLton.
+
+Strongly-typed FP languages and compilers saw an ongoing trickle of interest, adoption and use. While not enough to challenge the massive adoption of C, C++ and Java, and largely unnoticed by industry, they were enough to sustain the languages, promote research and create small cohorts of dedicated advocates of OCaml, Standard ML and Haskell.   People who had the good fortune to use these languages in practice (including myself) experienced dramatic increases in productivity as well as some frustrations. As with the original ML implementation, the domain of use was typically symbolic programming of some kind. The experience of productivity was due to the peculiar effectiveness of the combination of features on offer: the “magic” of Hindley-Milner type inference to support safe, compositional programming; the effectiveness of parametric polymorphism (generics) and discriminated unions to describe and manipulate domain data; the correctness benefits of programming without pervasive null values; the close correspondence between code and formal models. These were in addition to the elegance and expressive power of expression-oriented programming, well-known from LISP but newly rediscovered with joy and delight by user after user. There was a strong feeling that these languages had the potential to be used much more broadly, and that valuable programming techniques were being lost through the widespread embrace of Java.  
+
+The tidal wave of interest in object-orientation in the early 1990s had significant impact in academia, just as in industry.  By the mid-1990s many in the world of FP and PL were genuinely shocked, bewildered, disoriented and in some cases disillusioned by the rise of C++, Java and OO in general.  Reactions varied, and I now examine responses to the OO tidal wave that are key to understanding the genesis of F\#, Scala and other languages in the 2000s. 
+
+One response to object-orientation was to “give in” and work on Java implementations. Others worked on formalisms around Java, and indeed I initially did just that for my PhD thesis (Syme, 1999) and others formulated and published foundational object calculi. Some responded by integrating object-oriented features into FP languages: LISP had already added CLOS, the Common LISP object system and OCaml saw the introduction of new forms of genericity (“row-polymorphism” and “column polymorphism”) used as the basis for a fascinating object system. (Garrigue, 2002).
+
+Another response was to propose to integrate specific technical features associated with strongly-typed functional languages into “mainstream” OO languages.  Wadler and Odersky led the charge with the development of Pizza, a variation of Java that incorporated parametric polymorphism (generics), discriminated unions and first-class function values. (REF: Bracha, Odersky, Stoutamire, \& Wadler, 1998)  This was subsequently trimmed-down to the proposal Generic Java (GJ), and later heavily influenced C\#, Scala and F\#. Ultimately GJ became the basis for Java generics, though its use of “erasure” and lack of accurate runtime type information were significant compromises. 
+
+An alternative angle was to “deconstruct” functional programming itself and examine the underlying problems (as exhibited by implementations of Haskell or Standard ML for example). One instance of this was the paper Why no one uses functional languages (Wadler, 1998). This paper was central to my understanding of the programming language landscape as I started at Microsoft Research in 1998.  Instead of blaming the unwashed masses for their ignorance, Wadler’s paper outlines seven problems of strongly-typed FP implementations at the time: Libraries, Portability, Availability, Packagability, Tools, Training, Popularity.  It also listed Performance and Ignorance as non-reasons. The early development of F\# was essentially an effort to address each of these.
+
+Further, some responded by trying to compete via new commercial implementations of strongly typed FP languages including Poly ML and Harlequin ML. However, these saw little adoption and left the community with the feeling that the support of a “big player” in the industry was needed. 
+
+A final response was to attempt to use the JVM as a substrate for implementing established functional programming languages, and thereby as a delivery vehicle for FP into the browser and the web (the nascent driving force behind Java at the time).  Foremost in these efforts was MLj, a research/commercial implementation of Standard ML by Benton, Kennedy et al. at Persimmon (REF Benton \& Kennedy, Interlanguage working without tears: blending SML with Java, 1999).  MLj was a whole-program compiler which allowed interop with the Java ecosystem through object programming extensions. When the research arm of Persimmon folded in 1998, Benton moved to MSR Cambridge, followed later by Kennedy, bringing experience highly relevant to .NET and later F\#. Despite these various responses, there was also strong anathema to object-orientation in theoretical communities: proponents of OO were too readily labelled with the tar-brush of heresy: “unprincipled nonsense”, “lacking theoretical foundations” and similar.  
+
+That completes our summary of the general surrounding context as I joined Microsoft Research in 1998 and began precursor work leading to F\#. For completeness, the background influences I am aware of were as follows:
+
+\begin{itemize}
+\item I had used strongly typed functional programming, mostly in the context of theorem proving systems (Edinburgh ML in HOL88, Standard ML of New Jersey in HOL90, Caml-Light in HOL-Lite, ForteFL at Intel). I had come to love them, while appreciating their weaknesses. In my undergraduate work I had been supervised by one of the originators of ML, Malcolm Newey. Through my PhD work, the OCaml community and MSR Cambridge, I was involved in overlapping communities that saw strongly typed functional programming as the norm.
+\item I had used object-oriented languages (C++, Java) including studying Java and the JVM formally as part of my thesis work.  My experience with C++ at university in 1992 had been negative, particularly through the over-use of hierarchical classification in student projects – both as a modelling technique and its encoding in class hierarchies.  
+\item As a child, from 1980-87, I had used BASIC and Logo (Apple II) and Turbo Pascal (Windows). As a student, I used Prolog, C, Scheme, Modula 2. A comparative programming languages course provoked interest in a range of languages. In early employment I had used Prolog on Windows for an Australian software company (SoftLaw, 1990-1993). 
+\item I had implemented several strongly-typed language, proof and compilation systems as part of my PhD thesis work using various ML dialects and toolchains including SMLNJ, MoscowML, Caml-light and OCaml. Additionally, I had, somewhat unusually for the times, also implemented some visual tooling for these systems, notably a graphical proof editing IDE for HOL90 (Syme, 1995) and a proof editing workbench for the theorem prover DECLARE (Syme, 1999).  I had a positive disposition to IDE tooling and understood the interaction between IDE tooling and language design.
+\item In 1996-98, I had been exposed to the work of academic leaders such as Drossopoulou, Leroy, Wadler and Odersky to synthesize OO and functional programming (Alves-Foss, 1999).
+\item I was part of discussions trying to reimagine how we deliver strongly-typed functional programming to “the masses”.
+\end{itemize}
+
+\section{Project 7 and .NET Generics}
+
+When Project 7 kicked off at Microsoft, the researchers at MSR Cambridge recommended the following languages for inclusion on the academic stream: Eiffel, Mercury, Standard ML, OCaml, Scheme, Alice and Haskell.  The biases of the research group at MSR are clear here: 6 of 7 recommendations were strongly typed languages, and 3 of 7 were firmly “strongly typed functional languages” in a specific sense of the term, e.g. incorporating Hindley-Milner type inference and having functions as first-class values. Commercial languages in Project 7 included Perl, Python, Cobol and Ada. Academic or commercial partners were found for each, funding was provided by Microsoft and workshops were arranged at MSR Cambridge and elsewhere.
+
+In retrospect Project 7 was flawed but not catastrophically – some of the researchers didn’t engage, few of the language implementations saw much use, and the costs to maintain them were high. While you can still buy and use Cobol.NET today, .NET programming is dominated by two Microsoft-supported languages C\# and F\#, and the JVM has a more vibrant multi-language ecosystem. However Project 7 did have definite technical impact: for example, at this stage, Gordon and Peyton Jones engaged with the designers of .NET, and argued successfully for the inclusion of tailcalls as a first class operation (the “tail.” instruction in the .NET bytecode), both to support some of these languages and as a way of differentiating the .NET bytecode from the JVM.  This started .NET down a long technical path of innovation and differentiation led by the demands of the languages being brought to the platform.   
+
+Project 7 also had an impact by raising the question of “language interoperability”: it was one thing to get languages targeting a common substrate, another to get them to interoperate.  In 1999, I and colleagues wrote the internal whitepaper “Proposed Extensions to COM+ VOS”  which argued that 
+
+\begin{quote}
+a primary objective of the COM+ Runtime is to deliver services and performance that are clearly technically superior to those provided by other potential backend runtime environments. 
+\end{quote}
+and that Microsoft should “get serious about language innovation”.  Five technical features were proposed, of which “generalized delegates” (i.e. functions as first-class values) and “enhanced parametric polymorphism” were the more serious.  The influence of Pizza and GJ is strong here and these are explicitly mentioned as competitors. I also developed ILX, an extension to the .NET bytecode incorporating these features, which I hoped might be adopted by other Project 7 languages, implemented on .NET initially by erasure and compilation to the existing .NET IL. (REF: Syme, 2001).
+
+
+This whitepaper served as the start of the “.NET Generics” project, specifically designed to bring a form of generics to .NET that could work for both C\# and other Project 7 languages such as Eiffel, OCaml and Haskell.  .NET Generics and its history is covered elsewhere  and over the next 4 years, Syme, Kennedy and Russo worked with enormous dedication to deliver .NET Generics in C\# and .NET (REF: Kennedy \& Syme, 2001). The feature encountered enthusiasm, reluctance and indifference from various parts of Microsoft, though a review to Gates in 2001 was well received and started to turn things around.   Ultimately the feature was delivered as part of the 2005 .NET 2.0 “Whidbey” release.  At the same time, Microsoft began to make its first very tentative steps towards embracing open source, and a “shared source” release of the .NET codebase was made called Rotor along with a corresponding extension containing the .NET Generics implementation called Gyro.  A poster from MSR’s internal tradeshow “Tech Fest” is shown in Figure 1. 
+
+\begin{figure}
+
+FIGURE: Figure 1 - .NET Generics poster at TechFest 2002, Microsoft Building 33, Redmond
+\end{figure}
+
+The key premise of .NET Generics is that generic instantiations can be “managed” by the runtime environment, inclnuding the management of runtime type information and the JIT-compilation of fresh code for newly encountered instantiations.  This avoids the need to either tag or box integers and other “unboxed” values – a technique normally needed when combining polymorphism and separate compilation, because the runtime is able to specialize code on-demand.
+
+This means the end-programming model in, say, C\#, can support a form of generics that is very complete and smooth from the programmer’s perspective: runtime type information is accurate, the process of making and managing instantiations unobtrusive, the code for instantiations is automatically shared based on a policy. .NET Generics has been successful: it is widely adopted by millions of C\# and F\# programmers; it is seen as a key differentiating factor of C\# over Java; and has been the basis for many later innovations delivered in F\#, C\# and .NET. For example, generic collections (C\# 2.0), LINQ (C\# 3.0), tasks (C\# 4.0), async/await (C\# 5.0) and Span (C\# 7.2) all use .NET Generics heavily, as do all F\# features.  .NET Generics put .NET years ahead: even today systems such as Java, Go and Scala struggle with the implementation of aspects of genericity such as supporting instantiation at both reference and value types.  Equally, generics is a technical feature that imposed significant costs on Microsoft’s .NET implementation going forward. Generics is most easily implemented via a JIT and attempts to do fully static compilation of .NET code have struggled with the feature.
+
+
+From the perspective of the history of F\# (which did not yet exist), the successful delivery of .NET Generics intentionally made .NET a suitable substrate for a “direct” compilation from a strongly typed functional language into .NET bytecode: this was by design, not by accident. For example, it allowed a simple, direct compilation of genericity inferred via Hindley-Milner type inference into .NET Generics with little or no runtime overhead.  Consider simple code such as this in some ML-like dialect:
+\begin{verbatim}
+let keyAndData getKey x = (getKey x, x)
+let data = [| 1 .. 100 |]
+let add x = x + 1
+let y = Array.map (keyAndData add) data
+\end{verbatim}
+
+Here the generic code has been instantiated at integer type. In many systems of generics such as GJ, values of generic type such as parameter \texttt{x} to \texttt{keyAndData} would be represented in boxed (heap-allocated) form.  Thus, in the absence of other optimizations, the code above would cause the boxing of the integers as they enter the (generic) \texttt{keyAndData} function, and then unboxing as they are passed on to the (non-generic) \texttt{add} function.  Such implicit costs for basic collection types would be unbearable and make any Hindley-Milner type-inferred language intrinsically low-performance on .NET. With .NET Generics these specific performance problems go away.  In crucial ways .NET Generics laid a foundation for later work on F\#.
+
+
+%% Acknowledgments
+\begin{acks}                            %% acks environment is optional
+                                        %% contents suppressed with 'anonymous'
+acks
+  %% Commands \grantsponsor{<sponsorID>}{<name>}{<url>} and
+  %% \grantnum[<url>]{<sponsorID>}{<number>} should be used to
+  %% acknowledge financial support and will be used by metadata
+  %% extraction tools.
+%  This material is based upon work supported by the
+  %\grantsponsor{GS100000001}{National Science
+    %Foundation}{http://dx.doi.org/10.13039/100000001} under Grant
+  %No.~\grantnum{GS100000001}{nnnnnnn} and Grant
+ % No.~\grantnum{GS100000001}{mmmmmmm}.  Any opinions, findings, and
+  %conclusions or recommendations expressed in this material are those
+ % of the author and do not necessarily reflect the views of the
+  %National Science Foundation.
+\end{acks}
+
+
+%% Bibliography
+%\bibliography{bibfile}
+
+
+%% Appendix
+\appendix
+\section{Appendix}
+
+Text of appendix \ldots
+
+\end{document}
