@@ -1,0 +1,69 @@
+% This is file `acmNArefs.sty'.
+% Guy Steele, January 2020.
+% Provides \citeNA and related macros for citing non-aechival references for
+% HOPL IV: Fourth ACM SIGPLAN Conference on History of Programming Languages.
+
+\usepackage{multibib}
+
+\def\@mb@citenamelist{cite,citep,citet,citealp,citealt,citeauthor,citefullauthor,citeyear}
+\newcites{nonarchival}{Non-archival References}
+
+\newcommand\citeNAmarker{{\sc na}}       %intentionally short
+\providecommand\NA{{\sc non-archival}}   %intentionally more readable
+
+\newcommand\citeNA{\@ifstar{\@citeNAi{*}}{\@citeNAi{}}}
+\def\@citeNAi#1{\@ifnextchar[{\@citeNAii{#1}}{\@citeNAii{#1}[]}%]
+ }
+\def\@citeNAii#1[#2]{\@ifnextchar[{\@citeNAiii{#1}{#2}}{\@citeNAiii{#1}{}[#2]}%]
+ }
+\def\@citeNAiii#1#2[#3]#4{{\def\@tempa{#2}\def\@tempb{}\ifx\@tempa\@tempb
+  \citenonarchival#1[\citeNAmarker][#3]{#4}\else
+%  \citenonarchival#1{#4}\else
+  \citenonarchival#1[#2 \citeNAmarker][#3]{#4}\fi}}
+
+\newcommand\citepNA{\@ifstar{\@citepNAi{*}}{\@citepNAi{}}}
+\def\@citepNAi#1{\@ifnextchar[{\@citepNAii{#1}}{\@citepNAii{#1}[]}%]
+ }
+\def\@citepNAii#1[#2]{\@ifnextchar[{\@citepNAiii{#1}{#2}}{\@citepNAiii{#1}{}[#2]}%]
+ }
+\def\@citepNAiii#1#2[#3]#4{{\def\@tempa{#2}\def\@tempb{}\ifx\@tempa\@tempb
+  \citepnonarchival#1[\citeNAmarker][#3]{#4}\else
+  \citepnonarchival#1[#2 \citeNAmarker][#3]{#4}\fi}}
+
+\newcommand\citetNA{\@ifstar{\@citetNAi{*}}{\@citetNAi{}}}
+\def\@citetNAi#1{\@ifnextchar[{\@citetNAii{#1}}{\@citetNAii{#1}[]}%]
+ }
+\def\@citetNAii#1[#2]{\@ifnextchar[{\@citetNAiii{#1}{#2}}{\@citetNAiii{#1}{}[#2]}%]
+ }
+\def\@citetNAiii#1#2[#3]#4{{\def\@tempa{#2}\def\@tempb{}\ifx\@tempa\@tempb
+  \citetnonarchival#1[\citeNAmarker][#3]{#4}\else
+  \citetnonarchival#1[#2 \citeNAmarker][#3]{#4}\fi}}
+
+\newcommand\citealpNA{\@ifstar{\@citealpNAi{*}}{\@citealpNAi{}}}
+\def\@citealpNAi#1{\@ifnextchar[{\@citealpNAii{#1}}{\@citealpNAii{#1}[]}%]
+ }
+\def\@citealpNAii#1[#2]{\@ifnextchar[{\@citealpNAiii{#1}{#2}}{\@citealpNAiii{#1}{}[#2]}%]
+ }
+\def\@citealpNAiii#1#2[#3]#4{{\def\@tempa{#2}\def\@tempb{}\ifx\@tempa\@tempb
+  \citealpnonarchival#1[\citeNAmarker][#3]{#4}\else
+  \citealpnonarchival#1[#2 \citeNAmarker][#3]{#4}\fi}}
+
+\newcommand\citealtNA{\@ifstar{\@citealtNAi{*}}{\@citealtNAi{}}}
+\def\@citealtNAi#1{\@ifnextchar[{\@citealtNAii{#1}}{\@citealtNAii{#1}[]}%]
+ }
+\def\@citealtNAii#1[#2]{\@ifnextchar[{\@citealtNAiii{#1}{#2}}{\@citealtNAiii{#1}{}[#2]}%]
+ }
+\def\@citealtNAiii#1#2[#3]#4{{\def\@tempa{#2}\def\@tempb{}\ifx\@tempa\@tempb
+  \citealtnonarchival#1[\citeNAmarker][#3]{#4}\else
+  \citealtnonarchival#1[#2 \citeNAmarker][#3]{#4}\fi}}
+
+\newcommand\citeauthorNA{\@ifstar{\@citeauthorNAi{*}}{\@citeauthorNAi{}}}
+\def\@citeauthorNAi#1{\citeauthornonarchival#1}
+
+\newcommand\citefullauthorNA{\citeauthornonarchival*}
+
+\newcommand\citeyearNA{\citeyearnonarchival}
+
+\newcommand\bibliographyNA{\bibliographynonarchival}
+
+\newcommand\bibliographystyleNA{\bibliographystylenonarchival}

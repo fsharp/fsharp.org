@@ -1,0 +1,41 @@
+% This is file `acmshepherd.sty'.
+% Guy Steele, January 2020.
+% Provides the \shepherd macro for documenting shepherds of papers for
+% HOPL IV: Fourth ACM SIGPLAN Conference on History of Programming Languages.
+
+% Usage: after the \author commands, add one line for each shepherd:
+%    \shepherd{Full Name, Affiliation}
+% Example:
+%    \shepherd{Guy L. Steele Jr., Oracle Labs}
+
+
+\let\old@mkauthors\@mkauthors
+\def\@mkauthors{\old@mkauthors\@mkshepherds}
+
+\def\@shepherdfont{\@affiliationfont}
+\def\@acmShepherds{}
+\newcount\num@shepherds
+\num@shepherds=0\relax
+\newif\iffirstshepherd
+\def\shepherd#1{\advance\num@shepherds by 1%
+  \g@addto@macro\@acmShepherds{\@mkshepherd{#1}}}
+\def\@mkshepherd#1{\iffirstshepherd
+    \noindent\hskip\normalparindent{\ifnum\num@shepherds>1 Shepherds\else Shepherd\fi:\hskip0.5em}#1\par
+  \else
+    \noindent\hskip\normalparindent\phantom{\ifnum\num@shepherds>1 Shepherds\else Shepherd\fi:\hskip0.5em}#1\par
+  \fi
+  \firstshepherdfalse}
+\def\@mkshepherds{\ifx\@acmShepherds\@empty \else
+  \global\setbox\mktitle@bx=\vbox{\noindent\box\mktitle@bx\par
+    \firstshepherdtrue
+    {\@shepherdfont\@acmShepherds}
+    \par\medskip}%
+  \fi
+  }
+
+% Unrelated stuff that really belongs in acmart.cls eventually.
+
+\providecommand\NA{{\sc non-archival}}
+
+\def\UrlOrds{\do\*\do\-\do\~\do\'\do\"\do\-\do\_}
+
