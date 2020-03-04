@@ -572,7 +572,7 @@ During this time F\# was not the result of a “meeting of minds” amongst MSR 
 
 One of the first things to become associated with F\# was also one of the simplest: the “pipe-forward” operator, added to the F\# standard library in 2003:
 \begin{verbatim}
-let (|>) x f = f x
+    let (|>) x f = f x
 \end{verbatim}
 In conjunction with curried function application this allows an intermediate result to be passed through a chain of functions, e.g.
 \begin{verbatim}
@@ -607,10 +607,9 @@ List.map (fun (s: string) -> s.Length) data
 \end{verbquote}
 The F\# library also defined two and three-argument pipeline operators, e.g.
 \begin{verbquote}
-let (||>) (x1, x2) f = f x1 x2
+    let (||>) (x1, x2) f = f x1 x2
 
-(0, data) 
-    ||> List.fold (fun count s -> count + s.Length)
+    (0, data) ||> List.fold (fun count s -> count + s.Length)
 \end{verbquote}
 
 \subsection*{F\# 1.0 –Tackling Object Programming}
@@ -658,7 +657,9 @@ In this syntax, "x" is the name of the “this” or “self” parameter and it
 
 In retrospect, the addition of object programming to F\# was a process of “deconstruction” of object-orientation into its essential elements of roughly 20 individual features: dot-notation, classes, method-overloading and so on.  I later formalized this list in a private email as follows.
 
-Acceptable features related to object programming quickly incorporated into F\#:
+\begin{enumerate}
+\it
+\item Object programming features acceptable in F\#:
 \begin{enumerate}
 \item Instance properties and methods and type-directed name resolution
 \item Implicit constructors 
@@ -667,34 +668,37 @@ Acceptable features related to object programming quickly incorporated into F\#:
 \item Named and optional arguments on methods
 \item Non-hierarchical interface types
 \item Object expressions 
-\item Explicit interface implementation on object, record and union types)
+\item Explicit interface implementation on object, record and union types
 \end{enumerate}
-Object programming features that are “ok when necessary” but need some justification and thought: 
+
+\item Object programming features that are “ok when really necessary”: 
 \begin{enumerate}
-  \setcounter{enumi}{9}
-\item Mutable data (if you're using imperative state)
-\item Defining events (an imperative .NET standard but not such a bad one)
-\item Defining operators on types (rarely needed but useful for interop)
-\item Auto properties (I don't use them much but they are useful for interop)
-\item Implementing IDisposable and IEnumerable (both imperative, but pretty normal and a reasonable standard)
+\item Mutable data
+\item Defining events
+\item Defining operators on types
+\item Auto properties
+\item Implementing IDisposable and IEnumerable
 \item Tasteful uses of type extensions
 \item Structs (for performance)
 \item Delegates (for interop)
 \item Enums (for interop)
 \end{enumerate}
-Object programming features that are included in the design of F\# but whose use is generally “going too far”, unless there are explicit performance goals, or API-usability goals, or binary compat goals  achieved:
+
+\item Object programming features included in the design of F\# but whose use is generally “going too far”:
+
 \begin{enumerate}
-  \setcounter{enumi}{18}
 \item Implementation inheritance
 \item Nulls and \texttt{Unchecked.defaultof<\_>}
 \item Method overloading
 \item Additional primary constructors (a form of overloading)
 \end{enumerate}
-Object programming features that are not supported at all
+
+\item Object programming features that are not supported at all:
+
 \begin{enumerate}
-  \setcounter{enumi}{22}
-\item Protected members (they only encourage implementation inheritance).
+\item Protected members (they encourage implementation inheritance)
 \item Anything to do with aspect oriented programming
+\end{enumerate}
 \end{enumerate}
 
 Through this process features were progressively incorporated into F\# in a way that preserved the essence of the core expression language and emphasized delegation over inheritance.  I summarize this today by stating that “F\# embraces ‘object’ programming and de-emphasizes ‘object-oriented’ programming, especially implementation inheritance”.\footnote{\textit{F\# Code I Love}, Don Syme, September 2018, \url{https://www.youtube.com/watch?v=MGLxyyTF3OM}}.  For example, the “protected” accessibility modifier is not supported even to this day in F\#, since it is perceived to encourage implementation inheritance.
@@ -714,27 +718,25 @@ Here “::” is the OCaml “cons” operator, and the declaration gives an inf
 The F\# approach to this problem area was designed and implemented initially in mid-2004 and presented internally at MSR Cambridge on September 4, 2004 then at the ML Workshop 2005 (REF Syme, 2006). This feature was inspired by the above OCaml feature, and hallway conversations with Georges Gonthier and the idea of giving “co-inductive” interpretations to recursive definitions wherever possible.  Co-inductive techniques – including co-inductive algebras as an interpretation of object-orientation – was a popular research topic at the time. In the 2004 presentation, I focused on how to define networks of “reactive objects”: 
 
 \begin{verbquote}
-Forget subtyping.  Forget inheritance.   The restrictions on self-referential and mutually-referential objects is what makes ML a poor GUI programming language....At least when driving reasonable libraries such as System.Windows.Forms, and the problem gets worse the more "declarative" a library gets.... C\# "solves" this through a mishmash of implicit nulls and/or "create-and-configure" APIs.   ML "solves" it in a similar way.  F\# permits the above techniques, but offers another solution... (REF Syme, 2004)
+Forget subtyping.  Forget inheritance.   The restrictions on self-referential and mutually-referential objects is what makes ML a poor GUI programming language....At least when driving reasonable libraries such as System.Windows.Forms, and the problem gets worse the more "declarative" a library gets.... C# "solves" this through a mishmash of implicit nulls and/or "create-and-configure" APIs.   ML "solves" it in a similar way.  F# permits the above techniques, but offers another solution... (REF Syme, 2004)
 \end{verbquote}
-
-The solution offered was to extend the “let rec” construct to allow the definition of not just functions and directly-allocated recursively-referential data, but also a graph of values and objects produced via computation, e.g.
-
-
+The solution offered was to extend the “let rec” construct to allow the definition of not just functions and directly-allocated recursively-referential data, but also a graph of values and objects produced via computation, described as follows:
 \begin{verbquote}
-F\# permits you to write values (and not just functions) whose specifications appear to refer to themselves, but where the recursive references are hidden inside delayed values such as inner functions, other recursive functions, anonymous 'fun' lambdas, lazy computations, and the 'methods' of object-implementation expressions. 
+F# permits you to write values (and not just functions) whose specifications appear to refer to themselves, but where the recursive references are hidden inside delayed values such as inner functions, other recursive functions, anonymous 'fun' lambdas, lazy computations, and the 'methods' of object-implementation expressions. 
 
-The recursion is 'runtime checked' because there is a possibility that the computations involved in evaluating the bindings may actually take the delayed computations and execute them. The F\# compiler inserts delays and thunks so that if runtime recursive reference does occur then an exception will be raised.
+The recursion is 'runtime checked' because there is a possibility that the computations involved in evaluating the bindings may actually take the delayed computations and execute them. The F# compiler inserts delays and thunks so that if runtime recursive reference does occur then an exception will be raised.
 
 The recursion is 'reactive' because it only really makes sense to use this when defining automaton such as forms, controls and services that respond to various inputs and make self-referential modifications as a result. A simple example is the following menu item, which prints out part of its state as part of its action:
-
+\end{verbquote}
+\begin{verbatim}
    let rec menuItem = 
       new MenuItem("Say Hello", 
                    EventHandler(fun e -> printf "Hello %s\n" menuItem.Text), 
                    Shortcut.CtrlH)
-
-A compiler warning is given because in theory the "new MenuItem" constructor could evaluate the callback as part of the construction process, in which case a self-reference would have occurred - and F\# can't prove this won't happen. 
+\end{verbatim}
+\begin{verbquote}
+A compiler warning is given because in theory the "new MenuItem" constructor could evaluate the callback as part of the construction process, in which case a self-reference would have occurred - and F# can't prove this won't happen. 
 \end{verbquote}
-
 The ML Workshop paper describes the historical precursors to this feature and its technical basis – “recursive use exceptions” can be produced during initialization but once initialization succeeds no further exceptions are possible. The feature is still used occasionally in F\# today, and it later influenced aspects of the design of F\# object programming: in F\# 2.0 class definitions, virtual calls that “recursively” invoke object members in sub-classes during object construction are checked for initialization safety and will raise an exception if reentrancy occurs before initialization is complete. 
 
 
@@ -774,33 +776,32 @@ The idea of “active patterns” or “views” had featured in academia but ha
 F\# active patterns allow for partial, complete and multi-case patterns. Here is an example of defining partial active patterns to parse a string into an integer or boolean:
 
 \begin{verbatim}
-// create an active pattern
-let (|Int|_|) str =
-   match System.Int32.TryParse(str) with
-   | (true, i) -> Some i
-   | _ -> None
+    // create an active pattern
+    let (|Int|_|) str =
+       match System.Int32.TryParse(str) with
+       | (true, i) -> Some i
+       | _ -> None
 
-// create an active pattern
-let (|Bool|_|) str =
-   match System.Boolean.TryParse(str) with
-   | (true, b) -> Some b
-   | _ -> None
+    // create an active pattern
+    let (|Bool|_|) str =
+       match System.Boolean.TryParse(str) with
+       | (true, b) -> Some b
+       | _ -> None
 \end{verbatim}
-
 Once these patterns have been set up, they can be used as part of a normal “match..with” expression.
 
 \begin{verbatim}
-// create a function to call the patterns
-let testParse str = 
-    match str with
-    | Int i -> printfn "The value is an int '%i'" i
-    | Bool b -> printfn "The value is a bool '%b'" b
-    | _ -> printfn "The value '%s' is something else" str
+    // create a function to call the patterns
+    let testParse str = 
+        match str with
+        | Int i -> printfn "The value is an int '%i'" i
+        | Bool b -> printfn "The value is a bool '%b'" b
+        | _ -> printfn "The value '%s' is something else" str
 
-// test
-testParse "12"
-testParse "true"
-testParse "abc"
+    // test
+    testParse "12"
+    testParse "true"
+    testParse "abc"
 \end{verbatim}
 
 The design quickly had influence beyond F\#. One attendee of the WG2.8 workshop mentioned above was Martin Odersky, and on July 25, 2006 he replied:
