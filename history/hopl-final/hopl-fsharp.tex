@@ -614,7 +614,8 @@ The F\# library also defined two and three-argument pipeline operators, e.g.
 
 \subsection*{F\# 1.0 –Tackling Object Programming}
 
-From the outset, F\# consumed class and interface definitions from .NET. Being a functional language, it was natural to begin by supporting an expression-based form of object implementations akin to function closures.  F\# 1.0 described these as follows:\footnote{Surprisingly this feature is yet to make it into any version of C\#.}
+From the outset, F\# consumed class and interface definitions from .NET. Being a functional language, it was
+natural to begin by supporting an expression-based form of object implementations akin to function closures.  F\# 1.0 described these as follows:\footnote{Surprisingly this feature is yet to make it into any version of C\#.}
 \begin{verbquote}
 An object expression declares an implementation and/or extension of a class or interface. For example, the following specifies an object that implements the .NET IComparer interface:
 \end{verbquote}
@@ -671,7 +672,7 @@ In retrospect, the addition of object programming to F\# was a process of “dec
 \item Explicit interface implementation on object, record and union types
 \end{enumerate}
 
-\item Object programming features that are “ok when really necessary”: 
+\item Object programming features in F\# that are “ok when really necessary for performance or API design”: 
 \begin{enumerate}
 \item Mutable data
 \item Defining events
@@ -682,15 +683,15 @@ In retrospect, the addition of object programming to F\# was a process of “dec
 \item Structs (for performance)
 \item Delegates (for interop)
 \item Enums (for interop)
+\item Method overloading
+\item Additional primary constructors (a form of overloading)
 \end{enumerate}
 
-\item Object programming features included in the design of F\# but whose use is generally “going too far”:
+\item Object programming features in F\# that "avoid where possible":
 
 \begin{enumerate}
 \item Implementation inheritance
 \item Nulls and \texttt{Unchecked.defaultof<\_>}
-\item Method overloading
-\item Additional primary constructors (a form of overloading)
 \end{enumerate}
 
 \item Object programming features that are not supported at all:
@@ -1353,31 +1354,35 @@ still controversial, and, in several instances, projects had been open-sourced o
 after.  “Going open” was thus still risky and needed to be explained carefully. 
 
 On November 11, 2010, Microsoft made the first release of the F\# source under an OSI-approved
-license (Apache 2.0), placing F\# in the vanguard of changes that would soon be embraced more widely.  Even more
-importantly, on April 3, 2014 Microsoft started accepting contributions to F\#, which again “led the way” in embracing
-a full open-engineering process.  This also enabled a corresponding shift towards open-design and, with F\# 4.0, the
-language shifted to an open and transparent design process.   The language design process and RFCs are now run
-through the FSSF under the guidance of myself, Phillip Carter (program manager for F\# at Microsoft) and Chet Husk.
+license (Apache 2.0), placing F\# in the vanguard of changes that would soon be embraced more widely.\footnote{\textit{Announcing the F\# Compiler + Library Source Code Drop}, Don Syme, November 2010, \url{https://web.archive.org/web/20190513075912/https://blogs.msdn.microsoft.com/dsyme/2010/11/04/announcing-the-f-compiler-library-source-code-drop/}.}
+Even more importantly, on April 3, 2014 Microsoft started accepting contributions to F\#, which again “led the way” in embracing
+a full open-engineering process.\footnote{\textit{Facilitating Open Contributions for the F\# Compiler, Library and Visual F\# Tools}, Microsoft Corporation, April 2014, \url{https://blogs.msdn.microsoft.com/fsharpteam/2014/04/03/facilitating-open-contributions-for-the-f-compiler-library-and-visual-f-tools/}.}
+This also enabled a corresponding shift towards open-design and, with F\# 4.0, the
+language shifted to an open and transparent design process.\footnote{\textit{F\# Language Design RFCs}, retrieved 31 August 2019, \url{https://github.com/fsharp/fslang-design/}.}
+The language design process and RFCs are now run through the FSSF under the guidance of myself, Phillip Carter (program manager for F\# at Microsoft) and Chet Husk.
 
 The shift to openness had other effects too: in 2013 the .NET community finally developed a modern, effective way to
 deliver packages through the creation of the NuGet package manager and the nuget.org package repository.  Prior to
 this, the poor packaging story for .NET components was a major inhibitor to the growth of both .NET and F\#.  
 
 In 2014 a technical breakthrough was made with the creation of the FSharp.Compiler.Service (FCS) package by
-Petricek, Ryan Riley and Dave Thomas with many later contributors.   This contains the core implementation of
-the F\# compiler, editor tooling and scripting engine in the form of a single library and can be used to make F\# tooling
+myself, Tomas Petricek, Ryan Riley, and Dave Thomas with many later contributors.\footnote{\textit{F\# Compiler Services}, retrieved 31
+August 2019, \url{http://fsharp.github.io/FSharp.Compiler.Service/}.}
+This contains the core implementation of the F\# compiler, editor tooling and scripting engine in the form of a single library and can be used to make F\# tooling
 for a wide range of situations.  This has allowed F\# to be delivered into many more editors, scripting and documentation
 tools and allowed the development of alternative backends for F\#.   Key editor community-based tooling includes
-Ionide, by Cieślak and contributors, used for rich editing support in the cross-platform VSCode editor, with over 1M downloads at time of writing. 
+Ionide, by Cieślak and contributors, used for rich editing support in the cross-platform VSCode editor, with over 1M downloads at time
+of writing.\footnote{\textit{Ionide - A Visual Studio Code package suite for cross platform F\# development}, retrieved 31 August 2019, \url{http://ionide.io/}.}
 
 Today, open-source is the norm for nearly all language and cloud tooling at Microsoft. The primary driving factor
 behind this change is the increased focus on the Microsoft Azure cloud platform at Microsoft, with an economic basis in
 selling services, rather than on selling packaged software and tools. C\#, .NET and F\# tooling accepts contributions and
 has many contributors. Currently hosting over 120,000 packages, with nearly 10 billion package downloads, the NuGet
-package ecosystem is rapidly growing to be one of the largest and most comprehensive in the world.  The open source Paket
-client has been a popular way to access this ecosystem for F\# developers , and the open source FAKE build scripting
-tool – where the build scripts are written in F\# – has been a “gateway drug” for the adoption of the language, allowing its
-incremental adoption without rewriting the core of the project code. 
+package ecosystem is rapidly growing to be one of the largest and most comprehensive in the world.  The open source "Paket"
+client has been a popular way to access this ecosystem for F\#
+developers\footnote{Paket: a dependency manager for .NET, retrieved 31 August 2019, \url{https://fsprojects.github.io/Paket/}.}, and
+the open source FAKE build scripting tool – where the build scripts are written in F\# – has been a “gateway drug” for the adoption of the language, allowing its
+incremental adoption without rewriting the core of the project code.\footnote{\textit{F\# Make: a DSL for Build Tasks and more}, retrieved 31 August 2019, \url{https://fake.build/}}
 
 
 
@@ -1386,9 +1391,8 @@ incremental adoption without rewriting the core of the project code.
 The F\# community was initially sustained through hubFS.net forums (2005), created by Chris Barwick under the
 pseudonym “optionsScalper”. The online Community for F\# (2007) was created by Ryan Riley.  The creation of the
 SkillsMatter London meetup in 2012 propelled the growth of the F\# community in the UK and Europe, and by 2018
-over 50 F\# meetup groups have been created worldwide.  Community-run F\# conferences include openfsharp, F\# Exchange
-and fableconf, and F\# material is regularly presented at both .NET-friendly and functional-friendly conferences. In 2011 the
-hubFS forums were replaced by FPish.net, implemented by Adam Granicz and others at IntelliFactory. 
+over 50 F\# meetup groups have been created worldwide.\footnote{ \textit{F\# User Groups and Meetups}, retrieved 31 August 2019, \url{http://community.fsharp.org/user_groups}.}
+Community-run F\# conferences include openfsharp, F\# Exchange, F\# Europe and fableconf, and F\# material is regularly presented at both .NET-friendly and functional-friendly conferences. In 2011 the hubFS forums were replaced by FPish.net, implemented by Adam Granicz and others at IntelliFactory. 
 
 In 2014, Tomas Petricek and Phil Trelford and myself met in a café in Cambridge and decided to start the F\# Software
 Foundation (FSSF), commonly known as “fsharp.org”.  Initially this was an informal organization along the lines of the Python
@@ -1409,8 +1413,9 @@ the community’s more active role in evangelizing F\# was the creation of “F\
 collection of didactic material about functional programming concepts and practical F\# topics that has been very influential in the F\# community.
 
 The FSSF now has over 2000 members and owns fsharp.org and github.com/fsharp. The FSSF is now at the heart of the F\# community
-and works with community stakeholders on F\# education, diversity, tooling, governance, conference and software
-initiatives.  The suggestions, RFCs and other documents related to the F\# language design process are hosted by the FSSF. 
+and works with community stakeholders on F\# education, diversity, tooling, governance, mentorship, conference and software
+initiatives.  The suggestions, RFCs and other documents related to the F\# language design process are hosted by the
+FSSF.\footnote{See \textit{F\# Language Design RFCs}, retrieved 31 August 2019, \url{https://github.com/fsharp/fslang-design} and \textit{F\# Language Suggestions}, retrieved 31 August 2019, \url{https://github.com/fsharp/fslang-suggestions}.}
 
 \section*{.NET Core: Microsoft take C\#, F\# and .NET Cross-Platform}
 
@@ -1454,7 +1459,8 @@ open-source full-stack programming toolkit using F\# as its primary programming 
 
 In 2015 the F\# community also developed Fable, another JavaScript implementation of F\#, for web development
 in the JS/Node ecosystem (García-Caro, 2018). At the time of writing, Fable is seeing increasing adoption for web
-programming.  Fable became a key part of SAFE-Stack, a “full stack” solution for F\# that incorporates web client, server and cloud computing. 
+programming.  Fable became a key part of SAFE-Stack, a “full stack” solution for F\# that incorporates web client, server and cloud
+computing.\footnote{\textit{SAFE Stack, An end-to-end functional-first stack for cloud-ready web development that emphasizes type-safe programming}, retrieved 31 August 2019,  \url{https://safe-stack.github.io/}.}
 
 
 \section*{Retrospective}
@@ -1471,9 +1477,11 @@ now so common as to be industry-standard for new language efforts.
 
 Programming languages get used for many purposes, and it would be impossible to do justice to the many fascinating
 things people have done with F\#.  A key aspect of the early work of the FSSF was to collect and communicate
-“social proof” about the effectiveness of F\# through testimonials.   Three uses are, however, particularly striking.
+“social proof” about the effectiveness of F\# through testimonials.\footnote{\textit{F\# Testimonials}, \url{http://fsharp.org/testimonials}.}
+Three uses are, however, particularly striking.
 First, F\# was used to implement LIQUi|> (“Liquid”), a quantum simulator for F\#, by Dave Wecker and Microsoft
-Quantum Computing.  Second, F\# was used in conjunction with Rhinoceros3D to construct the digital 3D model
+Quantum Computing.\footnote{\textit{LIQUi|>, The Language Integrated Quantum Operations Simulator}, 2019, \url{http://stationq.github.io/Liquid/}.}
+  Second, F\# was used in conjunction with Rhinoceros3D to construct the digital 3D model
 used in the manufacturing of the cladding of the Louvre Abu Dhabi Dome, a picture of which is included in Figure 4.
 Thirdly, F\# was the primary language used at Jet.com, a start-up subsequently acquired by Walmart at a valuation
 of over \$3B, and the first “unicorn” built using the Azure cloud platform. These alone constitute success for
@@ -1482,8 +1490,9 @@ strongly-typed functional programming of a scale undreamt of in 1998.
 Since around 2007 strongly-typed functional programming has shifted from relative obscurity to be a central paradigm
 in programming. C\#, Java, C++, Scala, Kotlin, Swift, Rust and TypeScript now all include elements of
 strongly-typed FP, and Apple executives extolled functional features at the launch of Swift in 2014, including
-pattern matching, generics, option types, type inference, tuples and closures, something unthinkable in 2005.
-Haskell, F\# and OCaml have all grown in use, and newcomers such as Elm and ReasonML are also finding good adoption.
+pattern matching, generics, option types, type inference, tuples and closures,
+something unthinkable in 2005.\footnote{\textit{Swift introduction}, Apple WWDC 2014, \url{https://www.youtube.com/watch?v=MO7Ta0DvEWA}.} Haskell,
+F\# and OCaml have all grown in use, and newcomers such as Elm and ReasonML are also finding good adoption.
 
 What caused this shift? Some factors have been touched on in this paper – for example, the relative decline of
 widget-based GUI programming, and the corresponding rise of web programming, cloud computing, multi-core
@@ -1499,17 +1508,18 @@ way since 2007, and Wadler’s question “Why no one uses functional programmin
 The most obvious direct influence of F\# has been on C\#. C\# 2.0 (generics) was based on preliminary work
 by myself and others working on precursors to F\#, specifically with the intent of supporting ML-family
 languages on .NET. C\# 3.0 (“var x = ...”), C\# 5.0 (tasks/async), C\# 7.0 (tuples, pattern matching)
-and C\# 8.0 (non-null pointers as the default) were all heavily influenced by F\#.  Given that C\# is one of
-the most widely adopted languages today, and underwent rapid iteration in the 2000s , it is reasonable to
+and C\# 8.0 (non-null pointers as the default) were all heavily influenced by F\#.\footnote{\textit{Why you should use F\#}, Mads Torgersen and Phillip Carter, Microsoft \url{https://channel9.msdn.com/Events/Build/2017/T6064}} Given that C\# is one of
+the most widely adopted languages today, and underwent rapid iteration in the 2000s\footnote{The language designs of Java, C++, JavaScript and Python
+all progressed during this time, but to a lesser extent than C\#.}, it is reasonable to
 claim that the presence of F\# within the Microsoft Developer Division played an important role as a bridge
 between the stream of ideas that constitute “functional programming” and C\#.   That said, the ideas have
 flowed both ways, with F\# also influenced by C\# 1.0 (objects, properties, events), C\# 3.0 (LINQ) and C\# 7.0 (Span).
 There have also been influences on C\# from other sources such as Icon (C\# 2.0 Iterators), Python (C\# 4.0 Dynamic) and
-the internal projects Axum by Gustafsson et al.  (C\# 5.0 state machine compilation of async) and M\#  (C\# 7.0 Span). 
+the internal projects Axum by Gustafsson et al.\footnote{\textit{ Axum (programming language)}, \url{https://en.wikipedia.org/wiki/Axum_(programming_language)}}  (C\# 5.0 state machine compilation of async) and M\#  (C\# 7.0 Span).\footnote{ \textit{Blogging about Midori}, Joe Duffy, November 2015, \url{http://joeduffyblog.com/2015/11/03/blogging-about-midori/}} 
 
 The addition of first-class events and compositional event-combinator programming to F\# influenced directly the initiation
 of the Rx project, a reactive-functional programming toolkit now re-implemented as a pattern in multiple languages
-including Rx.JS.   The early influence of F\# here was recounted informally to me by Wes Dyer. 
+including Rx.JS.\footnote{\textit{F\# First Class Events: Simplicity and Compositionality in Imperative Reactive Programming}, Don Syme, March 2006, \url{https://web.archive.org/web/20190205134026/https://blogs.msdn.microsoft.com/dsyme/2006/03/23/f-first-class-events-simplicity-and-compositionality-in-imperative-reactive-programming/}}.   The early influence of F\# here was recounted informally to me by Wes Dyer. 
 
 Other direct influences of F\# on languages are harder to measure: language designers tend to be coy about their
 influences both direct and indirect. Both Elixir and Elm use the \texttt{|>} operator and there are ways to emulate that operator
@@ -1519,19 +1529,21 @@ bring F\# type providers to Scala. (Burmako, 2013).  The apparent influence of F
 creation of Scala extractors was mentioned earlier in this article. Swift seems to have been influenced
 by F\#, and Kotlin seems to use C\#, F\# and other languages as reference points.  Rust seems to have been
 influenced by OCaml, and the author Graydon Hoare refers to F\# extensively when discussing “What’s Next” after
-Rust.  TypeScript was directly influenced by F\#: one of the originators of TypeScript was
+Rust.\footnote{\textit{What next?}, Graydon Hoare, August 2017, \url{https://graydon.livejournal.com/256533.html}.}
+TypeScript was directly influenced by F\#: one of the originators of TypeScript was
 Luke Hoban, who began TypeScript (then called Strada) immediately after working on F\# 2.0. Recently
-he noted the influence of F\# on early parts of the TypeScript design. The extent of this influence is a matter of
-debate, but it is my opinion that TypeScript is firmly based on the positive experience of advanced type checking and inference
+he noted the influence of F\# on early parts of the TypeScript
+design.\footnote{\textit{The first TypeScript demo}, Luke Hoban, October 2017, \url{https://hackernoon.com/the-first-typescript-demo-905ea095a70f }.} The
+extent and nature of this influence is a matter of debate, but it is my opinion that TypeScript is firmly based on positive experience of advanced type checking and inference
 in the context of F\#, and would not have appeared from a Microsoft team in anything close to its current form without the influence of F\#.
 
 From the outset, F\# placed non-nullness as central to its design: the value “null” can’t normally be used in conjunction
-with F\#-declared types, and in practice null-reference exceptions are rare.   This affects many micro-decisions in the
+with F\#-declared types, and in practice null-reference exceptions are rare.\footnote{The F\# community joke being “Question: What can C\# do that F\# can’t?” “Answer: NullReferenceException!”}   This affects many micro-decisions in the
 language. Coming from the OCaml perspective, this is an obvious choice, and in the cultural context of MSR
 Cambridge – including the presence of Tony Hoare at the lab and the memory of his “Billion Dollar Mistake – any
 other choice would have been unthinkable (Hoare, 2011).  However, languages like Scala didn’t make the same
-decision, and even by 2014 F\# was the only significant language running on the JVM or .NET that placed non-nullness
-as central to its design. At the time of writing, in August 2018, C\# 8.0 is planning to make non-nullness the
+decision, and even by 2018 F\# was the only significant language running on the JVM or .NET that placed non-nullness
+as central to its design. At the time of writing, in February 2020, C\# 9.0 is planning to make non-nullness the
 default, a dramatic shift that I hope will herald a shift to eliminate this endemic problem from the programming industry. F\# has been central to this process.
 
 F\# was the first language to introduce an “async” modality to allow the localized reinterpretation of the existing
@@ -1539,8 +1551,17 @@ control constructs of the language. This meant that converting a piece of code f
 “asynchronous” involved nothing more than wrapping “async { ... }” around the code and marking up
 the “await” points (“let!” in F\#).   This directly influenced the async/await mechanism added to C\# 5.0 in 2012 – the
 F\# version was first presented to the C\# designers in 2007 and many discussions were held in
-between.  The C\# async/await feature has been influential on TypeScript, Kotlin and other languages and having an async modality
-in a language is now close to being an industry-standard.
+between.  The C\# async/await feature has been influential on TypeScript, Kotlin, Python 3.5, Java, JavaScript and other
+languages.\footnote{The history of async programming, continuations and co-routines would need to be the subject
+of a different article, stretching back to LISP. The influence of MLDonkey
+on F\# has been noted earlier. C\# 5.0 added new elements to the design
+of “async/await” suitable for an ALGOL language, including state-machine compilation,
+derived originally from the Axum prototype noted earlier.  In this light, F\# async was a
+precursor to C\# async/await, and the latter was not a simple copy of the former.}
+Having an async modality in a language is now effectively an industry-standard, and in each case the lineage of this feature traces back through F\#.
+
+In short almost every major language in use as of 2020 has been influenced by F\# either directly (C\#, TypeScript, Scala, Kotlin) or
+indirectly (Swift, Rust, Python, Java, JavaScript), with the possible exception of C++.
 
 \subsection*{Mistake and Questions}
 
@@ -1611,7 +1632,8 @@ stylistic reasons: code using them is very rare but also incomprehensible.
 
 As a language design, F\# has many opportunities to evolve, and over 200 active language
 suggestions are recorded on the “F\# Language Suggestions” site that forms part of the
-official FSSF language design process.  Two of the most popular suggestions are type classes
+official FSSF language design process.\footnote{\textit{F\# Language Suggestions}, retrieved 31 August 2019, \url{https://github.com/fsharp/fslang-suggestions/}.}
+Two of the most popular suggestions are type classes
 and higher kind type parameterization. However, in both cases I’ve indicated an unwillingness
 to add this feature to F\# without also adding a matching feature to C\#, partly to avoid a
 recurring pattern of multiple semi-compatible versions of similar features.
