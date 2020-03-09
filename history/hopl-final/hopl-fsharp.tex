@@ -1874,7 +1874,8 @@ similarly across different editors and on all platforms. This also acts as a bas
 \end{wrapfigure}
 
 The F\# community was initially sustained through hubFS.net forums (2005), created by Chris Barwick under the
-pseudonym “optionsScalper”. The online Community for F\# (2007) was created by Ryan Riley.  The creation of the
+pseudonym “optionsScalper”. The online Community for F\# (2007) was created by Ryan Riley which runs the
+an F\# Heroes program.\footnote{\textit{Community for F\# Heroes} \url{https://c4fsharp.net/#heroes}}
 SkillsMatter London meetup in 2012 propelled the growth of the F\# community in the UK and Europe, and by 2018
 over 50 F\# meetup groups have been created worldwide.\footnote{ \textit{F\# User Groups and Meetups}, retrieved 31 August 2019, \url{http://community.fsharp.org/user_groups}}
 Community-run F\# conferences include openfsharp, F\# Exchange, F\# Europe and fableconf, and F\# material is regularly presented at both .NET-friendly and functional-friendly conferences. In 2011 the hubFS forums were replaced by FPish.net, implemented by Adam Granicz and others at IntelliFactory. 
@@ -1898,7 +1899,6 @@ the use of F\# and help guide community engineering efforts. As a result, F\# ev
 the community’s more active role in evangelizing F\# was the creation of “F\# for Fun and Profit” by Scott Wlaschin, an impressive
 collection of didactic material about functional programming concepts and practical F\# topics that has been very influential
 in the F\# community\footnote{\textit{F\# for Fun and Profit} \url{https://fsharpforfunandprofit.com/}}.
-
 
 
 The FSSF now has over 2000 members and owns fsharp.org and github.com/fsharp. The FSSF is now at the heart of the F\# community
@@ -1998,14 +1998,14 @@ of JavaScript is also surely of relevance: although untyped it has many function
 that the transition also seems to have started when Scala and F\# matured and received support at the heart of the
 computing industry. More recent entrants such as Swift, ReasonML, TypeScript and Elm face many challenges,
 but a lack of industry awareness of strongly-typed functional programming is not one of them. We’ve come a long
-way since 2007, and Wadler’s question “Why no one uses functional programming?” has been consigned to the many short-lived curiosities of history.
+way since 1997, and Wadler’s question “Why no one uses functional programming?” has been consigned to the many short-lived curiosities of history.
 
 \subsection*{F\#'s Influence}
 
 The most obvious direct influence of F\# has been on C\#. C\# 2.0 (generics) was based on preliminary work
 by myself and others working on precursors to F\#, specifically with the intent of supporting ML-family
-languages on .NET. C\# 3.0 (“var x = ...”), C\# 5.0 (tasks/async), C\# 7.0 (tuples, pattern matching)
-and C\# 8.0 (non-null pointers as the default) were all heavily influenced by F\#.\footnote{\textit{Why you should use F\#}, Mads Torgersen and Phillip Carter, Microsoft \url{https://channel9.msdn.com/Events/Build/2017/T6064}} Given that C\# is one of
+languages on .NET. C\# 3.0 (“var x = ...”), C\# 5.0 (tasks/async), C\# 7.0 (tuples, pattern matching),
+C\# 8.0 (enhanced pattern matching) and C\# 9.0 (non-null pointers as the default) were all heavily influenced by F\#.\footnote{\textit{Why you should use F\#}, Mads Torgersen and Phillip Carter, Microsoft \url{https://channel9.msdn.com/Events/Build/2017/T6064}} Given that C\# is one of
 the most widely adopted languages today, and underwent rapid iteration in the 2000s\footnote{The language designs of Java, C++, JavaScript and Python
 all progressed during this time, but to a lesser extent than C\#.}, it is reasonable to
 claim that the presence of F\# within the Microsoft Developer Division played an important role as a bridge
@@ -2045,8 +2045,8 @@ default, a dramatic shift that I hope will herald a shift to eliminate this ende
 
 F\# was the first language to introduce an “async” modality to allow the localized reinterpretation of the existing
 control constructs of the language. This meant that converting a piece of code from “synchronous” to
-“asynchronous” involved nothing more than wrapping “async { ... }” around the code and marking up
-the “await” points (“let!” in F\#).   This directly influenced the async/await mechanism added to C\# 5.0 in 2012 – the
+“asynchronous” involved nothing more than wrapping \texttt{async \{ ... \}}” around the code and marking up
+the “await” points (\texttt{let!} in F\#).   This directly influenced the async/await mechanism added to C\# 5.0 in 2012 – the
 F\# version was first presented to the C\# designers in 2007 and many discussions were held in
 between.  The C\# async/await feature has been influential on TypeScript, Kotlin, Python 3.5, Java, JavaScript and other
 languages.\footnote{The history of async programming, continuations and co-routines would need to be the subject
@@ -2055,7 +2055,8 @@ on F\# has been noted earlier. C\# 5.0 added new elements to the design
 of “async/await” suitable for an ALGOL language, including state-machine compilation,
 derived originally from the Axum prototype noted earlier.  In this light, F\# async was a
 precursor to C\# async/await, and the latter was not a simple copy of the former.}
-Having an async modality in a language is now effectively an industry-standard, and in each case the lineage of this feature traces back through F\#.
+Having an async modality in a language is now effectively an industry standard, and in each case the lineage of this
+feature traces back partly through F\#.
 
 In short almost every major language in use as of 2020 has been influenced by F\# either directly (C\#, TypeScript, Scala, Kotlin) or
 indirectly (Swift, Rust, Python, Java, JavaScript), with the possible exception of C++.
@@ -2078,13 +2079,14 @@ contributors to F\# soon moved on to other jobs. Because F\# was not open source
 were unable to continue to contribute to the codebase, even transitionally. Today, contributors
 can come and go freely and frequently answer questions about older code.
 
-From a technical perspective, F\# has many achievements, and the core feature set has
+From a technical perspective, F\# has made many contributions, yet the core feature set has
 been stable and even binary-compatible since F\# 1.9.  There are, of course, some
 design mistakes, including active bugs.  Of these, the “statically resolved type parameter”
 mechanism is perhaps the one causing most corner-case niggles. Originally designed just for
-operator overloading, the mechanism is also used by advanced F\# users as a type constraint
+operator overloading, the mechanism is also used by some advanced F\# users as a type constraint
 mechanism akin to Haskell type classes. Perhaps more concerningly, it is also used extensively
-and inappropriately by some beginner F\# users.   The combination of complex SRTP constraints
+and inappropriately by some beginner F\# users or those in teams, attempting to
+over-apply "maximal abstraction" DRY (Don't Repeat Yourself) techniques in coding.   The combination of complex SRTP constraints
 with algorithm-based type inference is, however, fragile, and it is proving hard to fix some
 mistakes in the resolution of SRTP constraints without breaking some existing code in
 corner cases.  If backwards compatibility were not a major concern this would not be
@@ -2160,7 +2162,7 @@ evolution path and is usable as a practical and enjoyable functional-first progr
 \begin{acks}                            %% acks environment is optional
                                         %% contents suppressed with 'anonymous'
 
-Many thanks to Andrea Magnorsky, Phillip Carter, Phillip Haller, Darren Platt, Natallie Baikevich, Richard Campbell, Adam Granicz, Tomas Petricek, Mark Laws, Miguel de Icaza, Phillip Wadler, Mark Staples, Robert Pickering, Simon Peyton Jones and many others for feedback on early drafts of this paper.  Any mistakes that remain are my responsibility. Please contact me with extra information or corrections.
+Many thanks to Andrea Magnorsky, Phillip Carter, Phillip Haller, Darren Platt, Natallie Baikevich, Richard Campbell, Adam Granicz, Tomas Petricek, Mark Laws, Miguel de Icaza, Phillip Wadler, Mark Staples, Robert Pickering, Simon Peyton Jones, Krzysztof Cieślak, Stafford Williams, Dov Murik, Ryan Riley   and many others for feedback on early drafts of this paper.  Any mistakes that remain are my responsibility. Please contact me with extra information or corrections.
 
   %% Commands \grantsponsor{<sponsorID>}{<name>}{<url>} and
   %% \grantnum[<url>]{<sponsorID>}{<number>} should be used to
