@@ -274,7 +274,7 @@ The documentation continues with an explanation of the main tooling and librarie
 \item cross-platform compilation and execution;
 \item the primary F\# and .NET libraries;
 \item web, mobile and data programming toolkits;
-\item editing tools from Emacs to Visual Studio, VS Code and Jet Brains Rider (TM);
+\item editing tools from Emacs to Visual Studio, VSCode and JetBrains Rider;
 \item how to use F\# with the cloud platform of the company providing the documentation.
 \end{itemize}
 Other resources for F\# follow a similar order of explanation, e.g. Fable  is a packaging of F\# for client-side web
@@ -318,12 +318,12 @@ discontinued.\footnote{ \textit{Microsoft FORTRAN 5.1}, WinWorld, August 2019, \
 The late 1980s saw a new wave of thinking coalesce around “object-oriented” programming, and this became increasingly
 influential in applied software development and academia.  Indeed, object-orientation moved from the margins to be central
 to the conceptualization of software development.  The pattern of languages with commercial toolchains repeated:
-examples include the first C++ commercial compilers in 1985, Borland C++ in 1992 and IBM Smalltalk in 1993.   Foremost
+examples include the first C++ commercial compiler in 1985, Borland C++ in 1992 and IBM Smalltalk in 1993.   Foremost
 amongst the drivers towards OO was the rising prevalence of user interface elements in software: applications were
 now interactive and made of “buttons” and other “widgets”, these widgets were easily conceptualized as “objects” combining
 state and behavior, and these widgets could be hierarchically classified. Procedurally-oriented languages were unable
 to express such abstractions directly in code, and languages without subtyping found it hard to express the necessary
-relationships between widgets. People assessed languages by asking two primary questions: “does it support inheritance?”
+relationships between widgets. People assessed new languages by asking two primary questions: “does it support inheritance?”
 and “is everything an object?”.  Any newly proposed language that did not meet these criteria quickly became marginalized into relative obscurity. 
 
 The prospect of an industry-shifting nexus between this new wave of software development methodology and an
@@ -458,12 +458,12 @@ Java (GJ), and later heavily influenced C\#, Scala and F\#. Ultimately GJ became
 runtime type information were significant compromises. 
 
 An alternative angle was to “deconstruct” functional programming itself and examine the underlying problems (as exhibited by implementations of Haskell
-or Standard ML for example). One instance of this was the paper \textit{Why no one uses functional languages} (Wadler, 1998). This paper was central to
+or Standard ML for example). One instance of this was the paper \textit{Why no one uses functional languages} (REF: Wadler, 1998). This paper was central to
 my understanding of the programming language landscape as I started at Microsoft Research in 1998.  Instead of blaming the unwashed masses for their
 ignorance, Wadler’s paper outlines seven problems of strongly-typed FP implementations at the time: Libraries, Portability, Availability, Packagability, Tools,
 Training, Popularity.  It also listed Performance and Ignorance as non-reasons. The early development of F\# was essentially an effort to address each of these.
 
-Further, some responded by trying to compete via new commercial implementations of strongly typed FP languages including Poly ML and Harlequin ML. However,
+Further, some responded by trying to compete via new commercial implementations of strongly typed FP languages including Poly ML and Harlequin MLWorks. However,
 these saw little adoption and left the community with the feeling that the support of a “big player” in the industry was needed. 
 
 A final response was to attempt to use the JVM as a substrate for implementing established functional programming languages, and thereby as a delivery
@@ -523,8 +523,8 @@ a primary objective of the COM+ Runtime is to deliver services and performance t
 \end{quote}
 and that Microsoft should “get serious about language innovation”.  Five technical features were proposed, of which “generalized
 delegates” (i.e. functions as first-class values) and “enhanced parametric polymorphism” were the more serious.  The influence of Pizza and GJ is strong here
-and these are explicitly mentioned as competitors. I also developed ILX, an extension to the .NET bytecode incorporating these features, which I hoped
-might be adopted by other Project 7 languages, implemented on .NET initially by erasure and compilation to the existing .NET IL. (REF: Syme, 2001).
+and these are explicitly mentioned as competitors. I also developed ILX, an prototype extension to the .NET bytecode incorporating these features, which I hoped
+might be adopted by other Project 7 languages. ILX was implemented on .NET by erasure and compilation to the existing .NET IL. (REF: Syme, 2001).
 
 
 This whitepaper served as the start of the “.NET Generics” project, specifically designed to bring a form of generics to .NET that could work for both C\# and other
@@ -553,8 +553,8 @@ This means the end-programming model in, say, C\#, can support a form of generic
 runtime type information is accurate, the process of making and managing instantiations unobtrusive, the code for instantiations is automatically shared based on a
 policy. .NET Generics has been successful: it is widely adopted by millions of C\# and F\# programmers; it is seen as a key differentiating factor of C\# over Java; and
 has been the basis for many later innovations delivered in F\#, C\# and .NET. For example, generic collections (C\# 2.0), LINQ (C\# 3.0), tasks (C\# 4.0),
-async/await (C\# 5.0) and Span (C\# 7.2) all use .NET Generics heavily, as do all F\# features. .NET Generics put .NET years ahead: even today systems such as
-Java, Go and Scala struggle with the implementation of aspects of genericity such as supporting instantiation at both reference and value types.  Equally, generics is
+async/await (C\# 5.0) and Span (C\# 7.2) all use .NET Generics heavily, as do all F\# features. .NET Generics put .NET years ahead and even today systems such as
+Java and Go struggle with the implementation of aspects of genericity such as supporting instantiation at both reference and value types.\footnote{\textit{Project Valhalla enters new phase} \url{https://jaxenter.com/project-valhalla-enters-new-phase-150570.html}; \textit{The Generic Dilemma}, Russ Cox \url{https://research.swtch.com/generic}; \textit{An Update on Go and Generics in 2019} \url{https://medium.com/@alshdavid/an-update-on-go-and-generics-in-2019-59efdcc97a42}.}  Equally, generics is
 a technical feature that imposed significant costs on Microsoft’s .NET implementation going forward. Generics is most easily implemented via a JIT and attempts to do fully
 static compilation of .NET code have struggled with the feature.
 
@@ -579,10 +579,10 @@ intrinsically low-performance on .NET. With .NET Generics these specific perform
 \section*{The Decision to Create F\#}
 
 At MSR, Project 7 also led to the SML.NET project (REF: Benton, Kennedy, \& Russo, 2004).  SML.NET was a continuation of MLj, mentioned earlier, retargeted to
-.NET.  SML.NET used a sophisticated whole-program optimizer with de-virtualization and representation transformations and was a faithful implementation of Standard ML
+.NET.  SML.NET used a sophisticated whole-program optimizer with de-virtualization, monomorophization and representation transformations and was a faithful implementation of Standard ML
 with extensions for object programming. The system was of high quality but didn’t gain significant external mindshare.   During 2001, I grew frustrated with SML.NET,
 which was not yet released even though .NET itself was now public. While respecting the research goals of my colleagues, I was keen to see strongly typed FP delivered
-in a way that could be readily adopted by large numbers of programmers, and on a path to addressing the seven major themes identified by Wadler in 1998.  The
+in a way that could be readily adopted by large numbers of programmers, and on a path to addressing the seven major themes identified by Wadler in 1998 (REF: Wadler, 1998).  The
 implementation of OCaml was influential on me here: OCaml used a relatively direct and simple compilation strategy, and it was not clear that a whole-program
 compilation strategy was needed to achieve acceptable and reliable performance.  Further, SML.NET didn’t target .NET Generics, and there was no definite plan to
 make it do so: the compiler was predicated on the benefits of whole-program compilation and pervasive monomorphization, with the aim of recovering performance
@@ -606,7 +606,7 @@ by the requirements of a particular platform.
 type variables, lightweight concurrency, exceptions (with Haskell’s exception semantics), ephemerons and software transactional memory. So, even interop
 aside, it would be hard to claim that any Haskell program would run well on .NET; only a subset would do so.   
 \end{itemize}
-So, work on Haskell.NET stopped.
+So, work on Haskell.NET stopped in late 2000.
 
 The question of OCaml and JVM/.NET was also being discussed on the Caml mailing list around this time.  An example is the following message from
 myself, on February 6, 2001:\footnote{ Archive message at \url{https://caml.inria.fr/pub/ml-archives/caml-list/2001/02/5770514eec29b794c2d560fc3282bc14.en.html}}
@@ -794,7 +794,7 @@ The fact that F\# needed to be down-played initially was partly due to the sensi
 
 External perceptions were also tricky to manage: from the perspective of computer science academia and hacker culture, corporations in general – and Microsoft in particular – were often seen as structural adversaries. Offerings from MSR were even feared, and one leading researcher suggested that F\# would “kill off” language research.  In retrospect such ideas seem laughable – PL research has bloomed in the last 15 years and hundreds of new languages have been developed – but these views stemmed from anti-commercial biases, fear of a perceived monopolist, and Microsoft’s opposition to open source software at the time. 
 
-Either way, my belief was that, in the area of programming languages, you had to go public and be commercially usable in order to be influence programming practice, and to be true to both the spirit of research and the original goals of Project 7. Later, other cutting-edge MSR projects would not reach their full potential, because they didn’t make the commercially usable releases necessary to proof the technologies and gain evidence of their utility in sufficient time to occupy a market niche, examples include Accelerator and Dryad LINQ. On the other hand, MSR provided a good “institutional home” for a language, given its concentration of expertise and its long-term mission to change computing. Lab directors such as Andrew Herbert, Luca Cardelli and Andrew Blake would be consistently supportive of the work on F\# over a long period of time. However, doing a public, commercially usable language offering via MSR was not going to be plain sailing, and the support of the product teams would ultimately be needed.
+Either way, my belief was that, in the area of programming languages, you had to go public and be commercially usable in order to influence programming practice, and to be true to both the spirit of research and the original goals of Project 7. Later, other cutting-edge MSR projects would not reach their full potential, because they didn’t make the commercially usable releases necessary to proof the technologies and gain evidence of their utility in sufficient time to occupy a market niche, examples include Accelerator and Dryad LINQ. On the other hand, MSR provided a good “institutional home” for a language, given its concentration of expertise and its long-term mission to change computing. Lab directors such as Andrew Herbert, Luca Cardelli and Andrew Blake would be consistently supportive of the work on F\# over a long period of time. However, doing a public, commercially usable language offering via MSR was not going to be plain sailing, and the support of the product teams would ultimately be needed.
 
 \section*{F\# 1.0 – 2004-2006 - Overview}
 
@@ -1172,7 +1172,7 @@ semantic axioms that characterised these as closely as possible. In Haskell, typ
 correspond to the operations for these objects, along with the (unchecked) equational properties
 expected of any instance of that type class. Finally, notation was added (e.g. do-notation) usable with
 any instance of the type class.  In this way of working, semantic analysis was prioritised, and ``expressivity'' focused on the semantic theory of the objects of study,
-not the notation in the language. Special notation may not even be needed at all, preferring the use of standard functional programming notation.
+not the notation in the language.
 
 An important exception to this way of working was Wadler and Peyton Jones' paper
 \textit{Comprehensive Comprehensions}\footnote{\url{https://www.microsoft.com/en-us/research/wp-content/uploads/2007/09/list-comp.pdf}} which
@@ -1180,21 +1180,20 @@ An important exception to this way of working was Wadler and Peyton Jones' paper
 notation itself could be the subject of genuine improvement.
 This paper (and my own 1:1 discussions with Peyton Jones at Microsoft Research during 2004-2010) had a significant influence on the
 development of F\# CEs and the range of expression they needed to cover.\footnote{Whether notational expressivity is regarded as
-a significant subject of discussion in proigramming language design is largely a matter of emphasis and taste, and the academic
+a significant subject of discussion in programming language design is largely a matter of emphasis and taste, and the academic
 tradition from which F\# stems largely shies away from the topic apart from examples like the ones quoted here.
 My own personal experience as a programmer was that it mattered greatly from a human usability perspective, especially
 when aligned with other ergonomic issues such as the ease with which code can be converted from ``non-monadic'' to ``monadic''
 form (e.g. from synchronous to asynchronous). The ``ease of transition'' of code formed a key part
 of the design ethos and training material for both F\# async programming and F\#  CEs - see for example Luca Bolognese's
-well-received 2008 presentation on F\#\url{https://channel9.msdn.com/blogs/pdc2008/tl11}.  In contrast, both C\# LINQ notation
+well-received 2008 presentation on F\# \url{https://channel9.msdn.com/blogs/pdc2008/tl11}.  In contrast, both C\# LINQ notation
 and Haskell list comprehensions had been explicitly designed to be a very different notation to the rest of C\# and Haskell respectively.
 This emphasis on ``notational similarity'' rather than ``notational difference'' is a theme underlying the F\# language design.}
 
 
 From a technical point-of-view, F\# computation expressions (CEs) are a syntactic de-sugaring of language elements
 such as \verb!for x in xs  ...! to method calls like \verb!For( ... )! via a ``builder object'' such as \verb!seq {  ...  }! or \verb!async {  ...  }!. 
-The inner syntax elements available to de-sugared are the same as normal F\#/OCaml
-control syntax:
+The following normal F\#/OCaml control syntax elements are available in the body of the builder object:
 \begin{itemize}
 \item \texttt{let $pat$ = $e_1$ in $e_2$}
 \item \texttt{match $e_0$ with $pat_1$ -> $e_1$ | ...}
@@ -1220,7 +1219,7 @@ names light up different source syntax. For example:
 \end{itemize}
 A particular builder can support any or all of them.
 
-Each builder of F\# computation expressions can be configured' for either comprehension (also called "monoid syntax"), or monadic syntax. 
+Each builder of F\# computation expressions can be configured for either comprehension (also called "monoid syntax"), or monadic syntax. 
 F\# CEs are not just ``monad syntax'' (i.e. do-notation), and are more notationally expressive than
 either traditional ``do'' notation or list comprehensions.
 When F\# computation expressions are configured to monadic syntax you minimally need the following members on the builder:
@@ -1258,7 +1257,7 @@ The minimum needed to warrant the name ``comprehension'' is \texttt{For} and \te
 needs \texttt{For}, \texttt{Yield}, \texttt{Combine} and \texttt{Zero}. 
 Note these have a \texttt{For} method, which means \texttt{for x in xs  ... } is allowed in the syntax, so the CE uses \texttt{for x in xs ... } for binding.
 It does \emph{not} use \texttt{let!} for binding: the computational structure is not being treated as a monad (\texttt{let!}), but a comprehension (\texttt{for}).
-There is no \texttt{Bind} method, there is no \texttt{let!} syntax, the \texttt{For} method takes its place.  
+There is no \texttt{Bind} method, there is no \texttt{let!} syntax -- the \texttt{For} method takes its place.  
 
 For those familiar with Haskell, it is natural to think of this as offering a notation for things that in Haskell logically
 correspond to \texttt{MonadPlus}\footnote{\url{https://wiki.haskell.org/MonadPlus}} instances.  Here’s how the Haskell terminology maps across:
@@ -1414,7 +1413,7 @@ for SML.NET (Benton, Kennedy, \& Russo, 2004). The early versions were adequate 
 adoption by enthusiasts.  However, during the implementation of this tooling many mistakes were made, for example, 
 
 \begin{itemize}
-\item the accuracy and completeness of autocomplete was not initially good, an only corrected by adding numerous adhoc cases to the implementation;
+\item the accuracy and completeness of autocomplete was not initially good, and only corrected by adding numerous adhoc cases to the implementation;
 \item the tooling was not designed to scale to incremental editing of large projects;
 \item the tooling was not incremental in the context of incremental edits to a single file;
 \item the tooling did not work well with multi-project codebases involving both C\# and F\# projects
@@ -1424,8 +1423,8 @@ adoption by enthusiasts.  However, during the implementation of this tooling man
 Some of these limitations stemmed from the samples originally used as the basis for the implementation and were not
 corrected sufficiently quickly.  Overall the “compiler service” part of the F\# compiler codebase became poorly implemented,
 though sufficiently effective in use for common scenarios to justify its ongoing development.  These problems
-dogged F\# tooling until 2010 in terms of accuracy, quality and completeness, and arguably have only been resolved
-through the creation of the F\# Compiler Service components in 2015 and subsequent improvements in 2017.  
+dogged F\# tooling until 2010 in terms of accuracy, quality and completeness (resolved much later
+through the creation of the F\# Compiler Service components in 2015 and subsequent improvements in 2017).
 
 From the language design perspective, the assumption of IDE tooling had strongly affected the C\# design.  For
 example, the syntax of the C\# LINQ design was influenced by the basic question “will we be able to give good
@@ -1561,7 +1560,9 @@ product, but F\# was loosely associated with some of its public content, and thu
 just “F\# is for that math stuff” – something which was both true and false simultaneously. Many examples of successful use of F\# had been in
 technical areas, especially for implementing “computational engines” within larger systems, and F\# could be used directly as a MATLAB or Python-like
 language when equipped with suitable libraries.  Books such as F\# for Scientists by Harrop were excellent early material and F\# had existing adoption
-with the finance industry. In bio-tech, F\# was being used for DNA analysis at the Joint Genome
+with the finance industry. Universities such as DTU and University of Copenhagen started adopting F\# for their functional programming courses,
+and Michael Hansen authored a coursebook \textit{Functional Programming Using F\#} (REF: Hansen \url{https://www.amazon.co.uk/Functional-Programming-Using-Michael-Hansen-ebook/dp/B00CARIB52}).
+In bio-tech, F\# was being used for DNA analysis at the Joint Genome
 Institute.\footnote{\textit{F\# helps show we’re not Neanderthals}, Don Syme, December 2006, \url{https://web.archive.org/web/20190121122515/https://blogs.msdn.microsoft.com/dsyme/2006/12/05/f-helps-show-were-not-neanderthals/}}  The association between functional languages and
 “mathematical-style programming” has long held currency, and, while I tried hard to avoid it, this epithet continued to
 apply to F\# for some time.\footnote{It was finally de-emphasized around 2015 once F\# developed as an open source, cross
@@ -1570,16 +1571,16 @@ platform language with a strong web and cloud programming story. F\# today is fo
 The writing of the first two editions of Expert F\# was crucial in refining the exact details language between 2007 and 2010, as did the
 authoring of the F\# 2.0 Language Specification, written as an informal but rigorous 200 page document in
 the style of the C\# Language Specification and used as the basis for much QA work.\footnote{\textit{The F\# Language Specification}, Don Syme et. al, \url{https://fsharp.org/specs/language-spec/}}
-During this time, literally thousands of design suggestions poured in via fsbugs@microsoft.com, a very direct channel between team and
+During this time, literally thousands of design suggestions poured in via \texttt{fsbugs@microsoft.com}, a very direct channel between team and
 customers for Microsoft at the time. On the one hand, this meant that the language had been proofed in detail by time of launch, on the
 other it caused the team to be reactive to user demands.  Hundreds of bugs were fixed, many design improvements were made and
-multiple “beta” versions released.  During this time, roles in the team also changed.  I had to become more of a “product architect”, making
+multiple “beta” versions released.  Roles in the team also changed.  I had to become more of a “product architect”, making
 definitive final, detailed decisions about the composition of the language.  From 2008 the center of gravity of the project moved to
 Redmond (and the USA), and both online working and face-to-face visits with the Redmond team were crucial.  The importance of
 quality increased greatly, and we began to look for features to cut.  Ultimately the F\# 2.0 feature set resembled that of F\# 1.9 closely,
 but the quality of the language specification, design, implementation and tools had increased drastically.
 
-On April 12, 2010, with a volcano in Iceland, and after an arduous 2 years that put considerable strain on all involved, the first officially
+On April 12, 2010, with a volcano in Iceland, and after an arduous two years that put considerable strain on all involved, the first officially
 supported version of “Visual F\# 2.0” was released as part of Visual Studio
 2010.\footnote{This day is celebrated as “F\# Day” in the F\# community. \url{https://fsharpforfunandprofit.com/posts/happy-fsharp-day/}}
 In practice “Visual” F\# was a misnomer: we had supplied a strongly-typed, code-oriented functional programming language
@@ -1776,7 +1777,7 @@ subsequently F\# 3.1 and so on.  Kevin Ransom joined the Visual F\# team along w
 worked on .NET and Visual Studio since its inception, and other team members were Wonseok Chae and Vlad Matveev (development), Layla Driscoll (PM),
 Lincoln Atkinson (QA) and Gordon Hogenson (docs), and the team delivered F\# 3.1 plus multiple updates during 2013.
 However, things were undoubtedly changing in the computing landscape and many
-projects at Microsoft were affected. There was a causal connection from Steve Jobs’ success with the iPhone resulting on pressure
+projects at Microsoft were affected. There was a causal connection from Apple's success with the iPhone resulting on pressure
 on teams at Microsoft.  
 
 Fortunately, around this time a major structural shift at Microsoft occurred with the development of the Azure cloud platform,
@@ -1821,14 +1822,6 @@ The shift to openness had other effects too: in 2013 the .NET community finally 
 deliver packages through the creation of the NuGet package manager and the nuget.org package repository.  Prior to
 this, the poor packaging story for .NET components was a major inhibitor to the growth of both .NET and F\#.  
 
-In 2014 a technical breakthrough was made with the creation of the FSharp.Compiler.Service (FCS) package by
-myself, Tomas Petricek, Ryan Riley, and Dave Thomas with many later contributors.\footnote{\textit{F\# Compiler Services}, retrieved 31
-August 2019, \url{http://fsharp.github.io/FSharp.Compiler.Service/}}
-This contains the core implementation of the F\# compiler, editor tooling and scripting engine in the form of a single library and can be used to make F\# tooling
-for a wide range of situations.  This has allowed F\# to be delivered into many more editors, scripting and documentation
-tools and allowed the development of alternative backends for F\#.   Key editor community-based tooling includes
-Ionide, by Krzysztof Cieślak and contributors, used for rich editing support in the cross-platform VSCode editor, with over 1M downloads at time
-of writing.\footnote{\textit{Ionide - A Visual Studio Code package suite for cross platform F\# development}, retrieved 31 August 2019, \url{http://ionide.io/}}
 
 Today, open-source is the norm for nearly all language and cloud tooling at Microsoft. The primary driving factor
 behind this change is the increased focus on the Microsoft Azure cloud platform at Microsoft, with an economic basis in
@@ -1840,7 +1833,20 @@ developers\footnote{Paket: a dependency manager for .NET, retrieved 31 August 20
 the open source FAKE build scripting tool – where the build scripts are written in F\# – has been a “gateway drug” for the adoption of the language, allowing its
 incremental adoption without rewriting the core of the project code.\footnote{\textit{F\# Make: a DSL for Build Tasks and more}, retrieved 31 August 2019, \url{https://fake.build/}}
 
+\section*{The F\# Compilier as a Component}
 
+In 2014 a technical breakthrough was made with the creation of the FSharp.Compiler.Service (FCS) package by
+Tomas Petricek, Ryan Riley, and Dave Thomas with many later contributors.\footnote{\textit{F\# Compiler Services}, retrieved 31
+August 2019, \url{http://fsharp.github.io/FSharp.Compiler.Service/}}
+This contains the core implementation of the F\# compiler, editor tooling and scripting engine in the form of a single library and can be used to make F\# tooling
+for a wide range of situations.  This has allowed F\# to be delivered into many more editors, scripting and documentation
+tools and allowed the development of alternative backends for F\#.   Key editor community-based tooling includes
+Ionide, by Krzysztof Cieślak and contributors, used for rich editing support in the cross-platform VSCode editor, with over 1M downloads at time
+of writing.\footnote{\textit{Ionide - A Visual Studio Code package suite for cross platform F\# development}, retrieved 31 August 2019, \url{http://ionide.io/}}
+
+The FSharp.Compiler.Service component is a key enabler for consistent, performant cross-platform F\# language tooling in many different settings and
+has few parallels amongst statically-typed  functional languages even today.It enables the F\# comounity to have the same set of language features, working
+similarly across different editors and on all platforms. This also acts as a basis for tooling innovation in Ionide.
 
 \section*{The F\# Community and the F\# Software Foundation }
 
@@ -1850,7 +1856,7 @@ SkillsMatter London meetup in 2012 propelled the growth of the F\# community in 
 over 50 F\# meetup groups have been created worldwide.\footnote{ \textit{F\# User Groups and Meetups}, retrieved 31 August 2019, \url{http://community.fsharp.org/user_groups}}
 Community-run F\# conferences include openfsharp, F\# Exchange, F\# Europe and fableconf, and F\# material is regularly presented at both .NET-friendly and functional-friendly conferences. In 2011 the hubFS forums were replaced by FPish.net, implemented by Adam Granicz and others at IntelliFactory. 
 
-In 2014, Tomas Petricek and Phil Trelford and myself met in a café in Cambridge and decided to start the F\# Software
+In 2014, Tomas Petricek, Phil Trelford and myself met in a café in Cambridge and decided to start the F\# Software
 Foundation (FSSF), commonly known as “fsharp.org”.  Initially this was an informal organization along the lines of the Python
 Software Foundation.  An online meeting of potential community members was initiated, and Petricek and Trelford explained
 their goals: a fun, open web-based organization that could represent the interests of F\# users.  Membership was free,
@@ -1858,15 +1864,17 @@ requiring only agreement with the mission statement of the organization, and gre
 FSSF incorporated as a U.S non-profit under the guidance of Reed Copsey and Mathias Brandewinder, and now holds yearly board elections. 
 
 The formation of the FSSF was a highly significant moment for F\#.  Until then, a strong “culture of dependence” had existed in
-the .NET and F\# communities, where users (including paying customers) expected Microsoft to solve all problems, provide all
+large parts of the .NET and F\# communities, where users (including paying customers) expected Microsoft to solve all problems, provide all
 resources and make all public communication about these technologies.  For example, many of those leading or participating
 in F\# community activities were also Microsoft MVPs (Most Valued Professionals), and Microsoft ran either an F\#-specific or
 .NET-specific MVP program from 2010 to the time of writing.  The F\# MVP program was both a major positive – for example, the
-community was worldwide – but also a major negative, because it was not initially truly independent. With the formation of the
-FSSF this situation changed: the F\# community now had a strong self-defining voice that could collect social proof, advocate for
+community was worldwide – but also a major negative, because it was not initially truly independent.
+Parts of the F\# community had, however, successfully shifted to OSS and this led to the creation of the FSSF:
+the F\# community now had a strong self-defining voice that could collect social proof, advocate for
 the use of F\# and help guide community engineering efforts. As a result, F\# evangelism began to be more effective. One result of
 the community’s more active role in evangelizing F\# was the creation of “F\# for Fun and Profit” by Scott Wlaschin, an impressive
-collection of didactic material about functional programming concepts and practical F\# topics that has been very influential in the F\# community.
+collection of didactic material about functional programming concepts and practical F\# topics that has been very influential
+in the F\# community\footnote{\textit{F\# for Fun and Profit} \url{https://fsharpforfunandprofit.com/}}.
 
 The FSSF now has over 2000 members and owns fsharp.org and github.com/fsharp. The FSSF is now at the heart of the F\# community
 and works with community stakeholders on F\# education, diversity, tooling, governance, mentorship, conference and software
@@ -1921,13 +1929,13 @@ computing.\footnote{\textit{SAFE Stack, An end-to-end functional-first stack for
 
 \section*{Retrospective}
 
-In telling the genesis and early history of F\# I positioned it as one of several “reactions” by those experienced
+In telling the genesis and early history of F\#, I positioned it as one of several “reactions” by those experienced
 in strongly-typed functional programming to the tidal wave of Java and object-oriented programming that
 engulfed the industry in the mid-1990s and the rise of the JVM and .NET.  In this light, F\# was in the vanguard
 in changing how we deliver functional languages: F\# and Scala were among the first languages to be explicitly
-design and implemented on the assumption of an industry-standard runtime substrate such as the JVM or .NET.
+designed and implemented on the assumption of an industry-standard runtime substrate such as the JVM or .NET.
 With hindsight this decision was a good one and has subsequently been followed by many languages including
-Clojure, Nemerle, Kotlin and Swift (the latter targeting the Objective-C runtime as substrate). A more recent
+Clojure, Nemerle, Kotlin and Swift (the latter targeting the Objective-C runtime as substrate, with influence on the design of the language). A more recent
 wave of languages has assumed JavaScript as a substrate, e.g. Elm, TypeScript and PureScript.  This approach is
 now so common as to be industry-standard for new language efforts.
 
