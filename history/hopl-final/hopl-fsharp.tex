@@ -12,6 +12,7 @@
 \usepackage{listings,lipsum}
 \usepackage{acmshepherd}
 \usepackage{graphicx}
+\usepackage{wrapfig}
 
 \lstnewenvironment{verbquote}[1][]
   {\lstset{columns=fullflexible,
@@ -285,8 +286,9 @@ the use of F\# as a “full-stack” language where both client and server compo
 same language (REF: SAFE Stack, An end-to-end functional-first stack for cloud-ready web development that emphasizes type-safe programming, August 2019,  Retrieved from https://safe-stack.github.io/)
 
 That's what F\# is today: an open-source, cross-platform, strongly-typed, succinct programming language with broad applicability
-to many different programming scenarios and much loved by its users.  The language community centers around
-the F\# Software Foundation (FSSF, a US non-profit), and social media such as Twitter. F\# has had influence – most
+to many different programming scenarios and much loved by its
+users.\footnote{Succinctness is discussed on page~\pageref{page:fsharp-succinct}. For user testimonials see \textit{F\# Testimonials}, \url{http://fsharp.org/testimonials} and the conclusion.}  The language community centers around
+the F\# Software Foundation (FSSF, a US non-profit, page~\pageref{page:community}) and social media such as Twitter. F\# has had influence – most
 directly on C\# but also more broadly – I discuss this in the conclusion.  But how did we get there?
 
 \section*{Background: Languages, Programmability at Microsoft and the Creation of .NET}
@@ -836,6 +838,7 @@ F\# developed in crucial ways during 2004-06.  Based on successful trials, and w
 
 To “proof” the language we turned to some existing OCaml codebases at MSR including the SPiM (Stochastic Pi Machine), Static Driver Verifier and Terminator projects.  These tests were successful, for example allowing the addition of a Windows-based GUI to SPiM.   During this time, James Margetson was responsible for performance testing and supporting the internal use of F\# on these projects by Andrew Phillips, Jakob Lichtenberg and Byron Cook. Margetson also implemented the first REPL for F\# and created numerous compelling demonstrations of interactive development using F\# scripting and the REPL. The author and Margetson were responsible for documentation and releases.
 
+\
 During this time F\# was not the result of a “meeting of minds” amongst MSR Cambridge language researchers, but rather myself and collaborators pursuing a series of design additions to the initial implementation, with the help of some feedback from colleagues, users, researcher networks such as WG2.8 and an emerging worldwide community.  The design conversations in the external community on mailing lists and in blog responses were encouraging, and internal and external adoption was growing steadily. 
 \subsection*{F\# 1.0 – Pipelines}
 
@@ -1520,8 +1523,8 @@ Over the next 6 months, an initial team was formed at in Redmond, including prog
 manager\footnote{At Microsoft in 2008, program managers had broad responsibilities, including product delivery,
 customer interaction and specification. This was often summarized by saying the PM “represents the customer” to
 the development organization and is largely responsible for productization strategy and ensuring the product is
-successfully positioned within the company.} Luke Hoban  (Nov 1, 2007 – June 2010), developer
-Jomo Fisher (early 2008 – mid 2010), engineering lead Tim Ng, and staff Matteo Tavaggi, Daniel Quirk and
+successfully positioned within the company.} Luke Hoban  (Nov 1, 2007 -- June 2010), developers
+Jomo Fisher (2008 -- 2010) and Dmitry Lomov (2010 -- 2011), engineering lead Tim Ng, and QA staff Matteo Tavaggi, Anar Alimov, Daniel Quirk and
 Chris Smith.  Laurent Le Brun helped test code in Cambridge as an intern in 2011, and James Margetson
 continued to work on the compiler and tools in Cambridge until March 2011.  Mads Torgerson, Luca Bolognese
 and Raj Pai from the C\# team were involved in initial planning. I spent 4 weeks with the Redmond team in February 2008.
@@ -1540,6 +1543,7 @@ Further, Microsoft programming products appealed to a relatively conservative en
 these people accept a functional programming language? C\# had a very active user base with very strong tooling. In
 such a context, where Microsoft came under surprising pressure after years of growth, landing F\# as an industry-applicable
 language was not out of the question, but couldn’t be taken for granted.
+
 
 So, what was F\# for, at least as far as Microsoft was concerned?  As a general-purpose language, the answer was and remains
 obvious: “F\# is for programming”.  However, as an addition to an established product range that wasn’t going
@@ -1568,9 +1572,18 @@ Institute.\footnote{\textit{F\# helps show we’re not Neanderthals}, Don Syme, 
 apply to F\# for some time.\footnote{It was finally de-emphasized around 2015 once F\# developed as an open source, cross
 platform language with a strong web and cloud programming story. F\# today is for programming of all kinds.}
 
+\label{page:fsharp-succinct}
+
 The writing of the first two editions of Expert F\# was crucial in refining the exact details language between 2007 and 2010, as did the
 authoring of the F\# 2.0 Language Specification, written as an informal but rigorous 200 page document in
 the style of the C\# Language Specification and used as the basis for much QA work.\footnote{\textit{The F\# Language Specification}, Don Syme et. al, \url{https://fsharp.org/specs/language-spec/}}
+While writing this book and through the process of ``proofing'' the language I'd formed the strong impression that F\# code was succinct: F\# code was consistently
+3x-10x shorter than corresponding C\# code at that time -- experienced when simply translating across code samples, using the same .NET libraries.\footnote{Fully
+controlled comparisons of succinctness are difficult but one later analysis of two teams using F\# and C\# to implement similar systems was performed
+by Simon Cousins, revealing a reduction in implementation size from 350,000 lines of code (C\#) to 30,000 (F\#) in the context of a delivered
+project, see \textit{Does the Language You Use Make a Difference (revisited)?} \url{https://web.archive.org/web/20160812070612/http://simontylercousins.net/does-the-language-you-use-make-a-difference-revisited/}}
+
+
 During this time, literally thousands of design suggestions poured in via \texttt{fsbugs@microsoft.com}, a very direct channel between team and
 customers for Microsoft at the time. On the one hand, this meant that the language had been proofed in detail by time of launch, on the
 other it caused the team to be reactive to user demands.  Hundreds of bugs were fixed, many design improvements were made and
@@ -1850,6 +1863,16 @@ similarly across different editors and on all platforms. This also acts as a bas
 
 \section*{The F\# Community and the F\# Software Foundation }
 
+\label{page:community}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+  \includegraphics[width=0.9\linewidth]{fsharp-logo.png}
+  \end{center}
+  \caption{The F\# Logo of the F\# Software Foundation}
+  \label{fig:fsharp-logo}
+\end{wrapfigure}
+
 The F\# community was initially sustained through hubFS.net forums (2005), created by Chris Barwick under the
 pseudonym “optionsScalper”. The online Community for F\# (2007) was created by Ryan Riley.  The creation of the
 SkillsMatter London meetup in 2012 propelled the growth of the F\# community in the UK and Europe, and by 2018
@@ -1875,6 +1898,8 @@ the use of F\# and help guide community engineering efforts. As a result, F\# ev
 the community’s more active role in evangelizing F\# was the creation of “F\# for Fun and Profit” by Scott Wlaschin, an impressive
 collection of didactic material about functional programming concepts and practical F\# topics that has been very influential
 in the F\# community\footnote{\textit{F\# for Fun and Profit} \url{https://fsharpforfunandprofit.com/}}.
+
+
 
 The FSSF now has over 2000 members and owns fsharp.org and github.com/fsharp. The FSSF is now at the heart of the F\# community
 and works with community stakeholders on F\# education, diversity, tooling, governance, mentorship, conference and software
