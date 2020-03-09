@@ -1706,10 +1706,9 @@ In 2011 both MSR and Microsoft management committed to making type providers a m
 between 2010 and 2012 was spent refining the mechanism and delivering a set of type-providers to work alongside F\#.
 An online demonstrator called Try F\# was produced, funded by Tony Hey in Microsoft External Relations. F\# 3.0 also
 included enhanced support for LINQ queries and a range of other improvements and fixes. Sarika Calla, Donna Malayeri
-and Layla Driscoll took on program management responsibilities during this time.  Joe Palmer, Brian Macnamara, Dmitry
-Lomov, Wonseak Chae and Vlad Matveev were development staff, and Matteo Tavvaggi, Lincoln Atkinson, Tao Liu and
-Jack Hu were QA staff. Kevin Ransom joined the team towards the end of F\# 3.0, bringing depth of experience, having
-worked on .NET and Visual Studio since its inception. In 2011, Tao Liu presented the “F\# design patterns” on Channel 9.
+and Layla Driscoll took on program management responsibilities during this time and Donna acted as team lead.  Joe Palmer, Brian Macnamara, Dmitry
+Lomov, Wonseok Chae and Vlad Matveev were development staff, and Matteo Taveggia, Tao Liu and
+Jack Hu were QA staff (Figure~\ref{team:2012-2014}). In 2011, Tao Liu presented the “F\# design patterns” on Channel 9.
 Keith Battocchi (2011-13) and Ross McKinlay (2013) worked as contractors for Microsoft Research on applications of type
 providers, developing applications of type providers potentially relevant to the Microsoft product line-up including integrating
 Microsoft Dynamics CRM and Windows WMI computer management information and presenting at MSR TechFest 2012 and
@@ -1729,6 +1728,23 @@ On release of F\# 3.0 on September 12, 2012,  F\# type providers immediately bec
 \end{itemize}
 
 The paper \textit{Types from data - Making structured data first-class citizens in F\#} (Petricek, Guerra, \& Syme, 2016) received a Distinguished Paper award at PLDI 2016 and was selected as one of three CACM Research Highlight in 2018.
+
+\begin{figure}
+
+  \centering
+  \begin{subfigure}[b]{0.44\linewidth}
+    \includegraphics[width=\linewidth]{team-2012.jpg}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.44\linewidth}
+    \includegraphics[width=\linewidth]{team-2014.png}
+  \end{subfigure}
+   \caption{Left: The F\# 3.0 Team, May 2012 (Don Syme, Jack Hu, Brian Macnamara, Vlad Matveev, Matteo Taveggia, Tao Liu, Wonseok Chae, Donna Malayeri).
+Right: The F\# 4.0 Team, November 2014  (Lincoln Atkinson, Vlad Matveev, Kevin Ransom, Wonseok Chae), holding photos of 'community heroes' and open source contributors
+including major contributor Steffen Forkmann.}
+  \label{fig:team-2012-2014}
+
+\end{figure}
+
 
 
 
@@ -1756,12 +1772,15 @@ strategy, despite the enterprise sector sustaining up to 95\% of company profits
 political reasons, DevDiv didn’t feel able to push F\# as a choice for app programming on to the powerful Windows team.
 Fortunately, F\# continued to receive good backing from DevDiv. While a reduction in resourcing occurred, and the pressure
 was considerable, the team were given the resources to deliver the F\# 3.0 feature set at high quality, and
-subsequently F\# 3.1 and so on.  However, things were undoubtedly changing in the computing landscape and many
-projects at Microsoft were affected. There was a causal connection from Steve Jobs’ success with the iPhone to pressure
-on many technologies at Microsoft.  
+subsequently F\# 3.1 and so on.  Kevin Ransom joined the Visual F\# team along with team in February 2013, bringing depth of experience, having
+worked on .NET and Visual Studio since its inception, and other team members were Wonseok Chae and Vlad Matveev (development), Layla Driscoll (PM),
+Lincoln Atkinson (QA) and Gordon Hogenson (docs), and the team delivered F\# 3.1 plus multiple updates during 2013.
+However, things were undoubtedly changing in the computing landscape and many
+projects at Microsoft were affected. There was a causal connection from Steve Jobs’ success with the iPhone resulting on pressure
+on teams at Microsoft.  
 
 Fortunately, around this time a major structural shift at Microsoft occurred with the development of the Azure cloud platform,
-originally released in 2010 but achieving maturity and increasing commercial success from 2012.  A similar shift to commodity
+originally created in 2010 but achieving maturity and increasing commercial success from 2012.  A similar shift to commodity
 computing on the server-side happened with platforms such as Amazon Web Services and Google Cloud Platform.   Cloud
 programmability is highly suited to both high-level languages and functional programming, and from 2012 it became clear that
 Azure and cloud computing was a critical part of the future of F\#. The same applied to .NET more generally, and Azure
@@ -1792,9 +1811,11 @@ On November 11, 2010, Microsoft made the first release of the F\# source under a
 license (Apache 2.0), placing F\# in the vanguard of changes that would soon be embraced more widely.\footnote{\textit{Announcing the F\# Compiler + Library Source Code Drop}, Don Syme, November 2010, \url{https://web.archive.org/web/20190513075912/https://blogs.msdn.microsoft.com/dsyme/2010/11/04/announcing-the-f-compiler-library-source-code-drop/}}
 Even more importantly, on April 3, 2014 Microsoft started accepting contributions to F\#, which again “led the way” in embracing
 a full open-engineering process.\footnote{\textit{Facilitating Open Contributions for the F\# Compiler, Library and Visual F\# Tools}, Microsoft Corporation, April 2014, \url{https://blogs.msdn.microsoft.com/fsharpteam/2014/04/03/facilitating-open-contributions-for-the-f-compiler-library-and-visual-f-tools/}}
+At Microsoft, Kevin Ransom and Lincoln Atkinson were key team members who made the transition to open source, open engineering and open design possible.
 This also enabled a corresponding shift towards open-design and, with F\# 4.0, the
 language shifted to an open and transparent design process.\footnote{\textit{F\# Language Design RFCs}, retrieved 31 August 2019, \url{https://github.com/fsharp/fslang-design/}}
 The language design process and RFCs are now run through the FSSF under the guidance of myself, Phillip Carter (program manager for F\# at Microsoft) and Chet Husk.
+
 
 The shift to openness had other effects too: in 2013 the .NET community finally developed a modern, effective way to
 deliver packages through the creation of the NuGet package manager and the nuget.org package repository.  Prior to
