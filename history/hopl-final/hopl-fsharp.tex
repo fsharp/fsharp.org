@@ -213,14 +213,14 @@ on the tradition of LISP (and indeed using LISP as their implementation vehicle)
 is the root of a tradition of “strongly typed functional programming languages” that includes Edinburgh ML, Miranda, Haskell,
 Standard ML, OCaml, Elm, ReasonML and PureScript. F\# is part of this family.
 
-The history of Standard ML has been told elsewhere (REF: MacQueen, 2015). ML-family languages are often associated with
+The history of Standard ML has been told elsewhere \citep{MacQueen2015}. ML-family languages are often associated with
 formalism, a theme I explore later in this article. However, a primary concern of Milner and co. from the outset was pragmatic
 usability. This group needed their language for a specific purpose: to succinctly and accurately program the proof rules and
 transformations (“tactics”) of a theorem proving system called LCF, at that time on PDP-10 machines. Pragmatic choices
 included the use of mutable state (to allow proof state to be stored in an interactive system) and a type inference
 system (later called Hindley-Milner or Damas-Milner type inference), allowing the code for derived tactics to be both
 succinct and automatically generalized.  A similar theme of pragmatism ran through later ML dialects as well, including
-OCaml (REF: Leroy), witnessed by both the language design and tooling such as the OCaml C Foreign Function Interface (FFI).
+OCaml \citep{Leroy2014}, witnessed by both the language design and tooling such as the OCaml C Foreign Function Interface (FFI).
 
 Rolling forward, to the present day, key ideas stemming from the 1970s are at the core of the F\# language design
 and central to the day-to-day experience of using the language.  Like all ML-family languages:
@@ -231,9 +231,9 @@ declarations are type-inferred and generalized automatically;
 \item F\# still aims to support a mode of programming where the focus is on the domain being manipulated rather than on the details of programming itself.
 \end{itemize}
 
-Today, books are published which extoll the virtues of F\# for “Domain Driven Design” (REF: Wlaschin, 2017).  This is not so
-far removed from the early role of ML where the “domain” was the symbolic representation of terms and theorems of the
-LCF logic. The “spirit” of ML is very much alive in F\#, as it was always intended to be. 
+Today, books are published which extoll the virtues of F\# for “Domain Driven Design” \citep{wlaschin2018domain}.  This is not so
+far removed from the early role of ML where the ``domain'' was the symbolic representation of terms and theorems of the
+LCF logic. The ``spirit'' of ML is very much alive in F\#, as it was always intended to be. 
 
 The leap from 1970s to the present day spans a period of massive change in the computing industry: we have shifted
 from PDP-10s to cloud systems, from punch cards to mobile phones, from edit-line to tooling-rich IDEs, from small to
@@ -252,7 +252,7 @@ era of change. Whether that is through obstinacy, coherence or coincidence is so
 
 \section*{What is F\# in 2020?}
 
-In 2020, F\# is described on its documentation pages as “a functional programming language that runs on .NET.” The F\# language guide (REF: Microsoft, 2019) calls out the following major features of the language, providing useful clarity about what the language is today:
+In 2020, F\# is described on its documentation pages as “a functional programming language that runs on .NET.” The F\# language guide \citep{WhatIsFSharp2020} calls out the following major features of the language, providing useful clarity about what the language is today:
 \begin{itemize}
 \item functions and modules
 \item pipelines and composition
@@ -280,8 +280,7 @@ The documentation continues with an explanation of the main tooling and librarie
 \end{itemize}
 Other resources for F\# follow a similar order of explanation, e.g. Fable  is a packaging of F\# for client-side web
 programming compiling to JavaScript \citep{GarciaCaro2018}, and
-WebSharper (REF: Granicz, 2018) and SAFE-Stack\footnote{\textit{SAFE Stack, An end-to-end functional-first stack for
-cloud-ready web development that emphasizes type-safe programming}, \url{https://web.archive.org/web/20191207093456/https://safe-stack.github.io/}.} emphasize
+WebSharper \citep{Granicz2020} and SAFE-Stack \citep{Abraham2020} emphasize
 the use of F\# as a “full-stack” language where both client and server components are written in the
 same language.
 
@@ -303,7 +302,7 @@ bold new era of “fourth generation languages” was promised.
 
 At this time, Microsoft also saw massive expansion as an operating system and applications company.  Microsoft started by building
 programming tools in 1975 and the importance of programmability---both as a commercial and technical undertaking---was “in the bones” of
-the company and its CEO Bill Gates (REF: Microsoft, 2012).  Through the 1980s his primary concern with regard to programmability was commercial: how
+the company and its CEO Bill Gates \citep{MicrosoftHistoryWikipedia}.  Through the 1980s his primary concern with regard to programmability was commercial: how
 to support the creation of applications and a commercial ecosystem of independent software vendors (ISVs) for the DOS and
 Windows ecosystems.  What mattered most was the sheer number of developers using these platforms, for developers would
 feed the growth of these ecosystems.  The company created tools such as Visual Basic to satisfy the mass-developer
@@ -401,7 +400,7 @@ theory. This world was heavily influenced by foundational calculi, most obviousl
 concurrent calculi such as CCS and the Pi Calculus \citep{Sangiorgi2001}.  Efforts to identify unifying object calculi were well
 underway \citep{Abadi1996} and workshops such as \textit{FOOL---Foundations of Object-Oriented Languages} searched
 for foundational formalisms for new constructs being added to
-existing languages (REF https://link.springer.com/book/10.1007/BFb0019438).
+existing languages \citep{Workshop95foundationsof}.
 
 “Formal methods” was an overlapping field in its hey-day in the 1980s, with major government initiatives in formalized hardware and software.
 Controversies \citep{Restivo2004} and the relatively modest successes of formal methods in industry saw researchers in the 1990s look to more pragmatic
@@ -430,7 +429,7 @@ during their education. Interestingly these people were outside the programming 
 valued Miranda for its pragmatism and productivity.}  During the 1990s the small world of strongly-typed functional programming also split and diverged in ways typical
 of active research communities.  Haskell 98 united the streams of lazy, pure functional programming, precursors included HOPE and Miranda.  Standard ML from 1989 remained
 the unifying effort for mixed functional-imperative languages. However, the INRIA Project Cristal group saw the standardization as premature, and instead created
-Caml Light and then OCaml. (REF: Leroy, 2019). Standard ML itself was heavily associated with its innovative module system and saw practical implementations in Poly ML, Standard
+Caml Light and then OCaml \citep{Leroy2014}. Standard ML itself was heavily associated with its innovative module system and saw practical implementations in Poly ML, Standard
 ML of New Jersey and MLton.
 
 Strongly-typed FP languages and compilers saw an ongoing trickle of interest, adoption and use. While not enough to challenge the massive adoption of C, C++ and Java,
@@ -492,7 +491,7 @@ comparative programming languages course provoked interest in a range of languag
 software company (SoftLaw, 1990-1993). 
 \item I had implemented several strongly-typed language, proof and compilation systems as part of my PhD thesis work using various ML dialects and
 toolchains including SMLNJ, MoscowML, Caml-light and OCaml. Additionally, I had, somewhat unusually for the times, also implemented some visual tooling
-for these systems, notably a graphical proof editing IDE for HOL90 \citep{Syme1995} and a proof editing workbench for the theorem prover DECLARE (REF Syme, 1999).  I
+for these systems, notably a graphical proof editing IDE for HOL90 \citep{Syme1995} and a proof editing workbench for the theorem prover DECLARE \citep{Syme99threetactic}.  I
 had a positive disposition to IDE tooling and understood the interaction between IDE tooling and language design.
 \item In 1996-98, I had been exposed to the work of academic leaders such as Drossopoulou, Leroy, Wadler and Odersky to synthesize OO and functional
 programming \citep{AlvesFoss1999}.
@@ -584,7 +583,7 @@ At MSR, Project 7 also led to the SML.NET project \citep{Benton2004}.  SML.NET w
 .NET.  SML.NET used a sophisticated whole-program optimizer and was a faithful implementation of Standard ML
 with extensions for object programming. The system was of high quality but didn’t gain significant external mindshare.   During 2001, I grew frustrated with SML.NET,
 which was not yet released even though .NET itself was now public. While respecting the research goals of my colleagues, I was keen to see strongly typed FP delivered
-in a way that could be readily adopted by large numbers of programmers, and on a path to addressing the seven major themes identified by Wadler in 1998 (REF: Wadler, 1998).  The
+in a way that could be readily adopted by large numbers of programmers, and on a path to addressing the seven major themes identified by Wadler in 1998 \citep{Wadler1998}.  The
 implementation of OCaml was influential on me here: OCaml used a relatively direct and simple compilation strategy, and it was not clear that a whole-program
 compilation strategy was needed to achieve acceptable and reliable performance.  Further, SML.NET didn’t target .NET Generics, and there was no definite plan to
 make it do so: the compiler was predicated on the benefits of whole-program compilation and pervasive monomorphization, with the aim of recovering performance
@@ -1037,7 +1036,7 @@ This definition says that any use of “+” is implemented via inlining a call 
 
 SRTPs subsequently got used more generally in F\# as a mechanism for constrained generics, though originally it was only specifically designed to cope with overloaded arithmetic.
 
-Many alternative approaches to overloaded arithmetic existed at this time, including Haskell type classes (REF: Type Classes: An Exploration of the Design Space, REF: A History of Haskell: Being Lazy With Class) and C++ templates (REF: templates), both of which were well known to the author. The use of \texttt{inline} for code that is generic with respect to SRTP constraints was inspired by the process of inlining, flattening and specialization used by nearly all C++ compilers. Haskell-style type classes were rejected as a solution because they add a new kind of top-level declaration to the language used for categorizing, organizing and structuring code---in Haskell this is called a ``class'' but a new term would be needed due to conflict with object-programming terminology. Further, there would be many technical design interactions to resolve with the object-programming constructs included in F\# 1.0. Another concern was performance: type classes are normally implemented via ``witness-passing'', which can cause situations where smaller changes to code give significant changes in performance for arithmetic code due to indirect calls to witnesses: this kind of performance discontinuity is not present when using C++ templates nor the code-inlining approach of SRTP. Finally, type classes were undergoing considerable research and evolution at this time, including research by Simon Peyton-Jones looking at combining them with object-programming features. This work only seemed to require significant additional complexity. Type classes are, however, an oft-requested feature for F\# today, discussed in the conclusion of this paper.
+Many alternative approaches to overloaded arithmetic existed at this time, including Haskell type classes \citep{Jones97typeclasses,HistoryOfHaskell} and C++ templates, both of which were well known to the author. The use of \texttt{inline} for code that is generic with respect to SRTP constraints was inspired by the process of inlining, flattening and specialization used by nearly all C++ compilers. Haskell-style type classes were rejected as a solution because they add a new kind of top-level declaration to the language used for categorizing, organizing and structuring code---in Haskell this is called a ``class'' but a new term would be needed due to conflict with object-programming terminology. Further, there would be many technical design interactions to resolve with the object-programming constructs included in F\# 1.0. Another concern was performance: type classes are normally implemented via ``witness-passing'', which can cause situations where smaller changes to code give significant changes in performance for arithmetic code due to indirect calls to witnesses: this kind of performance discontinuity is not present when using C++ templates nor the code-inlining approach of SRTP. Finally, type classes were undergoing considerable research and evolution at this time, including research by Simon Peyton-Jones looking at combining them with object-programming features. This work only seemed to require significant additional complexity. Type classes are, however, an oft-requested feature for F\# today, discussed in the conclusion of this paper.
 
 
 
@@ -1119,8 +1118,8 @@ The problems addressed by computation expressions and “async” were as follow
 From the theoretical side, it had long been recognized:
 
 \begin{enumerate}
-\item async was a form of monadic programming implemented via continuation passing; (REF: Monads for functional programming, Wadler)
-\item adding “syntactic sugar” for monadic computations would make an expressive addition to a programming or specification language (REF: history of Haskell).
+\item async was a form of monadic programming \citep{citeulike:2104808} implemented via continuation passing
+\item adding “syntactic sugar” for monadic computations would make an expressive addition to a programming or specification language \citep{HistoryOfHaskell}.
 \end{enumerate}
 
 
@@ -1181,7 +1180,7 @@ any instance of the type class.  In this way of working, semantic analysis was p
 not the notation in the language.
 
 An important exception to this way of working was Wadler and Peyton Jones' paper
-\textit{Comprehensive Comprehensions} (REF: Comprehensive Comprehensions) which
+\textit{Comprehensive Comprehensions} \citep{ComprehensiveCOmprehensions} which
 ``adds expressive power to comprehensions'', i.e. adds power to the notation, not to the semantics of lists, thus emphasizing in my mind that
 notation itself could be the subject of genuine improvement.
 This paper (and my own 1:1 discussions with Peyton Jones at Microsoft Research during 2004-2010) had a significant influence on the
@@ -1363,12 +1362,12 @@ Likewise, when F\# CEs are configured for monadic syntax, they are also more exp
 
 \item conditionals and pattern matching can be placed within the control structure
 
-\item custom operators can be added, for example the \texttt{condition} operator can be added for the probability distribution monad (REF Expert F\# Chapter 14)
+\item custom operators can be added, for example the \texttt{condition} operator can be added for the probability distribution monad \citep{syme2015expert}
 \end{itemize}
 F\# CEs can also be configured in other ways and this is done in practice, e.g. for web programming DSLs or asynchronous sequences.
 The various families of control constructs that could utilize computation expressions were eventually characterized by Petricek
-and Syme \citep{Petricek2014} and in 2010 they developed an experimental monadic generalization of pattern matching called Joinads (REF Petricek \& Syme, 2011).
-Extending the notation for applicatives (REF: applicatives) was scheduled for addition to F\# in 2020. The introduction of computation expressions to F\# greatly increased the notation expressivity of the language
+and Syme \citep{Petricek2014} and in 2010 they developed an experimental monadic generalization of pattern matching called Joinads \citep{Petricek2011}.
+Extending the notation for applicatives \citep{applicative} is scheduled for addition to F\# in 2020. The introduction of computation expressions to F\# greatly increased the notation expressivity of the language
 and the mechanism is widely used in F\# today.
 
 \subsection*{F\# 1.0---Meta-programming}
@@ -1568,7 +1567,7 @@ just “F\# is for that math stuff”---something which was both true and false 
 technical areas, especially for implementing “computational engines” within larger systems, and F\# could be used directly as a MATLAB or Python-like
 language when equipped with suitable libraries.  Books such as F\# for Scientists by Harrop were excellent early material and F\# had existing adoption
 with the finance industry. Universities such as DTU and University of Copenhagen started adopting F\# for their functional programming courses,
-and Michael Hansen authored a coursebook \textit{Functional Programming Using F\#} (REF: Hansen Functional-Programming-Using-F\#).
+and Michael Hansen authored a coursebook \textit{Functional Programming Using F\#} \citep{Hansen2011}.
 In bio-tech, F\# was being used for DNA analysis at the Joint Genome
 Institute.\footnote{\textit{F\# helps show we’re not Neanderthals}, Don Syme, December 2006, \url{https://web.archive.org/web/20190121122515/https://blogs.msdn.microsoft.com/dsyme/2006/12/05/f-helps-show-were-not-neanderthals/}}  The association between functional languages and
 “mathematical-style programming” has long held currency, and, while I tried hard to avoid it, this epithet continued to
@@ -1724,7 +1723,7 @@ An online demonstrator called Try F\# was produced, funded by Tony Hey in Micros
 included enhanced support for LINQ queries and a range of other improvements and fixes. Sarika Calla, Donna Malayeri
 and Layla Driscoll took on program management responsibilities during this time and Donna acted as team lead.  Joe Palmer, Brian Macnamara, Dmitry
 Lomov, Wonseok Chae and Vlad Matveev were development staff, and Matteo Taveggia, Tao Liu and
-Jack Hu were QA staff (Figure~\ref{team:2012-2014}). In 2011, Tao Liu presented the “F\# design patterns” on Channel 9.
+Jack Hu were QA staff (Figure~\ref{fig:team:2012-2014}). In 2011, Tao Liu presented the “F\# design patterns” on Channel 9.
 Keith Battocchi (2011-13) and Ross McKinlay (2013) worked as contractors for Microsoft Research on applications of type
 providers, developing applications of type providers potentially relevant to the Microsoft product line-up including integrating
 Microsoft Dynamics CRM and Windows WMI computer management information and presenting at MSR TechFest 2012 and
@@ -1748,10 +1747,10 @@ The paper \textit{Types from data---Making structured data first-class citizens 
 \begin{figure}
 
   \centering
-  \begin{subfigure}[b]{0.44\linewidth}
+  \begin{subfigure}[b]{0.48\linewidth}
     \includegraphics[width=\linewidth]{team-2012.jpg}
   \end{subfigure}
-  \begin{subfigure}[b]{0.44\linewidth}
+  \begin{subfigure}[b]{0.48\linewidth}
     \includegraphics[width=\linewidth]{team-2014.png}
   \end{subfigure}
    \caption{Left: The F\# 3.0 Team, May 2012 (Don Syme, Jack Hu, Brian Macnamara, Vlad Matveev, Matteo Taveggia, Tao Liu, Wonseok Chae, Donna Malayeri).
@@ -2040,7 +2039,7 @@ From the outset, F\# placed non-nullness as central to its design: the value “
 with F\#-declared types, and in practice null-reference exceptions are rare.\footnote{The F\# community joke being “Question: What can C\# do that F\# can’t?” “Answer: NullReferenceException!”}   This affects many micro-decisions in the
 language. Coming from the OCaml perspective, this is an obvious choice, and in the cultural context of MSR
 Cambridge---including the presence of Tony Hoare at the lab and the memory of his “Billion Dollar Mistake---any
-other choice would have been unthinkable (REF: Hoare, 2011).  However, languages like Scala didn’t make the same
+other choice would have been unthinkable \citep{HoareNulls2011}.  However, languages like Scala didn’t make the same
 decision, and even by 2018 F\# was the only significant language running on the JVM or .NET that placed non-nullness
 as central to its design. At the time of writing, in February 2020, C\# 9.0 is planning to make non-nullness the
 default, a dramatic shift that I hope will herald a shift to eliminate this endemic problem from the programming industry. F\# has been central to this process.
