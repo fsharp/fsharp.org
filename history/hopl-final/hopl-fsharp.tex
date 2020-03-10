@@ -338,8 +338,8 @@ sophistication and technical maturity. When Java was developed in 1991-95, and r
 \item Java promised Write Once Run Anywhere software development that could in theory cut the dependence on a particular operating system; 
 \item Java was developed by a direct rival in the upper-end operating system market; 
 \item Java was positioned as a web-technology at the dawn of the web, potentially capable of delivering end-user applications via the browser;
-\item Java used a set of technical devices such as a virtual machine (VM) and garbage collection (GC)\footnote{ Garbage collection was present in Visual Basic. However it was not present in the highly influential Microsoft COM programming architecture, which used reference counting for memory management.};  and 
-\item Java was recognized as a contribution to applied academic computer science\footnote{For example, \citep{alvesfoss99}.}, bringing on board a constituency who had been largely ignored by Microsoft. As a result, Java became embraced as a de-facto standard for typed object-orientation.
+\item Java used a set of technical devices such as a virtual machine (VM) and garbage collection (GC)\footnote{Garbage collection was present in Visual Basic. However it was not present in the highly influential Microsoft COM programming architecture, which used reference counting for memory management.};  and 
+\item Java was recognized as a contribution to applied academic computer science\footnote{For example, \citep{AlvesFoss1999}.}, bringing on board a constituency who had been largely ignored by Microsoft. As a result, Java became embraced as a de-facto standard for typed object-orientation.
 \end{itemize}
 
 Microsoft was initially slow to respond.  Internally, the company was committed to C for implementing its
@@ -398,21 +398,21 @@ While Microsoft was establishing its monopoly position in the early 1990s, and o
 typed functional programming was small and marginalized yet active and vibrant.  This world overlapped with other fields of activity, which we
 would now call “PL research” but at the time included formal verification, type theory and programming logics and an increasing dose of category
 theory. This world was heavily influenced by foundational calculi, most obviously the Lambda Calculus and its variations such as System F, followed by
-concurrent calculi such as CCS and the Pi Calculus (REF: Sangiorgi \& Walker, 2001).  Efforts to identify unifying object calculi were well
-underway (REF: Cardelli \& Abadi, 1996) and workshops such as \textit{FOOL---Foundations of Object-Oriented Languages} searched
+concurrent calculi such as CCS and the Pi Calculus \citep{Sangiorgi2001}.  Efforts to identify unifying object calculi were well
+underway \citep{Abadi1996} and workshops such as \textit{FOOL---Foundations of Object-Oriented Languages} searched
 for foundational formalisms for new constructs being added to
 existing languages (REF https://link.springer.com/book/10.1007/BFb0019438).
 
 “Formal methods” was an overlapping field in its hey-day in the 1980s, with major government initiatives in formalized hardware and software.
-Controversies (MacKenzie, 2001) and the relatively modest successes of formal methods in industry saw researchers in the 1990s look to more pragmatic
+Controversies \citep{Restivo2004} and the relatively modest successes of formal methods in industry saw researchers in the 1990s look to more pragmatic
 techniques for bug-finding including model checking and static analysis tools. Systems such as SMV, Z, ACL, HOL88, PVS, HOL90, Isabelle and commercial
 offerings were used to model, formalize and verify aspects of software and hardware designs.   Functional languages were often used to implement and
 script these systems, e.g. Edinburgh ML (HOL88), Standard ML (HOL90, Isabelle), OCaml (Coq, NuPRL), Caml Light (HOL-Lite), LISP (ACL2, PVS).  These systems
 thus formed a core constituency of adoption of strongly-typed functional languages and held functional programming close to more theoretical
-communities.  The Formal Definition of Standard ML (REF: Harper, Milner, \& Tofte, 1990) and its commentary were seen by some as almost holy texts, enshrining
+communities.  The Formal Definition of Standard ML \citep{Milner1990} and its commentary were seen by some as almost holy texts, enshrining
 the virtues of standardization, cooperation, formalism and theory. At the same time, some functional programming systems were closely aligned to research
-on parallel programming, e.g. Parallel ML (REF: Rabhi \& Gorlatch, 2003) and parallel versions of Haskell.  Together these formed the context in which I first
-encountered strongly typed functional programming and ML in my undergraduate research work (Syme, 1993).
+on parallel programming, e.g. Parallel ML \citep{RabhGorlatch} and parallel versions of Haskell.  Together these formed the context in which I first
+encountered strongly typed functional programming and ML in my undergraduate research work \citep{Syme1993}.
 
 The FDIV bug at Intel, discovered in 1994,\footnote{\textit{Pentium FDIV: The processor bug that shook the world}, Desire Athow, October 2014. Retrieved
 from \url{https://web.archive.org/web/20181123221019/https://www.techradar.com/uk/news/computing-components/processors/pentium-fdiv-the-processor-bug-that-shook-the-world-1270773}}  led to a
@@ -420,7 +420,7 @@ significant increase in formal verification investment on the part of hardware m
 in was Forte, led by Carl Seger, a toolchain using BDDs and theorem proving to verify the data paths of floating point circuits with respect to an IEEE model.
 The Forte toolchain was built around a strongly typed functional language called Forte FL. Although not otherwise influential on programming language design, this
 is mentioned because I was employed as an intern on this project in 1996-97 and in this context experienced the extreme effectiveness of strongly-typed FP
-as a “glue language” for symbolic manipulations in applied formal verification, an early application domain for F\#. (Seger, et al., 2005). Forte FL also made
+as a “glue language” for symbolic manipulations in applied formal verification, an early application domain for F\# \citep{Seger2005}. Forte FL also made
 many pragmatic choices, for example when interoperating with external data and the inclusion of quotations in the design of a strongly-typed language. This experience
 had significant impact on the later design of F\#.
 
@@ -450,18 +450,18 @@ were genuinely shocked, bewildered, disoriented and in some cases disillusioned 
 the OO tidal wave that are key to understanding the genesis of F\#, Scala and other languages in the 2000s. 
 
 One response to object-orientation was to “give in” and work on Java implementations. Others worked on formalisms around Java, and indeed I initially
-did just that for my PhD thesis (Syme, 1999) and others formulated and published foundational object calculi. Some responded by integrating object-oriented
+did just that for my PhD thesis \citep{Syme1999} and others formulated and published foundational object calculi. Some responded by integrating object-oriented
 features into FP languages: LISP had already added CLOS, the Common LISP object system and OCaml saw the introduction of new forms of
-genericity (“row-polymorphism” and “column polymorphism”) used as the basis for a fascinating object system. (Garrigue, 2002).
+genericity (“row-polymorphism” and “column polymorphism”) used as the basis for a fascinating object system \citep{Garrigue2001}.
 
 Another response was to propose to integrate specific technical features associated with strongly-typed functional languages into “mainstream” OO
 languages.  Wadler and Odersky led the charge with the development of Pizza, a variation of Java that incorporated parametric polymorphism (generics), discriminated
-unions and first-class function values. (REF: Bracha, Odersky, Stoutamire, \& Wadler, 1998)  This was subsequently trimmed-down to the proposal Generic
+unions and first-class function values \citep{Bracha1998}.  This was subsequently trimmed-down to the proposal Generic
 Java (GJ), and later heavily influenced C\#, Scala and F\#. Ultimately GJ became the basis for Java generics, though its use of “erasure” and lack of accurate
 runtime type information were significant compromises. 
 
 An alternative angle was to “deconstruct” functional programming itself and examine the underlying problems (as exhibited by implementations of Haskell
-or Standard ML for example). One instance of this was the paper \textit{Why no one uses functional languages} (REF: Wadler, 1998). This paper was central to
+or Standard ML for example). One instance of this was the paper \textit{Why no one uses functional languages} \citep{Wadler1998}. This paper was central to
 my understanding of the programming language landscape as I started at Microsoft Research in 1998.  Instead of blaming the unwashed masses for their
 ignorance, Wadler’s paper outlines seven problems of strongly-typed FP implementations at the time: Libraries, Portability, Availability, Packagability, Tools,
 Training, Popularity.  It also listed Performance and Ignorance as non-reasons. The early development of F\# was essentially an effort to address each of these.
@@ -471,8 +471,7 @@ these saw little adoption and left the community with the feeling that the suppo
 
 A final response was to attempt to use the JVM as a substrate for implementing established functional programming languages, and thereby as a delivery
 vehicle for FP into the browser and the web (the nascent driving force behind Java at the time).  Foremost in these efforts was MLj, a research/commercial
-implementation of Standard ML by Benton, Kennedy et al. at Persimmon (REF Benton \& Kennedy, Interlanguage working without tears: blending SML with
-Java, 1999).  MLj was a whole-program compiler which allowed interop with the Java ecosystem through object programming extensions. When the research
+implementation of Standard ML by Benton, Kennedy et al. at Persimmon \citep{Benton1999}.  MLj was a whole-program compiler which allowed interop with the Java ecosystem through object programming extensions. When the research
 arm of Persimmon folded in 1998, Benton moved to MSR Cambridge, followed later by Kennedy, bringing experience highly relevant to .NET and later F\#. Despite
 these various responses, there was also strong anathema to object-orientation in theoretical communities: proponents of OO were too readily labelled with the
 tar-brush of heresy: “unprincipled nonsense”, “lacking theoretical foundations” and similar.  
@@ -493,10 +492,10 @@ comparative programming languages course provoked interest in a range of languag
 software company (SoftLaw, 1990-1993). 
 \item I had implemented several strongly-typed language, proof and compilation systems as part of my PhD thesis work using various ML dialects and
 toolchains including SMLNJ, MoscowML, Caml-light and OCaml. Additionally, I had, somewhat unusually for the times, also implemented some visual tooling
-for these systems, notably a graphical proof editing IDE for HOL90 (Syme, 1995) and a proof editing workbench for the theorem prover DECLARE (Syme, 1999).  I
+for these systems, notably a graphical proof editing IDE for HOL90 \citep{Syme1995} and a proof editing workbench for the theorem prover DECLARE (Syme, 1999).  I
 had a positive disposition to IDE tooling and understood the interaction between IDE tooling and language design.
 \item In 1996-98, I had been exposed to the work of academic leaders such as Drossopoulou, Leroy, Wadler and Odersky to synthesize OO and functional
-programming \citep{alvesfoss99}.
+programming \citep{AlvesFoss1999}.
 \item I was part of discussions trying to reimagine how we deliver strongly-typed functional programming to “the masses”.
 \end{itemize}
 
@@ -527,13 +526,13 @@ a primary objective of the COM+ Runtime is to deliver services and performance t
 and that Microsoft should “get serious about language innovation”.  Five technical features were proposed, of which “generalized
 delegates” (i.e. functions as first-class values) and “enhanced parametric polymorphism” were the more serious.  The influence of Pizza and GJ is strong here
 and these are explicitly mentioned as competitors. I also developed ILX, an prototype extension to the .NET bytecode incorporating these features, which I hoped
-might be adopted by other Project 7 languages. ILX was implemented on .NET by erasure and compilation to the existing .NET IL. (REF: Syme, 2001).
+might be adopted by other Project 7 languages. ILX was implemented on .NET by erasure and compilation to the existing .NET IL \citep{Syme2001}.
 
 
 This whitepaper served as the start of the “.NET Generics” project, specifically designed to bring a form of generics to .NET that could work for both C\# and other
 Project 7 languages such as Eiffel, OCaml and Haskell. .NET Generics and its history is covered elsewhere\footnote{\textit{How generics were added to .NET}, Matt
 Warren, March 2018, \url{https://web.archive.org/web/20190624152357/https://mattwarren.org/2018/03/02/How-generics-were-added-to-.NET/}.} and over the next 4 years, Syme, Kennedy and Russo worked with
-enormous dedication to deliver .NET Generics in C\# and .NET (REF: Kennedy \& Syme, 2001). The feature encountered enthusiasm, reluctance and indifference from
+enormous dedication to deliver .NET Generics in C\# and .NET \citep{Kennedy2001}. The feature encountered enthusiasm, reluctance and indifference from
 various parts of Microsoft, though a review to Gates in 2001 was well received and started to turn things around.\footnote{ Programming Languages and  .NET, Bill Gates
 project review, Don Syme \url{https://web.archive.org/web/20200309163401/https://raw.githubusercontent.com/dsyme/fsharp-presentations/master/generics/BillG\%20Review\%202001.ppt}}   Ultimately the feature was
 delivered as part of the 2005 .NET 2.0 “Whidbey” release.  At the same time, Microsoft began to make its first very tentative steps towards embracing open
@@ -581,7 +580,7 @@ intrinsically low-performance on .NET. With .NET Generics these specific perform
 
 \section*{The Decision to Create F\#}
 
-At MSR, Project 7 also led to the SML.NET project (REF: Benton, Kennedy, \& Russo, 2004).  SML.NET was a continuation of MLj, mentioned earlier, retargeted to
+At MSR, Project 7 also led to the SML.NET project \citep{Benton2004}.  SML.NET was a continuation of MLj, mentioned earlier, retargeted to
 .NET.  SML.NET used a sophisticated whole-program optimizer and was a faithful implementation of Standard ML
 with extensions for object programming. The system was of high quality but didn’t gain significant external mindshare.   During 2001, I grew frustrated with SML.NET,
 which was not yet released even though .NET itself was now public. While respecting the research goals of my colleagues, I was keen to see strongly typed FP delivered
@@ -975,7 +974,7 @@ In retrospect, the addition of object programming to F\# was a process of “dec
 
 Through this process features were progressively incorporated into F\# in a way that preserved the essence of the core expression language and emphasized delegation over inheritance.  I summarize this today by stating that “F\# embraces ‘object’ programming and de-emphasizes ‘object-oriented’ programming, especially implementation inheritance”.\footnote{\textit{F\# Code I Love}, Don Syme, September 2018, \url{https://www.youtube.com/watch?v=MGLxyyTF3OM}}.  For example, the “protected” accessibility modifier is not supported even to this day in F\#, since it is perceived to encourage implementation inheritance.
 
-F\# was by no means the only language deconstructing object-oriented programming around this time. Some of this has been discussed in the prior section on the reactions to object-orientation by the academic programming language design community, including the GJ and Pizza languages. Other examples include Effective Java (Bloch, 2001), emphasizing composition over inheritance.
+F\# was by no means the only language deconstructing object-oriented programming around this time. Some of this has been discussed in the prior section on the reactions to object-orientation by the academic programming language design community, including the GJ and Pizza languages. Other examples include Effective Java \citep{bloch2001effective}, emphasizing composition over inheritance.
 
 
 \subsection*{F\# 1.0---Improving the Functional Core: Initialization Graphs}
@@ -987,7 +986,7 @@ The first novel feature added to F\# was an adjustment to initialization and rec
 
 Here “::” is the OCaml “cons” operator, and the declaration gives an infinite list of ‘1’ values. This is implemented by creating a single allocate cons-cell and “fixing up” the tail pointer to point back to the value itself.  However this technique only applies when allocating values.  It doesn’t support functional abstraction, and doesn’t apply when any computation is involved in value construction.
 
-The F\# approach to this problem area was designed and implemented initially in mid-2004 and presented internally at MSR Cambridge on September 4, 2004 then at the ML Workshop 2005 (REF Syme, 2006). This feature was inspired by the above OCaml feature, and hallway conversations with Georges Gonthier and the idea of giving “co-inductive” interpretations to recursive definitions wherever possible.  Co-inductive techniques---including co-inductive algebras as an interpretation of object-orientation---was a popular research topic at the time. In the 2004 presentation, I focused on how to define networks of “reactive objects”: 
+The F\# approach to this problem area was designed and implemented initially in mid-2004 and presented internally at MSR Cambridge on September 4, 2004 then at the ML Workshop 2005 \citep{Syme2006}. This feature was inspired by the above OCaml feature, and hallway conversations with Georges Gonthier and the idea of giving “co-inductive” interpretations to recursive definitions wherever possible.  Co-inductive techniques---including co-inductive algebras as an interpretation of object-orientation---was a popular research topic at the time. In the 2004 presentation, I focused on how to define networks of “reactive objects”: 
 
 \begin{verbquote}
 Forget subtyping.  Forget inheritance.   The restrictions on self-referential and mutually-referential objects is what makes ML a poor GUI programming language....At least when driving reasonable libraries such as System.Windows.Forms, and the problem gets worse the more "declarative" a library gets.... C# "solves" this through a mishmash of implicit nulls and/or "create-and-configure" APIs.   ML "solves" it in a similar way.  F# permits the above techniques, but offers another solution... (REF Syme, 2004)
@@ -1044,9 +1043,9 @@ Many alternative approaches to overloaded arithmetic existed at this time, inclu
 
 \subsection*{F\# 1.0---Improving the Functional Core: Active Patterns}
 
-Since the 1980s, one of the best-loved features of strongly-typed functional programming languages has been pattern matching, represented in F\# and OCaml by the match ... with ... construct. Since Wadler’s work on views (Wadler, 1987) it had been recognized that pattern matching suffered a lack of abstraction: you couldn’t write new pattern matching constructs for existing or abstract data types.  During the “proofing” of F\# in 2005 the importance of this problem in real-world OCaml codebases like SPiM and Static Driver Verifier became obvious to me: there were many cases in those codebases where implementation details of types were “leaking out” into code through pattern matching, making changes of core representations difficult.  In early 2006 I began the process of deciding what to do about this for F\#.  
+Since the 1980s, one of the best-loved features of strongly-typed functional programming languages has been pattern matching, represented in F\# and OCaml by the match ... with ... construct. Since Wadler’s work on views \citep{Wadler1987} it had been recognized that pattern matching suffered a lack of abstraction: you couldn’t write new pattern matching constructs for existing or abstract data types.  During the “proofing” of F\# in 2005 the importance of this problem in real-world OCaml codebases like SPiM and Static Driver Verifier became obvious to me: there were many cases in those codebases where implementation details of types were “leaking out” into code through pattern matching, making changes of core representations difficult.  In early 2006 I began the process of deciding what to do about this for F\#.  
 
-The idea of “active patterns” or “views” had featured in academia but had never been implemented in a practical strongly-typed FP system (Erwig, 1996).  Since F\# had to interoperate with .NET object types whose representations were private, it became natural to add extensible pattern matching. In May 2006, Gregory Neverov joined as an intern and was assigned this topic.  A prototype emerged quickly, and was presented at WG 2.8, July 16-21, Boston.\footnote{\textit{IFIP Working Group 2.8---Functional Programming}, Ralf Hinze and others, retrieved 31 August 2019, \url{https://web.archive.org/web/20190827002406/http://www.cs.ox.ac.uk/ralf.hinze/WG2.8/}}  Simon Peyton Jones gave very helpful advice for F\# at this time, recounting the various attempts to add view patterns to Haskell, an emphasizing the need for “bang for buck” in such a feature, i.e. simplicity of declaration and use. An initial implementation of F\# active patterns was released in August 2006, an ICFP paper followed (Syme, Neverov \& Margetson, 2007), and the feature remains a very widely used part of the F\# language.\footnote{\textit{An upcoming experimental feature: Active Patterns in F\#}, Don Syme, August 2006, \url{https://web.archive.org/web/20190202055330/https://blogs.msdn.microsoft.com/dsyme/2006/08/15/an-upcoming-experimental-feature-active-patterns-in-f/}}
+The idea of “active patterns” or “views” had featured in academia but had never been implemented in a practical strongly-typed FP system \citep{Erwig1996}.  Since F\# had to interoperate with .NET object types whose representations were private, it became natural to add extensible pattern matching. In May 2006, Gregory Neverov joined as an intern and was assigned this topic.  A prototype emerged quickly, and was presented at WG 2.8, July 16-21, Boston.\footnote{\textit{IFIP Working Group 2.8---Functional Programming}, Ralf Hinze and others, retrieved 31 August 2019, \url{https://web.archive.org/web/20190827002406/http://www.cs.ox.ac.uk/ralf.hinze/WG2.8/}}  Simon Peyton Jones gave very helpful advice for F\# at this time, recounting the various attempts to add view patterns to Haskell, an emphasizing the need for “bang for buck” in such a feature, i.e. simplicity of declaration and use. An initial implementation of F\# active patterns was released in August 2006, an ICFP paper followed \citep{Syme2007}, and the feature remains a very widely used part of the F\# language.\footnote{\textit{An upcoming experimental feature: Active Patterns in F\#}, Don Syme, August 2006, \url{https://web.archive.org/web/20190202055330/https://blogs.msdn.microsoft.com/dsyme/2006/08/15/an-upcoming-experimental-feature-active-patterns-in-f/}}
 
 F\# active patterns allow for partial, complete and multi-case patterns. Here is an example of defining partial active patterns to parse a string into an integer or boolean:
 
@@ -1086,7 +1085,7 @@ I enjoyed a lot discussing with you at the WG 2.8. I have been thinking how to d
 \end{verbquote}
 
 
-From this email and the first EPFL paper (Emir, Odersky \& Williams, 2007), it seems that the addition of active patterns to F\# had some impact on the design of Scala. The final versions of the respective mechanisms for F\# (active patterns) and Scala (extractors) were designed and implemented around the same time.    
+From this email and the first EPFL paper \citep{Emir2007}, it seems that the addition of active patterns to F\# had some impact on the design of Scala. The final versions of the respective mechanisms for F\# (active patterns) and Scala (extractors) were designed and implemented around the same time.    
 
 
 \subsection*{F\# 1.0---Improving the Functional Core: First-class Events}
@@ -1107,7 +1106,7 @@ let mouseMove =
   |> Event.filter (fun _ -> inputMenuItem.Checked)
 \end{verbatim}
 
-Here \texttt{form.MouseMove} is a first-class event allowing registration and de-registration of handlers.  The event composition filters triggers of \texttt{form.MouseMove} to generate a new event that only fires when the Left mouse button is down and a particular menu item is checked.  Common patterns of event composition, filtering, combination and transformation can now begin to be abstracted.  The addition of this feature directly influenced Wes Dyer, leading to the creation of the Reactive Extensions (Rx) project with Erik Meijer.\footnote{\textit{A Brief Introduction to the Reactive Extensions for .NET}, Wes Dyer, November 2009, \url{https://web.archive.org/web/20190120224709/https://blogs.msdn.microsoft.com/wesdyer/2009/11/18/a-brief-introduction-to-the-reactive-extensions-for-net-rx/}}  Registering event handlers has implications for memory leaks, later dealt with by converting this part of the F\# programming model to use the IObservable type from Rx.  This topic also led to an F\#-related publication by Petricek and Syme on garbage collection in reactive systems (REF: Petricek \& Syme, 2010).
+Here \texttt{form.MouseMove} is a first-class event allowing registration and de-registration of handlers.  The event composition filters triggers of \texttt{form.MouseMove} to generate a new event that only fires when the Left mouse button is down and a particular menu item is checked.  Common patterns of event composition, filtering, combination and transformation can now begin to be abstracted.  The addition of this feature directly influenced Wes Dyer, leading to the creation of the Reactive Extensions (Rx) project with Erik Meijer.\footnote{\textit{A Brief Introduction to the Reactive Extensions for .NET}, Wes Dyer, November 2009, \url{https://web.archive.org/web/20190120224709/https://blogs.msdn.microsoft.com/wesdyer/2009/11/18/a-brief-introduction-to-the-reactive-extensions-for-net-rx/}}  Registering event handlers has implications for memory leaks, later dealt with by converting this part of the F\# programming model to use the IObservable type from Rx.  This topic also led to an F\#-related publication by Petricek and Syme on garbage collection in reactive systems \citep{Petricek2010}.
 
 
 
@@ -1115,7 +1114,7 @@ Here \texttt{form.MouseMove} is a first-class event allowing registration and de
 
 In April 2007, I spent a six-week sabbatical at EPFL with Martin Odersky in Lausanne.  Odersky was then developing Scala, an exciting time for that language and group. Partly through this visit another important idea was seeded and eventually added to the core F\# design: computation expressions and their application to asynchronous programming.  This would still be influencing C\# years later, in C\# 5.0 (async/await) and 8.0 (async sequences), and in turn influence many other languages. 
 
-The problems addressed by computation expressions and “async” were as follows.  First, from 2003 there was an increasing focus on multi-core and parallel processing in commodity computing systems. Further, the rise of web-programming put server-side concurrency and client-side long-running web-requests to the fore. Additionally, in the context of Windows, it could be assumed that “operating system threads were expensive”, thus ruling out approaches to concurrency based purely on OS threading.  This combination of factors gradually led languages and frameworks to take a strong point of view on concurrency and user-level threading.  For .NET the focus of C\# work at the time was on shared-memory primitives and locking (Duffy \& Sutter, 2008). While good for low-level high-performance primitives, the .NET community were crying out for better, more productive abstractions.  For many other languages, the focus was on actor-like message queueing systems, futures or continuations.  
+The problems addressed by computation expressions and “async” were as follows.  First, from 2003 there was an increasing focus on multi-core and parallel processing in commodity computing systems. Further, the rise of web-programming put server-side concurrency and client-side long-running web-requests to the fore. Additionally, in the context of Windows, it could be assumed that “operating system threads were expensive”, thus ruling out approaches to concurrency based purely on OS threading.  This combination of factors gradually led languages and frameworks to take a strong point of view on concurrency and user-level threading.  For .NET the focus of C\# work at the time was on shared-memory primitives and locking \citep{Duffy2008concurrent}. While good for low-level high-performance primitives, the .NET community were crying out for better, more productive abstractions.  For many other languages, the focus was on actor-like message queueing systems, futures or continuations.  
 
 From the theoretical side, it had long been recognized:
 
@@ -1125,13 +1124,13 @@ From the theoretical side, it had long been recognized:
 \end{enumerate}
 
 
-At EPFL in 2007, I noticed that Philipp Haller had added a react { ... } construct for message processing in Scala (Haller \& Odersky, 2009), and realized that some kind of primitive construct to deal with asynchronous programming was going to be needed in F\#.  C\# had added “iterators” in C\# 2.0 (again initiated by MSR) and this also featured an implicit inversion of control-flow which was of interest in the context of async programming.
+At EPFL in 2007, I noticed that Philipp Haller had added a \texttt{react \{ ... \}} construct for message processing in Scala \citep{Haller2009}, and realized that some kind of primitive construct to deal with asynchronous programming was going to be needed in F\#.  C\# had added “iterators” in C\# 2.0 (again initiated by MSR) and this also featured an implicit inversion of control-flow which was of interest in the context of async programming.
 
-Ideas around async programming had also been floating around the OCaml community and its mailing lists, especially through the async implementation used in the system MLDonkey by Fabrice le Fessant, begun in 2001\footnote{\textit{MLDonkey}, Wikipedia, August 2019, \url{https://web.archive.org/web/20200111223533/https://en.wikipedia.org/wiki/MLDonkey}}.  Haskell had added monadic syntax\footnote{The addition of  monadic “do” notation to Haskell derives from its addition to Gofer by Mark Jones in 1994, who credits influence from (Launchbury, 1993).} At that time, however,
+Ideas around async programming had also been floating around the OCaml community and its mailing lists, especially through the async implementation used in the system MLDonkey by Fabrice le Fessant, begun in 2001\footnote{\textit{MLDonkey}, Wikipedia, August 2019, \url{https://web.archive.org/web/20200111223533/https://en.wikipedia.org/wiki/MLDonkey}}.  Haskell had added monadic syntax\footnote{The addition of  monadic “do” notation to Haskell derives from its addition to Gofer by Mark Jones in 1994, who credits influence from \citep{Launchbury93lazy}.} At that time, however,
 no strict functional language had a suitable extensible syntax allowing the re-interpretation of all control constructs in asynchronous form, and in
 OCaml and Standard ML libraries of functional combinators were generally used instead.  
 
-On returning from EPFL, I discussed these problems with Margetson around May 2007, who emphasized the importance of monads in implementing async programming. This led me to finally experiment with adding a monadic syntax to F\# and apply it to asynchronous programming, leading to the addition of async { ... } to F\# in 2007 (Syme, Petricek \& Lomov, 2011).  On October 10, 2007 we announced these features in the blog post \textit{Introducing F\# Asynchronous Workflows}.\footnote{\textit{Introducing Asynchronous Workflows}, Don Syme, October 2007, \url{https://web.archive.org/web/20191221153257/https://blogs.msdn.microsoft.com/dsyme/2007/10/10/introducing-f-asynchronous-workflows/}}  Representative async code samples used in the blog posts at the time were as follows:
+On returning from EPFL, I discussed these problems with Margetson around May 2007, who emphasized the importance of monads in implementing async programming. This led me to finally experiment with adding a monadic syntax to F\# and apply it to asynchronous programming, leading to the addition of async { ... } to F\# in 2007 \citep{Syme2011}.  On October 10, 2007 we announced these features in the blog post \textit{Introducing F\# Asynchronous Workflows}.\footnote{\textit{Introducing Asynchronous Workflows}, Don Syme, October 2007, \url{https://web.archive.org/web/20191221153257/https://blogs.msdn.microsoft.com/dsyme/2007/10/10/introducing-f-asynchronous-workflows/}}  Representative async code samples used in the blog posts at the time were as follows:
 
 \begin{verbatim}
     let task1 = async { return 10+10 }
@@ -1368,7 +1367,7 @@ Likewise, when F\# CEs are configured for monadic syntax, they are also more exp
 \end{itemize}
 F\# CEs can also be configured in other ways and this is done in practice, e.g. for web programming DSLs or asynchronous sequences (REF TBD).
 The various families of control constructs that could utilize computation expressions were eventually characterized by Petricek
-and Syme (Petricek \& Syme, 2014) and in 2010 they developed an experimental monadic generalization of pattern matching called Joinads (Petricek \& Syme, 2011).
+and Syme \citep{Petricek2014} and in 2010 they developed an experimental monadic generalization of pattern matching called Joinads (Petricek \& Syme, 2011).
 Extending the notation for applicatives (REF: applicatives) was scheduled for addition to F\# in 2020. The introduction of computation expressions to F\# greatly increased the notation expressivity of the language
 and the mechanism is widely used in F\# today.
 
@@ -1388,7 +1387,7 @@ This work released on January 26, 2006 in prototype form under title \textit{F\#
         |> where  <@ fun c -> c.City = "London" @> 
         |> select <@ fun c -> c.ContactName @>
 \end{verbatim}
-Some of the details changed in later releases, but here \verb$<@ ... @>$ is an expression quotation literal, forming a quotation of the expression tree. These parts of the program were re-interpreted at runtime and executed as part of an SQL query.  This mechanism was also applied to a broader range of “heterogeneous execution” problems, running F\# code on the GPU by utilizing the Accelerator library from MSR. Collectively this work was published at the ML Workshop (Syme, 2006). Later, in F\# 2.0, the design of the API for F\# quotations was extensively revised and simplified.
+Some of the details changed in later releases, but here \verb$<@ ... @>$ is an expression quotation literal, forming a quotation of the expression tree. These parts of the program were re-interpreted at runtime and executed as part of an SQL query.  This mechanism was also applied to a broader range of “heterogeneous execution” problems, running F\# code on the GPU by utilizing the Accelerator library from MSR. Collectively this work was published at the ML Workshop \citep{Syme2006a}. Later, in F\# 2.0, the design of the API for F\# quotations was extensively revised and simplified.
 
 In early 2006, Tomas Petricek at Charles University, Prague began work on a JavaScript compiler and web programming
 system utilizing F\# quotations.\footnote{\textit{Client-side Scripting using Meta-programming}, Tomas Petricek, March 2008, \url{https://web.archive.org/web/20170707011917/http://tomasp.net/blog/webtools-thesis.aspx/}}  He
@@ -1452,8 +1451,8 @@ unexpectedly. The language developed a strong community feel and some related te
 his F\# Journal followed by F\# for Visualization and F\# for Numerics, and later made his influential OCaml for Scientists book available
 as F\# for Scientists\footnote{ \textit{F\# for Scientists announced by Jon Harrop}, October 2006, \url{https://web.archive.org/web/20190130125113/https://blogs.msdn.microsoft.com/dsyme/2006/10/23/f-for-scientists-announced-by-jon-harrop/}}; in 2007 WebSharper was initiated by Adam Granicz, including a
 transpiler from F\# to JavaScript and the ability to use F\# for both client and server
-components (Bjornson, Tayanovskyy, \& Granicz, 2010); in 2007 IntelliFactory began offering consulting services
-in F\# (Peake \& Granicz, 2009)\footnote{\textit{IntelliFactory Your Functional Experts}, Adam Granicz et al., November 2011, https://web.archive.org/web/20071102190038/http://www.intellifactory.com:80/Development.aspx}.
+components \citep{Bjornson2010}; in 2007 IntelliFactory began offering consulting services
+in F\# \citep{PeakGranicz2009}.\footnote{\textit{IntelliFactory Your Functional Experts}, Adam Granicz et al., November 2011, https://web.archive.org/web/20071102190038/http://www.intellifactory.com:80/Development.aspx}
 In 2006, James Huddlestone, an editor at Apress, approached myself and Robert Pickering to author the first two
 books on F\#: Beginning F\# and Expert F\#, the latter joint-authored with Adam Granicz and Antonio Cisternino.\footnote{\textit{Draft Chapter 2 of ``Expert F\#'': Essential Language Features}, Don Syme, September 2006, \url{https://web.archive.org/web/20190130124706/https://blogs.msdn.microsoft.com/dsyme/2006/09/06/draft-chapter-2-of-expert-f-essential-language-features/}}
 
@@ -1610,7 +1609,7 @@ programming in the industry. However, more was going to be needed.
 
 One significant feature was added to the language in 2009: units of measure checking and inference.  This
 work was initiated by Andrew Kennedy, a researcher at MSR Cambridge whose PhD thesis had shown how to integrate
-unit inference with Hindley-Milner type inference (Kennedy, 1996). In late 2007 Kennedy began to prototype, and on
+unit inference with Hindley-Milner type inference \citep{Kennedy1995}. In late 2007 Kennedy began to prototype, and on
 December 10, 2007 sent links internally to a working version, refined over the next year and made available in preview
 release on August 29, 2008.\footnote{\textit{The F\# September 2008 CTP is now available!} \url{https://web.archive.org/web/20190125230131/https://blogs.msdn.microsoft.com/dsyme/2008/08/29/the-f-september-2008-ctp-is-now-available/}}
 In the context of the Microsoft TCI, adding unit inference aligned with other goals, and it
@@ -1661,7 +1660,7 @@ New data structures can also be made generic with respect to units:
     // Create a velocity vector.
     let v1vec = { x = 1.0<m/s>; y = -1.0<m/s>; z = 0.0<m/s> }
 \end{verbatim}
-From a technical perspective, the major challenge with the units of measure feature is its integration with F\#’s version of Hindley-Milner type inference. (Kennedy, 2009).
+From a technical perspective, the major challenge with the units of measure feature is its integration with F\#’s version of Hindley-Milner type inference \citep{Kennedy2009}.
 
 
 \section*{Type Providers and F\# 3.0 }
@@ -1705,10 +1704,9 @@ with people from many different parts of the industry.  Curiously, few of these 
 The early demos were developed by Fisher and communicated internally on February 17, 2010. It felt exhilarating---we were demonstrating
 what we felt to be entirely new experiences like:
 
-
 \begin{itemize}
 \item the immediate integration of the data and structure of Excel spreadsheets into F\# programming with auto-complete and type-checking;
-\item the immediate integration of scalable semantic-web information sources such as the entity graph called Freebase (Bollacker, Evans, Paritosh, Sturge, \& Taylor, 2008), again with auto-complete and type-checking;
+\item the immediate integration of scalable semantic-web information sources such as the entity graph called Freebase \citep{Bollacker2008}, again with auto-complete and type-checking;
 \item directly referencing multiple databases in a single data script in a strongly-typed way.
 \end{itemize}
 
@@ -1745,7 +1743,7 @@ On release of F\# 3.0 on September 12, 2012,  F\# type providers immediately bec
 \item Schematized “big-data” sources including Hadoop
 \end{itemize}
 
-The paper \textit{Types from data---Making structured data first-class citizens in F\#} (Petricek, Guerra, \& Syme, 2016) received a Distinguished Paper award at PLDI 2016 and was selected as one of three CACM Research Highlight in 2018.
+The paper \textit{Types from data---Making structured data first-class citizens in F\#} \citep{Petricek2016} received a Distinguished Paper award at PLDI 2016 and was selected as one of three CACM Research Highlight in 2018.
 
 \begin{figure}
 
@@ -1808,7 +1806,7 @@ time Microsoft also fully embraced the use of Linux within Azure---unthinkable a
 and it formed a core part of one of its growth businesses.
 
 During this time, the consultancy Nessos in Athens developed an innovative cloud programming system called MBrace
-implemented in F\# (Dzik, Palladinos, Rontogiannis, Tsarpalis, \& Vathis, 2013). Originally conceived as a distributed
+implemented in F\# \citep{Dzik2013}. Originally conceived as a distributed
 programming system, later iterations emphasized cloud computing and big-data processing, and was used internally at
 Microsoft to demonstrate the relevance of F\# for cloud programming. 
 
@@ -2026,7 +2024,7 @@ Other direct influences of F\# on languages are harder to measure: language desi
 influences both direct and indirect. Both Elixir and Elm use the \texttt{|>} operator and there are ways to emulate that operator
 in other languages such as Scala and R. The Scala designer, Martin Odersky, was intimately aware of F\# throughout
 its history in his role on the MSR Cambridge Technical Advisory Board and EPFL research includes efforts to
-bring F\# type providers to Scala. (Burmako, 2013).  The apparent influence of F\# on the
+bring F\# type providers to Scala \citep{Burmako2013}.  The apparent influence of F\# on the
 creation of Scala extractors was mentioned earlier in this article. Swift seems to have been influenced
 by F\#, and Kotlin seems to use C\#, F\# and other languages as reference points.  Rust seems to have been
 influenced by OCaml, and the author Graydon Hoare refers to F\# extensively when discussing “What’s Next” after
