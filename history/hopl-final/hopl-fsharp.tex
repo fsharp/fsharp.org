@@ -208,7 +208,7 @@ language with multiple delivery channels.  I conclude by examining some uses of 
 
 The history of the F\# programming language is an arc drawn from the 1970s to the present day.  Somewhere, back in
 the early 1970s, an idea was born in the mind of Robin Milner and his colleagues Lockwood Morris and Malcolm Newey of a
-succinct, fully type-inferred functional programming language suitable for manipulating structured information. (Gordon, 2000).  Building
+succinct, fully type-inferred functional programming language suitable for manipulating structured information \citep{Gordon2000}.  Building
 on the tradition of LISP (and indeed using LISP as their implementation vehicle), this language became ML---Meta Language---and
 is the root of a tradition of “strongly typed functional programming languages” that includes Edinburgh ML, Miranda, Haskell,
 Standard ML, OCaml, Elm, ReasonML and PureScript. F\# is part of this family.
@@ -252,7 +252,7 @@ era of change. Whether that is through obstinacy, coherence or coincidence is so
 
 \section*{What is F\# in 2020?}
 
-In 2020, F\# is described on its documentation pages as “a functional programming language that runs on .NET.” The F\# language guide (Microsoft, 2019) calls out the following major features of the language, providing useful clarity about what the language is today:
+In 2020, F\# is described on its documentation pages as “a functional programming language that runs on .NET.” The F\# language guide (REF: Microsoft, 2019) calls out the following major features of the language, providing useful clarity about what the language is today:
 \begin{itemize}
 \item functions and modules
 \item pipelines and composition
@@ -279,7 +279,7 @@ The documentation continues with an explanation of the main tooling and librarie
 \item how to use F\# with the cloud platform of the company providing the documentation.
 \end{itemize}
 Other resources for F\# follow a similar order of explanation, e.g. Fable  is a packaging of F\# for client-side web
-programming compiling to JavaScript \footnote{ \textit{Fable---The compiler that emits JavaScript you can be proud of!}, \url{https://web.archive.org/web/20191230184424/https://fable.io/}}, and
+programming compiling to JavaScript \citep{GarciaCaro2018}, and
 WebSharper (REF: Granicz, 2018) and SAFE-Stack\footnote{\textit{SAFE Stack, An end-to-end functional-first stack for
 cloud-ready web development that emphasizes type-safe programming}, \url{https://web.archive.org/web/20191207093456/https://safe-stack.github.io/}.} emphasize
 the use of F\# as a “full-stack” language where both client and server components are written in the
@@ -303,7 +303,7 @@ bold new era of “fourth generation languages” was promised.
 
 At this time, Microsoft also saw massive expansion as an operating system and applications company.  Microsoft started by building
 programming tools in 1975 and the importance of programmability---both as a commercial and technical undertaking---was “in the bones” of
-the company and its CEO Bill Gates (Microsoft, 2012).  Through the 1980s his primary concern with regard to programmability was commercial: how
+the company and its CEO Bill Gates (REF: Microsoft, 2012).  Through the 1980s his primary concern with regard to programmability was commercial: how
 to support the creation of applications and a commercial ecosystem of independent software vendors (ISVs) for the DOS and
 Windows ecosystems.  What mattered most was the sheer number of developers using these platforms, for developers would
 feed the growth of these ecosystems.  The company created tools such as Visual Basic to satisfy the mass-developer
@@ -430,7 +430,7 @@ during their education. Interestingly these people were outside the programming 
 valued Miranda for its pragmatism and productivity.}  During the 1990s the small world of strongly-typed functional programming also split and diverged in ways typical
 of active research communities.  Haskell 98 united the streams of lazy, pure functional programming, precursors included HOPE and Miranda.  Standard ML from 1989 remained
 the unifying effort for mixed functional-imperative languages. However, the INRIA Project Cristal group saw the standardization as premature, and instead created
-Caml Light and then OCaml. (Leroy, 2019). Standard ML itself was heavily associated with its innovative module system and saw practical implementations in Poly ML, Standard
+Caml Light and then OCaml. (REF: Leroy, 2019). Standard ML itself was heavily associated with its innovative module system and saw practical implementations in Poly ML, Standard
 ML of New Jersey and MLton.
 
 Strongly-typed FP languages and compilers saw an ongoing trickle of interest, adoption and use. While not enough to challenge the massive adoption of C, C++ and Java,
@@ -492,7 +492,7 @@ comparative programming languages course provoked interest in a range of languag
 software company (SoftLaw, 1990-1993). 
 \item I had implemented several strongly-typed language, proof and compilation systems as part of my PhD thesis work using various ML dialects and
 toolchains including SMLNJ, MoscowML, Caml-light and OCaml. Additionally, I had, somewhat unusually for the times, also implemented some visual tooling
-for these systems, notably a graphical proof editing IDE for HOL90 \citep{Syme1995} and a proof editing workbench for the theorem prover DECLARE (Syme, 1999).  I
+for these systems, notably a graphical proof editing IDE for HOL90 \citep{Syme1995} and a proof editing workbench for the theorem prover DECLARE (REF Syme, 1999).  I
 had a positive disposition to IDE tooling and understood the interaction between IDE tooling and language design.
 \item In 1996-98, I had been exposed to the work of academic leaders such as Drossopoulou, Leroy, Wadler and Odersky to synthesize OO and functional
 programming \citep{AlvesFoss1999}.
@@ -762,7 +762,7 @@ Another design question was about nulls. The question was not one of safety: lik
 \begin{verbquote}
 Null.  Null objects returned by the .NET assemblies are NOT checked by the process of importing the assemblies or by the F# type system.  This may be addressed in the future, but for the moment use the "nonnull" function from Pervasives to check if values are null and the "null" value from Obj to create a new null value. https://web.archive.org/web/20020814185220/http://research.microsoft.com:80/projects/ilx/fsharp-manual-import-interop.htm
 \end{verbquote}
-Instead, the rule adopted was that .NET-declared types would allow the use of “null”, while F\#-declared nominal types would not.  This kept a strict approach to nullness within F\#-only code, in keeping with OCaml but allowed the use of null in interop scenarios with .NET types. This was partly because of ergonomics: the insertion of the option type was highly intrusive on programming and nulls were not used as pervasively in the .NET libraries as in Java, so in balance the need for a pleasant programming experience outweighed the need for null-safety at interoperability. Further, I felt that the topic of null-safety should be dealt with systematically across all .NET languages, as we had done with .NET Generics.\footnote{This position eventually bore fruit in 2018 when C\# 8.0 finally began the transition to assuming non-nullness by default for reference types, discussed in the conclusion.}   
+Instead, the rule adopted was that .NET-declared types would allow the use of “null”, while F\#-declared nominal types would not.  This kept a strict approach to nullness within F\#-only code, in keeping with OCaml but allowed the use of null in interop scenarios with .NET types. This was partly because of ergonomics: the insertion of the option type was highly intrusive on programming and nulls were not used as pervasively in the .NET libraries as in Java, so in balance the need for a pleasant programming experience outweighed the need for null-safety at interoperability. Further, I felt that the topic of null-safety should be dealt with systematically across all .NET languages, as we had done with .NET Generics.\footnote{This position eventually bore fruit in 2018 when C\# 9.0 finally began the transition to assuming non-nullness by default for reference types, discussed in the conclusion.}   
 
 Initially, early F\# avoided adding object programming declarations:
 \begin{verbquote}
@@ -784,12 +784,12 @@ F\# “0.5” was little noticed at first, deliberately: the initial implementat
 \item See where things led.
 \end{enumerate}
 
-I had been influenced by my time at Intel Strategic CAD Laboratories, which used a structured “maturity model” for research projects and technology development: projects at Intel would proceed from “concept” to “proof of concept” to “prototype” and then through a product delivery phase. Thus there was no Microsoft “buy-in” at this stage: few at the company knew of F\# apart from those in MSR Cambridge and their .NET team contacts. 6 months later, after several iterations, the project got noticed by Internet news sites, always keen for the latest scoop, and I decided to make a clarification on the OCaml mailing list in case things “got out of hand” before the implementation was fully ready, and in case accusations of “embrace, extend, extinguish” emerged. (Boulton, 2003)
+I had been influenced by my time at Intel Strategic CAD Laboratories, which used a structured “maturity model” for research projects and technology development: projects at Intel would proceed from “concept” to “proof of concept” to “prototype” and then through a product delivery phase. Thus there was no Microsoft “buy-in” at this stage: few at the company knew of F\# apart from those in MSR Cambridge and their .NET team contacts. 6 months later, after several iterations, the project got noticed by Internet news sites, always keen for the latest scoop, and I decided to make a clarification on the OCaml mailing list in case things “got out of hand” before the implementation was fully ready, and in case accusations of “embrace, extend, extinguish” emerged \citep{Boulton2003}.
 
 \begin{verbquote}
 There have been some utterly speculative (and entirely off-the-mark!!) internet press reports about this project in the last few days (e.g. see internetnews.com).... I thought it wise to add the following clarification to the F# website and to post it to this list.
 
-...Despite reports suggesting otherwise, F# is a relatively small research project designed to demonstrate that it is possible to easily implement ML-like languages for use on the .NET Framework.  There are no current plans to commercialize F#.... F# is public, on-going research, and Microsoft Research regularly and openly collaborates with universities on programming languages. (Syme, 2003)  
+...Despite reports suggesting otherwise, F# is a relatively small research project designed to demonstrate that it is possible to easily implement ML-like languages for use on the .NET Framework.  There are no current plans to commercialize F#.... F# is public, on-going research, and Microsoft Research regularly and openly collaborates with universities on programming languages
 \end{verbquote}
 
 The fact that F\# needed to be down-played initially was partly due to the sensitivities around launching anything “product-like” at the time from MSR.\footnote{One reviewer queried whether the final statement about ``no current plans to commercialize'' was accurate when written.  I can confirm this was the case: there was no plan at the time to commercialize F\#, either as part of Visual Studio nor any other path. There were a vague aspirations on the part of the author (and the MSR managers who approved the release) that it might prove commercially relevant.} At the time, all public software by MSR had an awkward legal/commercial status: publication of software was primarily to support a research/publication agenda. Despite a budget nearing \$1B, the organization was not at that stage permitted to make and release commercial products.  MSR strongly encouraged open research, but open software was more problematic. However, designing and delivering new programming languages was an essential part of any PL research agenda, and indeed the whole rationale behind Project 7.  Further, external “proofing” of these technologies was critical to refine them. 
@@ -989,7 +989,7 @@ Here “::” is the OCaml “cons” operator, and the declaration gives an inf
 The F\# approach to this problem area was designed and implemented initially in mid-2004 and presented internally at MSR Cambridge on September 4, 2004 then at the ML Workshop 2005 \citep{Syme2006}. This feature was inspired by the above OCaml feature, and hallway conversations with Georges Gonthier and the idea of giving “co-inductive” interpretations to recursive definitions wherever possible.  Co-inductive techniques---including co-inductive algebras as an interpretation of object-orientation---was a popular research topic at the time. In the 2004 presentation, I focused on how to define networks of “reactive objects”: 
 
 \begin{verbquote}
-Forget subtyping.  Forget inheritance.   The restrictions on self-referential and mutually-referential objects is what makes ML a poor GUI programming language....At least when driving reasonable libraries such as System.Windows.Forms, and the problem gets worse the more "declarative" a library gets.... C# "solves" this through a mishmash of implicit nulls and/or "create-and-configure" APIs.   ML "solves" it in a similar way.  F# permits the above techniques, but offers another solution... (REF Syme, 2004)
+Forget subtyping.  Forget inheritance.   The restrictions on self-referential and mutually-referential objects is what makes ML a poor GUI programming language....At least when driving reasonable libraries such as System.Windows.Forms, and the problem gets worse the more "declarative" a library gets.... C# "solves" this through a mishmash of implicit nulls and/or "create-and-configure" APIs.   ML "solves" it in a similar way.  F# permits the above techniques, but offers another solution... 
 \end{verbquote}
 The solution offered was to extend the “let rec” construct to allow the definition of not just functions and directly-allocated recursively-referential data, but also a graph of values and objects produced via computation, described as follows:
 \begin{verbquote}
@@ -1020,7 +1020,7 @@ Among the obvious problems of OCaml was the question of overloaded arithmetic.  
     let x2 = 1.0 +. 2.0 (* a floating point number, note the +. instead of + *)
 \end{verbatim}
 
-This approach was practical for symbolic programming, which did not use numeric types extensively, but impractical in the context of .NET, which had its own standards in this area. For example, a type supporting overloaded arithmetic would indicate this by supporting a static member call \texttt{op\_Addition}. The F\# approach to solving this problem was inspired by work on HM(X) and G'Caml, a proposal for treating these issues in OCaml (Furuse, 2002).  Specifically, “method constraints” were added, introduced by a deliberately baroque syntax:
+This approach was practical for symbolic programming, which did not use numeric types extensively, but impractical in the context of .NET, which had its own standards in this area. For example, a type supporting overloaded arithmetic would indicate this by supporting a static member call \texttt{op\_Addition}. The F\# approach to solving this problem was inspired by work on HM(X) and G'Caml, a proposal for treating these issues in OCaml \citep{Furuse2002}.  Specifically, “method constraints” were added, introduced by a deliberately baroque syntax:
 
 \begin{verbatim}
     let inline (+) (x: ^T) (y: ^U) : ^V = 
@@ -1365,9 +1365,9 @@ Likewise, when F\# CEs are configured for monadic syntax, they are also more exp
 
 \item custom operators can be added, for example the \texttt{condition} operator can be added for the probability distribution monad (REF Expert F\# Chapter 14)
 \end{itemize}
-F\# CEs can also be configured in other ways and this is done in practice, e.g. for web programming DSLs or asynchronous sequences (REF TBD).
+F\# CEs can also be configured in other ways and this is done in practice, e.g. for web programming DSLs or asynchronous sequences.
 The various families of control constructs that could utilize computation expressions were eventually characterized by Petricek
-and Syme \citep{Petricek2014} and in 2010 they developed an experimental monadic generalization of pattern matching called Joinads (Petricek \& Syme, 2011).
+and Syme \citep{Petricek2014} and in 2010 they developed an experimental monadic generalization of pattern matching called Joinads (REF Petricek \& Syme, 2011).
 Extending the notation for applicatives (REF: applicatives) was scheduled for addition to F\# in 2020. The introduction of computation expressions to F\# greatly increased the notation expressivity of the language
 and the mechanism is widely used in F\# today.
 
@@ -1415,7 +1415,7 @@ over future iterations and became the default for F\# code in F\# 2.0 in 2010.
 A significant factor in F\# 1.0 was the inclusion of IDE tooling that would integrate with Visual Studio 2005 and 2008.
 The early implementation of this tooling was done by myself based on prototypes for extensible, language-neutral toolin
  by Daan Leijen, stemming from Project 7, and referencing some of the prototype implementation of Visual Studio tooling
-for SML.NET (Benton, Kennedy, \& Russo, 2004). The early versions were adequate for demonstration purposes and
+for SML.NET \citep{Benton2004}. The early versions were adequate for demonstration purposes and
 adoption by enthusiasts.  However, during the implementation of this tooling many mistakes were made, for example, 
 
 \begin{itemize}
@@ -1949,7 +1949,7 @@ a more accurate and performant Javascript transpiler.  Innovative for its time, 
 open-source full-stack programming toolkit using F\# as its primary programming language.
 
 In 2015 the F\# community also developed Fable, another JavaScript implementation of F\#, for web development
-in the JS/Node ecosystem (García-Caro, 2018). At the time of writing, Fable is seeing increasing adoption for web
+in the JS/Node ecosystem \citep{GarciaCaro2018}. At the time of writing, Fable is seeing increasing adoption for web
 programming.  Fable became a key part of SAFE-Stack, a “full stack” solution for F\# that incorporates web client, server and cloud
 computing.\footnote{\textit{SAFE Stack, An end-to-end functional-first stack for cloud-ready web development that emphasizes type-safe programming}, retrieved 31 August 2019,  \url{https://web.archive.org/web/20191207093456/https://safe-stack.github.io/}}
 
@@ -2040,7 +2040,7 @@ From the outset, F\# placed non-nullness as central to its design: the value “
 with F\#-declared types, and in practice null-reference exceptions are rare.\footnote{The F\# community joke being “Question: What can C\# do that F\# can’t?” “Answer: NullReferenceException!”}   This affects many micro-decisions in the
 language. Coming from the OCaml perspective, this is an obvious choice, and in the cultural context of MSR
 Cambridge---including the presence of Tony Hoare at the lab and the memory of his “Billion Dollar Mistake---any
-other choice would have been unthinkable (Hoare, 2011).  However, languages like Scala didn’t make the same
+other choice would have been unthinkable (REF: Hoare, 2011).  However, languages like Scala didn’t make the same
 decision, and even by 2018 F\# was the only significant language running on the JVM or .NET that placed non-nullness
 as central to its design. At the time of writing, in February 2020, C\# 9.0 is planning to make non-nullness the
 default, a dramatic shift that I hope will herald a shift to eliminate this endemic problem from the programming industry. F\# has been central to this process.
