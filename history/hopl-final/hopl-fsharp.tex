@@ -1129,7 +1129,7 @@ Ideas around async programming had also been floating around the OCaml community
 no strict functional language had a suitable extensible syntax allowing the re-interpretation of all control constructs in asynchronous form, and in
 OCaml and Standard ML libraries of functional combinators were generally used instead.  
 
-On returning from EPFL, I discussed these problems with Margetson around May 2007, who emphasized the importance of monads in implementing async programming. This led me to finally experiment with adding a monadic syntax to F\# and apply it to asynchronous programming, leading to the addition of async { ... } to F\# in 2007 \citep{Syme2011}.  On October 10, 2007 we announced these features in the blog post \textit{Introducing F\# Asynchronous Workflows}.\footnote{\textit{Introducing Asynchronous Workflows}, Don Syme, October 2007, \url{https://web.archive.org/web/20191221153257/https://blogs.msdn.microsoft.com/dsyme/2007/10/10/introducing-f-asynchronous-workflows/}}  Representative async code samples used in the blog posts at the time were as follows:
+On returning from EPFL, I discussed these problems with Margetson around May 2007, who emphasized the importance of monads in implementing async programming. This led me to finally experiment with adding a monadic syntax to F\# and apply it to asynchronous programming, leading to the addition of \texttt{async \{ ... \}} to F\# in 2007 \citep{Syme2011}.  On October 10, 2007 we announced these features in the blog post \textit{Introducing F\# Asynchronous Workflows}.\footnote{\textit{Introducing Asynchronous Workflows}, Don Syme, October 2007, \url{https://web.archive.org/web/20191221153257/https://blogs.msdn.microsoft.com/dsyme/2007/10/10/introducing-f-asynchronous-workflows/}}  Representative async code samples used in the blog posts at the time were as follows:
 
 \begin{verbatim}
     let task1 = async { return 10+10 }
@@ -1140,8 +1140,8 @@ On returning from EPFL, I discussed these problems with Margetson around May 200
 Here:
 \begin{itemize}
 \item \texttt{async \{ return 10+10 \}} generates an object of type \texttt{Async<int>}.  
-\item \texttt{Async.Parallel \[ task1; task2 \]} composes two task specifications generating a new value of type \texttt{Async<int\[\]>}
-\item \texttt{Async.Run} takes this and runs it, returning the array \texttt{\[20; 40\]}. 
+\item \texttt{Async.Parallel [ task1; task2 ]} composes two task specifications generating a new value of type \texttt{Async<int[]>}
+\item \texttt{Async.Run} takes this and runs it, returning the array \texttt{[20; 40]}. 
 \end{itemize}
 
 The notation \texttt{async \{ ... \}} refers to an async expression. Within such an expression a syntax \texttt{let!} can be used, so the interpretation of code such as:
@@ -1155,12 +1155,12 @@ The notation \texttt{async \{ ... \}} refers to an async expression. Within such
 \end{verbatim}
 is
 \begin{verbatim}
-    async.Bind(p1, (fun x1 -> 
+    async.Bind(p1, (fun x -> 
         async.Bind(p2, (fun y -> 
             let z = x + y in
             async.Return(z + y))))
 \end{verbatim}
-This raised the question of generalizing the syntatic notational mechanism to be suitable for more than just ``async'' programming, and in F\# the 
+This raised the question of generalizing the notational mechanism to be suitable for more than just ``async'' programming, and in F\# the 
 generalization is called \emph{computation expressions}.
 
 \subsection*{F\# 1.0---Improving the Functional Core: Computation Expressions}
@@ -1184,16 +1184,16 @@ An important exception to this way of working was Wadler and Peyton Jones' paper
 ``adds expressive power to comprehensions'', i.e. adds power to the notation, not to the semantics of lists, thus emphasizing in my mind that
 notation itself could be the subject of genuine improvement.
 This paper (and my own 1:1 discussions with Peyton Jones at Microsoft Research during 2004-2010) had a significant influence on the
-development of F\# CEs and the range of expression they needed to cover.\footnote{Whether notational expressivity is regarded as
+development of F\# CEs and the range of expression they needed to cover. Whether notational expressivity is regarded as
 a significant subject of discussion in programming language design is largely a matter of emphasis and taste, and the academic
 tradition from which F\# stems largely shies away from the topic apart from examples like the ones quoted here.
 My own personal experience as a programmer was that it mattered greatly from a human usability perspective, especially
 when aligned with other ergonomic issues such as the ease with which code can be converted from ``non-monadic'' to ``monadic''
 form (e.g. from synchronous to asynchronous). The ``ease of transition'' of code formed a key part
 of the design ethos and training material for both F\# async programming and F\#  CEs---see for example Luca Bolognese's
-well-received 2008 presentation on F\# \url{https://web.archive.org/web/20190827210341/https://channel9.msdn.com/blogs/pdc2008/tl11}.  In contrast, both C\# LINQ notation
+well-received 2008 presentation on F\#\footnote{\url{https://web.archive.org/web/20190827210341/https://channel9.msdn.com/blogs/pdc2008/tl11}}.  In contrast, both C\# LINQ notation
 and Haskell list comprehensions had been explicitly designed to be a very different notation to the rest of C\# and Haskell respectively.
-This emphasis on ``notational similarity'' rather than ``notational difference'' is a theme underlying the F\# language design.}
+This emphasis on ``notational similarity'' rather than ``notational difference'' is a theme underlying the F\# language design.
 
 
 From a technical point-of-view, F\# computation expressions (CEs) are a syntactic de-sugaring of language elements
@@ -1229,8 +1229,8 @@ F\# CEs are not just ``monad syntax'' (i.e. do-notation), and are more notationa
 either traditional ``do'' notation or list comprehensions.
 When F\# computation expressions are configured to monadic syntax you minimally need the following members on the builder:
 \begin{verbatim}
-        member Bind:  M<'T> * ('T -> M<'U>) -> M<'U>
-        member Return: 'T -> M<'T>
+    member Bind:  M<'T> * ('T -> M<'U>) -> M<'U>
+    member Return: 'T -> M<'T>
 \end{verbatim}
 The presence of the ``Bind'' method means \texttt{let! x = xs in  ...} is allowed in the syntax, and so your CE uses \texttt{let! x = xs in  ... } for monadic binding. 
 
@@ -1258,7 +1258,7 @@ F\# CEs can also be configured for comprehension (or ``monoidal'') syntax. In th
     member Yield: 'T -> M<'T>
     member Zero: M<'T>
 \end{verbatim}
-The minimum needed to warrant the name ``comprehension'' is \texttt{For} and \texttt{Yield}.  A ``monoidal'' comprehension minimally
+The minimum needed to warrant the name ``comprehension'' is \texttt{For} and \texttt{Yield}.  A ``monoidal comprehension'' minimally
 needs \texttt{For}, \texttt{Yield}, \texttt{Combine} and \texttt{Zero}. 
 Note these have a \texttt{For} method, which means \texttt{for x in xs  ... } is allowed in the syntax, so the CE uses \texttt{for x in xs ... } for binding.
 It does \emph{not} use \texttt{let!} for binding: the computational structure is not being treated as a monad (\texttt{let!}), but a comprehension (\texttt{for}).
@@ -1273,7 +1273,7 @@ correspond to \texttt{MonadPlus}\footnote{\url{https://web.archive.org/web/20200
 
 \item The Haskell MonadPlus \texttt{return} method corresponds to \texttt{yield} syntax and is de-sugared to the \texttt{Yield} method
 
-\item The MonadPlus \texttt{mzero} method is implicit (eg. on the empty else branch of an if/then) and is de-sugared to the \texttt{Zero} method
+\item The Haskell MonadPlus \texttt{mzero} method is implicit (eg. on the empty else branch of an if/then) and is de-sugared to the \texttt{Zero} method
 \end{itemize}
 As an example, consider the use of the mechanism for the “seq” computation expression, for (on-demand) sequence comprehensions. 
 \begin{verbatim}
@@ -1477,9 +1477,7 @@ a technical assistant of Bill Gates told the author and Ralf Herbrich firmly “
 2007 the head of the Microsoft Developer Division (“DevDiv”, the makers of Visual Studio), S. Somasegar replied:
 
 \begin{verbquote}
-It is exciting to see F# continue to gain excitement, buzz and real adoption in the world. There is also a growing
-excitement for functional languages in general. What do you think we should do if anything on functional languages
-and specifically with F#?  Have you thought about whether we need to do some level of deeper VS integration for F#.  I would love to hear your thoughts on this.
+It is exciting to see F# continue to gain excitement, buzz and real adoption in the world. There is also a growing excitement for functional languages in general. What do you think we should do if anything on functional languages and specifically with F#?  Have you thought about whether we need to do some level of deeper VS integration for F#.  I would love to hear your thoughts on this.
 \end{verbquote}
 Some influential enterprise customers began to look at the language.  Notably:
 
@@ -1866,14 +1864,6 @@ similarly across different editors and on all platforms and also acts as a basis
 
 \label{page:community}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-  \begin{center}
-  \includegraphics[width=0.9\linewidth]{fsharp-logo.png}
-  \end{center}
-  \caption{The F\# Logo of the F\# Software Foundation}
-  \label{fig:fsharp-logo}
-\end{wrapfigure}
-
 The F\# community was initially sustained through hubFS.net forums (2005), created by Chris Barwick under the
 pseudonym “optionsScalper”. The online Community for F\# (2007) was created by Ryan Riley which runs the
 an F\# Heroes program.\footnote{\textit{Community for F\# Heroes} \url{https://web.archive.org/web/20191225110926/https://c4fsharp.net/\#heroes}}
@@ -1900,6 +1890,14 @@ the use of F\# and help guide community engineering efforts. As a result, F\# ev
 the community’s more active role in evangelizing F\# was the creation of “F\# for Fun and Profit” by Scott Wlaschin, an impressive
 collection of didactic material about functional programming concepts and practical F\# topics that has been very influential
 in the F\# community\footnote{\textit{F\# for Fun and Profit} \url{https://web.archive.org/web/20191221145120/https://fsharpforfunandprofit.com/}}.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+  \includegraphics[width=0.8\linewidth]{fsharp-logo.png}
+  \end{center}
+  \caption{The F\# Logo of the F\# Software Foundation}
+  \label{fig:fsharp-logo}
+\end{wrapfigure}
 
 
 The FSSF now has over 2000 members and owns fsharp.org and github.com/fsharp. The FSSF is now at the heart of the F\# community
@@ -2163,7 +2161,7 @@ evolution path and is usable as a practical and enjoyable functional-first progr
 \begin{acks}                            %% acks environment is optional
                                         %% contents suppressed with 'anonymous'
 
-Many thanks to Andrea Magnorsky, Phillip Carter, Phillip Haller, Darren Platt, Natallie Baikevich, Richard Campbell, Adam Granicz, Tomas Petricek, Mark Laws, Miguel de Icaza, Phillip Wadler, Mark Staples, Robert Pickering, Simon Peyton Jones, Krzysztof Cieślak, Stafford Williams, Dov Murik, Ryan Riley   and many others for feedback on early drafts of this paper.  Any mistakes that remain are my responsibility. Please contact me with extra information or corrections.
+Many thanks to Andrea Magnorsky, Phillip Carter, Phillip Haller, Darren Platt, Natallie Baikevich, Richard Campbell, Adam Granicz, Tomas Petricek, Miguel de Icaza, Phillip Wadler, Mark Staples, Robert Pickering, Simon Peyton Jones, Krzysztof Cieślak, Stafford Williams, Dov Murik, Ryan Riley   and many others for feedback on early drafts of this paper.  Mark Laws helped prepare the camera-ready copy, for which I am very grateful. Any mistakes that remain are my responsibility. Please contact me with extra information or corrections.
 
   %% Commands \grantsponsor{<sponsorID>}{<name>}{<url>} and
   %% \grantnum[<url>]{<sponsorID>}{<number>} should be used to
