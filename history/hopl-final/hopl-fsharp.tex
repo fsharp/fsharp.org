@@ -1345,22 +1345,22 @@ An important exception to this way of working was Wadler and Peyton Jones' paper
 notation itself could be the subject of genuine improvement.
 This paper (and my own 1:1 discussions with Peyton Jones at Microsoft Research during 2004-2010) had a significant influence on the
 development of F\# CEs and the range of expression they needed to cover. Whether notational expressivity is regarded as
-a significant subject of discussion in programming language design is largely a matter of emphasis and taste, and the academic
-tradition from which F\# stems largely shies away from the topic apart from examples like the ones quoted here.
+a significant subject of discussion in programming language design is a matter of emphasis, and the academic
+tradition from which F\# stems largely shies away from the topic.
 My own personal experience as a programmer was that it mattered greatly from a human usability perspective, especially
 when aligned with other ergonomic issues such as the ease with which code can be converted from ``non-monadic'' to ``monadic''
-form (e.g. from synchronous to asynchronous). The ``ease of transition'' of code formed a key part
-of the design ethos and training material for both F\# async programming and F\#  CEs---see for example Luca Bolognese's
-well-received 2008 presentation on F\# \citep{RefMSDNLuca} and to achieve this goal F\# naturally emphasises
-``notational similarity'' between regular code, list comprehensions and asynchronous code.
-In contrast, the design of C\# LINQ notation, Haskell list comprehensions and Haskell do-notation all emphasis ``notational difference'':
-they are designed to be visibly different notational forms, compared to their respective host languages. 
+form (e.g. from synchronous to asynchronous). This ease-of-transition of code formed a key part
+of the design ethos and training material for F\# async programming---see for example Luca Bolognese's
+well-received 2008 presentation on F\# \citep{RefMSDNLuca}.  To achieve ease-of-transition, F\# emphasises
+notational similarity between regular code, list comprehensions and asynchronous code.
+In contrast, the design of C\# LINQ notation, Haskell list comprehensions and Haskell do-notation all emphasise notational difference:
+they are designed to be visibly different notational forms compared to their respective host languages. 
 
 
 
 From a technical point-of-view, F\# computation expressions (CEs) are specified as a syntactic de-sugaring of language elements \citep{RefLangSpec}.
 The de-sugaring is done for an overall expression \texttt{\textit{builder} \{ ... \}} where the builder is, for example, \texttt{seq} or \texttt{async}.
-The following F\#/OCaml control syntax elements can be used in the body of the expression.
+The following F\#/OCaml control syntax elements can be used in the body of the expression:
 
 \begin{center}
 \begin{tabular}{lll}
@@ -1382,7 +1382,7 @@ The following F\#/OCaml control syntax elements can be used in the body of the e
 \end{center}
 
 \noindent The different syntax elements are enabled by having the builder support different
-object methods as indicated (\texttt{let} and \texttt{match} are always enabled). 
+object methods as indicated (\texttt{let}, \texttt{match} and \texttt{if .. then .. else} are always enabled). 
 A particular builder can support any or all of
 them. The names of the methods matter, because different method names light up different source syntax. 
 The full de-sugaring of these constructs is in \citet{RefLangSpec}.  As examples,
@@ -1421,31 +1421,42 @@ F\# CEs can also be configured for comprehension (or ``monoidal'') syntax. In th
 The minimum needed to warrant the name ``comprehension'' is \texttt{For} and \texttt{Yield}.
 Note these have a \texttt{For} method, which means \texttt{for x in xs  ...} is allowed in the syntax, so the CE uses \texttt{for x in xs ...} for binding.
 It does \emph{not} use \texttt{let!} for binding: the computational structure is not being treated as a monad (\texttt{let!}), but a comprehension (\texttt{for}).
-Why do this? because it allows F\# to achieve notational
-similarity  (see above) and thus cognitive reuse between the process of iterating a list and generating results (imperatively), and
+This allows F\# to achieve notational
+similarity between the process of iterating a list and generating results (imperatively), and
 a list comprehension that iterates a list and combines results (functionally).
 
 For those familiar with Haskell, it is natural to think of this as offering a notation for things that in Haskell logically
 correspond to \texttt{MonadPlus} \citep{RefMonadPlus} instances.  Here’s how the Haskell terminology maps across:
 \begin{itemize}
-\item The MonadPlus \texttt{>>=} (bind) corresponds to the \texttt{for} syntax and de-sugars to the \texttt{For} method
-\item The MonadPlus \texttt{mplus} corresponds to sequential composition \texttt{$e_1$; $e_2$} syntax (perhaps on two aligned lines with no semicolon), and de-sugars to the \texttt{Combine} method
-\item The MonadPlus \texttt{return} corresponds to \texttt{yield} syntax and de-sugars to the \texttt{Yield} method
-\item The Haskell \texttt{mzero} is implicit (eg. on the empty else branch of an if/then) and de-sugars to the \texttt{Zero} method
+\item The MonadPlus \verb!>>=! (bind) corresponds to the \texttt{for} syntax and de-sugars to the \texttt{For} method;
+\item The MonadPlus \texttt{mplus} corresponds to sequential composition \texttt{$e_1$; $e_2$} syntax (perhaps on two aligned lines with no semicolon), and de-sugars to the \texttt{Combine} method;
+\item The MonadPlus \texttt{return} corresponds to \texttt{yield} syntax and de-sugars to the \texttt{Yield} method;
+\item The MonadPlus \texttt{mzero} is implicit (eg. on the empty else branch of an if/then) and de-sugars to the \texttt{Zero} method.
 \end{itemize}
 As an example, consider the use of the mechanism for the “seq” computation expression, for (on-demand) sequence comprehensions. 
 \begin{verbatim}
-    let data = [ 1 .. 5 ]
     seq {
+      let data = [ 1 .. 5 ]
       yield "zero"
       for a in data do
          match a with
-         | 3 -> yield "hello"; yield "world"
          | 2 -> yield a.ToString() 
+         | 3 -> yield "hello"; yield "world"
          | _ -> () 
     }
 \end{verbatim}
-is interpreted as:
+Note the notational similarity to the imperative code:
+\begin{verbatim}
+      let data = [ 1 .. 5 ]
+      printfn "zero"
+      for a in data do
+         match a with
+         | 2 -> printfn "%s" a.ToString() 
+         | 3 -> printfn "hello"; printfn "world"
+         | _ -> () 
+\end{verbatim}
+To change from imperative side-effects to functional data generation has required just the addition of \texttt{seq \{ .. \}} and replacing \texttt{yield} by the I/O operation \texttt{printfn}.
+The data-generating code is de-sugared to:
 \begin{verbatim}
     let data = [ 1 .. 5 ]
     seq.Combine(
@@ -1465,7 +1476,7 @@ which evaluates to an overall sequence:
 \begin{verbatim}
     [ "zero"; "1"; "2"; "hello"; "world"; "4"; "5"] 
 \end{verbatim}
-To compare, the F\# equivalent of the Haskell list comprehension
+As a second example, the F\# equivalent of the Haskell list comprehension
 \begin{verbatim}
     [ N | x <- L; y <- M ]  
 \end{verbatim}
@@ -1599,9 +1610,9 @@ There was a lack of practical alternatives for functional programming on Windows
 far from mainstream, but relatively substantial for an MSR project, and F\# was the most visited site on research.microsoft.com, somewhat
 unexpectedly. The language developed a strong community feel and some related technologies began to emerge: in 2006 Jon Harrop started
 his F\# Journal followed by F\# for Visualization and F\# for Numerics, and later made his influential OCaml for Scientists book available
-as F\# for Scientists \citep{RefHarropScientists}; in 2007 WebSharper was initiated by Adam Granicz, including a
+as F\# for Scientists \citep{RefHarropScientists, HarrpBook}; in 2007 WebSharper was initiated by Adam Granicz, including a
 transpiler from F\# to JavaScript and the ability to use F\# for both client and server
-components \citep{Bjornson2010}; in 2007 IntelliFactory began offering consulting services
+components \citep{Bjornson2010, Granicz2011, Granicz2015}; in 2007 IntelliFactory began offering consulting services
 in F\# \citep{PeakGranicz2009, RefIntelliFactory}.
 In 2006, James Huddlestone, an editor at Apress, approached myself and Robert Pickering to author the first two
 books on F\#: Beginning F\# and Expert F\#, the latter joint-authored with Adam Granicz and Antonio Cisternino \citep{RefExpertFSharpDraft}.
@@ -2151,8 +2162,8 @@ Since around 2007 strongly-typed functional programming has shifted from relativ
 in programming. C\#, Java, C++, Scala, Kotlin, Swift, Rust and TypeScript now all include elements of
 strongly-typed FP, and Apple executives extolled functional features at the launch of Swift in 2014, including
 pattern matching, generics, option types, type inference, tuples and closures,
-something unthinkable in 2005 \citep{RefSwift}. Haskell,
-F\# and OCaml have all grown in use, and newcomers such as Elm and ReasonML are also finding good adoption.
+something unthinkable in 2005 \citep{RefSwift}. 
+Haskell, F\# and OCaml have all grown in use, and newcomers such as Elm and ReasonML are also finding good adoption.
 
 What caused this shift? Some factors have been touched on in this paper---for example, the relative decline of
 widget-based GUI programming, and the corresponding rise of web programming, cloud computing, multi-core
@@ -2188,7 +2199,8 @@ its history in his role on the MSR Cambridge Technical Advisory Board and EPFL r
 bring F\# type providers to Scala \citep{Burmako2013}.  The apparent influence of F\# on the
 creation of Scala extractors was mentioned earlier in this article and Scala 3.0 later adopted indentation-aware 
 syntax. Swift seems to have been influenced
-by F\#, and Kotlin seems to use C\#, F\# and other languages as reference points.  Rust seems to have been
+by F\#, and Joe Pamer managed the team at Apple responsible for developing the Swift compiler from 2014-16.
+Kotlin seems to use C\#, F\# and other languages as reference points.  Rust seems to have been
 influenced by OCaml, and the author Graydon Hoare refers to F\# extensively when discussing “What’s Next” after
 Rust \citep{RefGraydon}.
 TypeScript was directly influenced by F\#: one of the originators of TypeScript was
@@ -2209,7 +2221,7 @@ default, a dramatic shift that I hope will herald a shift to eliminate this ende
 
 F\# was the first language to introduce an “async” modality to allow the localized reinterpretation of the existing
 control constructs of the language. This meant that converting a piece of code from “synchronous” to
-“asynchronous” involved nothing more than wrapping \texttt{async \{ ... \}}” around the code and marking up
+“asynchronous” involved nothing more than wrapping \texttt{async \{ ... \}} around the code and marking up
 the “await” points (\texttt{let!} in F\#).   This directly influenced the async/await mechanism added to C\# 5.0 in 2012---the
 F\# version was first presented to the C\# designers in 2007 and many discussions were held in
 between.  The C\# async/await feature has been influential on TypeScript, Kotlin, Python 3.5, Java, JavaScript and other
@@ -2222,8 +2234,8 @@ precursor to C\# async/await, and the latter was not a simple copy of the former
 Having an async modality in a language is now effectively an industry standard, and in each case the lineage of this
 feature traces back partly through F\#.
 
-In short almost every major language in use as of 2020 has been influenced by F\# either directly (C\#, TypeScript, Scala, Kotlin) or
-indirectly (Swift, Rust, Python, Java, JavaScript), with the possible exception of C++.
+In short F\# has influenced many of the major languages in use as of 2020, either directly (C\#, TypeScript, Scala, Kotlin, possibly Swift) or
+indirectly (Rust, Python, Java, JavaScript), with the possible exception of C++.
 
 \subsection*{Mistakes and Questions}
 
