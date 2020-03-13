@@ -245,7 +245,7 @@ open source software, and emphasis is placed on the genesis of F\# as one of sev
 tidal wave'' of the early 1990s.  The story is necessarily incomplete and told largely from the personal perspective of the
 author, the designer of the language, and I apologize for that. Where references are not provided the text is offered
 as source material based on the recollection of the author.\footnote{Additional historical material on F\# and the ML family of languages
-has been collected and presented by Rachel Reese, see \citep{ReeseFSharpHistory}.}
+has been collected and presented by Rachel Blasucci, see \citep{BlasucciFSharpHistory}.}
 
 I have started with the core idea of the ML-family of programming languages: type-safe, succinct, accurate,
 domain-oriented functional programming. From my perspective, this idea has “held strong, held true” throughout this
@@ -309,14 +309,13 @@ to support the creation of applications and a commercial ecosystem of independen
 Windows ecosystems.  What mattered most was the sheer number of developers using these platforms, for developers would
 feed the growth of these ecosystems.  The company created tools such as Visual Basic to satisfy the mass-developer
 market, and versions of C for more hard-core developers, a distinction that later got characterized as
-tools for “Mort” (Visual Basic) and “Einstein” (C++).\footnote{\textit{Mort, Elvis and Einstein}, Wikipedia, August 2019, \url{https://web.archive.org/web/20170818013024/https://de.wikipedia.org/wiki/Mort,_Elvis,_Einstein}.
-The term “Elvis” was used later for C\# programmers.}  Such tooling was pitted against a myriad of rapid development
-environments such as HyperCard\footnote{\textit{HyperCard}, Wikipedia, \url{https://web.archive.org/web/20200227223619/https://en.wikipedia.org/wiki/HyperCard}}  and
-ToolBook\footnote{\textit{ToolBook}, Wikipedia, \url{https://web.archive.org/web/20190327020717/https://en.wikipedia.org/wiki/ToolBook}} and Microsoft succeeded
+tools for “Mort” (Visual Basic) and “Einstein” (C++) \citep{RefMort}.\footnote{The term “Elvis” was used later for C\# programmers.}
+Such tooling was pitted against a myriad of rapid development
+environments such as HyperCard \citep{RefHyperCard} and
+\citep{RefToolBook}, and Microsoft succeeded
 hands-down, becoming dominant in application development worldwide and achieving a monopoly position in operating
-systems.  Microsoft also made numerous other programming tools including FoxPro\footnote{\textit{Visual FoxPro},
-Wikipedia, August 2019, \url{https://web.archive.org/web/20191019042904/https://en.wikipedia.org/wiki/Visual_FoxPro}} and a FORTRAN compiler, later
-discontinued.\footnote{\textit{Microsoft FORTRAN 5.1}, WinWorld, August 2019, \url{https://web.archive.org/web/20161007072505/https://winworldpc.com/product/microsoft-fortran/5x}}
+systems.  Microsoft also made numerous other programming tools including FoxPro \citep{RefFoxPro} and a FORTRAN compiler, later
+discontinued \citep{RefFortran}.
 
 The late 1980s saw a new wave of thinking coalesce around “object-oriented” programming, and this became increasingly
 influential in applied software development and academia.  Indeed, object-orientation moved from the margins to be central
@@ -435,8 +434,7 @@ ML of New Jersey and MLton.
 
 Strongly-typed FP languages and compilers saw an ongoing trickle of interest, adoption and use. While not enough to challenge the massive adoption of C, C++ and Java,
 and largely unnoticed by industry, they were enough to sustain the languages, promote research and create small cohorts of dedicated advocates of OCaml, Standard ML
-and Haskell.\footnote{As a curious side note, one of those dedicated to OCaml was Julian Assange, later famous for WikiLeaks, see archive messages
-at \url{https://web.archive.org/web/20200122221804/http://caml.inria.fr/pub/ml-archives/caml-list/2000/08/6b8b195b3a25876e0789fe3db770db9f.en.html}}.   People who had the good fortune to use these languages
+and Haskell.\footnote{As a curious side note, one of those dedicated to OCaml was Julian Assange, later famous for WikiLeaks, see \citep{RefAssange}.}   People who had the good fortune to use these languages
 in practice (including myself) experienced dramatic increases in productivity as well as some frustrations. As with the original ML implementation, the domain of use was
 typically symbolic programming of some kind. The experience of productivity was due to the peculiar effectiveness of the combination of features on offer: the “magic”
 of Hindley-Milner type inference (Figure~\ref{fig:hm}) to support safe, compositional programming; the effectiveness of parametric polymorphism (generics) and discriminated unions to describe
@@ -449,7 +447,7 @@ the widespread embrace of Java.
   \begin{center}
   \includegraphics[width=0.9\linewidth]{hindley-milner.PNG}
   \end{center}
-  \caption{A formal description of Hindley-Milner type inference, a core idea in ML family languages, from \citep{ReeseFSharpHistory}}
+  \caption{A formal description of Hindley-Milner type inference, a core idea in ML family languages, from \citep{BlasucciFSharpHistory}}
   \label{fig:hm}
 \end{wrapfigure}
 
@@ -541,11 +539,10 @@ might be adopted by other Project 7 languages. ILX was implemented on .NET by er
 
 
 This whitepaper served as the start of the “.NET Generics” project, specifically designed to bring a form of generics to .NET that could work for both C\# and other
-Project 7 languages such as Eiffel, OCaml and Haskell. .NET Generics and its history is covered elsewhere\footnote{\textit{How generics were added to .NET}, Matt
-Warren, March 2018, \url{https://web.archive.org/web/20190624152357/https://mattwarren.org/2018/03/02/How-generics-were-added-to-.NET/}.} and over the next 4 years, Syme, Kennedy and Russo worked with
+Project 7 languages such as Eiffel, OCaml and Haskell. .NET Generics and its history is covered elsewhere \citep{RefWarren} and over the next 4 years, Syme, Kennedy and Russo worked with
 enormous dedication to deliver .NET Generics in C\# and .NET \citep{Kennedy2001}. The feature encountered enthusiasm, reluctance and indifference from
-various parts of Microsoft, though a review to Gates in 2001 was well received and started to turn things around.\footnote{Programming Languages and  .NET, Bill Gates
-project review, Don Syme \url{https://web.archive.org/web/20200309163401/https://raw.githubusercontent.com/dsyme/fsharp-presentations/master/generics/BillG\%20Review\%202001.ppt}}   Ultimately the feature was
+various parts of Microsoft, though a review to Gates in 2001 was well received and started to turn things around \citep{RefGatesReview}.   Anders Hejlsberg
+was a key decision maker and my recollection is that much of the C\# language design work involved second-guessing how to shape the feature so it would meet approval. Ultimately the feature was
 delivered as part of the 2005 .NET 2.0 “Whidbey” release.  At the same time, Microsoft began to make its first very tentative steps towards embracing open
 source, and a “shared source” release of the .NET codebase was made called Rotor along with a corresponding extension containing the .NET Generics implementation
 called Gyro.  A poster from MSR’s internal tradeshow “Tech Fest” is shown in Figure~\ref{fig:fig1}. 
@@ -567,8 +564,11 @@ runtime type information is accurate, the process of making and managing instant
 policy. .NET Generics has been successful: it is widely adopted by millions of C\# and F\# programmers; it is seen as a key differentiating factor of C\# over Java; and
 has been the basis for many later innovations delivered in F\#, C\# and .NET. For example, generic collections (C\# 2.0), LINQ (C\# 3.0), tasks (C\# 4.0),
 async/await (C\# 5.0) and Span (C\# 7.2) all use .NET Generics heavily, as do all F\# features. .NET Generics put .NET years ahead and even today systems such as
-Java and Go struggle with the implementation of aspects of genericity such as supporting instantiation at both reference and value types.\footnote{\textit{Project Valhalla enters new phase}, Gabriela Motroc \url{https://web.archive.org/web/20200309164943/https://jaxenter.com/project-valhalla-enters-new-phase-150570.html}; \textit{The Generic Dilemma}, Russ Cox \url{https://web.archive.org/web/20190920172300/https://research.swtch.com/generic}; \textit{An Update on Go and Generics in 2019} David Alsh \url{https://web.archive.org/web/20190312110158/https://medium.com/@alshdavid/an-update-on-go-and-generics-in-2019-59efdcc97a42}, where the designer of Go, Rob Pike, is quoted as saying \textit{The time has come to change Go, given what we have learned over the past decade of using it in production. It’s going to take a long time to sort this out. It’s could be years before anything is really resolved so…Please be patient.}}  Equally, generics is
-a technical feature that imposed significant costs on Microsoft’s .NET implementation going forward. Generics is most easily implemented via a JIT and attempts to do fully
+Java and Go struggle with the implementation of aspects of genericity such as supporting instantiation at both reference and value
+types \citep{RefValhalla, RefGoGenerics}.\footnote{In \citet{RefGoGenerics2} the designer of Go, Rob Pike, is quoted \textit{The time has come to change Go, given what we have learned
+over the past decade of using it in production. It’s going to take a long time to sort this out. It could be
+years before anything is really resolved so...Please be patient.}}
+Equally, generics is a technical feature that imposed significant costs on Microsoft’s .NET implementation going forward. Generics is most easily implemented via a JIT and attempts to do fully
 static compilation of .NET code have struggled with the feature.
 
 
@@ -605,7 +605,7 @@ and compact code.  As commonly happens in research labs, a divergence of opinion
 Initially, in late 2000, in conjunction with Reuben Thomas, I attempted an implementation of Haskell for .NET, using a direct translation from the “Core” intermediate
 representation of the Glasgow Haskell Compiler (GHC) to the .NET bytecode. This experience was partly successful: small programs ran. However, the advice of Simon
 Peyton Jones led me to believe that Haskell.NET couldn’t be successful for several technical and cultural reasons:\footnote{See also the later
-summary \textit{Why isn't GHC available for .NET or on the JVM?}, \url{https://web.archive.org/web/20171003001945/https://wiki.haskell.org/GHC/FAQ\#Why_isn.27t_GHC_available_for_.NET_or_on_the_JVM.3F}} 
+summary \textit{Why isn't GHC available for .NET or on the JVM?} \citep{RefGHCDotNet}.}
 
 \begin{itemize}
 \item As with other Project 7 languages, running Haskell on .NET “in isolation” was not enough in itself: a primary goal was to make a functional language that
@@ -622,7 +622,7 @@ aside, it would be hard to claim that any Haskell program would run well on .NET
 So, work on Haskell.NET stopped in late 2000.
 
 The question of OCaml and JVM/.NET was also being discussed on the Caml mailing list around this time.  An example is the following message from
-myself, on February 6, 2001:\footnote{Archive message at \url{https://web.archive.org/web/20200309165425/https://caml.inria.fr/pub/ml-archives/caml-list/2001/02/5770514eec29b794c2d560fc3282bc14.en.html}}
+myself, on February 6, 2001 \citep{RefCamlArchive1}:
 \begin{verbquote}
 Subject: OCaml on CLR/JVM? (Was RE: OCaml <--> ODBC/SQL Server)
 
@@ -633,7 +633,7 @@ Now I have to say the obvious: wouldn't it be wonderful if Caml interfaced with 
 
 I'm very interested to know if there are people with some time to spare who would be keen to work with me toward a .NET version of OCaml.  I've talked this over from time to time with Xavier, and have done a lot of foundational work for the core language when building a .NET compiler for Haskell.  If you think would be interested, or would simply like to join a mailing list devoted to talking about getting Caml running and interoperating on .NET, then please let me know!
 \end{verbquote}
-This was the first explicit public indication of my desire to create a version of OCaml targeting .NET. Leroy replied on February 8, 2001:\footnote{Archive message at \url{https://web.archive.org/web/20150102181325/http://caml.inria.fr/pub/ml-archives/caml-list/2001/02/229eebd5314fd127dadb27872f9e4c6f.en.html}}
+This was the first explicit public indication of my desire to create a version of OCaml targeting .NET. Leroy replied on February 8, 2001 \citep{RefCamlArchive2}:
 \begin{verbquote}
 I've been working on and off (mostly off, lately) on an OCaml/Java interface that works by coupling the two systems at the C level via their foreign-function interfaces (Java's JNI and OCaml's C interface).  This was strongly inspired by the work of Erik Meijer et al. on a similar Haskell/Java interface.  (These Haskell guys sure are at the bleeding edge of language interoperability.  This is the second interop idea I steal from them, after the IDL/COM binding.)
 
@@ -657,9 +657,9 @@ assumed. To me, it would intrinsically run into performance, interoperability, t
 limited to the intersection of those willing to rely on both the .NET and OCaml implementations.
 
 The discussion also brought contributions from Dave Berry, based on his prior experience of implementing
-Harlequin’s MLWorks\footnote{\textit{Harlequin}, Wikipedia, 2019, \url{https://web.archive.org/web/20191014090544/https://en.wikipedia.org/wiki/Harlequin_\%28software_company\%29}}, a proprietary
+Harlequin’s MLWorks \citep{RefHarlequin}, a proprietary
 implementation of Standard ML (Dave later contracted with MSR Cambridge on an open source version of .NET Generics), on February
-9, 2001:\footnote{Archive message at \url{https://web.archive.org/web/20200309165610/https://caml.inria.fr/pub/ml-archives/caml-list/2001/02/133b91bc1099f414b036a6ded7209d4c.en.html}}
+9, 2001 \citep{RefCamlArchive3}:
 \begin{verbquote}
 > > Now I have to say the obvious: wouldn't it be wonderful if Caml interfaced with either 
 > > Java or the .NET Common Language Runtime seamlessly so we wouldn't have to 
@@ -668,7 +668,7 @@ implementation of Standard ML (Dave later contracted with MSR Cambridge on an op
 
 Although this view is understandable, I think it is rather naive. ... To look at it another way, OCaml already shares a platform with C (at least with the native-code compiler), so all the C libraries are already available... Yet it can still be a lot of effort to link with a C library.  Why should Java and .NET be any easier?  Also, look at the effort that went into making an ML/Java system with MLj... Threads are another area of potential problems.  In fact they can be a total minefield.
 \end{verbquote}
-To which I replied on February 10, 2001:\footnote{Archive message at \url{https://web.archive.org/web/20200309165725/https://caml.inria.fr/pub/ml-archives/caml-list/2001/02/5ed4e8db99c99cb983fddea7407f5d9c.en.html}}
+To which I replied on February 10, 2001 \citep{RefCamlArchive4}:
 \begin{verbquote}
 There's hard work to be done to realise this vision, but in principle a clean interop story sure beats the endless rehashing of other people's code in language X as a library in language Y.  Myself and others involved in the Project 7 are working on one approach to achieve this interop, i.e. compiling languages directly to .NET MS-IL, in the style of MLj, often adding extensions to the language in order to improve the interop.  We are also working on improving the .NET infrastructure, proposing support for features such as parametric polymorphism in MS-IL.  
 
@@ -680,13 +680,13 @@ You can also transfer objects more consistently, as the semantics of the object 
 
 While at a certain level I like Xavier's approach, i.e. maintaining two runtimes, garbage collectors etc., I have troubles seeing it scaling to the multi-language component programming envisioned as part of .NET approach (and indeed currently in practice with C\#, C++, VB.NET and other .NET languages).  Two GC's are already trouble enough (performance might suck as they will both be tuned to fill up the cache), but if you have components from 10 languages in one process?  10 GCs competing for attention?  Maybe it can be made to work, but there's a certain conceptual clarity in just accepting that a GC should form part of the computing infrastructure, and share that service.  These are the aspects of the .NET approach that I find quite compelling.
 
-As an aside, I think it would be an interesting question to say "OK, let's take it for granted that the end purpose of our language is to produce components whose interface is expressed in terms of the Java or .NET type systems, but which retains as many of the features and conceptual simplicity of OCaml and ML as possible."  I'm not sure exactly what you'd end up with, but whatever it was it could be the language to take over from C\# and/or Java (if that's what you're interested in...)  But without really taking Java/.NET component building seriously right from the start I feel you're always just going to end up with a bit of a hack - an interesting, usable hack perhaps, but not a really \emph{good} language.
+As an aside, I think it would be an interesting question to say "OK, let's take it for granted that the end purpose of our language is to produce components whose interface is expressed in terms of the Java or .NET type systems, but which retains as many of the features and conceptual simplicity of OCaml and ML as possible."  I'm not sure exactly what you'd end up with, but whatever it was it could be the language to take over from C\# and/or Java (if that's what you're interested in...)  But without really taking Java/.NET component building seriously right from the start I feel you're always just going to end up with a bit of a hack - an interesting, usable hack perhaps, but not a really good language.
 
 Probably the greatest recurring technical problem that I see in this kind of work is that of type inference, and the way both the Java and .NET models rely on both subtyping and overloading to help make APIs palatable.  Type inference just doesn't work well with either subtyping or overloading.  This is a great, great shame, as it's obviously one of the main things ML has to offer to improve productivity.  
 
 P.S. As for threads - I don't think the story is half as bad as you might think.  After all, OCaml threads map down to Windows threads at some point, and I just don't see that there are that many special logical properties of typical ML and Caml threading libraries that make it semantically ridiculous to share threads between languages (though it is true asynchronous exceptions can make things hard when compiling to a bytecode).  But I'll admit I'm not an expert on this. 
 \end{verbquote}
-Finally, there was techno-political controversy too, this time in a reply from Fabrice le Fessant on February 12, 2001:\footnote{Archive message at \url{https://web.archive.org/web/20200309170507/https://caml.inria.fr/pub/ml-archives/caml-list/2001/02/b67bc40320ae83c25dd035848a767b19.en.html}}
+Finally, there was techno-political controversy too, this time in a reply from Fabrice le Fessant on February 12, 2001 \citep{RefCamlArchive5}:
 \begin{verbquote}
 Is the .NET VM open source ? Which part is Microsoft-independent ?...
 
@@ -694,19 +694,19 @@ If Microsoft wants its new product to be used, it is Microsoft problem to port m
 
 So, why do we really need a .NET port of OCaml ? OCaml is working fine on Windows, and on many other OS ... 
 \end{verbquote}
-A discussion thread followed on the merits of open source, standards, interoperability and cross-platform execution, issues which weren’t resolved for F\# for another 13 years, when F\#, C\# and .NET Core were finally open source and cross-platform.  A contribution by Dave Berry on February 16, 2001 was more positive:\footnote{Archive message at \url{https://web.archive.org/web/20200309170553/https://caml.inria.fr/pub/ml-archives/caml-list/2001/02/394c8e018c81d45cda9c71c20d22518b.en.html}}
+A discussion thread followed on the merits of open source, standards, interoperability and cross-platform execution, issues which weren’t resolved for F\# for another 13 years, when F\#, C\# and .NET Core were finally open source and cross-platform.  A contribution by Dave Berry on February 16, 2001 was more positive \citep{RefCamlArchive6}:
 \begin{verbquote}
 I think Microsoft should be congratulated on their outreach to programming language researchers.  I for one would certainly welcome a widely distributed VM that is a good target for compiling ML.  Interoperability with other languages on the same VM would be a bonus... That said, interoperability is still hard...
 \end{verbquote}
 There were many valid arguments and sensitivities here, and I proceeded from this point determined to be highly respectful towards OCaml and its existing user base: I genuinely loved the language and the approach to programming it represented. 
 
-Predicting the future trajectory of software infrastructure like .NET and architecture was also an important factor in making decisions, e.g. in this final response by Arturo Borquez on March 3, 2001:\footnote{Archive message at \url{https://web.archive.org/web/20200309170633/https://caml.inria.fr/pub/ml-archives/caml-list/2001/03/c505a4570bf94080cb8a7f82b2f3598a.en.html}}
+Predicting the future trajectory of software infrastructure like .NET and architecture was also an important factor in making decisions, e.g. in this final response by Arturo Borquez on March 3, 2001 \citep{RefCamlArchive7}:
 \begin{verbquote}
 Perhaps I am wrong, but let me state what I believe about this stuff.... C\# is not really important as it will never reach the 'mass' of VB... The real issue is ... the Client/Server model ... In my opinion this model has no future, ...clients would become minimal.... with a diverse and broad family of client devices (terminals). My conclusion is CLR/JVM ... are not important for the future of Caml, as all will die. Caml will need only some library updates to match the communication tech upgrades.  
 \end{verbquote}
 In hindsight, predictions like these were both right and wrong: the structure of applications evolved extensively, and .NET and the JVM ultimately de-emphasized their role as “middleware”, but neither .NET nor the JVM have died.  Languages and runtimes seem to endure longer than software architectures.
 
-So, in mid-2001 the itch remained: how was MSR going to bring strongly typed functional programming to .NET in a way that could be readily adopted by large numbers of programmers?  By October 10, 2001 I felt firm enough in this conviction to reply as follows:
+In mid-2001 the itch remained: how was MSR going to bring strongly typed functional programming to .NET in a way that could be readily adopted by large numbers of programmers?  By October 10, 2001 I felt firm enough in this conviction to reply as follows:
 
 \begin{verbquote}
 When time permits I plan to implement a .NET CLR compiler for Caml. Initially I will implement only the core language, and perhaps first-order modules, and then to assess things after that.  I will be coding the implementation up from scratch rather than using the sources for the existing OCaml compiler...
@@ -715,10 +715,9 @@ My first reason for doing this is because I have an existing OCaml code base tha
 
 This implementation path would give object introspection capabilities for free.  However it would no doubt be slower than the existing native code Caml implementation: you don't get something for nothing.
 
-I don't know of any other \emph{active} efforts to do a .NET compiler for Caml.  SML.NET will, hopefully, be available publicly soon.
+I don't know of any other active efforts to do a .NET compiler for Caml.  SML.NET will, hopefully, be available publicly soon.
 \end{verbquote}
-
-By late 2001 a viable path appeared possible: to bring a variant of the OCaml language to target .NET itself. The Project 7 effort around OCaml
+So, by late 2001, a viable path appeared possible: to bring a variant of the OCaml language to target .NET itself. The Project 7 effort around OCaml
 had led to the above approach by Leroy and didn’t look likely to continue.  This left a space for a new Caml.NET initiative, though one targeting
 the .NET IL itself, and in December 2001 I decided to move ahead with an “Caml.NET”. This was later rebranded “F\#” after private discussion with
 Cedric Fournet and Georges Gonthier, to allow for greater divergence from OCaml and to bring language experimentation into
@@ -772,7 +771,8 @@ the latter couldn’t be used for the former.  The OCaml pre-processor CamlP4 wa
 be used. The question of the object system would be dealt with later.  However, this meant that F\# and OCaml diverged as of the core language of OCaml 2.0.
 
 
-The first release (v0.1, soon replaced by 0.5) was made near-silently on June 4 2002 as an addition to the ILX project, making the following claims on the website:\footnote{\textit{F\#---Combining the speed, safety and productivity of ML and Caml with the libraries, tools and cross-language working of .NET}, Don Syme, June 2002, \url{https://web.archive.org/web/20020604234213/http://research.microsoft.com/projects/ilx/fsharp.htm}}
+The first release (v0.1, soon replaced by 0.5) was made near-silently on June 4 2002 as an addition to the ILX project, making the following
+claims on the website \citep{RefIlxPage}:
 \begin{verbquote}
 Mixed functional/imperative programming is a fantastic paradigm for many programming tasks....You can access hundreds of .NET libraries using F#...F# is an implementation of the core of the Caml programming language for the .NET Framework, along with cross-language extensions. ...The aim is to have it work together seamlessly with C#, Visual Basic, SML.NET and other .NET programming languages...Types and values in an ML program can be accessed from some significant languages (e.g. C#) in a predictable and friendly way. ...F# provides an implementation of a subset of the OCaml libraries as well as the ability to access .NET libraries.  Using the .NET libraries is optional.... F# supports features that are often missing from ML implementations such as Unicode strings and dynamic linking... Tooling consists of a simple command line compiler, supporting separate compilation, debug information and optimization... F# is, as far as I know, the first ML compiler to have good binary-compatibility and versioning properties....
 \end{verbquote}
@@ -785,7 +785,7 @@ and modifying the core ML---and what was research if we didn’t experiment?  In
 \begin{verbquote}
 Don Syme and his Microsoft Cambridge colleagues did a great job with adding parametric polymorphism to the .NET framework -- something that was initially overlooked in .NET --, and I'm very happy that they chose core Caml to demonstrate this extension in action. https://caml.inria.fr/pub/ml-archives/caml-list/2002/06/8d07fd5058aa26127d1b7e7892698386.en.html 
 \end{verbquote}
-To which I replied:\footnote{Archive message at \url{https://web.archive.org/web/20200309170708/https://caml.inria.fr/pub/ml-archives/caml-list/2002/06/8d07fd5058aa26127d1b7e7892698386.en.html}}
+To which I replied \citep{RefCamlArchive8}
 \begin{verbquote}
 And I'm even more grateful to Xavier and the team for doing such a great job with OCaml over the years, and for providing a solid core language, an excellent runtime system and the very interesting set of language features they've added to the core.  Core Caml provides a great starting point for work of all kinds: I used it in my PhD thesis, for example, as the term language for a theorem prover.
 
@@ -886,7 +886,9 @@ for the Windows platform moved over to C\# and .NET worldwide. A massive shift t
 team started major initiatives, including a rewrite of the Windows “shell” and the creation of many major .NET projects such as Windows
 Presentation Foundation, Windows Communication Foundation and Windows Workflow Foundation.
 
-On January 5, 2005, a pre-release of F\# 1.0 was declared in my first MSDN (Microsoft Developer Network) blog entry.\footnote{\textit{Welcome to Don’s F\# blog}, Don Syme, January 2005, \url{https://web.archive.org/web/20190130121040/https://blogs.msdn.microsoft.com/dsyme/2005/01/05/welcome-to-dons-f-blog/}. At the time, individual blogging on MSDN was encouraged by management and proved a positive way for those involved with F\# to utilize Microsoft’s positive brand with developers.}  In March 2005, F\# 1.0 was first demonstrated at “TechFest”, an internal MSR trade-show in Redmond.  
+On January 5, 2005, a pre-release of F\# 1.0 was declared in my first MSDN (Microsoft Developer Network) blog
+entry \citep{RefBlog1}.\footnote{At the time, individual blogging on MSDN was encouraged by management and proved a positive way for those involved with F\# to utilize Microsoft’s positive brand with developers.}
+In March 2005, F\# 1.0 was first demonstrated at “TechFest”, an internal MSR trade-show in Redmond.  
 
 \begin{figure}
   \centering
@@ -962,8 +964,7 @@ instead of
        (List.map (fun x -> x *x) [ 1 .. 10 ])
 \end{verbatim}
 Despite being heavily associated with F\#, the use of the pipeline symbol in ML dialects actually originates from Tobias Nipkow, in
-May 1994 (with obvious semiotic inspiration from UNIX pipes):\footnote{\textit{Archeological Semiotics, The Birth of the Pipeline Symbol}, Don
-Syme, May 2011, \url{https://web.archive.org/web/20190217164203/https://blogs.msdn.microsoft.com/dsyme/2011/05/17/archeological-semiotics-the-birth-of-the-pipeline-symbol-1994/}.}\footnote{\textit{Added infix op also}, Isabelle archives, 1994, \url{https://web.archive.org/web/20120726024825/http://isabelle.in.tum.de/repos/isabelle/rev/daca5b594fb3}}
+May 1994 (with obvious semiotic inspiration from UNIX pipes) \citep{RefPipeline, RefIsabellInfix}.
 \begin{verbquote}
 ... I promised to dig into my old mail folders to uncover the true story behind |> in Isabelle/ML, which also turned out popular in F#...
 
@@ -1078,9 +1079,14 @@ In retrospect, the addition of object programming to F\# was a process of “dec
 \end{enumerate}
 \end{enumerate}
 
-Through this process features were progressively incorporated into F\# in a way that preserved the essence of the core expression language and emphasized delegation over inheritance.  I summarize this today by stating that “F\# embraces ‘object’ programming and de-emphasizes ‘object-oriented’ programming, especially implementation inheritance”.\footnote{\textit{F\# Code I Love}, Don Syme, September 2018, \url{https://www.youtube.com/watch?v=MGLxyyTF3OM}}.  For example, the “protected” accessibility modifier is not supported even to this day in F\#, since it is perceived to encourage implementation inheritance.
+Through this process features were progressively incorporated into F\# in a way that preserved the essence of the core expression language and emphasized delegation over inheritance.  I summarize this today by stating that “F\# embraces ‘object’ programming and de-emphasizes ‘object-oriented’ programming, especially implementation
+inheritance” \citep{RefFSharpCodeILove}.  For example, the “protected” accessibility modifier is not supported even to this day in F\#, since it is perceived to encourage implementation inheritance.
+
+F\# 1.0 included the ability to write \texttt{let mutable x = ...} declarations in expressions, class bindings and module-level bindings. Initially such values could not be accessed
+in closures and were only for writing interoperability code.  Later, in F\# 3.1 this restriction was lifted thanks to work by Matthew Parkinson to implement a compiler transformation to implicitly convert these to reference cells.
 
 F\# was by no means the only language deconstructing object-oriented programming around this time. Some of this has been discussed in the prior section on the reactions to object-orientation by the academic programming language design community, including the GJ and Pizza languages. Other examples include Effective Java \citep{bloch2001effective}, emphasizing composition over inheritance.
+
 
 
 \subsection*{F\# 1.0---Improving the Functional Core: Initialization Graphs}
@@ -1143,7 +1149,7 @@ This definition says that any use of “+” is implemented via inlining a call 
 the type \texttt{\^T} or \texttt{\^U}, i.e. the type of either the left-hand or right-hand argument.  The \texttt{\^T} notation for type variables
 indicates statically resolved type parameters (SRTP), i.e. type parameters which are resolved to a nominal type at compile-time.  The inline keyword
 was added to F\# only to support this construct: by inlining, the constraint would be resolved according to the types available at point of use. This 
-llows overloaded arithmetic to integrate neatly with Hindley-Milner type inference, and code to take a more natural form:
+allows overloaded arithmetic to integrate neatly with Hindley-Milner type inference, and code to take a more natural form:
 
 \begin{verbatim}
     let x1 = 1 + 1     // an integer
@@ -1153,8 +1159,8 @@ llows overloaded arithmetic to integrate neatly with Hindley-Milner type inferen
 
 SRTPs subsequently got used more generally in F\# as a mechanism for constrained generics, though originally it was only specifically designed to cope with overloaded arithmetic.
 
-Many alternative approaches to overloaded arithmetic existed at this time, including Haskell type classes \citep{Jones97typeclasses,HistoryOfHaskell} and
-C++ templates, both of which were well known to the author. The use of \texttt{inline} for code that is generic with respect to SRTP
+Many alternative approaches to overloaded arithmetic existed at this time, including Haskell type classes \citep{Jones97typeclasses,HistoryOfHaskell,WadlerBlott89} and
+C++ templates \citep{Stroustrup}, both of which were well known to the author. The use of \texttt{inline} for code that is generic with respect to SRTP
 constraints was inspired by the process of inlining, flattening and specialization used by nearly all C++ compilers. Haskell-style type classes
 were rejected as a solution because they add a new kind of top-level declaration to the language used for categorizing, organizing and
 structuring code---in Haskell this is called a ``class'' but a new term would be needed due to conflict with object-programming terminology.
@@ -1184,12 +1190,11 @@ an extensible decomposition construct and that such a construct needed to be sim
 The idea of “active patterns” or “views” had featured in academia but had never been implemented in a practical strongly-typed
 FP system \citep{Erwig1996}.  Since F\# had to interoperate with .NET object types whose representations were private, it became
 natural to add extensible pattern matching. In May 2006, Gregory Neverov joined as an intern and was assigned this topic.  A prototype
-emerged quickly, and was presented at WG 2.8, July 16-21, Boston.\footnote{\textit{IFIP Working Group 2.8---Functional Programming}, Ralf
-Hinze and others, retrieved 31 August 2019, \url{https://web.archive.org/web/20190827002406/http://www.cs.ox.ac.uk/ralf.hinze/WG2.8/}}  Simon
+emerged quickly, and was presented at WG 2.8, July 16-21, Boston \citep{RefWG28}.  Simon
 Peyton Jones gave very helpful advice for F\# at this time, recounting the various attempts to add view patterns to Haskell, an emphasizing the
 need for “bang for buck” in such a feature, i.e. simplicity of declaration and use. An initial implementation of F\# active patterns was released
 in August 2006, an ICFP paper followed \citep{Syme2007}, and the feature remains a very widely used part of the
-F\# language.\footnote{\textit{An upcoming experimental feature: Active Patterns in F\#}, Don Syme, August 2006, \url{https://web.archive.org/web/20190202055330/https://blogs.msdn.microsoft.com/dsyme/2006/08/15/an-upcoming-experimental-feature-active-patterns-in-f/}}
+F\# language \citep{RefActivePatternsBlog}.
 
 F\# active patterns allow for partial, complete and multi-case patterns. Here is an example of defining partial active patterns to parse a string into an integer or boolean:
 
@@ -1241,7 +1246,11 @@ Early F\# applications included GUI programming for systems like SPiM, and inevi
 \item C\# events can’t be treated as first-class values.  
 \end{enumerate}
 
-In the process of designing the F\# object system---and in order to simplify and regularize it---“first-class events” were designed as an F\# language and library extension and released on March 23, 2006.\footnote{\textit{F\# First Class Events: Simplicity and Compositionality in Imperative Reactive Programming}, Don Syme, March 2006,  \url{https://web.archive.org/web/20190205134026/https://blogs.msdn.microsoft.com/dsyme/2006/03/23/f-first-class-events-simplicity-and-compositionality-in-imperative-reactive-programming/}}  The aim was to make .NET events look and feel as if they were just library-defined values, and further allow the combination of events as first-class event values. Aepresentative code sample for first-class events was:
+In the process of designing the F\# object system---and in order to simplify and regularize it---“first-class events” were designed as an F\# language and library
+extension and released on March 23, 2006 \citep{RefFirstClassEventsBlog}.\footnote{Note, F\# first-class event values are not directly related to ``event'' values in
+Concurrent ML, a concurrent programming framework implemented in Standard ML in the 1990s.}
+The aim was to make .NET events look and feel as if they were just library-defined values, and further allow the combination of
+events as first-class event values. A representative code sample for first-class events was:
 
 \begin{verbatim}
 let mouseMove = 
@@ -1250,7 +1259,8 @@ let mouseMove =
   |> Event.filter (fun _ -> inputMenuItem.Checked)
 \end{verbatim}
 
-Here \texttt{form.MouseMove} is a first-class event allowing registration and de-registration of handlers.  The event composition filters triggers of \texttt{form.MouseMove} to generate a new event that only fires when the Left mouse button is down and a particular menu item is checked.  Common patterns of event composition, filtering, combination and transformation can now begin to be abstracted.  The addition of this feature directly influenced Wes Dyer, leading to the creation of the Reactive Extensions (Rx) project with Erik Meijer.\footnote{\textit{A Brief Introduction to the Reactive Extensions for .NET}, Wes Dyer, November 2009, \url{https://web.archive.org/web/20190120224709/https://blogs.msdn.microsoft.com/wesdyer/2009/11/18/a-brief-introduction-to-the-reactive-extensions-for-net-rx/}}  Registering event handlers has implications for memory leaks, later dealt with by converting this part of the F\# programming model to use the IObservable type from Rx.  This topic also led to an F\#-related publication by Petricek and Syme on garbage collection in reactive systems \citep{Petricek2010}.
+Here \texttt{form.MouseMove} is a first-class event allowing registration and de-registration of handlers.  The event composition filters triggers of \texttt{form.MouseMove} to generate a new event that only fires when the Left mouse button is down and a particular menu item is checked.  Common patterns of event composition, filtering, combination and transformation can now begin to be abstracted.  The addition of this feature directly influenced Wes Dyer, leading to the creation of the Reactive Extensions (Rx) project with
+Erik Meijer \citep{RefRx}. Registering event handlers has implications for memory leaks, later dealt with by converting this part of the F\# programming model to use the IObservable type from Rx.  This topic also led to an F\#-related publication by Petricek and Syme on garbage collection in reactive systems \citep{Petricek2010}.
 
 
 
@@ -1272,11 +1282,13 @@ At EPFL in 2007, I noticed that Philipp Haller had added a \texttt{react \{ ... 
 realized that some kind of primitive construct to deal with asynchronous programming was going to be needed in F\#.  C\# had added ``iterators''
 in C\# 2.0 (again initiated by MSR) and this also featured an implicit inversion of control-flow which was of interest in the context of async programming.
 
-Ideas around async programming had also been floating around the OCaml community and its mailing lists, especially through the async implementation used in the system MLDonkey by Fabrice le Fessant, begun in 2001\footnote{\textit{MLDonkey}, Wikipedia, August 2019, \url{https://web.archive.org/web/20200111223533/https://en.wikipedia.org/wiki/MLDonkey}}.  Haskell had added monadic syntax\footnote{The addition of  monadic “do” notation to Haskell derives from its addition to Gofer by Mark Jones in 1994, who credits influence from \citep{Launchbury93lazy}.} At that time, however,
+Ideas around async programming had also been floating around the OCaml community and its mailing lists, especially through the async implementation used in the system MLDonkey by Fabrice le Fessant, begun in
+2001 \citep{RefMLDonkey}.  Haskell had added monadic syntax.\footnote{The addition of  monadic “do” notation to Haskell derives from its addition to Gofer by Mark Jones in 1994, who credits influence from \citep{Launchbury93lazy}.} At that time, however,
 no strict functional language had a suitable extensible syntax allowing the re-interpretation of all control constructs in asynchronous form, and in
 OCaml and Standard ML libraries of functional combinators were generally used instead.  
 
-On returning from EPFL, I discussed these problems with Margetson around May 2007, who emphasized the importance of monads in implementing async programming. This led me to finally experiment with adding a monadic syntax to F\# and apply it to asynchronous programming, leading to the addition of \texttt{async \{ ... \}} to F\# in 2007 \citep{Syme2011}.  On October 10, 2007 we announced these features in the blog post \textit{Introducing F\# Asynchronous Workflows}.\footnote{\textit{Introducing Asynchronous Workflows}, Don Syme, October 2007, \url{https://web.archive.org/web/20191221153257/https://blogs.msdn.microsoft.com/dsyme/2007/10/10/introducing-f-asynchronous-workflows/}}  Representative async code samples used in the blog posts at the time were as follows:
+On returning from EPFL, I discussed these problems with Margetson around May 2007, who emphasized the importance of monads in implementing async programming. This led me to finally experiment with adding a monadic syntax to F\# and apply it to asynchronous programming, leading to the addition of \texttt{async \{ ... \}} to F\# in 2007 \citep{Syme2011}.  On October 10, 2007 we announced these features in
+the blog post \textit{Introducing F\# Asynchronous Workflows} \citep{RefAsyncWorkflowsBlog}. Representative async code samples used in the blog posts at the time were as follows:
 
 \begin{verbatim}
     let task1 = async { return 10+10 }
@@ -1312,10 +1324,11 @@ generalization is called \emph{computation expressions}.
 
 \subsection*{F\# 1.0---Improving the Functional Core: Computation Expressions}
 
-F\# computation expression notation began with ``async``, however other important background included Haskell list comprehension syntax\footnote{\url{https://web.archive.org/web/20191218093604/https://wiki.haskell.org/List_comprehension}}, Haskell "do notation"\footnote{\url{https://web.archive.org/web/20200225025414/https://en.wikibooks.org/wiki/Haskell/do_notation}} and Haskell's experimental
-arrow syntax\footnote{\textit{Arrows: A General Interface to Computation}, Ross Paterson, retrieved August 2019, \url{https://web.archive.org/web/20200306225731/https://www.haskell.org/arrows/syntax.html}}.
+F\# computation expression notation began with ``async``, however other important background included Haskell list comprehension
+syntax \citep{RefListComprehensions}, Haskell ``do notation'' \citep{RefHaskellDo} and Haskell's experimental
+``arrow'' syntax \citep{RefArrows}.
 In Haskell these are separate syntactic mechanisms.
-Other background includes C\# LINQ expressions\footnote{\url{https://web.archive.org/web/20190605160124/https://docs.microsoft.com/en-us/dotnet/csharp/linq/}} and many
+Other background includes C\# LINQ expressions \citep{RefLinqDocs} and many
 theorem proving systems had generic notational extensions.
 
 There were important methodological differences at work here.  Traditionally Haskell methodology had focused on
@@ -1338,65 +1351,65 @@ My own personal experience as a programmer was that it mattered greatly from a h
 when aligned with other ergonomic issues such as the ease with which code can be converted from ``non-monadic'' to ``monadic''
 form (e.g. from synchronous to asynchronous). The ``ease of transition'' of code formed a key part
 of the design ethos and training material for both F\# async programming and F\#  CEs---see for example Luca Bolognese's
-well-received 2008 presentation on F\#\footnote{\url{https://web.archive.org/web/20190827210341/https://channel9.msdn.com/blogs/pdc2008/tl11}}.  In contrast, both C\# LINQ notation
-and Haskell list comprehensions had been explicitly designed to be a very different notation to the rest of C\# and Haskell respectively.
-This emphasis on ``notational similarity'' rather than ``notational difference'' is a theme underlying the F\# language design.
+well-received 2008 presentation on F\# \citep{RefMSDNLuca} and to achieve this goal F\# naturally emphasises
+``notational similarity'' between regular code, list comprehensions and asynchronous code.
+In contrast, the design of C\# LINQ notation, Haskell list comprehensions and Haskell do-notation all emphasis ``notational difference'':
+they are designed to be visibly different notational forms, compared to their respective host languages. 
 
 
-From a technical point-of-view, F\# computation expressions (CEs) are a syntactic de-sugaring of language elements
-such as \verb!for x in xs  ...! to method calls like \verb!For( ... )! via a ``builder object'' such as \verb!seq {  ...  }! or \verb!async {  ...  }!. 
-The following normal F\#/OCaml control syntax elements are available in the body of the builder object:
-\begin{itemize}
-\item \texttt{let $pat$ = $e_1$ in $e_2$}
-\item \texttt{match $e_0$ with $pat_1$ -> $e_1$ | ...}
-\item \texttt{for $pat$ in $e_0$ do  $e_1$ ... }
-\item \texttt{while $e_1$ do  $e_2$ }
-\item \texttt{$e_1$; $e_2$}
-\item \texttt{try $e_1$ with exn -> $e_2$}
-\item \texttt{try $e_1$ finally $e_2$}
-\end{itemize}
-plus additional syntax elements \texttt{let!}, \texttt{return}, \texttt{yield}, \texttt{return!} and \texttt{yield!}.
-The different syntax elements are ``enabled'' by having the builder support different
-methods---these methods from the target of the de-sugaring. The names of the methods matter, because different method
-names light up different source syntax. For example:
-\begin{itemize}
-\item The presence of a ``Bind'' method permits de-sugaring of \texttt{let! x = xs in  ... }
-\item The presence of a ``Combine'' method permits de-sugaring of \texttt{$e_1$; $e_2$}
-\item The presence of a ``For'' method permits de-sugaring of \texttt{for x in xs do  ...}
-\item The presence of a ``Yield'' method permits de-sugaring of \texttt{yield e}
-\item The presence of a ``YieldFrom'' method permits de-sugaring of \texttt{yield! e}
-\item The presence of a ``Return'' method permits de-sugaring of \texttt{return e}
-\item The presence of a ``ReturnFrom'' method permits de-sugaring of \texttt{return! e}
-\item (and so on)
-\end{itemize}
-A particular builder can support any or all of them.
 
-Each builder of F\# computation expressions can be configured for either comprehension (also called "monoid syntax"), or monadic syntax. 
-F\# CEs are not just ``monad syntax'' (i.e. do-notation), and are more notationally expressive than
-either traditional ``do'' notation or list comprehensions.
-When F\# computation expressions are configured to monadic syntax you minimally need the following members on the builder:
+From a technical point-of-view, F\# computation expressions (CEs) are specified as a syntactic de-sugaring of language elements \citep{RefLangSpec}.
+The de-sugaring is done for an overall expression \texttt{\textit{builder} \{ ... \}} where the builder is, for example, \texttt{seq} or \texttt{async}.
+The following F\#/OCaml control syntax elements can be used in the body of the expression.
+
+\begin{center}
+\begin{tabular}{lll}
+ \texttt{let! $pat$ = $e_1$ in $e_2$} & (requires \texttt{Bind} method) \\
+\texttt{for $pat$ in $e_0$ do  $e_1$} & (requires \texttt{For} method) \\
+\texttt{while $e_1$ do  $e_2$ }  & (requires \texttt{While} method) \\
+\texttt{$e_1$; $e_2$}  & (requires \texttt{Combine} method) \\
+\texttt{try $e_1$ with exn -> $e_2$} &  (requires \texttt{TryWith} method) \\
+ \texttt{try $e_1$ finally $e_2$}  & (requires \texttt{TryFinally} method) \\
+ \texttt{return $e$}  & (requires \texttt{Return} method) \\
+ \texttt{return! $e$} &  (requires \texttt{ReturnFrom} method) \\
+ \texttt{yield $e$}  & (requires \texttt{Yield} method) \\
+ \texttt{yield! $e$} &  (requires \texttt{YieldFrom} method) \\
+ \texttt{let $pat$ = $e_1$ in $e_2$}  \\
+ \texttt{match $e_0$ with $pat_1$ -> $e_1$ | ...} \\
+ \texttt{if $e_1$ then $e_2$ else $e_3$} \\
+ \texttt{if $e_1$ then $e_2$} &  (requires \texttt{Zero} method for empty branch) \\
+\end{tabular}
+\end{center}
+
+\noindent The different syntax elements are enabled by having the builder support different
+object methods as indicated (\texttt{let} and \texttt{match} are always enabled). 
+A particular builder can support any or all of
+them. The names of the methods matter, because different method names light up different source syntax. 
+The full de-sugaring of these constructs is in \citet{RefLangSpec}.  As examples,
+
+\begin{center}
+\centering
+\begin{tabular}{lll}
+\texttt{let! $pat$ = $e_1$ in $e_2$} & \textrm{is de-sugared to} & \texttt{\textit{builder}.Bind($e_1$, fun $pat$ -> $e_2$)} \\
+\texttt{$e_1$; $e_2$} & \textrm{is de-sugared to} & \texttt{\textit{builder}.Combine($e_1$, $e_2$)}.\footnote{One aspect of computation expressions has been skipped over here, namely the (optional) insertion of computational delays to ensure strict evaluation semantics is followed.  These are covered in \citet{RefLangSpec}.}
+\end{tabular}
+\end{center}
+
+\noindent Some further examples are given below. Each builder of F\# computation expressions is typically configured for either monadic syntax or comprehension (also called "monoid") syntax. 
+For the former you typically need the following members on the builder:
 \begin{verbatim}
     member Bind:  M<'T> * ('T -> M<'U>) -> M<'U>
     member Return: 'T -> M<'T>
 \end{verbatim}
-The presence of the ``Bind'' method means \texttt{let! x = xs in  ...} is allowed in the syntax, and so your CE uses \texttt{let! x = xs in  ... } for monadic binding. 
-
+The presence of the ``Bind'' method means \texttt{let!} is allowed in the syntax, and so your CE uses \texttt{let!} for monadic binding. 
 For those familiar with Haskell, it is natural to think of this as offering a syntax for `Monad`
 instances.  Here’s how the Haskell terminology maps across:
 \begin{itemize}
 \item the Monad \texttt{>>=} (bind) method corresponds to the \texttt{let!} syntax, mapping to the \texttt{Bind} method
 \item the Monad \texttt{return} method corresponds to \texttt{return x} syntax mapping to the \texttt{Return} method
 \end{itemize}
-This allows async and other monadic code to desugar as shown in the previous section. There are additional optional elements to enrich the syntax. For example you can optionally have:
-\begin{itemize}
-\item \texttt{try/with} (usual signature \texttt{TryWith: M<'T> -> (exn -> M<'T>) -> M<'T>})
-\item \texttt{try/finally}  (usual signature \texttt{TryFinally: M<'T> * (unit -> M<unit>) -> M<'T>})
-\item \texttt{while} (usual signature \texttt{While: (unit -> bool) * (unit -> M<unit>) -> M<unit>})
-\item \texttt{for} (usual signature \texttt{For: seq<'T> * ('T -> M<unit>) -> M<unit>})
-\item \texttt{return!} (usual signature \texttt{ReturnFrom: M<'T> -> M<'T>})
-\item \texttt{$e_1$; $e_2$} (usual signature \texttt{Combine: M<unit> * M<'T> -> M<'T>}), useful for one loop followed by another 
-\end{itemize}
-Adding each of these enable further basic syntax de-sugaring to the available syntax in the monadic syntax.
+This allows async and other monadic code to desugar as shown in the previous section. There are additional optional elements to enrich the syntax. For example you can optionally have
+\texttt{try/with}, \texttt{try/finally}, \texttt{while} and \texttt{for}. 
 
 F\# CEs can also be configured for comprehension (or ``monoidal'') syntax. In this case, the minimal operation signatures are typically this form:
 \begin{verbatim}
@@ -1405,22 +1418,20 @@ F\# CEs can also be configured for comprehension (or ``monoidal'') syntax. In th
     member Yield: 'T -> M<'T>
     member Zero: M<'T>
 \end{verbatim}
-The minimum needed to warrant the name ``comprehension'' is \texttt{For} and \texttt{Yield}.  A ``monoidal comprehension'' minimally
-needs \texttt{For}, \texttt{Yield}, \texttt{Combine} and \texttt{Zero}. 
+The minimum needed to warrant the name ``comprehension'' is \texttt{For} and \texttt{Yield}.
 Note these have a \texttt{For} method, which means \texttt{for x in xs  ...} is allowed in the syntax, so the CE uses \texttt{for x in xs ...} for binding.
 It does \emph{not} use \texttt{let!} for binding: the computational structure is not being treated as a monad (\texttt{let!}), but a comprehension (\texttt{for}).
-There is no \texttt{Bind} method, there is no \texttt{let!} syntax -- the \texttt{For} method takes its place.  
+Why do this? because it allows F\# to achieve notational
+similarity  (see above) and thus cognitive reuse between the process of iterating a list and generating results (imperatively), and
+a list comprehension that iterates a list and combines results (functionally).
 
 For those familiar with Haskell, it is natural to think of this as offering a notation for things that in Haskell logically
-correspond to \texttt{MonadPlus}\footnote{\url{https://web.archive.org/web/20200110013404/https://wiki.haskell.org/MonadPlus}} instances.  Here’s how the Haskell terminology maps across:
+correspond to \texttt{MonadPlus} \citep{RefMonadPlus} instances.  Here’s how the Haskell terminology maps across:
 \begin{itemize}
-\item The Haskell MonadPlus \texttt{>>=} (bind) method corresponds to the \texttt{for} syntax and is de-sugared to the \texttt{For} method
-
-\item The Haskell MonadPlus \texttt{mplus} method corresponds to sequential composition \texttt{$e_1$; $e_2$} syntax (perhaps on two aligned lines with no semicolon), and is de-sugared to the \texttt{Combine} method
-
-\item The Haskell MonadPlus \texttt{return} method corresponds to \texttt{yield} syntax and is de-sugared to the \texttt{Yield} method
-
-\item The Haskell MonadPlus \texttt{mzero} method is implicit (eg. on the empty else branch of an if/then) and is de-sugared to the \texttt{Zero} method
+\item The MonadPlus \texttt{>>=} (bind) corresponds to the \texttt{for} syntax and de-sugars to the \texttt{For} method
+\item The MonadPlus \texttt{mplus} corresponds to sequential composition \texttt{$e_1$; $e_2$} syntax (perhaps on two aligned lines with no semicolon), and de-sugars to the \texttt{Combine} method
+\item The MonadPlus \texttt{return} corresponds to \texttt{yield} syntax and de-sugars to the \texttt{Yield} method
+\item The Haskell \texttt{mzero} is implicit (eg. on the empty else branch of an if/then) and de-sugars to the \texttt{Zero} method
 \end{itemize}
 As an example, consider the use of the mechanism for the “seq” computation expression, for (on-demand) sequence comprehensions. 
 \begin{verbatim}
@@ -1496,20 +1507,12 @@ from input list \texttt{[ a1 ... an ]} . In F\# the comprehension function is th
                   yield (x+2)
                   yield 5 }
 \end{verbatim}
-This is because in F\# you can do additional things (like "append") in comprehension notation beyond map/yield/filter.
-In Haskell this would be:
+This is because in F\# you can ``append'' in comprehension notation in addition to map/yield/filter.
+In Haskell this would use multiple nested instances of the notation:
 \begin{verbatim}
     [ 3 ]  ++ [ x+1 | x <- xs ] ++ [ 4 ] ++ [ y | x <- xs, y <- [ x+2, 5 ]  ]
 \end{verbatim}
-However this uses multiple nested instances of the notation as well as the \texttt{++} operator, which steps outside the notation.
-Likewise, when F\# CEs are configured for monadic syntax, they are also more expressive than Haskell do-notation.   This is more subtle but some examples:
-\begin{itemize}
-\item loops, try/with and try/finally can be included in the syntax and mapped to corresponding operations;
 
-\item conditionals and pattern matching can be placed within the control structure;
-
-\item custom operators can be added, for example the \texttt{condition} operator can be added for the probability distribution monad \citep{syme2015expert}.
-\end{itemize}
 F\# CEs can also be configured in other ways and this is done in practice, e.g. for web programming DSLs or asynchronous sequences.
 The various families of control constructs that could utilize computation expressions were eventually characterized by Petricek
 and Syme \citep{Petricek2014} and in 2010 they developed an experimental monadic generalization of pattern matching called Joinads \citep{Petricek2011}.
@@ -1524,7 +1527,7 @@ found their way into strongly-typed functional or OO languages.\footnote{SML/NJ 
 
 In 2005, the C\# team found new uses for expression quotations in their early prototypes of LINQ, which added a comprehension syntax and runtime expression quotations to C\# to express both in-memory and database queries. Under-the-hood, LINQ used a combinator encoding of queries heavily inspired by functional programming. A key contributor to LINQ was Erik Meijer who was an avid evangelist for functional ideas in general and innovative in their application. LINQ was highly successful and is a widely used feature of C\# today.  Additionally, I had previously used ForteFL at Intel, a strongly-typed functional language that included expression quotations.  Further, systems such as Mathematica and R allowed expression quotations and made interesting use of these facilities to mix symbolic and computational elements. When early versions of LINQ were announced in 2006, I decided to experiment with adding quotations to F\#, initially with the aim of interoperating with the query mechanisms available in LINQ.  
 
-This work released on January 26, 2006 in prototype form under title \textit{F\# meets LINQ, and great things happen (Part I)}.\footnote{\textit{F\# meets LINQ, and great things happen (Part I)}, Don Syme, January 2006, \url{https://web.archive.org/web/20190202055324/https://blogs.msdn.microsoft.com/dsyme/2006/01/26/f-meets-linq-and-great-things-happen-part-i/}}   A sample code fragment was as follows:
+This work released on January 26, 2006 in prototype form under title \textit{F\# meets LINQ, and great things happen (Part I)} \citep{RefLinqFSharp}.   A sample code fragment was as follows:
 
 \begin{verbatim}
     let q =
@@ -1535,14 +1538,14 @@ This work released on January 26, 2006 in prototype form under title \textit{F\#
 Some of the details changed in later releases, but here \verb$<@ ... @>$ is an expression quotation literal, forming a quotation of the expression tree. These parts of the program were re-interpreted at runtime and executed as part of an SQL query.  This mechanism was also applied to a broader range of “heterogeneous execution” problems, running F\# code on the GPU by utilizing the Accelerator library from MSR. Collectively this work was published at the ML Workshop \citep{Syme2006a}. Later, in F\# 2.0, the design of the API for F\# quotations was extensively revised and simplified.
 
 In early 2006, Tomas Petricek at Charles University, Prague began work on a JavaScript compiler and web programming
-system utilizing F\# quotations.\footnote{\textit{Client-side Scripting using Meta-programming}, Tomas Petricek, March 2008, \url{https://web.archive.org/web/20170707011917/http://tomasp.net/blog/webtools-thesis.aspx/}}  He
+system utilizing F\# quotations \citep{RefPetricekThesis}. He
 joined the F\# team as an intern in April 2007, working on extending the use of F\# for JavaScript and GPU compilation,
 and returned as an intern in 2009, making many contributions to F\# 2.0 including its IDE tooling.
 
 \subsection*{F\# 1.0---Improving the Functional Core: Indentation-aware Syntax}
 
 Another addition during the F\# 1.0 timeframe was the addition of an indentation-aware syntax, released on
-September 23, 2006.\footnote{\textit{Lightweight syntax option in F\# 1.1.12.3}, Don Syme, August 2008, \url{https://web.archive.org/web/20190130125207/https://blogs.msdn.microsoft.com/dsyme/2006/08/23/lightweight-syntax-option-in-f-1-1-12-3/}}
+September 23, 2006 \citep{RefIndentSyntax}.
 
 \begin{verbquote}
 The F# indentation-aware syntax option is a conservative extension of the explicit language syntax, in the sense that it simply lets you leave out certain tokens such as in and ;; by having the parser take indentation into account. This can make a surprising difference to the readability of code. 
@@ -1550,10 +1553,12 @@ The F# indentation-aware syntax option is a conservative extension of the explic
 Note: This feature is similar in spirit to the use of indentation by Python and Haskell, and we thank Simon Marlow (of Haskell fame) for his help in designing this feature and sketching the implementation technique. We also thank all the F# users at MSR Cambridge who've been helping us iron out the details of this feature. 
 \end{verbquote}
 
-The origins of this feature are from my experience looking at samples of Haskell and Python code, and from frequently
+The origins of this feature are from my experience looking at samples of Python code with Darren Platt around 1999, who
+first showed me Python, and from frequently
 being asked “why does F\# require the ‘in’ token for ‘let x = ... in’” by non-functional-programming audiences.  I made
 a private judgement that the presence of these extra tokens was a limiting factor in F\# adoptability.  The feature was refined
 over future iterations and became the default for F\# code in F\# 2.0 in 2010.
+
 
 \subsection*{F\# 1.0---IDE Tooling}
 
@@ -1588,25 +1593,23 @@ IDE assistance as people type LINQ queries”.  This assumption was not generall
 During 2006-07, external adoption of F\# began to grow, partly on the base of steady blogging about the features and utility of the language.
 Social media and “scalable” communication was emphasized over conference publications, and the blogging was used to highlight the practical
 nature of the F\# feature set and its adoption. The online developer video portal Channel 9 opened their doors, allowing us to reach a broader
-audience.\footnote{\textit{F\# on Channel 9}, Don Syme, September 2006, \url{https://web.archive.org/web/20190130125151/https://blogs.msdn.microsoft.com/dsyme/2006/09/14/f-on-channel-9/}}
+audience \citep{RefChan9}.
 There was a lack of practical alternatives for functional programming on Windows and .NET, and F\# received growing attention.
 .NET user groups existed worldwide, and some began to give presentations on F\#. Download rates were about 18,000/year in early 2007:
 far from mainstream, but relatively substantial for an MSR project, and F\# was the most visited site on research.microsoft.com, somewhat
 unexpectedly. The language developed a strong community feel and some related technologies began to emerge: in 2006 Jon Harrop started
 his F\# Journal followed by F\# for Visualization and F\# for Numerics, and later made his influential OCaml for Scientists book available
-as F\# for Scientists\footnote{\textit{F\# for Scientists announced by Jon Harrop}, October 2006, \url{https://web.archive.org/web/20190130125113/https://blogs.msdn.microsoft.com/dsyme/2006/10/23/f-for-scientists-announced-by-jon-harrop/}}; in 2007 WebSharper was initiated by Adam Granicz, including a
+as F\# for Scientists \citep{RefHarropScientists}; in 2007 WebSharper was initiated by Adam Granicz, including a
 transpiler from F\# to JavaScript and the ability to use F\# for both client and server
 components \citep{Bjornson2010}; in 2007 IntelliFactory began offering consulting services
-in F\# \citep{PeakGranicz2009}.\footnote{\textit{IntelliFactory Your Functional Experts}, Adam Granicz et al., November 2011, https://web.archive.org/web/20071102190038/http://www.intellifactory.com:80/Development.aspx}
+in F\# \citep{PeakGranicz2009, RefIntelliFactory}.
 In 2006, James Huddlestone, an editor at Apress, approached myself and Robert Pickering to author the first two
-books on F\#: Beginning F\# and Expert F\#, the latter joint-authored with Adam Granicz and Antonio Cisternino.\footnote{\textit{Draft Chapter 2 of ``Expert F\#'': Essential Language Features}, Don Syme, September 2006, \url{https://web.archive.org/web/20190130124706/https://blogs.msdn.microsoft.com/dsyme/2006/09/06/draft-chapter-2-of-expert-f-essential-language-features/}}
+books on F\#: Beginning F\# and Expert F\#, the latter joint-authored with Adam Granicz and Antonio Cisternino \citep{RefExpertFSharpDraft}.
 
-By March 2007 the language and implementation had matured to “F\# 1.9”, and I presented an F\# update and lecture at the internal tradeshow MSR TechFest in Redmond.\footnote{\textit{F\# 1.9 almost ready}, Don Syme, March 2007, \url{https://web.archive.org/web/20190130123857/https://blogs.msdn.microsoft.com/dsyme/2007/03/04/f-1-9-almost-ready/}}
+By March 2007 the language and implementation had matured to “F\# 1.9”, and I presented an F\# update and lecture at the internal tradeshow MSR TechFest in Redmond \citep{RefF19}.
 
 \begin{verbquote}
-In 2 hours I'm flying off to TechFest 2007 in Redmond. ... James Margetson, myself and other members of the F# community
-will be presenting a booth on F#, highlighting how the language has both matured to be an incredibly useful tool and how it is
-also acting as a vehicle for innovative applied functional programming research.
+In 2 hours I'm flying off to TechFest 2007 in Redmond. ... James Margetson, myself and other members of the F# community will be presenting a booth on F#, highlighting how the language has both matured to be an incredibly useful tool and how it is also acting as a vehicle for innovative applied functional programming research.
 \end{verbquote}
 
 
@@ -1636,7 +1639,7 @@ Windows Server. Emails about F\# from these companies were forwarded to manageme
 then Chief Research and Strategy Office, and presentations given to Mundie, Anders Hejlsberg and Steve Ballmer.
 In August 2007, the Applied Games Group at MSR Cambridge featuring Ralf Herbrich, Thore Graepel and Phil
 Trelford won a company-wide machine learning competition for predicting ad clicks using F\#.  Burton Smith and
-Dave Wecker were strong advocates in Redmond. On August 30, 2007, Craig Mundie sent this email:\footnote{Private email, Thu 30/08/2007 23:34}
+Dave Wecker were strong advocates in Redmond. On August 30, 2007, Craig Mundie sent this email \citep{RefPrivateEmailSoma}:
 \begin{verbquote}
 Thanks.  We are going to proceed with the productization of F#.  S. Somasegar will drive that to happen now.
 \end{verbquote}
@@ -1678,7 +1681,11 @@ Iron Ruby and Iron Python: these projects were both compatriots but also competi
 resources. Likewise, a large project to add Software Transactional Memory to .NET had started, partly
 at the instigation of MSR. Amidst the Global Financial Crash and its aftermath, Microsoft cut its workforce
 by 5,000 in January 2009, and projects across the board were at risk, and many were cancelled, right
-through to 2014.\footnote{\textit{Microsoft’s Experiments with Software Transactional Memory Have Ended},Jonathan Allen, \url{https://web.archive.org/web/20160414023301/http://www.infoq.com/news/2010/05/STM-Dropped}}\footnote{\textit{Microsoft cuts loose Iron languages}, Gavin Clarke, October 2010, \url{https://web.archive.org/web/20191221152303/https://www.theregister.co.uk/2010/10/22/microsoft_kills_dynamic_languages_projects/}}\footnote{\textit{Microsoft drops Dryad; puts its big-data bets on Hadoop}, Mary Jo Foley, November 2011,  \url{https://web.archive.org/web/20180327103628/http://www.zdnet.com/article/microsoft-drops-dryad-puts-its-big-data-bets-on-hadoop/}}\footnote{\textit{Microsoft to close Microsoft Research lab in Silicon Valley}, Mary Jo Foley, September 2014, \url{https://web.archive.org/web/20170719170224/http://www.zdnet.com/article/microsoft-to-close-microsoft-research-lab-in-silicon-valley/}}
+through to 2014.\footnote{\textit{Microsoft’s Experiments with Software Transactional Memory Have Ended} \citep{RefSTMEnds}}
+\footnote{\textit{Microsoft cuts loose Iron languages}, \citep{RefIronCut}}
+\footnote{\textit{Microsoft drops Dryad; puts its big-data bets on Hadoop} \citep{RefDryadCut}}
+\footnote{\textit{Microsoft to close Microsoft Research lab in Silicon Valley} \citep{RefSVCut}}.
+
 In addition, .NET itself began to be seen less purely positively as it reached some limits of its applicability, discussed below.
 
 Further, Microsoft programming products appealed to a relatively conservative end of the programming industry: would
@@ -1693,7 +1700,7 @@ to cut it: F\# couldn’t realistically be presented as a replacement for C\#, C
 A key factor was the “designer” tooling in these toolchains: this tooling was expensive to build and maintain and undergoing continual
 churn as user interface technologies changed. It was decided early that it was not realistic to make this tooling available for F\# 2.0.
 Management had communicated early that F\# would be a “first-class language in Visual Studio” , implying to some that all Visual Studio
-tooling would be made to work with F\# on par with C\#.\footnote{\textit{F\#---A Functional Programming Language}, S. Somasegar, October 2007, \url{https://web.archive.org/web/20190117172524/https://blogs.msdn.microsoft.com/somasegar/2007/10/17/f-a-functional-programming-language/}}
+tooling would be made to work with F\# on par with C\# \citep{RefSomaBlog}.
 The dissonance between these positions caused frustration amongst users dependent on Microsoft for
 tooling.\footnote{This issue was only really properly resolved by the major improvements in F\# tooling in 2017 and a reduction in emphasis on “Visual” programming in the Microsoft product line-up around the same time.}
 
@@ -1709,7 +1716,7 @@ language when equipped with suitable libraries.  Books such as F\# for Scientist
 with the finance industry. Universities such as DTU and University of Copenhagen started adopting F\# for their functional programming courses,
 and Michael Hansen authored a coursebook \textit{Functional Programming Using F\#} \citep{Hansen2011}.
 In bio-tech, F\# was being used for DNA analysis at the Joint Genome
-Institute.\footnote{\textit{F\# helps show we’re not Neanderthals}, Don Syme, December 2006, \url{https://web.archive.org/web/20190121122515/https://blogs.msdn.microsoft.com/dsyme/2006/12/05/f-helps-show-were-not-neanderthals/}}  The association between functional languages and
+Institute \citep{RefNeanderthals}.  The association between functional languages and
 “mathematical-style programming” has long held currency, and, while I tried hard to avoid it, this epithet continued to
 apply to F\# for some time.\footnote{It was finally de-emphasized around 2015 once F\# developed as an open source, cross
 platform language with a strong web and cloud programming story. F\# today is for programming of all kinds.}
@@ -1718,12 +1725,12 @@ platform language with a strong web and cloud programming story. F\# today is fo
 
 The writing of the first two editions of Expert F\# was crucial in refining the exact details language between 2007 and 2010, as did the
 authoring of the F\# 2.0 Language Specification, written as an informal but rigorous 200 page document in
-the style of the C\# Language Specification and used as the basis for much QA work.\footnote{\textit{The F\# Language Specification}, Don Syme et. al, \url{https://web.archive.org/web/20200225234105/https://fsharp.org/specs/language-spec/}}
+the style of the C\# Language Specification and used as the basis for much QA work \citep{RefLangSpec}.
 While writing this book and through the process of ``proofing'' the language I'd formed the strong impression that F\# code was succinct: F\# code was consistently
 3x-10x shorter than corresponding C\# code at that time -- experienced when simply translating across code samples, using the same .NET libraries.\footnote{Fully
 controlled comparisons of succinctness are difficult but one later analysis of two teams using F\# and C\# to implement similar systems was performed
 by Simon Cousins, revealing a reduction in implementation size from 350,000 lines of code (C\#) to 30,000 (F\#) in the context of a delivered
-project, see \textit{Does the Language You Use Make a Difference (revisited)?} \url{https://web.archive.org/web/20160812070612/http://simontylercousins.net/does-the-language-you-use-make-a-difference-revisited/}}
+project \citep{RefLangDiff}.}
 
 
 During this time, literally thousands of design suggestions poured in via \texttt{fsbugs@microsoft.com}, a very direct channel between team and
@@ -1737,7 +1744,7 @@ but the quality of the language specification, design, implementation and tools 
 
 On April 12, 2010, with a volcano in Iceland, and after an arduous two years that put considerable strain on all involved, the first officially
 supported version of “Visual F\# 2.0” was released as part of Visual Studio
-2010.\footnote{This day is celebrated as “F\# Day” in the F\# community. \url{https://web.archive.org/web/20170701200243/http://fsharpforfunandprofit.com/posts/happy-fsharp-day/}}
+2010 \citep{RefFSharpDay}.
 In practice “Visual” F\# was a misnomer: we had supplied a strongly-typed, code-oriented functional programming language
 suitable for adoption in the Windows ecosystem.  This was a great step forward and raised the profile of strongly-typed functional
 programming in the industry. However, more was going to be needed. 
@@ -1750,7 +1757,7 @@ One significant feature was added to the language in 2009: units of measure chec
 work was initiated by Andrew Kennedy, a researcher at MSR Cambridge whose PhD thesis had shown how to integrate
 unit inference with Hindley-Milner type inference \citep{Kennedy1995}. In late 2007 Kennedy began to prototype, and on
 December 10, 2007 sent links internally to a working version, refined over the next year and made available in preview
-release on August 29, 2008.\footnote{\textit{The F\# September 2008 CTP is now available!} \url{https://web.archive.org/web/20190125230131/https://blogs.msdn.microsoft.com/dsyme/2008/08/29/the-f-september-2008-ctp-is-now-available/}}
+release on August 29, 2008 \citep{Ref2088CTP}.
 In the context of the Microsoft TCI, adding unit inference aligned with other goals, and it
 is also an elegant, powerful and non-intrusive feature yet to be rivalled in other languages.
 
@@ -1887,8 +1894,7 @@ providers, developing applications of type providers potentially relevant to the
 Microsoft Dynamics CRM and Windows WMI computer management information and presenting at MSR TechFest 2012 and
 2013.\footnote{Ross McKinlay is also famous in the F\# community for humorous applications of F\# type providers
 including encoding “choose your own adventure” games in the autocomplete-menus made available to the programme
-via the compile-time meta-programming machinery that integrates with the IDE. \textit{Choose Your Own Adventure
-Type Provider}, Ross McKinlay, July 2013, \url{https://web.archive.org/web/20170506071823/http://www.pinksquirrellabs.com/post/2013/07/29/Choose-Your-Own-Adventure-Type-Provider.aspx}}
+via the compile-time meta-programming machinery that integrates with the IDE \citep{RefChoose}.}
 
 On release of F\# 3.0 on September 12, 2012,  F\# type providers immediately became a significant part of the F\# ecosystem, confirmed with the later creation of the FSharp.Data library of commonly-used type providers for XML, CSV and HTML data by Tomas Petricek and Gustavo Guerra.  Other applications of type providers include:
 
@@ -1981,12 +1987,12 @@ still controversial, and, in several instances, projects had been open-sourced o
 after.  “Going open” was thus still risky and needed to be explained carefully. 
 
 On November 11, 2010, Microsoft made the first release of the F\# source under an OSI-approved
-license (Apache 2.0), placing F\# in the vanguard of changes that would soon be embraced more widely.\footnote{\textit{Announcing the F\# Compiler + Library Source Code Drop}, Don Syme, November 2010, \url{https://web.archive.org/web/20190513075912/https://blogs.msdn.microsoft.com/dsyme/2010/11/04/announcing-the-f-compiler-library-source-code-drop/}}
+license (Apache 2.0), placing F\# in the vanguard of changes that would soon be embraced more widely \citep{RefCodeDrop}.
 Even more importantly, on April 3, 2014 Microsoft started accepting contributions to F\#, which again “led the way” in embracing
-a full open-engineering process.\footnote{\textit{Facilitating Open Contributions for the F\# Compiler, Library and Visual F\# Tools}, Microsoft Corporation, April 2014, \url{https://web.archive.org/web/20190117170952/https://blogs.msdn.microsoft.com/fsharpteam/2014/04/03/facilitating-open-contributions-for-the-f-compiler-library-and-visual-f-tools/}}
+a full open-engineering process \citep{RefOpenContrib}.
 At Microsoft, Kevin Ransom and Lincoln Atkinson were key team members who made the transition to open source, open engineering and open design possible.
 This also enabled a corresponding shift towards open-design and, with F\# 4.0, the
-language shifted to an open and transparent design process.\footnote{\textit{F\# Language Design RFCs}, retrieved 31 August 2019, \url{https://web.archive.org/web/20190121121629/https://github.com/fsharp/fslang-design/}}
+language shifted to an open and transparent design process \footnote{\textit{F\# Language Design RFCs}, \citep{RefRFCs}.}
 The language design process and RFCs are now run through the FSSF under the guidance of myself, Phillip Carter (program manager for F\# at Microsoft) and Chet Husk.
 
 
@@ -2001,20 +2007,19 @@ selling services, rather than on selling packaged software and tools. C\#, .NET 
 has many contributors. Currently hosting over 120,000 packages, with nearly 10 billion package downloads, the NuGet
 package ecosystem is rapidly growing to be one of the largest and most comprehensive in the world.  The open source ``Paket''
 client has been a popular way to access this ecosystem for F\#
-developers\footnote{Paket: a dependency manager for .NET, retrieved 31 August 2019, \url{https://web.archive.org/web/20191207100955/https://fsprojects.github.io/Paket/}}, and
+developers \citep{RefPaket}, and
 the open source FAKE build scripting tool---where the build scripts are written in F\#---has been a “gateway drug” for the adoption of the language, allowing its
-incremental adoption without rewriting the core of the project code.\footnote{\textit{F\# Make: a DSL for Build Tasks and more}, retrieved 31 August 2019, \url{https://web.archive.org/web/20191106010037/https://fake.build/}}
+incremental adoption without rewriting the core of the project code \citep{RefFAKE}.
 
 \section*{The F\# Compiler as a Component}
 
 In 2014 a technical breakthrough was made with the creation of the FSharp.Compiler.Service (FCS) package by
-Tomas Petricek, Ryan Riley, and Dave Thomas with many later contributors.\footnote{\textit{F\# Compiler Services}, retrieved 31
-August 2019, \url{https://web.archive.org/web/20190829011402/http://fsharp.github.io/FSharp.Compiler.Service/}}
+Tomas Petricek, Ryan Riley, and Dave Thomas with many later contributors \citep{RefFCS}.
 This contains the core implementation of the F\# compiler, editor tooling and scripting engine in the form of a single library and can be used to make F\# tooling
 for a wide range of situations.  This has allowed F\# to be delivered into many more editors, scripting and documentation
 tools and allowed the development of alternative backends for F\#.   Key editor community-based tooling includes
 Ionide, by Krzysztof Cieślak and contributors, used for rich editing support in the cross-platform VSCode editor, with over 1M downloads at time
-of writing.\footnote{\textit{Ionide---A Visual Studio Code package suite for cross platform F\# development}, retrieved 31 August 2019, \url{https://web.archive.org/web/20191224203325/http://ionide.io/}}
+of writing \citep{RefIonide}.
 
 The FSharp.Compiler.Service component is a key enabler for consistent, performant cross-platform F\# language tooling in many different settings and
 has few parallels amongst statically-typed  functional languages even today. It enables the F\# community to have the same set of language features working
@@ -2026,9 +2031,9 @@ similarly across different editors and on all platforms and also acts as a basis
 
 The F\# community was initially sustained through hubFS.net forums (2005), created by Chris Barwick under the
 pseudonym “optionsScalper”. The online Community for F\# (2007) was created by Ryan Riley which runs the
-an F\# Heroes program.\footnote{\textit{Community for F\# Heroes} \url{https://web.archive.org/web/20191225110926/https://c4fsharp.net/\#heroes}}
+an F\# Heroes program \citep{RefCommunityFSharp}.
 SkillsMatter London meetup in 2012 propelled the growth of the F\# community in the UK and Europe, and by 2018
-over 50 F\# meetup groups have been created worldwide.\footnote{\textit{F\# User Groups and Meetups}, retrieved 31 August 2019, \url{https://web.archive.org/web/20191225110926/http://community.fsharp.org/user_groups}}
+over 50 F\# meetup groups have been created worldwide \citep{RefMeetupds}.
 Community-run F\# conferences include openfsharp, F\# Exchange, F\# Europe and fableconf, and F\# material is regularly presented at both .NET-friendly and functional-friendly conferences. In 2011 the hubFS forums were replaced by FPish.net, implemented by Adam Granicz and others at IntelliFactory. 
 
 \begin{wrapfigure}{R}{0.4\textwidth}
@@ -2057,18 +2062,18 @@ the F\# community now had a strong self-defining voice that could collect social
 the use of F\# and help guide community engineering efforts. As a result, F\# evangelism began to be more effective. One result of
 the community’s more active role in evangelizing F\# was the creation of “F\# for Fun and Profit” by Scott Wlaschin, an impressive
 collection of didactic material about functional programming concepts and practical F\# topics that has been very influential
-in the F\# community\footnote{\textit{F\# for Fun and Profit} \url{https://web.archive.org/web/20191221145120/https://fsharpforfunandprofit.com/}}.
+in the F\# community \citep{RefFunAndProfit}.
 
 
 The FSSF now has over 2000 members and owns fsharp.org and github.com/fsharp. The FSSF is now at the heart of the F\# community
 and works with community stakeholders on F\# education, diversity, tooling, governance, mentorship, conference and software
 initiatives.  The suggestions, RFCs and other documents related to the F\# language design process are hosted by the
-FSSF.\footnote{See \textit{F\# Language Design RFCs}, retrieved 31 August 2019, \url{https://web.archive.org/web/20190121121629/https://github.com/fsharp/fslang-design/} and \textit{F\# Language Suggestions}, retrieved 31 August 2019, \url{https://web.archive.org/web/20190121121627/https://github.com/fsharp/fslang-suggestions/}}
+FSSF \citep{RefRFCs, RefLangSuggestions}.
 
 \section*{.NET Core: Microsoft take C\#, F\# and .NET Cross-Platform}
 
-The question of cross-platform support for .NET was present from the start: even the shared source release of 2004 was
-cross-platform.  In the same year, the Mono project was launched by Miguel de Icaza and others to implement a fully open-source and
+The question of cross-platform support for .NET was present from the start: even the Rotor shared source release of 2004 was
+cross-platform.  In 2001, the Mono project had been launched by Miguel de Icaza \cite{RefMono} and others to implement a fully open-source and
 cross-platform version of .NET. F\# ran successfully on Mono since 2006.  
 
 In 2016, Microsoft released a fully open-source and cross-platform implementation of .NET called .NET Core.  Since 2017, F\# support
@@ -2108,7 +2113,7 @@ open-source full-stack programming toolkit using F\# as its primary programming 
 In 2015 the F\# community also developed Fable, another JavaScript implementation of F\#, for web development
 in the JS/Node ecosystem \citep{GarciaCaro2018}. At the time of writing, Fable is seeing increasing adoption for web
 programming.  Fable became a key part of SAFE-Stack, a “full stack” solution for F\# that incorporates web client, server and cloud
-computing.\footnote{\textit{SAFE Stack, An end-to-end functional-first stack for cloud-ready web development that emphasizes type-safe programming}, retrieved 31 August 2019,  \url{https://web.archive.org/web/20191207093456/https://safe-stack.github.io/}}
+computing \citep{Abraham2020}.
 
 
 \section*{Retrospective}
@@ -2125,11 +2130,10 @@ now so common as to be industry-standard for new language efforts.
 
 Programming languages get used for many purposes, and it would be impossible to do justice to the many fascinating
 things people have done with F\#.  A key aspect of the early work of the FSSF was to collect and communicate
-“social proof” about the effectiveness of F\# through testimonials.\footnote{\textit{F\# Testimonials}, \url{https://web.archive.org/web/20191225110939/https://fsharp.org/testimonials/}}
+“social proof” about the effectiveness of F\# through testimonials \citep{FSharpTestimonials}.
 Three uses are, however, particularly striking.
 First, F\# was used to implement LIQUi|> (“Liquid”), a quantum simulator for F\#, by Dave Wecker and Microsoft
-Quantum Computing.\footnote{\textit{LIQUi|>, The Language Integrated Quantum Operations Simulator}, 2019, \url{https://web.archive.org/web/20190818095124/http://stationq.github.io/Liquid/}}
-  Second, F\# was used in conjunction with Rhinoceros3D to construct the digital 3D model
+Quantum Computing.\citep{RefLiquid}. Second, F\# was used in conjunction with Rhinoceros3D to construct the digital 3D model
 used in the manufacturing of the cladding of the Louvre Abu Dhabi Dome, a picture of which is included in Figure~\ref{fig:fig4}.
 Thirdly, F\# was the primary language used at Jet.com, a start-up subsequently acquired by Walmart at a valuation
 of over \$3B, and the first “unicorn” built using the Azure cloud platform. These alone constitute success for
@@ -2147,7 +2151,7 @@ Since around 2007 strongly-typed functional programming has shifted from relativ
 in programming. C\#, Java, C++, Scala, Kotlin, Swift, Rust and TypeScript now all include elements of
 strongly-typed FP, and Apple executives extolled functional features at the launch of Swift in 2014, including
 pattern matching, generics, option types, type inference, tuples and closures,
-something unthinkable in 2005.\footnote{\textit{Swift introduction}, Apple WWDC 2014, \url{https://www.youtube.com/watch?v=MO7Ta0DvEWA}} Haskell,
+something unthinkable in 2005 \citep{RefSwift}. Haskell,
 F\# and OCaml have all grown in use, and newcomers such as Elm and ReasonML are also finding good adoption.
 
 What caused this shift? Some factors have been touched on in this paper---for example, the relative decline of
@@ -2164,32 +2168,33 @@ way since 1997, and Wadler’s question “Why no one uses functional programmin
 The most obvious direct influence of F\# has been on C\#. C\# 2.0 (generics) was based on preliminary work
 by myself and others working on precursors to F\#, specifically with the intent of supporting ML-family
 languages on .NET. C\# 3.0 (“var x = ...”), C\# 5.0 (tasks/async), C\# 7.0 (tuples, pattern matching),
-C\# 8.0 (enhanced pattern matching) and C\# 9.0 (non-null pointers as the default) were all heavily influenced by F\#.\footnote{\textit{Why you should use F\#}, Mads Torgersen and Phillip Carter, Microsoft \url{https://web.archive.org/web/20190910125556/https://channel9.msdn.com/Events/Build/2017/T6064}} Given that C\# is one of
+C\# 8.0 (enhanced pattern matching) and C\# 9.0 (non-null pointers as the default) were all heavily influenced by F\# \citep{RefUseFSharp}. Given that C\# is one of
 the most widely adopted languages today, and underwent rapid iteration in the 2000s\footnote{The language designs of Java, C++, JavaScript and Python
 all progressed during this time, but to a lesser extent than C\#.}, it is reasonable to
 claim that the presence of F\# within the Microsoft Developer Division played an important role as a bridge
 between the stream of ideas that constitute “functional programming” and C\#.   That said, the ideas have
 flowed both ways, with F\# also influenced by C\# 1.0 (objects, properties, events), C\# 3.0 (LINQ) and C\# 7.0 (Span).
 There have also been influences on C\# from other sources such as Icon (C\# 2.0 Iterators), Python (C\# 4.0 Dynamic) and
-the internal projects Axum by Gustafsson et al.\footnote{\textit{Axum (programming language)}, \url{https://web.archive.org/web/20200220231711/https://en.wikipedia.org/wiki/Axum_(programming_language)}}  (C\# 5.0 state machine compilation of async) and M\#  (C\# 7.0 Span).\footnote{\textit{Blogging about Midori}, Joe Duffy, November 2015, \url{https://web.archive.org/web/20200219174648/http://joeduffyblog.com/2015/11/03/blogging-about-midori/}} 
+the internal projects Axum by Gustafsson et al. \citep{RefAxum}.
 
 The addition of first-class events and compositional event-combinator programming to F\# influenced directly the initiation
 of the Rx project, a reactive-functional programming toolkit now re-implemented as a pattern in multiple languages
-including Rx.JS.\footnote{\textit{F\# First Class Events: Simplicity and Compositionality in Imperative Reactive Programming}, Don Syme, March 2006, \url{https://web.archive.org/web/20190205134026/https://blogs.msdn.microsoft.com/dsyme/2006/03/23/f-first-class-events-simplicity-and-compositionality-in-imperative-reactive-programming/}}.   The early influence of F\# here was recounted informally to me by Wes Dyer. 
+including Rx.JS \citep{RefFirstClassEventsBlog}.  The early influence of F\# here was recounted informally to me by Wes Dyer. 
 
 Other direct influences of F\# on languages are harder to measure: language designers tend to be coy about their
 influences both direct and indirect. Both Elixir and Elm use the \texttt{|>} operator and there are ways to emulate that operator
 in other languages such as Scala and R. The Scala designer, Martin Odersky, was intimately aware of F\# throughout
 its history in his role on the MSR Cambridge Technical Advisory Board and EPFL research includes efforts to
 bring F\# type providers to Scala \citep{Burmako2013}.  The apparent influence of F\# on the
-creation of Scala extractors was mentioned earlier in this article. Swift seems to have been influenced
+creation of Scala extractors was mentioned earlier in this article and Scala 3.0 later adopted indentation-aware 
+syntax. Swift seems to have been influenced
 by F\#, and Kotlin seems to use C\#, F\# and other languages as reference points.  Rust seems to have been
 influenced by OCaml, and the author Graydon Hoare refers to F\# extensively when discussing “What’s Next” after
-Rust.\footnote{\textit{What next?}, Graydon Hoare, August 2017, \url{https://web.archive.org/web/20200309171904/https://graydon.livejournal.com/256533.html}}
+Rust \citep{RefGraydon}.
 TypeScript was directly influenced by F\#: one of the originators of TypeScript was
 Luke Hoban, who began TypeScript (then called Strada) immediately after working on F\# 2.0. Recently
 he noted the influence of F\# on early parts of the TypeScript
-design.\footnote{\textit{The first TypeScript demo}, Luke Hoban, October 2017, \url{https://web.archive.org/web/20181112134112/https://hackernoon.com/the-first-typescript-demo-905ea095a70f?gi=519980eb03ee}} The
+design \citep{RefTypeScriptDemo}. The
 extent and nature of this influence is a matter of debate, but it is my opinion that TypeScript is firmly based on positive experience of advanced type checking and inference
 in the context of F\#, and would not have appeared from a Microsoft team in anything close to its current form without the influence of F\#.
 
@@ -2290,7 +2295,7 @@ stylistic reasons: code using them is very rare but also incomprehensible.
 
 As a language design, F\# has many opportunities to evolve, and over 200 active language
 suggestions are recorded on the “F\# Language Suggestions” site that forms part of the
-official FSSF language design process.\footnote{\textit{F\# Language Suggestions}, retrieved 31 August 2019, \url{https://github.com/fsharp/fslang-suggestions/}}
+official FSSF language design process \citep{RefLangSuggestions}.
 Two of the most popular suggestions are type classes
 and higher kind type parameterization. However, in both cases I’ve indicated an unwillingness
 to add this feature to F\# without also adding a matching feature to C\#, partly to avoid a
