@@ -1419,19 +1419,19 @@ F\# CEs can also be configured for comprehension (or ``monoidal'') syntax. In th
     member Zero: M<'T>
 \end{verbatim}
 The minimum needed to warrant the name ``comprehension'' is \texttt{For} and \texttt{Yield}.
-Note these have a \texttt{For} method, which means \texttt{for x in xs  ...} is allowed in the syntax, so the CE uses \texttt{for x in xs ...} for binding.
-It does \emph{not} use \texttt{let!} for binding: the computational structure is not being treated as a monad (\texttt{let!}), but a comprehension (\texttt{for}).
+Note these have a \texttt{For} method, which means \texttt{for} is allowed in the syntax.
+The CE does \emph{not} use \texttt{let!} for binding: the computational structure is not being treated as a monad (\texttt{let!}), but a comprehension (\texttt{for}).
 This allows F\# to achieve notational
 similarity between the process of iterating a list and generating results (imperatively), and
-a list comprehension that iterates a list and combines results (functionally).
+a list comprehension that iterates a list and combines results (functionally), an example is given below.
 
-For those familiar with Haskell, it is natural to think of this as offering a notation for things that in Haskell logically
-correspond to \texttt{MonadPlus} \citep{RefMonadPlus} instances.  Here’s how the Haskell terminology maps across:
+For those familiar with Haskell, it is natural to think of this as offering a corresponding notation for 
+\texttt{MonadPlus} \citep{RefMonadPlus} instances.  Here’s how the Haskell terminology maps across:
 \begin{itemize}
 \item The MonadPlus \verb!>>=! (bind) corresponds to the \texttt{for} syntax and de-sugars to the \texttt{For} method;
 \item The MonadPlus \texttt{mplus} corresponds to sequential composition \texttt{$e_1$; $e_2$} syntax (perhaps on two aligned lines with no semicolon), and de-sugars to the \texttt{Combine} method;
 \item The MonadPlus \texttt{return} corresponds to \texttt{yield} syntax and de-sugars to the \texttt{Yield} method;
-\item The MonadPlus \texttt{mzero} is implicit (eg. on the empty else branch of an if/then) and de-sugars to the \texttt{Zero} method.
+\item The MonadPlus \texttt{mzero}  is implicit, e.g. on the empty else branch of an if/then and de-sugars to the \texttt{Zero} method.
 \end{itemize}
 As an example, consider the use of the mechanism for the “seq” computation expression, for (on-demand) sequence comprehensions. 
 \begin{verbatim}
@@ -1451,11 +1451,11 @@ Note the notational similarity to the imperative code:
       printfn "zero"
       for a in data do
          match a with
-         | 2 -> printfn "%s" a.ToString() 
+         | 2 -> printfn "%d" a
          | 3 -> printfn "hello"; printfn "world"
          | _ -> () 
 \end{verbatim}
-To change from imperative side-effects to functional data generation has required just the addition of \texttt{seq \{ .. \}} and replacing \texttt{yield} by the I/O operation \texttt{printfn}.
+To change from imperative side-effects to functional data generation has required just the addition of \texttt{seq \{ .. \}} and replacing the I/O operation \texttt{printfn} by \texttt{yield}.
 The data-generating code is de-sugared to:
 \begin{verbatim}
     let data = [ 1 .. 5 ]
@@ -1476,6 +1476,7 @@ which evaluates to an overall sequence:
 \begin{verbatim}
     [ "zero"; "1"; "2"; "hello"; "world"; "4"; "5"] 
 \end{verbatim}
+An optimizing phase is applied in the F\# compiler to reduce this to a state machine.
 As a second example, the F\# equivalent of the Haskell list comprehension
 \begin{verbatim}
     [ N | x <- L; y <- M ]  
