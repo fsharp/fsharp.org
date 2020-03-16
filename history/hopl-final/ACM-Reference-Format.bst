@@ -34,6 +34,7 @@ ENTRY
     institution
     journal
     key
+    location
     month
     note
     number
@@ -425,6 +426,44 @@ FUNCTION { output.coden }       % UTAH
   if$
 }
 
+%
+% Sometimes articleno starts with the word 'Article' or 'Paper.
+% (this is a bug of acmdl, sigh)
+% We strip them.  We assume eid or articleno is already on stack
+%
+
+FUNCTION { strip.articleno.or.eid }
+{
+  't :=
+  t #1 #7 substring$ "Article" = 
+    {t #8 t text.length$ substring$ 't :=}
+    { }
+  if$
+  t #1 #7 substring$ "article" = 
+    {t #8 t text.length$ substring$ 't :=}
+    { }
+  if$
+  t #1 #5 substring$ "Paper" = 
+    {t #6 t text.length$ substring$ 't :=}
+    { }
+  if$
+  t #1 #5 substring$ "paper" = 
+    {t #6 t text.length$ substring$ 't :=}
+    { }
+  if$
+  % Strip any left trailing space or ~
+  t #1 #1 substring$ " " =
+    {t #2 t text.length$ substring$ 't :=}
+    { }
+  if$ 
+  t #1 #1 substring$ "~" =
+    {t #2 t text.length$ substring$ 't :=}
+    { }
+  if$
+  t 
+}
+
+
 FUNCTION { format.articleno }
 {
   articleno empty.or.unknown not eid empty.or.unknown not and
@@ -440,20 +479,20 @@ FUNCTION { format.articleno }
           { }
         if$
         eid empty.or.unknown
-          { "Article \bibinfo{articleno}{" articleno * "}" * }
-          { "Article \bibinfo{articleno}{" eid * "}" * }
+          { "Article \bibinfo{articleno}{" articleno strip.articleno.or.eid * "}" * }
+          { "Article \bibinfo{articleno}{" eid strip.articleno.or.eid * "}" * }
         if$
      }
   if$
 }
 
 FUNCTION { format.year }
-{ % push year string or "[n. d.]" onto output stack
+{ % push year string or "[n.\,d.]" onto output stack
   %% Because year is a mandatory field, we always force SOMETHING
   %% to be output
   "\bibinfo{year}{"
   year empty.or.unknown
-    { "[n. d.]" }
+    { "[n.\,d.]" }
     { year }
   if$
   *  "}" *
@@ -506,15 +545,14 @@ FUNCTION { strip.doi } % UTAH
   % result on the output stack, as recommended by CrossRef DOI
   % documentation.
   % For example, reduce "http://doi.acm.org/10.1145/1534530.1534545" to
-  % "10.1145/1534530.1534545".  That is later typeset and displayed as
-  % doi:10.1145/1534530.1534545 as the LAST item in the reference list
-  % entry.  Publisher Web sites wrap this with a suitable link to a real
-  % URL to resolve the DOI, and the master https://doi.org/ address is
-  % preferred, since publisher-specific URLs can disappear in response
-  % to economic events.  All journals are encouraged by the DOI
-  % authorities to use that typeset format and link procedures for
-  % uniformity across all publications that include DOIs in reference
-  % lists.
+  % "10.1145/1534530.1534545".  A suitable URL is later typeset and
+  % displayed as the LAST item in the reference list entry.  Publisher Web
+  % sites wrap this with a suitable link to a real URL to resolve the DOI,
+  % and the master https://doi.org/ address is preferred, since publisher-
+  % specific URLs can disappear in response to economic events.  All
+  % journals are encouraged by the DOI authorities to use that typeset
+  % format and link procedures for uniformity across all publications that
+  % include DOIs in reference lists.
   % The numeric prefix is guaranteed to start with "10.", so we use
   % that as a test.
   % 2017-02-04 Added stripping of https:// (Boris)
@@ -679,16 +717,15 @@ FUNCTION { output.eprint } %
            }
            { "[" archiveprefix "l" change.case$ "]" * * * }
          if$
-         "{" *
+	 "{" eprint "}" * * *
          primaryclass empty.or.unknown
            { eprintclass empty.or.unknown
              { }
-             { eprintclass "/" * * }
+             { "~[" eprintclass "]" * * * }
              if$
            }
-           { primaryclass "/" * * }
+           { "~[" primaryclass "]" * * * }
          if$
-         eprint "}" * *
          writeln
     }
   if$
@@ -733,7 +770,7 @@ FUNCTION { output.year.check }
   year empty.or.unknown
      { "empty year in " cite$ * warning$
        write$
-       " \bibinfo{year}{[n. d.]}"
+       " \bibinfo{year}{[n.d.]}"
        "\natexlab{" extra.label * "}" * *
        mid.sentence 'output.state :=
      }
@@ -1233,6 +1270,8 @@ FUNCTION { format.btitle }
 FUNCTION { format.emphasize.booktitle }
 { booktitle format.a.title.with.edition }
 
+
+
 FUNCTION { format.city }
 {
   % jtb: if the preceding string (the title of the conference) is non-empty,
@@ -1242,7 +1281,7 @@ FUNCTION { format.city }
   duplicate$ empty.or.unknown
     { }
     {
-      city empty.or.unknown
+      city empty.or.unknown location empty.or.unknown and
         {
           date empty.or.unknown
             { }
@@ -1250,9 +1289,19 @@ FUNCTION { format.city }
           if$
         }
         {
-          date empty.or.unknown
-            { " (" * city * ")" * }
-            { " (" * city * ", " * date * ")" * }
+          location empty.or.unknown
+            {
+              date empty.or.unknown
+                { " (" * city * ")" * }
+                { " (" * city * ", " * date * ")" * }
+              if$
+            }
+            {
+              date empty.or.unknown
+                { " (" * location * ")" * }
+                { " (" * location * ", " * date * ")" * }
+              if$
+            }
           if$
         }
       if$
@@ -1923,7 +1972,7 @@ FUNCTION { calc.basic.label }
   if$
   duplicate$
   year empty.or.unknown
-    { "[n. d.]" }
+    { "[n.d.]" }
     { year field.or.null purify$ #-1 #4 substring$}
   if$
   *
@@ -1971,7 +2020,7 @@ FUNCTION { calc.label }
   % save the year for sort processing afterwards (adding a, b, c, etc.)
   %
   year empty.or.unknown
-    { "[n. d.]" }
+    { "[n.d.]" }
     { year field.or.null purify$ #-1 #4 substring$}
   if$
   'label.year :=
@@ -2339,10 +2388,17 @@ FUNCTION { misc }
   fin.entry
 }
 
-FUNCTION { online } { misc }
+FUNCTION { online } { manual }
 
-FUNCTION { game } { misc }
+FUNCTION { game } { manual }
 
+FUNCTION { artifactsoftware } { manual }
+
+FUNCTION { artifactdataset } { manual }
+
+FUNCTION { software } { manual }
+
+FUNCTION { dataset } { manual }
 
 FUNCTION { phdthesis }
 {

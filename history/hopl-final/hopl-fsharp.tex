@@ -7,7 +7,7 @@
 %% For single-blind review submission, w/ CCS and ACM Reference
 %\documentclass[acmsmall,review]{acmart}\settopmatter{printfolios=true}
 % For final camera-ready submission, w/ required CCS and ACM Reference
-\documentclass[acmsmall]{acmart}\settopmatter{}
+\documentclass[acmsmall,screen]{acmart}
 
 \usepackage{listings,lipsum}
 \usepackage{acmshepherd}
@@ -27,24 +27,19 @@
 %% Journal information
 %% Supplied to authors by publisher for camera-ready submission;
 %% use defaults for review submission.
-\acmJournal{PACMPL}
-\acmVolume{1}
-\acmNumber{HOPL} % CONF = POPL or ICFP or OOPSLA
-\acmArticle{1}
+\setcopyright{rightsretained}
+\acmPrice{}
+\acmDOI{10.1145/3386325}
 \acmYear{2020}
-\acmMonth{1}
-\acmDOI{} % \acmDOI{10.1145/nnnnnnn.nnnnnnn}
+\copyrightyear{2020}
+\acmSubmissionID{hopl20main-p19-p}
+\acmJournal{PACMPL}
+\acmVolume{4}
+\acmNumber{HOPL}
+\acmArticle{75}
+\acmMonth{6}
 \startPage{1}
 
-%% Copyright information
-%% Supplied to authors (based on authors' rights management selection;
-%% see authors.acm.org) by publisher for camera-ready submission;
-%% use 'none' for review submission.
-\setcopyright{none}
-%\setcopyright{acmcopyright}
-%\setcopyright{acmlicensed}
-\setcopyright{rightsretained}
-\copyrightyear{2020}           %% If different from \acmYear
 
 %% Bibliography style
 \bibliographystyle{ACM-Reference-Format}
@@ -105,48 +100,10 @@
   %\city{City1}
   %\state{State1}
   %\postcode{Post-Code1}
-  \country{United Kingdom}                    %% \country is recommended
-}
-\email{don.syme@microsoft.com}          %% \email is recommended
-\affiliation{
-  \position{Technical Advisor}          %% \authornote is optional;
-  %\department{Department1}              %% \department is recommended
-  \institution{F\# Software Foundation}            %% \institution is required
-  %\streetaddress{Street1 Address1}
-  %\city{City1}
-  %\state{State1}
-  %\postcode{Post-Code1}
-  %\country{United Kingdom}                    %% \country is recommended
+  \country{United Kingdom}                  
 }
 \email{donsyme@fastmail.com}          %% \email is recommended
 
-%% Author with two affiliations and emails.
-%\author{First2 Last2}
-%\authornote{with author2 note}          %% \authornote is optional;
-                                        %% can be repeated if necessary
-%\orcid{nnnn-nnnn-nnnn-nnnn}             %% \orcid is optional
-%\affiliation{
- % \position{Position2a}
-  %\department{Department2a}             %% \department is recommended
-  %\institution{Institution2a}           %% \institution is required
-  %\streetaddress{Street2a Address2a}
-  %\city{City2a}
-  %\state{State2a}
-  %\postcode{Post-Code2a}
-  %\country{Country2a}                   %% \country is recommended
-%}
-%\email{first2.last2@inst2a.com}         %% \email is recommended
-%\affiliation{
-  %\position{Position2b}
-  %\department{Department2b}             %% \department is recommended
-  %\institution{Institution2b}           %% \institution is required
-  %\streetaddress{Street3b Address2b}
-%  \city{City2b}
- % \state{State2b}
- % \postcode{Post-Code2b}
- % \country{Country2b}                   %% \country is recommended
-%}
-%\email{first2.last2@inst2b.org}         %% \email is recommended
 
  \shepherd{Philip Wadler, University of Edinburgh}
 
@@ -175,14 +132,24 @@ language with multiple delivery channels.  I conclude by examining some uses of 
 \begin{CCSXML}
 <ccs2012>
 <concept>
-<concept_id>10011007.10011006.10011008</concept_id>
-<concept_desc>Software and its engineering~General programming languages</concept_desc>
+<concept_id>10011007</concept_id>
+<concept_desc>Software and its engineering</concept_desc>
 <concept_significance>500</concept_significance>
 </concept>
 <concept>
 <concept_id>10003456.10003457.10003521.10003525</concept_id>
 <concept_desc>Social and professional topics~History of programming languages</concept_desc>
-<concept_significance>300</concept_significance>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10011007.10011006.10011008.10011009.10011012</concept_id>
+<concept_desc>Software and its engineering~Functional languages</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10011007.10011006.10011008.10011009.10011011</concept_id>
+<concept_desc>Software and its engineering~Object oriented languages</concept_desc>
+<concept_significance>500</concept_significance>
 </concept>
 </ccs2012>
 \end{CCSXML}
@@ -552,7 +519,7 @@ called Gyro.  A poster from MSR’s internal tradeshow “Tech Fest” is shown 
   \includegraphics[width=0.8\linewidth]{fig1.jpg}
   \caption{.NET Generics poster at TechFest 2002, Microsoft Building 33, Redmond}
   \label{fig:fig1}
-
+  \Description[.NET Generics poster at TechFest 2002, Microsoft Building 33, Redmond]{Shows information about .NET Generics - what it is, when it's useful and performance using a simple example.}
 \end{figure}
 
 The key premise of .NET Generics is that generic instantiations can be “managed” by the runtime environment, inclnuding the management of runtime type information
@@ -894,12 +861,15 @@ In March 2005, F\# 1.0 was first demonstrated at “TechFest”, an internal MSR
   \centering
   \begin{subfigure}[b]{0.47\linewidth}
     \includegraphics[width=\linewidth]{fig2a.jpg}
+   \Description{A poster showing information about F\# including its relationship to other languages, its safety properties.}
   \end{subfigure}
   \begin{subfigure}[b]{0.47\linewidth}
     \includegraphics[width=\linewidth]{fig2b.jpg}
+   \Description{A poster showing information about F\# including its relationship to other languages, its safety properties.}
   \end{subfigure}
   \caption{Two posters for F\# 1.0 at MSR TechFest 2005}
   \label{fig:fig2}
+
 \end{figure}
 
 
@@ -931,6 +901,7 @@ user communities grew and trust in the project began to form. The technical addi
   \end{center}
   \caption{The ``DirectX 3D'' demo used in early F\# evangelism}
   \label{fig:directx}
+  \Description[Screenshot of DirectX demo]{Screenshot of DirectX demo used in 2007}
 \end{wrapfigure}
 
 To “proof” the language we turned to some existing OCaml codebases at MSR including the SPiM (Stochastic Pi Machine), Static Driver Verifier
@@ -1359,7 +1330,8 @@ they are designed to be visibly different notational forms compared to their res
 
 
 From a technical point-of-view, F\# computation expressions (CEs) are specified as a syntactic de-sugaring of language elements \citep{RefLangSpec}.
-The de-sugaring is done for an overall expression \texttt{\textit{builder} \{ ... \}} where the builder is, for example, \texttt{seq} or \texttt{async}.
+The de-sugaring is done for an overall expression \texttt{\textit{builder} \{ ... \}} where the builder is, for example, \texttt{seq} or \texttt{async},
+which are bound to objects with specific methods, used as described below.
 The following F\#/OCaml control syntax elements can be used in the body of the expression:
 
 \begin{center}
@@ -1373,10 +1345,11 @@ The following F\#/OCaml control syntax elements can be used in the body of the e
  \texttt{return $e$}  & (requires \texttt{Return} method) \\
  \texttt{return! $e$} &  (requires \texttt{ReturnFrom} method) \\
  \texttt{yield $e$}  & (requires \texttt{Yield} method) \\
+ \texttt{$e$}  & (implicit yield, requires \texttt{Yield} method) \\
  \texttt{yield! $e$} &  (requires \texttt{YieldFrom} method) \\
- \texttt{let $pat$ = $e_1$ in $e_2$}  \\
- \texttt{match $e_0$ with $pat_1$ -> $e_1$ | ...} \\
- \texttt{if $e_1$ then $e_2$ else $e_3$} \\
+ \texttt{let $pat$ = $e_1$ in $e_2$}  & (always enabled) \\
+ \texttt{match $e_0$ with $pat_1$ -> $e_1$ | ...}  & (always enabled)  \\
+ \texttt{if $e_1$ then $e_2$ else $e_3$}  & (always enabled)  \\
  \texttt{if $e_1$ then $e_2$} &  (requires \texttt{Zero} method for empty branch) \\
 \end{tabular}
 \end{center}
@@ -1391,11 +1364,11 @@ The full de-sugaring of these constructs is in \citet{RefLangSpec}.  As examples
 \centering
 \begin{tabular}{lll}
 \texttt{let! $pat$ = $e_1$ in $e_2$} & \textrm{is de-sugared to} & \texttt{\textit{builder}.Bind($e_1$, fun $pat$ -> $e_2$)} \\
-\texttt{$e_1$; $e_2$} & \textrm{is de-sugared to} & \texttt{\textit{builder}.Combine($e_1$, $e_2$)}.\footnote{One aspect of computation expressions has been skipped over here, namely the (optional) insertion of computational delays to ensure strict evaluation semantics is followed.  These are covered in \citet{RefLangSpec}.}
+\texttt{$e_1$; $e_2$} & \textrm{is de-sugared to} & \texttt{\textit{builder}.Combine($e_1$, $e_2$)}.
 \end{tabular}
 \end{center}
 
-\noindent Some further examples are given below. Each builder of F\# computation expressions is typically configured for either monadic syntax or comprehension (also called "monoid") syntax. 
+\noindent Some further examples are given below.\footnote{One aspect of computation expressions has been skipped here for simplicity, namely the (optional) insertion of computational delays to ensure strict evaluation semantics is followed.  These are covered in \citet{RefLangSpec}.} Each builder of F\# computation expressions is typically intended for use as either monadic syntax or as comprehension syntax by providing the appropriate methods:
 For the former you typically need the following members on the builder:
 \begin{verbatim}
     member Bind:  M<'T> * ('T -> M<'U>) -> M<'U>
@@ -1411,7 +1384,7 @@ instances.  Here’s how the Haskell terminology maps across:
 This allows async and other monadic code to desugar as shown in the previous section. There are additional optional elements to enrich the syntax. For example you can optionally have
 \texttt{try/with}, \texttt{try/finally}, \texttt{while} and \texttt{for}. 
 
-F\# CEs can also be configured for comprehension (or ``monoidal'') syntax. In this case, the minimal operation signatures are typically this form:
+F\# CEs can also be intended for use as comprehension syntax. In this case, the minimal operation signatures are typically this form:
 \begin{verbatim}
     member For:  M<'T> * ('T -> M<'U>) -> M<'U>
     member Combine: M<'T> * M<'T> -> M<'T>
@@ -1455,8 +1428,8 @@ Note the notational similarity to the imperative code:
          | 3 -> printfn "hello"; printfn "world"
          | _ -> () 
 \end{verbatim}
-To change from imperative side-effects to functional data generation has required just the addition of \texttt{seq \{ .. \}} and replacing the I/O operation \texttt{printfn} by \texttt{yield}.
-The data-generating code is de-sugared to:
+To change from imperative side-effects to functional data generation has required just the addition of \texttt{seq \{ .. \}} and replacing the I/O operation \texttt{printfn} by \texttt{yield} (the
+\texttt{yield} can be implicit). The data-generating code is de-sugared to:
 \begin{verbatim}
     let data = [ 1 .. 5 ]
     seq.Combine(
@@ -1487,43 +1460,27 @@ is
             for y in M do 
               yield N }
 \end{verbatim}
-There’s a short cut to write it on one line if you like:
+The \texttt{yield} can be left implicit, giving this:
 \begin{verbatim}
-    seq { for x in L do for y in M -> N }
+    seq { for x in L do for y in M do N }
 \end{verbatim}
 In either case it de-sugars to
 \begin{verbatim}
     seq.For(L, (fun x -> seq.For(M, (fun y -> seq.Yield(N)))))
 \end{verbatim}
-Expressivity of notation can be determined by assessing what functions can be implemented by a function using one and only
-one instance of the notation, this in F\#:
+Often a term can be written as a single computation expression in F\#, but would require nesting if written as a Haskell comprehension or do expression. For example, 
+consider the F\# computation expression:
 \begin{verbatim}
-    let f (xs: int list) = seq {  ...  }
+    seq { 3
+          for x in xs do (x+1)
+          4 
+          for x in xs do (x+2); 5 }
 \end{verbatim}
-and the Haskell equivalent using only a list comprehension:
-\begin{verbatim}
-    f xs = [  ...  |  ...  ]
-\end{verbatim}
-For example, there is no Haskell definition of the above restricted form that generates
-\begin{verbatim}
-    [ 3; (a1+1); ...  (an+1); 4; (a1+2); 5;  ... ; (an+2); 5 ]
-\end{verbatim}
-from input list \texttt{[ a1 ... an ]} . In F\# the comprehension function is this:
-\begin{verbatim}
-    let f (xs: int list) =
-        seq { yield 3
-              for x in xs do 
-                  yield (x+1)
-              yield 4 
-              for x in xs do
-                  yield (x+2)
-                  yield 5 }
-\end{verbatim}
-This is because in F\# you can ``append'' in comprehension notation in addition to map/yield/filter.
-In Haskell this would use multiple nested instances of the notation:
+In Haskell this would be:
 \begin{verbatim}
     [ 3 ]  ++ [ x+1 | x <- xs ] ++ [ 4 ] ++ [ y | x <- xs, y <- [ x+2, 5 ]  ]
 \end{verbatim}
+which requires multiple nested instances of the notation.
 
 F\# CEs can also be configured in other ways and this is done in practice, e.g. for web programming DSLs or asynchronous sequences.
 The various families of control constructs that could utilize computation expressions were eventually characterized by Petricek
@@ -1873,11 +1830,13 @@ what we felt to be entirely new experiences like:
   \centering
   \begin{subfigure}[b]{0.48\linewidth}
   \includegraphics[width=0.95\linewidth]{tp-freebase.png}
+  \Description{A screen shot of using the Freebase type provider. The autocomplete menu is shown for a data connection indicating the categories of information accessible.}
   \caption{Using the Freebase type provider.}
   \label{fig:freebase}
   \end{subfigure}
   \begin{subfigure}[b]{0.48\linewidth}
   \includegraphics[width=0.95\linewidth]{sql-provider.png}
+  \Description{A screen shot of using the SQL type provider. The autocomplete menu is shown for a data connection indicating the columns of information accessible.}
   \caption{Using a SQL type provider.}
   \label{fig:sql-provider}
   \end{subfigure}
@@ -1900,7 +1859,7 @@ An online demonstrator called Try F\# was produced, funded by Tony Hey in Micros
 included enhanced support for LINQ queries and a range of other improvements and fixes. Sarika Calla, Donna Malayeri
 and Layla Driscoll took on program management responsibilities during this time and Donna acted as team lead.  Joe Palmer, Brian Macnamara, Dmitry
 Lomov, Wonseok Chae and Vlad Matveev were development staff, and Matteo Taveggia, Tao Liu and
-Jack Hu were QA staff (Figure~\ref{fig:team:2012-2014}). In 2011, Tao Liu presented the “F\# design patterns” on Channel 9.
+Jack Hu were QA staff (Figure~\ref{fig:team-2012-2014}). In 2011, Tao Liu presented the “F\# design patterns” on Channel 9.
 Keith Battocchi (2011-13) and Ross McKinlay (2013) worked as contractors for Microsoft Research on applications of type
 providers, developing applications of type providers potentially relevant to the Microsoft product line-up including integrating
 Microsoft Dynamics CRM and Windows WMI computer management information and presenting at MSR TechFest 2012 and
@@ -1925,9 +1884,11 @@ The paper \textit{Types from data---Making structured data first-class citizens 
   \centering
   \begin{subfigure}[b]{0.48\linewidth}
     \includegraphics[width=\linewidth]{team-2012.jpg}
+   \Description{Seven members of team shown outdoors}
   \end{subfigure}
   \begin{subfigure}[b]{0.48\linewidth}
     \includegraphics[width=\linewidth]{team-2014.png}
+   \Description{Four members of team shown  indoors holding photos of others}
   \end{subfigure}
    \caption{Left: The F\# 3.0 Team, May 2012 (Don Syme, Jack Hu, Brian Macnamara, Vlad Matveev, Matteo Taveggia, Tao Liu, Wonseok Chae, Donna Malayeri).
 Right: The F\# 4.0 Team, November 2014  (Lincoln Atkinson, Vlad Matveev, Kevin Ransom, Wonseok Chae), holding photos of 'community heroes' and open source contributors
@@ -2036,6 +1997,11 @@ of writing \citep{RefIonide}.
 The FSharp.Compiler.Service component is a key enabler for consistent, performant cross-platform F\# language tooling in many different settings and
 has few parallels amongst statically-typed  functional languages even today. It enables the F\# community to have the same set of language features working
 similarly across different editors and on all platforms and also acts as a basis for tooling innovation in Ionide.
+
+In 2018 the F\# community collaborated extensively with Microsoft on engineering processes, aligining code-repositories and
+achieving efficient engineering practices.  Kevin Ransom, Phillip Carter, Brett Forsgren and Will Smith participated on the Microsoft side, and
+many contributors from the broader F\# community.  The company Jet Brains also become extensive contributors to the F\# compiler and tools.
+In 2019 Phillip Carter and Will Smith did extensive core performance work on the tooling to allow its use with very large F\# code bases.
 
 \section*{The F\# Community and the F\# Software Foundation }
 
@@ -2154,6 +2120,7 @@ strongly-typed functional programming of a scale undreamt of in 1998.
 \begin{figure}
 
   \includegraphics[width=0.8\linewidth]{fig4.jpg}
+   \Description{A photo of an iconic architectural building with complex dome roof in the sunlight in Abu Dhabi}
   \caption{The Louvre Abu Dhabi---F\# was used for the digital 3D model to manufacture the roof}
   \label{fig:fig4}
 
