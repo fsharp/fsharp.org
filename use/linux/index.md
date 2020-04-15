@@ -1,208 +1,64 @@
 ---
 layout: default
-title: Use F# on Linux | The F# Software Foundation
-headline: Use F# on Linux
+title: Use F# on macOS | The F# Software Foundation
+headline: Use F# on macOS
 ---
 
+### Option 1: Install .Net Core SDK and use your own editor
 
-## Option 1: Install from your Linux distribution's package manager
+Install [.NET Core SDK](https://dotnet.microsoft.com/download). .NET Core is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice. Once that is installed, you can begin using F#!
 
-When being used as .NET language, F# requires a .NET runtime. On Linux this runtime is [Mono](http://www.mono-project.com/) or [.NET Core](https://docs.microsoft.com/en-us/dotnet/).
-Most Linux distributions include a version of Mono in their repositories. However, these versions
-are typically pretty old. Therefore, it is *highly recommended* that you add the official Mono package
-repository to your package manager, as described below. This makes it easy to get updates or uninstall, if 
-required.
+#### Say hello from a F# Script
 
-* [Ubuntu/Mint](#ubuntu)
-* [Debian](#debian)
-* [CentOS/RHEL/Amazon/Fedora](#centos)
-* [Gentoo/Sabayon/Funtoo/Calculate](#gentoo)
+Create a file called `hello.fsx` that looks like this:
 
-Once installed, see [installing a smart editor](#smart-editor) and the [Linux and Cross-Platform Development Guide](/guides/mac-linux-cross-platform).
+```fsharp
+printfn "Hello World from F#"
+```
 
-Note that the Mono runtime is available for a wide variety of CPU architectures, not just x86 and ARM. All
-of these support F#.
+You can compile and run this F# script with the following command:
 
-<br />
-### Ubuntu/Mint
-{: #ubuntu .anchor  }
+```
+dotnet fsi hello.fsx
+```
 
-1. Add the mono repository to your package manager, as detailed [here](http://www.mono-project.com/download/#download-lin-ubuntu). 
+If this is your first time using .NET Core, there will be a short, one-time message about using the .NET SDK. After that, you'll see the following output in your console:
 
-2. Install the `fsharp` package, which will pull in an updated version of Mono, if required.
+```
+Hello World from F#
+```
 
-        sudo apt-get update
-        sudo apt-get install fsharp
+#### Say hello from a F# Console app
 
-This installs the F# compiler `fsharpc` and the F# interactive `fsharpi`. 
+Create a project from a dotnet template with `dotnet new console --language F#`. Build and run it with `dotnet run`. You will see a message saying "Hello World from F#".
 
-<br />
-### Debian
-{: #debian .anchor }
-
-1. Add the mono repository to your package manager, as detailed [here](http://www.mono-project.com/download/#download-lin-debian). 
-
-2. Install the `fsharp` package, which will pull in an updated version of Mono, if required.
-
-        sudo apt-get update
-        sudo apt-get install fsharp
-
-This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`. 
-Please note that the [Debian package](https://tracker.debian.org/pkg/fsharp) tends to be less up-to-date than the packages above.
-
-<br />
-### CentOS/RHEL/Amazon/Fedora
-{: #centos .anchor  }
-
-1. Add the mono repository to your package manager, as detailed [here](http://www.mono-project.com/download/#download-lin-centos)
-1. [Follow these instructions](http://www.mono-project.com/docs/getting-started/install/linux/#centos-7-fedora-19-and-later-and-derivatives). 
-
-2. Then install packages `mono-complete` and `fsharp`.
-
-        sudo yum update
-        sudo yum install mono-complete fsharp
-
-This installs the F# compiler `fsharpc` and and the F# intereactive `fsharpi`. 
+For more information about using F# with command-line tools, see [Get started with F# with the .NET Core CLI](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
 
 
-<br />
-### Gentoo/Sabayon/Funtoo/Calculate
-{: #gentoo .anchor  }
-
-From portage tree:
-
-       emerge fsharp
-
-Alternatively there is an overlay available with current versions of various .NET programs, including F#, FAKE, NuGet and others.
-
-1. Add the "dotnet" overlay from layman. (If you need to set it up, there is a [Manual](http://www.gentoo.org/proj/en/overlays/userguide.xml) on the Gentoo site.)
-   
-       layman -a dotnet 
-   
-2. Now you can build F#.
-   
-       emerge fsharp
-   
-3. (Optional) There are emacs mode and monodevelop bindings, you can chose what you want by setting use flags alike in following example:
-   
-       USE="+emacs -monodevelop" emerge fsharpbinding
-
-<br />
-
-<br />
-## Option 2: Install from source
-
-
-1. Get Mono, the cross-platform, open source .NET runtime implementation used by F#. Preferably use a package from your distribution or Xamarin. If this is not possible, [install from source by following these instructions](https://github.com/mono/mono).
-
-   Note that if you are installing to a private prefix, [follow these instructions](http://mono-project.com/Parallel_Mono_Environments) and ensure `LD_LIBRARY_PATH` includes the "lib" directory of that prefix location and `PKG_CONFIG_PATH` includes the "lib/pkgconfig" directory of that prefix location, e.g.
-   
-        export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/mono/lib/
-        export PKG_CONFIG_PATH=/home/user/mono/lib/pkgconfig/
-
-2. Build and install the F# Compiler (open edition) from source. If using a VM or other memory-constrained system, be aware that errors during compilation may be due to insufficient memory (in particular error 137).
-
-        sudo apt-get install autoconf libtool pkg-config make git automake
-        git clone https://github.com/fsharp/fsharp
-        cd fsharp
-        make
-        sudo make install
-
-   If installing to a different prefix, use the same prefix as for the Mono runtime above.
-
-<br />
-
-
-<br />
-## Other options
-
-<br />
-
-
-<br />
-### Use a Vagrant VM on Windows
-
-To use F# on Linux VMs on Windows, use [F# with Vagrant](http://christoph.ruegg.name/blog/test-csharp-fsharp-on-mono-with-vagrant.html).
-
-<br />
-### Slackware Slackbuild
-
-1. Get Mono Slackbuild from this page [http://slackbuilds.org/repository/14.1/development/mono/](http://slackbuilds.org/repository/14.1/development/mono/) and run :
-
-     ./mono.SlackBuild
-
-2. Get last FSharp Slackbuild from this page [http://slackbuilds.org/repository/14.1/development/fsharp/](http://slackbuilds.org/repository/14.1/development/fsharp/) and run :
-
-    ./fsharp.SlackBuild
-   
-<br />
-### Using Nix on any Linux distribution or Mac OS X
-
-1. Install Nix if you don't already have it:
-
-        sudo mkdir /nix && sudo chown `id -u`.`id -g` /nix # create /nix
-        sudo -k                                            # give up root privileges
-        curl https://nixos.org/nix/install | bash          # install Nix
-        . $HOME/.nix-profile/etc/profile.d/nix.sh          # update PATH accordingly
- 
-2. Get F#
-
-        nix-env -iA nixpkgs.fsharp
-    
-3. You might also like…
-
-        # List all the .NET packages that are readily available in the Nix
-        # package collection:
-        nix-instantiate --eval --expr 'with import <nixpkgs> {};
-                                         lib.attrNames dotnetPackages' 
-    
-        # Download FSharp.Data in the Nix store and make it available in ./FSData
-        nix-build '<nixpkgs>' -A dotnetPackages.FSharpData --out-link FSData
-
-Find out more about the [Nix package manager](https://nixos.org/nix/) and [NixOS](https://nixos.org/) (the purely functional Linux distribution based on it)
-
-Explore (and contribute to) the collection of .NET applications and libraries in the [Nixpkgs GitHub repo](https://github.com/NixOS/nixpkgs/blob/master/pkgs/top-level/dotnet-packages.nix)
-   
--------
-
-## Highly recommended: Install a smart editor
-{: #smart-editor .anchor }
-
-Like other strongly typed languages, F# can benefit tremendously from an editor that has support
-for the language. This makes smart auto-completion and compiling while you edit possible, which 
-increases the discoverability of features and programmer productivity in general.
-
-<br />
-### Option 1: Visual Studio Code
+### Option 3: Install Visual Studio Code and Ionide
 
 ![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
-F# is supported by the [Ionide](http://ionide.io/) project and is a nice integration.
+F# is supported by the [Ionide](http://ionide.io/) project.
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/download) for Linux
-2. Press `Ctrl+P` and enter the following to install the Ionide package for VS Code.
+1. Install [.NET Core SDK](https://dotnet.microsoft.com/download) like in step 1.
+1. Install [Visual Studio Code](https://code.visualstudio.com/download) for macOS.
+2. Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
 
         ext install Ionide-fsharp
 
-You will also need to install the F# packages from Step 1.
+You can also install the plugin from the plugin pane on the left-hand side.
 
-<br />
-### Option 2: JetBrains Rider
+Ionide works best if you use the .NET CLI to create your projects. You can learn more in [Get Started with F# in Visual Studio Code](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-vscode).
+
+### Option 3: Install JetBrains Rider
 
 ![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
-1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Linux.
-2. [Follow these instructions](http://www.mono-project.com/download/#download-lin-ubuntu). 
-3. Then install packages `mono-complete`, `msbuild` and `fsharp`.
+1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Mac.
+2. Install the [latest version of Mono](https://www.mono-project.com/download/stable/#download-mac).
+3. Ensure Mono `/bin` folder is added to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
 
-        sudo apt-get update
-        sudo apt-get install mono-complete msbuild fsharp
-		
-4. (optional) Install latest `dotnet-dev-x.y.z` [.NET Core packages](https://www.microsoft.com/net/core#linuxubuntu)
+### Option 5: Build F# from source
 
-
-## Get involved!
-To help improve this documentation, you can [submit an edit to this page](https://github.com/fsharp/fsfoundation/blob/gh-pages/use/linux/index.md).
-Or to help with Linux packages, consider joining the [F# Core Engineering Group](http://fsharp.github.io).  
-
-<br />
+You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp) if that is your preference.
