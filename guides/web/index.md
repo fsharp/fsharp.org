@@ -69,10 +69,10 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 #### Giraffe
 {: #giraffe  .anchor }
 
-[Giraffe](https://github.com/dustinmoris/Giraffe) is an F# library for building rich web applications that use ASP.NET Core under the hood. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
+[Giraffe](https://github.com/giraffe-fsharp/Giraffe) is an F# library for building rich web applications that use ASP.NET Core under the hood. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
 
-* [Docs](https://github.com/dustinmoris/Giraffe#basics)
-* [Samples](https://github.com/dustinmoris/Giraffe/tree/master/samples)
+* [Docs](https://github.com/giraffe-fsharp/Giraffe/blob/master/DOCUMENTATION.md)
+* [Samples](https://github.com/giraffe-fsharp/Giraffe/tree/master/samples)
 * [Blog post showing how to use it with .NET Core 2.0](https://blogs.msdn.microsoft.com/dotnet/2017/09/26/build-a-web-service-with-f-and-net-core-2-0/)
 
 <br />

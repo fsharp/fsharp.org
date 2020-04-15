@@ -8,7 +8,7 @@ headline: Use F# on Windows
 
 Install [.NET Core SDK](https://dotnet.microsoft.com/download). Once that is installed, you can begin using F#!
 
-#### Say hello from a F# Script
+#### Say hello from an F# Script
 
 Create a file called `hello.fsx` that looks like this:
 
@@ -28,7 +28,7 @@ If this is your first time using .NET Core, there will be a short, one-time mess
 Hello World from F#
 ```
 
-#### Say hello from a F# Console app
+#### Say hello from an F# Console app
 
 Create a project from a dotnet template with `dotnet new console --language F#`. Build and run it with `dotnet run`. You will see a message saying "Hello World from F#".
 
