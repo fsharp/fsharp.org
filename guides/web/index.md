@@ -41,27 +41,6 @@ The [Cloud Programming](/guides/cloud/) guide contains more details on scalable 
 
 <br />
 
-#### ASP.NET Core
-
-{: #aspnetcore  .anchor }
-
-[ASP.NET Core](https://www.asp.net/core) is a modern,cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications.  It runs on .NET Core and supports F# out of the box.  If you install the [.NET Core SDK](https://www.microsoft.com/net/download/core), there are F# templates available via the `dotnet new` command.
-
-* [Docs](https://docs.microsoft.com/aspnet/core/fundamentals/?tabs=aspnetcore2x)
-
-<br />
-
-#### Giraffe
-{: #giraffe  .anchor }
-
-[Giraffe](https://github.com/dustinmoris/Giraffe) is anF# micro web framework for building rich web applications. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
-
-* [Docs](https://github.com/dustinmoris/Giraffe#basics)
-* [Samples](https://github.com/dustinmoris/Giraffe/tree/master/samples)
-* [Blog post showing how to use it with .NET Core 2.0](https://blogs.msdn.microsoft.com/dotnet/2017/09/26/build-a-web-service-with-f-and-net-core-2-0/)
-
-<br />
-
 #### Fable
 {: #fable    .anchor }
 
