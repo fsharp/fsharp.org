@@ -11,14 +11,11 @@ discussion groups, as well as working groups directly affiliated with the founda
 
  * [**Training and Education Working Group**](http://foundation.fsharp.org/training_and_education_wg)
  * [**Communications Working Group**](http://foundation.fsharp.org/communications_wg)
- * [**Core Engineering Working Group**](http://foundation.fsharp.org/core_engineering_wg) 
  
 More details of the working groups can be found in the [Working Groups](http://foundation.fsharp.org/working_groups) page.
 
 Current communitiy operated technical groups which fit with [the mission](http://foundation.fsharp.org) include:
 
  * [**Community for F#**](http://c4fsharp.net) (contact Mathias Brandewinder and Ryan Riley)
- * [**F# Web Programming Group**](https://groups.google.com/forum/#!forum/web-stack-fs) (contact Ryan Riley)
- * [**F# for Data and Machine Learning**](https://groups.google.com/forum/#!forum/fsharp-data-science) (contact Mathias Brandewinder)
 
 We encourage community operated groups to adopt a public presence and [submit an edit to this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/technical-groups/index.md) with details (GitHub login required).
