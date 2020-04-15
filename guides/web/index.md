@@ -20,7 +20,7 @@ The [Cloud Programming](/guides/cloud/) guide contains more details on scalable 
 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-science/index.md">edit this page</a> and send a pull request.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-science/index.md">edit this page</a> and send a pull request.</p>
     <hr />
     <p>The resources below are listed for educational purposes related to the F# programming language. Mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
 </div>              

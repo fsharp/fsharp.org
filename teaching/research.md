@@ -13,7 +13,7 @@ research projects build on top of F#.
 
 <a href="http://blogs.msdn.com/b/dsyme/archive/2012/07/11/how-to-reference-for-f-in-a-research-paper.aspx">How to reference F# in a research paper</a>.
 
-To add a paper to this list, log on to GitHub, [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/teaching/research.md) and submit a pull request.
+To add a paper to this list [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/teaching/research.md) and submit a pull request.
 
 
  * **[Information-rich programming](#information-rich-programming)** - publications related to F# type providers, a novel mechanism

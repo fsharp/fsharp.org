@@ -93,7 +93,7 @@ we knew we could use new modules right away.
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
   <h3>Contribute testimonials</h3>
-    <p> To add a new testimonial, log on to GitHub, <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send a pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
+    <p> To add a new testimonial <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send a pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
 </div>              
 
 <a id="simon-cousins-1" class="testimonial-anchor"> &nbsp; </a>
