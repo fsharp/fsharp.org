@@ -17,7 +17,7 @@ through the addition of the F# type provider mechanism, F# queries
 and a multitude of type providers for enterprise and web data standards. 
 F# is a first-class language on a number of platforms including
 Mac and Linux (with tool support in Xamarin Studio, MonoDevelop, Emacs and others) and Windows (with
-Visual Studio, Xamarin Studio and Emacs) as well as on mobile devices and on the web using HTML5.
+Visual Studio, Xamarin Studio and Emacs) as well as on mobile devices and on the web using JavaScript.
 
 <h2 id="documentation" class="anchor">Online Documentation</h2>
 

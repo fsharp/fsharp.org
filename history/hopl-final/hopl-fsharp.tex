@@ -105,7 +105,7 @@
 \email{donsyme@fastmail.com}          %% \email is recommended
 
 
- \shepherd{Philip Wadler, University of Edinburgh}
+\shepherd{Philip Wadler, University of Edinburgh, UK}
 
 %% Abstract
 %% Note: \begin{abstract}...\end{abstract} environment must come
@@ -169,9 +169,12 @@ language with multiple delivery channels.  I conclude by examining some uses of 
 %% commands, abstract environment, Computing Classification System
 %% environment and commands, and keywords command.
 \maketitle
+\newpage
+\tableofcontents
+\newpage
 
 
-\section*{Introduction}
+\section{Introduction}
 
 The history of the F\# programming language is an arc drawn from the 1970s to the present day.  Somewhere, back in
 the early 1970s, an idea was born in the mind of Robin Milner and his colleagues Lockwood Morris and Malcolm Newey of a
@@ -218,7 +221,7 @@ I have started with the core idea of the ML-family of programming languages: typ
 domain-oriented functional programming. From my perspective, this idea has “held strong, held true” throughout this
 era of change. Whether that is through obstinacy, coherence or coincidence is something I leave the reader to assess. 
 
-\section*{What is F\# in 2020?}
+\section{What is F\# in 2020?}
 
 In 2020, F\# is described on its documentation pages as “a functional programming language that runs on .NET.” The F\# language guide \citep{WhatIsFSharp2020} calls out the following major features of the language, providing useful clarity about what the language is today:
 \begin{itemize}
@@ -259,7 +262,7 @@ users.\footnote{Succinctness is discussed on page~\pageref{page:fsharp-succinct}
 the F\# Software Foundation (FSSF, a US non-profit, page~\pageref{page:community}) and social media such as Twitter. F\# has had influence---most
 directly on C\# but also more broadly---I discuss this in the retrospective at the end of this paper.  But how did we get there?
 
-\section*{Background: Languages, Programmability at Microsoft and the Creation of .NET}
+\section{Background: Languages, Programmability at Microsoft and the Creation of .NET}
 
 The 1970s-80s saw continual, rapid expansion of the computing industry, from transistor design and chip fabrication to
 software development and applications. Software development tooling both boomed and consolidated with the development
@@ -359,7 +362,7 @@ seen to innovate positively.  Lightning already had many of the core elements of
 promised to unite disparate themes in programming, though initially within the confines of the Windows operating system. The scene was set
 for interesting things to happen. The Lightning effort was renamed NGWS and then finally called .NET on launch in 2000.  
 
-\section*{Background: Strongly Typed Functional Programming through the 1990s---Calculi, Miranda, OCaml, Haskell and Pizza}
+\section{Background: Strongly Typed Functional Programming through the 1990s---Calculi, Miranda, OCaml, Haskell and Pizza}
 
 While Microsoft was establishing its monopoly position in the early 1990s, and object-orientation was sweeping the globe, the world of strongly
 typed functional programming was small and marginalized yet active and vibrant.  This world overlapped with other fields of activity, which we
@@ -412,9 +415,9 @@ the widespread embrace of Java.
 
 \begin{wrapfigure}{R}{0.5\textwidth}
   \begin{center}
-  \includegraphics[width=0.9\linewidth]{hindley-milner.PNG}
+  \includegraphics[width=0.9\linewidth]{hindley-milner.png}
   \end{center}
-  \caption{A formal description of Hindley-Milner type inference, a core idea in ML family languages, from \citep{BlasucciFSharpHistory}}
+  \caption{A formal description of Hindley-Milner type inference, a core idea in ML family languages (from \citep{HindleyMilnerWikipedia})}
   \label{fig:hm}
 \end{wrapfigure}
 
@@ -475,7 +478,7 @@ programming \citep{AlvesFoss1999}.
 \item I was part of discussions trying to reimagine how we deliver strongly-typed functional programming to “the masses”.
 \end{itemize}
 
-\section*{Project 7 and .NET Generics}
+\section{Project 7 and .NET Generics}
 
 When Project 7 kicked off at Microsoft, the researchers at MSR Cambridge recommended the following languages for inclusion on the academic
 stream: Eiffel, Mercury, Standard ML, OCaml, Scheme, Alice and Haskell.  The biases of the research group at MSR are clear here: 6 of 7 recommendations
@@ -517,7 +520,7 @@ called Gyro.  A poster from MSR’s internal tradeshow “Tech Fest” is shown 
 \begin{figure}
 
   \includegraphics[width=0.8\linewidth]{fig1.jpg}
-  \caption{.NET Generics poster at TechFest 2002, Microsoft Building 33, Redmond}
+  \caption{.NET Generics poster at TechFest 2002, Microsoft Building 33, Redmond (photo by author)}
   \label{fig:fig1}
   \Description[.NET Generics poster at TechFest 2002, Microsoft Building 33, Redmond]{Shows information about .NET Generics - what it is, when it's useful and performance using a simple example.}
 \end{figure}
@@ -556,7 +559,7 @@ to the (non-generic) \texttt{add} function.  Such implicit costs for basic colle
 intrinsically low-performance on .NET. With .NET Generics these specific performance problems go away.  In crucial ways .NET Generics laid a foundation for later work on F\#.
 
 
-\section*{The Decision to Create F\#}
+\section{The Decision to Create F\#}
 
 At MSR, Project 7 also led to the SML.NET project \citep{Benton2004}.  SML.NET was a continuation of MLj, mentioned earlier, retargeted to
 .NET.  SML.NET used a sophisticated whole-program optimizer and was a faithful implementation of Standard ML
@@ -691,7 +694,7 @@ Cedric Fournet and Georges Gonthier, to allow for greater divergence from OCaml 
 scope.\footnote{The “F” in “F\#” comes from both “Functional” and “System F”, an elegant variant of simply typed lambda calculus. Today an F\# community saying “F is for Fun”.}
 
 
-\section*{Early F\#---2002--2003}
+\section{Early F\#---2002--2003}
 
 The early conception of F\# was simple: to bring the benefits of OCaml to .NET and .NET to OCaml: a marriage between strongly typed functional
 programming and .NET.  Here “OCaml” meant both the core of the language itself, and the pragmatic approach to strongly-typed functional programming
@@ -716,13 +719,13 @@ stable name, and could be used directly from .NET languages.  This also meant F\
 the first version of F\# was initially presented as “Caml-for-.NET”, in reality it was always a new language, designed for .NET from day 1. F\# was never
 fully compatible with any version of OCaml, though it shared a compatible subset, and it took Caml-Light and OCaml as its principal sources of design guidance and inspiration.  
 
-\begin{wrapfigure}{R}{0.5\textwidth}
-  \begin{center}
-  \includegraphics[width=0.9\linewidth]{msft.jpg}
-  \end{center}
-  \caption{Microsoft Research, Roger Needham Building, Cambridge, UK, circa 2003}
-  \label{fig:msft}
-\end{wrapfigure}
+%\begin{wrapfigure}{R}{0.5\textwidth}
+ % \begin{center}
+ % \includegraphics[width=0.9\linewidth]{msft.jpg}
+ % \end{center}
+ % \caption{Microsoft Research, Roger Needham Building, Cambridge, UK, circa 2003 (credit: }
+ % \label{fig:msft}
+%\end{wrapfigure}
 
 
 In addition, there was the question what not to implement.  A notable omission from the design was the functorial module system of
@@ -796,7 +799,7 @@ Further, contrary to the warnings from Dave Berry and others in the email thread
 
 
 
-\section*{Early F\#---Release}
+\section{Early F\#---Release}
 
 
 F\# “0.5” was little noticed at first, deliberately: the initial implementation was lacking in many ways and needed time to settle. Initially, the plan was as follows: 
@@ -841,11 +844,11 @@ programming practice, and to be true to both the spirit of research and the orig
 projects would not reach their full potential, because they didn’t make the commercially usable releases necessary to proof the technologies
 and gain evidence of their utility in sufficient time to occupy a market niche, examples include Accelerator and Dryad LINQ. On the other
 hand, MSR provided a good “institutional home” for a language, given its concentration of expertise and its long-term mission to change
-computing. Lab directors such as Andrew Herbert, Luca Cardelli and Andrew Blake would be consistently supportive of the work
+computing. Lab directors and managers such as Andrew Herbert, Andrew Blake, Luca Cardelli and Byron Cook would be consistently supportive of the work
 on F\# over a long period of time. However, doing a public, commercially usable language offering via MSR was not going to be plain
 sailing, and the support of the product teams would ultimately be needed.
 
-\section*{F\# 1.0, 2004--2006---Overview}
+\section{F\# 1.0, 2004--2006---Overview}
 
 After completing .NET Generics in mid-2004, the rest of the year saw intense work on improving F\#. At this stage, .NET was on the
 ascendency inside Microsoft and it achieved widespread external success on the back of a huge evangelization effort: most programming
@@ -867,7 +870,7 @@ In March 2005, F\# 1.0 was first demonstrated at “TechFest”, an internal MSR
     \includegraphics[width=\linewidth]{fig2b.jpg}
    \Description{A poster showing information about F\# including its relationship to other languages, its safety properties.}
   \end{subfigure}
-  \caption{Two posters for F\# 1.0 at MSR TechFest 2005}
+  \caption{Two posters for F\# 1.0 at MSR TechFest 2005  (photos by author)}
   \label{fig:fig2}
 
 \end{figure}
@@ -899,7 +902,7 @@ user communities grew and trust in the project began to form. The technical addi
   \begin{center}
   \includegraphics[width=0.9\linewidth]{directx2.jpg}
   \end{center}
-  \caption{The ``DirectX 3D'' demo used in early F\# evangelism}
+  \caption{The ``DirectX 3D'' demo used in early F\# evangelism (screenshot by author)}
   \label{fig:directx}
   \Description[Screenshot of DirectX demo]{Screenshot of DirectX demo used in 2007}
 \end{wrapfigure}
@@ -910,14 +913,14 @@ James Margetson was responsible for performance testing and supporting the inter
 Lichtenberg and Byron Cook. Margetson also implemented the first REPL for F\# and created numerous compelling demonstrations of interactive
 development using F\# scripting and the REPL, including the famous ``DirectX'' scripting showing playful interactive construction of a 3D graphics scene, see
 Figure~\ref{fig:directx}.
-The author and Margetson were responsible for documentation and releases.
+The author and Margetson were responsible for documentation and releases. Andrew Herbert and Luca Cardelli were the responsible MSR managers at this time.
 
 During this time F\# was not the result of a “meeting of minds” amongst MSR Cambridge language researchers, but rather myself and collaborators
 pursuing a series of design additions to the initial implementation, with the help of some feedback from colleagues, users, researcher networks
 such as WG2.8 and an emerging worldwide community.  The design conversations in the external community on mailing lists and in blog responses
 were encouraging, and internal and external adoption was growing steadily. 
 
-\subsection*{F\# 1.0---Pipelines}
+\subsection{F\# 1.0---Pipelines}
 
 One of the first things to become associated with F\# was also one of the simplest: the “pipe-forward” operator, added to the F\# standard library in 2003:
 \begin{verbatim}
@@ -962,7 +965,7 @@ The F\# library also defined two and three-argument pipeline operators, e.g.
     (0, data) ||> List.fold (fun count s -> count + s.Length)
 \end{verbatim}
 
-\subsection*{F\# 1.0---Tackling Object Programming}
+\subsection{F\# 1.0---Tackling Object Programming}
 
 From the outset, F\# consumed class and interface definitions from .NET. Being a functional language, it was
 natural to begin by supporting an expression-based form of object implementations akin to function closures.  F\# 1.0 described these as follows:\footnote{Surprisingly this feature is yet to make it into any version of C\#.}
@@ -1060,7 +1063,7 @@ F\# was by no means the only language deconstructing object-oriented programming
 
 
 
-\subsection*{F\# 1.0---Improving the Functional Core: Initialization Graphs}
+\subsection{F\# 1.0---Improving the Functional Core: Initialization Graphs}
 
 The first novel feature added to F\# was an adjustment to initialization and recursion of a kind not previously used in strongly typed functional languages. At the time OCaml already supported recursive definitions of functions (as with all functional languages), and definitions of recursively-referential data such as the following:
 \begin{verbatim}
@@ -1097,7 +1100,7 @@ aspects of the design of F\# object programming: in F\# 2.0 class definitions, v
 object construction are checked for initialization safety and will raise an exception if reentrancy occurs before initialization is complete. 
 
 
-\subsection*{F\# 1.0---Improving the Functional Core: Overloaded Arithmetic}
+\subsection{F\# 1.0---Improving the Functional Core: Overloaded Arithmetic}
 
 Among the obvious problems of OCaml was the question of overloaded arithmetic.  OCaml had avoided adding type classes in the style of Haskell (discussed below) and had instead adopted a syntax-disambiguated approach to integer and floating-point arithmetic, e.g.
 
@@ -1144,7 +1147,7 @@ work only seemed to require significant additional complexity. Type classes are,
 
 
 
-\subsection*{F\# 1.0---Improving the Functional Core: Active Patterns}
+\subsection{F\# 1.0---Improving the Functional Core: Active Patterns}
 
 Since the 1980s, one of the best-loved features of strongly-typed functional programming languages has been pattern matching,
 represented in F\# and OCaml by the match ... with ... construct. Since Wadler’s work on views \citep{Wadler1987} it had been
@@ -1208,7 +1211,7 @@ I enjoyed a lot discussing with you at the WG 2.8. I have been thinking how to d
 From this email and the first EPFL paper \citep{Emir2007}, it seems that the addition of active patterns to F\# had some impact on the design of Scala. The final versions of the respective mechanisms for F\# (active patterns) and Scala (extractors) were designed and implemented around the same time.    
 
 
-\subsection*{F\# 1.0---Improving the Functional Core: First-class Events}
+\subsection{F\# 1.0---Improving the Functional Core: First-Class Events}
 
 Early F\# applications included GUI programming for systems like SPiM, and inevitably reactive, asynchronous and event-based programming received greater emphasis in F\# than in previous ML-family language designs. .NET metadata and C\# included a built-in notion of “event”. However, this concept sits uneasily in a typed functional language design, for two reasons:
 
@@ -1235,7 +1238,7 @@ Erik Meijer \citep{RefRx}. Registering event handlers has implications for memor
 
 
 
-\subsection*{F\# 1.0---Improving the Functional Core: async/await}
+\subsection{F\# 1.0---Improving the Functional Core: async/await}
 
 In April 2007, I spent a six-week sabbatical at EPFL with Martin Odersky in Lausanne.  Odersky was then developing Scala, an exciting time for that language and group. Partly through this visit another important idea was seeded and eventually added to the core F\# design: computation expressions and their application to asynchronous programming.  This would still be influencing C\# years later, in C\# 5.0 (async/await) and 8.0 (async sequences), and in turn influence many other languages. 
 
@@ -1293,7 +1296,7 @@ is
 This raised the question of generalizing the notational mechanism to be suitable for more than just ``async'' programming, and in F\# the 
 generalization is called \emph{computation expressions}.
 
-\subsection*{F\# 1.0---Improving the Functional Core: Computation Expressions}
+\subsection{F\# 1.0---Improving the Functional Core: Computation Expressions}
 
 F\# computation expression notation began with ``async``, however other important background included Haskell list comprehension
 syntax \citep{RefListComprehensions}, Haskell ``do notation'' \citep{RefHaskellDo} and Haskell's experimental
@@ -1488,7 +1491,7 @@ and Syme \citep{Petricek2014} and in 2010 they developed an experimental monadic
 Extending the notation for applicatives \citep{applicative} is scheduled for addition to F\# in 2020. The introduction of computation expressions to F\# greatly increased the notation expressivity of the language
 and the mechanism is widely used in F\# today.
 
-\subsection*{F\# 1.0---Meta-programming}
+\subsection{F\# 1.0---Meta-programming}
 
 F\# 1.0 saw the addition of “quotation meta-programming” to F\#.  Quotations had been a significant feature in LISP since its inception. However, they had rarely 
 found their way into strongly-typed functional or OO languages.\footnote{SML/NJ had a string quotation feature used by theorem proving systems such as HOL, supporting both quotation and anti-quotation, it differs substantially from the feature described here.}
@@ -1511,7 +1514,7 @@ system utilizing F\# quotations \citep{RefPetricekThesis}. He
 joined the F\# team as an intern in April 2007, working on extending the use of F\# for JavaScript and GPU compilation,
 and returned as an intern in 2009, making many contributions to F\# 2.0 including its IDE tooling.
 
-\subsection*{F\# 1.0---Improving the Functional Core: Indentation-aware Syntax}
+\subsection{F\# 1.0---Improving the Functional Core: Indentation-Aware Syntax}
 
 Another addition during the F\# 1.0 timeframe was the addition of an indentation-aware syntax, released on
 September 23, 2006 \citep{RefIndentSyntax}.
@@ -1529,7 +1532,7 @@ a private judgement that the presence of these extra tokens was a limiting facto
 over future iterations and became the default for F\# code in F\# 2.0 in 2010.
 
 
-\subsection*{F\# 1.0---IDE Tooling}
+\subsection{F\# 1.0---IDE Tooling}
 
 A significant factor in F\# 1.0 was the inclusion of IDE tooling that would integrate with Visual Studio 2005 and 2008.
 The early implementation of this tooling was done by myself based on prototypes for extensible, language-neutral toolin
@@ -1557,7 +1560,7 @@ IDE assistance as people type LINQ queries”.  This assumption was not generall
 
 
 
-\section*{Finance and Functional: Microsoft Commits to F\#, 2007}
+\section{Finance and Functional: Microsoft Commits to F\#, 2007}
 
 During 2006-07, external adoption of F\# began to grow, partly on the base of steady blogging about the features and utility of the language.
 Social media and “scalable” communication was emphasized over conference publications, and the blogging was used to highlight the practical
@@ -1614,7 +1617,7 @@ Thanks.  We are going to proceed with the productization of F#.  S. Somasegar wi
 \end{verbquote}
 F\# was to be “productized”, i.e. enter the stable of officially supported Microsoft languages.
 
-\section*{F\# 2.0---2007 to 2010}
+\section{F\# 2.0---2007 to 2010}
 
 In practice, the prospect of becoming a Microsoft-supported language was both exhilarating and terrifying. What did
 it mean? Who had committed to what?  Who would manage the project? How long would we have to refine the
@@ -1720,7 +1723,7 @@ programming in the industry. However, more was going to be needed.
 
 
 
-\section*{F\# 2.0---Units of Measure }
+\section{F\# 2.0---Units of Measure }
 
 One significant feature was added to the language in 2009: units of measure checking and inference.  This
 work was initiated by Andrew Kennedy, a researcher at MSR Cambridge whose PhD thesis had shown how to integrate
@@ -1778,7 +1781,7 @@ New data structures can also be made generic with respect to units:
 From a technical perspective, the major challenge with the units of measure feature is its integration with F\#’s version of Hindley-Milner type inference \citep{Kennedy2009}.
 
 
-\section*{Type Providers and F\# 3.0 }
+\section{Type Providers and F\# 3.0 }
 
 With F\# 2.0 essentially completed by December 2009, the attention of the F\# group at Microsoft rapidly turned to “what’s next”
 for F\#. Since 2005, C\# had not stood still: the experience of adding generics and iterators to C\# 2.0 (2005) had cultivated a
@@ -1892,7 +1895,7 @@ The paper \textit{Types from data---Making structured data first-class citizens 
   \end{subfigure}
    \caption{Left: The F\# 3.0 Team, May 2012 (Don Syme, Jack Hu, Brian Macnamara, Vlad Matveev, Matteo Taveggia, Tao Liu, Wonseok Chae, Donna Malayeri).
 Right: The F\# 4.0 Team, November 2014  (Lincoln Atkinson, Vlad Matveev, Kevin Ransom, Wonseok Chae), holding photos of 'community heroes' and open source contributors
-including contributors Steffen Forkmann and Robert Jeppesen.}
+including contributors Steffen Forkmann and Robert Jeppesen. (photos by Microsoft staff)}
   \label{fig:team-2012-2014}
 
 \end{figure}
@@ -1900,7 +1903,7 @@ including contributors Steffen Forkmann and Robert Jeppesen.}
 
 
 
-\section*{.NET, F\# and the Shift to Cloud and Mobile Computing}
+\section{.NET, F\# and the Shift to Cloud and Mobile Computing}
 
 The focus of this paper is the early history of F\#, particularly up to F\# 3.0 in 2012 and the core set of innovative
 features that have formed the backbone of all future versions of the F\# language. In the remainder of this paper, I
@@ -1947,7 +1950,7 @@ programming system, later iterations emphasized cloud computing and big-data pro
 Microsoft to demonstrate the relevance of F\# for cloud programming. 
 
 
-\section*{A New Dawn for F\#, C\# and .NET: Open and Cross-Platform, At Last!}
+\section{A New Dawn for F\#, C\# and .NET: Open and Cross-Platform, At Last!}
 
 F\# faced its most important and seemingly insurmountable challenge since its inception. Open-source software had
 become the norm, and .NET, F\# and C\# were now definite outliers in the world of programming languages and
@@ -1984,7 +1987,7 @@ developers \citep{RefPaket}, and
 the open source FAKE build scripting tool---where the build scripts are written in F\#---has been a “gateway drug” for the adoption of the language, allowing its
 incremental adoption without rewriting the core of the project code \citep{RefFAKE}.
 
-\section*{The F\# Compiler as a Component}
+\section{The F\# Compiler as a Component}
 
 In 2014 a technical breakthrough was made with the creation of the FSharp.Compiler.Service (FCS) package by
 Tomas Petricek, Ryan Riley, and Dave Thomas with many later contributors \citep{RefFCS}.
@@ -2003,7 +2006,7 @@ achieving efficient engineering practices.  Kevin Ransom, Phillip Carter, Brett 
 many contributors from the broader F\# community.  The company Jet Brains also become extensive contributors to the F\# compiler and tools.
 In 2019 Phillip Carter and Will Smith did extensive core performance work on the tooling to allow its use with very large F\# code bases.
 
-\section*{The F\# Community and the F\# Software Foundation }
+\section{The F\# Community and the F\# Software Foundation }
 
 \label{page:community}
 
@@ -2048,7 +2051,7 @@ and works with community stakeholders on F\# education, diversity, tooling, gove
 initiatives.  The suggestions, RFCs and other documents related to the F\# language design process are hosted by the
 FSSF \citep{RefRFCs, RefLangSuggestions}.
 
-\section*{.NET Core: Microsoft take C\#, F\# and .NET Cross-Platform}
+\section{.NET Core: Microsoft take C\#, F\# and .NET Cross-Platform}
 
 The question of cross-platform support for .NET was present from the start: even the Rotor shared source release of 2004 was
 cross-platform.  In 2001, the Mono project had been launched by Miguel de Icaza \cite{RefMono} and others to implement a fully open-source and
@@ -2070,7 +2073,7 @@ of the runtime and its languages (always one of the strong points of OCaml, whic
 impact on the design of C\# and F\#, with the recent “Span” feature of C\# 7.2 and F\# 4.5 (allowing safe on-stack references
 to interior sub-ranges of data such as strings) including both runtime and language elements.
 
-\section*{F\# for Mobile}
+\section{F\# for Mobile}
 
 
 The industry shift to mobile and cloud computing saw a huge rise in the importance of Android and iOS as platforms from 2009
@@ -2081,7 +2084,7 @@ with Java (for Android) and Objective-C (for iOS).  Xamarin also provided cross-
 Xamarin was eventually acquired by Microsoft and, as of 2018, F\# is a supported language in Microsoft’s mobile programming offerings.
 
 
-\section*{F\#, JavaScript and Full Stack Programming}
+\section{F\#, JavaScript and Full Stack Programming}
 
 Since 2005 JavaScript has risen in importance as a delivery platform for programming languages. In 2007, Tomas Petricek
 experimented with the first Javascript transpiler for F\#. In 2008 the first version of WebSharper was released, including
@@ -2094,7 +2097,7 @@ programming.  Fable became a key part of SAFE-Stack, a “full stack” solution
 computing \citep{Abraham2020}.
 
 
-\section*{Retrospective}
+\section{Retrospective}
 
 In telling the genesis and early history of F\#, I positioned it as one of several “reactions” by those experienced
 in strongly-typed functional programming to the tidal wave of Java and object-oriented programming that
@@ -2121,7 +2124,7 @@ strongly-typed functional programming of a scale undreamt of in 1998.
 
   \includegraphics[width=0.8\linewidth]{fig4.jpg}
    \Description{A photo of an iconic architectural building with complex dome roof in the sunlight in Abu Dhabi}
-  \caption{The Louvre Abu Dhabi---F\# was used for the digital 3D model to manufacture the roof}
+  \caption{The Louvre Abu Dhabi---F\# was used for the digital 3D model to manufacture the roof (credit: Wikiemirati, Wikimedia, 29 April 2018, licensed under CC BY-SA 4.0, cropped)}
   \label{fig:fig4}
 
 \end{figure}
@@ -2142,7 +2145,7 @@ computing industry. More recent entrants such as Swift, ReasonML, TypeScript and
 but a lack of industry awareness of strongly-typed functional programming is not one of them. We’ve come a long
 way since 1997, and Wadler’s question “Why no one uses functional programming?” has been consigned to the many short-lived curiosities of history.
 
-\subsection*{F\#'s Influence}
+\subsection{F\#'s Influence}
 
 The most obvious direct influence of F\# has been on C\#. C\# 2.0 (generics) was based on preliminary work
 by myself and others working on precursors to F\#, specifically with the intent of supporting ML-family
@@ -2181,7 +2184,7 @@ in the context of F\#, and would not have appeared from a Microsoft team in anyt
 From the outset, F\# placed non-nullness as central to its design: the value “null” can’t normally be used in conjunction
 with F\#-declared types, and in practice null-reference exceptions are rare.\footnote{The F\# community joke being “Question: What can C\# do that F\# can’t?” “Answer: NullReferenceException!”}   This affects many micro-decisions in the
 language. Coming from the OCaml perspective, this is an obvious choice, and in the cultural context of MSR
-Cambridge---including the presence of Tony Hoare at the lab and the memory of his “Billion Dollar Mistake---any
+Cambridge---including the presence of Tony Hoare at the lab and the memory of his “Billion Dollar Mistake”---any
 other choice would have been unthinkable \citep{HoareNulls2011}.  However, languages like Scala didn’t make the same
 decision, and even by 2018 F\# was the only significant language running on the JVM or .NET that placed non-nullness
 as central to its design. At the time of writing, in February 2020, C\# 9.0 is planning to make non-nullness the
@@ -2205,7 +2208,7 @@ feature traces back partly through F\#.
 In short F\# has influenced many of the major languages in use as of 2020, either directly (C\#, TypeScript, Scala, Kotlin, possibly Swift) or
 indirectly (Rust, Python, Java, JavaScript), with the possible exception of C++.
 
-\subsection*{Mistakes and Questions}
+\subsection{Mistakes and Questions}
 
 Mistakes are hard to admit, and best seen in their historical context.  From the early history,
 the greatest mistake related to F\# was that neither .NET nor the language were open source
@@ -2286,7 +2289,7 @@ conjunction with the design of both C\# and the .NET runtime itself.  One exampl
 of safe high-performance memory primitives called “Span” in F\# 4.5 and C\# 7.2.  This feature
 had the added benefit of helping iron out various minor problems present since the F\# 2.0 design.
 
-\section*{Conclusion}
+\section{Conclusion}
 
 In this article, I have tried to sketch the long arc from Robin Milner in the 1970s to F\# as it
 is today, with a focus on the genesis and early history of F\# and the context in which
@@ -2329,7 +2332,7 @@ Many thanks to Andrea Magnorsky, Phillip Carter, Phillip Haller, Darren Platt, N
 
 %% Appendix
 %\appendix
-%\section*{Appendix}
+%\section{Appendix}
 %
 %Text of appendix \ldots
 

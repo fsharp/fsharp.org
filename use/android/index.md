@@ -4,27 +4,23 @@ title: Use F# for Android Development | The F# Software Foundation
 headline: Use F# for Android Development
 ---
 
-### Option 1: Build Android Apps using F# + Xamarin Tools and JetBrains Rider
+### Option 1: Build Android Apps using F# and Xamarin
 
-![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+F# supports the development of Android applications using the [Xamarin](https://dotnet.microsoft.com/apps/xamarin) tools.
 
-1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/).
-2. Get the [Visual F# tools for Windows](/use/windows) or [F# Tools for Mac](/use/mac).
-3. Get [Xamarin Android](https://www.xamarin.com/platform#android).
-4. Get [Android SDK](https://developer.android.com/studio/index.html#downloads).
-5. Install the [latest version of Mono](http://www.mono-project.com/download/) for your OS.
+#### Installing
+
+1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/), or [Visual Studio](https://visualstudio.microsoft.com/vs/getting-started/).
+
+2. Select the .NET Mobile Development tools with F# Language support as part of installation.
+
+#### Going Further
+
+[Fabulous](https://fsprojects.github.io/Fabulous/) is a framework for F# Functional App Development, using declarative dynamic UI.
+This allows you to use the ultra-simple MVU (Model-View-Update) architecture to build applications for iOS, Android, Mac, WPF and more using Xamarin.Forms. 
+
+See [Getting Started with Fabulous](https://fsprojects.github.io/Fabulous/Fabulous.XamarinForms/index.html#getting-started).
+
 
 <br />
 
-### Option 2: Build Android Apps using F# + Xamarin Tools and Visual Studio 
-
-![logo](/images/thumbs/vstudio.png)&nbsp;[Microsoft Xamarin](http://xamarin.com) provide F# tools for  Android and iOS modile development with F#, using  Visual Studio and Xamarin.
-
-1. Get [Visual Studio for Windows](/use/windows) or [Visual Studio for Mac](/use/mac). 
-
-
-<br />
-
-### Option 3: Build HTML5 Android apps 
-
-* [Using F# for HTML5 Web Applications](/use/html5)

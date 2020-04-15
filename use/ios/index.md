@@ -4,33 +4,22 @@ title: Use F# for iOS App Development | The F# Software Foundation
 headline: Use F# for iOS App Development
 ---
 
-### Option 1: Build F# iOS Apps using Xamarin Studio
+### Option 1: Build iOS Apps using F# and Xamarin
 
-![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Xamarin](http://xamarin.com) provide F# tools for Android and iOS mobile development with F#, using Xamarin Studio out of the box.
+F# supports the development of Android and iOS applications using the [Xamarin](https://dotnet.microsoft.com/apps/xamarin) tools.
 
 #### Installing
 
-1. Get [Xamarin Studio and the F# Tools for Mac](/use/mac)
+1. Install [JetBrains Rider](https://www.jetbrains.com/rider/), or [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/). 
 
-2. Create a new Project, select "F#" and then the kind of application you want.
+2. Select F# Language support as part of installation.
 
-You can now create a new F# iOS app, e.g. an "iPad Single View Application".  See the 
-[Mobile Apps and Games](/apps-and-games) section for more information on getting going with F# iOS development. 
+#### Going Further
 
-### Option 2: Build F# iOS Apps using JetBrains Rider
+[Fabulous](https://fsprojects.github.io/Fabulous/) is a framework for F# Functional App Development, using declarative dynamic UI.
+This allows you to use the ultra-simple MVU (Model-View-Update) architecture to build applications for iOS, Android, Mac, WPF and more using Xamarin.Forms. 
 
-![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
-
-1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/).
-2. Get the [Visual F# tools for Windows](/use/windows) or [F# Tools for Mac](/use/mac). 
-3. Get [Xamarin iOS](https://www.xamarin.com/platform#ios) and the Xamarin iOS SDK.
-4. Install the [latest version of Mono](http://www.mono-project.com/download/) for your OS.
-
-To run/debug applications, the MacOS Remote Agent is required.
+See [Getting Started with Fabulous](https://fsprojects.github.io/Fabulous/Fabulous.XamarinForms/index.html#getting-started).
 
 <br />
-
-### Option 3: Build HTML5 iOS apps
-
-*  [Using F# for HTML5 Web Applications](/use/html5)
 
