@@ -46,8 +46,6 @@ the standard F# library.
 
  * [Learning F#](/about/learning.html)
 
- * The [F# Mac, Linux and Cross-Platform Dev Guide](/guides/mac-linux-cross-platform)
-
  * [F# Data Science Programming Resources](/guides/data-science)
 
  * [F# Cloud Programming Resources](/guides/cloud)
