@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Use F# on macOS | The F# Software Foundation
-headline: Use F# on macOS
+title: Use F# on Linux | The F# Software Foundation
+headline: Use F# on Linux
 ---
 
 ### Option 1: Install .NET Core SDK and use your own editor
