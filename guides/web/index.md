@@ -69,7 +69,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 #### Giraffe
 {: #giraffe  .anchor }
 
-[Giraffe](https://github.com/dustinmoris/Giraffe) is an F# micro web framework for building rich web applications. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
+[Giraffe](https://github.com/dustinmoris/Giraffe) is an F# library for building rich web applications that use ASP.NET Core under the hood. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
 
 * [Docs](https://github.com/dustinmoris/Giraffe#basics)
 * [Samples](https://github.com/dustinmoris/Giraffe/tree/master/samples)
