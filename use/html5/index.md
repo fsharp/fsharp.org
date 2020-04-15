@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Using F# for HTML5 Web Applications | The F# Software Foundation
-headline: Using F# for HTML5 Web Applications
+title: Using F# for JavaScript Web Applications | The F# Software Foundation
+headline: Using F# for JavaScript Web Applications
 ---
 
 ### Option 1: Use Fable
@@ -17,7 +17,7 @@ or mobile with [React native](https://facebook.github.io/react-native/).
 
 ### Option 2: Use WebSharper
 
-![WebSharper](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://www.websharper.com) supports F# and can be used to make F# client-side or cross-tier HTML5 web apps. These can be used from any HTML5-enabled browser.
+![WebSharper](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://www.websharper.com) supports F# and can be used to make F# client-side or cross-tier web apps. These can be used from any JS-enabled browser.
 
 
 <br />
@@ -25,7 +25,7 @@ or mobile with [React native](https://facebook.github.io/react-native/).
 ### Option 3: Use F# on the Server with other languages on the client
 
 You can use F# on the server with JavaScript, Elm, TypeScript and so on as the front end, in conjunction 
-with modern JS/HTML5 web frameworks. More details at [F# Web Programming](/guides/web/).
+with modern JS web frameworks. More details at [F# Web Programming](/guides/web/).
 
 
 
