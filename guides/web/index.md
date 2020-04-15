@@ -69,10 +69,10 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 #### Giraffe
 {: #giraffe  .anchor }
 
-[Giraffe](https://github.com/dustinmoris/Giraffe) is an F# micro web framework for building rich web applications. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
+[Giraffe](https://github.com/giraffe-fsharp/Giraffe) is an F# library for building rich web applications that use ASP.NET Core under the hood. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
 
-* [Docs](https://github.com/dustinmoris/Giraffe#basics)
-* [Samples](https://github.com/dustinmoris/Giraffe/tree/master/samples)
+* [Docs](https://github.com/giraffe-fsharp/Giraffe/blob/master/DOCUMENTATION.md)
+* [Samples](https://github.com/giraffe-fsharp/Giraffe/tree/master/samples)
 * [Blog post showing how to use it with .NET Core 2.0](https://blogs.msdn.microsoft.com/dotnet/2017/09/26/build-a-web-service-with-f-and-net-core-2-0/)
 
 <br />
@@ -133,7 +133,7 @@ Do it the simple way, and serve web requests direct from code using F# asynchron
 #### Pure F# Web API 2.0
 {: #webapi20    .anchor }
 
-[Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft. The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html). These templates provide a Pure F# project for implementing a web API with Web API 2.0. Everything is implemented in F#.
+[Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft that runs on .NET Framework. The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html). These templates provide a Pure F# project for implementing a web API with Web API 2.0. Everything is implemented in F#.
    
 [OWIN and Katana](http://www.asp.net/aspnet/overview/owin-and-katana) provide a flexible set of components for building and hosting Open Web Interface for .NET (OWIN)-based web applications. Web API can be hosted directly on Katana using the [Owin Web API package](http://www.nuget.org/packages/Microsoft.AspNet.WebApi.Owin).
 
