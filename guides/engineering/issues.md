@@ -6,9 +6,6 @@ headline: Report/Fix an Issue
 
 Please follow the links below to make a suggestion, report an issue with F# and/or contribute a fix.  
 
-You can contribute to this page [by proposing an edit](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/engineering/issues.md).
-
-
 ### Core Tools
 
 |:------------------|:--------------------|:------------------|
@@ -19,8 +16,8 @@ You can contribute to this page [by proposing an edit](https://github.com/fsharp
 
 |:--------------------|:------------------|:------------------|
 | Visual Studio (F# Tools) | [Make suggestion](https://github.com/dotnet/fsharp)     | [Report/Fix an issue](https://github.com/dotnet/fsharp/issues) |
-| [VS Code (F# Ionide Tols)](https://ionide.io/) | [Make suggestion](https://ionide.io/)     | [Report/Fix an issue](https://ionide.io/) |
-| Other F# Editing Tools | ([Emacs](https://github.com/fsharp/emacs-fsharp-mode), [Vim](https://github.com/fsharp/vim-fsharp), [Vim](https://github.com/fsharp/vim-fsharp), [Sublime](https://github.com/fsharp/sublime-fsharp-package), [Atom](https://github.com/fsprojects/atom-fsharp), ...) |      |  
+| [VS Code (F# Ionide Tools)](https://ionide.io/) | [Make suggestion](https://github.com/ionide/ionide-vscode-fsharp)     | [Report/Fix an issue](https://github.com/ionide/ionide-vscode-fsharp) |
+| Other F# Editing Tools | ([Emacs](https://github.com/fsharp/emacs-fsharp-mode), [Vim](https://github.com/fsharp/vim-fsharp), [Sublime](https://github.com/fsharp/sublime-fsharp-package), ...) |      |  
 
 
 ### Other Components and Tools
@@ -28,7 +25,10 @@ You can contribute to this page [by proposing an edit](https://github.com/fsharp
 For other components and tools, please [refer to the relevant project](http://fsharp.org/community/projects). Some specific links are shown below.
 
 |:------------------|:--------------------|:------------------|
-| [.NET Core Runtime and Libraries](https://dotnet.microsoft.com/)      | |   | 
+| [.NET Core Runtime](https://dotnet.microsoft.com/)      |   [Make suggestion](https://github.com/dotnet/coreclr) |  [Report/Fix an issue](https://github.com/dotnet/coreclr) | 
+| [.NET Core Libraries](https://dotnet.microsoft.com/)      |    [Make suggestion](https://github.com/dotnet/corefx) |  [Report/Fix an issue](https://github.com/dotnet/corefx)  | 
 
 
+
+You can contribute to this page [by proposing an edit](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/engineering/issues.md).
 
