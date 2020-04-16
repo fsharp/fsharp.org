@@ -6,7 +6,7 @@ headline: Use F# on macOS
 
 ### Option 1: Install the CLI tools and use your own editor
 
-Install [.NET Core SDK](https://dotnet.microsoft.com/download). Once that is installed, you can begin using F#!
+![logo](/images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). Once that is installed, you can begin using F#!
 
 Create a file called `hello.fsx` that looks like this:
 
