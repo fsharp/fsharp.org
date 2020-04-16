@@ -544,6 +544,7 @@ div#contentMain.testimonials ul li {
     padding: 0px;
 }
 
+/*
 a[href^="http://"]:after, a[href^="https://"]:after {
   content: "\f08e";
   font-family: FontAwesome;
@@ -564,4 +565,4 @@ a.no_icon:after {
   content:"" !important;
   padding-left: 0;
 }
-
+*/

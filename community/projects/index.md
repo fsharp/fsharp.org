@@ -85,13 +85,11 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [F# Type Provider SDK](https://github.com/fsprojects/FSharp.TypeProviders.SDK) - Learning materials and code only NuGet package for writing type providers
 
-*  [Community Templates for Visual F# Tools](https://github.com/fsharp/FSharpCommunityTemplates) - Templates for F# projects, by the F# community, for use in Visual Studio, Xamarin Studio and other editors. Contributions welcome.
-
 *  ![logo](/images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](https://fsprojects.github.io/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
 
 *  [Forge](https://github.com/ionide/Forge) - F# CLI tool for project, file, and solution management.
 
-*  [Yeoman F# generator](https://github.com/fsprojects/generator-fsharp) - scaffolding F# projects outside of IDE such as Visual Studio and Xamarin Studio. Avaliable in the [npm](https://www.npmjs.com/package/generator-fsharp).
+*  [Yeoman F# generator](https://github.com/fsprojects/generator-fsharp) - scaffolding F# projects outside of IDE such as Visual Studio. Avaliable in the [npm](https://www.npmjs.com/package/generator-fsharp).
 
 * [GFlat](https://github.com/avysk/gflat) - CLI (make-based) project scaffolding generator for simple Mono / F# projects.
 
