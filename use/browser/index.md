@@ -6,7 +6,7 @@ headline: Use F# in the browser
 
 ### Option 1: [Try F# on try.fsharp.org](https://try.fsharp.org/)
 
-![logo](/images/thumbs/tryfsharp.jpg)&nbsp;[TryFSharp](try.fsharp.org) enables you to try F# in an online editor/compiler without having to install anything on your
+![logo](/images/thumbs/tryfsharp.jpg)&nbsp;[TryFSharp](https://try.fsharp.org/) enables you to try F# in an online editor/compiler without having to install anything on your
 computer. It includes example code for many of F#'s basic features. It's based on the  [Fable 2 REPL](https://fable.io/repl/).
 
 ### Option 2: [Try F# in repl.it](https://repl.it/languages/fsharp)
