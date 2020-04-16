@@ -18,16 +18,22 @@ Both native and cross-platform app development is possible.
 
 [Fabulous](https://fsprojects.github.io/Fabulous/) is a framework for F# Functional App Development, using declarative dynamic UI.
 This allows you to use the ultra-simple MVU (Model-View-Update) architecture to build applications for iOS, Android, Mac, WPF and more using Xamarin.Forms. 
-See [Getting Started with Fabulous](https://fsprojects.github.io/Fabulous/Fabulous.XamarinForms/index.html#getting-started).
 
+* [Getting Started with Fabulous](https://fsprojects.github.io/Fabulous/Fabulous.XamarinForms/index.html#getting-started).
+
+* [Fabulous Weather](https://github.com/fsprojects/Fabulous/tree/master/Fabulous.XamarinForms/samples/FabulousWeather) - A sample weather app using Fabulous
+
+* [Fabulous Contacts](https://github.com/TimLariviere/FabulousContacts) - A sample contacts app using Fabulous
+
+For more information see [F# for Mobile Apps](/guides/apps-and-games/).
 
 <br />
 
 ### Option 2: Build Android and iOS Apps using F# and React Native
 
 F# supports the development of Android and iOS applications using React and React Native.
-
 See [this guided example](https://github.com/SAFE-Stack/SAFE-Nightwatch) for starting development.
+For more information see [F# for Mobile Apps and Games](/guides/apps-and-games/).
 
 <br />
 

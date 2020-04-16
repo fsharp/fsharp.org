@@ -13,9 +13,15 @@ F# executes on app platforms including as  [Android, iOS](/use/mobile-apps/), [M
 
 ## Frameworks
 
-* ![logo](/images/thumbs/fable.png)&nbsp;[Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
-
 * [Fabulous](http://fsprojects.github.io/Fabulous) - F# Functional App Development for Android, iOS and more (Elmish for Xamarin.Forms)
+
+  * [Getting Started with Fabulous](https://fsprojects.github.io/Fabulous/Fabulous.XamarinForms/index.html#getting-started).
+
+  * [Fabulous Weather](https://github.com/fsprojects/Fabulous/tree/master/Fabulous.XamarinForms/samples/FabulousWeather) - A sample weather app using Fabulous
+
+  * [Fabulous Contacts](https://github.com/TimLariviere/FabulousContacts) - A sample contacts app using Fabulous
+
+* ![logo](/images/thumbs/fable.png)&nbsp;[Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
 
 * [Xamarin](https://dotnet.microsoft.com/apps/xamarin) - Use F# to develop for iOS, Android, Mac and Windows development
 
@@ -24,17 +30,16 @@ based on the XNA 4 framework design. The goal of the project is to allow XNA dev
 Windows Phone to port their games to the iOS, Android, Mac OS X, Linux, Windows 8 Metro, and PlayStation 
 Mobile.  
 
+  * F# and Monogame [Part 1 – MacOS](http://neildanson.wordpress.com/2013/07/30/f-and-monogame/), [Part 2 – Android](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-2-android/), [Part 3 – iOS](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-3-ios/), [Part 4 – Content Pipeline](http://neildanson.wordpress.com/2013/08/13/f-and-monogame-part-4-content-pipeline/)
+
+  * [F# Platform Game Series](https://www.youtube.com/playlist?list=PLIH3o_QrxxcfNMC3TjZ5NlHnB1AmcyaiV) - A YouTube series on building a platform game from scratch using F# and MonoGame
+
+  * [Making an endless runner game in F# using MonoGame](http://timjones.tw/blog/archive/2014/12/28/make-santa-jump-game-in-fsharp-using-monogame)
+
 * [Unity3D](https://github.com/eriksvedang/FSharp-Unity) Unity3D is a popular closed source game engine. 
  
 ## Resource Links
 
-* [Fabulous Weather](https://github.com/fsprojects/Fabulous/tree/master/Fabulous.XamarinForms/samples/FabulousWeather) - A sample weather app using Fabulous
-
-* [Fabulous Contacts](https://github.com/TimLariviere/FabulousContacts) - A sample contacts app using Fabulous
-
-* [F# Platform Game Series](https://www.youtube.com/playlist?list=PLIH3o_QrxxcfNMC3TjZ5NlHnB1AmcyaiV) - A YouTube series on building a platform game from scratch using F# and MonoGame
-
-* [Xamarin Forms Example](https://github.com/rachelreese/Current-Talks/tree/master/2014-10%20Evolve/EvolveXamForms) - An example of using the Xamarin Forms cross-platform front-end framework with F#
 
 * Sample iOS apps are available from [Neil Danson's repository](https://bitbucket.org/thedo666/):
  
@@ -55,14 +60,5 @@ Mobile.
 
 * A Platform game in SpriteKit and F# – [Part 2 – Start building a level](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-2-start-building-a-level/)
 
-* F# and Monogame [Part 1 – MacOS](http://neildanson.wordpress.com/2013/07/30/f-and-monogame/)
-
-* F# and Monogame [Part 2 – Android](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-2-android/)
-
-* F# and Monogame [Part 3 – iOS](http://neildanson.wordpress.com/2013/07/31/f-and-monogame-part-3-ios/)
-
-* F# and Monogame [Part 4 – Content Pipeline](http://neildanson.wordpress.com/2013/08/13/f-and-monogame-part-4-content-pipeline/)
-
-* [Making an endless runner game in F# using MonoGame](http://timjones.tw/blog/archive/2014/12/28/make-santa-jump-game-in-fsharp-using-monogame)
 
 
