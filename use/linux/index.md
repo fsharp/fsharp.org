@@ -4,11 +4,9 @@ title: Use F# on Linux | The F# Software Foundation
 headline: Use F# on Linux
 ---
 
-### Option 1: Install .NET Core SDK and use your own editor
+### Option 1: Install the CLI tools and use your own editor
 
 Install [.NET Core SDK](https://dotnet.microsoft.com/download). .NET Core is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice. Once that is installed, you can begin using F#!
-
-#### Say hello from an F# Script
 
 Create a file called `hello.fsx` that looks like this:
 
@@ -16,7 +14,7 @@ Create a file called `hello.fsx` that looks like this:
 printfn "Hello World from F#"
 ```
 
-You can compile and run this F# script with the following command:
+Now compile and run this F# script with the following command:
 
 ```
 dotnet fsi hello.fsx
@@ -28,12 +26,15 @@ If this is your first time using .NET Core, there will be a short, one-time mess
 Hello World from F#
 ```
 
-#### Say hello from an F# Console app
+To create a project use
 
-Create a project from a dotnet template with `dotnet new console --language F#`. Build and run it with `dotnet run`. You will see a message saying "Hello World from F#".
+```
+dotnet new console --language F#
+dotnet run
+```
 
-For more information about using F# with command-line tools, see [Get started with F# with the .NET Core CLI](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
-
+You will see a message saying "Hello World from F#".
+For more information see [Getting started with the F# command line tools](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
 
 <br />
 

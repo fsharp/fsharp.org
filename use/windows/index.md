@@ -4,11 +4,9 @@ title: Use F# on Windows | The F# Software Foundation
 headline: Use F# on Windows
 ---
 
-### Option 1: Install .Net Core SDK and use your own editor
+### Option 1: Install the CLI tools and use your own editor
 
 Install [.NET Core SDK](https://dotnet.microsoft.com/download). Once that is installed, you can begin using F#!
-
-#### Say hello from an F# Script
 
 Create a file called `hello.fsx` that looks like this:
 
@@ -16,7 +14,7 @@ Create a file called `hello.fsx` that looks like this:
 printfn "Hello World from F#"
 ```
 
-You can compile and run this F# script with the following command:
+Now compile and run this F# script with the following command:
 
 ```
 dotnet fsi hello.fsx
@@ -28,11 +26,17 @@ If this is your first time using .NET Core, there will be a short, one-time mess
 Hello World from F#
 ```
 
-#### Say hello from an F# Console app
+To create a project use
 
-Create a project from a dotnet template with `dotnet new console --language F#`. Build and run it with `dotnet run`. You will see a message saying "Hello World from F#".
+```
+dotnet new console --language F#
+dotnet run
+```
 
-For more information about using F# with command-line tools, see [Get started with F# with the .NET Core CLI](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
+You will see a message saying "Hello World from F#".
+For more information see [Getting started with the F# command line tools](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
+
+<br />
 
 ### Option 2: Install Visual Studio Code and Ionide
 
@@ -50,6 +54,8 @@ You can also install the plugin from the plugin pane on the left-hand side.
 
 Ionide works best if you use the .NET CLI to create your projects. You can learn more in [Get Started with F# in Visual Studio Code](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-vscode).
 
+<br />
+
 ### Option 3: Install Visual Studio
 
 ![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual Studio tools for F#.
@@ -57,6 +63,8 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 * [Visual Studio 2019](https://www.visualstudio.com/downloads/) comes with F# support in all its editions: Community, Professional and Enterprise. Community is completely free. See [Get started with F# in Visual Studio](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-visual-studio) for more information.
 
 * If you already have an older version of Visual Studio, F# is also supported. But the quality of the tooling support and number of features is not as high as in Visual Stusio 2019.
+
+<br />
 
 ### Option 4: Install JetBrains Rider
 
@@ -66,6 +74,8 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 2. Install the latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd).
 
 You will also need either to install Visual Studio or to follow the steps [here](https://rider-support.jetbrains.com/hc/en-us/articles/207288089-Using-Rider-under-Windows-without-Visual-Studio-prerequisites) if you need to use the older .NET Framework instead of .NET Core.
+
+<br />
 
 ### Option 5: Build F# from source
 
