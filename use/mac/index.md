@@ -35,7 +35,7 @@ Create a project from a dotnet template with `dotnet new console --language F#`.
 For more information about using F# with command-line tools, see [Get started with F# with the .NET Core CLI](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
 
 
-### Option 3: Install Visual Studio Code and Ionide
+### Option 2: Install Visual Studio Code and Ionide
 
 ![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
@@ -57,7 +57,7 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 You can learn more at [Get started with F# in Visual Studio for Mac](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-with-visual-studio-for-mac).
 
-### Option 3: Install JetBrains Rider
+### Option 4: Install JetBrains Rider
 
 ![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
