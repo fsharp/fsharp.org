@@ -1,13 +1,12 @@
 ---
 layout: default
 title: Guide - Cloud Programming | The F# Software Foundation
-headline: Guide - Cloud Data, Compute and Messaging with F#
+headline: Guide - Cloud Programming with F#
 redirect_from: "/cloud/index.html"
 ---
 
 Cloud computing relies on leveraging multiple integrated services.  Using multiple services required a unique set 
 of technologies and capabilities, and F# excels in this domain.  With the recent rise of cloud solutions, it is becoming increasingly easy to deploy multiple services "in the cloud", expanding what is possible both by storing large amounts of data and running heavy computations distributed across clusters of machines.  
-
 The combination of built in support for asynchronous workflows, data processing capabilities, computation expressions, 
 extensible syntax, composability, expressiveness for numeric code and more make F# uniquely suited to develop 
 scalable cloud solutions efficiently. 
@@ -21,14 +20,24 @@ For cloud-hosted web programming and services, refer to the [Web Programming Gui
     <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
 
-## Resources for Cloud Programming
-
 * auto-gen TOC:
 {:toc}
 
+### Integrated Stacks
+
+#### SAFE-Stack
+{: #safe-stack  .anchor }
+
+[SAFE-Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
+emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
+coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
+
+* [Docs](https://safe-stack.github.io/docs/intro/)
+* [Dojo](https://github.com/CompositionalIT/SAFE-Dojo/)
+* [Support](https://safe-stack.github.io/docs/support/)
+
 
 ### Cloud Platforms
-
 
 #### [Microsoft Azure](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/using-fsharp-on-azure/)
 
