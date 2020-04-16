@@ -58,7 +58,7 @@ REPL-scripting, powerful libraries and scalable data integration.  See also:
  * [Accord.MachineLearning](http://nuget.org/packages/Accord.MachineLearning/) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
    See also [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
 
-### Interactive Charting 
+## Interactive Charting 
 {: #charting .anchor }
 
 * [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
@@ -68,7 +68,7 @@ REPL-scripting, powerful libraries and scalable data integration.  See also:
 * [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
 
 
-### Individual Packages
+## Individual Packages
 {:  .anchor }
 
 If a resource specific to F# can't be found, then search for C# instead and adjust the technique appropriately.
@@ -100,7 +100,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
  
    License: BSD
 
-### Commercial packages
+## Commercial packages
 {: #commercial-packages .anchor }
 
  * [Alea GPU](https://developer.nvidia.com/alea-gpu) - a framework for 
@@ -196,6 +196,8 @@ Introductions to different machine learning algorithms with F#:
  
 
 <br />
+
+### Interoperability
 
 ### F# and Excel 
 {: #excel-interop .anchor }
