@@ -296,14 +296,12 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
    including a compiler from F# code to JavaScript. Primary contributors are IntelliFactory, it is open
    source and on GitHub. Contributors welcome!
 
-*  [Fable](https://github.com/fsprojects/Fable/) is an F# to JS compiler designed to generate clean
+*  ![logo](/images/thumbs/fable.png)&nbsp;[Fable](https://github.com/fsprojects/Fable/) is an F# to JS compiler designed to generate clean
    and standard code in order to maximize interoperability in both ways. It integrates with most
    of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
    or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you develop
    not only web apps but also [node.js](https://nodejs.org/en/), desktop with [Electron](http://electron.atom.io)
    or mobile with [React native](https://facebook.github.io/react-native/).
-
-*  [FunScript](http://funscript.info) - FunScript is a lightweight F# library that lets you rapidly develop single-page applications. You can connect to external data sources and call REST APIs with autocomplete, produce dashboards using JavaScript visualization libraries and write asynchronous computations easily without explicit callbacks. Contributions, samples and users welcome!
 
 *  ![logo](/images/thumbs/fracture.png)&nbsp;[Fracture I/O](https://github.com/fractureio/fracture) - High performance sockets library.
 

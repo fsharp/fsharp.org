@@ -13,7 +13,7 @@ F# executes on app platforms including as  [Android, iOS](/use/mobile-apps/), [M
 
 ## Frameworks
 
-* [Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
+* ![logo](/images/thumbs/fable.png)&nbsp;[Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
 
 * [Fabulous](http://fsprojects.github.io/Fabulous) - F# Functional App Development for Android, iOS and more (Elmish for Xamarin.Forms)
 

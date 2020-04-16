@@ -23,7 +23,7 @@ of mainstream commercial business software.
 
 ### [Try F#](https://try.fsharp.org/)
 
-This 2019 edition of TryFSharp enables you to try F# in an online editor/compiler without having to install anything on your computer. It includes example code for many of F#'s basic features. It's based on the  [Fable 2 REPL](https://fable.io/repl/).
+![logo](/images/thumbs/tryfsharp.jpg)&nbsp;[Try F#](https://try.fsharp.org/) allows you to try F# in an online editor/compiler without having to install anything on your computer. It includes example code for many of F#'s basic features. It's based on the [Fable 2 REPL](https://fable.io/repl/).
 
 
 ### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)

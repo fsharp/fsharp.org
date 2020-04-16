@@ -47,7 +47,7 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 #### WebSharper
 {: #websharper    .anchor }
 
-[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
+![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
 * [Try Online](http://websharper.com/samples)
@@ -59,7 +59,7 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 #### Fable
 {: #fable    .anchor }
 
-[Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
+![logo](/images/thumbs/fable.png)&nbsp;[Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
 and standard code in order to maximize interoperability in both ways. It integrates with most
 of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
 or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you to develop
