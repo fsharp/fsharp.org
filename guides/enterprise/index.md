@@ -9,7 +9,7 @@ F# is an excellent choice for enterprises.
 
 The benefits of F# for enterprise development are:
 
-* *Compatibility* - F# is completely integrated with the .NET platform and is a fully supported component of Visual Studio and Xamarin Studio. You can continue to use your favorite C# libraries and maintain your existing development processes.
+* *Compatibility* - F# is completely integrated with the .NET platform and is a fully supported component of Visual Studio and JetBrains Rider. You can continue to use your favorite C# libraries and maintain your existing development processes.
 
 * *Low risk trials* - It's easier to learn F# than you might think. You can easily try out 
   F# for non-critical development tasks such as testing and scripting without committing to wholesale change.
