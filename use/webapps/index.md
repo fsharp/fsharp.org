@@ -13,6 +13,10 @@ or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows 
 not only web apps but also [node.js](https://nodejs.org/en/), desktop with [Electron](http://electron.atom.io)
 or mobile with [React native](https://facebook.github.io/react-native/).
 
+* [Getting Started](https://fable.io/docs/2-steps/setup.html)
+* [Try Online](http://fable.io/repl)
+* [Docs](http://fable.io/docs/)
+
 <br />
 
 ### Option 2: Use SAFE-Stack
@@ -21,6 +25,7 @@ or mobile with [React native](https://facebook.github.io/react-native/).
 emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
 coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
 
+* [Getting Started](https://safe-stack.github.io/docs/quickstart/)
 * [Docs](https://safe-stack.github.io/docs/intro/)
 * [Dojo](https://github.com/CompositionalIT/SAFE-Dojo/)
 * [Support](https://safe-stack.github.io/docs/support/)

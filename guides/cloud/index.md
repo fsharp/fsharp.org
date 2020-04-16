@@ -32,6 +32,7 @@ For cloud-hosted web programming and services, refer to the [Web Programming Gui
 emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
 coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
 
+* [Getting Started](https://safe-stack.github.io/docs/quickstart/)
 * [Docs](https://safe-stack.github.io/docs/intro/)
 * [Dojo](https://github.com/CompositionalIT/SAFE-Dojo/)
 * [Support](https://safe-stack.github.io/docs/support/)
