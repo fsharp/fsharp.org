@@ -36,4 +36,4 @@ See [this guided example](https://github.com/SAFE-Stack/SAFE-Nightwatch) for sta
 
 <br />
 
-There are other options, see also [F# for Mobile Apps and Games](/guides/apps-and-games/).
+There are other options, see also [F# for Mobile Apps](/guides/apps-and-games/).
