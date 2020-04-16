@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Guide - Mobile Apps and Games | The F# Software Foundation
-headline: Guide - Mobile Apps and Games with F#
+title: Guide - Mobile Apps | The F# Software Foundation
+headline: Guide - Mobile Apps with F#
 redirect_from: "/apps-and-games/index.html"
 ---
 
-F# executes on app and gaming platforms including as  [Android](/use/android/), [iOS](/use/ios/), [Mac OS X](/use/mac/), [JavaScript/React/ReactNative](/use/webapps/) and [Windows](/use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines and more make it an ideal tool for many aspects of game development. 
+F# executes on app platforms including as  [Android, iOS](/use/mobile-apps/), [Mac OS X](/use/mac/), [JavaScript/React/ReactNative](/use/webapps/) and [Windows](/use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines and more make it an ideal tool for many aspects of app development. 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/apps-and-games/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
@@ -39,7 +39,7 @@ Mobile.
 
 * [Xamarin Forms Example](https://github.com/rachelreese/Current-Talks/tree/master/2014-10%20Evolve/EvolveXamForms) - An example of using the Xamarin Forms cross-platform front-end framework with F#
 
-* Sample iOS games and apps are available from [Neil Danson's repository](https://bitbucket.org/thedo666/):
+* Sample iOS apps are available from [Neil Danson's repository](https://bitbucket.org/thedo666/):
  
   * [IMBD](https://bitbucket.org/thedo666/imdb) -  A micro iOS app for movie database search
 

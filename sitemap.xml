@@ -49,11 +49,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/use/android/index.html</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://fsharp.org/use/ios/index.html</loc>
+    <loc>http://fsharp.org/use/mobile-apps/index.html</loc>
     <priority>0.5</priority>
   </url>
 </urlset>

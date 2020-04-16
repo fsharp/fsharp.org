@@ -30,7 +30,7 @@ REPL-scripting, powerful libraries and scalable data integration.  See also:
 
  * [SciSharp Stack](https://scisharp.github.io/SciSharp/) - A .NET based Open Source Ecosystem for Data Science, Machine Learning and AI.
 
-   SciSharp provides ports and bindings to cutting edge Machine Learning frameworks like TensorFlow, Keras, PyTorch, Numpy and many more in .NET Core. Since the APIs of the ported libraries are so similar to the originals you can easily re-use all existing resources, documentation and community solutions to common problems in C# or F# without much effort.
+   SciSharp provides ports and bindings to cutting edge Machine Learning frameworks like [TensorFlow](https://scisharp.github.io/TensorFlow.NET/), [Keras](https://scisharp.github.io/Keras.NET/), [PyTorch](https://github.com/SciSharp/Torch.NET), [Numpy](https://github.com/SciSharp/NumSharp) and many more in .NET Core. Since the APIs of the ported libraries are so similar to the originals you can easily re-use all existing resources, documentation and community solutions to common problems in C# or F# without much effort.
 
    License: Various, mostly Apache 2.0 or MIT
 
