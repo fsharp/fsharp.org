@@ -9,10 +9,15 @@ based around receiving a single HTTP request and replying with a result, which m
 well to a stateless, functional approach. Advantages to using F# for web programming include:
 
 * *Fast* - F# code execution is fast, using native code generation from scripted or project code 
+
 * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
+
 * *Reactive and Scalable* - F# asynchronous programming simplifies scalable, reactive web programming
+
 * *Interoperable* - F# interoperates seamlessly with languages such as C#, JavaScript and TypeScript
+
 * *JavaScript-ready* - F# is JavaScript-ready through [WebSharper](http://websharper.com) and [Fable](http://fable.io/)
+
 * *Open-source* and *cross-platform*
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
