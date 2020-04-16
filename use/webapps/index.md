@@ -43,5 +43,5 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 
 <br />
 
-See also [F# Web Programming](/guides/web/).
+There are other options, see also [F# Web Programming](/guides/web/).
 

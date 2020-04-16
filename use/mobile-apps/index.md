@@ -25,7 +25,6 @@ This allows you to use the ultra-simple MVU (Model-View-Update) architecture to 
 
 * [Fabulous Contacts](https://github.com/TimLariviere/FabulousContacts) - A sample contacts app using Fabulous
 
-For more information see [F# for Mobile Apps](/guides/apps-and-games/).
 
 <br />
 
@@ -33,7 +32,8 @@ For more information see [F# for Mobile Apps](/guides/apps-and-games/).
 
 F# supports the development of Android and iOS applications using React and React Native.
 See [this guided example](https://github.com/SAFE-Stack/SAFE-Nightwatch) for starting development.
-For more information see [F# for Mobile Apps and Games](/guides/apps-and-games/).
+
 
 <br />
 
+There are other options, see also [F# for Mobile Apps and Games](/guides/apps-and-games/).
