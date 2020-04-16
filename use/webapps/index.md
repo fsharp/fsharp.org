@@ -1,24 +1,42 @@
 ---
 layout: default
-title: Using F# for JavaScript Web Applications | The F# Software Foundation
-headline: Using F# for JavaScript Web Applications
+title: Using F# for Web Applications | The F# Software Foundation
+headline: Using F# for Web Applications
 ---
 
 ### Option 1: Use Fable
 
-[Fable](https://github.com/fsprojects/Fable) is an F# to JS compiler designed to generate clean
+![logo](/images/thumbs/fable.png)&nbsp;[Fable](https://fable.io) is an F# to JS compiler designed to generate clean
 and standard JavaScript code in order to maximize interoperability in both ways. It integrates with most
 of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
 or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you develop
 not only web apps but also [node.js](https://nodejs.org/en/), desktop with [Electron](http://electron.atom.io)
 or mobile with [React native](https://facebook.github.io/react-native/).
 
-### Option 2: Use WebSharper
+<br />
 
-![WebSharper](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://www.websharper.com) supports F# and can be used to make F# client-side or cross-tier web apps. These can be used from any JS-enabled browser.
+### Option 2: Use SAFE-Stack
 
-### Option 3: Use F# on the Server with other languages on the client
+![logo](/images/thumbs/safestack.png)&nbsp;[SAFE-Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
+emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
+coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
 
-You can use F# on the server with JavaScript, Elm, TypeScript and so on as the front end, in conjunction 
-with modern JS web frameworks. More details at [F# Web Programming](/guides/web/).
+* [Docs](https://safe-stack.github.io/docs/intro/)
+* [Dojo](https://github.com/CompositionalIT/SAFE-Dojo/)
+* [Support](https://safe-stack.github.io/docs/support/)
+
+<br />
+
+### Option 3: Use WebSharper
+
+![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
+It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
+
+* [Try Online](http://websharper.com/samples)
+* [Documentation](http://developers.websharper.com)
+* [Forums](http://forums.websharper.com)
+
+<br />
+
+See also [F# Web Programming](/guides/web/).
 
