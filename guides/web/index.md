@@ -19,9 +19,7 @@ The [Cloud Programming](/guides/cloud/) guide contains more details on scalable 
 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md">edit this page</a> and send a pull request.</p>
-    <hr />
-    <p>The resources below are listed for educational purposes related to the F# programming language. Mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
 
 * auto-gen TOC:
@@ -270,4 +268,3 @@ Common hosting options are:
 
 
 
-The resources listed on this page are provided for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any specific commercial products, processes, or services.

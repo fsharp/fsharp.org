@@ -8,9 +8,7 @@ redirect_from: "/apps-and-games/index.html"
 F# executes on app and gaming platforms including as  [Android](/use/android/), [iOS](/use/ios/), [Mac OS X](/use/mac/), [JavaScript/React/ReactNative](/use/webapps/) and [Windows](/use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines and more make it an ideal tool for many aspects of game development. 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>This guide includes resources related to app and game programming with F#. To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/apps-and-games/index.md">edit this page</a> and send a pull request.</p>
-    <hr />
-    <p>These resources are for educational purposes. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/apps-and-games/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
 
 * auto-gen TOC:

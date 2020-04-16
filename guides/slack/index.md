@@ -42,9 +42,3 @@ Some of Slack's features include:
 * [File](https://slack.zendesk.com/hc/en-us/articles/201330736-Uploading-and-sharing-files) and [text snippet](https://slack.zendesk.com/hc/en-us/articles/204145658-Creating-a-Snippet) sharing
 
 History within Slack is limited. We recommend using the [F# Software Foundation Community Forums](https://forums.fsharp.org/t/welcome-to-the-f-software-foundation-community-forums/8) for questions or discussions where persistance and history are important.
-
-<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>This guide includes resources related to F# Slack teams. To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/slack/index.md">edit this page</a> and send a pull request.</p>
-    <hr />
-    <p>Note that the resources listed below are for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services, unless directly managed by the Foundation. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
-</div>              

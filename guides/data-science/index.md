@@ -21,9 +21,7 @@ REPL-scripting, powerful libraries and scalable data integration.  See also:
 {:toc}
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-science/index.md">edit this page</a> and send a pull request.</p>
-    <hr />
-    <p>These resources are for educational purposes. The F# Software Foundation does not endorse commercial products, processes, or services.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-science/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
 
 <br />

@@ -18,9 +18,7 @@ particularly for taking advantage of cloud-computing resources.
 For cloud-hosted web programming and services, refer to the [Web Programming Guide](/guides/web/).
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>This guide includes resources related to cloud programming with F#. To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md">edit this page</a> and send a pull request.</p>
-    <hr />
-    <p>Note that the resources listed below are for educational purposes related to the F# programming language. The F# Software Foundation does not endorse or recommend any commercial products, processes, or services. Therefore, mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
 
 ## Resources for Cloud Programming
