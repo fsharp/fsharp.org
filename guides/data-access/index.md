@@ -11,14 +11,12 @@ text formats like JSON, and XML.
 
 If the data access libraries you need are not listed here, you can search for them on [nuget](http://nuget.org).
 
-## Resources for Data Access
-
-* auto-gen TOC:
-{:toc}
-
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-access/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
+
+* auto-gen TOC:
+{:toc}
 
 
 ### CSV, HTML, JSON and XML data

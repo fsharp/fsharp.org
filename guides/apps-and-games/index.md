@@ -11,9 +11,6 @@ F# executes on app platforms including as  [Android, iOS](/use/mobile-apps/), [M
     <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/apps-and-games/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
 
-* auto-gen TOC:
-{:toc}
-
 ## Frameworks
 
 * [Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
