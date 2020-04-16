@@ -19,9 +19,9 @@ or mobile with [React native](https://facebook.github.io/react-native/).
 
 <br />
 
-### Option 2: Use SAFE-Stack
+### Option 2: Use SAFE Stack
 
-![logo](/images/thumbs/safestack.png)&nbsp;[SAFE-Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
+![logo](/images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
 emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
 coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
 

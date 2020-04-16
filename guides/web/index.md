@@ -31,10 +31,10 @@ well to a stateless, functional approach. Advantages to using F# for web program
 
 ## Integrated Stacks
 
-#### SAFE-Stack
+#### SAFE Stack
 {: #safe-stack  .anchor }
 
-![logo](/images/thumbs/safestack.png)&nbsp;[SAFE-Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
+![logo](/images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
 emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
 coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
 
