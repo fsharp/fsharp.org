@@ -74,6 +74,7 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 ![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
 1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Windows.
+
 2. Install the latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd).
 
 You will also need either to install Visual Studio or to follow the steps [here](https://rider-support.jetbrains.com/hc/en-us/articles/207288089-Using-Rider-under-Windows-without-Visual-Studio-prerequisites) if you need to use the older .NET Framework instead of .NET Core.

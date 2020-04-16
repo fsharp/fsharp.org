@@ -74,7 +74,9 @@ You can learn more at [Get started with F# in Visual Studio for Mac](https://doc
 ![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
 1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Mac.
+
 2. Install the [latest version of Mono](https://www.mono-project.com/download/stable/#download-mac).
+
 3. Ensure Mono `/bin` folder is added to your `PATH`: `export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/`. For more info see: [Mono installed on Mac, but not recognized in terminal](http://stackoverflow.com/questions/32542535/mono-installed-on-mac-but-not-recognized-in-terminal)
 
 <br />

@@ -55,6 +55,7 @@ REPL-scripting, powerful libraries and scalable data integration.
  * [Accord.MachineLearning](http://nuget.org/packages/Accord.MachineLearning/) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
    See also [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
 
+<br />
 ## Interactive Charting 
 {: #charting .anchor }
 
@@ -65,6 +66,7 @@ REPL-scripting, powerful libraries and scalable data integration.
 * [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
 
 
+<br />
 ## Individual Packages
 {:  .anchor }
 
@@ -97,6 +99,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
  
    License: BSD
 
+<br />
 ## Commercial packages
 {: #commercial-packages .anchor }
 
@@ -162,6 +165,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
    work well for exploratory programming using F# and C# interactive console, but can be also used in 
    efficient compiled .NET code. 
 
+<br />
 ### Tutorials and Introductions
 {: #tutorials .anchor }
 
@@ -194,7 +198,7 @@ Introductions to different machine learning algorithms with F#:
 
 <br />
 
-### Interoperability
+## Interoperability
 
 ### F# and Excel 
 {: #excel-interop .anchor }
@@ -228,6 +232,7 @@ There are also some F# versions of Excel functions, useful when migrating code:
  * [Excel Financial Functions for .NET](https://github.com/fsprojects/ExcelFinancialFunctions)
 
 <br />
+
 ### F# and R
 {: #r-interop  .anchor }
 
@@ -238,6 +243,7 @@ Resources:
  * [Using F#, R and GGPlot2](http://stackoverflow.com/questions/16820211/r-type-provider-and-ggplot2)
  
 <br />
+
 ### F# and MATLAB 
 {: #matlab-interop  .anchor }
 
@@ -246,6 +252,7 @@ Resources:
  * [MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider for higher-fidelity integration between F# and MATLAB
 
 <br />
+
 ### F# and Python 
 {: #python-interop  .anchor }
 
@@ -255,6 +262,7 @@ Resources:
  * [Tutorial: Charting with Gnuplot from F#](http://bit.ly/14RwJeW)
 
 <br />
+
 ### F# and Mathematica/Wolfram Language
 {: #mathematica-interop  .anchor }
 
