@@ -2,7 +2,6 @@
 layout: default
 title: Guide - Web Programming | The F# Software Foundation
 headline: Guide - Web Programming with F#
-redirect_from: "/webstacks/index.html"
 ---
 
 F# excels at building efficient, scalable and robust web solutions. Web programming is 
@@ -20,7 +19,7 @@ The [Cloud Programming](/guides/cloud/) guide contains more details on scalable 
 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-science/index.md">edit this page</a> and send a pull request.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md">edit this page</a> and send a pull request.</p>
     <hr />
     <p>The resources below are listed for educational purposes related to the F# programming language. Mention of commercial products, processes, or services should not be construed as an endorsement or recommendation.</p>
 </div>              
@@ -34,12 +33,17 @@ The [Cloud Programming](/guides/cloud/) guide contains more details on scalable 
 
 <br />
 
-#### Suave
-{: #suave    .anchor }
+#### Giraffe
+{: #giraffe  .anchor }
 
-[Suave](http://suave.io/) is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+[Giraffe](https://github.com/giraffe-fsharp/Giraffe) is an F# library for building rich web applications that use ASP.NET Core under the hood. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
+
+* [Docs](https://github.com/giraffe-fsharp/Giraffe/blob/master/DOCUMENTATION.md)
+* [Samples](https://github.com/giraffe-fsharp/Giraffe/tree/master/samples)
+* [Blog post showing how to use it with .NET Core 2.0](https://blogs.msdn.microsoft.com/dotnet/2017/09/26/build-a-web-service-with-f-and-net-core-2-0/)
 
 <br />
+
 
 #### Fable
 {: #fable    .anchor }
@@ -66,17 +70,6 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 
 <br />
 
-#### Giraffe
-{: #giraffe  .anchor }
-
-[Giraffe](https://github.com/giraffe-fsharp/Giraffe) is an F# library for building rich web applications that use ASP.NET Core under the hood. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
-
-* [Docs](https://github.com/giraffe-fsharp/Giraffe/blob/master/DOCUMENTATION.md)
-* [Samples](https://github.com/giraffe-fsharp/Giraffe/tree/master/samples)
-* [Blog post showing how to use it with .NET Core 2.0](https://blogs.msdn.microsoft.com/dotnet/2017/09/26/build-a-web-service-with-f-and-net-core-2-0/)
-
-<br />
-
 #### WebSharper
 {: #websharper    .anchor }
 
@@ -87,6 +80,13 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 * [Visual Studio templates](http://websharper.com/WebSharper.vsix)
 * [MonoDevelop templates](https://github.com/intellifactory/monodevelop.websharper)
 * [CloudSharper templates](http://cloudsharper.com/)
+
+<br />
+
+#### Suave
+{: #suave    .anchor }
+
+[Suave](http://suave.io/) is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
 <br />
 
@@ -120,13 +120,6 @@ Do it the simple way, and serve web requests direct from code using F# asynchron
 
 * [Summary](http://codinglight.blogspot.co.uk/2010/03/writing-your-own-httphandler-in-f.html)
 * [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
-
-<br />
-
-#### Serving Requests with Azure Functions
-{: #azurefunctions    .anchor }
-
-[Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-fsharp) can host and execute F# handlers as micro-services in a serverless architecture,
 
 <br />
 

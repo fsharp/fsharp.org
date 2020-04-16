@@ -29,19 +29,11 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/webstacks/index.html</loc>
+    <loc>http://fsharp.org/guides/web/index.html</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/math/index.html</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://fsharp.org/apps-and-games/index.html</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://fsharp.org/use/mac/index.html</loc>
+    <loc>http://fsharp.org/guides/data-science/index.html</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -49,7 +41,11 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/use/freebsd/index.html</loc>
+    <loc>http://fsharp.org/use/mac/index.html</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://fsharp.org/use/windows/index.html</loc>
     <priority>0.5</priority>
   </url>
   <url>

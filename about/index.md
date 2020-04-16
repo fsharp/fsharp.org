@@ -42,6 +42,10 @@ the standard F# library.
    for use from other languages, guidelines for F#-to-F# libraries and suggestions on 
    coding conventions.
  
+## History
+
+ * [The Early Histort of F#](/history) - A paper describing the evolution of F# and its design.
+ 
 ## Guides
 
  * [Learning F#](/about/learning.html)
@@ -50,8 +54,6 @@ the standard F# library.
 
  * [F# Cloud Programming Resources](/guides/cloud)
 
- * [Using F# for Math and Statistics](/guides/math-and-statistics)
- 
  * [Mobile App and Game Programming with F#](/guides/apps-and-games)
 
  * [Web Programming with F#](/guides/web)
