@@ -47,7 +47,7 @@ F# is supported by the [Ionide](http://ionide.io/) project.
 
 1. Install [.NET Core SDK](https://dotnet.microsoft.com/download) like in step 1.
 
-2. Install [Visual Studio Code](https://code.visualstudio.com/download) for macOS.
+2. Install [Visual Studio Code](https://code.visualstudio.com/download).
 
 3. Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
 
