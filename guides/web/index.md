@@ -27,9 +27,7 @@ The [Cloud Programming](/guides/cloud/) guide contains more details on scalable 
 
 ------
 
-## Web Frameworks 
-
-<br />
+### Integrated Stacks
 
 #### SAFE-Stack
 {: #safe-stack  .anchor }
@@ -41,6 +39,37 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 * [Docs](https://safe-stack.github.io/docs/intro/)
 * [Dojo](https://github.com/CompositionalIT/SAFE-Dojo/)
 * [Support](https://safe-stack.github.io/docs/support/)
+
+<br />
+
+#### WebSharper
+{: #websharper    .anchor }
+
+[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
+It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
+
+* [Try Online](http://websharper.com/samples)
+* [Documentation](http://developers.websharper.com)
+* [Forums](http://forums.websharper.com)
+
+<br />
+
+#### Fable
+{: #fable    .anchor }
+
+[Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
+and standard code in order to maximize interoperability in both ways. It integrates with most
+of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
+or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you to develop
+[node.js](https://nodejs.org/en/) services, desktop apps with [Electron](http://electron.atom.io)
+and mobile apps with [React native](https://facebook.github.io/react-native/).
+
+* [Try Online](http://fable.io/repl)
+* [Docs](http://fable.io/docs/)
+
+## Web Frameworks 
+
+<br />
 
 #### Giraffe
 {: #giraffe  .anchor }
@@ -54,19 +83,6 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 <br />
 
 
-#### Fable
-{: #fable    .anchor }
-
-[Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
-and standard code in order to maximize interoperability in both ways. It integrates with most
-of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
-or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you to develop
-[node.js](https://nodejs.org/en/) services, desktop apps with [Electron](http://electron.atom.io)
-and mobile apps with [React native](https://facebook.github.io/react-native/).
-
-* [Docs](http://fable.io/docs/)
-* [Samples](http://fable.io/samples.html)
-
 <br />
 
 #### ASP.NET Core
@@ -76,19 +92,6 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 [ASP.NET Core](https://www.asp.net/core) is a modern, cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications. It runs on .NET Core and supports F# out of the box. If you install the [.NET Core SDK](https://www.microsoft.com/net/download/core), there are F# templates available via the `dotnet new` command.
 
 * [Docs](https://docs.microsoft.com/aspnet/core/fundamentals/?tabs=aspnetcore2x)
-
-<br />
-
-#### WebSharper
-{: #websharper    .anchor }
-
-[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
-It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
-
-* [Examples](http://websharper.com/samples)
-* [Visual Studio templates](http://websharper.com/WebSharper.vsix)
-* [MonoDevelop templates](https://github.com/intellifactory/monodevelop.websharper)
-* [CloudSharper templates](http://cloudsharper.com/)
 
 <br />
 
