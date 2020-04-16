@@ -10,35 +10,41 @@ F# is an excellent choice for enterprises.
 The benefits of F# for enterprise development are:
 
 * *Compatibility* - F# is completely integrated with the .NET platform and is a fully supported component of Visual Studio and Xamarin Studio. You can continue to use your favorite C# libraries and maintain your existing development processes.
+
 * *Low risk trials* - It's easier to learn F# than you might think. You can easily try out 
   F# for non-critical development tasks such as testing and scripting without committing to wholesale change.
+
 * *Faster development time* - F# code is generally three times shorter than C# code. And F#
   has many little conveniences that save coding time, such as very succinct type definitions,
   with immutability and equality by default.
+
 * *Easy data access* - F# includes "type providers" that provide type-safe access to all kinds of data (SQL, CSV, JSON, XML).
+
 * *Fewer errors, less maintenance* - Many common errors, such as nulls or empty collections, are easily avoided in F#.
   F# classes cannot be null, exhaustive pattern matching means that edge cases are not overlooked,
   and units of measure can be used to avoid accidental mixups of incompatible numbers.
+
 * *F# code is engineered for testing* - Functional programming does not use state and the logic tends to be linear,
   so it is very easy to test subsystems in isolation easily (using NUnit or your favorite test framework),
   and there are no tangled webs of dependencies. 
   In addition, F# supports property-based testing with FsCheck.
+
 * *Better domain modelling* - F# has a powerful type system that can be used to model domains accurately.
   "Choice" types can model business cases more conveniently than inheritance, and business rules
   can be designed into the type system so that you get "compile-time unit tests", eliminating the need 
   for many tests that would otherwise have to be written by hand.
+
 * *Taming complexity* - F# has a number of features to help you manage complexity and improve performance such as:
   a [safer](http://tomasp.net/blog/csharp-async-gotchas.aspx/) Async library,
   a built-in actor model that's easier than using threads,
   safe parallelization with immutable data, and more.
+
 * *Improving developer morale* - F# is a fun language to program in, and F# is a great way for developers
   to learn new skills that will improve their skills in other languages, such as C# and JavaScript.
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/enterprise/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
-
-## Resources for Enterprise Programming 
 
 * auto-gen TOC:
 {:toc}

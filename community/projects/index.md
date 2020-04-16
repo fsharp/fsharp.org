@@ -29,7 +29,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="compiler-and-core">Community Projects: Compiler and Core Library</h2>
 
-*  <img src="https://fsharp.org/img/logo/fsharp128.png" alt="logo" style="height:32px">&nbsp;[fsharp/fsharp](https://github.com/fsharp/fsharp) - The F# Compiler and Core Library. See also the [Visual F# Tools](https://github.com/Microsoft/visualfsharp) and [Contributing to the F# Language and Compiler](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).
+*  <img src="https://fsharp.org/img/logo/fsharp128.png" alt="logo" style="height:32px">&nbsp;[dotnet/fsharp](https://github.com/dotnet/fsharp) - The F# Compiler and Core Library. See also [Contributing to the F# Language and Compiler](http://fsharp.github.io/2014/06/18/fsharp-contributions.html).
 
 *  ![logo](/images/thumbs/FSharp.Compiler.Service.png)&nbsp;[fsharp/FSharp.Compiler.Service](http://fsharp.github.io/FSharp.Compiler.Service/) - The F# Compiler, F# Interactive scripting engine and F# editing services as a component library.
 
@@ -37,7 +37,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="editing" class="anchor">Community Projects: Editing Tools</h2>
 
-*  ![logo](/images/thumbs/vstudio.png)&nbsp;[Visual F# Tools](https://github.com/Microsoft/visualfsharp) - The IDE tools for F# that are part of Visual Studio. Contributions welcome!
+*  ![logo](/images/thumbs/vstudio.png)&nbsp;[Visual F# Tools](https://github.com/dotnet/fsharp) - The IDE tools for F# that are part of Visual Studio. Contributions welcome!
 
 *  ![logo](/images/thumbs/ionide.png)&nbsp;[Ionide](http://ionide.io) - The Visual Studio Code plugin for F# development
 

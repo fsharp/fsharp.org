@@ -37,14 +37,14 @@ the standard F# library.
 
 ## Component Design Guidelines
 
- * [The F# Component Design Guidelines](/specs/component-design-guidelines) - This document is a set of component 
+ * [The F# Component Design Guidelines](https://docs.microsoft.com/en-us/dotnet/fsharp/style-guide/component-design-guidelines) - This document is a set of component 
    design guidelines for F# programming. It describes guidelines for designing libraries 
    for use from other languages, guidelines for F#-to-F# libraries and suggestions on 
    coding conventions.
  
 ## History
 
- * [The Early Histort of F#](/history) - A paper describing the evolution of F# and its design.
+ * [The Early History of F#](/history) - A paper describing the evolution of F# and its design.
  
 ## Guides
 

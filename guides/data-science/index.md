@@ -12,17 +12,14 @@ redirect_from:
 Data science is the application of statistical analysis, machine learning, data visualization and programming to 
 real-world data sources to bring understanding and insight to data-oriented problem domains.
 F# is an excellent solution for programmatic data science as it combines efficient execution,
-REPL-scripting, powerful libraries and scalable data integration.  See also:
-
-* [Data Access](/guides/data-access/)
-* [Cloud Programming](/guides/cloud/)
-
-* auto-gen TOC:
-{:toc}
+REPL-scripting, powerful libraries and scalable data integration.  
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-science/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
+
+* auto-gen TOC:
+{:toc}
 
 <br />
 ## Integrated Packages
