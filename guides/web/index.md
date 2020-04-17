@@ -52,7 +52,9 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
 * [Try Online](http://websharper.com/samples)
+
 * [Documentation](http://developers.websharper.com)
+
 * [Forums](http://forums.websharper.com)
 
 <br />
@@ -263,6 +265,7 @@ Please consider contributing, either directly to the TodoBackend project or via 
 Several books have been written that include information on building web applications with F#:
 
 * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Web-Cloud-Mobile-Solutions/dp/1449333761) 
+
 * [Expert F# 4.0](https://books.google.com/books?isbn=1484207424)
 
 ------
