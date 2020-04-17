@@ -99,7 +99,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 #### Suave
 {: #suave    .anchor }
 
-[Suave](http://suave.io/) is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+![logo](/images/thumbs/suave.png)&nbsp;[Suave](http://suave.io/) is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
 <br />
 
