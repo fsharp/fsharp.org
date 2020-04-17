@@ -8,7 +8,8 @@ headline: Using F# for Jupyter Notebooks
 
 ![logo](/images/thumbs/jupyter.png)&nbsp;[.NET Interactive](https://github.com/dotnet/interactive/)
 provides data scientists and developers a way to explore data, experiment with code, and try new ideas
-effortlessly. Use .NET Interactive to build .NET Jupyter notebooks or custom interactive coding experiences.
+effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter notebooks or custom interactive coding experiences.
+
 
 * [Announcement](https://devblogs.microsoft.com/dotnet/net-interactive-is-here-net-notebooks-preview-2/)
 
