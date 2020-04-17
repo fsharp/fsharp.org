@@ -263,7 +263,7 @@ Please consider contributing, either directly to the TodoBackend project or via 
 Several books have been written that include information on building web applications with F#:
 
 * [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Web-Cloud-Mobile-Solutions/dp/1449333761) 
-* [Expert F# 3.0](http://www.amazon.com/Expert-F-3-0-Apress/dp/1430246502/ref=sr_1_2?s=books&ie=UTF8&qid=1353176560&sr=1-2&keywords=F%23)
+* [Expert F# 4.0](https://books.google.com/books?isbn=1484207424)
 
 ------
 
