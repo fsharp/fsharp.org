@@ -51,7 +51,7 @@ F# is supported by the [Ionide](http://ionide.io/) project.
 
 2. Install [Visual Studio Code](https://code.visualstudio.com/download) for macOS.
 
-3. Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
+3. Press `Cmd+Shift+P` and enter the following to install the Ionide package for VS Code.
 
         ext install Ionide-fsharp
 
