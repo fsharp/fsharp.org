@@ -52,7 +52,7 @@ in the modern enterprise and web applications.
 
  * [F# Cloud Programming Resources](/guides/cloud)
 
- * [Mobile App Programming with F#](/guides/apps-and-games)
+ * [Mobile App Programming with F#](/guides/mobile-apps)
 
  * [Web Programming with F#](/guides/web)
 
