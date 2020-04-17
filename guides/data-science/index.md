@@ -22,6 +22,24 @@ REPL-scripting, powerful libraries and scalable data integration.
 {:toc}
 
 <br />
+## Jupyter Notebooks
+
+* ![logo](/images/thumbs/jupyter.png)&nbsp;[.NET Interactive](https://github.com/dotnet/interactive/)
+provides data scientists and developers a way to explore data, experiment with code, and try new ideas
+effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter notebooks or custom interactive coding experiences.
+
+  * [Announcement](https://devblogs.microsoft.com/dotnet/net-interactive-is-here-net-notebooks-preview-2/)
+  * [Try Online in Binder](https://github.com/dotnet/interactive/blob/master/docs/NotebooksOnBinder.md)
+  * [Use Locally](https://github.com/dotnet/interactive/blob/master/docs/NotebooksLocalExperience.md)
+
+* ![logo](/images/thumbs/jupyter.png)&nbsp;[IfSharp](https://github.com/fsprojects/IfSharp) implements F# for Jupyter notebooks.
+On Linux, Mono is used as the .NET implementation.
+
+  * [Getting Started](https://github.com/fsprojects/IfSharp#getting-started/)
+  * [Feature Notebook](https://github.com/fsprojects/IfSharp/blob/master/FSharp_Jupyter_Notebooks.ipynb)
+  * [In Azure Notebooks](https://github.com/fsprojects/IfSharp#azure-notebooks)
+
+<br />
 ## Integrated Packages
 {: #integrated-packages .anchor }
 
@@ -54,6 +72,7 @@ REPL-scripting, powerful libraries and scalable data integration.
 
  * [Accord.MachineLearning](http://nuget.org/packages/Accord.MachineLearning/) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
    See also [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
+
 
 <br />
 ## Interactive Charting 
