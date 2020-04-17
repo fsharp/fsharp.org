@@ -47,3 +47,8 @@ right in your browser.
 
 [CloudSharper](https://cloudsharper.com/) is an online web and mobile programming with big data and charting. Registration required.
 
+### Option 8: [Try F# in Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-online/)
+
+[Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-online/) is an online service providing cloud-powered dev environments accessible from anywhere. It includes browser based IDE. F# support in VSO is powered by [Ionide](https://ionide.io/). Registration required, paid service.
+
+Easiest way to get started with VSO is going to [Ionide Playground repository](https://github.com/ionide/playground) and clicking `VS Online - Create` button
