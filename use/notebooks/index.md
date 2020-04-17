@@ -21,7 +21,7 @@ effortlessly. Use .NET Interactive to build .NET Jupyter notebooks or custom int
 ### Option 2: Use iFSharp
 
 ![logo](/images/thumbs/jupyter.png)&nbsp;[iFSHarp](https://github.com/fsprojects/IfSharp) implements F# for Jupyter notebooks.
-On Linux Mono is used as the .NET implementation.
+On Linux, Mono is used as the .NET implementation.
 
 * [Getting Started](https://github.com/fsprojects/IfSharp#getting-started/)
 
