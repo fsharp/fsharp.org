@@ -64,13 +64,13 @@ On Linux, Mono is used as the .NET implementation.
 
  * [ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet/) - ML.NET is an open source and cross-platform machine learning framework sponsored by Microsoft.
 
- * [Encog Machine Learning Framework](http://nuget.org/packages/encog-dotnet-core/) - An advanced neural network and machine learning framework. Encog
+ * [Encog Machine Learning Framework](https://www.heatonresearch.com/encog/) - An advanced neural network and machine learning framework. Encog
    contains classes to create a wide variety of networks, as well as support classes to normalize and process data for these neural networks. Encog trains using multithreaded resilient propagation. Encog can also make use of a GPU to further speed processing time. A GUI based workbench is also provided to help model and train neural networks.
    See, for example, [ENCOG Neural Network XOR example in F#](http://relentlessdevelopment.wordpress.com/2013/11/14/hello-neurons-encog-neural-network-xor-example-in-f/)
 
  * [FsLab](http://fslab.org/) is an integrated, cross-platform collection of open source data science packages for F#, including FSharp.Data, Deedle, RProvider, Math.NET Numerics and more.
 
- * [Accord.MachineLearning](http://nuget.org/packages/Accord.MachineLearning/) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
+ * [Accord.MachineLearning](http://accord-framework.net//) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
    See also [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
 
 
@@ -80,9 +80,9 @@ On Linux, Mono is used as the .NET implementation.
 
 * [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
-* [FSharp.Plotly](http://muehlhaus.github.io/FSharp.Plotly/index.html) - a powerful and free charting library. FSharp.Plotly provides Plotly's awesome graphing support with strongly typed style options for F#. 
+* [FSharp.Plotly](https://muehlhaus.github.io/FSharp.Plotly/) - a powerful and free charting library. FSharp.Plotly provides Plotly's awesome graphing support with strongly typed style options for F#. 
 
-* [FSharp.Charting](http://fsharp.github.io/FSharp.Charting/) - an interactive charting library frequently used on Windows.
+* [FSharp.Charting](https://fslab.org/FSharp.Charting/) - an interactive charting library frequently used on Windows.
 
 
 <br />
@@ -122,7 +122,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 ## Commercial packages
 {: #commercial-packages .anchor }
 
- * [Alea GPU](https://developer.nvidia.com/alea-gpu) - a framework for 
+ * [Alea GPU](http://www.aleagpu.com/) - a framework for 
    developing GPU-accelerated algorithms in F# on .NET and Mono.
 
    Utilizing F# quotations and the
@@ -152,7 +152,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
    additional performance. Extreme Optimization supports .NET 3.5 and 4.0 (2.0 version 
    available) and execution on Mono.
 
- * [NMath, NMath Stats](http://www.centerspace.net/products/c-sharp-vb-net-math-library-products/) -
+ * [NMath, NMath Stats](https://www.centerspace.net/nmath/) -
    a suite providing core math and statistics functions.
 
    NMath provides sparse- and 
