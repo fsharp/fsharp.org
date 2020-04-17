@@ -86,8 +86,6 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 <br />
 
 
-<br />
-
 #### ASP.NET Core
 
 {: #aspnetcore  .anchor }
@@ -105,18 +103,6 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 
 <br />
 
-#### Freya
-{: #freya    .anchor }
-
-[Freya](https://github.com/xyncro/freya) provides a functional web stack built on top of [OWIN](http://owin.org/). At its core, Freya wraps the OWIN environment dictionary with a computation expression and provides access to that dictionary with lenses. Additional layers of the stack provide types based on the HTTP and related RFCs, a pipeline abstraction for connecting Freya computations, a router, and an implementation of the [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram), like that found in [webmachine](https://github.com/basho/webmachine).
-
-* [NuGet](http://www.nuget.org/packages?q=freya)
-* [GitHub](https://github.com/xyncro/freya)
-* [Docs](https://freya.io/)
-* Install the project template with `dotnet new --install Freya.Template`
-
-<br />
-
 #### Saturn
 {: #saturn    .anchor }
 
@@ -131,13 +117,13 @@ It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 
 <br />
 
-#### NancyFx
-{: #nancyfx    .anchor }
+#### Bolero
 
-[NancyFx](http://nancyfx.org/) is a lightweight, low-ceremony framework for building HTTP-based micro-applications and micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
+![logo](/images/thumbs/fsbolero.png)&nbsp;[Bolero](hthttps://fsbolero.io/) - F# on the client side, no JavaScript - Bolero uses Blazor to bring F# to WebAssembly. Create dynamic HTML content using syntax familiar from WebSharper and Fable, in a full-fledged client-side .NET web framework.
 
-* [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
-* [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
+* [Get Started](https://fsbolero.io/)
+* [Project Template](https://github.com/fsbolero/template)
+* [Try Online](https://tryfsharp.fsbolero.io/)
 
 
 <br />
@@ -159,16 +145,12 @@ Do it the simple way, and serve web requests direct from code using F# asynchron
 One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02).
 
 * [Skillscast: F# and SignalR for a fast Web](https://skillsmatter.com/skillscasts/6155-f-and-signalr-for-a-fast-web)
+
 * [SignalR-FSharp-Example](https://github.com/Thorium/SignalR-FSharp-Example)
+
 * F# and SignalR Stock Ticker [part 1](https://jamessdixon.wordpress.com/2013/11/26/f-and-singalr-stock-ticker-example/) [part 2](https://jamessdixon.wordpress.com/2013/12/03/f-and-signalr-stock-ticker-part-2/)
+
 * [StackOverflow answer demonstrating typed access to SignalR client methods](http://stackoverflow.com/a/20380210/2089257)
-
-<br />
-
-#### ServiceStack
-{: #service-stack    .anchor }
-
-[ServiceStack](https://servicestack.net/) is a framework for simple and fast web services on .NET and Mono.
 
 <br />
 
@@ -177,11 +159,40 @@ One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.m
 
 [ASP.NET Blazor](https://blazor.net/) is a web framework for running .NET on [WebAssembly](https://webassembly.org/) similar to React, Angular, Vue, etc. It uses Razor `.cshtml` files to define components and render but can be used with F# libraries.
 
-[Bolero](https://fsbolero.io/) is simply another way to bring F# to WebAssembly. 
+* [BlazorRedux](https://github.com/torhovland/blazor-redux) provides Redux-like state management for Blazor and works well with F#.
 
-[BlazorRedux](https://github.com/torhovland/blazor-redux) provides Redux-like state management for Blazor and works well with F#.
+* [Trail](https://github.com/panesofglass/trail) provides an F# DSL for rendering in Blazor, allowing for a complete F# solution.
 
-[Trail](https://github.com/panesofglass/trail) provides an F# DSL for rendering in Blazor, allowing for a complete F# solution.
+<br />
+
+#### NancyFx
+{: #nancyfx    .anchor }
+
+[NancyFx](http://nancyfx.org/) is a lightweight, low-ceremony framework for building HTTP-based micro-applications and micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
+
+* [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
+
+* [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
+
+
+<br />
+
+#### Freya
+{: #freya    .anchor }
+
+[Freya](https://github.com/xyncro/freya) provides a functional web stack built on top of [OWIN](http://owin.org/). At its core, Freya wraps the OWIN environment dictionary with a computation expression and provides access to that dictionary with lenses. Additional layers of the stack provide types based on the HTTP and related RFCs, a pipeline abstraction for connecting Freya computations, a router, and an implementation of the [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram), like that found in [webmachine](https://github.com/basho/webmachine).
+
+* [NuGet](http://www.nuget.org/packages?q=freya)
+* [GitHub](https://github.com/xyncro/freya)
+* [Docs](https://freya.io/)
+* Install the project template with `dotnet new --install Freya.Template`
+
+<br />
+
+#### ServiceStack
+{: #service-stack    .anchor }
+
+[ServiceStack](https://servicestack.net/) is a framework for simple and fast web services on .NET and Mono.
 
 <br />
 
@@ -207,10 +218,15 @@ concise. You can easily leverage your existing .NET code to help you test.
 Some open source libraries that assist with web unit testing are:
 
 * [Expecto](https://github.com/haf/expecto) - An evolution of Fuchu
+
 * [FsCheck](https://fscheck.github.io/FsCheck)
+
 * [FsUnit](https://github.com/fsprojects/FsUnit)
+
 * [Fuchu](https://github.com/mausch/Fuchu)
+
 * [TickSpec](https://github.com/fsprojects/TickSpec#project-description)
+
 * [Unquote](https://github.com/SwensenSoftware/unquote/)
 
 
@@ -227,6 +243,7 @@ Some open source libraries that assist with web unit testing are:
 [TodoBackend](http://todobackend.com/) is a project that aims to be "a shared example to showcase backend tech stacks." The F# community has contributed some examples, and a few more are in progress:
 
 * [F# - Freya (OWIN)](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/owin)
+
 * [F# - ASP.NET Web API](http://www.todobackend.com/specs/index.html?http://todo-backend-fsharp.azurewebsites.net/webapi)
 
 Please consider contributing, either directly to the TodoBackend project or via the [TodoBackendFSharp](https://github.com/panesofglass/TodoBackendFSharp) project.
@@ -257,13 +274,21 @@ There are  several presentations and tutorials available that include informatio
 build web applications with F#:
 
 * [Taking F# to the Masses with CloudSharper](http://youtu.be/LvbfY3sl6Lo)
+
 * [F# on the Web](http://youtu.be/2tVQNjdn-Y0)
+
 * [Tackle UI with Reactive DOM in F# and WebSharper](http://youtu.be/wEkS09s3KBc)
+
 * [Building an HTML5 application with WebSharper Sitelets, Part 1](http://www.developerfusion.com/article/124078/building-an-html5-application-with-websharper-sitelets-part-1/)
+
 * [Building Better Web Apps with F#](http://bloggemdano.blogspot.com/2012/11/recording-for-building-better-web-apps.html)
+
 * [Building Data-Driven Websites](http://msdn.microsoft.com/en-us/library/hh273072.aspx)
+
 * [F# on the Web Workshop](https://github.com/c4fsharp/FsOnTheWeb-Workshop)
+
 * [F# 3.0: data, services, Web, cloud, at your fingertips](http://channel9.msdn.com/Events/Build/BUILD2011/SAC-904T)
+
 * [F# Introduction](http://skillsmatter.com/podcast/scala/phil-trelford-f-introduction)
 
 ------
@@ -274,8 +299,11 @@ build web applications with F#:
 Common hosting options are:
 
 * [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
+
 * [Azure Web Sites](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
+
 * [AppHarbor](http://appharbor.com/) - Free hosting of .NET web applications
+
 * [GearHost](https://www.gearhost.com/) - Free hosting of .NET web applications (100 MB), IIS based, support for both .NET Framework and [Core](https://www.gearhost.com/documentation/deploy-net-core-application), MSSQL and MySQL databases (10 MB), support of simple WebJobs.
 
 

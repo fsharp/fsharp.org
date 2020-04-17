@@ -35,7 +35,7 @@ REPL-scripting, powerful libraries and scalable data integration.
    a large collection of algorithms needed in science and engineering, including linear algebra, 
    special functions, statistics, probability models, interpolation and FFTs. 
 
-   In addition to the core .NET package, Numerics specifically supports F# 3.0 with idiomatic extension modules and 
+   In addition to the core .NET package, Numerics specifically supports F# 4.0 with idiomatic extension modules and 
    maintains mathematical data structures like BigRational that originated in the F# PowerPack. 
    If a performance boost is needed, the managed-code provider backing its linear algebra routines 
    and decompositions can be exchanged with wrappers for optimized native implementations such as 

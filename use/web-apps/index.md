@@ -2,6 +2,8 @@
 layout: default
 title: Using F# for Web Applications | The F# Software Foundation
 headline: Using F# for Web Applications
+redirect_from: 
+    - /use/webapps/index.html
 ---
 
 ### Option 1: Use Fable
@@ -34,12 +36,22 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 
 ### Option 3: Use WebSharper
 
-![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
+![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) allows end-to-end web applications with both client and server developed in F#. 
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
 * [Try Online](http://websharper.com/samples)
 * [Documentation](http://developers.websharper.com)
 * [Forums](http://forums.websharper.com)
+
+<br />
+
+### Option 4: Use WebAssembly with Bolero
+
+![logo](/images/thumbs/fsbolero.png)&nbsp;[Bolero](hthttps://fsbolero.io/) - F# on the client side, no JavaScript - Bolero uses Blazor to bring F# to WebAssembly. Create dynamic HTML content using syntax familiar from WebSharper and Fable, in a full-fledged client-side .NET web framework.
+
+* [Get Started](https://fsbolero.io/)
+* [Project Template](https://github.com/fsbolero/template)
+* [Try Online](https://tryfsharp.fsbolero.io/)
 
 <br />
 

@@ -2,13 +2,13 @@
 layout: default
 title: Guide - Mobile Apps | The F# Software Foundation
 headline: Guide - Mobile Apps with F#
-redirect_from: "/apps-and-games/index.html"
+redirect_from: "/mobile-apps/index.html"
 ---
 
-F# executes on app platforms including as  [Android, iOS](/use/mobile-apps/), [Mac OS X](/use/mac/), [JavaScript/React/ReactNative](/use/webapps/) and [Windows](/use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines and more make it an ideal tool for many aspects of app development. 
+F# executes on app platforms including as  [Android, iOS](/use/mobile-apps/), [Mac OS X](/use/mac/), [JavaScript/React/ReactNative](/use/web-apps/) and [Windows](/use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines and more make it an ideal tool for many aspects of app development. 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/apps-and-games/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/mobile-apps/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
 </div>              
 
 ## Frameworks
