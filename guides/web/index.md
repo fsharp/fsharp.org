@@ -106,7 +106,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 #### Saturn
 {: #saturn    .anchor }
 
-[Saturn](https://saturnframework.org) is a web development framework written in F# which implements the server-side MVC pattern. Many of its components and concepts will seem familiar to anyone with experience in other web frameworks like Ruby on Rails or Python’s Django. It's built on top of Giraffe and ASP.Net Core - modern, cross-platform, high-performance development platform for building cloud-ready web applications. 
+![logo](/images/thumbs/saturn.png)&nbsp;[Saturn](https://saturnframework.org) is a web development framework written in F# which implements the server-side MVC pattern. Many of its components and concepts will seem familiar to anyone with experience in other web frameworks like Ruby on Rails or Python’s Django. It's built on top of Giraffe and ASP.Net Core - modern, cross-platform, high-performance development platform for building cloud-ready web applications. 
 
 It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 
