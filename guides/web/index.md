@@ -138,25 +138,6 @@ Do it the simple way, and serve web requests direct from code using F# asynchron
 
 <br />
 
-#### Pure F# Web API 2.0
-{: #webapi20    .anchor }
-
-[Web API 2.0](http://www.asp.net/web-api) is a widely used open source web framework from Microsoft that runs on .NET Framework. The [Pure F# Web Templates (Visual Studio, Web API 2.0)](http://bloggemdano.blogspot.com/2013/12/a-new-f-aspnet-mvc-5-and-web-api-2.html). These templates provide a Pure F# project for implementing a web API with Web API 2.0. Everything is implemented in F#.
-   
-[OWIN and Katana](http://www.asp.net/aspnet/overview/owin-and-katana) provide a flexible set of components for building and hosting Open Web Interface for .NET (OWIN)-based web applications. Web API can be hosted directly on Katana using the [Owin Web API package](http://www.nuget.org/packages/Microsoft.AspNet.WebApi.Owin).
-
-Some resources on using F# with Web API:
-
-* [Visual Studio templates](https://visualstudiogallery.msdn.microsoft.com/39ae8dec-d11a-4ac9-974e-be0fdadec71b)
-* [How to create a pure F# ASP.NET Web API project](http://blog.ploeh.dk/2013/08/23/how-to-create-a-pure-f-aspnet-web-api-project/)
-* [Running a pure F# ASP.NET Web API on Azure Web Sites](http://blog.ploeh.dk/2013/08/26/running-a-pure-f-web-api-on-azure-web-sites/)
-* [Creating Lightweight F# websites that use pure F# OWIN Web APIs and Typescript web applications](http://cockneycoder.wordpress.com/2014/09/03/lightweight-websites-with-f/)
-* [Sample F# ASP.NET Web API hosted with OWIN on an Azure Worker Role](https://github.com/panesofglass/AzureFSharpOwin)
-* [F#/C# Web Templates for REST](http://visualstudiogallery.msdn.microsoft.com/3d2bf938-fc9e-403c-90b3-8de27dc23095) - (Visual Studio) Includes templates for ASP.NET Web API. 
-* [A Simple Nowin F# Example](http://mikehadlow.blogspot.com/2015/04/a-simple-nowin-f-example.html) - example showing an F# OWIN app running on a web server other than IIS.
-
-<br />
-
 #### SignalR
 {: #signalr    .anchor }
 
