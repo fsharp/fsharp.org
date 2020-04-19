@@ -172,6 +172,8 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 * ![logo](/images/thumbs/sqlfun-small.png)&nbsp;[SqlFun](https://jacentino.github.io/SqlFun) - An SQL database access library. Supports direct SQL calls, automatic CRUD operations, stored procedures, collection parameters and complex result structures. Allows to define custom query DSL-s. Type safe and idiomatically functional.
 
+* [Donald](https://github.com/pimbrouwers/Donald) - An idiomatic F# interface for ADO.NET.
+
 <br />
 
 <h2 class="anchor" id="interop" class="anchor">Community Projects: Interoperability</h2>
@@ -315,7 +317,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 * [Nini](https://github.com/YoloDev/Nini) - A micro web framework for DNX (ASP.NET vNext).
 
-
+* [Falco](https://github.com/pimbrouwers/Falco) - A functional micro-library for building brilliant ASP.NET Core applications using F#. Low barrier to entry for those new to functional programming.
 
 <br />
 
