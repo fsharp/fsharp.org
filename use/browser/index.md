@@ -54,3 +54,7 @@ right in your browser.
 [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-online/) is an online service providing cloud-powered dev environments accessible from anywhere. It includes browser based IDE. F# support in VSO is powered by [Ionide](https://ionide.io/). Registration required, paid service.
 
 Easiest way to get started with VSO is going to [Ionide Playground repository](https://github.com/ionide/playground) and clicking `VS Online - Create` button
+
+### Option 9: [Try F# in Bolero](https://tryfsharp.fsbolero.io)
+
+[Try F# in Bolero](https://tryfsharp.fsbolero.io) is an online F# playground running entirely in the browser using WebAssembly. Powered by [Bolero](https://fsbolero.io).
