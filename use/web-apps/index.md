@@ -47,7 +47,7 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 
 ### Option 4: Use WebAssembly with Bolero
 
-![logo](/images/thumbs/fsbolero.png)&nbsp;[Bolero](hthttps://fsbolero.io/) - F# on the client side, no JavaScript - Bolero uses Blazor to bring F# to WebAssembly. Create dynamic HTML content using syntax familiar from WebSharper and Fable, in a full-fledged client-side .NET web framework.
+![logo](/images/thumbs/fsbolero.png)&nbsp;[Bolero](https://fsbolero.io/) - F# on the client side, no JavaScript - Bolero uses Blazor to bring F# to WebAssembly. Create dynamic HTML content using syntax familiar from WebSharper and Fable, in a full-fledged client-side .NET web framework.
 
 * [Get Started](https://fsbolero.io/)
 * [Project Template](https://github.com/fsbolero/template)
