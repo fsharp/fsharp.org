@@ -14,13 +14,13 @@ To learn F# use one of the free online resources or books below.
 
 ### [F# for C#, Java or Python developers](http://fsharpforfunandprofit.com/)
 
-<img src="images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="../images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 Introduces you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software.
 
 
-<img src="images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="../images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 ### [Try F#](https://try.fsharp.org/)
 
@@ -47,7 +47,7 @@ A collection of snippets of F# code.
 
 ### [F# Guide and Visual F# Development Portal](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/)
 
-<img src="images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="../images/thumbs/vstudio.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 The Microsoft documentation for F# provides a language reference, walkthroughs, videos, samples, and more.  You can also
 contribute to the documentation on GitHub.
@@ -438,7 +438,7 @@ F# ile Microsoft'un .NET platformu üzerinde Windows, Linux ve OSX işletim sist
 
 ### [Building F# Applications (Video)](https://www.packtpub.com/application-development/building-f-applications-video)
 
-<img src="/about/files/VideoBFA.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="../about/files/VideoBFA.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Richard Broida_
 
@@ -453,7 +453,7 @@ Learn how to use F#'s functional features to rapidly turn requirements into soft
 
 ### [F# Applied II](https://www.demystifyfp.com/FsApplied2)
 
-<img src="/about/files/BookFP2.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="../about/files/BookFP2.jpeg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tamizhvendan S_
 
