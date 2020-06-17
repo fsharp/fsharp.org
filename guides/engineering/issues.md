@@ -6,9 +6,10 @@ headline: Report/Fix an Issue
 
 Please follow the links below to make a suggestion, report an issue with F# and/or contribute a fix.  
 
-### Core Tools
+### Core Language and Tools
 
 |:------------------|:--------------------|:------------------|
+| [F# Language RFC](https://github.com/fsharp/fslang-design/) |   [Make suggestion](https://github.com/fsharp/fslang-suggestions) |          [Contribute to an RFC](https://github.com/fsharp/fslang-design/)      | 
 | [F# Language Specification](http://fsharp.org/specs/language-spec/) |   [Make suggestion](https://github.com/fsharp/fslang-suggestions) |          [Report/Fix an issue](http://fsharp.org/specs/language-spec/)      | 
 | [F# Compiler and Core Library](https://github.com/dotnet/fsharp)   |                 [Make suggestion](https://github.com/fsharp/fslang-suggestions) | [Report/Fix an issue (general)](https://github.com/dotnet/fsharp/issues) | 
 
