@@ -19,14 +19,14 @@ in the modern enterprise and web applications.
 
 ### [F# for C#, Java or Python developers](http://fsharpforfunandprofit.com/)
 
-<img src="../images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
-
-Introduces you to F# and show you ways that F# can help in day-to-day development
+* Introduces you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software.
+
+<br />
 
 ## [History](/history)
 
-* [The Early History of F#](/history) - A paper describing the evolution of F# and its design.
+* Describes the evolution of F# and its design.
  
 <br />
 
