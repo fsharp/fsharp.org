@@ -11,6 +11,11 @@ in the modern enterprise and web applications.
 
 <br />
 
+## [About F#](https://dotnet.microsoft.com/languages/fsharp)
+
+A simple, clear resource explaining what F# is and what it is for, provided by a major commercial contributor to F# and its tooling.
+Learn about the tools for F#, the F# community, using F# with the .NET platform and access getting-started material.
+
 ## Language Reference
 
  * [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/) - 

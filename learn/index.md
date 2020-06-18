@@ -12,6 +12,12 @@ redirect_from:
 
 To learn F# use one of the free online resources or books below.
 
+
+### [F# - An open-source, cross-platform functional programming language for .NET](https://dotnet.microsoft.com/languages/fsharp)
+
+A simple, clear resource explaining what F# is and what it is for, provided by a major commercial contributor to F# and its tooling.
+Learn about the tools for F#, the F# community, using F# with the .NET platform and access getting-started material.
+
 ### [F# for C#, Java or Python developers](http://fsharpforfunandprofit.com/)
 
 <img src="../images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
