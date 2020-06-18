@@ -17,36 +17,16 @@ in the modern enterprise and web applications.
 
 <br />
 
-## Language Reference
+### [F# for C#, Java or Python developers](http://fsharpforfunandprofit.com/)
 
- * [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/) - 
-   Comprehensive F# documentation that includes general information 
-   about F#, a language reference explaining all F# constructs as well as documentation for 
-   the standard F# library.
+<img src="../images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
 
-<br />
+Introduces you to F# and show you ways that F# can help in day-to-day development
+of mainstream commercial business software.
 
-## Specification
+## [History](/history)
 
- * [The F# Language Specification](/specs/language-spec) - The specification gives an in-depth 
-   technical explanation of the F# language constructs and required compiler behavior. 
-   It discusses topics such as lexical analysis, grammar, types including type inference 
-   algorithm, expressions, patterns and other.
-
-<br />
-
-## Component Design Guidelines
-
- * [The F# Component Design Guidelines](https://docs.microsoft.com/en-us/dotnet/fsharp/style-guide/component-design-guidelines) - This document is a set of component 
-   design guidelines for F# programming. It describes guidelines for designing libraries 
-   for use from other languages, guidelines for F#-to-F# libraries and suggestions on 
-   coding conventions.
-
-<br />
-
-## History
-
- * [The Early History of F#](/history) - A paper describing the evolution of F# and its design.
+* [The Early History of F#](/history) - A paper describing the evolution of F# and its design.
  
 <br />
 
@@ -54,12 +34,12 @@ in the modern enterprise and web applications.
 
  * [Learning F#](/about/learning.html)
 
- * [F# Data Science Programming Resources](/guides/data-science)
-
- * [F# Cloud Programming Resources](/guides/cloud)
-
- * [Mobile App Programming with F#](/guides/mobile-apps)
-
  * [Web Programming with F#](/guides/web)
+
+ * [Data Science Programming with F#](/guides/data-science)
+
+ * [Cloud Programming with F#](/guides/cloud)
+
+ * [App Programming with F#](/guides/mobile-apps)
 
  * [Data Access with F#](/guides/data-access)
