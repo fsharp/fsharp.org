@@ -96,6 +96,10 @@ Source code available on [GitHub FSDN](https://github.com/fsdn-projects/FSDN)
 
 Very short tutorial/guide that shows the most important differences between C# and F#, with clear and concise examples.
 
+### [Ultra-short F# tutorial/guide for Python developers](https://github.com/knocte/2fsharp/blob/master/python2fsharp.md)
+
+Very short tutorial/guide that shows the most important differences between Python and F#, with clear and concise examples.
+
 <h2 id="courses" class="anchor">F# Courses - General</h2>
 
 ### [Introduction to F#](https://fsharp.tv/courses/fsharp-programming-intro/)
