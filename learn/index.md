@@ -39,6 +39,11 @@ of mainstream commercial business software.
 The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
 
 
+### [F# on Learn X in Y Minutes](https://learnxinyminutes.com/docs/fsharp/)
+
+Quickly check out F# features and commonly used snipets, even compare it to languages you already know.
+
+
 ### [The F# Koans](https://github.com/ChrisMarinos/FSharpKoans#functional-koans---f)
 
 Learn F# by just filling in the gaps! The F# Koans are a fun set of code snippets where you have to fill in gaps to get tests to pass, and you learn the language along the way.  Also available as a [snippet](http://fssnip.net/bG) which can be loaded into interactive environments or your editor of choice.
