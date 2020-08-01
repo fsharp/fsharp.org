@@ -19,7 +19,7 @@ contribute to the documentation on GitHub.
 
 <br />
 
-## [F# Core API Reference](https://fsharp.github.io/docs/)
+## [F# Core API Reference](https://fsharp.github.io/fsharp-core-docs/)
 
 * The reference documentation for the FSharp.Core library.
 
