@@ -19,6 +19,18 @@ contribute to the documentation on GitHub.
 
 <br />
 
+## [F# Core API Reference](https://fsharp.github.io/docs/)
+
+* The reference documentation for the FSharp.Core library.
+
+<br />
+
+## [.NET Development Portal and API Reference](https://docs.microsoft.com/dotnet//)
+
+* The reference documentation for .NET libraries and technologies.
+
+<br />
+
 ## [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
 
 <img src="../images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
