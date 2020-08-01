@@ -41,7 +41,7 @@ The cheat sheet is a small and concise guide to F# syntax for newcomers to get s
 
 ### [F# on Learn X in Y Minutes](https://learnxinyminutes.com/docs/fsharp/)
 
-Quickly check out F# features and commonly used snipets, even compare it to languages you already know.
+Quickly check out F# features and commonly used snippets, and compare it to languages you already know.
 
 
 ### [The F# Koans](https://github.com/ChrisMarinos/FSharpKoans#functional-koans---f)
