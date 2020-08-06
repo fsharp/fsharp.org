@@ -29,16 +29,29 @@ algorithm, expressions, patterns and other.
 
   * [The F# 4.0 Language Specification (near-final version, PDF)](4.0/FSharpSpec-4.0-final.pdf) - The near-final version of the F# 4.0 language specification. 
 
+  * The [RFCs for F# 4.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.0)  provide primary documentation for the new features added.
+
 ### F# 4.1 
 
   * [The F# 4.1 Language Specification (latest, PDF)](4.1/FSharpSpec-4.1-latest.pdf), [(latest, DOCX)](4.1/FSharpSpec-4.1-latest.docx) - The latest, working version of the F# 4.1  language specification. 
-  
-  * The [RFCs for F# 4.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.0) and [F# 4.1](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.1) and [F# 4.1 update](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.1b) provide primary documentation for the features added.  Not all details of these have been applied to the language specification document as yet:
-	
-	Comments and edits are both welcome. To contribute to the specification, please <a href="http://github.com/fsharp/fsfoundation">fork this repository</a>, edit the working draft document, and send a pull request.
-	The custodians of the specification will
-	review these pull requests and consider them for acceptance into the working drafts, which will 
-	then be updated here.
 
-	MSWord is used to format and edit the working drafts of the specification. Finalized versions 
-	of the specification are published as PDF.
+### F# 4.1, 4.5, 4.6, 4.7, 5.0
+
+  * Since F# 4.1 new features have been documented through [RFCs](https://github.com/fsharp/fslang-design) and additions to [the F# Language Guide](https://docs.microsoft.com/en-us/dotnet/fsharp/).
+
+  * [The F# Language Specification (latest, PDF)](4.1/FSharpSpec-4.1-latest.pdf), [(latest, DOCX)](4.1/FSharpSpec-4.1-latest.docx) - The latest, working version of the F# language specification. 
+
+  * The [RFCs for F# 4.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.0)
+
+  * The [RFCs for F# 4.1](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.1)
+
+  * The [RFCs for F# 4.1b](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.1b)
+
+  * The [RFCs for F# 4.5](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.5)
+
+  * The [RFCs for F# 4.6](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.6)
+
+  * The [RFCs for F# 4.7](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.7)
+
+  * The [preview RFCs for F# 5.0+](https://github.com/fsharp/fslang-design/tree/master/preview)
+
