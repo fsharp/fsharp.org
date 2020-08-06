@@ -44,6 +44,11 @@ The cheat sheet is a small and concise guide to F# syntax for newcomers to get s
 Quickly check out F# features and commonly used snippets, and compare it to languages you already know.
 
 
+### [F# on Rosetta Code](http://rosettacode.org/wiki/Category:F_Sharp)
+
+Learn how to accomplish all sorts of programming tasks, and hopefuly help to expand solutions, making F# easier for everyone.
+
+
 ### [The F# Koans](https://github.com/ChrisMarinos/FSharpKoans#functional-koans---f)
 
 Learn F# by just filling in the gaps! The F# Koans are a fun set of code snippets where you have to fill in gaps to get tests to pass, and you learn the language along the way.  Also available as a [snippet](http://fssnip.net/bG) which can be loaded into interactive environments or your editor of choice.
