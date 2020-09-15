@@ -55,6 +55,16 @@ right in your browser.
 
 Easiest way to get started with VSO is going to [Ionide Playground repository](https://github.com/ionide/playground) and clicking `VS Online - Create` button
 
+<br />
+
 ### Option 9: [Try F# in Bolero](https://tryfsharp.fsbolero.io)
 
 [Try F# in Bolero](https://tryfsharp.fsbolero.io) is an online F# playground running entirely in the browser using WebAssembly. Powered by [Bolero](https://fsbolero.io).
+
+<br />
+
+### Option 10: [Try F# in Gitpod](https://www.gitpod.io/)
+
+[Gitpod](https://www.gitpod.io/) is an online service providing environments accessible from browser based IDE. F# support in Gitpod is powered by [Ionide](https://ionide.io/). Registration required, paid service, includes free OSS plan.
+
+Easiest way to get started with Gitpod is going to [Ionide Playground repository](https://github.com/ionide/playground) and clicking `Open in Gitpod` button
