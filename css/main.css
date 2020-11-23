@@ -556,7 +556,7 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   padding-left: 7px;
 }
 
-a[href^="http://foundation.fsharp.org"]:after, 
+a[href^="https://foundation.fsharp.org"]:after, 
 a[href^="http://fsharp.org"]:after, 
 a[href^="https://github.com/fsharp"]:after, 
 a[href^="https://twitter.com/fsharporg"]:after, 

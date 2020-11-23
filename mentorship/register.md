@@ -14,7 +14,7 @@ Applications for the 2020 Fall mentorship round (#9) are now open. Both prospect
 
 ## Membership in the F# Software Foundation Required
 
-You must be a member of the F# Software Foundation (FSSF) to apply. Membership is free - see [the membership page](http://foundation.fsharp.org/membership) for details.
+You must be a member of the F# Software Foundation (FSSF) to apply. Membership is free - see [the membership page](https://foundation.fsharp.org/membership) for details.
 
 ## Imposter Syndrome Disclaimer (for prospective mentors)
 

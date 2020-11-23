@@ -7,14 +7,14 @@ headline: Technical Groups
 The F# Software Foundation members actively seek to encourage and facilitate community operated F# related meetups,
 discussion groups, as well as working groups directly affiliated with the foundation. 
 
-[Working Groups](http://foundation.fsharp.org/working_groups) are the official mechanism whereby the F# Software Foundation coordinates volunteer resources and engages directly with the F# community to fulfill the [Mission of the F# Software Foundation](http://foundation.fsharp.org). The following Working Groups are currently active and open to accepting new volunteers:
+[Working Groups](https://foundation.fsharp.org/working_groups) are the official mechanism whereby the F# Software Foundation coordinates volunteer resources and engages directly with the F# community to fulfill the [Mission of the F# Software Foundation](https://foundation.fsharp.org). The following Working Groups are currently active and open to accepting new volunteers:
 
- * [**Training and Education Working Group**](http://foundation.fsharp.org/training_and_education_wg)
- * [**Communications Working Group**](http://foundation.fsharp.org/communications_wg)
+ * [**Training and Education Working Group**](https://foundation.fsharp.org/training_and_education_wg)
+ * [**Communications Working Group**](https://foundation.fsharp.org/communications_wg)
  
-More details of the working groups can be found in the [Working Groups](http://foundation.fsharp.org/working_groups) page.
+More details of the working groups can be found in the [Working Groups](https://foundation.fsharp.org/working_groups) page.
 
-Current communitiy operated technical groups which fit with [the mission](http://foundation.fsharp.org) include:
+Current communitiy operated technical groups which fit with [the mission](https://foundation.fsharp.org) include:
 
  * [**Community for F#**](http://c4fsharp.net) (contact Mathias Brandewinder and Ryan Riley)
 
