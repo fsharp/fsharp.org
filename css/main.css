@@ -557,7 +557,7 @@ a[href^="http://"]:after, a[href^="https://"]:after {
 }
 
 a[href^="https://foundation.fsharp.org"]:after, 
-a[href^="http://fsharp.org"]:after, 
+a[href^="https://fsharp.org"]:after, 
 a[href^="https://github.com/fsharp"]:after, 
 a[href^="https://twitter.com/fsharporg"]:after, 
 a[href^="http://www.facebook.com/fsharp.org"]:after, 
