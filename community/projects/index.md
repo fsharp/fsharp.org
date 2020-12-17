@@ -254,6 +254,8 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="ui" class="anchor">Community Projects: Client User Interfaces</h2>
 
+*  [Interstellar](https://jwosty.github.io/Interstellar/) - A library that enables the creation of cross-platform browser-based applications. It abstracts around various different browser APIs, so your application can use either Chromium or Apple WebKit.
+
 *  [FsXaml](https://github.com/fsprojects/FsXaml) - F# Tools for working with XAML Projects
 
 *  [Gjallarhorn](http://reedcopsey.github.io/Gjallarhorn/) - Gjallarhorn is a library designed to manage notifications and mutable state. It provides mechanisms for signaling of changes, represented via signals
@@ -318,6 +320,8 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 * [Nini](https://github.com/YoloDev/Nini) - A micro web framework for DNX (ASP.NET vNext).
 
 * [Falco](https://github.com/pimbrouwers/Falco) - A functional micro-library for building brilliant ASP.NET Core applications using F#. Low barrier to entry for those new to functional programming.
+
+* [Interstellar](https://jwosty.github.io/Interstellar/) - A library that enables the creation of cross-platform browser-based applications. It abstracts around various different browser APIs, so your application can use either Chromium or Apple WebKit.
 
 <br />
 
