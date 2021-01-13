@@ -23,7 +23,7 @@ If the data access libraries you need are not listed here, you can search for th
 
 ### CSV, HTML, JSON and XML data
 
-* [FSharp.Data](http://fsharp.github.io/FSharp.Data/) - The F# Data library (FSharp.Data.dll) implements functionality to access data in your F# applications and scripts.  It implements F# type providers for working with structured file formats (CSV, HTML, JSON and XML) and for accessing the WorldBank and Freebase services. It also includes helpers for parsing CSV, HTML and JSON files and for sending HTTP requests.
+* [FSharp.Data](http://fsprojects.github.io/FSharp.Data/) - The F# Data library (FSharp.Data.dll) implements functionality to access data in your F# applications and scripts.  It implements F# type providers for working with structured file formats (CSV, HTML, JSON and XML) and for accessing the WorldBank and Freebase services. It also includes helpers for parsing CSV, HTML and JSON files and for sending HTTP requests.
 
 * [Json.NET](http://json.codeplex.com/) provides full support for serialization of F# types to and from JSON.
 
@@ -53,7 +53,7 @@ Some resources are listed below:
 
 ### Web Data Stores
 
-F# allows for the direct integration of scalable data stores into F# programming. For example, a type provider for the World bank data sets is available in the [FSharp.Data](http://fsharp.github.io/FSharp.Data/) library. Other
+F# allows for the direct integration of scalable data stores into F# programming. For example, a type provider for the World bank data sets is available in the [FSharp.Data](http://fsprojects.github.io/FSharp.Data/) library. Other
 web data stores can be accessed through F# support for JSON, XML and CSV data formats.
 
 <br />
