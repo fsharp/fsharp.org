@@ -17,7 +17,7 @@ The program is free-of-charge. The mentors are volunteering their time to benefi
 
 This program is useful for developers of all levels, with or without F# experience. The F# mentorship program connects you to an experienced F# developer who can help you improve your F# programming skills and best practices for developing in F#.
 
-You must be a member of the FSSF to participate in the program. Membership is free - see http://foundation.fsharp.org/membership.
+You must be a member of the FSSF to participate in the program. Membership is free - see https://foundation.fsharp.org/membership.
 
 ## How does it work?
 
@@ -25,7 +25,7 @@ Mentors and mentees meet for approximately 60-90 minutes per week for 6-8 weeks.
 
 ## Membership in the F# Software Foundation Required
 
-You must be a member of the F# Software Foundation (FSSF) to apply. Membership is free - see [the membership page](http://foundation.fsharp.org/membership) for details.
+You must be a member of the F# Software Foundation (FSSF) to apply. Membership is free - see [the membership page](https://foundation.fsharp.org/membership) for details.
 
 ## Participation/Registration
 

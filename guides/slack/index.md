@@ -8,7 +8,7 @@ headline: Guide - F# Slack Team
 
 [Slack](https://slack.com/) is a persistent chat service. 
 
-Members of the F# Software Foundation are invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join, become a member of the F# Software Foundation by [visiting this page](http://foundation.fsharp.org/join). Once you are a member, you will automatically be queued to receive an invite to the Foundation's Slack team.  
+Members of the F# Software Foundation are invited to the [F# Software Foundation](https://fsharp.slack.com/) team. To join, become a member of the F# Software Foundation by [visiting this page](https://foundation.fsharp.org/join). Once you are a member, you will automatically be queued to receive an invite to the Foundation's Slack team.  
 
 ### Channels in Slack Team
 
@@ -24,8 +24,8 @@ Once you sign into the Slack team, there are various channels containing topics 
 * [#editor_support](https://fsharp.slack.com/messages/editor_support/): Discussion focused on adding IDE support for F#
 * [#jobs](https://fsharp.slack.com/messages/jobs/): Job and career related discussions for F# Software Foundation members
 * [#dotnetcore](https://fsharp.slack.com/messages/dotnetcore/): Discussion around F# support for .NET Core, as well as porting libraries
-* [#speakers](https://fsharp.slack.com/messages/speakers/): Discussion for people who speak about F#, as well as the [F# Software Foundation Speakers' Program](http://community.fsharp.org/speakers_program)
-* [#mentorship](https://fsharp.slack.com/messages/mentorship/): Discussion about the [F# Software Foundation Mentorship Program](http://fsharp.org/mentorship/index.html)
+* [#speakers](https://fsharp.slack.com/messages/speakers/): Discussion for people who speak about F#, as well as the [F# Software Foundation Speakers' Program](https://community.fsharp.org/speakers_program)
+* [#mentorship](https://fsharp.slack.com/messages/mentorship/): Discussion about the [F# Software Foundation Mentorship Program](https://fsharp.org/mentorship/index.html)
 * [#user_group_leaders](https://fsharp.slack.com/messages/user_group_leaders/): Discussion for leaders of user groups
 
 

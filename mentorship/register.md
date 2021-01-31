@@ -14,7 +14,7 @@ Applications for the 2021 Winter mentorship round (#10) are now open. Both prosp
 
 ## Membership in the F# Software Foundation Required
 
-You must be a member of the F# Software Foundation (FSSF) to apply. Membership is free - see [the membership page](http://foundation.fsharp.org/membership) for details.
+You must be a member of the F# Software Foundation (FSSF) to apply. Membership is free - see [the membership page](https://foundation.fsharp.org/membership) for details.
 
 ## Imposter Syndrome Disclaimer (for prospective mentors)
 

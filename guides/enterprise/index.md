@@ -57,7 +57,7 @@ The benefits of F# for enterprise development are:
 * [The F# Way To Relaxation](https://vimeo.com/113594249) (video).
   A journey through the modern programming landscape and the F# approach to research, language design, interoperability, tooling and community.
 * [White paper: F# in the Enterprise](https://msdn.microsoft.com/en-US/vstudio/gg634701)
-* Many of the [F# testimonials](http://fsharp.org/testimonials/) are relevant to enterprise development.
+* Many of the [F# testimonials](https://fsharp.org/testimonials/) are relevant to enterprise development.
 
 Many developers have posted on why they like F#:
 
@@ -156,8 +156,8 @@ F# type providers allow you to talk directly to data, combining the power of dyn
 the safety of static types, and the ease of use of intellisense. 
 
 * The **standard type providers** include:
-  * [XML type provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html)
-  * [JSON type provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html)
+  * [XML type provider](http://fsprojects.github.io/FSharp.Data/library/XmlProvider.html)
+  * [JSON type provider](http://fsprojects.github.io/FSharp.Data/library/JsonProvider.html)
   * [SQL type provider](http://msdn.microsoft.com/en-us/library/hh361033.aspx).
 * [Accessing loosely structured data from F# and C#](http://tomasp.net/blog/goto-loosely-structured-data.aspx/index.html)
 

@@ -134,17 +134,17 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="data-access" class="anchor">Community Projects: Data Access</h2>
 
-*  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[F# Data](http://fsharp.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
+*  ![logo](/images/thumbs/FSharp.Data.png)&nbsp;[F# Data](http://fsprojects.github.io/FSharp.Data) - A library of F# type providers and data access tools. Contributions welcome!
 
-   *  [WorldBank Provider](http://fsharp.github.io/FSharp.Data/library/WorldBank.html) - Makes the WorldBank data easily accessible to F# programs and scripts in a type safe way, which has a data catalog of over 8000 development indicators and other data about countries in the world.
+   *  [WorldBank Provider](http://fsprojects.github.io/FSharp.Data/library/WorldBank.html) - Makes the WorldBank data easily accessible to F# programs and scripts in a type safe way, which has a data catalog of over 8000 development indicators and other data about countries in the world.
 
-   *  [CSV Type Provider](http://fsharp.github.io/FSharp.Data/library/CsvProvider.html) - Read CSV files in a statically typed way.
+   *  [CSV Type Provider](http://fsprojects.github.io/FSharp.Data/library/CsvProvider.html) - Read CSV files in a statically typed way.
 
-   *  [HTML Type Provider](http://fsharp.github.io/FSharp.Data/library/HtmlProvider.html) - Work with tables and lists in HTML files in a statically typed way.
+   *  [HTML Type Provider](http://fsprojects.github.io/FSharp.Data/library/HtmlProvider.html) - Work with tables and lists in HTML files in a statically typed way.
 
-   *  [JSON Type Provider](http://fsharp.github.io/FSharp.Data/library/JsonProvider.html) - Access JSON files in a statically typed way.
+   *  [JSON Type Provider](http://fsprojects.github.io/FSharp.Data/library/JsonProvider.html) - Access JSON files in a statically typed way.
 
-   *  [XML Type Provider](http://fsharp.github.io/FSharp.Data/library/XmlProvider.html) - Access XML documents in a statically typed way.
+   *  [XML Type Provider](http://fsprojects.github.io/FSharp.Data/library/XmlProvider.html) - Access XML documents in a statically typed way.
 
 *  ![logo](/images/thumbs/FSharp.Data.Toolbox.png)&nbsp;[FSharp.Data.Toolbox](http://fsprojects.github.io/FSharp.Data.Toolbox) - F# Data-based library for various data access APIs, includes a Twitter access package.
 
@@ -254,6 +254,8 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="ui" class="anchor">Community Projects: Client User Interfaces</h2>
 
+*  [Interstellar](https://jwosty.github.io/Interstellar/) - A library that enables the creation of cross-platform browser-based applications. It abstracts around various different browser APIs, so your application can use either Chromium or Apple WebKit.
+
 *  [FsXaml](https://github.com/fsprojects/FsXaml) - F# Tools for working with XAML Projects
 
 *  [Gjallarhorn](http://reedcopsey.github.io/Gjallarhorn/) - Gjallarhorn is a library designed to manage notifications and mutable state. It provides mechanisms for signaling of changes, represented via signals
@@ -318,6 +320,8 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 * [Nini](https://github.com/YoloDev/Nini) - A micro web framework for DNX (ASP.NET vNext).
 
 * [Falco](https://github.com/pimbrouwers/Falco) - A functional micro-library for building brilliant ASP.NET Core applications using F#. Low barrier to entry for those new to functional programming.
+
+* [Interstellar](https://jwosty.github.io/Interstellar/) - A library that enables the creation of cross-platform browser-based applications. It abstracts around various different browser APIs, so your application can use either Chromium or Apple WebKit.
 
 <br />
 

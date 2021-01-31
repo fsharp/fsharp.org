@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://fsharp.org</loc>
+    <loc>https://fsharp.org</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/about/index.html</loc>
+    <loc>https://fsharp.org/about/index.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/about/learning.html</loc>
+    <loc>https://fsharp.org/about/learning.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/testimonials/index.html</loc>
+    <loc>https://fsharp.org/testimonials/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/teaching/index.html</loc>
+    <loc>https://fsharp.org/teaching/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/foundation.html</loc>
+    <loc>https://fsharp.org/foundation.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/foundation/logo.html</loc>
+    <loc>https://fsharp.org/foundation/logo.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/guides/web/index.html</loc>
+    <loc>https://fsharp.org/guides/web/index.html</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/guides/data-science/index.html</loc>
+    <loc>https://fsharp.org/guides/data-science/index.html</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/use/linux/index.html</loc>
+    <loc>https://fsharp.org/use/linux/index.html</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/use/mac/index.html</loc>
+    <loc>https://fsharp.org/use/mac/index.html</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/use/windows/index.html</loc>
+    <loc>https://fsharp.org/use/windows/index.html</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://fsharp.org/use/mobile-apps/index.html</loc>
+    <loc>https://fsharp.org/use/mobile-apps/index.html</loc>
     <priority>0.5</priority>
   </url>
 </urlset>
