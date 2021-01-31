@@ -8,9 +8,9 @@ Applications for the 2021 Winter mentorship round (#10) are now open. Both prosp
 
 ## Timeline for Round 10
 
-* 2020-02-01 - 2020-02-29: Applications accepted for round 10
-* 2020-02-30 - 2020-02-31: Volunteers will review applications and pair mentors/mentees
-* 2020-03-01 - 2020-04-26: Mentors mentees meet once a week during 8 weeks for a mentorship session
+* 2021-02-01 - 2021-02-29: Applications accepted for round 10
+* 2021-02-30 - 2021-02-31: Volunteers will review applications and pair mentors/mentees
+* 2021-03-01 - 2021-04-26: Mentors mentees meet once a week during 8 weeks for a mentorship session
 
 ## Membership in the F# Software Foundation Required
 
