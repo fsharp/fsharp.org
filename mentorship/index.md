@@ -33,8 +33,8 @@ Applications for the 2021 Winter mentorship round (#10) are now open. Both prosp
 
 ## Schedule
 
-* 2021-02-01 - 2021-02-29: Applications accepted for round 10
-* 2021-02-30 - 2021-02-31: Volunteers will review applications and pair mentors/mentees
+* 2021-02-01 - 2021-02-26: Applications accepted for round 10
+* 2021-02-26 - 2021-02-28: Volunteers will review applications and pair mentors/mentees
 * 2021-03-01 - 2021-04-26: Mentors mentees meet once a week during 8 weeks for a mentorship session
 
 ## Imposter Syndrome Disclaimer (for prospective mentors)
