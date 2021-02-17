@@ -60,5 +60,6 @@ Mobile.
 
 * A Platform game in SpriteKit and F# – [Part 2 – Start building a level](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-2-start-building-a-level/)
 
+* [Blindfold Chess Training](https://github.com/mrdimosthenis/BlindfoldChessTraining) - A chess application for Android and iOS, created with Fabulous
 
-
+* [Quantum Puzzle Generator](https://github.com/mrdimosthenis/QuantumPuzzleGenerator) - An educational puzzle game for Android and iOS, created with Fabulous
