@@ -39,13 +39,13 @@ However, its run option does not support the majority of F# code.
 
 ## Registration required
 
-### Option 7: [Try F# in CloudSharper](https://cloudsharper.com/)
+### Option 6: [Try F# in CloudSharper](https://cloudsharper.com/)
 
 [CloudSharper](https://cloudsharper.com/) is an online web and mobile programming with big data and charting. Registration required.
 
 <br />
 
-### Option 8: [Try F# in Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-online/)
+### Option 7: [Try F# in Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-online/)
 
 [Visual Studio Online](https://visualstudio.microsoft.com/services/visual-studio-online/) is an online service providing cloud-powered dev environments accessible from anywhere. It includes browser based IDE. F# support in VSO is powered by [Ionide](https://ionide.io/). Registration required, paid service.
 
@@ -53,7 +53,7 @@ Easiest way to get started with VSO is going to [Ionide Playground repository](h
 
 <br />
 
-### Option 9: [Try F# in Gitpod](https://www.gitpod.io/)
+### Option 8: [Try F# in Gitpod](https://www.gitpod.io/)
 
 [Gitpod](https://www.gitpod.io/) is an online service providing environments accessible from browser based IDE. F# support in Gitpod is powered by [Ionide](https://ionide.io/). Registration required, paid service, includes free OSS plan.
 
@@ -66,7 +66,7 @@ Easiest way to get started with Gitpod is going to [Ionide Playground repository
 
 <br />
 
-### Option 6: [Try F# on glot.io](https://glot.io/new/fsharp)
+### [Try F# on glot.io](https://glot.io/new/fsharp)
 
 ![logo](/images/thumbs/glot-io.jpg)&nbsp;[Try F# on glot.io](https://glot.io/new/fsharp). An open source pastebin with runnable snippets and API. This is deprecated because this still uses the old F# version of 4.0.
 
