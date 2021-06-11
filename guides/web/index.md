@@ -191,6 +191,19 @@ One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.m
 
 <br />
 
+#### Falco
+{: #falco    .anchor }
+
+[Falco](https://github.com/pimbrouwers/Falco) is a functional-first toolkit for building brilliant ASP.NET Core applications using F#. It is built upon the high-performance primitives of ASP.NET Core, optimized for building HTTP applications quickly, and seamlessly integrates with existing .NET Core middleware and frameworks.
+
+
+* [NuGet](https://www.nuget.org/packages/Falco/)
+* [GitHub](https://github.com/pimbrouwers/Falco)
+* [Docs](https://www.falcoframework.com/)
+* Install the project template with `dotnet new -i "Falco.Template::*"`
+
+<br />
+
 #### ServiceStack
 {: #service-stack    .anchor }
 
