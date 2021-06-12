@@ -61,17 +61,3 @@ Easiest way to get started with Gitpod is going to [Ionide Playground repository
 
 <br />
 
-## Deprecated
-
-
-<br />
-
-### [Try F# on glot.io](https://glot.io/new/fsharp)
-
-![logo](/images/thumbs/glot-io.jpg)&nbsp;[Try F# on glot.io](https://glot.io/new/fsharp). An open source pastebin with runnable snippets and API. This is deprecated because this still uses the old F# version of 4.0.
-
-
-### [Try F# in Katacoda](https://www.katacoda.com/courses/fsharp/playground)
-
-[Try F# in Katacoda](https://www.katacoda.com/courses/fsharp/playground). Learn new technologies using real environments
-right in your browser. This is deprecated because this environment is no longer available.
