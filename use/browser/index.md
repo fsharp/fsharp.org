@@ -33,7 +33,7 @@ without friction. Use our free, collaborative, in-browser IDE to code in 50+ lan
 ### Option 5: [Try F# in sharplab.io](https://sharplab.io/)
 
 [SharpLab](https://sharplab.io/) is a C#/VB/F# compiler playground, allows you to see compiled code including generated assembly code.
-However, its run option does not support the majority of F# code.
+
 
 <br />
 
