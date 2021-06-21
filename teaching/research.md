@@ -45,6 +45,15 @@ To add a paper to this list [edit this page](https://github.com/fsharp/fsfoundat
 
 --------------
 
+## The History of F# 
+
+### [The Early History of the F# Language](https://dl.acm.org/doi/pdf/10.1145/3386325)
+
+Presented by Don Syme at HOPL-IV, The History of Programming Languages, 22 June 2021.
+
+This paper describes the genesis and early history of the F# programming language. I start with the origins of strongly-typed functional programming (FP) in the 1970s, 80s and 90s. During the same period, Microsoft was founded and grew to dominate the software industry. In 1997, as a response to Java, Microsoft initiated internal projects which eventually became the .NET programming framework and the C# language. From 1997 the worlds of academic functional programming and industry combined at Microsoft Research, Cambridge. The researchers engaged with the company through Project 7, the initial effort to bring multiple languages to .NET, leading to the initiation of .NET Generics in 1998 and F# in 2002. F# was one of several responses by advocates of strongly-typed functional programming to the "object-oriented tidal wave" of the mid-1990s. The development of the core features of F# 1.0 happened from 2004-2007, and I describe the decision-making process that led to the "productization" of F# by Microsoft in 2007-10 and the release of F# 2.0. The origins of F#'s characteristic features are covered: object programming, quotations, statically resolved type parameters, active patterns, computation expressions, async, units-of-measure and type providers. I describe key developments in F# since 2010, including F# 3.0-4.5, and its evolution as an open source, cross-platform language with multiple delivery channels. I conclude by examining some uses of F# and the influence F# has had on other languages so far.
+
+
 
 ## Information-rich programming
 {: #information-rich-programming .anchor }
