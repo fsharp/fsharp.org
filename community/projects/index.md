@@ -15,7 +15,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#text">Text Programming</a>,
 <a href="#interop">Interop</a>, <a href="#parsing-and-compiler">Parsing</a>, <a href="#testing">Testing</a>, <a href="#cloud">Cloud</a>, <a href="#distribution">Distribution</a>,
 <a href="#async-concurrent-parallel">Async/Parallel</a>, <a href="#scripting">Scripting</a>, <a href="#web">Web</a>,
-<a href="#financial">Financial</a>, <a href="#gpu">GPU</a>, <a href="#ui">Desktop UI</a>, <a href="#mobile">Mobile</a>, <a href="#math">Math</a>,
+<a href="#financial">Financial</a>, <a href="#ui">Desktop UI</a>, <a href="#mobile">Mobile</a>, <a href="#math">Math</a>,
 <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>, <a href="#audioprocessing">Audio Processing</a>
 
 <br />
@@ -43,10 +43,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/vstudio.png)&nbsp;[Visual Studio for Mac](https://github.com/mono/monodevelop/tree/master/main/external/fsharpbinding/MonoDevelop.FSharpBinding) - The F# editing support in Visual Studio for Mac and MonoDevelop.
 
-*  ![logo](../../images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/vim-fsharp) - F# Language Binding for Vim
-
-*  ![logo](../../images/thumbs/fsharpbinding.png)&nbsp;[F# for Open Editors](https://github.com/fsharp/emacs-fsharp-mode) - F# Mode for Emacs
-
 *  ![logo](../../images/thumbs/fsharpbinding.png)&nbsp;[FsAutoComplete](https://github.com/fsharp/FsAutoComplete) - F# command line tool run as background process to serve information for editor tools such as Emacs, Vim, Sublime Text, Atom and VS Code
 
 *  ![logo](../../images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/fsprojects/fantomas) - F# source code formatter
@@ -56,54 +52,28 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="literate" class="anchor">Community Projects: Literate Programming, Notebooks and Documentation</h2>
 
-* [iFSharp](https://github.com/fsprojects/IfSharp/) - IfSharp is an F# implementation for Jupyter notebooks.
+* [.NET Interactive](https://github.com/dotnet/interactive/) - .NET Interactive takes the power of .NET and embeds it into your interactive experiences. Share code, explore data, write, and learn across your apps in ways you couldn't before.
 
-*  ![logo](../../images/thumbs/FsReveal.png)&nbsp;[FsReveal](http://fsprojects.github.io/FsReveal/) - FsReveal parses markdown and F# script file and generates reveal.js slides.
+* [iFSharp](https://github.com/fsprojects/IfSharp/) - IfSharp is an F# implementation for Jupyter notebooks.
 
 *  ![logo](../../images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://fsprojects.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
 *  ![logo](../../images/thumbs/FSDN.png)&nbsp;[FSDN](http://fsdn.azurewebsites.net/) - FSDN is a web application that uses F# API Search library. F# API Search library supports the standard signature of F# with some extentions. This document describes the F# API Search library specific formats.
-
-*  [Elucidate](https://github.com/rookboom/Elucidate) - Visual Studio extension for rich inlined comments using markdown.
-
-   *  [FSDN GitHub project](https://github.com/fsdn-projects/FSDN)
-
-   *  [F# API Search library project](https://github.com/hafuu/FSharpApiSearch)
-   
-*  [RemarkFS](https://github.com/lqdev/RemarkFS) - F# Markdown slide creation tool based on [Remark](https://github.com/gnab/remark)
 
 <br />
 
 
 <h2 class="anchor" id="devtools" class="anchor">Community Projects: Development Tools</h2>
 
-*  ![logo](../../images/thumbs/FsEye.png)&nbsp;[FsEye](https://github.com/SwensenSoftware/fseye) - A visual object tree inspector for the F# Interactive
-
-*  ![logo](../../images/thumbs/FAKE.png)&nbsp;[FAKE](https://fake.build) - F# build automation system
-
 *  ![logo](../../images/thumbs/Paket.png)&nbsp;[Paket](https://fsprojects.github.io/Paket/) - A package dependency manager for .NET with support for NuGet packages and GitHub repositories
 
 *  [F# Type Provider SDK](https://github.com/fsprojects/FSharp.TypeProviders.SDK) - Learning materials and code only NuGet package for writing type providers
 
-*  ![logo](../../images/thumbs/ProjectScaffold.png)&nbsp;[F# Project Scaffold](https://fsprojects.github.io/ProjectScaffold/) - A prototypical F# library (file system layout and tooling).
-
-*  [Forge](https://github.com/ionide/Forge) - F# CLI tool for project, file, and solution management.
-
-*  [Yeoman F# generator](https://github.com/fsprojects/generator-fsharp) - scaffolding F# projects outside of IDE such as Visual Studio. Avaliable in the [npm](https://www.npmjs.com/package/generator-fsharp).
-
-* [GFlat](https://github.com/avysk/gflat) - CLI (make-based) project scaffolding generator for simple Mono / F# projects.
+*  ![logo](../../images/thumbs/FAKE.png)&nbsp;[FAKE](https://fake.build) - F# build automation system
 
 *  ![logo](../../images/thumbs/FSharpLint.png)&nbsp;[FSharpLint](https://fsprojects.github.io/FSharpLint/) - A lint tool for F#.
 
 *  [F# SonarQube Plugin](https://github.com/jmecosta/sonar-fsharp-plugin) - F# support for SonarQube.
-
-*  [Lambda Container](https://github.com/Remboel/LambdaContainer) - An IoC container written in F# for .NET code.
-
-*  [SemVer.FromAssembly](https://github.com/wallymathieu/SemVer.FromAssembly) - Helper tool to guess SemVer version based on public surface area differences.
-
-*  ![logo](../../images/thumbs/CenterCLR.RelaxVersioner.png)&nbsp;[RelaxVersioner](https://github.com/kekyo/CenterCLR.RelaxVersioner) - Easy-usage, Git-based, auto-generate version informations toolset for .NET (Supported F#).
-
-*  [Covarsky](https://github.com/teo-tsirpanis/Covarsky) - Enabling co(ntra)variance in F# types.
 
 <br />
 
@@ -113,10 +83,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  ![logo](../../images/thumbs/nessos.png)&nbsp;[Streams](http://nessos.github.io/Streams/) - A lightweight F#/C# library for efficient functional-style pipelines on streams of data.
 
 *  ![logo](../../images/thumbs/nessos.png)&nbsp;[LinqOptimizer](http://nessos.github.io/LinqOptimizer/) - An automatic query optimizer-compiler for Sequential and Parallel LINQ. LinqOptimizer compiles declarative LINQ queries into fast loop-based imperative code. The compiled code has fewer virtual calls and heap allocations, better data locality and speedups of up to 15x (Check the Performance page).
-
-*  [ExtCore](https://github.com/jack-pappas/ExtCore) - Core library extensions for F#.
-
-*  [FSharpEnt](https://github.com/colinbull/FSharpEnt) - A collection of helpers for enterprise development with F#.
 
 *  ![logo](../../images/thumbs/FSharpx.Collections.png)&nbsp;[FSharpx.Collections](http://fsprojects.github.io/FSharpx.Collections/) - A set of functional programming collections for F#.
 
@@ -176,17 +142,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <br />
 
-<h2 class="anchor" id="interop" class="anchor">Community Projects: Interoperability</h2>
-
-*  [R Provider](http://fslab.org/FSharpRProvider/) - An F# type provider for higher-fidelity integration between F# and R. See [Data Science](#data-science) below.
-
-*  [COM Type Provider](http://fsprojects.github.io/FSharp.Interop.ComProvider/) - The COM Type Provider provides a new way to do COM interop from F#. It allows you to access COM components directly from F# projects and scripts without adding any references other than the type provider itself.
-
-* [Python Type Provider](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Experimental F# type provider for Python. Uses Python for .NET for metadata and interop. Please contribute.
-
-* [FSharp.Compatiblity](https://github.com/fsprojects/FSharp.Compatibility) - Compatibility libraries for F# for Haskell, Standard ML, OCaml and Scala. Please contribute.
-
-<br />
 
 <h2 class="anchor" id="data-science" class="anchor">Community Projects: Data Science Programming</h2>
 
@@ -199,22 +154,12 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
    efficient compiled .NET code. You can financial users of F# including BlueMountatin Capital
    in contributing to this library.
 
-*  ![logo](../../images/thumbs/FSharpRProvider.png)&nbsp;[The R Type Provider for F#](http://fslab.org/RProvider/) - An F# type
-   provider for higher-fidelity integration between F# and R. Primary contributors are BlueMountain Capital, a hedge
-   fund, other contributors are warmly welcomed.
-
 *  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider
    for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
 
 *  [The Python Type Provider for F# (experimental)](http://fsprojects.github.io/FSharp.Interop.PythonProvider/) - Python type provider for F#.
 
 *  [Vulpes](https://github.com/SpiegelSoft/Vulpes) - A machine learning app using a deep belief network and connecting to the NVIDIA GPU unit using [Alea.cuBase] (http://blog.quantalea.net/).
-
-*  [RFun](http://rfun.apphb.com/) - RFun is a search engine for looking up the arguments of R functions when using [RProvider](http://fslab.org/RProvider).
-
-*  ![logo](../../images/thumbs/HypeLogo32.png)&nbsp;[Hype](http://hypelib.github.io/Hype/) - An experimental deep learning library, where you can perform optimization on compositional machine learning systems of many components, even when such components themselves internally perform optimization. Underlying computations are run by a BLAS/LAPACK backend (OpenBLAS by default).
-
-*  ![logo](../../images/thumbs/BioFSharp_small.png)&nbsp;[BioFSharp](https://csbiology.github.io/BioFSharp/) - BioFSharp is an open source F# bioinformatics library and toolbox. It provides data structures for common biological entities like amino acids and nucleotides, as well as various algorithms suited for computational biology. Additionally, it contains a steadily growing amount of parsers for biological file formats. Contributors welcome!
 
 <br />
 
@@ -226,8 +171,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  ![logo](../../images/thumbs/XPlot.png)[XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries.
    It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.
    You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
-
-*  [VegaHub](http://panesofglass.github.io/VegaHub) - SignalR hub accessible from F# interactive with charting made through the [vega](http://trifacta.github.io/vega/) JavaScript library.
 
 <br />
 
@@ -258,24 +201,10 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [FsXaml](https://github.com/fsprojects/FsXaml) - F# Tools for working with XAML Projects
 
-*  [Gjallarhorn](http://reedcopsey.github.io/Gjallarhorn/) - Gjallarhorn is a library designed to manage notifications and mutable state. It provides mechanisms for signaling of changes, represented via signals
-
-*  ![logo](../../images/thumbs/Tamarin.png)&nbsp;[Tamarin](https://github.com/fsprojects/Tamarin) - F# MVC framework for Xamarin.Forms
-
 *  ![logo](../../images/thumbs/FSharp.Desktop.UI.png)&nbsp;[FSharp.Desktop.UI](http://fsprojects.github.io/FSharp.Desktop.UI/) - A community
   framework to take advantage of the F# language features to create truly type-safe WPF applications.
 
 *  [FSharp.ViewModule](https://github.com/fsprojects/FSharp.ViewModule/) - Type provider to generate an MVVM style ViewModel directly from an idiomatic F# module.
-
-<br />
-
-<h2 class="anchor" id="gpu" class="anchor">Community Projects: GPU Execution</h2>
-
-*  ![logo](../../images/thumbs/FSCL.jpeg)&nbsp;[FSCL](http://fscl.github.io/FSCL.Compiler/) - Framework for OpenCL programming, scheduling and execution abstraction on heterogeneous platforms in F#.
-
-*  ![logo](../../images/thumbs/quantalea.png)&nbsp;[Alea.cuBase](http://blog.quantalea.net/) - Professional GPGPU programming with F# and CUDA(TM).
-
-*  ![logo](../../images/thumbs/Brahma.FSharp.jpg)&nbsp;[Brahma.FSharp](https://github.com/YaccConstructor/Brahma.FSharp) - GPGPU programming with F#. F# quotation to OpenCL translator.
 
 <br />
 
