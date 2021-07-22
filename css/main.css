@@ -76,7 +76,6 @@ h5 {
 
     .navbar-default .navbar-nav > li > a {
         color: #fff;
-        text-transform: uppercase;
         font-size: 20px;
         font-family: Inter,Arial,sans-serif;
         padding-top: 20px;
@@ -225,9 +224,9 @@ body {
     }
 
     .lead, .jumbotron .lead {
-        font-size: 24px;
-        letter-spacing: 1px;
-        line-height: 40px;
+        font-size: 40px;
+        letter-spacing: 2px;
+        line-height: 66px;
     }
 
     .jumbotron .lead {
