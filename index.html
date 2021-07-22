@@ -59,9 +59,6 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="/about/">About F#</a>
-                            </li>
-                            <li>
                                 <a href="/learn/">Learning F#</a>
                             </li>
                             <li>
@@ -84,9 +81,6 @@
                             </li>
                             <li>
                                 <a href="/testimonials/">Testimonials</a>
-                            </li>
-                            <li>
-                                <a href="/videos/1">Videos</a>
                             </li>
                             <li>
                                 <a href="/teaching/research.html">Publications</a>
@@ -244,7 +238,7 @@
                     <div style="height: 10px;"></div>
                 </div>
                 <div class="col-lg-7 col-md-pull-5">
-                    <p class="lead">F# is a mature, open source, cross-platform, functional-first programming language. It empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.</p>
+                    <p class="lead">F# - Succinct, Performant, Robust.</p>
                 <div class="text-left hidden-xs" id="social-btns">
                     <a href="https://twitter.com/fsharporg" target="_blank" class="btn btn-social btn-default btn-circle"><img src="/img/Twitter.png" alt="F# Twitter" /></a>
                     <a href="http://www.facebook.com/fsharp.org" target="_blank" class="btn btn-social btn-default btn-circle"><img src="/img/Facebook.png" alt="F# Facebook" /></a>
@@ -265,114 +259,17 @@
         <div class="container featured">
             <div class="row">
                 <div class="col-md-4">
-                    <p class="featured">F# runs on Linux, Mac OS X, Android, iOS, Windows, GPUs, and browsers. It is free to use and is open source under an OSI-approved license. </p>
+                    <p class="featured">Free to use, cross-platform and open source.</p>
                 </div>
                 <div class="col-md-4">
-                    <p class="featured">F# is used in a wide range of application areas and is supported by both an active open community and industry-leading companies providing professional tools.</p>
+                    <p class="featured">The <b>succinctness</b> of Python with the <b>performance</b>> and <b>robustness</b> of C# and Java.</p>
                 </div>
                 <div class="col-md-4">
-                    <p class="featured">The mission of the F# Software Foundation is to promote and advance the F# programming language, including a diverse and international community of F# programmers.</p>
+                    <p class="featured">Professional tooling from major companies.</p>
                 </div>
             </div>
         </div>
     </section>
-
-<!--
-    
-    <section class="home-section">
-        <div class="container featured">
-            <div class="row wow animated fadeIn">
-                <ul class="nav nav-tabs nav-tabs-big hidden-xs" role="tablist">
-                    <li class="active"><a href="#concise" role="tab" data-toggle="tab">Concise</a></li>
-                    <li><a href="#correct" role="tab" data-toggle="tab">Correct</a></li>
-                    <li><a href="#concurrent" role="tab" data-toggle="tab">Concurrent</a></li>
-                </ul>
-                <ul class="nav nav-tabs visible-xs-block" role="tablist">
-                    <li class="active"><a href="#concise" role="tab" data-toggle="tab">Concise</a></li>
-                    <li><a href="#correct" role="tab" data-toggle="tab">Correct</a></li>
-                    <li><a href="#concurrent" role="tab" data-toggle="tab">Concurrent</a></li>
-                </ul>
-
-                <div class="tab-content">
-                    <div class="tab-pane fade in active" id="concise">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>F# is not cluttered up with coding "noise" such as curly brackets, semicolons and so on.</p>
-                            </div>
-                            <div class="col-md-6">
-<pre><code class="fsharp">// one-liners
-[1..100] |> List.sum |> printfn "sum=%d"
-
-// no curly braces, semicolons or parentheses
-let square x = x * x
-let sq = square 42
-
-// simple types in one line
-type Person = {First:string; Last:string}
-
-// complex types in a few lines
-type Employee = 
-  | Worker of Person
-  | Manager of Employee list
-
-// type inference
-let jdoe = {First="John";Last="Doe"}
-let worker = Worker jdoe</code></pre>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="correct">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>F# has a powerful type system which prevents many common errors such as null reference exceptions.</p>
-                            </div>
-                            <div class="col-md-6">
-<pre><code class="fsharp">// strict type checking
-printfn "print string %s" 123 //compile error
-
-// all values immutable by default
-person1.First &lt;- "new name" //assignment error
-
-// never have to check for nulls
-let makeNewString str = 
-   //str can be concatted safely
-   let newString = str + " new!"
-   newString
-
-// embed business logic into types
-emptyShoppingCart.remove // compile error!
-
-// units of measure
-let distance = 10&lt;m&gt; + 10&lt;ft&gt; // error!</code></pre>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="concurrent">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>F# has a number of built-in libraries to help when more than one thing at a time is happening. Asynchronous programming is very easy, as is parallelism. F# also has a built-in actor model, and excellent support for event handling and functional reactive programming.</p>
-                            </div>
-                            <div class="col-md-6">
-<pre><code class="fsharp">// easy async logic with "async" keyword
-let! result = async {something}
-
-// easy parallelism
-Async.Parallel [ for i in 0..40 -> 
-      async { return fib(i) } ]
-
-// message queues
-MailboxProcessor.Start(fun inbox-> async {
-    let! msg = inbox.Receive()
-    printfn "message is: %s" msg
-    })</code></pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
--->
 
     <section class="home-section light-gray">
         <div class="container featured">
@@ -383,9 +280,7 @@ MailboxProcessor.Start(fun inbox-> async {
                 <div class="col-md-6">
                     <h3><span class="glyphicon glyphicon-pencil"></span> Learn</h3>
                     <ul class="">
-                        <li>Read <a href="/learn/index.html" onclick="_gaq.push(['_trackEvent', 'home-learn', 'clicked', 'books'])">F# books and tutorials</a></li>
-                        <li>Read the <a href="/about/index.html#documentation" onclick="_gaq.push(['_trackEvent', 'home-learn', 'clicked', 'documentation'])">documentation</a></li>
-                        <li>Watch <a href="/videos/1" onclick="_gaq.push(['_trackEvent', 'home-learn', 'clicked', 'videos'])">F# videos</a></li>
+                        <li>Read <a href="/learn/index.html" onclick="_gaq.push(['_trackEvent', 'home-learn', 'clicked', 'books'])">Learn F#</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6">
@@ -480,9 +375,6 @@ MailboxProcessor.Start(fun inbox-> async {
                         <div class="row">
                             <div class="col-md-4">
                                 <img class="center-block img-responsive carousel-img" src="/img/sup/fsharpworks.png" alt="fsharpWorks" />
-                            </div>
-                            <div class="col-md-4">
-                                <img class="center-block img-responsive carousel-img" src="/img/sup/jet.png" alt="Jet" />                                
                             </div>
                             <div class="col-md-4">
                                 <img class="center-block img-responsive carousel-img" src="/img/sup/prolucid.png" />                                

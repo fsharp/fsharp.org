@@ -28,7 +28,7 @@ let site = "_site"
 let port = 8080
 
 /// Directories that should be copied to the output directory
-let dirsToCopy = [ "css"; "img"; "js"; "about/files" ]
+let dirsToCopy = [ "css"; "img"; "js"; "learn/files" ]
 
 /// Directories and files that should be skipped (when looking
 /// for source files)

@@ -6,6 +6,7 @@ redirect_from:
     - "/consulting/"
     - "/training/"
     - "/learn.html"
+    - "/about/"
     - "/about/learning/"
     - "/about/learning.html"
 ---
@@ -13,9 +14,9 @@ redirect_from:
 To learn F# use one of the free online resources or books below.
 
 
-### [About F#](https://dotnet.microsoft.com/languages/fsharp)
+### [Learn F#](https://dotnet.microsoft.com/languages/fsharp)
 
-A simple, clear resource explaining what F# is and what it is for, provided by a major commercial contributor to F# and its tooling.
+A simple, clear resource explaining what F# is and what it is for.
 Learn about the tools for F#, the F# community, using F# with the .NET platform and access getting-started material.
 
 
@@ -77,14 +78,6 @@ working with functions and immutable data structures. It also discusses
 imperative and object-oriented programming in F# and advanced langauge
 features such as active patterns and computation expressions.
 
-### [Analyzing and Visualizing Data with F#](http://www.oreilly.com/programming/free/analyzing-visualizing-data-f-sharp.csp)
-
-<img src="/about/files/BookFsLab.png" style="float:right;margin:5px 0px 5px 25px;" />
-
-_Tomas Petricek_
-
-This report explains many of the key features of the F# language that make it a great tool for data science and machine learning. Real world examples take you through the entire data science workflow with F#, from data access and analysis to presenting the results. You'll learn about F# Data and type providers, the process of data analysis with Deedle and R type provider and the implementation of basic machine learning algorithm with F#.
-
 ### [F# Workshop Materials](http://fsharpworkshop.com/)
 
 Material from the F# Introduction Workshop created by Jorge Fioranelli.
@@ -94,13 +87,6 @@ Material from the F# Introduction Workshop created by Jorge Fioranelli.
 A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) including the famous
 [Digits Recognizer](https://github.com/c4fsharp/Dojo-Digits-Recognizer), [Fractal Forest](https://github.com/c4fsharp/Dojo-Fractal-Forest), [Canopy 2048](https://github.com/c4fsharp/Dojo-Canopy-2048),
 [Markov Bot](https://github.com/c4fsharp/Dojo-Markov-Bot), [Type Provider Treasure Hunt](https://github.com/c4fsharp/Dojo-Type-Provider-Treasure-Hunt), [Classics Mash-up](https://github.com/c4fsharp/Dojo-Picasquez-and-Velasso) and [Ham or Spam](https://github.com/c4fsharp/Dojo-Ham-Or-Spam) dojos.
-
-### [F# Developer Network (FSDN)](http://fsdn.azurewebsites.net/)
-
-<img src="/images/thumbs/FSDN.png" style="float:right;margin:5px 0px 5px 25px;" />
-
-Site which allows interactive searches by an F# API. The [F# API Search library](https://github.com/hafuu/FSharpApiSearch) document describes the search formats, which support the standard signature of F# with some extentions.
-Source code available on [GitHub FSDN](https://github.com/fsdn-projects/FSDN)
 
 ### [Ultra-short F# tutorial/guide for C# developers](https://github.com/knocte/2fsharp/blob/master/csharp2fsharp.md)
 
@@ -112,25 +98,47 @@ Very short tutorial/guide that shows the most important differences between Pyth
 
 <h2 id="courses" class="anchor">F# Courses - General</h2>
 
-### [Introduction to F#](https://fsharp.tv/courses/fsharp-programming-intro/)
-
-<img src="/about/files/CoursesFSharpTV.png" style="float:right;margin:5px 0px 5px 25px;" />
-
-FSharpTV is a crowdfunded company that produces F# courses with practical, real-world examples. The introductory course is free and accessible to everyone, including beginners.
-
 <h2 id="books" class="anchor">F# Books - General</h2>
 
-### [Building Web, Cloud, and Mobile Solutions with F#](http://books.google.com/books?id=dZrslEoAb58C)
 
-<img src="/about/files/BookWCMSF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+### [Get Programming with F#](https://www.manning.com/books/get-programming-with-f-sharp)
 
-_Daniel Mohl_
+<img src="/learn/files/BookGPWF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
-Learn how to build key aspects of web, cloud, and mobile solutions by combining F# with various .NET and open source technologies. With helpful examples, this hands-on book shows you how to tackle concurrency, asynchrony, and other server-side challenges. You’ll quickly learn how to be productive with F#, whether you want to integrate the language into your existing web application or use it to create the next Twitter.
+_Isaac Abraham_
+
+Get Programming with F#: A guide for .NET Developers shows you how to upgrade your .NET development skills by adding a touch of functional programming in F#. In just 43 bite-sized chunks, you'll learn how to use F# to tackle the most common .NET programming tasks.Examples use the familiar Visual Studio environment, so you'll be instantly comfortable. Packed with enlightening examples, real-world use cases, and plenty of easy-to-digest code, this easy-to-follow tutorial will make you wonder why you didn't pick up F# years ago! In addition to the language itself, other topics covered include:
+
+- Interop with C# /VB projects
+- Working with disparate data sources
+- SQL database access
+- Web Programming
+- Unit testing
+
+By the end of the book, you’ll be able to use F# in your day-to-day development, and know how and where to deepen your knowledge.
+
+### [Stylish F#: Crafting Elegant Functional Code for .NET](https://books.google.com.au/books?id=WqR8DwAAQBAJ)
+
+<img src="/learn/files/BookSF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Kit Eason_
+
+Stylish F# covers every design decision that a developer makes in constructing F# programs, helping you make the most educated and valuable design choices at every stage of code development. You will learn about the design of types and function signatures, the benefits of immutability, and the uses of partial function application. You will understand best practices for writing APIs to be used by F#, C#, and other languages. Each carefully vetted design choice is supported with compelling examples, illustrations, and rationales.
+
+What You'll Learn
+
+- Know why, when, and how to code in immutable style
+- Use collection functions, piping, and function composition to build working software quickly
+- Be aware of the techniques available to bring error handling into the mainstream of program logic
+- Optimize F# code for maximum performance
+- Identify and implement opportunities to use function injection to improve program design
+- Appreciate the methods available to handle unknown data values
+- Understand asynchronous and parallel programming in F#, and how it differs from C# asynchronous programming
+
 
 ### [Beginning F# 4.0](https://books.google.com/books?id=puQgDAAAQBAJ)
 
-<img src="/about/files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookBF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Robert Pickering, Kit Eason_
 
@@ -141,7 +149,7 @@ its new features.
 
 ### [Programming F# 3.0](https://books.google.com/books?isbn=1449326048)
 
-<img src="/about/files/BookPGF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookPGF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Chris Smith_
 
@@ -154,7 +162,7 @@ and libraries of the .NET platform.
 
 ### [F# For C# Developers](https://books.google.com/books?isbn=0735670226)
 
-<img src="/about/files/BookFC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookFC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tao Liu_
 
@@ -166,7 +174,7 @@ active patterns, agents, computation expressions and, perhaps most distinctively
 
 ### [Expert F# 4.0](https://books.google.com/books?isbn=1484207424)
 
-<img src="/about/files/BookEF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookEF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Don Syme, Adam Granicz, Antonio Cisternino_
 
@@ -180,7 +188,7 @@ The world's experts in F# show you how to program in F# the way they do!
 
 ### [Real World Functional Programming](https://books.google.com/books?isbn=1933988924)
 
-<img src="/about/files/BookRWFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookRWFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tomas Petricek with Jon Skeet_
 
@@ -193,7 +201,7 @@ programming problems in C#.
 
 ### [Functional Programming Using F#](https://books.google.com/books?isbn=1107019028)
 
-<img src="/about/files/BookFPUF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookFPUF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Michael R. Hansen, Hans Rischel_
 
@@ -209,7 +217,7 @@ slides, a mini-projects and links to further F# sources.
 
 ### [F# for Scientists](https://books.google.com/books?isbn=1118210816)
 
-<img src="/about/files/BookFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Jon Harrop_
 
@@ -223,7 +231,7 @@ ideal supplemental text for advanced undergraduate and graduate students with a 
 
 ### [F# for Quantitative Finance](https://www.packtpub.com/big-data-and-business-intelligence/f-quantitative-finance)
 
-<img src="/about/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Johan Astborg_
 
@@ -247,7 +255,7 @@ In this book you will:
 
 ### [The Book of F#](https://books.google.com/books?isbn=1593275528)
 
-<img src="/about/files/BookOfFSharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookOfFSharp.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Dave Fancher_
 
@@ -255,7 +263,7 @@ The Book of F# aims to introduce intermediate and experienced developers to func
 
 ### [Programming Language Concepts](https://books.google.com/books?isbn=1447141563)
 
-<img src="/about/files/BookPLC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookPLC.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Peter Sestoft_
 
@@ -263,7 +271,7 @@ The book Programming Language Concepts (PLC) provides an introduction to program
 
 ### [F# Deep Dives](https://books.google.com/books?isbn=1617291323)
 
-<img src="/about/files/BookDD.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookDD.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tomas Petricek and Phillip Trelford_
 
@@ -272,7 +280,7 @@ F# Deep Dives presents a collection of real-world F# techniques, each written by
 
 ### [Machine Learning Projects for .NET Developers](https://books.google.com/books?isbn=1430267666)
 
-<img src="/about/files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Mathias Brandewinder_
 
@@ -280,7 +288,7 @@ Machine Learning Projects for .NET Developers shows you how to build smarter .NE
 
 ### [Mastering .NET Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/mastering-net-machine-learning)
 
-<img src="/about/files/MasterDotNetML.PNG" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/MasterDotNetML.PNG" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Jamie Dixon_
 
@@ -288,7 +296,7 @@ This book is packed with real-world examples to easily use machine learning tech
 
 ### [Multi-Paradigm Programming Using F# and .NET](http://www.naghoospress.ir/bookview.aspx?bookid=1486730)
 
-<img src="/about/files/BookDotNet.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookDotNet.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Ali Baghernejad_
 
@@ -309,7 +317,7 @@ In this book you will read:
 
 ### [F# Applied](https://www.demystifyfp.com/FsApplied)
 
-<img src="/about/files/BookFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tamizhvendan S_
 
@@ -322,25 +330,9 @@ In this book you will read:
 - How to set up continuous integration and continuous deployment using FAKE and Docker
 - How to leverage libraries like Rx, FSharp.Data and Paket
 
-### [Get Programming with F#](https://www.manning.com/books/get-programming-with-f-sharp)
-
-<img src="/about/files/BookGPWF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
-
-_Isaac Abraham_
-
-Get Programming with F#: A guide for .NET Developers shows you how to upgrade your .NET development skills by adding a touch of functional programming in F#. In just 43 bite-sized chunks, you'll learn how to use F# to tackle the most common .NET programming tasks.Examples use the familiar Visual Studio environment, so you'll be instantly comfortable. Packed with enlightening examples, real-world use cases, and plenty of easy-to-digest code, this easy-to-follow tutorial will make you wonder why you didn't pick up F# years ago! In addition to the language itself, other topics covered include:
-
-- Interop with C# /VB projects
-- Working with disparate data sources
-- SQL database access
-- Web Programming
-- Unit testing
-
-By the end of the book, you’ll be able to use F# in your day-to-day development, and know how and where to deepen your knowledge.
-
 ### [F# for Machine Learning Essentials](https://www.packtpub.com/big-data-and-business-intelligence/f-machine-learning)
 
-<img src="/about/files/BookFSMLE.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookFSMLE.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Sudipta Mukherjee_
 
@@ -357,7 +349,7 @@ In this book you will:
 
 ### [F# 4.0 Design Patterns](https://www.packtpub.com/application-development/f-40-design-patterns)
 
-<img src="/about/files/BookFS4DP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookFS4DP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Gene Belitski_
 
@@ -376,7 +368,7 @@ In this book you will:
 
 ### [Mastering F#](https://www.packtpub.com/application-development/mastering-f)
 
-<img src="/about/files/BookMFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookMFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Alfonso García-Caro Núñez & Suhaib Fahad_
 
@@ -394,7 +386,7 @@ In this book you will:
 
 ### [F# High Performance](https://www.packtpub.com/application-development/f-high-performance)
 
-<img src="/about/files/BookFSHP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookFSHP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Eriawan Kusumawardhono_
 
@@ -411,7 +403,7 @@ In this book you will:
 
 ### [Learning Basics of Functional Programming (Integrated Course)](https://www.packtpub.com/web-development/learning-basics-functional-programming-integrated-course)
 
-<img src="/about/files/CourrseLBFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/CourrseLBFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Onur Gumus_
 
@@ -424,7 +416,7 @@ Develop web applications that includes server-side as well as the client-side pr
 
 ### [F# ile Fonksiyonel Programlama (Türkçe/Turkish)](https://www.dikeyeksen.com/products/f-ile-fonksiyonel-programlama?variant=5564153102374)
 
-<img src="/about/files/fsharp_fonk_kitap.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/fsharp_fonk_kitap.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Ali Özgür_
 
@@ -433,33 +425,10 @@ This book is the first and the only F# book in Turkish. The book covers F# and g
 F#, aktif ve bağımsız geliştirici topluluğu tarafından yön verilen, özellikle bulut teknolojileri, veri analizi ve bilimsel çalışmalarda kullanımı her geçen gün artan sade ve şık bir programlama dilidir.
 F# ile Microsoft'un .NET platformu üzerinde Windows, Linux ve OSX işletim sistemlerinde çalışabilen her çapta ve özllikte uygulamalar geliştirebilirsiniz. Hatta sistem yönetimi scriptlerinizi bile F# ile oluşturabilirsiniz. F# ile Fonksiyonel Programlama kitabında F#'ın sunduğu tüm bu imkanlar ile sizi tanıştırmayı ve bol kod örnekleri ile F#'ı özümsemenizi hedefliyoruz.
 
-- Kısa F# Tarihçesi
-- Neden F#?
-- Matematiksel Bakış
-- Fonksiyonel Programlama
-- F# Geliştirme Platformu
-- Merhaba F#
-- F# Temelleri
-- Veri Tipleri
-- Fonksiyonlar
-- Desen Eşleme
-- Listeler
-- Diziler
-- Genel Amaçlı Programlama
-- Değişkenler
-- .NET Koleksiyonları
-- Dallamalar
-- Nesne Yönelimli Programlama
-- Metodlar
-- Programlama Yöntemleri
-- Monadlar ve Hesaplama İfadeleri
-- İpuçları
-- Asenkron ve Paralel Programlama
-
 
 ### [Building F# Applications (Video)](https://www.packtpub.com/application-development/building-f-applications-video)
 
-<img src="../about/files/VideoBFA.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="../learn/files/VideoBFA.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Richard Broida_
 
@@ -474,7 +443,7 @@ Learn how to use F#'s functional features to rapidly turn requirements into soft
 
 ### [F# Applied II](https://www.demystifyfp.com/FsApplied2)
 
-<img src="../about/files/BookFP2.jpeg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="../learn/files/BookFP2.jpeg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Tamizhvendan S_
 
@@ -491,30 +460,3 @@ In this book you will learn:
 - Database schema management using [Fluent Migrator](https://github.com/fluentmigrator/fluentmigrator)
 - Realtime Tweet Feeds and Notifications using [GetStream.io](https://getstream.io/)
 
-### [Stylish F#: Crafting Elegant Functional Code for .NET and .NET Core](https://books.google.com.au/books?id=WqR8DwAAQBAJ)
-
-<img src="/about/files/BookSF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
-
-_Kit Eason_
-
-Stylish F# covers every design decision that a developer makes in constructing F# programs, helping you make the most educated and valuable design choices at every stage of code development. You will learn about the design of types and function signatures, the benefits of immutability, and the uses of partial function application. You will understand best practices for writing APIs to be used by F#, C#, and other languages. Each carefully vetted design choice is supported with compelling examples, illustrations, and rationales.
-
-What You'll Learn
-
-- Know why, when, and how to code in immutable style
-- Use collection functions, piping, and function composition to build working software quickly
-- Be aware of the techniques available to bring error handling into the mainstream of program logic
-- Optimize F# code for maximum performance
-- Identify and implement opportunities to use function injection to improve program design
-- Appreciate the methods available to handle unknown data values
-- Understand asynchronous and parallel programming in F#, and how it differs from C# asynchronous programming
-
-## F# Books (Coming Soon)
-
-### [Understanding Functional Programming](https://leanpub.com/understandingfunctionalprogramming)
-
-<img src="/about/files/BookUFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
-
-_Scott Wlaschin_
-
-A practical approach with examples in F#. Are you an experienced C#, Java or Python developer? Do you want to understand what all the fuss about functional programming is about? Designed for beginners, this book will explain all the core concepts of functional programming in a practical way with no maths or jargon.
