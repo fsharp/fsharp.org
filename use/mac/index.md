@@ -63,7 +63,7 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 ### Option 3: Install Visual Studio for Mac
 
-![logo](../../images/thumbs/xamarin-studio.png)&nbsp;[Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/) is a free IDE for general purpose development. It supports a wide range of projects that you can use F# with.
+[Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/) is a free IDE for general purpose development. It supports a wide range of projects that you can use F# with.
 
 You can learn more at [Get started with F# in Visual Studio for Mac](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-with-visual-studio-for-mac).
 
@@ -79,4 +79,4 @@ You can install [JetBrains Rider from here](https://www.jetbrains.com/rider/down
 
 ### Option 5: Build F# from source
 
-You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp) if that is your preference.
+You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp).

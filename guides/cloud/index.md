@@ -17,7 +17,7 @@ particularly for taking advantage of cloud-computing resources.
 For cloud-hosted web programming and services, refer to the [Web Programming Guide](../web/).
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md">edit this page</a>. These resources are for educational purposes. </p>
 </div>              
 
 * auto-gen TOC:
@@ -106,14 +106,6 @@ The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit
 
  * [F#-specific API](http://akkadotnet.github.io/wiki/FSharp%20API)
 
-#### MBrace
-
-The [MBrace](http://mbrace.io/) framework is an open-source programming model and distributed runtime that enables scalable, fault-tolerant computation and data processing for the .NET/mono frameworks.
-
- * [Programming model](http://mbrace.io/programming-model.html)
-
- * [Microsoft Azure support](http://mbrace.io/azure-tutorial.html)
-
 #### Orleans
 
 The [Orleans](http://research.microsoft.com/en-us/projects/orleans/) framework provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was designed for use in the cloud, and has been used extensively in Microsoft Azure.  A simple ['Hello World' F# sample](https://github.com/dotnet/orleans/blob/master/Samples/FSharpHelloWorld/Grains/Grain1.fs) also available.
@@ -144,21 +136,6 @@ The [Orleans](http://research.microsoft.com/en-us/projects/orleans/) framework p
 
 F# can be used with many scalable data-storage systems. Some are accessible via the Cloud SDKs outlined above.
 Some further resources for specific systems are:
-
-#### Hadoop
-
-[Hadoop](http://hadoop.apache.org/) supports data-intensive distributed applications running on large 
-clusters of commodity hardware. Hadoop derives from Google's MapReduce and Google File System papers.
-
- * [How to use Hadoop on Azure](http://www.windowsazure.com/en-us/develop/net/how-to-guides/hadoop/)
-
- * [Hadoop Streaming and F# MapReduce](http://blogs.msdn.com/b/carlnol/archive/2011/12/16/hadoop-streaming-and-f-mapreduce.aspx)
-
- * [hadoop-sharp](http://code.google.com/p/hadoop-sharp/) - CLR (.NET/Mono) interface for Hadoop 
-
- * [HadoopFs](https://github.com/isaacabraham/HadoopFs) - A lightweight F# implementation of the Hadoop Streaming API
-
- * [Microsoft .NET SDK For Hadoop](https://hadoopsdk.codeplex.com/) - Includes LINQ to Hive and other resources
 
 #### Storm
 

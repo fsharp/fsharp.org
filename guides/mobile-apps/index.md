@@ -8,7 +8,7 @@ redirect_from: "/mobile-apps/index.html"
 F# executes on app platforms including as  [Android, iOS](../../use/mobile-apps/), [Mac OS X](../../use/mac/), [JavaScript/React/ReactNative](../../use/web-apps/) and [Windows](../../use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines and more make it an ideal tool for many aspects of app development. 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/mobile-apps/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/mobile-apps/index.md">edit this page</a>. These resources are for educational purposes. </p>
 </div>              
 
 ## Frameworks
@@ -38,28 +38,3 @@ Mobile.
 
 * [Unity3D](https://github.com/eriksvedang/FSharp-Unity) Unity3D is a popular closed source game engine. 
  
-## Resource Links
-
-
-* Sample iOS apps are available from [Neil Danson's repository](https://bitbucket.org/thedo666/):
- 
-  * [IMBD](https://bitbucket.org/thedo666/imdb) -  A micro iOS app for movie database search
-
-  * [Pacman](https://bitbucket.org/thedo666/pacman) -  An iOS version of the classic game 
-
-  * [Raytracer](https://bitbucket.org/thedo666/raytracer) - An iOS version of F# image generation code
-
-  * [Pissed Off Owls](https://bitbucket.org/thedo666/pissed-off-owls) - An iOS micro game using MonoGame and the
-    Farseer game engine
-
-* [Simple iOS7 SpriteKit demo in F#](http://neildanson.wordpress.com/2013/09/19/simple-spritekit-demo-in-f/)
-
-* [SpriteKit iOS7 and Physics in F#](http://neildanson.wordpress.com/2013/09/24/spritekit-and-physics-in-f/)
-
-* A Platform game in SpriteKit and F# – [Part 1 – Game State Management](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-1-game-state-management/)
-
-* A Platform game in SpriteKit and F# – [Part 2 – Start building a level](http://neildanson.wordpress.com/2013/10/08/a-platform-game-in-spritekit-and-f-part-2-start-building-a-level/)
-
-* [Blindfold Chess Training](https://github.com/mrdimosthenis/BlindfoldChessTraining) - A chess application for Android and iOS, created with Fabulous
-
-* [Quantum Puzzle Generator](https://github.com/mrdimosthenis/QuantumPuzzleGenerator) - An educational puzzle game for Android and iOS, created with Fabulous

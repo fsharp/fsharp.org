@@ -68,4 +68,4 @@ You can install [JetBrains Rider from here](https://www.jetbrains.com/rider/down
 <br />
 ### Option 4: Build F# from source
 
-You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp) if that is your preference.
+You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp).

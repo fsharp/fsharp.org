@@ -156,9 +156,9 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [FSharp.Linq.ComposableQuery](http://fsprojects.github.io/FSharp.Linq.ComposableQuery/) - A Compositional Query Framework for F# Queries, based on "A Practical Theory of Language-Integrated Query"
 
-*  [SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL type provider, supporting LINQ queries, schema exploration, stored procedures, individuals and much more besides.  Currently supports MS SQL Server, MS Access, SQLite, PostgreSQL, Oracle and MySQL.
+*  [SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL type provider, supporting LINQ queries, schema exploration, stored procedures, individuals.  Currently supports MS SQL Server, MS Access, SQLite, PostgreSQL, Oracle and MySQL.
 
-*  [DynamicsNAVProvider](https://github.com/fsprojects/DynamicsNAVProvider) - A Microsoft Dynamics NAV type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
+*  [DynamicsNAVProvider](https://github.com/fsprojects/DynamicsNAVProvider) - A Microsoft Dynamics NAV type provider, supporting LINQ queries, schema exploration, individuals.
 
 *  [DynamicsCRMProvider](https://github.com/fsprojects/DynamicsCRMProvider) - A type provider for Microsoft Dynamics CRM 2011/2013.
 

@@ -83,4 +83,4 @@ You will also need either to install Visual Studio or to follow the steps [here]
 
 ### Option 5: Build F# from source
 
-You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp) if that is your preference.
+You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp).
