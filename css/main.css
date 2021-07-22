@@ -15,6 +15,10 @@ body {
     height: 60px;
 }
 
+.featured {
+    font-size: 20px;
+}
+
 blockquote {
     font-size: 20px;
 }
@@ -227,7 +231,7 @@ body {
     }
 
     .jumbotron .lead {
-        font-size: 26px;
+        font-size: 40px;
         font-family: Inter,Arial,sans-serif;
     }
     
