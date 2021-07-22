@@ -21,7 +21,18 @@ or mobile with [React native](https://facebook.github.io/react-native/).
 
 <br />
 
-### Option 2: Use SAFE Stack
+### Option 2: Use WebSharper
+
+![logo](../../images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) allows end-to-end web applications with both client and server developed in F#. 
+It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
+
+* [Try Online](http://websharper.com/samples)
+* [Documentation](http://developers.websharper.com)
+* [Forums](http://forums.websharper.com)
+
+<br />
+
+### Option 3: Use SAFE Stack
 
 ![logo](../../images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
 emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
@@ -31,17 +42,6 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 * [Docs](https://safe-stack.github.io/docs/intro/)
 * [Dojo](https://github.com/CompositionalIT/SAFE-Dojo/)
 * [Support](https://safe-stack.github.io/docs/support/)
-
-<br />
-
-### Option 3: Use WebSharper
-
-![logo](../../images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) allows end-to-end web applications with both client and server developed in F#. 
-It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
-
-* [Try Online](http://websharper.com/samples)
-* [Documentation](http://developers.websharper.com)
-* [Forums](http://forums.websharper.com)
 
 <br />
 
