@@ -21,7 +21,7 @@ blockquote {
 
 .dropdown-menu {
     font-size: 20px;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: Inter,Arial,sans-serif;
 }
 
 
@@ -36,7 +36,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: Inter,Arial,sans-serif;
     font-weight: 600;
 }
 
@@ -74,7 +74,7 @@ h5 {
         color: #fff;
         text-transform: uppercase;
         font-size: 20px;
-        font-family: 'Rajdhani', sans-serif;
+        font-family: Inter,Arial,sans-serif;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -228,7 +228,7 @@ body {
 
     .jumbotron .lead {
         font-size: 26px;
-        font-family: 'Rajdhani', sans-serif;
+        font-family: Inter,Arial,sans-serif;
     }
     
     .jumbotron
