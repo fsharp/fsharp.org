@@ -225,13 +225,19 @@ body {
     }
 
     .lead, .jumbotron .lead {
+        font-style: normal;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
         font-size: 40px;
-        letter-spacing: 1px;
+        letter-spacing: -1px;
         line-height: 66px;
     }
 
     .jumbotron .lead {
         font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
         font-family: Inter,Arial,sans-serif;
     }
     
