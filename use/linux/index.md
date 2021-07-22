@@ -6,7 +6,7 @@ headline: Use F# on Linux
 
 ### Option 1: Install the CLI tools and use your own editor
 
-![logo](/images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). .NET Core is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice. Once that is installed, you can begin using F#!
+![logo](../../images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). .NET Core is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice. Once that is installed, you can begin using F#!
 
 Create a file called `hello.fsx` that looks like this:
 
@@ -41,7 +41,7 @@ For more information see [Getting started with the F# command line tools](https:
 
 ### Option 2: Install Visual Studio Code and Ionide
 
-![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
+![logo](../../images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
 F# is supported by the [Ionide](http://ionide.io/) project.
 
@@ -61,11 +61,11 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 ### Option 3: Install JetBrains Rider
 
-![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+![logo](../../images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
 You can install [JetBrains Rider from here](https://www.jetbrains.com/rider/download/).
 
 <br />
 ### Option 4: Build F# from source
 
-You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp) if that is your preference.
+You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp).

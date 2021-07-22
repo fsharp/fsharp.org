@@ -25,7 +25,7 @@ Once you sign into the Slack team, there are various channels containing topics 
 * [#jobs](https://fsharp.slack.com/messages/jobs/): Job and career related discussions for F# Software Foundation members
 * [#dotnetcore](https://fsharp.slack.com/messages/dotnetcore/): Discussion around F# support for .NET Core, as well as porting libraries
 * [#speakers](https://fsharp.slack.com/messages/speakers/): Discussion for people who speak about F#, as well as the [F# Software Foundation Speakers' Program](https://community.fsharp.org/speakers_program)
-* [#mentorship](https://fsharp.slack.com/messages/mentorship/): Discussion about the [F# Software Foundation Mentorship Program](https://fsharp.org/mentorship/index.html)
+* [#mentorship](https://fsharp.slack.com/messages/mentorship/): Discussion about the [F# Software Foundation Mentorship Program](../../mentorship/index.html)
 * [#user_group_leaders](https://fsharp.slack.com/messages/user_group_leaders/): Discussion for leaders of user groups
 
 

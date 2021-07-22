@@ -6,7 +6,7 @@ headline: Using F# for Desktop Apps
 
 ### Option 1: Use Avalonia.FuncUI (cross-platform)
 
-![logo](/images/thumbs/FuncUI.png)&nbsp;[Avalonia.FuncUI](https://github.com/AvaloniaCommunity/Avalonia.FuncUI/) is an F#
+![logo](../../images/thumbs/FuncUI.png)&nbsp;[Avalonia.FuncUI](https://github.com/AvaloniaCommunity/Avalonia.FuncUI/) is an F#
 Model-View-Update framework for functional cross-platform UI development.
 
 * [Getting Started](https://github.com/AvaloniaCommunity/Avalonia.FuncUI/wiki)
@@ -38,5 +38,5 @@ are available on the web.
 
 <br />
 
-There are other options, see also [F# Community Projects](/community/projects/).
+There are other options, see also [F# Community Projects](../../community/projects/).
 

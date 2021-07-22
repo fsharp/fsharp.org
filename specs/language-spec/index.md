@@ -2,7 +2,7 @@
 layout: default
 title: About F# | The F# Language Specification
 headline: The F# Language Specification
-redirect_from: "/about/files/spec.pdf"
+redirect_from: "/learn/files/spec.pdf"
 ---
 
 The F# Language Specification gives an in-depth 

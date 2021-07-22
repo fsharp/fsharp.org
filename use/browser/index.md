@@ -6,14 +6,14 @@ headline: Use F# in the browser
 
 ### Option 1: [Try F# on try.fsharp.org](https://try.fsharp.org/)
 
-![logo](/images/thumbs/tryfsharp.jpg)&nbsp;[TryFSharp](https://try.fsharp.org/) enables you to try F# in an online editor/compiler without having to install anything on your
+![logo](../../images/thumbs/tryfsharp.jpg)&nbsp;[TryFSharp](https://try.fsharp.org/) enables you to try F# in an online editor/compiler without having to install anything on your
 computer. It includes example code for many of F#'s basic features. It's based on the  [Fable 2 REPL](https://fable.io/repl/).
 
 <br />
 
 ### Option 2: [Try Fable in the REPL](https://fable.io/repl/)
 
-![logo](/images/thumbs/fable.png)&nbsp;[Try Fable in the REPL](https://fable.io/repl/). Fable is a compiler powered by Babel that makes F# a first-class citizen of the JavaScript ecosystem.
+![logo](../../images/thumbs/fable.png)&nbsp;[Try Fable in the REPL](https://fable.io/repl/). Fable is a compiler powered by Babel that makes F# a first-class citizen of the JavaScript ecosystem.
 
 <br />
 

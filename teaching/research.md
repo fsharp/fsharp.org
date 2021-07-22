@@ -6,7 +6,7 @@ headline: Publications related to F#
 
 F# is about clarity of thinking and expression - "computational thinking made manifest" - and is loved by academics and researchers
 for bringing clear, concise problem solving techniques developed in academia into practice. 
-F# is both based on academic research and acts as an inspiration for thousands of 
+F# is acts as an inspiration for thousands of 
 students and researchers worldwide. Many standard F# features (including _active patterns_ and _asynchronous workflows_) 
 have been described in academic literature, and many
 research projects build on top of F#. 
@@ -503,7 +503,7 @@ Some of the publications about FStar are below.
 ##  Applications
 {: #applications   .anchor }
 
-For more applications of F#, see the [Testimonials](/testimonials/) page. Below are some peer-reviewed publications or academic presentations related to applications of F#.
+For more applications of F#, see the [Testimonials](../testimonials/) page. Below are some peer-reviewed publications or academic presentations related to applications of F#.
 
 ### [Learning with F#](http://dl.acm.org/citation.cfm?id=1362709)
 

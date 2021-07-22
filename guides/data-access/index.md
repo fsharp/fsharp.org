@@ -12,7 +12,7 @@ text formats like JSON, and XML.
 If the data access libraries you need are not listed here, you can search for them on [nuget](http://nuget.org).
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-access/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-access/index.md">edit this page</a>. These resources are for educational purposes. </p>
 </div>              
 
 * auto-gen TOC:
@@ -39,7 +39,7 @@ Some resources are listed below:
 
 * [FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - Use SQL to specify your queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code. Requries SQL Server 2012+ or SQL Azure.
 
-* [FSharp.Data.SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL database type provider, supporting LINQ queries, schema exploration, individuals and much more besides. Requires SQL Server, SQLite, PostgreSQL, Oracle, MySQL or Microsoft Access.
+* [FSharp.Data.SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL database type provider, supporting LINQ queries, schema exploration, individuals. Requires SQL Server, SQLite, PostgreSQL, Oracle, MySQL or Microsoft Access.
 
 * [SqlDataConnection Type Provider](http://msdn.microsoft.com/en-us/library/hh361033.aspx) - A type provider for accessing SQL using F# 3.0 LINQ queries. Requires Microsoft SQL Server.
 
@@ -60,7 +60,7 @@ web data stores can be accessed through F# support for JSON, XML and CSV data fo
 
 ### Data Frame and Time Series Programming
 
-* See the [Data Science](/guides/data-science) guide for more information on data frame and time series programming with F#.
+* See the [Data Science](../data-science) guide for more information on data frame and time series programming with F#.
 
 
 

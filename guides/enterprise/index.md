@@ -43,7 +43,7 @@ The benefits of F# for enterprise development are:
   to learn new skills that will improve their skills in other languages, such as C# and JavaScript.
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/enterprise/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/enterprise/index.md">edit this page</a>. These resources are for educational purposes. </p>
 </div>              
 
 * auto-gen TOC:
@@ -57,7 +57,7 @@ The benefits of F# for enterprise development are:
 * [The F# Way To Relaxation](https://vimeo.com/113594249) (video).
   A journey through the modern programming landscape and the F# approach to research, language design, interoperability, tooling and community.
 * [White paper: F# in the Enterprise](https://msdn.microsoft.com/en-US/vstudio/gg634701)
-* Many of the [F# testimonials](https://fsharp.org/testimonials/) are relevant to enterprise development.
+* Many of the [F# testimonials](../../testimonials/) are relevant to enterprise development.
 
 Many developers have posted on why they like F#:
 

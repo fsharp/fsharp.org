@@ -8,7 +8,7 @@ redirect_from:
 
 ### Option 1: Use Fable
 
-![logo](/images/thumbs/fable.png)&nbsp;[Fable](https://fable.io) is an F# to JS compiler designed to generate clean
+![logo](../../images/thumbs/fable.png)&nbsp;[Fable](https://fable.io) is an F# to JS compiler designed to generate clean
 and standard JavaScript code in order to maximize interoperability in both ways. It integrates with most
 of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
 or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you develop
@@ -23,7 +23,7 @@ or mobile with [React native](https://facebook.github.io/react-native/).
 
 ### Option 2: Use SAFE Stack
 
-![logo](/images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
+![logo](../../images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
 emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
 coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
 
@@ -36,7 +36,7 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 
 ### Option 3: Use WebSharper
 
-![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) allows end-to-end web applications with both client and server developed in F#. 
+![logo](../../images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) allows end-to-end web applications with both client and server developed in F#. 
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
 * [Try Online](http://websharper.com/samples)
@@ -47,7 +47,7 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 
 ### Option 4: Use WebAssembly with Bolero
 
-![logo](/images/thumbs/fsbolero.png)&nbsp;[Bolero](https://fsbolero.io/) - F# on the client side, no JavaScript - Bolero uses Blazor to bring F# to WebAssembly. Create dynamic HTML content using syntax familiar from WebSharper and Fable, in a full-fledged client-side .NET web framework.
+![logo](../../images/thumbs/fsbolero.png)&nbsp;[Bolero](https://fsbolero.io/) - F# on the client side, no JavaScript - Bolero uses Blazor to bring F# to WebAssembly. Create dynamic HTML content using syntax familiar from WebSharper and Fable, in a full-fledged client-side .NET web framework.
 
 * [Get Started](https://fsbolero.io/)
 * [Project Template](https://github.com/fsbolero/template)
@@ -55,5 +55,5 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 
 <br />
 
-There are other options, see also [F# Web Programming](/guides/web/).
+There are other options, see also [F# Web Programming](../../guides/web/).
 

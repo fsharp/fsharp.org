@@ -21,7 +21,7 @@ well to a stateless, functional approach. Advantages to using F# for web program
 * *Open-source* and *cross-platform*
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/web/index.md">edit this page</a>. These resources are for educational purposes. </p>
 </div>              
 
 * auto-gen TOC:
@@ -34,7 +34,7 @@ well to a stateless, functional approach. Advantages to using F# for web program
 #### SAFE Stack
 {: #safe-stack  .anchor }
 
-![logo](/images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
+![logo](../../images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
 emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
 coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
 
@@ -48,7 +48,7 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 #### WebSharper
 {: #websharper    .anchor }
 
-![logo](/images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
+![logo](../../images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
 * [Try Online](http://websharper.com/samples)
@@ -62,7 +62,7 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 #### Fable
 {: #fable    .anchor }
 
-![logo](/images/thumbs/fable.png)&nbsp;[Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
+![logo](../../images/thumbs/fable.png)&nbsp;[Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
 and standard code in order to maximize interoperability in both ways. It integrates with most
 of JS development pipelines like [Babel](http://babeljs.io), [Webpack](https://webpack.github.io)
 or [React Hot Loader](http://gaearon.github.io/react-hot-loader/). Fable allows you to develop
@@ -79,7 +79,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 #### Giraffe
 {: #giraffe  .anchor }
 
-![logo](/images/thumbs/giraffe.png)&nbsp;[Giraffe](https://github.com/giraffe-fsharp/Giraffe) is an F# library for building rich web applications that use ASP.NET Core under the hood. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
+![logo](../../images/thumbs/giraffe.png)&nbsp;[Giraffe](https://github.com/giraffe-fsharp/Giraffe) is an F# library for building rich web applications that use ASP.NET Core under the hood. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware).
 
 * [Docs](https://github.com/giraffe-fsharp/Giraffe/blob/master/DOCUMENTATION.md)
 * [Samples](https://github.com/giraffe-fsharp/Giraffe/tree/master/samples)
@@ -101,14 +101,14 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 #### Suave
 {: #suave    .anchor }
 
-![logo](/images/thumbs/suave.png)&nbsp;[Suave](http://suave.io/) is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+![logo](../../images/thumbs/suave.png)&nbsp;[Suave](http://suave.io/) is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
 
 <br />
 
 #### Saturn
 {: #saturn    .anchor }
 
-![logo](/images/thumbs/saturn.png)&nbsp;[Saturn](https://saturnframework.org) is a web development framework written in F# which implements the server-side MVC pattern. Many of its components and concepts will seem familiar to anyone with experience in other web frameworks like Ruby on Rails or Python’s Django. It's built on top of Giraffe and ASP.Net Core - modern, cross-platform, high-performance development platform for building cloud-ready web applications. 
+![logo](../../images/thumbs/saturn.png)&nbsp;[Saturn](https://saturnframework.org) is a web development framework written in F# which implements the server-side MVC pattern. Many of its components and concepts will seem familiar to anyone with experience in other web frameworks like Ruby on Rails or Python’s Django. It's built on top of Giraffe and ASP.Net Core - modern, cross-platform, high-performance development platform for building cloud-ready web applications. 
 
 It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 
@@ -121,7 +121,7 @@ It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 
 #### Bolero
 
-![logo](/images/thumbs/fsbolero.png)&nbsp;[Bolero](https://fsbolero.io/) - F# on the client side, no JavaScript - Bolero uses Blazor to bring F# to WebAssembly. Create dynamic HTML content using syntax familiar from WebSharper and Fable, in a full-fledged client-side .NET web framework.
+![logo](../../images/thumbs/fsbolero.png)&nbsp;[Bolero](https://fsbolero.io/) - F# on the client side, no JavaScript - Bolero uses Blazor to bring F# to WebAssembly. Create dynamic HTML content using syntax familiar from WebSharper and Fable, in a full-fledged client-side .NET web framework.
 
 * [Get Started](https://fsbolero.io/)
 * [Project Template](https://github.com/fsbolero/template)
@@ -130,66 +130,6 @@ It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 
 <br />
 
-#### Serving Requests with IHttpHandler
-{: #httphandler    .anchor }
-
-Do it the simple way, and serve web requests direct from code using F# asynchronous programming.
-
-* [Summary](http://codinglight.blogspot.co.uk/2010/03/writing-your-own-httphandler-in-f.html)
-* [F# async on the server side](http://lorgonblog.wordpress.com/2010/03/28/f-async-on-the-server-side/) - Non-blocking I/O on the server side
-
-<br />
-
-#### SignalR
-{: #signalr    .anchor }
-
-[SignalR](http://www.asp.net/signalr) provides bi-directional communication between web servers and clients using one of several mechanisms, beginning with [web sockets](http://www.websocket.org/) and falling back through several other approaches depending on client and server capabilities.
-One example is a [Web Application Server (F#)](http://visualstudiogallery.msdn.microsoft.com/c7ea6e81-b383-40e4-899c-4a5ab9d68f02).
-
-* [Skillscast: F# and SignalR for a fast Web](https://skillsmatter.com/skillscasts/6155-f-and-signalr-for-a-fast-web)
-
-* [SignalR-FSharp-Example](https://github.com/Thorium/SignalR-FSharp-Example)
-
-* F# and SignalR Stock Ticker [part 1](https://jamessdixon.wordpress.com/2013/11/26/f-and-singalr-stock-ticker-example/) [part 2](https://jamessdixon.wordpress.com/2013/12/03/f-and-signalr-stock-ticker-part-2/)
-
-* [StackOverflow answer demonstrating typed access to SignalR client methods](http://stackoverflow.com/a/20380210/2089257)
-
-<br />
-
-#### ASP.NET Blazor
-{: #blazor .anchor }
-
-[ASP.NET Blazor](https://blazor.net/) is a web framework for running .NET on [WebAssembly](https://webassembly.org/) similar to React, Angular, Vue, etc. It uses Razor `.cshtml` files to define components and render but can be used with F# libraries.
-
-* [BlazorRedux](https://github.com/torhovland/blazor-redux) provides Redux-like state management for Blazor and works well with F#.
-
-* [Trail](https://github.com/panesofglass/trail) provides an F# DSL for rendering in Blazor, allowing for a complete F# solution.
-
-<br />
-
-#### NancyFx
-{: #nancyfx    .anchor }
-
-[NancyFx](http://nancyfx.org/) is a lightweight, low-ceremony framework for building HTTP-based micro-applications and micro-services on .NET and Mono. [F# templates](http://bloggemdano.blogspot.com/2013/12/a-few-other-template-additions-and.html) are available.
-
-* [NancyFx Project Template](http://visualstudiogallery.msdn.microsoft.com/b55b8aac-b11a-4a6a-8a77-2153f46f4e2f) Includes templates for for getting started with a range of NancyFx applications.
-
-* [F#, NancyFx and Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html) - Using NancyFx and Heroku with F#
-
-
-<br />
-
-#### Freya
-{: #freya    .anchor }
-
-[Freya](https://github.com/xyncro/freya) provides a functional web stack built on top of [OWIN](http://owin.org/). At its core, Freya wraps the OWIN environment dictionary with a computation expression and provides access to that dictionary with lenses. Additional layers of the stack provide types based on the HTTP and related RFCs, a pipeline abstraction for connecting Freya computations, a router, and an implementation of the [HTTP finite state machine](https://github.com/for-GET/http-decision-diagram), like that found in [webmachine](https://github.com/basho/webmachine).
-
-* [NuGet](http://www.nuget.org/packages?q=freya)
-* [GitHub](https://github.com/xyncro/freya)
-* [Docs](https://freya.io/)
-* Install the project template with `dotnet new --install Freya.Template`
-
-<br />
 
 #### Falco
 {: #falco    .anchor }

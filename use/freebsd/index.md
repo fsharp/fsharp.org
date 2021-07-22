@@ -53,21 +53,6 @@ headline: Use F# on FreeBSD
    If you're greeted with the F# interactive shell, the installation was successful -- type ``#quit;;`` and press ENTER to exit.
 
 
-### Using F# on FreeBSD
-
-Once installed, use `fsharpi` to start F# Interactive, and use `fsharpc` to compile.
-
-    fsharpi     (starts F# interactive)
-    fsharpc     (F# compiler)
-    xbuild      (Builds .fsproj projects and .sln files, including ones authored in Visual Studio)
-
-If running F# interactive in Emacs or another similar environment, use
-              
-    fsharpi --readline-
-
-to turn off console processing.
-
-
 ### Editing tools
 
 Some editors have specific support for F#, either builtin or through addons provided by the F# community: 
