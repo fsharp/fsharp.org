@@ -14,7 +14,7 @@ scalable cloud solutions efficiently.
 This guide is an overview of the packages and tools for scalable compute, messaging, storage, and data processing with F#, 
 particularly for taking advantage of cloud-computing resources. 
 
-For cloud-hosted web programming and services, refer to the [Web Programming Guide](/guides/web/).
+For cloud-hosted web programming and services, refer to the [Web Programming Guide](../web/).
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
@@ -28,7 +28,7 @@ For cloud-hosted web programming and services, refer to the [Web Programming Gui
 #### SAFE Stack
 {: #safe-stack  .anchor }
 
-![logo](/images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
+![logo](../../images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
 emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
 coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
 

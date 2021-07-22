@@ -6,7 +6,7 @@ headline: Use F# on Windows
 
 ### Option 1: Install the CLI tools and use your own editor
 
-![logo](/images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). Once that is installed, you can begin using F#!
+![logo](../../images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). Once that is installed, you can begin using F#!
 
 Create a file called `hello.fsx` that looks like this:
 
@@ -41,7 +41,7 @@ For more information see [Getting started with the F# command line tools](https:
 
 ### Option 2: Install Visual Studio Code and Ionide
 
-![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
+![logo](../../images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
 F# is supported by the [Ionide](http://ionide.io/) project.
 
@@ -61,7 +61,7 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 ### Option 3: Install Visual Studio
 
-![logo](/images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual Studio tools for F#.
+![logo](../../images/thumbs/vstudio.png)&nbsp;On Windows, F# programmers commonly use the Visual Studio tools for F#.
 
 * [Visual Studio 2019](https://www.visualstudio.com/downloads/) comes with F# support in all its editions: Community, Professional and Enterprise. Community is completely free. See [Get started with F# in Visual Studio](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-visual-studio) for more information.
 
@@ -71,7 +71,7 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 ### Option 4: Install JetBrains Rider
 
-![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+![logo](../../images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
 1. Install [JetBrains Rider](https://www.jetbrains.com/rider/download/) for Windows.
 

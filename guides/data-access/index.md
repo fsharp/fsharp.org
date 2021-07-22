@@ -60,7 +60,7 @@ web data stores can be accessed through F# support for JSON, XML and CSV data fo
 
 ### Data Frame and Time Series Programming
 
-* See the [Data Science](/guides/data-science) guide for more information on data frame and time series programming with F#.
+* See the [Data Science](../data-science) guide for more information on data frame and time series programming with F#.
 
 
 

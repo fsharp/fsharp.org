@@ -503,7 +503,7 @@ Some of the publications about FStar are below.
 ##  Applications
 {: #applications   .anchor }
 
-For more applications of F#, see the [Testimonials](/testimonials/) page. Below are some peer-reviewed publications or academic presentations related to applications of F#.
+For more applications of F#, see the [Testimonials](../testimonials/) page. Below are some peer-reviewed publications or academic presentations related to applications of F#.
 
 ### [Learning with F#](http://dl.acm.org/citation.cfm?id=1362709)
 

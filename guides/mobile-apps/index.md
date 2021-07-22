@@ -5,7 +5,7 @@ headline: Guide - Mobile Apps with F#
 redirect_from: "/mobile-apps/index.html"
 ---
 
-F# executes on app platforms including as  [Android, iOS](/use/mobile-apps/), [Mac OS X](/use/mac/), [JavaScript/React/ReactNative](/use/web-apps/) and [Windows](/use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines and more make it an ideal tool for many aspects of app development. 
+F# executes on app platforms including as  [Android, iOS](../../use/mobile-apps/), [Mac OS X](../../use/mac/), [JavaScript/React/ReactNative](../../use/web-apps/) and [Windows](../../use/windows/). Its concise syntax, interoperability with .NET libraries, and its ability to manage complexity of components such as state machines, calculation engines and more make it an ideal tool for many aspects of app development. 
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
     <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/mobile-apps/index.md">edit this page</a>. These resources are for educational purposes. The F# Software Foundation does not endorse any commercial products, processes, or services.</p>
@@ -21,7 +21,7 @@ F# executes on app platforms including as  [Android, iOS](/use/mobile-apps/), [M
 
   * [Fabulous Contacts](https://github.com/TimLariviere/FabulousContacts) - A sample contacts app using Fabulous
 
-* ![logo](/images/thumbs/fable.png)&nbsp;[Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
+* ![logo](../../images/thumbs/fable.png)&nbsp;[Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
 
 * [Xamarin](https://dotnet.microsoft.com/apps/xamarin) - Use F# to develop for iOS, Android, Mac and Windows development
 

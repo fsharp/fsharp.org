@@ -10,7 +10,7 @@ Please follow the links below to make a suggestion, report an issue with F# and/
 
 |:------------------|:--------------------|:------------------|
 | [F# Language RFC](https://github.com/fsharp/fslang-design/) |   [Make suggestion](https://github.com/fsharp/fslang-suggestions) |          [Contribute to an RFC](https://github.com/fsharp/fslang-design/)      | 
-| [F# Language Specification](https://fsharp.org/specs/language-spec/) |   [Make suggestion](https://github.com/fsharp/fslang-suggestions) |          [Report/Fix an issue](https://fsharp.org/specs/language-spec/)      | 
+| [F# Language Specification](/specs/language-spec/) |   [Make suggestion](https://github.com/fsharp/fslang-suggestions) |          [Report/Fix an issue](/specs/language-spec/)      | 
 | [F# Compiler and Core Library](https://github.com/dotnet/fsharp)   |                 [Make suggestion](https://github.com/fsharp/fslang-suggestions) | [Report/Fix an issue (general)](https://github.com/dotnet/fsharp/issues) | 
 
 ### Editing Tools
@@ -23,7 +23,7 @@ Please follow the links below to make a suggestion, report an issue with F# and/
 
 ### Other Components and Tools
 
-For other components and tools, please [refer to the relevant project](https://fsharp.org/community/projects). Some specific links are shown below.
+For other components and tools, please [refer to the relevant project](/community/projects). Some specific links are shown below.
 
 |:------------------|:--------------------|:------------------|
 | [.NET Core Runtime](https://dotnet.microsoft.com/)      |   [Make suggestion](https://github.com/dotnet/coreclr) |  [Report/Fix an issue](https://github.com/dotnet/coreclr) | 

@@ -39,7 +39,7 @@ contribute to the documentation on GitHub.
 
 <br />
 
-## [The F# Language Specification](/specs/language-spec) 
+## [The F# Language Specification](../specs/language-spec) 
 
 * The specification gives an in-depth 
   technical explanation of the F# language constructs and required compiler behavior. 

@@ -13,11 +13,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://fsharp.org/foundation.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://fsharp.org/foundation/logo.html</loc>
+    <loc>https://fsharp.org/foundation/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>

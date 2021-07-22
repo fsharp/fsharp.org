@@ -24,7 +24,7 @@ REPL-scripting, powerful libraries and scalable data integration.
 <br />
 ## Jupyter Notebooks
 
-* ![logo](/images/thumbs/jupyter.png)&nbsp;[.NET Interactive](https://github.com/dotnet/interactive/)
+* ![logo](../../images/thumbs/jupyter.png)&nbsp;[.NET Interactive](https://github.com/dotnet/interactive/)
 provides data scientists and developers a way to explore data, experiment with code, and try new ideas
 effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter notebooks or custom interactive coding experiences.
 
@@ -32,7 +32,7 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
   * [Try Online in Binder](https://github.com/dotnet/interactive/blob/master/docs/NotebooksOnBinder.md)
   * [Use Locally](https://github.com/dotnet/interactive/blob/master/docs/NotebooksLocalExperience.md)
 
-* ![logo](/images/thumbs/jupyter.png)&nbsp;[IfSharp](https://github.com/fsprojects/IfSharp) implements F# for Jupyter notebooks.
+* ![logo](../../images/thumbs/jupyter.png)&nbsp;[IfSharp](https://github.com/fsprojects/IfSharp) implements F# for Jupyter notebooks.
 On Linux, Mono is used as the .NET implementation.
 
   * [Getting Started](https://github.com/fsprojects/IfSharp#getting-started/)

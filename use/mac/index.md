@@ -6,7 +6,7 @@ headline: Use F# on macOS
 
 ### Option 1: Install the CLI tools and use your own editor
 
-![logo](/images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). Once that is installed, you can begin using F#!
+![logo](../../images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). Once that is installed, you can begin using F#!
 
 Create a file called `hello.fsx` that looks like this:
 
@@ -43,7 +43,7 @@ For more information see [Getting started with the F# command line tools](https:
 
 ### Option 2: Install Visual Studio Code and Ionide
 
-![logo](/images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
+![logo](../../images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
 F# is supported by the [Ionide](http://ionide.io/) project.
 
@@ -63,7 +63,7 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 ### Option 3: Install Visual Studio for Mac
 
-![logo](/images/thumbs/xamarin-studio.png)&nbsp;[Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/) is a free IDE for general purpose development. It supports a wide range of projects that you can use F# with.
+![logo](../../images/thumbs/xamarin-studio.png)&nbsp;[Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/) is a free IDE for general purpose development. It supports a wide range of projects that you can use F# with.
 
 You can learn more at [Get started with F# in Visual Studio for Mac](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-with-visual-studio-for-mac).
 
@@ -71,7 +71,7 @@ You can learn more at [Get started with F# in Visual Studio for Mac](https://doc
 
 ### Option 4: Install JetBrains Rider
 
-![logo](/images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+![logo](../../images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
 You can install [JetBrains Rider from here](https://www.jetbrains.com/rider/download/).
 
