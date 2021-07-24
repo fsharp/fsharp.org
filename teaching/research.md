@@ -147,105 +147,12 @@ allows us to safely combine both of the reactive programming patterns. As a resu
 take advantage of the clarity and simplicity of the declarative approach as well as the 
 expressivity of the imperative model.
 
+
+
 --------------
 
-## Functional programming
-{: #functional-programming .anchor }
-
-### [Extensible pattern matching via a lightweight language extension](http://research.microsoft.com/pubs/79947/p29-syme.pdf)
-
-Don Syme, Gregory Neverov, James Margetson
-_Proceedings of ICFP 2007_
-
-Pattern matching of algebraic data types (ADTs) is a standard feature in typed functional 
-programming languages, but it is well known that it interacts poorly with abstraction. While 
-several partial solutions to this problem have been proposed, few have been implemented or 
-used. This paper describes an extension to the .NET language F# called active patterns, 
-which supports pattern matching over abstract representations of generic heterogeneous data 
-such as XML and term structures, including where these are represented via object models in 
-other .NET languages. Our design is the first to incorporate both ad hoc pattern matching 
-functions for partial decompositions and "views" for total decompositions, and yet remains 
-a simple and lightweight extension. We give a description of the language extension along 
-with numerous motivating examples. Finally we describe how this feature would interact with 
-other reasonable and related language extensions: existential types quantified at data 
-discrimination tags, GADTs, and monadic generalizations of pattern matching.
-
-### [Initializing Mutually Referential Abstract Objects: The Value Recursion Challenge](http://research.microsoft.com/pubs/79951/valrec-final-ml-workshop.pdf)
-
-Don Syme  
-_Proceedings of ML Workshop 2006_
-
-Mutual dependencies between objects arise frequently in programs, and programmers must 
-typically solve this value recursion by manually filling "initialization holes" to help 
-construct the corresponding object graphs, i.e. null values and/or explicitly mutable locations. 
-This paper aims to augment ongoing theoretical work on value recursion with a description 
-of a semi-safe mechanism for a generalized form of value recursion in an ML-like language, 
-where initialization corresponds to a graph of lazy computations whose nodes are sequentially 
-forced, requiring runtime checks for soundness during initialization in the style of Russo. 
-Our primary contribution is to use the mechanism to develop compelling examples of how the 
-absence of value recursion leads to real problems in the presence of abstraction boundaries, 
-and give micro-examples that characterize how initialization graphs permit more programs to 
-be expressed in the mutation-free fragment of ML. Finally we argue that in heterogeneous 
-programming environments semi-safe variations on value-recursion may be appropriate for 
-ML-like languages, because initialization effects from external libraries are difficult to 
-characterize, document and control. 
-
-### [Extending Monads with Pattern Matching](http://tomasp.net/academic/papers/docase/)
-
-Tomas Petricek, Alan Mycroft and Don Syme  
-_Proceedings of Haskell Symposium 2011_
-
-Sequencing of effectful computations can be neatly captured using monads and elegantly 
-written using `do` notation. In practice such monads often allow additional ways of 
-composing computations, which have to be written explicitly using combinators. 
-
-We identify joinads, an abstract notion of computation that is stronger than monads 
-and captures many such ad-hoc extensions. In particular, joinads are monads with three 
-additional operations: one of type `m a -> m b -> m (a, b)` captures various forms of 
-parallel composition, one of type `m a -> m a -> m a` that is inspired by choice and one 
-of type `m a -> m (m a)` that captures aliasing of computations. Algebraically, the first 
-two operations form a near-semiring with commutative multiplication. 
-
-We introduce `docase` notation that can be viewed as a monadic version of `case`. Joinad 
-laws make it possible to prove various syntactic equivalences of programs written using 
-`docase` that are analogous to equivalences about `case`. Examples of joinads that benefit 
-from the notation include speculative parallelism, waiting for a combination of user 
-interface events, but also encoding of validation rules using the intersection of parsers. 
-
-### [Try Joinads Demonstrator](http://tryjoinads.org/)
-
-Joinads is a general-purpose research extension of the F# computation expression syntax (also 
-called _monadic syntax_) in F# and is mainly useful for concurrent, parallal and reactive 
-programming. The extension adds a new piece of notation, written `match!` that can be 
-used to compose computations using non-deterministic choice, parallel composition and aliasing.
-
-The best way to experiment with Joinads is to visit the [TryJoinads.org](http://tryjoinads.org/)
-web site, which contains a number of tutorials that can be tested in web browser capable
-of running Silverlight (MacOS and Windows).
-
-
-### [Evaluation strategies for monadic computations](http://tomasp.net/academic/papers/malias/)
-
-Tomas Petricek  
-_Proceedings of MSFP 2012_
-
-Monads have become a powerful tool for structuring effectful computations in functional 
-programming, because they make the order of effects explicit. When translating pure code to a 
-monadic version, we need to specify evaluation order explicitly. This requires us to choose 
-between _call-by-value_ or _call-by-name_ style. The two translations give programs with 
-different semantics, structure and also different types.
-
-In this paper, we translate pure code to monadic using an additional operation `malias` 
-that abstracts out the evaluation strategy. The `malias` operation is based on _computational comonads_; 
-we use a categorical framework to specify the laws that are required to hold about the operation.
-
-We show two implementations of `malias` for any monad that give _call-by-value_ and 
-_call-by-name_ semantics. Although we do not give _call-by-need_ semantics for any monad, we 
-show how to turn any monad into an extended monad with _call-by-need_ semantics, which partly 
-answers a standing open question. Moreover, using our unified translation, it is possible to 
-change the evaluation strategy of functional code translated to the monadic form without 
-changing its structure or types. 
-
+## DSLs and Meta-programming
+{: #dsls-and-meta-programming .anchor }
 
 ### [Joinads: a retargetable control-flow construct for reactive, parallel and concurrent programming](http://tomasp.net/academic/papers/joinads/)
 
@@ -290,12 +197,6 @@ the way for the extension of F#, C# and other .NET languages with type classes.
 Our encoding is type preserving and promises easy and safe cross-language inter-operation. 
 We have extended the open source C# compiler and language service, Roslyn,
 with pervasive support for type classes and have prototyped a more minimalist design for F#.
-
-
---------------
-
-## DSLs and Meta-programming
-{: #dsls-and-meta-programming .anchor }
 
 ### [Leveraging .NET meta-programming components from F#: integrated queries and interoperable heterogeneous execution](http://dl.acm.org/citation.cfm?doid=1159876.1159884)
 
@@ -471,6 +372,105 @@ and interactive user interfaces in a declarative style. The paper introduces
 flowlets, an extension of formlets providing interactivity. Realworld
 examples are given using the current implementation that compiles
 flowlets defined in F# to JavaScript with WebSharper
+
+--------------
+
+## Functional programming
+{: #functional-programming .anchor }
+
+### [Extensible pattern matching via a lightweight language extension](http://research.microsoft.com/pubs/79947/p29-syme.pdf)
+
+Don Syme, Gregory Neverov, James Margetson
+_Proceedings of ICFP 2007_
+
+Pattern matching of algebraic data types (ADTs) is a standard feature in typed functional 
+programming languages, but it is well known that it interacts poorly with abstraction. While 
+several partial solutions to this problem have been proposed, few have been implemented or 
+used. This paper describes an extension to the .NET language F# called active patterns, 
+which supports pattern matching over abstract representations of generic heterogeneous data 
+such as XML and term structures, including where these are represented via object models in 
+other .NET languages. Our design is the first to incorporate both ad hoc pattern matching 
+functions for partial decompositions and "views" for total decompositions, and yet remains 
+a simple and lightweight extension. We give a description of the language extension along 
+with numerous motivating examples. Finally we describe how this feature would interact with 
+other reasonable and related language extensions: existential types quantified at data 
+discrimination tags, GADTs, and monadic generalizations of pattern matching.
+
+### [Initializing Mutually Referential Abstract Objects: The Value Recursion Challenge](http://research.microsoft.com/pubs/79951/valrec-final-ml-workshop.pdf)
+
+Don Syme  
+_Proceedings of ML Workshop 2006_
+
+Mutual dependencies between objects arise frequently in programs, and programmers must 
+typically solve this value recursion by manually filling "initialization holes" to help 
+construct the corresponding object graphs, i.e. null values and/or explicitly mutable locations. 
+This paper aims to augment ongoing theoretical work on value recursion with a description 
+of a semi-safe mechanism for a generalized form of value recursion in an ML-like language, 
+where initialization corresponds to a graph of lazy computations whose nodes are sequentially 
+forced, requiring runtime checks for soundness during initialization in the style of Russo. 
+Our primary contribution is to use the mechanism to develop compelling examples of how the 
+absence of value recursion leads to real problems in the presence of abstraction boundaries, 
+and give micro-examples that characterize how initialization graphs permit more programs to 
+be expressed in the mutation-free fragment of ML. Finally we argue that in heterogeneous 
+programming environments semi-safe variations on value-recursion may be appropriate for 
+ML-like languages, because initialization effects from external libraries are difficult to 
+characterize, document and control. 
+
+### [Extending Monads with Pattern Matching](http://tomasp.net/academic/papers/docase/)
+
+Tomas Petricek, Alan Mycroft and Don Syme  
+_Proceedings of Haskell Symposium 2011_
+
+Sequencing of effectful computations can be neatly captured using monads and elegantly 
+written using `do` notation. In practice such monads often allow additional ways of 
+composing computations, which have to be written explicitly using combinators. 
+
+We identify joinads, an abstract notion of computation that is stronger than monads 
+and captures many such ad-hoc extensions. In particular, joinads are monads with three 
+additional operations: one of type `m a -> m b -> m (a, b)` captures various forms of 
+parallel composition, one of type `m a -> m a -> m a` that is inspired by choice and one 
+of type `m a -> m (m a)` that captures aliasing of computations. Algebraically, the first 
+two operations form a near-semiring with commutative multiplication. 
+
+We introduce `docase` notation that can be viewed as a monadic version of `case`. Joinad 
+laws make it possible to prove various syntactic equivalences of programs written using 
+`docase` that are analogous to equivalences about `case`. Examples of joinads that benefit 
+from the notation include speculative parallelism, waiting for a combination of user 
+interface events, but also encoding of validation rules using the intersection of parsers. 
+
+### [Try Joinads Demonstrator](http://tryjoinads.org/)
+
+Joinads is a general-purpose research extension of the F# computation expression syntax (also 
+called _monadic syntax_) in F# and is mainly useful for concurrent, parallal and reactive 
+programming. The extension adds a new piece of notation, written `match!` that can be 
+used to compose computations using non-deterministic choice, parallel composition and aliasing.
+
+The best way to experiment with Joinads is to visit the [TryJoinads.org](http://tryjoinads.org/)
+web site, which contains a number of tutorials that can be tested in web browser capable
+of running Silverlight (MacOS and Windows).
+
+
+### [Evaluation strategies for monadic computations](http://tomasp.net/academic/papers/malias/)
+
+Tomas Petricek  
+_Proceedings of MSFP 2012_
+
+Monads have become a powerful tool for structuring effectful computations in functional 
+programming, because they make the order of effects explicit. When translating pure code to a 
+monadic version, we need to specify evaluation order explicitly. This requires us to choose 
+between _call-by-value_ or _call-by-name_ style. The two translations give programs with 
+different semantics, structure and also different types.
+
+In this paper, we translate pure code to monadic using an additional operation `malias` 
+that abstracts out the evaluation strategy. The `malias` operation is based on _computational comonads_; 
+we use a categorical framework to specify the laws that are required to hold about the operation.
+
+We show two implementations of `malias` for any monad that give _call-by-value_ and 
+_call-by-name_ semantics. Although we do not give _call-by-need_ semantics for any monad, we 
+show how to turn any monad into an extended monad with _call-by-need_ semantics, which partly 
+answers a standing open question. Moreover, using our unified translation, it is possible to 
+change the evaluation strategy of functional code translated to the monadic form without 
+changing its structure or types. 
 
 --------------
 
