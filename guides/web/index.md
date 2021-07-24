@@ -147,7 +147,7 @@ It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 #### ServiceStack
 {: #service-stack    .anchor }
 
-[ServiceStack](https://servicestack.net/) is a framework for simple and fast web services on .NET and Mono.
+[ServiceStack](https://servicestack.net/) is a framework for simple and fast web services on .NET.
 
 <br />
 

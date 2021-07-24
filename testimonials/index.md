@@ -1236,8 +1236,8 @@ With Units of Measure I started labelling the coordinates as one or zero based a
 I am involved in bioinformatics and computational genomics as a faculty member at the 
 University of Nebraska Medical Center (UNMC).  In an academic medical center like UNMC there 
 are heavy demands on my time and a wide range of different types of research projects that 
-I can end up working on.  I have used the F# programming language on both the .NET and Mono 
-frameworks for several of these projects, including one that involved a very productive 
+I can end up working on.  I have used the F# programming language
+for several of these projects, including one that involved a very productive 
 collaboration with IntelliFactory and the use of WebSharper.  
 You can visit the resulting [web site](http://app1.unmc.edu/fgx) and read the freely 
 available peer-reviewed scientific publication that describes the important 
@@ -1361,7 +1361,7 @@ Language features like record types, discriminated unions and type inference als
 
 Vector code is a code generator for iOS and OsX generating code in Objective C, Swift and C#. It works with vector graphics, parses and runs SVG. It is developed with F# on a Mac.
 
-F# is a first class language for Mac OsX. Thanks to the open source compiler, Mono and Xamarin, I was able to build a vector drawing, code generator software with F#. It is really amazing experience! The tooling is great and keeps improving. The compiler and the language  are basically the same which is fantastic!
+F# is a first class language for Mac OsX. Thanks to the open source compiler, I was able to build a vector drawing, code generator software with F#. It is really amazing experience! The tooling is great and keeps improving. The compiler and the language  are basically the same which is fantastic!
 
 F# is a powerful language and it is great to do cross platform development with it. I used heavily quotations for generating code in different languages on vector code. Powerful type system and static compilation meant that, once the application compiled without errors and warnings, it will just work and generate complete code. It did, and now at the App Store.
 
