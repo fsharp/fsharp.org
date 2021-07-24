@@ -15,6 +15,8 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
 
 * [Use in Jupyter](https://github.com/dotnet/interactive/#jupyter-and-nteract)
 
+* [Use online in Binder](https://github.com/dotnet/interactive/blob/main/docs/NotebooksOnBinder.md)
+
 <br />
 
 
