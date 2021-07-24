@@ -18,10 +18,11 @@ To learn F# use one of the free online resources or books below.
 A simple, clear resource explaining what F# is and what it is for.
 Learn about the tools for F#, the F# community, using F# with the .NET platform and access getting-started material.
 
-### [F# First Steps (Video Tutorials)](https://docs.microsoft.com/en-us/learn/paths/fsharp-first-steps/)
+### [Learn F# through Videos](https://www.youtube.com/results?search_query=learn+f%23+programming&sp=CAESAhgD)
 
-Interested in learning to program with F# but don't know where to start? Start here! Learn the basic syntax and features of the language through
-a series of short videos.
+This links to the latest short videos (4-20min) on YouTube for learning F#.
+You can also [ultra-short](https://www.youtube.com/results?search_query=learn+f%23+programming&sp=CAESAhgB)
+and [longer](https://www.youtube.com/results?search_query=learn+f%23+programming&sp=CAESAhgC) videos.
 
 ### [F# from the Ground Up (Course)](https://www.udemy.com/course/fsharp-from-the-ground-up)
 
