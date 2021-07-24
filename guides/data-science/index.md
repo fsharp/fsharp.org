@@ -33,7 +33,6 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
   * [Use Locally](https://github.com/dotnet/interactive/blob/master/docs/NotebooksLocalExperience.md)
 
 * ![logo](../../images/thumbs/jupyter.png)&nbsp;[IfSharp](https://github.com/fsprojects/IfSharp) implements F# for Jupyter notebooks.
-On Linux, Mono is used as the .NET implementation.
 
   * [Getting Started](https://github.com/fsprojects/IfSharp#getting-started/)
   * [Feature Notebook](https://github.com/fsprojects/IfSharp/blob/master/FSharp_Jupyter_Notebooks.ipynb)
@@ -57,8 +56,7 @@ On Linux, Mono is used as the .NET implementation.
    maintains mathematical data structures like BigRational that originated in the F# PowerPack. 
    If a performance boost is needed, the managed-code provider backing its linear algebra routines 
    and decompositions can be exchanged with wrappers for optimized native implementations such as 
-   Intel MKL. Supports Mono and .NET 4.0 on Linux, Mac and Windows. The portable version also SL5 
-   and .NET for Windows Store apps.
+   Intel MKL. 
 
    License: MIT/X11
 
@@ -122,14 +120,6 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 ## Commercial packages
 {: #commercial-packages .anchor }
 
- * [Alea GPU](http://www.aleagpu.com/) - a framework for 
-   developing GPU-accelerated algorithms in F# on .NET and Mono.
-
-   Utilizing F# quotations and the
-   LLVM compiler it is able to compile GPU kernels on-the-fly and schedule them on one or 
-   more nVidia GPU's. Advanced GPU features such as textures and shared memory are
-   supported. Available from [Quantalea](http://www.quantalea.net/).
-
  * [ILNumerics](http://ilnumerics.net/) - an open- or closed-source library offering high-
    performance numerical algorithms as well as charting and plotting capabilities.
 
@@ -137,7 +127,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
    n-dimensional arrays. Provided algorithms include standard linear algebra transforms,
    a high-performance Fast Fourier Transform (FFT) library, and a collection of sorting 
    and machine learning algorithms. Plotting is based on OpenGL and supports both 2D and 3D
-   plots. ILNumerics supports .NET 4.0 as well as Mono (recommend 2.10 or above).
+   plots.
 
    License: GPLv3 or commercial (paid) license.
    
@@ -149,8 +139,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
    standard algorithms from matrix factorization, function optimization, numerical integration, 
    K-means clustering, and PCA (principal component analysis). Options are provided to run  
    using pure managed code for portability or to utilize highly tuned native code for 
-   additional performance. Extreme Optimization supports .NET 3.5 and 4.0 (2.0 version 
-   available) and execution on Mono.
+   additional performance. 
 
  * [NMath, NMath Stats](https://www.centerspace.net/nmath/) -
    a suite providing core math and statistics functions.

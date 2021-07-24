@@ -84,7 +84,7 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
 
 [Docker](https://www.docker.io/) automates the deployment of applications inside [software containers](http://en.wikipedia.org/wiki/Operating_system%E2%80%93level_virtualization), by providing an additional layer of abstraction and automation of operating system–level virtualization on Linux.
 
-F# is available by default in [the Docker official images for Mono](https://github.com/docker-library/official-images/blob/master/library/mono).  There is also an [official Docker image for F#](https://hub.docker.com/r/fsharp/), [source](https://github.com/fsprojects/docker-fsharp).
+F# is available in the [official Docker images for the .NET SDK](https://hub.docker.com/_/microsoft-dotnet-sdk).
 
 ### Scalable Distributed Programming and Messaging
 
@@ -100,7 +100,7 @@ The [F# Mailbox Processor](http://blogs.msdn.com/b/dsyme/archive/2010/02/15/asyn
 
 #### Akka.NET
 
-The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications on .NET and Mono.  It is used in production systems by its own contributors.
+The [Akka.NET](http://akkadotnet.github.io/) framework is an open source toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications.  It is used in production systems by its own contributors.
 
  * [General information](http://akkadotnet.github.io/)
 

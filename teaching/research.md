@@ -4,18 +4,22 @@ title: F# Publications | The F# Software Foundation
 headline: Publications related to F#
 ---
 
-F# is about clarity of thinking and expression - "computational thinking made manifest" - and is loved by academics and researchers
-for bringing clear, concise problem solving techniques developed in academia into practice. 
-F# is acts as an inspiration for thousands of 
+F# is about clarity of thinking and expression - "computational thinking made manifest" - and is loved by researchers
+for bringing clear, concise problem solving techniques developed in academia into practice.
+F# is acts as an inspiration for thousands of
 students and researchers worldwide. Many standard F# features (including _active patterns_ and _asynchronous workflows_) 
-have been described in academic literature, and many
+have been described in publications, and many
 research projects build on top of F#. 
 
 <a href="http://blogs.msdn.com/b/dsyme/archive/2012/07/11/how-to-reference-for-f-in-a-research-paper.aspx">How to reference F# in a research paper</a>.
 
 To add a paper to this list [edit this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/teaching/research.md) and submit a pull request.
 
+ * **[F# Books](../learn/index.html#books)** - books about the F# language, including practical guides for using F# in practice.
 
+ * **[The F# Language - History and Design](#history)** - a publication
+    about the history and design of the F# language.
+ 
  * **[Information-rich programming](#information-rich-programming)** - publications related to F# type providers, a novel mechanism
      that integrates large-scale data into statically typed function programming language.
  
@@ -27,10 +31,6 @@ To add a paper to this list [edit this page](https://github.com/fsharp/fsfoundat
  * **[Parallel, Distributed and Cloud programming](#distributed-and-parallel-programming)** - publications
    related to parallel and distributed programming using F#.
 
- * **[Functional programming](#functional-programming)** - publications
-    about core F# language features including _active patterns_ and intialization of 
-    mutually recursive values.
-
  * **[DSLs and Meta-programming](#dsls-and-meta-programming)** - publications related to DSL and 
    meta-programming in F#.
 
@@ -40,12 +40,13 @@ To add a paper to this list [edit this page](https://github.com/fsharp/fsfoundat
   
  * **[Security and Verification Research](#security-and-verification-research)** - variations of F# and their use in security and verification research.
 
- * **[Applications](#applications)** - publications and academic presentations describing applications of F#.
+ * **[Applications](#applications)** - publications and presentations describing applications of F#.
 
 
 --------------
 
 ## The History of F# 
+{: #design .anchor }
 
 ### [The Early History of the F# Language](https://dl.acm.org/doi/pdf/10.1145/3386325)
 
