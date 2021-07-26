@@ -11,7 +11,7 @@ redirect_from:
     - "/about/learning.html"
 ---
 
-To learn F# use one of the free online resources or books below.
+To learn F# use one of the free online resources, courses or books below.
 
 ### [F# Basics](https://dotnet.microsoft.com/languages/fsharp)
 
