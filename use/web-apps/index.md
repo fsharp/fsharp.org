@@ -16,7 +16,7 @@ not only web apps but also [node.js](https://nodejs.org/en/), desktop with [Elec
 or mobile with [React native](https://facebook.github.io/react-native/).
 
 * [Getting Started](https://fable.io/docs/2-steps/setup.html)
-* [Try Online](http://fable.io/repl)
+* [Try Online](http://fable.io/repl3)
 * [Docs](http://fable.io/docs/)
 
 <br />
