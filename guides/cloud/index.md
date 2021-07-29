@@ -165,13 +165,7 @@ Some further resources for specific systems are:
 to handle large amounts of data across many commodity servers, providing high availability with 
 no single point of failure. 
 
- * [Aquiles](http://aquiles.codeplex.com/) - A .NET Client for Apache Cassandra version 0.6.X or above using Thrift API. 
-
- * [Cassandraemon](http://cassandraemon.codeplex.com/) - A LINQ Provider for Apache Cassandra
-
- * [cassandra-sharp](http://code.google.com/p/cassandra-sharp/) - A high performance .NET driver for Apache Cassandra
-
- * [FluentCassandra](https://github.com/managedfusion/fluentcassandra) - A .NET library for accessing Apache Cassandra
+ * [cassandra-sharp](https://github.com/pchalamet/cassandra-sharp/) - A high performance .NET driver for Apache Cassandra
 
 #### RavenDB
 
