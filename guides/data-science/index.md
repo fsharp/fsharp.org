@@ -29,18 +29,14 @@ provides data scientists and developers a way to explore data, experiment with c
 effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter notebooks or custom interactive coding experiences.
 
   * [Announcement](https://devblogs.microsoft.com/dotnet/net-interactive-is-here-net-notebooks-preview-2/)
-  * [Try Online in Binder](https://github.com/dotnet/interactive/blob/master/docs/NotebooksOnBinder.md)
-  * [Use Locally](https://github.com/dotnet/interactive/blob/master/docs/NotebooksLocalExperience.md)
-
-* ![logo](../../images/thumbs/jupyter.png)&nbsp;[IfSharp](https://github.com/fsprojects/IfSharp) implements F# for Jupyter notebooks.
-
-  * [Getting Started](https://github.com/fsprojects/IfSharp#getting-started/)
-  * [Feature Notebook](https://github.com/fsprojects/IfSharp/blob/master/FSharp_Jupyter_Notebooks.ipynb)
-  * [In Azure Notebooks](https://github.com/fsprojects/IfSharp#azure-notebooks)
+  * [Try Online in Binder](https://github.com/dotnet/interactive/blob/main/docs/NotebooksOnBinder.md)
+  * [Install Locally](https://github.com/dotnet/interactive/blob/main/docs/install-dotnet-interactive.md)
 
 <br />
 ## Integrated Packages
 {: #integrated-packages .anchor }
+
+ * [FsLab](http://fslab.org/) is the F# Community Project Incubation Space For Data Science.
 
  * [SciSharp Stack](https://scisharp.github.io/SciSharp/) - A .NET based Open Source Ecosystem for Data Science, Machine Learning and AI.
 
@@ -66,19 +62,13 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
    contains classes to create a wide variety of networks, as well as support classes to normalize and process data for these neural networks. Encog trains using multithreaded resilient propagation. Encog can also make use of a GPU to further speed processing time. A GUI based workbench is also provided to help model and train neural networks.
    See, for example, [ENCOG Neural Network XOR example in F#](http://relentlessdevelopment.wordpress.com/2013/11/14/hello-neurons-encog-neural-network-xor-example-in-f/)
 
- * [FsLab](http://fslab.org/) is an integrated, cross-platform collection of open source data science packages for F#, including FSharp.Data, Deedle, RProvider, Math.NET Numerics and more.
-
- * [Accord.MachineLearning](http://accord-framework.net//) - Contains Support Vector Machines, Decision Trees, Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such as Ransac, Cross-validation and Grid-Search for machine-learning applications. This package is part of the Accord.NET Framework.
-   See also [First steps with Accord.NET SVM in F#](http://www.clear-lines.com/blog/category/Machine-Learning.aspx)
-
-
 <br />
 ## Interactive Charting 
 {: #charting .anchor }
 
 * [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
-* [FSharp.Plotly](https://muehlhaus.github.io/FSharp.Plotly/) - a powerful and free charting library. FSharp.Plotly provides Plotly's awesome graphing support with strongly typed style options for F#. 
+* [Plotly.NET](https://github.com/plotly/Plotly.NET/) - a powerful and free charting library. Plotly.NET provides Plotly's awesome graphing support with strongly typed style options for F#. 
 
 * [FSharp.Charting](https://fslab.org/FSharp.Charting/) - an interactive charting library frequently used on Windows.
 
@@ -93,13 +83,13 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 
  * [NumSharp](https://github.com/SciSharp/NumSharp) - High Performance Computation for N-D Tensors in .NET, similar API to NumPy
 
- * [Torch.NET](https://github.com/SciSharp/Torch.NET) - .NET bindings for PyTorch. Machine Learning with C# / F# with Multi-GPU/CPU support
+ * [TorchSharp](https://github.com/xamarin/TorchSharp) - .NET bindings for PyTorch. Machine Learning with C# / F# with Multi-GPU/CPU support
+
+ * [DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library for incorporating derivative calculations with minimal changes into existing code, providing exact and efficient gradients, Jacobians and Hessians for machine learning and optimization applications.
 
  * [SharpCV](https://github.com/SciSharp/SharpCV) - A Computer Vision library combines OpenCV and NDArray together in .NET Standard.
 
  * [MxNet.Sharp](https://github.com/SciSharp/MxNet.Sharp) - .NET Standard bindings for Apache MxNet with Imperative, Symbolic and Gluon Interface for developing, training and deploying Machine Learning models in C# and F#.
-
- * [DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library for incorporating derivative calculations with minimal changes into existing code, providing exact and efficient gradients, Jacobians and Hessians for machine learning and optimization applications.
 
  * [FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library that supports generic types.
 
@@ -111,10 +101,14 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 
  * [Synapses](https://mrdimosthenis.github.io/Synapses) - A lightweight Neural Network library, for js, jvm and .net.
 
- * [R Packages](http://fslab.org/RProvider/) - All R packages can be accessed through the [RProvider for F#](http://fslab.org/RProvider/).
-   See, for example, [F# Neural Networks with the RProvider and Deedle](http://sergeytihon.wordpress.com/2013/11/18/f-neural-networks-with-rprovider-deedle/)
- 
-   License: BSD
+ * [R Packages](http://fslab.org/RProvider/) - R packages can be accessed through the [RProvider for F#](http://fslab.org/RProvider/). License: BSD
+
+ * [Deedle](http://fslab.org/Deedle/) is an easy-to-use, high quality 
+   package for data and time series manipulation and for scientific programming. 
+   It uses a design similar to the Pandas library from Python and the 'tseries' or 'zoo' packages in R, though
+   with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
+   work well for exploratory programming using F# and C# interactive console, but can be also used in 
+   efficient compiled .NET code. 
 
 <br />
 ## Commercial packages
@@ -166,43 +160,6 @@ If a resource specific to F# can't be found, then search for C# instead and adju
    animations. F# for Visualization supports .NET. The library is
    available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
 
- * [Deedle](http://fslab.org/Deedle/) is an easy-to-use, high quality 
-   package for data and time series manipulation and for scientific programming. 
-   It uses a design similar to the Pandas library from Python and the 'tseries' or 'zoo' packages in R, though
-   with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
-   work well for exploratory programming using F# and C# interactive console, but can be also used in 
-   efficient compiled .NET code. 
-
-<br />
-### Tutorials and Introductions
-{: #tutorials .anchor }
-
-Introductions to different machine learning algorithms with F#:
-
- * [Understanding the world with F# (article)](http://www.thedevelopermag.com/understanding-world-f/)
- * [Understanding the world with F# (video)](http://channel9.msdn.com/posts/Understanding-the-World-with-F)
- * [FSML - A machine learning project in F#](https://github.com/rnorm/FSML)
- * [Gaussian process regression in F#](http://evelinag.com/blog/2014/09-15-introducing-ariadne/index.html)
- * [K-Means clustering in F#](http://clear-lines.com/blog/post/K-Means-Clustering-in-FSharp.aspx)
- * [Simplify data with SVD and Math.NET in F#](http://clear-lines.com/blog/post/Simplify-data-with-SVD-and-MathNET-in-FSharp.aspx)
- * [Recommendation Engine using Math.NET, SVD and F#](http://www.clear-lines.com/blog/post/Recommendation-Engine-with-SVD-and-MathNET-in-FSharp.aspx)
- * [Setting up F# Interactive for Machine Learning with Large Datasets](http://richardminerich.com/2013/03/setting-up-fsharp-interactive-for-machine-learning-with-large-datasets/)
- * [Random Forests in F# - first cut](http://www.clear-lines.com/blog/post/Random-Forest-classification-in-F-first-cut.aspx)
- * [Nearest Neighbor Classification, Part 1](http://clear-lines.com/blog/post/Nearest-Neighbor-Classification-part-1.aspx)
- * [Nearest Neighbor Classification, Part 2](http://clear-lines.com/blog/post/Nearest-Neighbor-Classification-Part-2.aspx)
- * [Decision Tree Classification in F#](http://clear-lines.com/blog/post/Decision-Tree-classification.aspx)
- * [Naïve Bayes Classification](http://clear-lines.com/blog/post/Naive-Bayes-Classification.aspx)
- * [Logistic Regression in F#](http://clear-lines.com/blog/post/Logistic-Regression.aspx)
- * [Support Vector Machine in F#: getting there](http://clear-lines.com/blog/post/Support-Vector-Machine-in-FSharp.aspx)
- * [AdaBoost in F#](http://clear-lines.com/blog/post/AdaBoost-classifier-in-FSharp.aspx)
- * [Support Vector Machines in F#](http://fdatamining.blogspot.co.uk/2011/02/support-vector-machines-svms-in-f-using.html)
- * [Kaggle/StackOverflow contest field notes](http://clear-lines.com/blog/post/Kaggle-StackOverflow-field-notes-part-1.aspx)
- * [F# Data Mining](http://fdatamining.blogspot.com/2010/05/why-f-is-language-for-data-mining.html)
- * [Parallel Programming in F#: Aggregating Data:](http://tomasp.net/blog/fsharp-parallel-aggregate.aspx)
- * [Particle Swarm Optimization in F#](http://www.danielslater.net/2015/05/particle-swarm-optimization-in-f.html)
- * [Hype](http://hypelib.github.io/Hype/) - An experimental deep learning library, where you can perform optimization on compositional machine learning systems of many components, even when such components themselves internally perform optimization. Underlying computations are run by a BLAS/LAPACK backend (OpenBLAS by default).
-
- 
 
 <br />
 
@@ -215,24 +172,15 @@ Introductions to different machine learning algorithms with F#:
 and more. Your entire add-in can be packed into a single .xll file requiring no installation or registration:
 
  * [Excel-DNA home pages](http://excel-dna.net/)
- * [Combining F# and Excel using Excel DNA](http://blogs.msdn.com/b/fsharpteam/archive/2013/07/16/combining-f-and-excel-using-excel-dna-some-links.aspx)
  * [Async and event-streaming Excel UDFs with F#](http://excel-dna.net/2013/03/26/async-and-event-streaming-excel-udfs-with-f/)
  * [Machine Learning with Excel: Combine the power of Excel, F# and R](http://luajalla.azurewebsites.net/excel-dna-three-stories/)
 
-[NPOI](https://npoi.codeplex.com/) is .NET version of POI Java project at http://poi.apache.org/. POI is an open source project which can help you read/write xls, doc, ppt files.
+[NPOI](https://github.com/nissl-lab/npoi/) is .NET version of POI Java project at http://poi.apache.org/. POI is an open source project which can help you read/write xls, doc, ppt files.
 
  * [Example of how to work with Excel using NPOI in F#](https://github.com/Heather/FXL/blob/master/RNExceL/Model/NPOI.fs#L19)
 
-[EPPlus](http://epplus.codeplex.com) is a .NET library that reads and writes Excel 2007/2010/2013 files using the Open Office XML format (xlsx)
- 
-[ExcelPackageF](https://github.com/igorkulman/ExcelPackageF) is a simple F# wrapper over the EPPlus library.
- 
-Both NPOI and EPPLus manipulate the Open Office XML format directly so they do not require having Excel installed and do not use Interop. You can read, create, and edit Excel documents using this approach.
+NPOI manipulates the Open Office XML format directly so does not require having Excel installed and do not use Interop. You can read, create, and edit Excel documents using this approach.
 
-The [F# Excel Type Provider](http://fsprojects.github.io/ExcelProvider/) is a prototypical F# type providerfor Excel that allows you  to read Excel files using typed data provided by the type provider. 
-
-
- * [Plot functions from F# to Excel](http://www.clear-lines.com/blog/post/Plot-functions-from-FSharp-to-Excel.aspx)
  * [Charting with Excel from F#](http://bit.ly/GGv8z4)
 
 There are also some F# versions of Excel functions, useful when migrating code:

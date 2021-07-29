@@ -151,8 +151,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
    and time series manipulation and for scientific programming. It supports working with structured data
    frames, ordered and unordered data, as well as time series. Deedle is designed to work well for
    exploratory programming using F# and C# interactive console, but can be also used in
-   efficient compiled .NET code. You can financial users of F# including BlueMountatin Capital
-   in contributing to this library.
+   efficient compiled .NET code. 
 
 *  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider
    for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
@@ -165,12 +164,13 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="visualization" class="anchor">Community Projects: Visualization Tools</h2>
 
-*  ![logo](../../images/thumbs/FSharp.Charting.png)&nbsp;[FSharp.Charting](http://fslab.org/FSharp.Charting/) - The FSharp.Charting library implements charting
-   suitable for use from F# scripting.
-
 *  ![logo](../../images/thumbs/XPlot.png)[XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries.
    It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.
    You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
+
+* [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
+
+* [Plotly.NET](https://github.com/plotly/Plotly.NET/) - a powerful and free charting library. Plotly.NET provides Plotly's awesome graphing support with strongly typed style options for F#. 
 
 <br />
 
@@ -343,7 +343,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [FsCheck](https://fscheck.github.io/FsCheck/) - Random testing generator combinators, port of Haskell's QuickCheck.
 
-*  ![logo](../../images/thumbs/Foq.png)&nbsp;[Foq](http://foq.codeplex.com/) - A lightweight thread-safe mocking library for F#, C# & VB.Net. Use Foq to mock abstract classes and interfaces.
+*  ![logo](../../images/thumbs/Foq.png)&nbsp;[Foq](https://github.com/fsprojects/Foq/) - A lightweight thread-safe mocking library for F#, C# & VB.Net. Use Foq to mock abstract classes and interfaces.
 
 *  [AutoFixture.AutoFoq](http://www.nuget.org/packages/AutoFixture.AutoFoq) - A library which turns [AutoFixture](http://www.nuget.org/packages/AutoFixture) into an [Auto-mocking Container](http://blog.ploeh.dk/2013/03/11/auto-mocking-container/) where the mock instances are created by [Foq](https://github.com/fsprojects/Foq).
 
@@ -351,7 +351,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/canopy.jpg)&nbsp;[canopy](http://lefthandedgoat.github.io/canopy/) - F#rictionless web testing with Selenium.
 
-*  [TickSpec](http://tickspec.codeplex.com/) A lightweight F# Behaviour Driven Development (BDD) framework
+*  [TickSpec](https://github.com/fsprojects/TickSpec/) A lightweight F# Behaviour Driven Development (BDD) framework
 
 *  ![logo](../../images/thumbs/Fspec.png)&nbsp;[FSpec](https://github.com/PeteProgrammer/fspec) A context/specification testing framework for F#
 
