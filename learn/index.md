@@ -71,20 +71,6 @@ A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) incl
 
 <h2 id="books" class="anchor">F# Books - General</h2>
 
-### [Essential Functional-First F#](https://leanpub.com/essential-fsharp)
-
-<img src="/learn/files/BookEFFF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
-
-_Ian Russell_
-
-This is a practical book aimed at efficiently getting you up to speed with the essentials functional-first programming in F#. 
-
-Everywhere you look, programming languages are gaining functional features. The problem is that it's not the individual features that make functional programmers happy, it's the way that your approach to writing software and the features work together to help you write simple code to solve interesting problems. This book will help you to discover why F# is such a popular language with those who have spent time learning its secrets. 
-
-This book started life as a series of blog posts on my Company's website (https://www.softwarepark.cc/blog). The sum of the content is what a developer needs to know to be able to work on one of our F# Line of Business codebases. I have improved and extended the content, upgraded the code to F# 5 and ensured that the code will run in VS Code.
-
-All of the author's royalties from this book are going to the F# Software Foundation to help them to support the F# community around the world.
-
 ### [Get Programming with F#](https://www.manning.com/books/get-programming-with-f-sharp)
 
 <img src="/learn/files/BookGPWF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
@@ -118,6 +104,20 @@ What You'll Learn
 - Identify and implement opportunities to use function injection to improve program design
 - Appreciate the methods available to handle unknown data values
 - Understand asynchronous and parallel programming in F#, and how it differs from C# asynchronous programming
+
+### [Essential Functional-First F#](https://leanpub.com/essential-fsharp)
+
+<img src="/learn/files/BookEFFF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Ian Russell_
+
+This is a practical book aimed at efficiently getting you up to speed with the essentials functional-first programming in F#. 
+
+Everywhere you look, programming languages are gaining functional features. The problem is that it's not the individual features that make functional programmers happy, it's the way that your approach to writing software and the features work together to help you write simple code to solve interesting problems. This book will help you to discover why F# is such a popular language with those who have spent time learning its secrets. 
+
+This book started life as a series of blog posts on my Company's website (https://www.softwarepark.cc/blog). The sum of the content is what a developer needs to know to be able to work on one of our F# Line of Business codebases. I have improved and extended the content, upgraded the code to F# 5 and ensured that the code will run in VS Code.
+
+All of the author's royalties from this book are going to the F# Software Foundation to help them to support the F# community around the world.
 
 ### [F# Programming Wikibook](http://en.wikibooks.org/wiki/Programming:F_Sharp)
 
