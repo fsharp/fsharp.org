@@ -56,10 +56,9 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
 
  * [FSharp.AWS.DynamoDB](https://github.com/fsprojects/FSharp.AWS.DynamoDB#fsharpawsdynamodb) - an F# wrapper over the standard Amazon.DynamoDB library which allows you to represent table items using F# records and perform updates, queries and scans using F# quotation expressions
  
-### Scalable Data Programming and NoSQL Databases
+### Scalable Data Programming
 
 F# can be used with many scalable data-storage systems. Some are accessible via the Cloud SDKs outlined above.
-Some further resources for specific systems are:
 
 #### Apache Spark
 
