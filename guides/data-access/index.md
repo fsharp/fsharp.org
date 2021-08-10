@@ -41,11 +41,7 @@ Some resources are listed below:
 
 * [FSharp.Data.SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL database type provider, supporting LINQ queries, schema exploration, individuals. Requires SQL Server, SQLite, PostgreSQL, Oracle, MySQL or Microsoft Access.
 
-* [SqlDataConnection Type Provider](http://msdn.microsoft.com/en-us/library/hh361033.aspx) - A type provider for accessing SQL using F# 3.0 LINQ queries. Requires Microsoft SQL Server.
-
-* [SqlEntityConnection Type Provider](http://msdn.microsoft.com/en-us/library/hh361035.aspx) - A type provider for accessing SQL using F# 3.0 LINQ queries and Entity Framework. Works with a broad range of databases.
-
-* [ADO.NET](http://msdn.microsoft.com/en-us/library/aa286484.aspx) - A set of .NET classes exposing data access services to the .NET programmer. Works with a very broad range of databases.
+* [ADO.NET](http://msdn.microsoft.com/library/aa286484.aspx) - A set of .NET classes exposing data access services to the .NET programmer. Works with a very broad range of databases.
 
 * [Rezoom.SQL](https://github.com/rspeele/Rezoom.SQL) - A library that statically typechecks a common SQL dialect and translates it to various RDBMS backends.
 

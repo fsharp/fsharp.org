@@ -36,9 +36,9 @@ If you don't receive the invite within 48 hours, or if you have any questions, p
 Some of Slack's features include:
 
 * Persistence - No need to be continually logged in
-* [Link Sharing](https://slack.zendesk.com/hc/en-us/articles/204399343-Sharing-links-in-Slack) - For example linked images can be automatically shown
-* [Message Formatting](https://slack.zendesk.com/hc/en-us/articles/202288908-Formatting-your-messages)
-* [Message editing](https://slack.zendesk.com/hc/en-us/articles/202395258-Editing-or-deleting-messages) - you can correct message typos or delete them entirely
-* [File](https://slack.zendesk.com/hc/en-us/articles/201330736-Uploading-and-sharing-files) and [text snippet](https://slack.zendesk.com/hc/en-us/articles/204145658-Creating-a-Snippet) sharing
+* [Link Sharing](https://slack.zendesk.com/hc/articles/204399343-Sharing-links-in-Slack) - For example linked images can be automatically shown
+* [Message Formatting](https://slack.zendesk.com/hc/articles/202288908-Formatting-your-messages)
+* [Message editing](https://slack.zendesk.com/hc/articles/202395258-Editing-or-deleting-messages) - you can correct message typos or delete them entirely
+* [File](https://slack.zendesk.com/hc/articles/201330736-Uploading-and-sharing-files) and [text snippet](https://slack.zendesk.com/hc/articles/204145658-Creating-a-Snippet) sharing
 
 History within Slack is limited. We recommend using the [F# Software Foundation Community Forums](https://forums.fsharp.org/t/welcome-to-the-f-software-foundation-community-forums/8) for questions or discussions where persistance and history are important.

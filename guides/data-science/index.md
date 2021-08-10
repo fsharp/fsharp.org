@@ -28,7 +28,6 @@ REPL-scripting, powerful libraries and scalable data integration.
 provides data scientists and developers a way to explore data, experiment with code, and try new ideas
 effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter notebooks or custom interactive coding experiences.
 
-  * [Announcement](https://devblogs.microsoft.com/dotnet/net-interactive-is-here-net-notebooks-preview-2/)
   * [Try Online in Binder](https://github.com/dotnet/interactive/blob/main/docs/NotebooksOnBinder.md)
   * [Install Locally](https://github.com/dotnet/interactive/blob/main/docs/install-dotnet-interactive.md)
 
@@ -38,29 +37,10 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
 
  * [FsLab](http://fslab.org/) is the F# Community Project Incubation Space For Data Science.
 
+ * [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/) - ML.NET is an open source and cross-platform machine learning framework sponsored by Microsoft. With ML.NET, you can create custom ML models using C# or F# without having to leave the .NET ecosystem. ML.NET lets you re-use all the knowledge, skills, code, and libraries you already have as a .NET developer so that you can easily integrate machine learning into your web, mobile, desktop, games, and IoT apps.
+
  * [SciSharp Stack](https://scisharp.github.io/SciSharp/) - A .NET based Open Source Ecosystem for Data Science, Machine Learning and AI.
-
-   SciSharp provides ports and bindings to cutting edge Machine Learning frameworks like [TensorFlow](https://scisharp.github.io/TensorFlow.NET/), [Keras](https://scisharp.github.io/Keras.NET/), [PyTorch](https://github.com/SciSharp/Torch.NET), [Numpy](https://github.com/SciSharp/NumSharp) and many more in .NET Core. Since the APIs of the ported libraries are so similar to the originals you can easily re-use all existing resources, documentation and community solutions to common problems in C# or F# without much effort.
-
-   License: Various, mostly Apache 2.0 or MIT
-
- * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
-   a large collection of algorithms needed in science and engineering, including linear algebra, 
-   special functions, statistics, probability models, interpolation and FFTs. 
-
-   In addition to the core .NET package, Numerics specifically supports F# 4.0 with idiomatic extension modules and 
-   maintains mathematical data structures like BigRational that originated in the F# PowerPack. 
-   If a performance boost is needed, the managed-code provider backing its linear algebra routines 
-   and decompositions can be exchanged with wrappers for optimized native implementations such as 
-   Intel MKL. 
-
-   License: MIT/X11
-
- * [ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet/) - ML.NET is an open source and cross-platform machine learning framework sponsored by Microsoft.
-
- * [Encog Machine Learning Framework](https://www.heatonresearch.com/encog/) - An advanced neural network and machine learning framework. Encog
-   contains classes to create a wide variety of networks, as well as support classes to normalize and process data for these neural networks. Encog trains using multithreaded resilient propagation. Encog can also make use of a GPU to further speed processing time. A GUI based workbench is also provided to help model and train neural networks.
-   See, for example, [ENCOG Neural Network XOR example in F#](http://relentlessdevelopment.wordpress.com/2013/11/14/hello-neurons-encog-neural-network-xor-example-in-f/)
+   SciSharp provides ports and bindings to cutting edge Machine Learning frameworks like [TensorFlow](https://scisharp.github.io/TensorFlow.NET/), [Keras](https://scisharp.github.io/Keras.NET/), [PyTorch](https://github.com/SciSharp/Torch.NET), [Numpy](https://github.com/SciSharp/NumSharp) and many more in .NET Core. Since the APIs of the ported libraries are so similar to the originals you can easily re-use all existing resources, documentation and community solutions to common problems in C# or F# without much effort. License: Various, mostly Apache 2.0 or MIT
 
 <br />
 ## Interactive Charting 
@@ -70,22 +50,26 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
 
 * [Plotly.NET](https://github.com/plotly/Plotly.NET/) - a powerful and free charting library. Plotly.NET provides Plotly's awesome graphing support with strongly typed style options for F#. 
 
-* [FSharp.Charting](https://fslab.org/FSharp.Charting/) - an interactive charting library frequently used on Windows.
-
-
 <br />
 ## Individual Packages
 {:  .anchor }
 
 If a resource specific to F# can't be found, then search for C# instead and adjust the technique appropriately.
 
- * [TensorFlow.NET](https://scisharp.github.io/TensorFlow.NET/) - .NET Standard bindings for Google's TensorFlow for developing, training and deploying Machine Learning models in C# and F#.
+ * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
+   a large collection of algorithms needed in science and engineering, including linear algebra, 
+   special functions, statistics, probability models, interpolation and FFTs. 
+   In addition to the core .NET package, Numerics specifically supports F# 4.0 with idiomatic extension modules and 
+   maintains mathematical data structures like BigRational that originated in the F# PowerPack. 
+   If a performance boost is needed, the managed-code provider backing its linear algebra routines 
+   and decompositions can be exchanged with wrappers for optimized native implementations such as 
+   Intel MKL.  License: MIT/X11
 
- * [NumSharp](https://github.com/SciSharp/NumSharp) - High Performance Computation for N-D Tensors in .NET, similar API to NumPy
+ * [TensorFlow.NET](https://scisharp.github.io/TensorFlow.NET/) - .NET Standard bindings for Google's TensorFlow for developing, training and deploying Machine Learning models in C# and F#.
 
  * [TorchSharp](https://github.com/xamarin/TorchSharp) - .NET bindings for PyTorch. Machine Learning with C# / F# with Multi-GPU/CPU support
 
- * [DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library for incorporating derivative calculations with minimal changes into existing code, providing exact and efficient gradients, Jacobians and Hessians for machine learning and optimization applications.
+ * [DiffSharp](http://diffsharp.github.io/) - An automatic differentiation (AD) library for incorporating derivative calculations with minimal changes into existing code, providing exact and efficient gradients, Jacobians and Hessians for machine learning and optimization applications.
 
  * [SharpCV](https://github.com/SciSharp/SharpCV) - A Computer Vision library combines OpenCV and NDArray together in .NET Standard.
 
@@ -97,11 +81,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 
  * [Ariadne](http://evelinag.com/Ariadne/) - Library for fitting Gaussian process regression models.
 
- * [Numl](http://nuget.org/packages/numl/) - A machine learning library intended to ease the use of using standard modeling techniques for both prediction and clustering
-
- * [Synapses](https://mrdimosthenis.github.io/Synapses) - A lightweight Neural Network library, for js, jvm and .net.
-
- * [R Packages](http://fslab.org/RProvider/) - R packages can be accessed through the [RProvider for F#](http://fslab.org/RProvider/). License: BSD
+ * [Numl](http://numl.net/) - A machine learning library intended to ease the use of using standard modeling techniques for both prediction and clustering
 
  * [Deedle](http://fslab.org/Deedle/) is an easy-to-use, high quality 
    package for data and time series manipulation and for scientific programming. 
