@@ -4,7 +4,7 @@ title: Documentation | The F# Software Foundation
 headline: Documentation for F#
 ---
 
-## [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/)
+## [F# Language Reference](https://docs.microsoft.com/dotnet/fsharp/language-reference/)
 
 * Comprehensive F# documentation that includes general information about F#, a language reference explaining all F# constructs as well as documentation for the standard F# library.
 
@@ -33,7 +33,7 @@ headline: Documentation for F#
 
 <br />
 
-## [The F# Component Design Guidelines](https://docs.microsoft.com/en-us/dotnet/fsharp/style-guide/component-design-guidelines)
+## [The F# Component Design Guidelines](https://docs.microsoft.com/dotnet/fsharp/style-guide/component-design-guidelines)
 
 * This document is a set of component 
   design guidelines for F# programming. It describes guidelines for designing libraries 

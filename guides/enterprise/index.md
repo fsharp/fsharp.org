@@ -158,7 +158,7 @@ the safety of static types, and the ease of use of intellisense.
 * The **standard type providers** include:
   * [XML type provider](http://fsprojects.github.io/FSharp.Data/library/XmlProvider.html)
   * [JSON type provider](http://fsprojects.github.io/FSharp.Data/library/JsonProvider.html)
-  * [SQL type provider](http://msdn.microsoft.com/en-us/library/hh361033.aspx).
+  * [SQL type provider](http://msdn.microsoft.com/library/hh361033.aspx).
 * [Accessing loosely structured data from F# and C#](http://tomasp.net/blog/goto-loosely-structured-data.aspx/index.html)
 
 <br />
