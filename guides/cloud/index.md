@@ -37,7 +37,6 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 * [Dojo](https://github.com/CompositionalIT/SAFE-Dojo/)
 * [Support](https://safe-stack.github.io/docs/support/)
 
-
 ### Cloud Platforms
 
 #### [Microsoft Azure](https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-on-azure/)
@@ -57,13 +56,18 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
 
  * [FSharp.AWS.DynamoDB](https://github.com/fsprojects/FSharp.AWS.DynamoDB#fsharpawsdynamodb) - an F# wrapper over the standard Amazon.DynamoDB library which allows you to represent table items using F# records and perform updates, queries and scans using F# quotation expressions
  
-### Containers
+### Scalable Data Programming and NoSQL Databases
 
-#### Docker
+F# can be used with many scalable data-storage systems. Some are accessible via the Cloud SDKs outlined above.
+Some further resources for specific systems are:
 
-[Docker](https://www.docker.io/) automates the deployment of applications inside [software containers](http://en.wikipedia.org/wiki/Operating_system%E2%80%93level_virtualization), by providing an additional layer of abstraction and automation of operating system–level virtualization on Linux.
+#### Apache Spark
 
-F# is available in the [official Docker images for the .NET SDK](https://hub.docker.com/_/microsoft-dotnet-sdk).
+[Apache Spark™](https://dotnet.microsoft.com/apps/data/spark) is a free, open-source, and cross-platform analytics engine for large-scale data processing.
+
+* F# samples are included in the [GitHub Repo](https://github.com/dotnet/spark#samples)
+
+* [Getting Started with Data Analytics & Machine Learning in F#](https://www.youtube.com/watch?v=ciBtKRZMIaU)
 
 ### Scalable Distributed Programming and Messaging
 
@@ -97,61 +101,11 @@ The [Orleans](https://dotnet.github.io/orleans/) framework provides a straightfo
 
 * [MS-MPI](http://msdn.microsoft.com/library/bb524831.aspx) - Microsoft's implementation of the MPI protocol, available on some versions of Windows Server.
 
-### Scalable Data Programming and NoSQL Databases
+### Containers
 
-F# can be used with many scalable data-storage systems. Some are accessible via the Cloud SDKs outlined above.
-Some further resources for specific systems are:
+#### Docker
 
-#### Apache Spark
+[Docker](https://www.docker.io/) automates the deployment of applications inside [software containers](http://en.wikipedia.org/wiki/Operating_system%E2%80%93level_virtualization), by providing an additional layer of abstraction and automation of operating system–level virtualization on Linux.
 
-[Apache Spark™](https://dotnet.microsoft.com/apps/data/spark) is a free, open-source, and cross-platform analytics engine for large-scale data processing.
-
-* F# samples are included in the [GitHub Repo](https://github.com/dotnet/spark#samples)
-
-* [Getting Started with Data Analytics & Machine Learning in F#](https://www.youtube.com/watch?v=ciBtKRZMIaU)
-
-#### Riak
-
-[Riak](http://en.wikipedia.org/wiki/Riak) is a NoSQL database implementing the principles from Amazon's Dynamo paper:
-
- * [Exploring Riak with F#](http://jyliao.blogspot.co.uk/2013/04/exploring-riak-with-f.html) Explores the use of Riak from F# (Part I)
-
- * [Exploring Riak with F# and CorrugatedIron](http://jyliao.blogspot.co.uk/2013/04/exploring-riak-with-f-and-corrugatediron.html) Explores the use of Riak from F# (Part II)
-
- * [Using Riak MapReduce with F#](http://jyliao.blogspot.com/2013/06/riak-mapreduce-with-f.html) Explores the use Riak from F# (Part III)
-
- * [Riak CAP Tuning and F#](http://jyliao.blogspot.co.uk/2013/06/riak-cap-tuning-and-f.html)
-
-#### Cassandra
-
-[Cassandra](http://cassandra.apache.org/) is a distributed database management system designed 
-to handle large amounts of data across many commodity servers, providing high availability with 
-no single point of failure. 
-
- * [cassandra-sharp](https://github.com/pchalamet/cassandra-sharp/) - A high performance .NET driver for Apache Cassandra
-
-#### RavenDB
-
-[RavenDB](http://ravendb.net/) is a scalable document-oriented database.
-
- * [F# Client API](http://ravendb.net/docs/client-api/fsharp) - The F# client API is a thin wrapper around the standard RavenDB client API, that provides a small set of combinators and a computation builder that hides the complexity of dealing with Linq expressions from F#. This documentation assumes some familiarity with the basics of RavenDB. 
-
-#### MongoDB
-
-[MongoDB](http://www.mongodb.org/) is a cross-platform document-oriented NoSQL database system.
-
- * [Mongo DB](http://www.mongodb.org/display/DOCS/CSharp+Language+Center) - MongoDB bindings for .NET
-
- * [Enhancing the F# developer experience with MongoDB](http://blog.mongodb.org/post/59584347005/enhancing-the-f-developer-experience-with-mongodb) - Extra options for the F# developer using MongoDB
-
-#### Neo4j
-
-[Neo4j](http://www.neo4j.org/) is an embedded, disk-based, fully transactional persistence engine that 
-stores data structured in graphs rather than in tables.
-
- * [Neo4jClient](http://hg.readify.net/neo4jclient/wiki/Home) - Neo4j bindings for .NET
-
- * [Using Neo4j Graph DB With F#](http://sergeytihon.wordpress.com/2013/03/27/using-neo4j-graph-db-with-f/) - Introduction to using Neo4j with F#
-
- * [Using Neo4j with F# – Cypher 2.0](http://geekswithblogs.net/cskardon/archive/2013/11/27/using-neo4j-with-f-ndash-cypher-2.0.aspx)
+F# is available in the [official Docker images for the .NET SDK](https://hub.docker.com/_/microsoft-dotnet-sdk).
 
