@@ -45,6 +45,12 @@ Some resources are listed below:
 
 * [Rezoom.SQL](https://github.com/rspeele/Rezoom.SQL) - A library that statically typechecks a common SQL dialect and translates it to various RDBMS backends.
 
+* [Npgsql.FSharp](https://github.com/Zaid-Ajaj/Npgsql.FSharp) - A thin F#-friendly layer for the Npgsql data provider for PostgreSQL. For an optimal developer experience, this library is made to work with [Npgsql.FSharp.Analyzer](https://github.com/Zaid-Ajaj/Npgsql.FSharp.Analyzer) which is a F# analyzer that will verify the query syntax and perform type-checking against the parameters and the types of the columns from the result set. 
+
+* [Donald](https://github.com/pimbrouwers/Donald) - Donald is a well-tested library, with pleasant ergonomics that aims to make working with ADO.NET safer and a lot more succinct. It is an entirely generic abstraction, and will work with all ADO.NET implementations.
+
+* [SqlHydra](https://github.com/JordanMarr/SqlHydra) - SqlHydra is a suite of NuGet packages for working with databases in F#. It includes a set of dotnet tools for generating types for various database providers, and a querying library that works with SQL Server, SQLite, PostgreSql, MySql, Oracle and Firebird. 
+
 <br />
 
 ### Web Data Stores
