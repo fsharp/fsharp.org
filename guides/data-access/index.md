@@ -29,7 +29,6 @@ If the data access libraries you need are not listed here, you can search for th
 
 * Direct access to CSV and other log file formats is simple. For example, see [Log File Analysis with F#](http://jyliao.blogspot.co.uk/2011/03/log-analysis-with-f.html)
 
-
 <br />
 
 ### SQL Data Access
@@ -41,9 +40,9 @@ Some resources are listed below:
 
 * [FSharp.Data.SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL database type provider, supporting LINQ queries, schema exploration, individuals. Requires SQL Server, SQLite, PostgreSQL, Oracle, MySQL or Microsoft Access.
 
-* [ADO.NET](http://msdn.microsoft.com/library/aa286484.aspx) - A set of .NET classes exposing data access services to the .NET programmer. Works with a very broad range of databases.
+* [ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/) - A set of .NET classes exposing data access services to the .NET programmer. Works with a very broad range of databases.
 
-* [Rezoom.SQL](https://github.com/rspeele/Rezoom.SQL) - A library that statically typechecks a common SQL dialect and translates it to various RDBMS backends.
+* [Rezoom.SQL](https://github.com/rspeele/Rezoom.SQL) - Statically typed SQL for F#. Rezoom.SQL is an F# ORM for SQL databases. It integrates with the F# compiler via a generative type provider to statically typecheck its own dialect of SQL. It knows how to translate this SQL dialect to various backends. Currently it supports SQLite, SQL Server, and PostgreSQL. The type provider makes it fast and easy to write SQL statements, run them, and consume their results from your F# code with full type safety. You don't need to install any editor extensions or custom tooling, just add a NuGet package and you're off and running 
 
 * [Npgsql.FSharp](https://github.com/Zaid-Ajaj/Npgsql.FSharp) - A thin F#-friendly layer for the Npgsql data provider for PostgreSQL. For an optimal developer experience, this library is made to work with [Npgsql.FSharp.Analyzer](https://github.com/Zaid-Ajaj/Npgsql.FSharp.Analyzer) which is a F# analyzer that will verify the query syntax and perform type-checking against the parameters and the types of the columns from the result set. 
 
@@ -52,17 +51,6 @@ Some resources are listed below:
 * [SqlHydra](https://github.com/JordanMarr/SqlHydra) - SqlHydra is a suite of NuGet packages for working with databases in F#. It includes a set of dotnet tools for generating types for various database providers, and a querying library that works with SQL Server, SQLite, PostgreSql, MySql, Oracle and Firebird. 
 
 <br />
-
-### Web Data Stores
-
-F# allows for the direct integration of scalable data stores into F# programming. For example, a type provider for the World bank data sets is available in the [FSharp.Data](http://fsprojects.github.io/FSharp.Data/) library. Other
-web data stores can be accessed through F# support for JSON, XML and CSV data formats.
-
-<br />
-
-### Data Frame and Time Series Programming
-
-* See the [Data Science](../data-science) guide for more information on data frame and time series programming with F#.
 
 
 
