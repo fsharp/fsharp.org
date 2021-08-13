@@ -45,6 +45,9 @@ Some resources are listed below:
 
 * [Rezoom.SQL](https://github.com/rspeele/Rezoom.SQL) - A library that statically typechecks a common SQL dialect and translates it to various RDBMS backends.
 
+* [Dapper.FSharp](https://github.com/Dzoukr/Dapper.FSharp) - Lightweight F# extension for StackOverflow Dapper with support for MSSQL, MySQL, and PostgreSQL.
+
+
 <br />
 
 ### Web Data Stores
