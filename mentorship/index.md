@@ -29,13 +29,13 @@ You must be a member of the F# Software Foundation (FSSF) to apply. Membership i
 
 ## Participation/Registration
 
-Applications for the 2021 Winter mentorship round (#10) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/K93PtAhWm9FyRdEBA).
+Applications for the 2021 Fall mentorship round (#11) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/K93PtAhWm9FyRdEBA).
 
 ## Schedule
 
-* 2021-02-01 - 2021-02-26: Applications accepted for round 10
-* 2021-02-26 - 2021-02-28: Volunteers will review applications and pair mentors/mentees
-* 2021-03-01 - 2021-04-26: Mentors mentees meet once a week during 8 weeks for a mentorship session
+* 2021-08-20 - 2021-09-25: Applications accepted for round 11
+* 2021-09-25 - 2021-09-30: Volunteers will review applications and pair mentors/mentees
+* 2021-10-01 - 2021-12-01: Mentors mentees meet once a week during 8 weeks for a mentorship session
 
 ## Imposter Syndrome Disclaimer (for prospective mentors)
 
