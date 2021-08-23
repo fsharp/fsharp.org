@@ -29,7 +29,7 @@ You must be a member of the F# Software Foundation (FSSF) to apply. Membership i
 
 ## Participation/Registration
 
-Applications for the 2021 Fall mentorship round (#11) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/K93PtAhWm9FyRdEBA).
+Applications for the 2021 Fall mentorship round (#11) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/WAPwui3GxhRcQerw9).
 
 ## Schedule
 
