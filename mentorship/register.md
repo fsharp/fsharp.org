@@ -4,7 +4,7 @@ title: Registering for the F# Mentorship program | The F# Software Foundation
 headline: Registering for the F# Mentorship program
 ---
 
-Applications for the 2021 Fall mentorship round (#11) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://docs.google.com/forms/d/e/1FAIpQLSf7s1c9hnbwcDQQuIE1G6KoniiCoFL_92aanWFY7zsy0YDwqg/viewform).
+Applications for the 2021 Fall mentorship round (#11) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/WAPwui3GxhRcQerw9).
 
 ## Timeline for Round 11
 
