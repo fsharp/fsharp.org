@@ -50,6 +50,10 @@ Some resources are listed below:
 
 * [SqlHydra](https://github.com/JordanMarr/SqlHydra) - SqlHydra is a suite of NuGet packages for working with databases in F#. It includes a set of dotnet tools for generating types for various database providers, and a querying library that works with SQL Server, SQLite, PostgreSql, MySql, Oracle and Firebird. 
 
+* [SqlFun](https://github.com/jacentino/SqlFun) - SqlFun is a tool for writing data access code in F# functional way.
+It's fast, type safe and gives you all powers of SQL, no custom query language constraints you.
+It's also lightweight, you need to know a general idea and few functions (and, of course SQL).
+
 <br />
 
 
