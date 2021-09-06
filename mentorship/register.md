@@ -4,13 +4,13 @@ title: Registering for the F# Mentorship program | The F# Software Foundation
 headline: Registering for the F# Mentorship program
 ---
 
-Applications for the 2021 Winter mentorship round (#10) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/dcp8drTgA6oDwxp56).
+Applications for the 2021 Fall mentorship round (#11) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/WAPwui3GxhRcQerw9).
 
-## Timeline for Round 10
+## Timeline for Round 11
 
-* 2021-02-01 - 2021-02-26: Applications accepted for round 10
-* 2021-02-26 - 2021-02-28: Volunteers will review applications and pair mentors/mentees
-* 2021-03-01 - 2021-04-26: Mentors mentees meet once a week during 8 weeks for a mentorship session
+* 2021-08-20 - 2021-09-25: Applications accepted for round 11
+* 2021-09-25 - 2021-09-30: Volunteers will review applications and pair mentors/mentees
+* 2021-10-01 - 2021-12-01: Mentors mentees meet once a week during 8 weeks for a mentorship session
 
 ## Membership in the F# Software Foundation Required
 
