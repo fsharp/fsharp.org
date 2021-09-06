@@ -44,6 +44,8 @@ Some resources are listed below:
 
 * [Rezoom.SQL](https://github.com/rspeele/Rezoom.SQL) - Statically typed SQL for F#. Rezoom.SQL is an F# ORM for SQL databases. It integrates with the F# compiler via a generative type provider to statically typecheck its own dialect of SQL. It knows how to translate this SQL dialect to various backends. Currently it supports SQLite, SQL Server, and PostgreSQL. The type provider makes it fast and easy to write SQL statements, run them, and consume their results from your F# code with full type safety. You don't need to install any editor extensions or custom tooling, just add a NuGet package and you're off and running 
 
+* [Dapper.FSharp](https://github.com/Dzoukr/Dapper.FSharp) - Lightweight F# extension for StackOverflow Dapper with support for MSSQL, MySQL, and PostgreSQL.
+
 * [Npgsql.FSharp](https://github.com/Zaid-Ajaj/Npgsql.FSharp) - A thin F#-friendly layer for the Npgsql data provider for PostgreSQL. For an optimal developer experience, this library is made to work with [Npgsql.FSharp.Analyzer](https://github.com/Zaid-Ajaj/Npgsql.FSharp.Analyzer) which is a F# analyzer that will verify the query syntax and perform type-checking against the parameters and the types of the columns from the result set. 
 
 * [Donald](https://github.com/pimbrouwers/Donald) - Donald is a well-tested library, with pleasant ergonomics that aims to make working with ADO.NET safer and a lot more succinct. It is an entirely generic abstraction, and will work with all ADO.NET implementations.
