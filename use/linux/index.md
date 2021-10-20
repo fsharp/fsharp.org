@@ -6,7 +6,15 @@ headline: Use F# on Linux
 
 ### Option 1: Install the CLI tools and use your own editor
 
-![logo](../../images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). .NET Core is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice. Once that is installed, you can begin using F#!
+![logo](../../images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). .NET Core is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice.
+
+Use this one-liner to acquire an installation script if that's your preference:
+
+```
+curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel Current
+```
+
+Once that is installed, you can begin using F#!
 
 Create a file called `hello.fsx` that looks like this:
 
