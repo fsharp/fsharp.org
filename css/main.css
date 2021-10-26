@@ -240,12 +240,16 @@ body {
         -webkit-font-smoothing: antialiased;
         font-family: Inter,Arial,sans-serif;
     }
-    
+
     .jumbotron
 
 #jumbotron {
     width: 90%;
     margin: 0 auto;
+    background-image: url(/img/logo/fsharp256.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #social-btns {
@@ -554,6 +558,27 @@ div#contentMain.testimonials ul li {
     padding: 0px;
 }
 
+.fssnip {
+    text-align:left;
+}
+
+.get-started-separator {
+    display: flex;
+    align-items: center;
+}
+
+.get-started-separator code {
+    font-size: xxx-large;
+    flex-grow: 1;
+    text-align: center;
+    letter-spacing: -7px;
+    color: dodgerblue;
+}
+
+.get-started-header {
+    text-align:center;
+}
+
 /*
 a[href^="http://"]:after, a[href^="https://"]:after {
   content: "\f08e";
@@ -566,11 +591,11 @@ a[href^="http://"]:after, a[href^="https://"]:after {
   padding-left: 7px;
 }
 
-a[href^="https://foundation.fsharp.org"]:after, 
-a[href^="https://fsharp.org"]:after, 
-a[href^="https://github.com/fsharp"]:after, 
-a[href^="https://twitter.com/fsharporg"]:after, 
-a[href^="http://www.facebook.com/fsharp.org"]:after, 
+a[href^="https://foundation.fsharp.org"]:after,
+a[href^="https://fsharp.org"]:after,
+a[href^="https://github.com/fsharp"]:after,
+a[href^="https://twitter.com/fsharporg"]:after,
+a[href^="http://www.facebook.com/fsharp.org"]:after,
 a.no_icon:after {
   content:"" !important;
   padding-left: 0;

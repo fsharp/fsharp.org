@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,21 +24,24 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
     <meta name="msapplication-TileColor" content="#2d3947">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png"> 
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
-    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"
+        media="screen" />
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet' type='text/css' />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet" media="screen" />
     <link href="css/vs.css" rel="stylesheet" media="screen" />
     <link rel="stylesheet" href="css/main.css" media="screen" />
+    <link rel="stylesheet" href="css/fsdocs-default.css" media="screen" />
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -71,7 +75,8 @@
                                 <a href="https://www.youtube.com/c/fsharporg">Videos (FSSF channel)</a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/results?search_query=learn+f%23">Videos (unaffiliated)</a>
+                                <a href="https://www.youtube.com/results?search_query=learn+f%23">Videos
+                                    (unaffiliated)</a>
                             </li>
                         </ul>
                     </li>
@@ -160,10 +165,12 @@
                                 <a href="https://twitter.com/search?q=%23fsharp">F# on Twitter (unaffiliated)</a>
                             </li>
                             <li>
-                                <a href="http://stackoverflow.com/questions/tagged/f%23">F# on StackOverflow (unaffiliated)</a>
+                                <a href="http://stackoverflow.com/questions/tagged/f%23">F# on StackOverflow
+                                    (unaffiliated)</a>
                             </li>
                             <li>
-                                <a href="http://codereview.stackexchange.com/questions/tagged/f%23">F# Code Review (unaffiliated)</a>
+                                <a href="http://codereview.stackexchange.com/questions/tagged/f%23">F# Code Review
+                                    (unaffiliated)</a>
                             </li>
                         </ul>
                     </li>
@@ -205,35 +212,61 @@
     <section class="jumbotron" id="main">
         <div class="container">
             <div class="row" id="jumbotron">
-                <div class="col-md-5 col-md-push-7 text-center">
-                    <div id="logo"><a href="testimonials"><img src="img/logo/fsharp256.png" class="img-responsive img-rounded" alt="F# Logo" /> </a></div>
-                    <div class="btn-group">
-                        <button type="button" class="btn dropdown-toggle btn-menu" data-toggle="dropdown" id="download-btn">
-                            <span class="glyphicon glyphicon-download-alt hidden-xs"></span>
-                            Use F# <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="use/mac/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'mac'])">Mac</a></li>
-                            <li><a href="use/linux/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'linux'])">Linux</a></li>
-                            <li><a href="use/windows/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'windows'])">Windows</a></li>
-                            <li><a href="use/browser/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'browser'])">Browser</a></li>
-                            <li><a href="use/desktop-apps/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'desktop'])">Make Desktop Apps</a></li>
-                            <li><a href="use/mobile-apps/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'mobile'])">Make Mobile Apps</a></li>
-                            <li><a href="use/notebooks/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'jupyter'])">Make Jupyter Notebooks</a></li>
-                            <li><a href="use/web-apps/" onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'browser'])">Make Web Apps</a></li>
-                        </ul>
-                    </div>
-                    <div style="height: 10px;"></div>
-                </div>
-                <div class="col-lg-7 col-md-pull-5">
+                <div class="text-center">
                     <p class="lead">F# empowers everyone to write succinct, robust and performant code</p>
                 </div>
+                <div class="text-center">
+                    <div class="col-md-5">
+                        <button type="button" class="btn dropdown-toggle btn-menu" data-toggle="dropdown" id="download-btn">
+                            <span class="glyphicon glyphicon-download-alt hidden-xs"></span> Get F# <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="use/mac/"
+                                    onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'mac'])">Mac</a>
+                            </li>
+                            <li><a href="use/linux/"
+                                    onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'linux'])">Linux</a>
+                            </li>
+                            <li><a href="use/windows/"
+                                    onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'windows'])">Windows</a>
+                            </li>
+                            <li><a href="use/browser/"
+                                    onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'browser'])">Browser</a>
+                            </li>
+                            <li><a href="use/desktop-apps/"
+                                    onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'desktop'])">Make
+                                    Desktop Apps</a></li>
+                            <li><a href="use/mobile-apps/"
+                                    onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'mobile'])">Make
+                                    Mobile Apps</a></li>
+                            <li><a href="use/notebooks/"
+                                    onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'jupyter'])">Make
+                                    Jupyter Notebooks</a></li>
+                            <li><a href="use/web-apps/"
+                                    onclick="_gaq.push(['_trackEvent', 'home-use-fsharp', 'clicked', 'browser'])">Make
+                                    Web Apps</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7" id="fsdocs-content">
+                        <pre class="fssnip highlighted"><code lang="fsharp"><span class="k">let</span> <span class="pn">[&lt;</span><span class="rt">Literal</span><span class="pn">&gt;]</span> <span class="prop">DrWho</span> <span class="o">=</span>
+    <span class="s">"https://en.wikipedia.org/wiki/List_of_Doctor_Who_episodes_(1963%E2%80%931989)"</span>
 
-            </div>
+<span class="k">let</span> <span class="id">doctorWho</span> <span class="o">=</span> <span class="k">new</span> <span onmouseout="hideTip(event, 'fs4', 59)" onmouseover="showTip(event, 'fs4', 59)" class="rt">HtmlProvider</span><span class="pn">&lt;</span><span class="prop">DrWho</span><span class="pn">&gt;</span><span class="pn">(</span><span class="pn">)</span>
 
-            <div class="text-center visible-xs" style="margin-top: 20px;">
-                <a href="https://twitter.com/fsharporg" target="_blank" class="btn btn-default btn-circle"><img src="img/Twitter.png" alt="F# Twitter" /></a>
-                <a href="http://www.facebook.com/fsharp.org" target="_blank" class="btn btn-default btn-circle"><img src="img/Facebook.png" alt="F# Facebook" /></a>
+<span class="c">// Get the average number of viewers for each doctor's series run</span>
+<span class="k">let</span> <span class="id">viewersByDoctor</span> <span class="o">=</span>
+    <span class="id">doctorWho</span><span class="pn">.</span><span class="prop">Tables</span><span class="pn">.</span><span class="prop">``Season 1 (1963-1964) Edit``</span><span class="pn">.</span><span class="id">Rows</span>
+    <span class="o">|&gt;</span> <span class="m">Seq</span><span class="pn">.</span><span class="id">groupBy</span> <span class="pn">(</span><span class="k">fun</span> <span class="fn">season</span> <span class="k">-&gt;</span> <span class="fn">season</span><span class="pn">.</span><span class="id">``Directed by``</span><span class="pn">)</span>
+    <span class="o">|&gt;</span> <span class="m">Seq</span><span class="pn">.</span><span class="id">map</span> <span class="pn">(</span><span class="k">fun</span> <span class="pn">(</span><span class="fn">doctor</span><span class="pn">,</span> <span class="fn">seasons</span><span class="pn">)</span> <span class="k">-&gt;</span>
+        <span class="k">let</span> <span class="fn">averaged</span> <span class="o">=</span>
+            <span class="fn">seasons</span>
+            <span class="o">|&gt;</span> <span class="m">Seq</span><span class="pn">.</span><span class="id">averageBy</span> <span class="pn">(</span><span class="k">fun</span> <span class="fn">season</span> <span class="k">-&gt;</span>
+                <span class="fn">season</span><span class="pn">.</span><span class="id">``UK viewers (millions)``</span><span class="pn">)</span>
+            <span class="fn">doctor</span><span class="pn">,</span> <span class="fn">averaged</span><span class="pn">)</span>
+    <span class="o">|&gt;</span> <span class="m">Seq</span><span class="pn">.</span><span class="id">toArray</span>
+                          </code></pre>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -242,13 +275,22 @@
         <div class="container featured">
             <div class="row">
                 <div class="col-md-4">
-                    <p class="featured">F# gives you <b>simplicity</b> and <b>succinctness</b> like Python with <b>correctness</b>, <b>robustness</b> and <b>performance</b> beyond C# or Java.</p>
+                    <p class="featured">The <b>simplicity</b> and <b>succinctness</b> of Python. <b>Correctness</b> and
+                        <b>performance</b> beyond C# or Java.
+                    </p>
+                    <p class="featured">F# is the best of both worlds.</p>
                 </div>
                 <div class="col-md-4">
-                    <p class="featured">F# is <b>open source</b>, <b>cross-platform</b> and <b>free</b> to use with <b>professional</b> tooling.</p>
+                    <p class="featured"><b>Open source</b>, <b>cross-platform</b>, <b>free to use</b>, and with
+                        <b>professional tooling</b>.
+                    </p>
+                    <p class="featured">F# combines independent with an industry standard experience.</p>
                 </div>
                 <div class="col-md-4">
-                    <p class="featured">F# is a <b>JavaScript</b> and <b>.NET</b> language for <b>web</b>, <b>cloud</b>, <b>data-science</b>, <b>apps</b> and more.</p>
+                    <p class="featured">From <b>Web</b> to <b>Cloud</b>, <b>Data Science</b> to <b>Desktop</b>, and with
+                        <b>Javascript</b> and <b>.NET</b> targeting.
+                    </p>
+                    <p class="featured">F# can be used wherever you need it.</p>
                 </div>
             </div>
         </div>
@@ -257,32 +299,54 @@
     <section class="home-section light-gray">
         <div class="container featured">
             <div class="">
-                <h2 class="text-center section-header">Getting Started</h2>
+                <h2 class="text-center section-header">Start Here</h2>
             </div>
-            <div class="row wow animated fadeIn">
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-5">
-                    <h3><span class="glyphicon glyphicon-pencil"></span> Learn</h3>
+            <div class="row wow animated fadeIn"
+                style="visibility: visible;display: flex;animation-name: fadeIn;">
+
+                <div class="col-md-3">
+                    <h3 class="get-started-header"><span class="glyphicon glyphicon-download"></span> Install the tooling</h3>
                     <ul class="">
-                        <li><a href="https://dotnet.microsoft.com/languages/fsharp"  target="_blank">Why F#?</a></li>
-                        <li><a href="https://dotnet.microsoft.com/languages/fsharp/tools"  target="_blank">Tools for F#</a></li>
-                        <li><a href="use/web-apps/" target="_blank">F# for JavaScript</a></li>
+                        <li><a href="https://dotnet.microsoft.com/download/visual-studio-sdks" target="_blank">.NET
+                                SDK</a></li>
+                        <li><a href="https://code.visualstudio.com/Download" target="_blank">Editor</a></li>
+                        <li><a href="https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp"
+                                target="_blank">F# Extension for VSCode</a></li>
                     </ul>
                 </div>
-                <div class="col-md-5">
-                    <h3><span class="glyphicon glyphicon-user"></span> Community</h3>
+                <div class="col-md-1 get-started-separator">
+                    <div><code class="light-gray">|&gt;</code></div>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="get-started-header"><span class="glyphicon glyphicon-pencil"></span> Learn</h3>
                     <ul>
-                        <li>Join <a href="https://foundation.fsharp.org/join" onclick="_gaq.push(['_trackEvent', 'home-community', 'clicked', 'join'])">the F# Software Foundation</a></li>
-                        <li>Participate on <a href="https://twitter.com/search?q=%23fsharp">Twitter</a></li>
-                        <li>Contribute to <a href="community/projects/" onclick="_gaq.push(['_trackEvent', 'home-community', 'clicked', 'contribute'])">F# projects</a></li>
+                        <li><a href="https://docs.microsoft.com/en-us/dotnet/fsharp/tour?WT.mc_id=dotnet-35129-website"
+                                target="_blank">Language Tour</a></li>
+                        <li><a href="https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/"
+                                target="_blank">Language Reference</a></li>
+                        <li><a href="learn" target="_blank">Explore</a></li>
                     </ul>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 get-started-separator">
+                    <div><code class="light-gray">|&gt;</code></div>
                 </div>
+                <div class="col-md-3">
+                    <h3 class="get-started-header"><span class="glyphicon glyphicon-user"></span> Join Others</h3>
+                    <ul>
+                        <li>Join <a href="https://foundation.fsharp.org/join"
+                                onclick="_gaq.push(['_trackEvent', 'home-community', 'clicked', 'join'])">the F#
+                                Software Foundation</a></li>
+                        <li>Participate on <a href="https://twitter.com/search?q=%23fsharp">Twitter</a></li>
+                        <li>Contribute to <a href="community/projects/"
+                                onclick="_gaq.push(['_trackEvent', 'home-community', 'clicked', 'contribute'])">F#
+                                projects</a></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </section>
+
 
     <section class="home-section">
         <div class="container featured">
@@ -292,7 +356,9 @@
                     <div class="col-md-6" id="testimonials-col-1">
                         <blockquote>
                             <p>
-                                <a class="testimonial" href="testimonials/#goswin-1">We see great potential for F# to be used as a scripting language in CAD, it fits very well for computational design challenges in the construction industry.</a>
+                                <a class="testimonial" href="testimonials/#goswin-1">We see great potential for F# to be
+                                    used as a scripting language in CAD, it fits very well for computational design
+                                    challenges in the construction industry.</a>
                             </p>
                             <footer>
                                 <cite><a href="testimonials/#goswin-1" target="_blank">Goswin Rothenthal</a></cite>
@@ -300,71 +366,94 @@
                         </blockquote>
                         <blockquote>
                             <p>
-                                <a class="testimonial" href="testimonials/#simon-cousins-2">I have now delivered three business critical projects written in F#. I am still waiting for the first bug to come in.</a>
-                            </p><footer>
+                                <a class="testimonial" href="testimonials/#simon-cousins-2">I have now delivered three
+                                    business critical projects written in F#. I am still waiting for the first bug to
+                                    come in.</a>
+                            </p>
+                            <footer>
                                 <cite><a href="testimonials/#simon-cousins-2" target="_blank">Simon Cousins</a></cite>
                             </footer>
                         </blockquote>
                         <blockquote>
                             <p>
-                                <a class="testimonial" href="testimonials/#byron-cook-1">F# is the night vision goggles I need when I go into the dark and attempt to solve previously unsolved problems.</a>
-                            </p><footer>
-                                <cite><a href="testimonials/#byron-cook-1" target="_blank">Professor Byron Cook</a></cite>
+                                <a class="testimonial" href="testimonials/#byron-cook-1">F# is the night vision goggles
+                                    I need when I go into the dark and attempt to solve previously unsolved
+                                    problems.</a>
+                            </p>
+                            <footer>
+                                <cite><a href="testimonials/#byron-cook-1" target="_blank">Professor Byron
+                                        Cook</a></cite>
                             </footer>
                         </blockquote>
                     </div>
                     <div class="col-md-6" id="testimonials-col-2">
                         <blockquote>
                             <p>
-                                <a class="testimonial" href="testimonials/#horspool-1">When F# is combined with Visual Studio… productivity goes through the roof!</a>
-                            </p><footer>
+                                <a class="testimonial" href="testimonials/#horspool-1">When F# is combined with Visual
+                                    Studio… productivity goes through the roof!</a>
+                            </p>
+                            <footer>
                                 <cite><a href="testimonials/#horspool-1" target="_blank">Prof Nigel Horspool</a></cite>
                             </footer>
                         </blockquote>
                         <blockquote>
                             <p>
-                                <a class="testimonial" href="testimonials/#michael-hansen">The simple, well-designed and powerful core of the language was perfect for introducing the fundamental concepts of functional programming.</a>
-                            </p><footer>
-                                <cite><a href="testimonials/#michael-hansen" target="_blank">Michael R. Hansen</a></cite>
+                                <a class="testimonial" href="testimonials/#michael-hansen">The simple, well-designed and
+                                    powerful core of the language was perfect for introducing the fundamental concepts
+                                    of functional programming.</a>
+                            </p>
+                            <footer>
+                                <cite><a href="testimonials/#michael-hansen" target="_blank">Michael R.
+                                        Hansen</a></cite>
                             </footer>
                         </blockquote>
                         <blockquote>
                             <p>
-                                <a class="testimonial" href="testimonials/#15below-1">We would recommend F# as an additional tool in the kit of any company building software on the .NET stack.</a>
-                            </p><footer>
+                                <a class="testimonial" href="testimonials/#15below-1">We would recommend F# as an
+                                    additional tool in the kit of any company building software on the .NET stack.</a>
+                            </p>
+                            <footer>
                                 <cite><a href="testimonials/#15below-1" target="_blank">Michael Newton</a></cite>
                             </footer>
                         </blockquote>
                     </div>
                 </div>
-                <a href="testimonials/" class="pull-right" onclick="_gaq.push(['_trackEvent', 'home-testimonials', 'clicked'])">More testimonials &#65125;&#65125;</a>
+                <a href="testimonials/" class="pull-right"
+                    onclick="_gaq.push(['_trackEvent', 'home-testimonials', 'clicked'])">More testimonials
+                    &#65125;&#65125;</a>
             </div>
         </div>
     </section>
 
     <section class="home-section light-gray">
         <div class="container featured">
-            <h2 class="text-center section-header">
-                News<a href="http://fpish.net/rss/blogs/tag/1/f~23" id="news-rss">
-                    <img src="img/rss.png" alt="RSS Feed">
-                </a>
-            </h2>
-            <ul class="list-group wow animated fadeIn animated" id="news-list"></ul>
+            <h2 class="text-center section-header">The Foundation</h2>
+            <p>
+                F# is supported by the F# Software Foundation - an wholly independent non-profit organization which
+                oversees the language design and specification as well as providing community spaces and educational
+                programs for members.
+            </p>
+            <div class="text-center">
+                Learn more and join the community <a href="https://foundation.fsharp.org">here.</a>
+            </div>
+
         </div>
     </section>
 
     <section class="home-section" style="border-bottom: none;">
         <div id="supporter-container" style="display:none;" class="container featured">
-            <h2 class="text-center section-header"><a href="https://foundation.fsharp.org/sponsor_membership" target="_blank">Sponsor Members</a></h2>
+            <h2 class="text-center section-header"><a href="https://foundation.fsharp.org/sponsor_membership"
+                    target="_blank">Sponsor Members</a></h2>
             <div id="sponsors-carousel" class="carousel slide wow animated" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="center-block img-responsive carousel-img" src="img/sup/fsharpworks.png" alt="fsharpWorks" />
+                                <img class="center-block img-responsive carousel-img" src="img/sup/fsharpworks.png"
+                                    alt="fsharpWorks" />
                             </div>
                             <div class="col-md-4">
-                                <img class="center-block img-responsive carousel-img" src="img/sup/prolucid.png" />                                
+                                <img class="center-block img-responsive carousel-img" src="img/sup/prolucid.png" />
                             </div>
                         </div>
                     </div>
@@ -374,7 +463,7 @@
                                 <img class="center-block img-responsive carousel-img" src="img/sup/genetec.png" />
                             </div>
                             <div class="col-md-4">
-                                <img class="center-block img-responsive carousel-img" src="img/sup/drdispatch.png" />   
+                                <img class="center-block img-responsive carousel-img" src="img/sup/drdispatch.png" />
                             </div>
                         </div>
                     </div>
@@ -391,22 +480,6 @@
         </div>
     </section>
 
-<!--   <section class="home-section" style="border: none;">
-        <div class="container featured">
-            <div class="row wow animated fadeIn">
-                <div class="col-md-2 menu">
-                    <h4>Follow</h4>
-                    <div class="addthis_toolbox addthis_32x32_style addthis_vertical_style">
-                        <a class="addthis_button_facebook_follow" addthis:userid="fsharp.org"></a>
-                        <a class="addthis_button_twitter_follow" addthis:userid="fsharporg"></a>
-                    </div>
-                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54207a8d10b4461b"></script>
-                </div>
-            </div>
-        </div>
-    </section>
-
--->
     <div class="push"></div>
     <div class="push"></div>
 
@@ -415,8 +488,9 @@
         <div class="container text-center">
             <a href="#main" id="footer-arrow"><img src="img/arrow.png" alt="Back to the top" /></a>
             <p>Copyright © 2012-2021 F# Software Foundation and individual contributors.
-            <br/>
-            <p>Maintained by F# Software Foundation and the F# community on <a href="https://github.com/fsharp/fsfoundation" target="_blank">GitHub</a>.</p>
+                <br />
+            <p>Maintained by F# Software Foundation and the F# community on <a
+                    href="https://github.com/fsharp/fsfoundation" target="_blank">GitHub</a>.</p>
         </div>
     </footer>
 
@@ -459,4 +533,5 @@
         })();
     </script>
 </body>
+
 </html>
