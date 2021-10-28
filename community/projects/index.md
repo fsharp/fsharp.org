@@ -187,6 +187,8 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/FsAlgLogoSmall.png)&nbsp;[FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library supporting generic types.
 
+* [Flips](https://flipslibrary.com/) - An F# library for modeling and solving Linear Programming (LP) and Mixed-Integer Programming (MIP) problems.
+
 <br />
 
 <h2 class="anchor" id="mobile" class="anchor">Community Projects: Mobile Programming</h2>
