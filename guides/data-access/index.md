@@ -11,16 +11,6 @@ text formats like JSON, and XML.
 
 If the data access libraries you need are not listed here, you can search for them on [nuget](http://nuget.org).
 
-<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-access/index.md">edit this page</a>. These resources are for educational purposes. </p>
-</div>              
-
-* auto-gen TOC:
-{:toc}
-
-
-<br />
-
 ### CSV, HTML, JSON and XML data
 
 * [FSharp.Data](http://fsprojects.github.io/FSharp.Data/) - The F# Data library (FSharp.Data.dll) implements functionality to access data in your F# applications and scripts.  It implements F# type providers for working with structured file formats (CSV, HTML, JSON and XML) and for accessing the WorldBank and Freebase services. It also includes helpers for parsing CSV, HTML and JSON files and for sending HTTP requests.
@@ -58,5 +48,9 @@ It's also lightweight, you need to know a general idea and few functions (and, o
 
 <br />
 
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-access/index.md">edit this page</a>. These resources are for educational purposes. </p>
+</div>              
 
+<br />
 
