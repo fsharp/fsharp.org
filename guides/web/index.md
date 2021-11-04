@@ -89,7 +89,6 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 
 
 #### ASP.NET Core
-
 {: #aspnetcore  .anchor }
 
 [ASP.NET Core](https://www.asp.net/core) is a modern, cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications. It runs on .NET Core and supports F# out of the box. If you install the [.NET Core SDK](https://www.microsoft.com/net/download/core), there are F# templates available via the `dotnet new` command.
