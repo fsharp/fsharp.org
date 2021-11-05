@@ -53,5 +53,9 @@ algorithm, expressions, patterns and other.
 
   * The [RFCs for F# 4.7](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.7)
 
-  * The [preview RFCs for F# 5.0+](https://github.com/fsharp/fslang-design/tree/master/preview)
+  * The [RFCs for F# 5.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-5.0)
+
+  * The [RFCs for F# 6.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-6.0)
+
+  * The [preview RFCs beyond F# 6.0](https://github.com/fsharp/fslang-design/tree/master/preview)
 
