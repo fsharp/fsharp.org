@@ -1546,3 +1546,14 @@ The expressiveness and power of F# has resulted in shorter build cycles, simpler
 Type Providers have let us add support for a lot of data formats (Government formats, Excel files, third party sources) very quickly. Pattern matching has made it possible to simplify complex business logic. F# has been a joy to work with, and we're using it more and more throughout our products now.
 
 <div class="keywords">startup, finance, taxation, type providers, functional programming</div>
+
+<a id="sashan-govender" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> Using a language that I enjoy using, that lets me write beautiful code, and do work that I find intrinsically satisfying is such an amazing privilege, that I wish that blessing on every programmer out there, that their days aren't spent in a jaded, colourless miasma of code.
+
+1. **Sashan Govender, [tiny-thoughts](https://www.tiny-thoughts.net/a-new-hope/)**
+2. [permalink](#sashan-govender)
+
+Ever noticed how excited some engineers get when talking about their favourite language? It’s because there is a neural pathway in their brains linking the emotional parts of their brain with the technology. This property of a language is overlooked and engineers are apt to justify their choice of language based on a feature or performance. But a simple thought experiment can show that the subjective experience using a language does matter. Imagine a language called WhiteSpace++ (there is a Whitespace language) which is twice the speed of any other language but all the code is written in whitespace. Nobody would use it because it would be unuseable. 
+
