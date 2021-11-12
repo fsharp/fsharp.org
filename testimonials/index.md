@@ -1508,6 +1508,7 @@ And finally, F# is a language with which I've become really efficient and I find
 1. **Mikkel Christensen, Criipto**
 2. [Criipto](https://www.criipto.com/)
 3. [Criipto Verify](https://manage.criipto.id)
+4. [permalink](#criipto)
 
 We've found F# to be a highly productive language, and at the same time it let's us create codebases with low cost of maintenance.
 
