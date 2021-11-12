@@ -1500,25 +1500,24 @@ The tooling for the language is great and also this language is really supported
 
 And finally, F# is a language with which I've become really efficient and I find that if I write a code the type inference assures me correctness. I am still waiting for the first bug to appear in my production app.
 
-<a id="grean" class="testimonial-anchor"> &nbsp; </a>
+<a id="criipto" class="testimonial-anchor"> &nbsp; </a>
 ---
 
-> At Grean, we've just launched our third commercial product built on F#
+> At Criipto, we're using F# to keep our cadence high
 
-1. **Mikkel Christensen, Grean**
-2. [Grean](https://www.grean.com/)
-3. [easyID](https://manage.grean.id)
-4. [Gauss](https://www.grean.com/gauss/)
+1. **Mikkel Christensen, Criipto**
+2. [Criipto](https://www.criipto.com/)
+3. [Criipto Verify](https://manage.criipto.id)
 
 We've found F# to be a highly productive language, and at the same time it let's us create codebases with low cost of maintenance.
 
-We switched from C# to F# around 3 years ago, after working in C# for about 7 years. And even if C# is certainly also productive, it does not get close to what F# brings to the table. While both languages allow for creating systems with very low defect-rates, we find that the effort required in F# is much, much smaller - yet instills more confidence. This is due to the fact that in many cases, we can just lean on the compiler, instead of having to resort to writing scores of unit tests.
+We switched from C# to F# around 2015, after working in C# for about 7 years. And even if C# is certainly also productive, it does not get close to what F# brings to the table. While both languages allow for creating systems with very low defect-rates, we find that the effort required in F# is much, much smaller - yet instills more confidence. This is due to the fact that in many cases, we can just lean on the compiler, instead of having to resort to writing scores of unit tests.
 
 The type system really makes all the difference when dealing with a complex domain. It is also a very strong ally when integrating 3rd-party systems into a multi-tenant public cloud offering: It enables us to encode very heterogenous external components directly in strong types.
 
 And to top it all up, working in F# is very enjoyable - the terseness and the expressiveness of the language provide a more distraction-free experience than other languages we have worked with. As an aside, we'll note that we have been quite surprised by how addictive compile-time errors can be. Even if they are annoying at the outset, once one realizes how they can be used as a very effective substitute for quite a lot of boilerplate unit tests, they really end up being a very important (and constructive) part of a daily workflow.
 
-<div class="keywords">identity and access, idaaaas, kyc, azure, nemid, bankid, lean startup</div>
+<div class="keywords">identity and access, idaaaas, kyc, e-ID, lean scale-up</div>
 
 <a id="compositional-it" class="testimonial-anchor"> &nbsp; </a>
 ---
