@@ -46,6 +46,18 @@ Some resources are listed below:
 It's fast, type safe and gives you all powers of SQL, no custom query language constraints you.
 It's also lightweight, you need to know a general idea and few functions (and, of course SQL).
 
+* [RepoDB](https://github.com/mikependon/RepoDB) - RepoDB is an open-source .NET ORM library that bridges the gaps of micro-ORMs and full-ORMs. It helps you simplify the switch-over of when to use the BASIC and ADVANCE operations during the development.
+
+* [DustyTables](https://github.com/Zaid-Ajaj/DustyTables) - Functional wrapper around plain old (dusty?) SqlClient to simplify data access when talking to MS Sql Server databases.
+
+<br />
+
+### NoSQL Data Access
+
+* [MongoDB.NET](https://github.com/mongodb/mongo-csharp-driver) - The official .NET Driver for MongoDB, despite its name you can use it from F# as well.
+
+* [Mondocks](https://github.com/AngelMunoz/Mondocks) - An alternative way to interact with MongoDB databases from F# that allows you to use mongo-idiomatic constructs 
+
 <br />
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
