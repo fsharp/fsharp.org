@@ -26,11 +26,11 @@ If the data access libraries you need are not listed here, you can search for th
 A wide range of high-quality libraries exist for SQL data access from F#. Many can be found on [NuGET](http://nuget.org).
 Some resources are listed below:
 
-* [FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - Use SQL to specify your queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code. Requries SQL Server 2012+ or SQL Azure.
-
 * [FSharp.Data.SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL database type provider, supporting LINQ queries, schema exploration, individuals. Requires SQL Server, SQLite, PostgreSQL, Oracle, MySQL or Microsoft Access.
 
-* [ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/) - A set of .NET classes exposing data access services to the .NET programmer. Works with a very broad range of databases.
+* [Facil](https://github.com/cmeeren/Facil) - Generates F# data access source code from .sql script files and stored procedures. Optimized for developer happiness. Works with SQL Server 2012+. Well-tested, performant, and fully-featured - supports e.g. table-valued parameters, temp tables, and generated DTOs matching your tables, which can be used for both inserts and queries. Highly configurable.
+
+* [FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - Use SQL to specify your queries, explore Stored Procedures, User Defined Types and Functions with IntelliSense right in your F# code. Requries SQL Server 2012+ or SQL Azure.
 
 * [Rezoom.SQL](https://github.com/rspeele/Rezoom.SQL) - Statically typed SQL for F#. Rezoom.SQL is an F# ORM for SQL databases. It integrates with the F# compiler via a generative type provider to statically typecheck its own dialect of SQL. It knows how to translate this SQL dialect to various backends. Currently it supports SQLite, SQL Server, and PostgreSQL. The type provider makes it fast and easy to write SQL statements, run them, and consume their results from your F# code with full type safety. You don't need to install any editor extensions or custom tooling, just add a NuGet package and you're off and running 
 
@@ -50,7 +50,7 @@ It's also lightweight, you need to know a general idea and few functions (and, o
 
 * [DustyTables](https://github.com/Zaid-Ajaj/DustyTables) - Functional wrapper around plain old (dusty?) SqlClient to simplify data access when talking to MS Sql Server databases.
 
-* [Facil](https://github.com/cmeeren/Facil) - Generates F# data access source code from SQL queries and stored procedures. Optimized for developer happiness.
+* [ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/) - A set of .NET classes exposing data access services to the .NET programmer. Works with a very broad range of databases.
 
 <br />
 
