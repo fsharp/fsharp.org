@@ -50,6 +50,8 @@ It's also lightweight, you need to know a general idea and few functions (and, o
 
 * [DustyTables](https://github.com/Zaid-Ajaj/DustyTables) - Functional wrapper around plain old (dusty?) SqlClient to simplify data access when talking to MS Sql Server databases.
 
+* [Facil](https://github.com/cmeeren/Facil) - Generates F# data access source code from SQL queries and stored procedures. Optimized for developer happiness.
+
 <br />
 
 ### NoSQL Data Access
