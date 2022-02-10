@@ -9,9 +9,9 @@ Many of us have been lucky to have mentors in our careers who have helped us bec
 We think that mentorship is a powerful way to help you learn and be inspired, especially in a new paradigm such as functional programming.
 So we here at the F# Software Foundation (FSSF) would like to help make to mentorship possible for those in the F# community who would benefit from it.
 
-And so, we have created the FSSF Mentorship program! 
+And so, we have created the FSSF Mentorship program
 
-The program is free-of-charge. The mentors are volunteering their time to benefit the F# community. However, in return, we ask that “pay it forward” later on, by mentoring someone else or contributing to the F# community in other ways (such as helping with F# open-source projects). 
+The program is free-of-charge. The mentors are volunteering their time to benefit the F# community. However, in return, we ask that “pay it forward” later on, by mentoring someone else or contributing to the F# community in other ways (such as helping with F# open-source projects).
 
 ## Who can Participate?
 
@@ -29,13 +29,13 @@ You must be a member of the F# Software Foundation (FSSF) to apply. Membership i
 
 ## Participation/Registration
 
-Applications for the 2021 Fall mentorship round (#11) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/WAPwui3GxhRcQerw9).
+Applications for the 2022 Spring mentorship round (#12) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://docs.google.com/forms/d/1hwpKIICiwX_OCtgdhC_SZon0WZMxMxGICtQrUKlb_lE/).
 
 ## Schedule
 
-* 2021-08-20 - 2021-09-25: Applications accepted for round 11
-* 2021-09-25 - 2021-09-30: Volunteers will review applications and pair mentors/mentees
-* 2021-10-01 - 2021-12-01: Mentors mentees meet once a week during 8 weeks for a mentorship session
+* 2022-03-07 - 2022-04-05: Applications accepted for round 12
+* 2022-04-05 - 2022-04-10: Volunteers will review applications and pair mentors/mentees
+* 2022-04-11 - 2022-06-15: Mentors mentees meet once a week during 8 weeks for a mentorship session
 
 ## Imposter Syndrome Disclaimer (for prospective mentors)
 
