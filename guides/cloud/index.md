@@ -84,7 +84,7 @@ The [Orleans](https://dotnet.github.io/orleans/) framework provides a straightfo
 
 #### Kafka
 
-* [Kafunk](https://jet.github.io/kafunk/) - An F# Kafka client.
+* [FsKafka](https://jet.github.io/FsKafka/) - An F# Kafka client.
 
 * [anaerobic](https://github.com/anaerobic/fsharp-kafka-simple) - A simple implementation of a Kafka producer and consumer in F#.
 
