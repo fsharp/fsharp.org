@@ -1557,3 +1557,18 @@ Type Providers have let us add support for a lot of data formats (Government for
 
 Ever noticed how excited some engineers get when talking about their favourite language? It’s because there is a neural pathway in their brains linking the emotional parts of their brain with the technology. This property of a language is overlooked and engineers are apt to justify their choice of language based on a feature or performance. But a simple thought experiment can show that the subjective experience using a language does matter. Imagine a language called WhiteSpace++ (there is a Whitespace language) which is twice the speed of any other language but all the code is written in whitespace. Nobody would use it because it would be unuseable. 
 
+<a id="lula" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> The sensible defaults (immutability, non-nullability, algebraic data types, etc.) along with the power of the F# compiler enables our team to quickly and concisely develop systems.
+> 
+1. **Matt McCarty**
+2. Staff Software Engineer
+3. [Lula](https://www.lula.is/)
+4. [permalink](#lula)
+
+At Lula, we have found F# to be an excellent choice for building domain-driven APIs to service the insurance industry. The sensible defaults (immutability, non-nullability, algebraic data types, etc.) along with the power of the F# compiler enables our team to quickly and concisely develop systems. The developer experience and tooling is top-tier and the ecosystem is rich and vast, thanks to F# targeting the .NET platform. In addition, the nature of the type system moves an entire class of errors from being runtime errors to compile-time errors.
+
+I would recommend any software engineer that cares about their craft to take the time and learn F#...not only will it make you a better developer, you will have some fun along the way!
+
+<div class="keywords">API, domain modeling, insurance</div>
