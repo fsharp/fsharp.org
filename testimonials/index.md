@@ -56,6 +56,12 @@ We use F#/Fable/Feliz for front-end visualization, and F# has proven to be a ver
 
 By using F# and its strong type system, we were able to keep the code base consistent and easily adaptable to this ever-evolving and growing project. And the excellent Fable and Feliz projects allowed easy and smooth integration into the JavaScript ecosystem.
 
+
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
+  <h3>Contribute testimonials</h3>
+    <p> To add a new testimonial <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send a pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
+</div>              
+
 <a id="calitime" class="testimonial-anchor"> &nbsp; </a>
 ---
 
@@ -95,6 +101,39 @@ that we are using a functional language in production
 <div class="keywords">web application, caching, redis, legal research,oconnors, azure, asp.net</div>
 
 
+<a id="lula" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> The sensible defaults (immutability, non-nullability, algebraic data types, etc.) along with the power of the F# compiler enables our team to quickly and concisely develop systems.
+
+1. **Matt McCarty**
+2. Staff Software Engineer
+3. [Lula](https://www.lula.is/)
+4. [permalink](#lula)
+
+At Lula, we have found F# to be an excellent choice for building domain-driven APIs to service the insurance industry. The sensible defaults (immutability, non-nullability, algebraic data types, etc.) along with the power of the F# compiler enables our team to quickly and concisely develop systems. The developer experience and tooling is top-tier and the ecosystem is rich and vast, thanks to F# targeting the .NET platform. In addition, the nature of the type system moves an entire class of errors from being runtime errors to compile-time errors.
+
+I would recommend any software engineer that cares about their craft to take the time and learn F#...not only will it make you a better developer, you will have some fun along the way!
+
+<div class="keywords">API, domain modeling, insurance</div>
+
+
+<a id="insurello" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> The compiler and the use of exhaustive pattern matching have saved us from what could’ve been many mistakes in production.
+> 
+1. **Kristian Lundström & Simon Lydell**
+2. Software Engineers
+3. [Insurello](https://www.insurello.se/)
+4. [permalink](#insurello)
+5. [source](https://github.com/fsharp/fsfoundation/pull/918)
+
+At Insurello, F# lets us model complicated business data with a lightweight syntax in a way that feels closer to reality. The type system helps us avoid creating impossible states and enables us to focus on the business problems. The compiler and the use of exhaustive pattern matching have saved us from what could’ve been many mistakes in production. F# is “just the right amount of FP” which helps us write simple and maintainable code and makes it easy to onboard people, even those with no background in Functional Programming.
+
+<div class="keywords">domain modeling, type system, maintainability, insurtech, claims management</div>
+
+
 <a id="kaggle-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
@@ -118,11 +157,6 @@ we knew we could use new modules right away.
 
 <div class="keywords">data science, machine learning, startup</div>
 
-
-<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-  <h3>Contribute testimonials</h3>
-    <p> To add a new testimonial <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send a pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
-</div>              
 
 <a id="simon-cousins-1" class="testimonial-anchor"> &nbsp; </a>
 ---
@@ -1557,33 +1591,4 @@ Type Providers have let us add support for a lot of data formats (Government for
 
 Ever noticed how excited some engineers get when talking about their favourite language? It’s because there is a neural pathway in their brains linking the emotional parts of their brain with the technology. This property of a language is overlooked and engineers are apt to justify their choice of language based on a feature or performance. But a simple thought experiment can show that the subjective experience using a language does matter. Imagine a language called WhiteSpace++ (there is a Whitespace language) which is twice the speed of any other language but all the code is written in whitespace. Nobody would use it because it would be unuseable. 
 
-<a id="lula" class="testimonial-anchor"> &nbsp; </a>
----
-
-> The sensible defaults (immutability, non-nullability, algebraic data types, etc.) along with the power of the F# compiler enables our team to quickly and concisely develop systems.
-> 
-1. **Matt McCarty**
-2. Staff Software Engineer
-3. [Lula](https://www.lula.is/)
-4. [permalink](#lula)
-
-At Lula, we have found F# to be an excellent choice for building domain-driven APIs to service the insurance industry. The sensible defaults (immutability, non-nullability, algebraic data types, etc.) along with the power of the F# compiler enables our team to quickly and concisely develop systems. The developer experience and tooling is top-tier and the ecosystem is rich and vast, thanks to F# targeting the .NET platform. In addition, the nature of the type system moves an entire class of errors from being runtime errors to compile-time errors.
-
-I would recommend any software engineer that cares about their craft to take the time and learn F#...not only will it make you a better developer, you will have some fun along the way!
-
-<div class="keywords">API, domain modeling, insurance</div>
-
-<a id="insurello" class="testimonial-anchor"> &nbsp; </a>
----
-
-> The compiler and the use of exhaustive pattern matching have saved us from what could’ve been many mistakes in production.
-> 
-1. **Kristian Lundström & Simon Lydell**
-2. Software Engineers
-3. [Insurello](https://www.insurello.se/)
-4. [permalink](#insurello)
-
-At Insurello, F# lets us model complicated business data with a lightweight syntax in a way that feels closer to reality. The type system helps us avoid creating impossible states and enables us to focus on the business problems. The compiler and the use of exhaustive pattern matching have saved us from what could’ve been many mistakes in production. F# is “just the right amount of FP” which helps us write simple and maintainable code and makes it easy to onboard people, even those with no background in Functional Programming.
-
-
-<div class="keywords">domain modeling, type system, maintainability, insurtech, claims management</div>
+<div class="keywords">beautiful, whitespace</div>
