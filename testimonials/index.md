@@ -122,7 +122,7 @@ I would recommend any software engineer that cares about their craft to take the
 ---
 
 > The compiler and the use of exhaustive pattern matching have saved us from what could’ve been many mistakes in production.
-> 
+
 1. **Kristian Lundström & Simon Lydell**
 2. Software Engineers
 3. [Insurello](https://www.insurello.se/)
