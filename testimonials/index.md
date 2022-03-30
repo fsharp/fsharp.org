@@ -117,6 +117,23 @@ I would recommend any software engineer that cares about their craft to take the
 
 <div class="keywords">API, domain modeling, insurance</div>
 
+
+<a id="insurello" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> The compiler and the use of exhaustive pattern matching have saved us from what could’ve been many mistakes in production.
+> 
+1. **Kristian Lundström & Simon Lydell**
+2. Software Engineers
+3. [Insurello](https://www.insurello.se/)
+4. [permalink](#insurello)
+5. [source](https://github.com/fsharp/fsfoundation/pull/918)
+
+At Insurello, F# lets us model complicated business data with a lightweight syntax in a way that feels closer to reality. The type system helps us avoid creating impossible states and enables us to focus on the business problems. The compiler and the use of exhaustive pattern matching have saved us from what could’ve been many mistakes in production. F# is “just the right amount of FP” which helps us write simple and maintainable code and makes it easy to onboard people, even those with no background in Functional Programming.
+
+<div class="keywords">domain modeling, type system, maintainability, insurtech, claims management</div>
+
+
 <a id="kaggle-1" class="testimonial-anchor"> &nbsp; </a>
 ---
 
@@ -1575,4 +1592,3 @@ Type Providers have let us add support for a lot of data formats (Government for
 Ever noticed how excited some engineers get when talking about their favourite language? It’s because there is a neural pathway in their brains linking the emotional parts of their brain with the technology. This property of a language is overlooked and engineers are apt to justify their choice of language based on a feature or performance. But a simple thought experiment can show that the subjective experience using a language does matter. Imagine a language called WhiteSpace++ (there is a Whitespace language) which is twice the speed of any other language but all the code is written in whitespace. Nobody would use it because it would be unuseable. 
 
 <div class="keywords">beautiful, whitespace</div>
-
