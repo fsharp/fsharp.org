@@ -6,7 +6,7 @@ headline: Use F# on Linux
 
 ### Option 1: Install the CLI tools and use your own editor
 
-![logo](../../images/thumbs/dotnet.png)&nbsp;Install the [.NET Core SDK](https://dotnet.microsoft.com/download). .NET Core is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice.
+![logo](../../images/thumbs/dotnet.png)&nbsp;Install the [.NET SDK](https://dotnet.microsoft.com/download). .NET is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice.
 
 Use this one-liner to acquire an installation script if that's your preference:
 
@@ -28,7 +28,7 @@ Now compile and run this F# script with the following command:
 dotnet fsi hello.fsx
 ```
 
-If this is your first time using .NET Core, there will be a short, one-time message about using the .NET SDK. After that, you'll see the following output in your console:
+If this is your first time using .NET, there will be a short, one-time message about using the .NET SDK. After that, you'll see the following output in your console:
 
 ```
 Hello World from F#
@@ -53,7 +53,7 @@ For more information see [Getting started with the F# command line tools](https:
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
 F# is supported by the [Ionide](http://ionide.io/) project.
 
-1. Install [.NET Core SDK](https://dotnet.microsoft.com/download) like in step 1.
+1. Install the [.NET SDK](https://dotnet.microsoft.com/download) like in step 1.
 
 2. Install [Visual Studio Code](https://code.visualstudio.com/download).
 
@@ -69,7 +69,7 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 ### Option 3: Install JetBrains Rider
 
-![logo](../../images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
+![logo](../../images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET applications on all platforms.
 
 You can install [JetBrains Rider from here](https://www.jetbrains.com/rider/download/).
 
