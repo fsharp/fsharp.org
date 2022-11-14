@@ -53,6 +53,10 @@ Very short tutorial/guide that shows the most important differences between C# a
 
 Learn F# by solving problems, testing your solutions, getting feedback from other developers, and reviewing other developers' solutions! At last check, there are 112 F# problems just waiting for you to solve them.
 
+### [F# Bite-sized (course)](https://fsbitesized.com/)
+
+Eager to learn F#? Learning a new language, yet a new paradigm, can be very daunting. This course aims to give you an interactive, gentle and fun introduction to F#. Video lectures, presentation slides, code samples, quizzes and exercises (with solution) will be present throughout the course – all at your pace. I’ll take you through topics such as introduction to Functional Programming, Function Composition, Partial Application, Testing in F#, Async Programming in F#, Algebraic Types (Records and Unions), Railway Oriented Programming (ROP) and many more.
+
 <h2 id="workshops" class="anchor">F# Workshops and Dojos</h2>
 
 ### [The F# Koans](https://github.com/ChrisMarinos/FSharpKoans#functional-koans---f)
