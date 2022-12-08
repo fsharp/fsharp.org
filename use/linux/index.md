@@ -14,6 +14,13 @@ Use this one-liner to acquire an installation script if that's your preference:
 curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --version latest
 ```
 
+Configure environment variables for your preferred shell profile (i.e. *~/.bashrc*).
+
+```
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
+```
+
 Once that is installed, you can begin using F#!
 
 Create a file called `hello.fsx` that looks like this:
