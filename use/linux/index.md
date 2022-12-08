@@ -11,7 +11,7 @@ headline: Use F# on Linux
 Use this one-liner to acquire an installation script if that's your preference:
 
 ```
-curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel Current
+curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --version latest
 ```
 
 Once that is installed, you can begin using F#!
