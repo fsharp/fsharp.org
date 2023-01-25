@@ -7,11 +7,11 @@ headline: F# Mentorship program
 Many of us have been lucky to have mentors in our careers who have helped us become better programmers (and people).
 
 We think that mentorship is a powerful way to help you learn and be inspired, especially in a new paradigm such as functional programming.
-So we here at the F# Software Foundation (FSSF) would like to help make to mentorship possible for those in the F# community who would benefit from it.
+So we here at the F# Software Foundation (FSSF) would like to help to make mentorship possible for those in the F# community who would benefit from it.
 
 And so, we have created the FSSF Mentorship program
 
-The program is free-of-charge. The mentors are volunteering their time to benefit the F# community. However, in return, we ask that “pay it forward” later on, by mentoring someone else or contributing to the F# community in other ways (such as helping with F# open-source projects).
+The program is free-of-charge. The mentors are volunteering their time to benefit the F# community. However, in return, we ask that you “pay it forward” later on, by mentoring someone else or contributing to the F# community in other ways (such as helping with F# open-source projects).
 
 ## Who can Participate?
 
