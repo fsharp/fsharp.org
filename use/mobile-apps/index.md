@@ -16,12 +16,12 @@ Both native and cross-platform app development is possible.
 
 2. Select F# Language support as part of installation.
 
-[Fabulous](https://fsprojects.github.io/Fabulous/) is a framework for F# Functional App Development, using declarative dynamic UI.
+[Fabulous](https://fabulous.dev) is a framework for F# Functional App Development, using declarative dynamic UI.
 This allows you to use the ultra-simple MVU (Model-View-Update) architecture to build applications for iOS, Android, Mac, WPF and more using Xamarin.Forms. 
 
-* [Getting Started with Fabulous](https://fsprojects.github.io/Fabulous/Fabulous.XamarinForms/index.html#getting-started).
+* [Getting Started with Fabulous](https://docs.fabulous.dev).
 
-* [Fabulous Weather](https://github.com/fsprojects/Fabulous/tree/master/Fabulous.XamarinForms/samples/FabulousWeather) - A sample weather app using Fabulous
+* [Fabulous Weather](https://github.com/cboudereau/fabulous-weather) - A sample weather app using Fabulous
 
 * [Fabulous Contacts](https://github.com/TimLariviere/FabulousContacts) - A sample contacts app using Fabulous
 
