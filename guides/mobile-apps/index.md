@@ -13,11 +13,11 @@ F# executes on app platforms including as  [Android, iOS](../../use/mobile-apps/
 
 ## Frameworks
 
-* [Fabulous](http://fsprojects.github.io/Fabulous) - F# Functional App Development for Android, iOS and more (Elmish for Xamarin.Forms)
+* [Fabulous](http://fabulous.dev) - F# Functional App Development for Android, iOS and more (Elmish for Xamarin.Forms)
 
-  * [Getting Started with Fabulous](https://fsprojects.github.io/Fabulous/Fabulous.XamarinForms/index.html#getting-started).
+  * [Getting Started with Fabulous](https://docs.fabulous.dev).
 
-  * [Fabulous Weather](https://github.com/fsprojects/Fabulous/tree/master/Fabulous.XamarinForms/samples/FabulousWeather) - A sample weather app using Fabulous
+  * [Fabulous Weather](https://github.com/cboudereau/fabulous-weather) - A sample weather app using Fabulous
 
   * [Fabulous Contacts](https://github.com/TimLariviere/FabulousContacts) - A sample contacts app using Fabulous
 
