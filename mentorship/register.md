@@ -9,7 +9,7 @@ Applications for the 2023 Spring mentorship round (#14) are now open. Both prosp
 ## Timeline for Round 14
 
 * 2023-04-24 - 2023-05-10: Applications accepted for round 14
-* 2023-04-05 - 2023-05-14: Volunteers will review applications and pair mentors/mentees
+* 2023-05-11 - 2023-05-14: Volunteers will review applications and pair mentors/mentees
 * 2023-05-15 - 2023-07-09: Mentors mentees meet once a week during 8 weeks for a mentorship session
 
 ## Membership in the F# Software Foundation Required
