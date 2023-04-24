@@ -29,13 +29,13 @@ You must be a member of the F# Software Foundation (FSSF) to apply. Membership i
 
 ## Participation/Registration
 
-Applications for the 2022 Spring mentorship round (#12) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://docs.google.com/forms/d/1hwpKIICiwX_OCtgdhC_SZon0WZMxMxGICtQrUKlb_lE/).
+Applications for the 2023 Spring mentorship round (#14) are now open. Both prospective _mentors_ and _mentees_ need to apply [here](https://forms.gle/21ZBV7nUBgr5pr9T9).
 
 ## Schedule
 
-* 2022-03-07 - 2022-04-05: Applications accepted for round 12
-* 2022-04-05 - 2022-04-10: Volunteers will review applications and pair mentors/mentees
-* 2022-04-11 - 2022-06-15: Mentors mentees meet once a week during 8 weeks for a mentorship session
+* 2023-04-24 - 2023-05-10: Applications accepted for round 14
+* 2023-05-11 - 2023-05-14: Volunteers will review applications and pair mentors/mentees
+* 2023-05-15 - 2023-07-09: Mentors mentees meet once a week during 8 weeks for a mentorship session
 
 ## Imposter Syndrome Disclaimer (for prospective mentors)
 
