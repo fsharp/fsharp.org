@@ -1592,3 +1592,21 @@ Type Providers have let us add support for a lot of data formats (Government for
 Ever noticed how excited some engineers get when talking about their favourite language? It’s because there is a neural pathway in their brains linking the emotional parts of their brain with the technology. This property of a language is overlooked and engineers are apt to justify their choice of language based on a feature or performance. But a simple thought experiment can show that the subjective experience using a language does matter. Imagine a language called WhiteSpace++ (there is a Whitespace language) which is twice the speed of any other language but all the code is written in whitespace. Nobody would use it because it would be unuseable. 
 
 <div class="keywords">beautiful, whitespace</div>
+
+<a id="deyan-petrov" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> F# brought correct defaults, simplicity and safety back to our coding
+
+1. **Deyan Petrov, [5G Pay](https://5gpay.com/)**
+2. [permalink](#deyan-petrov)
+
+A couple of years ago we started a greenfield project with backend (microservices) 100% written in F#. The language allowed/allows us to deliver a lot with a very small team, resulting in a concise and easily maintainable codebase. 
+
+We are solely focusing on the basics - functions and records, and shying away from OOP or any other complicated constructs. Among the "exotic" features of F# we use are only a few [computational expressions](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/computation-expressions) - Async, AsyncResult, Result, as well as the [units of measures](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure) for strongly-typing GUIDs and other domain attributes. 
+
+Being a member of the .NET family F# still gives us access to .NET BCL and any (performance) improvements of it, as well as to all 3rd-party libraries written in C# (e.g. Azure SDKs, sftp, email clients and many others). 
+
+<div class="keywords">simple, safe</div>
+
+---
