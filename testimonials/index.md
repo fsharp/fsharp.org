@@ -104,6 +104,82 @@ that we are using a functional language in production
 <a id="lula" class="testimonial-anchor"> &nbsp; </a>
 ---
 
+> At Criipto, we're using F# to keep our cadence high
+
+1. **Mikkel Christensen, Criipto**
+2. [Criipto](https://www.criipto.com/)
+3. [Criipto Verify](https://manage.criipto.id)
+4. [permalink](#criipto)
+
+We've found F# to be a highly productive language, and at the same time it let's us create codebases with low cost of maintenance.
+
+We switched from C# to F# around 2015, after working in C# for about 7 years. And even if C# is certainly also productive, it does not get close to what F# brings to the table. While both languages allow for creating systems with very low defect-rates, we find that the effort required in F# is much, much smaller - yet instills more confidence. This is due to the fact that in many cases, we can just lean on the compiler, instead of having to resort to writing scores of unit tests.
+
+The type system really makes all the difference when dealing with a complex domain. It is also a very strong ally when integrating 3rd-party systems into a multi-tenant public cloud offering: It enables us to encode very heterogenous external components directly in strong types.
+
+And to top it all up, working in F# is very enjoyable - the terseness and the expressiveness of the language provide a more distraction-free experience than other languages we have worked with. As an aside, we'll note that we have been quite surprised by how addictive compile-time errors can be. Even if they are annoying at the outset, once one realizes how they can be used as a very effective substitute for quite a lot of boilerplate unit tests, they really end up being a very important (and constructive) part of a daily workflow.
+
+<div class="keywords">identity and access, idaaaas, kyc, e-ID, lean scale-up</div>
+
+<a id="compositional-it" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> On a release of a complex rules engine and data transformation system to one of our customers, we were delighted to hear that across 90+ markets, not one of them found any issues with any of the calculations in the datasets. F# just works.
+
+1. **Isaac Abraham, Compositional IT**
+2. [Compositional IT](http://compositional-it.com/)
+
+As a consultancy geared towards delivering solutions to customers in a variety of sectors, we rely on F# for all of our solutions, whether it's a rules engine, a distributed and scalable data transformation system on Azure or a customer-facing web application. I love the fact that we have confidence in our deliverables thanks in no small part to the pit of success that F# leads us down; we very, very rarely encounted bugs that we saw time and again with other languages and frameworks. At the same time, we're able to consistently deliver to our customers much more quickly than we might have done otherwise - a key value proposition for many of our customers  who often need a short time to market.
+
+<div class="keywords">azure, consultancy, functional programming, time to market, startup</div>
+
+<a id="cleartax" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> At ClearTax, We have built a whole product from the ground-up in F#. It's been running in production for a couple of years — this has been a great experience for us.
+
+1. **Ankit Solanki, [ClearTax](https://cleartax.in
+)**
+2. [ClearTax](https://www.youtube.com/watch?v=BYRpZ7qEMi0)
+
+The expressiveness and power of F# has resulted in shorter build cycles, simpler business logic (with fewer bugs!) and the ability to quickly evolve the product.
+
+Type Providers have let us add support for a lot of data formats (Government formats, Excel files, third party sources) very quickly. Pattern matching has made it possible to simplify complex business logic. F# has been a joy to work with, and we're using it more and more throughout our products now.
+
+<div class="keywords">startup, finance, taxation, type providers, functional programming</div>
+
+<a id="sashan-govender" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> Using a language that I enjoy using, that lets me write beautiful code, and do work that I find intrinsically satisfying is such an amazing privilege, that I wish that blessing on every programmer out there, that their days aren't spent in a jaded, colourless miasma of code.
+
+1. **Sashan Govender, [tiny-thoughts](https://www.tiny-thoughts.net/a-new-hope/)**
+2. [permalink](#sashan-govender)
+
+Ever noticed how excited some engineers get when talking about their favourite language? It’s because there is a neural pathway in their brains linking the emotional parts of their brain with the technology. This property of a language is overlooked and engineers are apt to justify their choice of language based on a feature or performance. But a simple thought experiment can show that the subjective experience using a language does matter. Imagine a language called WhiteSpace++ (there is a Whitespace language) which is twice the speed of any other language but all the code is written in whitespace. Nobody would use it because it would be unuseable. 
+
+<div class="keywords">beautiful, whitespace</div>
+
+<a id="deyan-petrov" class="testimonial-anchor"> &nbsp; </a>
+---
+
+> F# brought correct defaults, simplicity and safety back to our coding
+
+1. **Deyan Petrov, [5G Pay](https://5gpay.com/)**
+2. [permalink](#deyan-petrov)
+
+A couple of years ago we started a greenfield project with backend (microservices) 100% written in F#. The language allowed/allows us to deliver a lot with a very small team, resulting in a concise and easily maintainable codebase. 
+
+We are solely focusing on the basics - functions and records, and shying away from OOP or any other complicated constructs. Among the "exotic" features of F# we use are only a few [computational expressions](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/computation-expressions) - Async, AsyncResult, Result, as well as the [units of measures](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure) for strongly-typing GUIDs and other domain attributes. Even Dependency Injections we with straightforward [partial application](https://fsharpforfunandprofit.com/posts/partial-application/) unstead of using the sophisticated Reader monad or similar.
+
+Being a member of the .NET family F# still gives us access to .NET BCL and any (performance) improvements of it, as well as to all 3rd-party libraries written in C# (e.g. Azure SDKs, sftp, email clients and many others). 
+
+Onboarding of new team members (usually with C# background) has been pretty easy and quick.
+
+<div class="keywords">simple, safe</div>
+
+---
+
 > The sensible defaults (immutability, non-nullability, algebraic data types, etc.) along with the power of the F# compiler enables our team to quickly and concisely develop systems.
 
 1. **Matt McCarty**
@@ -1535,80 +1611,4 @@ The tooling for the language is great and also this language is really supported
 And finally, F# is a language with which I've become really efficient and I find that if I write a code the type inference assures me correctness. I am still waiting for the first bug to appear in my production app.
 
 <a id="criipto" class="testimonial-anchor"> &nbsp; </a>
----
-
-> At Criipto, we're using F# to keep our cadence high
-
-1. **Mikkel Christensen, Criipto**
-2. [Criipto](https://www.criipto.com/)
-3. [Criipto Verify](https://manage.criipto.id)
-4. [permalink](#criipto)
-
-We've found F# to be a highly productive language, and at the same time it let's us create codebases with low cost of maintenance.
-
-We switched from C# to F# around 2015, after working in C# for about 7 years. And even if C# is certainly also productive, it does not get close to what F# brings to the table. While both languages allow for creating systems with very low defect-rates, we find that the effort required in F# is much, much smaller - yet instills more confidence. This is due to the fact that in many cases, we can just lean on the compiler, instead of having to resort to writing scores of unit tests.
-
-The type system really makes all the difference when dealing with a complex domain. It is also a very strong ally when integrating 3rd-party systems into a multi-tenant public cloud offering: It enables us to encode very heterogenous external components directly in strong types.
-
-And to top it all up, working in F# is very enjoyable - the terseness and the expressiveness of the language provide a more distraction-free experience than other languages we have worked with. As an aside, we'll note that we have been quite surprised by how addictive compile-time errors can be. Even if they are annoying at the outset, once one realizes how they can be used as a very effective substitute for quite a lot of boilerplate unit tests, they really end up being a very important (and constructive) part of a daily workflow.
-
-<div class="keywords">identity and access, idaaaas, kyc, e-ID, lean scale-up</div>
-
-<a id="compositional-it" class="testimonial-anchor"> &nbsp; </a>
----
-
-> On a release of a complex rules engine and data transformation system to one of our customers, we were delighted to hear that across 90+ markets, not one of them found any issues with any of the calculations in the datasets. F# just works.
-
-1. **Isaac Abraham, Compositional IT**
-2. [Compositional IT](http://compositional-it.com/)
-
-As a consultancy geared towards delivering solutions to customers in a variety of sectors, we rely on F# for all of our solutions, whether it's a rules engine, a distributed and scalable data transformation system on Azure or a customer-facing web application. I love the fact that we have confidence in our deliverables thanks in no small part to the pit of success that F# leads us down; we very, very rarely encounted bugs that we saw time and again with other languages and frameworks. At the same time, we're able to consistently deliver to our customers much more quickly than we might have done otherwise - a key value proposition for many of our customers  who often need a short time to market.
-
-<div class="keywords">azure, consultancy, functional programming, time to market, startup</div>
-
-<a id="cleartax" class="testimonial-anchor"> &nbsp; </a>
----
-
-> At ClearTax, We have built a whole product from the ground-up in F#. It's been running in production for a couple of years — this has been a great experience for us.
-
-1. **Ankit Solanki, [ClearTax](https://cleartax.in
-)**
-2. [ClearTax](https://www.youtube.com/watch?v=BYRpZ7qEMi0)
-
-The expressiveness and power of F# has resulted in shorter build cycles, simpler business logic (with fewer bugs!) and the ability to quickly evolve the product.
-
-Type Providers have let us add support for a lot of data formats (Government formats, Excel files, third party sources) very quickly. Pattern matching has made it possible to simplify complex business logic. F# has been a joy to work with, and we're using it more and more throughout our products now.
-
-<div class="keywords">startup, finance, taxation, type providers, functional programming</div>
-
-<a id="sashan-govender" class="testimonial-anchor"> &nbsp; </a>
----
-
-> Using a language that I enjoy using, that lets me write beautiful code, and do work that I find intrinsically satisfying is such an amazing privilege, that I wish that blessing on every programmer out there, that their days aren't spent in a jaded, colourless miasma of code.
-
-1. **Sashan Govender, [tiny-thoughts](https://www.tiny-thoughts.net/a-new-hope/)**
-2. [permalink](#sashan-govender)
-
-Ever noticed how excited some engineers get when talking about their favourite language? It’s because there is a neural pathway in their brains linking the emotional parts of their brain with the technology. This property of a language is overlooked and engineers are apt to justify their choice of language based on a feature or performance. But a simple thought experiment can show that the subjective experience using a language does matter. Imagine a language called WhiteSpace++ (there is a Whitespace language) which is twice the speed of any other language but all the code is written in whitespace. Nobody would use it because it would be unuseable. 
-
-<div class="keywords">beautiful, whitespace</div>
-
-<a id="deyan-petrov" class="testimonial-anchor"> &nbsp; </a>
----
-
-> F# brought correct defaults, simplicity and safety back to our coding
-
-1. **Deyan Petrov, [5G Pay](https://5gpay.com/)**
-2. [permalink](#deyan-petrov)
-
-A couple of years ago we started a greenfield project with backend (microservices) 100% written in F#. The language allowed/allows us to deliver a lot with a very small team, resulting in a concise and easily maintainable codebase. 
-
-We are solely focusing on the basics - functions and records, and shying away from OOP or any other complicated constructs. Among the "exotic" features of F# we use are only a few [computational expressions](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/computation-expressions) - Async, AsyncResult, Result, as well as the [units of measures](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure) for strongly-typing GUIDs and other domain attributes. Even Dependency Injections we with straightforward ]partial application](https://fsharpforfunandprofit.com/posts/partial-application/) unstead of using the sophisticated Reader monad or similar.
-
-Being a member of the .NET family F# still gives us access to .NET BCL and any (performance) improvements of it, as well as to all 3rd-party libraries written in C# (e.g. Azure SDKs, sftp, email clients and many others). 
-
-Onboarding of new team members (usually with C# background) has been pretty easy and quick, even though the search itself for people genuinly interested in F# was not that easy/quick (pity F# is not more popular, but also a good filter for candidates interested in something better!).
-
-<div class="keywords">simple, safe</div>
-
 ---
