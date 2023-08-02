@@ -8,19 +8,6 @@ headline: Use F# on macOS
 
 ![logo](../../images/thumbs/dotnet.png)&nbsp;Install the [.NET SDK](https://dotnet.microsoft.com/download).
 
-You can also use this one-liner from the command-line if you prefer not to use the installer package:
-
-```
-curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --version latest
-```
-
-Configure environment variables for your preferred shell profile (i.e. *~/.bashrc*).
-
-```
-export DOTNET_ROOT=$HOME/.dotnet
-export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
-```
-
 Once that is installed, you can begin using F#!
 
 Create a file called `hello.fsx` that looks like this:
