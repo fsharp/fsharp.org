@@ -414,7 +414,7 @@
     <footer id="footer">
         <div class="container text-center">
             <a href="#main" id="footer-arrow"><img src="img/arrow.png" alt="Back to the top" /></a>
-            <p>Copyright © 2012-2022 F# Software Foundation and individual contributors.
+            <p>Copyright © 2012-<span id="copyright-year">2023</span> F# Software Foundation and individual contributors.
             <br/>
             <p>Maintained by F# Software Foundation and the F# community on <a href="https://github.com/fsharp/fsfoundation" target="_blank">GitHub</a>.</p>
         </div>
@@ -458,5 +458,8 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
     </script>
+		<script>
+			$('#copyright-year').html(new Date().getFullYear());
+		</script>
 </body>
 </html>
