@@ -39,7 +39,7 @@ of mainstream commercial business software.
 
 <img src="../images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
 
-The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
+The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://fsprojects.github.io/fsharp-cheatsheet/) and [PDF](https://fsprojects.github.io/fsharp-cheatsheet/fsharp-cheatsheet.pdf) format.
 
 ### [F# Guide for Python developers](https://github.com/knocte/2fsharp/blob/master/python2fsharp.md)
 
