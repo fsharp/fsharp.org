@@ -35,7 +35,7 @@ Whether it's your first programming language or your next, F# will transform you
 Introduces you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software.
 
-### [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
+### [F# Cheat Sheet](http://fsprojects.github.io/fsharp-cheatsheet/)
 
 <img src="../images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
 
