@@ -25,11 +25,11 @@ headline: Documentation for F#
 
 <br />
 
-## [F# Cheat Sheet](http://dungpa.github.io/fsharp-cheatsheet/)
+## [F# Cheat Sheet](https://github.com/fsprojects/fsharp-cheatsheet)
 
 <img src="../images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
 
-* The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://dungpa.github.io/fsharp-cheatsheet/) and [PDF](https://github.com/dungpa/fsharp-cheatsheet/raw/gh-pages/fsharp-cheatsheet.pdf) format.
+* The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](https://fsprojects.github.io/fsharp-cheatsheet/) and [PDF](https://fsprojects.github.io/fsharp-cheatsheet/fsharp-cheatsheet.pdf) format.
 
 <br />
 
