@@ -34,7 +34,7 @@ are available on the web.
 
 * [WinForms Introduction](https://medium.com/@vivainio/creating-a-windows-forms-gui-with-f-968b3ae75a82)
 
-* [WPF with FsXaml Introduction](https://www.c-sharpcorner.com/article/create-wpf-application-with-f-sharp-and-fsxaml/)
+* [WPF with FsXaml Introduction](https://www.c-sharpcorner.com/article/create-wpf-application-with-f-sharp-and-fsxaml/) (.NET Framework only)
 
 <br />
 
