@@ -31,5 +31,5 @@ For other components and tools, please [refer to the relevant project](/communit
 
 
 
-You can contribute to this page [by proposing an edit](https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/engineering/issues.md).
+You can contribute to this page [by proposing an edit](https://github.com/fsharp/fsharp.org/edit/gh-pages/guides/engineering/issues.md).
 

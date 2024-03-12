@@ -63,7 +63,7 @@ It's also lightweight, you need to know a general idea and few functions (and, o
 <br />
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/data-access/index.md">edit this page</a>. These resources are for educational purposes. </p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsharp.org/edit/gh-pages/guides/data-access/index.md">edit this page</a>. These resources are for educational purposes. </p>
 </div>              
 
 <br />

@@ -18,4 +18,4 @@ Current communitiy operated technical groups which fit with [the mission](https:
 
  * [**Community for F#**](http://c4fsharp.net) (contact Mathias Brandewinder and Ryan Riley)
 
-We encourage community operated groups to adopt a public presence and [submit an edit to this page](https://github.com/fsharp/fsfoundation/edit/gh-pages/technical-groups/index.md) with details (GitHub login required).
+We encourage community operated groups to adopt a public presence and [submit an edit to this page](https://github.com/fsharp/fsharp.org/edit/gh-pages/technical-groups/index.md) with details (GitHub login required).

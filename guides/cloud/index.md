@@ -17,7 +17,7 @@ particularly for taking advantage of cloud-computing resources.
 For cloud-hosted web programming and services, refer to the [Web Programming Guide](../web/).
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsfoundation/edit/gh-pages/guides/cloud/index.md">edit this page</a>. These resources are for educational purposes. </p>
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsharp.org/edit/gh-pages/guides/cloud/index.md">edit this page</a>. These resources are for educational purposes. </p>
 </div>              
 
 * auto-gen TOC:

@@ -59,7 +59,7 @@ By using F# and its strong type system, we were able to keep the code base consi
 
 <div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
   <h3>Contribute testimonials</h3>
-    <p> To add a new testimonial <a href="https://github.com/fsharp/fsfoundation/blob/gh-pages/testimonials/index.md">edit this page</a> and send a pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
+    <p> To add a new testimonial <a href="https://github.com/fsharp/fsharp.org/blob/gh-pages/testimonials/index.md">edit this page</a> and send a pull request.  You can also send testimonials by email to <a href="mailto:fsharp@fsharp.org">fsharp@fsharp.org</a>.</p>
 </div>              
 
 <a id="calitime" class="testimonial-anchor"> &nbsp; </a>
@@ -203,7 +203,7 @@ I would recommend any software engineer that cares about their craft to take the
 2. Software Engineers
 3. [Insurello](https://www.insurello.se/)
 4. [permalink](#insurello)
-5. [source](https://github.com/fsharp/fsfoundation/pull/918)
+5. [source](https://github.com/fsharp/fsharp.org/pull/918)
 
 At Insurello, F# lets us model complicated business data with a lightweight syntax in a way that feels closer to reality. The type system helps us avoid creating impossible states and enables us to focus on the business problems. The compiler and the use of exhaustive pattern matching have saved us from what could’ve been many mistakes in production. F# is “just the right amount of FP” which helps us write simple and maintainable code and makes it easy to onboard people, even those with no background in Functional Programming.
 
