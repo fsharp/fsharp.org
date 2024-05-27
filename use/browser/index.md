@@ -11,9 +11,9 @@ computer. It includes example code for many of F#'s basic features.
 
 <br />
 
-### Option 2: [Try Fable in the REPL](https://fable.io/repl3/)
+### Option 2: [Try Fable in the REPL](https://fable.io/repl/)
 
-![logo](../../images/thumbs/fable.png)&nbsp;[Try Fable in the REPL](https://fable.io/repl3/). Fable is a compiler powered by Babel that makes F# a first-class citizen of the JavaScript ecosystem.
+![logo](../../images/thumbs/fable.png)&nbsp;[Try Fable in the REPL](https://fable.io/repl/). Fable is a compiler powered by Babel that makes F# a first-class citizen of the JavaScript ecosystem.
 
 <br />
 
