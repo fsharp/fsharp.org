@@ -233,6 +233,35 @@ _Tomas Petricek and Phillip Trelford_
 
 F# Deep Dives presents a collection of real-world F# techniques, each written by expert practitioners. Each chapter presents a new use case where you'll read how the author used F# to solve a complex problem more effectively than would have been possible using a traditional approach. You'll not only see how a specific solution works in a specific domain, you'll also learn how F# developers approach problems, what concepts they use to solve them, and how they integrate F# into existing systems and environments.
 
+
+### [F# For Machine Learning Essentials](https://www.goodreads.com/book/show/29382948-f-for-machine-learning-essentials)
+
+<img src="/learn/files/FS_ML_Essentials.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+
+_Sudipta Mukherjee_
+
+
+The F# functional programming language enables developers to write simple code to solve complex problems. With F#, developers create consistent and predictable programs that are easier to test and reuse, simpler to parallelize, and are less prone to bugs. If you want to learn how to use F# to build machine learning systems, then this is the book you want. Starting with an introduction to the several categories on machine learning, you will quickly learn to implement time-tested, supervised learning algorithms. You will gradually move on to solving problems on predicting housing pricing using Regression Analysis. You will then learn to use Accord.NET to implement SVM techniques and clustering. 
+
+You will also learn to build a recommender system for your e-commerce site from scratch. Finally, you will dive into advanced topics such as implementing neural network algorithms while performing sentiment analysis on your data.
+
+#### Who is this book for?
+If you are a C# or an F# developer who now wants to explore the area of machine learning, then this book is for you. Familiarity with theoretical concepts and notation of mathematics and statistics would be an added advantage.
+
+#### What you will learn
+
+Use F# to find patterns through raw data
+Build a set of classification systems using Accord.NET, Weka, and F#
+Run machine learning jobs on the Cloud with MBrace
+Perform mathematical operations on matrices and vectors using Math.NET
+Use a recommender system for your own problem domain
+Identify tourist spots across the globe using inputs from the user with decision tree algorithms.
+
+#### Key benefits
+Design algorithms in F# to tackle complex computing problems
+Be a proficient F# data scientist using this simple-to-follow guide
+Solve real-world, data-related problems with robust statistical models, built for a range of datasets
+
 ### [Machine Learning Projects for .NET Developers](https://books.google.com/books?isbn=1430267666)
 
 <img src="/learn/files/BookMLP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
