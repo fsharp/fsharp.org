@@ -28,9 +28,6 @@ REPL-scripting, powerful libraries and scalable data integration.
 provides data scientists and developers a way to explore data, experiment with code, and try new ideas
 effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter notebooks or custom interactive coding experiences.
 
-  * [Try Online in Binder](https://github.com/dotnet/interactive/blob/main/docs/NotebooksOnBinder.md)
-  * [Install Locally](https://github.com/dotnet/interactive/blob/main/docs/install-dotnet-interactive.md)
-
 <br />
 ## Integrated Packages
 {: #integrated-packages .anchor }
@@ -152,8 +149,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 and more. Your entire add-in can be packed into a single .xll file requiring no installation or registration:
 
  * [Excel-DNA home pages](http://excel-dna.net/)
- * [Async and event-streaming Excel UDFs with F#](http://excel-dna.net/2013/03/26/async-and-event-streaming-excel-udfs-with-f/)
- * [Machine Learning with Excel: Combine the power of Excel, F# and R](http://luajalla.azurewebsites.net/excel-dna-three-stories/)
+ * [Async and event-streaming Excel UDFs with F#](https://excel-dna.net/blog/2013/03/26/async-and-event-streaming-excel-udfs-with-f)
 
 [Sharp Cells](https://www.sharpcells.com/) is another independent project which integrates F# scripting with Excel. It exposes the scripts as either user-defined functions (UDFs) using [Excel's XLL API](https://learn.microsoft.com/en-us/office/client-developer/excel/welcome-to-the-excel-software-development-kit) or commands using [Excel's COM API](https://learn.microsoft.com/en-us/dotnet/api/microsoft.office.interop.excel?view=excel-pia). Compilation takes place at runtime allowing rapid iteration of your code and the scripts are embedded with the workbook maintaining single-file portability similar to VBA.
 
@@ -162,8 +158,6 @@ and more. Your entire add-in can be packed into a single .xll file requiring no 
  * Integration with [AngouriMath](https://am.angouri.org/) to [perform symbolic algebra](https://www.sharpcells.com/example-symbolic)
 
 [NPOI](https://github.com/nissl-lab/npoi/) is .NET version of POI Java project at http://poi.apache.org/. POI is an open source project which can help you read/write xls, doc, ppt files.
-
- * [Example of how to work with Excel using NPOI in F#](https://github.com/Heather/FXL/blob/master/RNExceL/Model/NPOI.fs#L19)
 
 NPOI manipulates the Open Office XML format directly so does not require having Excel installed and do not use Interop. You can read, create, and edit Excel documents using this approach.
 

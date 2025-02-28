@@ -84,15 +84,15 @@ The [Orleans](https://dotnet.github.io/orleans/) framework provides a straightfo
 
 #### Kafka
 
-* [FsKafka](https://jet.github.io/FsKafka/) - An F# Kafka client.
+* [FsKafka](https://github.com/jet/FsKafka) - An F# Kafka client.
 
 * [anaerobic](https://github.com/anaerobic/fsharp-kafka-simple) - A simple implementation of a Kafka producer and consumer in F#.
 
 #### ZeroMQ
 
-* [F# ZeroMQ bindings](http://zeromq.github.io/fszmq)  An F#-specific binding for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
+* [F# ZeroMQ bindings](https://zeromq.org/languages/fsharp)  An F#-specific binding for the [ZeroMQ](http://www.zeromq.org) (Zero Message Queue) library.
 
-* [ZeroMQ](http://www.zeromq.org/bindings:clr) - A more general .NET binding for ZeroMQ.
+* [ZeroMQ](https://zeromq.org/languages/csharp/) - A more general .NET binding for ZeroMQ.
 
 #### MPI
 

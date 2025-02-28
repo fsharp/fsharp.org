@@ -11,8 +11,6 @@ students and researchers worldwide. Many standard F# features (including _active
 have been described in publications, and many
 research projects build on top of F#. 
 
-<a href="http://blogs.msdn.com/b/dsyme/archive/2012/07/11/how-to-reference-for-f-in-a-research-paper.aspx">How to reference F# in a research paper</a>.
-
 To add a paper to this list [edit this page](https://github.com/fsharp/fsharp.org/edit/gh-pages/teaching/research.md) and submit a pull request.
 
  * **[F# Books](../learn/index.html#books)** - books about the F# language, including practical guides for using F# in practice.
@@ -111,7 +109,7 @@ The F# language includes a feature called F# 3.0 Type Providers to support the i
 ## Asynchronous, Concurrent and Reactive programming
 {: #asynchronous-concurrent-and-reactive-programming .anchor }
 
-### [The F# Asynchronous Programming Model](http://blogs.msdn.com/b/dsyme/archive/2010/10/21/the-f-asynchronous-programming-model-padl-2010-pre-publication-draft.aspx)
+### [The F# Asynchronous Programming Model](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/async-padl-revised-v2.pdf)
 
 Don Syme, Tomas Petricek, Dmitry Lomov  
 _Proceedings of PADL 2011_
@@ -185,7 +183,7 @@ F# computation expressions answer this question in the affirmative. Unlike the d
 
 We show that computation expressions can structure well-known computations including monoidal list comprehensions, monadic parsers, applicative formlets and asynchronous sequences based on the list monad transformer. We also present typing rules for computation expressions that are capable of capturing all these applications.
 
-### [Classes for the Masses](http://www.mlworkshop.org/2016-7.pdf)
+### [Classes for the Masses](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/08/2016-7.pdf)
 
 Claudio Russo, Matthew Windsor, Don Syme, Rupert Horlick, James Clarke
 _Proceedings of ML 2016_
@@ -236,19 +234,6 @@ comprehensions, monadic parsers, applicative formlets and asynchronous sequences
 monad transformer. We also present typing rules for computation expressions that are capable of 
 capturing all these applications.
 
-
-### [Rapid Prototyping of DSLs with F#](http://academic.research.microsoft.com/Publication/39281456/rapid-prototyping-of-dsls-with-f#)
-
-Adam Granicz
-_Central European Functional Programming School (CEFP)_
-
-In these lecture notes we present the F# implementation of a small programming language we call Simply. 
-We give the parser implementation using active patterns, F#’s unique feature for extensible pattern matching, 
-which as we demonstrate provide an elegant and type-safe mechanism to embed parsers as an alternative approach 
-to parser generators. We also build an evaluator, and extend the core Simply language with Logo-like 
-primitives and build a graphical shell environment around it. As a warm-up, we give a rudimentary survey 
-of some notable F# features, including sequence expressions and active patterns.
-
 --------------
 
 ##  Parallel and Distributed programming
@@ -286,7 +271,7 @@ pattern is also known as cloud workflows, or cloud monad. Finally, we have imple
 on top of the Microsoft Azure platform, providing MBrace.Azure: a distributed execution runtime for
 cloud computations.
 
-### [Specifying and Executing Optimizations for Parallel Programs](http://web.engr.illinois.edu/~mansky1/exec.pdf)
+### [Specifying and Executing Optimizations for Parallel Programs](https://egunter.cs.illinois.edu/papers/GRAPHITE2014.pdf)
 
 William Mansky, Dennis Griffith, Elsa L. Gunter
 _In pre-proceedings of GRAPHITE '14_
@@ -342,7 +327,7 @@ whose type reflects this behaviour, a consequence
 of which would be a full abstraction result for
 a model of the language.
 
-### [Programming Languages and Dimensions](http://academic.research.microsoft.com/Publication/1387457/programming-languages-and-dimensions)
+### [Programming Languages and Dimensions](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-391.pdf)
 
 Andrew Kennedy
 _PhD Thesis, University of Cambridge, 1995_

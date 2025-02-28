@@ -148,18 +148,6 @@ Type Providers have let us add support for a lot of data formats (Government for
 
 <div class="keywords">startup, finance, taxation, type providers, functional programming</div>
 
-<a id="sashan-govender" class="testimonial-anchor"> &nbsp; </a>
----
-
-> Using a language that I enjoy using, that lets me write beautiful code, and do work that I find intrinsically satisfying is such an amazing privilege, that I wish that blessing on every programmer out there, that their days aren't spent in a jaded, colourless miasma of code.
-
-1. **Sashan Govender, [tiny-thoughts](https://www.tiny-thoughts.net/a-new-hope/)**
-2. [permalink](#sashan-govender)
-
-Ever noticed how excited some engineers get when talking about their favourite language? It’s because there is a neural pathway in their brains linking the emotional parts of their brain with the technology. This property of a language is overlooked and engineers are apt to justify their choice of language based on a feature or performance. But a simple thought experiment can show that the subjective experience using a language does matter. Imagine a language called WhiteSpace++ (there is a Whitespace language) which is twice the speed of any other language but all the code is written in whitespace. Nobody would use it because it would be unuseable. 
-
-<div class="keywords">beautiful, whitespace</div>
-
 <a id="deyan-petrov" class="testimonial-anchor"> &nbsp; </a>
 ---
 
@@ -376,25 +364,6 @@ performance problems mainly centered around excessive copying. The F# rewrite do
 The 10x performance gain was verified by the client.
 
 <div class="keywords">financial services, insurance, actuarial</div>
-
-<a id="trafigura-ad-1" class="testimonial-anchor"> &nbsp; </a>
----
-
-> Our risk and analytic capabilities (...) are entirely written in F#
-
-1. **Lawrence Austen**
-2. Chief Risk Officer at Trafigura
-3. [source](http://cs.hubfs.net/topic/None/59847), [permalink](#trafigura-ad-1)
-
-...work directly with Trafigura's Chief Risk Officer/Head of Quantitative Analysis, 
-cranking code and rapidly extending our risk and analytic capabilities, which are entirely 
-written in F#. 
-
-Trafigura Limited engages in the supply and offtake of crude oil, petroleum products, liquefied 
-petroleum gas, metals, and metal ores and concentrates worldwide. Its solutions include trading, 
-financing, hedging, and logistical support....
-
-<div class="keywords">comodities, trading, risk, analysis</div>
 
 <a id="yan-cui" class="testimonial-anchor"> &nbsp; </a>
 ---
@@ -655,19 +624,6 @@ The development exercise becomes catered towards optimization, performance tunin
 Functionality is not lost from the prototype due to miscommunication or rather crude documentation/requirements, which saves time in testing.
 Mass regression testing is easy with precise precision level differences between the prototype and the production system.
 
-<a id="julien-laugel-1" class="testimonial-anchor"> &nbsp; </a>
----
-
-> F# allows you to move smoothly in your programming style
-
-1. **Julien Laugel**, eurostocks.com
-2. [source](http://www.slideshare.net/lgayowski/taking-functional-programming-into-the-mainstream-eclipse-summit-europe-2009), [permalink](#julien-laugel-1)
-
-I've been coding in F# lately, for a production task. F# allows you to move smoothly in your 
-programming style... I start with pure functional code, shift slightly towards an object-oriented style, 
-and in production code, I sometimes have to do some imperative programming. I can start with a pure idea, and 
-still finish my project with realistic code. You're never disappointed in any phase of the project!
-
 <div class="keywords">imperative, functional, financial services, portfolio analysis</div>
 
 <a id="simon-cousins-2" class="testimonial-anchor"> &nbsp; </a>
@@ -852,7 +808,7 @@ I jumped for joy each time my code executed correctly on the first pass, and in 
 2. Associate Professor, Technical University of Denmark
 3. [permalink](#michael-hansen)
 
-Producing an [F#-based book](http://www.compute.dtu.dk/~mire/FSharpBook) on functional programming has been a fantastic experience.
+Producing an [F#-based book](http://www2.compute.dtu.dk/~mire/FSharpBook/index.html) on functional programming has been a fantastic experience.
 
 Using this material in an [F#-based course](http://www.compute.dtu.dk/courses/02157)
 introducing the fundamental concepts of functional programming has
@@ -896,7 +852,7 @@ problems in F#. A combination of functional and imperative F# with an
 occasional pinch of OO gives a very pleasing platform for program 
 development - once you have found your way through the wilderness of MSDN 
 documentation (newcomers to the MSDN world may benefit from the 
-MSDN library documentation found on the [web-site of the book](http://www.compute.dtu.dk/~mire/FSharpBook)). 
+MSDN library documentation found on the [web-site of the book](http://www2.compute.dtu.dk/~mire/FSharpBook/index.html). 
 All of Chapter 10 and part of Chapter 11 present program examples using 
 this programming style.
 
@@ -1264,22 +1220,6 @@ languages and use them where they're needed.
 
 <div class="keywords">domain modeling, immutability</div>
 
-<a id="antonio-hayley-1" class="testimonial-anchor"> &nbsp; </a>
----
-
-> I'd recommend F#... learning another language is one way to become a better programmer.
-
-1. **Antonio Hayley**
-2. [source](http://stackoverflow.com/a/179357), [permalink](#antonio-hayley-1)
-
-I'd recommend F# to a die hard C# developer just because learning another language 
-is one way a programmer can get out of a local maxima and 
-become a better programmer. And F# isn't just a different set of semantics on top of 
-the same syntax as most imperative languages are, 
-it's a totally different programming style. All the more to expand the capabilities 
-and understanding of a programmer.
-
-<div class="keywords">learning, imperative, functional</div>
 
 <a id="microsoft-narwhal-1" class="testimonial-anchor"> &nbsp; </a>
 ---
