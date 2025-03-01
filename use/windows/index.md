@@ -77,7 +77,7 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 2. Install the latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd).
 
-You will also need either to install Visual Studio or to follow the steps [here](https://rider-support.jetbrains.com/hc/en-us/articles/207288089-Using-Rider-under-Windows-without-Visual-Studio-prerequisites) if you need to use the older .NET Framework instead of .NET Core.
+You will also need either to install Visual Studio or to follow the steps [here](https://rider-support.jetbrains.com/hc/en-us/articles/207288089-Using-Rider-on-Windows-without-Visual-Studio-prerequisites) if you need to use the older .NET Framework instead of .NET Core.
 
 <br />
 

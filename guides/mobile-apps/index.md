@@ -34,7 +34,7 @@ Mobile.
 
   * [F# Platform Game Series](https://www.youtube.com/playlist?list=PLIH3o_QrxxcfNMC3TjZ5NlHnB1AmcyaiV) - A YouTube series on building a platform game from scratch using F# and MonoGame
 
-  * [Making an endless runner game in F# using MonoGame](http://timjones.tw/blog/archive/2014/12/28/make-santa-jump-game-in-fsharp-using-monogame)
+  * [Making an endless runner game in F# using MonoGame](http://timjones.io/blog/archive/2014/12/28/make-santa-jump-game-in-fsharp-using-monogame)
 
 * [Unity3D](https://github.com/eriksvedang/FSharp-Unity) Unity3D is a popular closed source game engine. 
  

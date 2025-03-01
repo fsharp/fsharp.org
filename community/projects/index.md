@@ -58,7 +58,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/FSharp.Formatting.png)&nbsp;[FSharp.Formatting](http://fsprojects.github.io/FSharp.Formatting) - F# tools for generating documentation: Markdown processor and F# code formatter
 
-*  ![logo](../../images/thumbs/FSDN.png)&nbsp;[FSDN](http://fsdn.azurewebsites.net/) - FSDN is a web application that uses F# API Search library. F# API Search library supports the standard signature of F# with some extentions. This document describes the F# API Search library specific formats.
+*  ![logo](../../images/thumbs/FSDN.png)&nbsp;[FSDN](https://github.com/fsdn-projects/FSDN) - FSDN is a web application that uses F# API Search library. F# API Search library supports the standard signature of F# with some extentions. This document describes the F# API Search library specific formats.
 
 <br />
 
@@ -86,7 +86,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/FSharpx.Collections.png)&nbsp;[FSharpx.Collections](http://fsprojects.github.io/FSharpx.Collections/) - A set of functional programming collections for F#.
 
-*  [Aether](https://xyncro.tech/aether) - An optics (lenses, prisms, morphisms) library for F# that enables  powerful ways of working with data structures.
+*  [Aether](https://github.com/xyncro/aether) - An optics (lenses, prisms, morphisms) library for F# that enables  powerful ways of working with data structures.
 
 *  [F# Snippets](http://fssnip.net/) - A community-contributed catalog of F# Snippets
 
@@ -114,9 +114,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/FSharp.Data.Toolbox.png)&nbsp;[FSharp.Data.Toolbox](http://fsprojects.github.io/FSharp.Data.Toolbox) - F# Data-based library for various data access APIs, includes a Twitter access package.
 
-*  [Chiron](https://xyncro.tech/chiron) - A library for functional JSON in F#, including parsing, formatting, serialization and deserialization (through explicit object mapping), and working effectively with complex JSON data.
-
-*  [Apiary Provider](http://fsprojects.github.io/ApiaryProvider) - A type provider that makes it possible to easily call REST services that are documented using the apiary.io service.
+*  [Chiron](https://github.com/xyncro/chiron) - A library for functional JSON in F#, including parsing, formatting, serialization and deserialization (through explicit object mapping), and working effectively with complex JSON data.
 
 *  ![logo](../../images/thumbs/FSharp.Data.SqlClient.png)&nbsp;[FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient/) - use SQL to specify queries, explore Stored Procedures, User Defined Types and Functions with auto-complete right in your F# code.
 
@@ -132,9 +130,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [Azure Storage Type Provider](http://fsprojects.github.io/AzureStorageTypeProvider/) - A type provider for Azure Storage assets e.g. Blobs and Tables.
 
-*  ![logo](../../images/thumbs/HiveProvider.png)&nbsp;[FSharp.Data.HiveProvider](http://fsprojects.github.io/FSharp.Data.HiveProvider) - An F# type provider for writing simple Hive/Hadoop queries. Contributions welcome!
-
-*  ![logo](../../images/thumbs/DAXIFsharp.png)&nbsp;[DAXIF# - Delegate Automated Xrm Installation Framework](http://delegateas.github.io/Delegate.DAXIFsharp/) - A set of tools that in combination with other Microsoft Tools, make it easier to work with Microsoft Dynamics CRM/xRM on a daily basis, also for developers who are not familiar with the platform.
+*  ![logo](../../images/thumbs/DAXIFsharp.png)&nbsp;[DAXIF# - Delegate Automated Xrm Installation Framework](https://github.com/delegateas/Daxif) - A set of tools that in combination with other Microsoft Tools, make it easier to work with Microsoft Dynamics CRM/xRM on a daily basis, also for developers who are not familiar with the platform.
 
 * ![logo](../../images/thumbs/sqlfun-small.png)&nbsp;[SqlFun](https://jacentino.github.io/SqlFun) - An SQL database access library. Supports direct SQL calls, automatic CRUD operations, stored procedures, collection parameters and complex result structures. Allows to define custom query DSL-s. Type safe and idiomatically functional.
 
@@ -180,9 +176,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
    algorithms including linear algebra, special functions, statistics, probability models,
    interpolation and FFTs. Supports F# 3.0+ with idiomatic extension modules.
 
-*  ![logo](../../images/thumbs/fuzzy.png)&nbsp;[FSharp.Numerics.FuzzyIntervals](http://fsprojects.github.io/FSharp.Numerics.FuzzyIntervals/) - A basic math library of fuzzy
-   and interval calculus with examples
-
 *  ![logo](../../images/thumbs/DiffSharpLogoSmall.png)&nbsp;[DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library for exact and efficient calculation of derivatives (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products). Also includes symbolic and numerical differentiation.
 
 *  ![logo](../../images/thumbs/FsAlgLogoSmall.png)&nbsp;[FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library supporting generic types.
@@ -199,12 +192,9 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="ui" class="anchor">Community Projects: Client User Interfaces</h2>
 
-*  [Interstellar](https://jwosty.github.io/Interstellar/) - A library that enables the creation of cross-platform browser-based applications. It abstracts around various different browser APIs, so your application can use either Chromium or Apple WebKit.
+*  [Interstellar](https://fsprojects.github.io/Interstellar/) - A library that enables the creation of cross-platform browser-based applications. It abstracts around various different browser APIs, so your application can use either Chromium or Apple WebKit.
 
 *  [FsXaml](https://github.com/fsprojects/FsXaml) - F# Tools for working with XAML Projects
-
-*  ![logo](../../images/thumbs/FSharp.Desktop.UI.png)&nbsp;[FSharp.Desktop.UI](http://fsprojects.github.io/FSharp.Desktop.UI/) - A community
-  framework to take advantage of the F# language features to create truly type-safe WPF applications.
 
 *  [FSharp.ViewModule](https://github.com/fsprojects/FSharp.ViewModule/) - Type provider to generate an MVVM style ViewModel directly from an idiomatic F# module.
 
@@ -215,9 +205,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  ![logo](../../images/thumbs/ExcelFinancialFunctions.png)&nbsp;[ExcelFinancialFunctions](http://fsprojects.github.io/ExcelFinancialFunctions/) - Excel Financial functions, implemented in F#, with a high degree of conformance testing.
 
 *  [Spreads](https://github.com/Spreads/Spreads/#spreads) - Spreads is an ultra-fast library for complex event processing and time series manipulation.  Spreads is a library, not a framework, and could be plugged into existing code bases and used immediately. Even though the primary domain is financial data, Spreads is designed as a generic complex event processing library.
-
-*  ![logo](../../images/thumbs/FSharp.Data.png)&nbsp;[The Xenomorph Provider for F#](http://fsprojects.github.io/FSharp.Data.Experimental.XenomorphProvider/) - Connects F# to Xenomorph TimeScape(TM) using a type provider.
-
 
 <br />
 
@@ -248,11 +235,9 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 * [Firm](http://andagr.github.io/Firm/) - A blog aware, static site generation using F#. It supports stand-alone pages, blog posts, rss, tags (tag cloud) and post archive. Templates are written in Razor. Posts and pages are written in Markdown.
 
-* [Nini](https://github.com/YoloDev/Nini) - A micro web framework for DNX (ASP.NET vNext).
-
 * [Falco](https://github.com/pimbrouwers/Falco) - A functional micro-library for building brilliant ASP.NET Core applications using F#. Low barrier to entry for those new to functional programming.
 
-* [Interstellar](https://jwosty.github.io/Interstellar/) - A library that enables the creation of cross-platform browser-based applications. It abstracts around various different browser APIs, so your application can use either Chromium or Apple WebKit.
+* [Interstellar](https://github.com/fsprojects/Interstellar) - A library that enables the creation of cross-platform browser-based applications. It abstracts around various different browser APIs, so your application can use either Chromium or Apple WebKit.
 
 <br />
 
@@ -277,7 +262,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
    *  [ResXTypeProvider](http://fsprojects.github.io/FSharp.Configuration/ResXProvider.html) - Typed access to .resx files.
 
-   *  [YamlTypeProvider](http://fsprojects.github.io/FSharp.Configuration/YamlProvider.html) - Typed access to Yaml.
+   *  [YamlConfigProvider](https://fsprojects.github.io/FSharp.Configuration/YamlConfigProvider.html) - Typed access to Yaml.
 
 <br />
 
@@ -307,8 +292,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
    .NET written in F# that doubles as a pickler combinator library.
 
 *  ![logo](../../images/thumbs/nessos.png)&nbsp;[Vagabond](http://mbraceproject.github.io/Vagabond/) - A library for distributing dynamic assemblies.
-
-*  ![logo](../../images/thumbs/filbert.png)&nbsp;[Filbert](http://fsprojects.github.io/Filbert/) - A simple BERT serializer and BERT-RPC client for .Net written in F#.
 
 *  ![logo](../../images/thumbs/AkkaDotNET.png)&nbsp;[Akka.NET](https://github.com/akkadotnet/akka.net) - .NET community port of the Java/Scala framework Akka.
 
@@ -390,7 +373,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="textsearch" class="anchor">Community Projects: Text Search Tools</h2>
 
-*  ![logo](../../images/thumbs/FlexSearch.png)&nbsp;[FlexSearch](http://www.flexsearch.net/) Flexible and fast open source F# based Search Engine
+*  ![logo](../../images/thumbs/FlexSearch.png)&nbsp;[FlexSearch](https://github.com/FlexSearch/FlexSearch) Flexible and fast open source F# based Search Engine
 
 * [MITIE-Dot-Net](https://github.com/BayardRock/MITIE-Dot-Net/blob/master/README.md) - A Nice .NET Wrapper for the MITIE Information Extraction Library (Written in F#, but fully C# compatible)
 

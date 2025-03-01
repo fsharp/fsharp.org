@@ -244,8 +244,6 @@ build web applications with F#:
 
 * [F# 3.0: data, services, Web, cloud, at your fingertips](http://channel9.msdn.com/Events/Build/BUILD2011/SAC-904T)
 
-* [F# Introduction](http://skillsmatter.com/podcast/scala/phil-trelford-f-introduction)
-
 ------
 
 ## Hosting
@@ -253,7 +251,7 @@ build web applications with F#:
 
 Common hosting options are:
 
-* [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](http://blog.ashleytowns.id.au/posts/2013-04/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
+* [Heroku](http://heroku.com/) - See, for example, [F#, ServiceStack and Heroku](https://github.com/kunjee17/ServiceStackHeroku) and complete article about [hosting NancyFx and F# on Heroku](https://blog.ashleytowns.id.au/posts/2013-04-01-running-csharp-fsharp-xbuild-nuget-on-heroku.html)
 
 * [Azure Web Sites](http://www.windowsazure.com/) - Create and deploy to free Azure web sites from Visual Studio and other tools
 

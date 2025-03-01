@@ -63,7 +63,7 @@ Eager to learn F#? Learning a new language, yet a new paradigm, can be very daun
 
 Learn F# by just filling in the gaps! The F# Koans are a fun set of code snippets where you have to fill in gaps to get tests to pass, and you learn the language along the way.  Also available as a [snippet](http://fssnip.net/bG) which can be loaded into interactive environments or your editor of choice.
 
-### [F# Workshop Materials](http://fsharpworkshop.com/)
+### [F# Workshop Materials](https://github.com/jorgef/fsharpworkshop)
 
 Material from the F# Introduction Workshop created by Jorge Fioranelli.
 
@@ -109,9 +109,9 @@ What You'll Learn
 - Appreciate the methods available to handle unknown data values
 - Understand asynchronous and parallel programming in F#, and how it differs from C# asynchronous programming
 
-### [Essential Functional-First F#](https://leanpub.com/essential-fsharp)
+### [Essential F#](https://leanpub.com/essential-fsharp)
 
-<img src="/learn/files/BookEFFF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookEFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Ian Russell_
 
@@ -185,7 +185,7 @@ differs from other approaches. It explains how ideas look in F#-a
 functional language-as well as how they can be successfully used to solve
 programming problems in C#.
 
-### [F# for Quantitative Finance](https://www.packtpub.com/big-data-and-business-intelligence/f-quantitative-finance)
+### [F# for Quantitative Finance](https://www.packtpub.com/en-us/product/f-for-quantitative-finance-9781782164630)
 
 <img src="/learn/files/BookFQF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -270,7 +270,7 @@ _Mathias Brandewinder_
 
 Machine Learning Projects for .NET Developers shows you how to build smarter .NET applications that learn from data, using simple algorithms and techniques that can be applied to a wide range of real-world problems.
 
-### [Mastering .NET Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/mastering-net-machine-learning)
+### [Mastering .NET Machine Learning](https://www.packtpub.com/en-us/product/mastering-net-machine-learning-9781785881190)
 
 <img src="/learn/files/MasterDotNetML.PNG" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -312,7 +312,7 @@ In this book you will read:
 - Databases (Sql Server, Query Expressions, Type Providers, ...)
 - User Interfaces (Windows Forms, WPF, GTK#)
 
-### [F# Applied](https://www.demystifyfp.com/FsApplied)
+### [F# Applied](https://www.tamizhvendan.in/book/FsApplied/)
 
 <img src="/learn/files/BookFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -327,7 +327,7 @@ In this book you will read:
 - How to set up continuous integration and continuous deployment using FAKE and Docker
 - How to leverage libraries like Rx, FSharp.Data and Paket
 
-### [F# 4.0 Design Patterns](https://www.packtpub.com/application-development/f-40-design-patterns)
+### [F# 4.0 Design Patterns](https://www.packtpub.com/en-us/product/f-40-design-patterns-9781785889516)
 
 <img src="/learn/files/BookFS4DP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -346,7 +346,7 @@ In this book you will:
 - Navigate and use F# Core libraries with ease by seeing patterns behind specific library functions
 - Master writing generic polymorphic code
 
-### [Mastering F#](https://www.packtpub.com/application-development/mastering-f)
+### [Mastering F#](https://www.packtpub.com/en-us/product/mastering-f-9781784393434)
 
 <img src="/learn/files/BookMFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -364,7 +364,7 @@ In this book you will:
 - Find out how to perform distributed programming with ServiceBus or ZeroMQ
 - Visualize data with charts, and work with Excel and R language Type providers
 
-### [F# High Performance](https://www.packtpub.com/application-development/f-high-performance)
+### [F# High Performance](https://www.packtpub.com/en-us/product/f-high-performance-9781786462992)
 
 <img src="/learn/files/BookFSHP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
@@ -381,9 +381,9 @@ In this book you will:
 - Combine the best practice of asynchronous and synchronous
 - Optimize further using various F# language constructs
 
-### [Learning Basics of Functional Programming (Integrated Course)](https://www.packtpub.com/web-development/learning-basics-functional-programming-integrated-course)
+### [Learning Functional Programming with F#: Get started on building end-to-end web applications with F#](https://www.packtpub.com/en-us/product/learning-functional-programming-with-f-9781788477840)
 
-<img src="/learn/files/CourrseLBFP.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/CourseLFPWFS.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Onur Gumus_
 
@@ -405,7 +405,7 @@ This book is the first and the only F# book in Turkish. The book covers F# and g
 F#, aktif ve bağımsız geliştirici topluluğu tarafından yön verilen, özellikle bulut teknolojileri, veri analizi ve bilimsel çalışmalarda kullanımı her geçen gün artan sade ve şık bir programlama dilidir.
 F# ile Microsoft'un .NET platformu üzerinde Windows, Linux ve OSX işletim sistemlerinde çalışabilen her çapta ve özllikte uygulamalar geliştirebilirsiniz. Hatta sistem yönetimi scriptlerinizi bile F# ile oluşturabilirsiniz. F# ile Fonksiyonel Programlama kitabında F#'ın sunduğu tüm bu imkanlar ile sizi tanıştırmayı ve bol kod örnekleri ile F#'ı özümsemenizi hedefliyoruz.
 
-### [Building F# Applications (Video)](https://www.packtpub.com/application-development/building-f-applications-video)
+### [Building F# Applications (Video)](https://www.packtpub.com/en-us/product/building-f-applications-9781788298858)
 
 <img src="../learn/files/VideoBFA.jpg" style="float:right;margin:5px 0px 5px 25px;" />
 
