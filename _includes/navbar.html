@@ -1,0 +1,212 @@
+<nav id="nav-bar" hx-preserve
+    class="z-20 px-6 xl:px-0  bg-brand-dark dark:bg-brand-light text-white overflow-x-clip dark:text-slate-950 sticky left-0 right-0 top-0"
+    x-data="{
+        mobileNavOpen: false,
+        theme: localStorage.theme ?? null,
+        initDarkMode() {
+            // Set up listener for system preference changes
+            const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+            
+            // Initial check based on system preference if no explicit theme is set
+            if (this.theme === null && darkModeMediaQuery.matches) {
+                document.documentElement.classList.add('dark');
+            }
+            
+            // Listen for changes in system preference
+            darkModeMediaQuery.addEventListener('change', (e) => {
+                if (this.theme === null) {
+                    if (e.matches) {
+                        document.documentElement.classList.add('dark');
+                    } else {
+                        document.documentElement.classList.remove('dark');
+                    }
+                }
+            });
+        }
+    }" x-init="initDarkMode()" @click.away="mobileNavOpen = false">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="flex flex-row h-12 items-center">
+
+            <a class="navbar-brand mr-auto gap-2 flex flex-row items-center" href="{{ '/' | relative_url }}"
+                @click="open=false; mobileNavOpen=false;">
+                <img class="inline dark:hidden" src="{{ '/img/logo/fsharp100mclight.png' | relative_url }}"
+                    alt="F# Logo" width="30" height="30" />
+                <img class="hidden dark:inline" src="{{ '/img/logo/fsharp100mcdark.png' | relative_url }}" alt="F# Logo"
+                    width="30" height="30" />
+                <span class="font-heading">F# Software Foundation</span>
+            </a>
+
+            <button @click="mobileNavOpen = !mobileNavOpen" class="visible md:hidden" type="button">
+                <i class="fa-solid fa-bars ml-auto "></i>
+            </button>
+
+            <div x-bind:aria-expanded="mobileNavOpen"
+                class='bg-brand-light transition-transform p-2 md:p-0 z-20 translate-x-0 md:translate-0  aria-expanded:-translate-x-72  ease-out duration-300 w-72 md:w-auto aria-expanded:flex h-screen md:h-auto overflow-y-auto md:overflow-y-visible absolute top-12 -right-72 md:static md:bg-transparent md:flex flex-col md:flex-row md:align-items-stretch '>
+
+                <!-- <a class="navbar-brand md:hidden px-4 py-2 mr-auto gap-2 flex flex-row items-center" href="{{ '/' | relative_url }}"
+                    @click="open=false; mobileNavOpen=false;">
+                    <img class="inline dark:hidden" src="{{ '/img/logo/fsharp100mclight.png' | relative_url }}" alt="F# Logo" width="30" height="30" />
+                    <img class="hidden dark:inline" src="{{ '/img/logo/fsharp100mcdark.png' | relative_url }}" alt="F# Logo" width="30" height="30" />
+                    <span class="font-heading">F# Software Foundation</span>
+                </a> -->
+
+                <div class="nav-item" x-data="{open: false}" @click.away="open= false">
+                    <button type="button" @click="open=!open" x-bind:aria-expanded="open">
+                        Learn <i class="fa-solid fa-chevron-down text-white/70 dark:text-slate-950/70"></i>
+                    </button>
+
+                    <div x-cloak @click="open=false; mobileNavOpen=false;" x-transition x-show="open" role="menu"
+                        aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                        <div role="none">
+                            <!-- Active: "bg-gray-100 text-gray-900 outline-hidden", Not Active: "text-gray-700" -->
+                            <a href="{{ '/learn' | relative_url }}" role="menuitem" class="group" tabindex="-1">Learn
+                                F#</a>
+                            <a href="{{ '/docs' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Documentation</a>
+                            <a href="{{ '/testimonials' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Testimonials</a>
+                            <a href="{{ '/teaching/research' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Publications</a>
+                            <a href="https://www.youtube.com/c/fsharporg" role="menuitem" class="group"
+                                tabindex="-1">Videos (FSFF channel)</a>
+                            <a href="https://www.youtube.com/results?search_query=learn+f%23" role="menuitem"
+                                class="group" tabindex="-1">Videos <span class="badge">unaffiliated</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-item" x-data="{open: false}" @click.away="open= false">
+                    <button type="button" @click="open=!open" x-bind:aria-expanded="open">
+                        Use <i class="fa-solid fa-chevron-down text-white/70 dark:text-slate-950/70"></i></i>
+                    </button>
+
+                    {% include usemenu.html %}
+                </div>
+
+                <div class="nav-item" x-data="{open: false}" @click.away="open= false">
+                    <button type="button" @click="open=!open" x-bind:aria-expanded="open">
+                        Guides <i class="fa-solid fa-chevron-down text-white/70 dark:text-slate-950/70"></i>
+                    </button>
+
+                    <div x-cloak @click="open=false; mobileNavOpen=false;" x-transition x-show="open" role="menu"
+                        aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                        <div role="none">
+                            <a href="{{ '/guides/cloud/' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Cloud</a>
+                            <a href="{{ '/guides/data-access/' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Data Access</a>
+                            <a href="{{ '/guides/data-science/' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Data Science</a>
+                            <a href="{{ '/guides/enterprise/' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Enterprise</a>
+                            <a href="{{ '/guides/mobile-apps/' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Mobile Apps</a>
+                            <a href="{{ '/guides/web/' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-item" x-data="{open: false}" @click.away="open= false">
+                    <button type="button" @click="open=!open" x-bind:aria-expanded="open">
+                        Community <i class="fa-solid fa-chevron-down text-white/70 dark:text-slate-950/70"></i>
+                    </button>
+
+                    <div x-cloak @click="open=false; mobileNavOpen=false;" x-transition x-show="open" role="menu"
+                        aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                        <div role="none">
+                            <a href="{{ '/guides/engineering/issues' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">
+                                <i class="fa-solid fa-screwdriver-wrench"></i> Contribute a Fix / Report an Issue
+                            </a>
+                        </div>
+                        <div role="none">
+                            <a role="menuitem" class="group" href="{{ '/community/projects/' | relative_url }}">F# Community Projects</a>
+                            <a role="menuitem" class="group" href="http://www.fssnip.net/">F# Code Snippets</a>
+                            <a role="menuitem" class="group"
+                                href="http://codereview.stackexchange.com/questions/tagged/f%23">F# Code Review <span
+                                    class="badge">unaffiliated</span></a>
+                        </div>
+                        <div role="none">
+                            <a role="menuitem" class="group" href="https://community.fsharp.org/user_groups">User
+                                Groups</a>
+                            <a role="menuitem" class="group" href="https://community.fsharp.org/speakers">Speakers
+                                Program</a>
+                        </div>
+                        <div role="none">
+                            <a role="menuitem" class="group" href="https://forums.fsharp.org">
+                                <i class="fa-solid fa-table-list"></i> Forum
+                            </a>
+                            <a href="{{ '/guides/slack' | relative_url }}" role="menuitem" class="group" tabindex="-1">
+                                <i class="fa-brands fa-slack"></i> Slack
+                            </a>
+                            <a role="menuitem" class="group" href="https://discord.gg/R6n7c54">
+                                <i class="fa-brands fa-discord"></i> Discord <span class="badge">unaffiliated</span>
+                            </a>
+                            <a href="https://bsky.app/starter-pack/blizard.io/3la4zswhqbt2e" role="menuitem"
+                                class="group" tabindex="-1">
+                                <i class="fa-brands fa-bluesky"></i> Bluesky <span class="badge">unaffiliated</span>
+                            </a>
+                            <a role="menuitem" class="group" href="https://x.com/search?q=%23fsharp">
+                                <i class="fa-brands fa-x-twitter"></i> X.com <span class="badge">unaffiliated</span>
+                            </a>
+                            <a role="menuitem" class="group" href="https://www.reddit.com/r/fsharp/">
+                                <i class="fa-brands fa-reddit"></i> Reddit <span class="badge">unaffiliated</span>
+                            </a>
+                            <a role="menuitem" class="group" href="http://stackoverflow.com/questions/tagged/f%23">
+                                <i class="fa-brands fa-stack-overflow"></i> StackOverflow <span
+                                    class="badge">unaffiliated</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-item" x-data="{open: false}" @click.away="open= false">
+                    <button type="button" @click="open=!open" x-bind:aria-expanded="open">
+                        Foundation <i class="fa-solid fa-chevron-down text-white/70 dark:text-slate-950/70"></i>
+                    </button>
+
+                    <div x-cloak @click="open=false; mobileNavOpen=false;" x-transition x-show="open" role="menu"
+                        aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                        <div role="none">
+                            <a role="menuitem" href="https://foundation.fsharp.org">Mission statement</a>
+                            <a role="menuitem" href="https://foundation.fsharp.org/join">Join</a>
+                            <a role="menuitem" href="https://foundation.fsharp.org/announcements">Announcements</a>
+                            <a role="menuitem" href="https://foundation.fsharp.org/member_roster">Member Roster</a>
+                            <a role="menuitem" href="https://foundation.fsharp.org/code_of_conduct">Code of Conduct</a>
+                            <a role="menuitem" href="https://foundation.fsharp.org/donate">Donate</a>
+                            <a role="menuitem" href="https://foundation.fsharp.org/logo">F# Logo</a>
+                            <a role="menuitem" href="https://foundation.fsharp.org/contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" type="button" class="w-6 ml-2">
+                    <i x-show="theme == null"
+                        @click="localStorage.theme = 'dark'; theme = 'dark'; document.documentElement.classList.add('dark')"
+                        class="ml-auto fa-solid fa-circle-half-stroke"></i>
+                    <i x-cloak x-show="theme === 'dark'"
+                        @click="localStorage.theme = 'light'; theme = 'light'; document.documentElement.classList.remove('dark')"
+                        class="ml-auto fa-solid fa-moon"></i>
+                    <i x-cloak x-show="theme === 'light'"
+                        @click="localStorage.removeItem('theme'); theme = null; if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.classList.add('dark')"
+                        class="ml-auto fa-solid fa-sun"></i>
+                </button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div x-cloak @click="mobileNavOpen=false" x-transition.opacity.duration.300 x-show="mobileNavOpen"
+        class="fixed inset-0 top-12 z-10 bg-black/30" ></div>
+
+
+</nav>
+
+<div class="htmx-indicator" hx-preserve id="loading-strip"></div>
+
+

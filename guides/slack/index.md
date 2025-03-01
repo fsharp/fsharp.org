@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Guide - F# on Slack | The F# Software Foundation
-headline: Guide - F# Slack Team
+title: F# on Slack | The F# Software Foundation
+headline: F# Slack Team
 ---
 
 ## F# Software Foundation Slack

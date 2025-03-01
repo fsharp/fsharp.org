@@ -1,9 +1,12 @@
 ---
-layout: default
+layout: main
 ---
 
-<div class="row">
-	<div class="{{page.class}}" id="contentMain">
+<div class="w-full px-6">
+    <div class="max-w-6xl mx-auto py-12">
+		<div class="page-header">
+			<h1 class="text-3xl dark:text-white font-bold mb-12">{{ page.headline }}</h1>
+		</div>
 		{{ content }}
 	</div>
 </div>  

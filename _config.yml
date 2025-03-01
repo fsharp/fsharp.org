@@ -1,5 +1,23 @@
-safe: true
 encoding: utf-8
 markdown: kramdown
+  
+include:
+ - /css/*
+
+exclude:
+ - package-lock.json
+ - node_modules
+ - package.json
+ - postcss.config.js
+ - tailwind.config.js
+
 gems:
   - jekyll-redirect-from
+
+collections:
+  testimonials:
+    output: false
+    permalink: /testimonials/#:id
+    
+
+

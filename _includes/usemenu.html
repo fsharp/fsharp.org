@@ -1,0 +1,16 @@
+<div x-cloak @click="open=false; mobileNavOpen=false;" x-transition x-show="open" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+    <div role="none">
+        <a href="{{ '/use/mac/' | relative_url }}" role="menuitem" class="group" tabindex="-1"><i class="fa-brands fa-apple"></i> F# on Mac</a>
+        <a href="{{ '/use/linux/' | relative_url }}" role="menuitem" class="group" tabindex="-1"><i class="fa-brands fa-linux"></i> F# on Linux</a>
+        <a href="{{ '/use/windows/' | relative_url }}" role="menuitem" class="group" tabindex="-1"><i class="fa-brands fa-microsoft"></i> F# on Windows</a>
+    </div>
+    <div role="none">
+        <a href="{{ '/use/desktop-apps/' | relative_url }}" role="menuitem" class="group" tabindex="-1"><i class="fa-solid fa-computer"></i> F# for Desktop Apps</a>
+        <a href="{{ '/use/mobile-apps/' | relative_url }}" role="menuitem" class="group" tabindex="-1"><i class="fa-solid fa-mobile-screen-button"></i> F# for Mobile Apps</a>
+        <a href="{{ '/use/web-apps/' | relative_url }}" role="menuitem" class="group" tabindex="-1"><i class="fa-solid fa-globe"></i> F# for Web Apps</a>
+        <a href="{{ '/use/notebooks/' | relative_url }}" role="menuitem" class="group" tabindex="-1"><i class="fa-solid fa-book"></i> F# for Jupyter Notebooks</a>
+    </div>
+    <div role="none">
+        <a href="{{ '/use/browser/' | relative_url }}" role="menuitem" class="group" tabindex="-1"><i class="fa-solid fa-globe"></i> F# in the browser</a>
+    </div>
+</div>

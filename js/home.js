@@ -1,34 +1,36 @@
-function feedLoaded(result) {
-    if (result.status === "ok") {
-        var newsContent = document.getElementById("news-list");
 
-        var count = 1;
-        var entries = result.items;
-        for (var i = 0; i < entries.length; i++) {
-            var entry = entries[i];
-            try {
-                var li = document.createElement("li");
-                li.setAttribute("class", "list-group-item")
-                var h4 = document.createElement("h4");
-                h4.setAttribute("class", "list-group-item-heading");
-                var a = document.createElement("a");
-                var p = document.createElement("p");
-                a.appendChild(document.createTextNode(entry.title.trim()));
-                a.href = entry.link;
-                a.target = "_blank"
-                h4.appendChild(a);
-                // p.appendChild(document.createTextNode(entry.content.trim()));
-                li.appendChild(h4);
-                li.appendChild(p);
-                newsContent.appendChild(li);
 
-                if (++count > 5) return;
-            } catch (e) {
-                // If something goes wrong, we just ignore the error...
-            }
-        }
-    }
-}
+// function feedLoaded(result) {
+//     if (result.status === "ok") {
+//         var newsContent = document.getElementById("news-list");
+
+//         var count = 1;
+//         var entries = result.items;
+//         for (var i = 0; i < entries.length; i++) {
+//             var entry = entries[i];
+//             try {
+//                 var li = document.createElement("li");
+//                 li.setAttribute("class", "list-group-item")
+//                 var h4 = document.createElement("h4");
+//                 h4.setAttribute("class", "list-group-item-heading");
+//                 var a = document.createElement("a");
+//                 var p = document.createElement("p");
+//                 a.appendChild(document.createTextNode(entry.title.trim()));
+//                 a.href = entry.link;
+//                 a.target = "_blank"
+//                 h4.appendChild(a);
+//                 // p.appendChild(document.createTextNode(entry.content.trim()));
+//                 li.appendChild(h4);
+//                 li.appendChild(p);
+//                 newsContent.appendChild(li);
+
+//                 if (++count > 5) return;
+//             } catch (e) {
+//                 // If something goes wrong, we just ignore the error...
+//             }
+//         }
+//     }
+// }
 
 function shuffle(array) {
     var currentIndex = array.length,
@@ -62,23 +64,31 @@ function shuffleTestimonials() {
     $.getJSON("testimonials.json", function(data) {
         var arr = shuffle(data).slice(0, 6);
         var testimonials = $.map(arr, function(x) {
+            var fig = document.createElement("figure");
+            fig.classList.add("pb-3");
             var b = document.createElement("blockquote");
+            b.setAttribute("class", "blockquote");
             var p = document.createElement("p");
             var link = document.createElement("a");
             link.setAttribute("href", x.Permalink);
             link.setAttribute("class", "testimonial");
+            link.classList.add("text-decoration-none");
+            //link.classList.add("text-primary");
             link.text = x.Text;
             p.appendChild(link);
-            var f = document.createElement("footer");
+            var f = document.createElement("figcaption");
+            f.classList.add("blockquote-footer");
             var c = document.createElement("cite");
             var a = document.createElement("a");
             a.setAttribute("href", x.Permalink);
             a.textContent = x.Author;
             c.appendChild(a);
             f.appendChild(c);
-            b.appendChild(p);
-            b.appendChild(f);
-            return b;
+            b.appendChild(p)
+            fig.appendChild(b);
+            fig.appendChild(f);
+            
+            return fig;
         });
 
         var col1 = $("#testimonials-col-1");
@@ -95,13 +105,13 @@ function shuffleTestimonials() {
 }
 
 $(function() {
-    $.ajax({
-        url: 'https://api.rss2json.com/v1/api.json?rss_url=http://fpish.net/rss/blogs/tag/1/f~23',
-        dataType: 'json',
-        success: function(data) {
-            feedLoaded(data);
-        }
-    });
+    // $.ajax({
+    //     url: 'https://api.rss2json.com/v1/api.json?rss_url=http://fpish.net/rss/blogs/tag/1/f~23',
+    //     dataType: 'json',
+    //     success: function(data) {
+    //         feedLoaded(data);
+    //     }
+    // });
 
     shuffleSupporters();
     $("#supporter-container").show();

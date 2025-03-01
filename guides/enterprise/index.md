@@ -49,9 +49,6 @@ The benefits of F# for enterprise development are:
 * auto-gen TOC:
 {:toc}
 
-
-<br />
-
 ### Benefits of F# for enterprise and line-of-business applications
 
 * [The F# Way To Relaxation](https://vimeo.com/113594249) (video).
@@ -66,7 +63,6 @@ Many developers have posted on why they like F#:
 * [Why F#?](http://davefancher.com/2013/01/27/why-f/)
 * [A list of many other "Why F#" posts](https://sergeytihon.wordpress.com/2013/03/24/why-f-by-f-weekly/).
 
-<br />
 
 ### A tour of F# features ###
 
@@ -74,7 +70,6 @@ Many developers have posted on why they like F#:
 * [Why use F#?](http://fsharpforfunandprofit.com/series/why-use-fsharp.html).
   This series of posts will give you a guided tour through the main features of F#.
   
-<br />
 
 ### Low risk ways to use F# ###
 
@@ -84,23 +79,17 @@ You can easily try out F# for non-critical development tasks such as testing and
   This series suggests a number of ways you can use F# in a low-risk, incremental way,
   without affecting any mission critical code.
   
-<br />
-
 #### F# for build automation
   
 * [Scott Hanselman on FAKE](http://www.hanselman.com/blog/ExploringFAKEAnFBuildSystemForAllOfNET.aspx).
   FAKE is a build system that uses F# as its scripting language, but can be used to build any .NET project.
   
-<br />
-
 #### F# for testing .NET systems
   
 * [Testing .NET systems with F#](http://www.slideshare.net/bartelink/testing-cinfdublinaltnet2013)  
 * [F# As A Unit Testing Language](http://trelford.com/blog/post/fstestlang.aspx).  
 * [Scott Hanselman on Canopy](http://www.hanselman.com/blog/NuGetPackageOfTheWeekCanopyWebTestingFrameworkWithF.aspx).
   Canopy is a web testing framework that uses F# as its scripting language.
-
-<br />
 
 ### Fewer errors, less maintenance
 
@@ -111,8 +100,6 @@ and units of measure can be used to avoid accidental mixups of incompatible numb
 * [It just works](https://neildanson.wordpress.com/2014/03/04/it-just-works/)
 * [Why You Must Learn F# - Even If You Aren’t Writing Rocket Science Apps](http://www.codemag.com/Article/1203081)
 
-<br />
-
 ### F# code is engineered for testing
 
 Functional programming does not use state and the logic tends to be linear,
@@ -122,8 +109,6 @@ and there are no tangled webs of dependencies.
 * [Already Engineered for Testability](http://jackfoxy.com/fsharp-already-engineered-for-testability/)
 * [An introduction to property-based testing](http://fsharpforfunandprofit.com/posts/property-based-testing/)
   
-<br />
-
 ### Using F# for domain modelling  
 
 F# has a powerful type system that can be used to model domains accurately.
@@ -140,15 +125,10 @@ If you are moving to CQRS and an event-sourcing approach, F# is a great choice f
 
 * [Domain-Driven Design (DDD) With F# and EventStore](http://gorodinski.com/blog/2013/02/17/domain-driven-design-with-fsharp-and-eventstore/)
   
-<br />
-
 ### Data access and information-rich programming
 
 We are entering a new information-rich world, one that provides huge opportunities for programmers
 to explore and create exciting applications. F# is a leader in this area.
-
-
-<br />
 
 #### Using F# type providers to access data
 
@@ -160,8 +140,6 @@ the safety of static types, and the ease of use of intellisense.
   * [JSON type provider](http://fsprojects.github.io/FSharp.Data/library/JsonProvider.html)
   * [SQL type provider](http://msdn.microsoft.com/library/hh361033.aspx).
 * [Accessing loosely structured data from F# and C#](http://tomasp.net/blog/goto-loosely-structured-data.aspx/index.html)
-
-<br />
 
 #### Using F# to analyze data
 
@@ -176,8 +154,6 @@ including on-the-fly charting and data analysis.
   You'll see how to analyze the survival rate of Titanic passengers, how to correlate different indicators 
   about countries in the world and how to link US debt data with information about US presidents and visualize the results. 
 
-<br />
-
 ### Taming complexity
 
 F# has a number of features to help you manage complexity and improve performance such as:
@@ -185,8 +161,6 @@ a safer Async library,
 a built-in actor model that's easier than using threads,
 safe parallelization with immutable data, and more.
   
-<br />
-
 #### Asynchronous programming in F# ####
 
   * [Async in C# and F#: An introduction](http://tomasp.net/blog/csharp-fsharp-async-intro.aspx/)
@@ -194,14 +168,10 @@ safe parallelization with immutable data, and more.
   * [Writing non-blocking user-interfaces in F#](http://tomasp.net/blog/async-non-blocking-gui.aspx/) 
   * [Asynchronous programming: another introduction](http://fsharpforfunandprofit.com/posts/concurrency-async-and-parallel/)
 
-<br />
-
 #### Agents and message queues ####
 
   * [An Introduction To F# Agents](http://www.developerfusion.com/article/139804/an-introduction-to-f-agents/)
   * [Agents](http://fsharpforfunandprofit.com/posts/concurrency-actor-model/). Another introduction
-
-<br />
 
 ### Developer morale
 

@@ -1,5 +1,6 @@
 .paket/paket.exe
 packages/
+node_modules/
 paket-files/
 _site/
 *~
