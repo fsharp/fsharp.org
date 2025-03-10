@@ -1,0 +1,121 @@
+---
+layout: page
+title: Testimonials | The F# Software Foundation
+headline: Testimonials and Quotes
+class: testimonials
+---
+<!-- 
+
+Please contribute your testimonials!
+====================================
+
+Adding new testimonials to this page is easy - you can write your quote in plain 
+text, using some Markdown formatting. Look at the existing examples in the _testimonials folder
+to see how this works.
+
+Here is a simple template that you can copy and use for your testimonial.
+Everything between the triple dashes is YAML frontmatter (metadata).
+Everything after the second triple dash is the main markdown content of your testimonial.
+Note that the frontmatter "bullets" do support markdown, but the "quote" field does not.
+
+---
+id: alex-hardwicke
+bullets:
+- **Your Name**
+- Your Affiliation
+- [Case study](http://link.to.case.study.or.more.details)
+keywords:
+- list
+- of
+- key
+- words
+- for
+- search
+quote: A short quote to summarize your experience. May be used on the homepage. Don't use markdown here!
+---
+The main markdown text goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Vivamus cursus aliquam purus vitae interdum. Donec posuere interdum orci. Sed semper 
+ante a felis viverra elementum. Praesent posuere porta ornare. 
+
+You can use multiple paragraphs.     Suspendisse sed justo erat, vel sagittis mauris. 
+Ut vulputate bibendum neque, nec dictum ligula scelerisque at. In hac habitasse platea 
+dictumst. Suspendisse nec purus id erat commodo tristique vel non ligula. 
+
+  - **You can** also include a list
+  - **Use double star** to make things bold
+
+In the front-matter "bullets" list, everything is optional. You can remain anonymous if you wish,
+or you can add as many details as you want. Keywords are used to filter
+the content, so please add some!
+-->
+
+<div
+  x-data='
+    {
+      idx : lunr(function() {
+        this.field("keywords");
+        this.field("bullets");
+        this.field("content");
+        this.field("id");
+        {% for testimonial in site.testimonials %}
+        this.add(
+        {
+        id: `{{ testimonial.name | escape }}`,
+        content: `{{ testimonial.content | escape }}`,
+        bullets: [
+          {% for bullet in testimonial.bullets %}`{{ bullet | escape }}`,{% endfor %}
+        ],
+        keywords: [
+          {% for keyword in testimonial.keywords %}`{{ keyword | escape}}`,{% endfor %}
+        ]},
+        );
+        {% endfor %}
+      }),
+      search: "",
+      searchResults: [],
+      doSearch: function(evt) {
+        this.search = evt.target.value;
+        this.searchResults = this.idx.search(evt.target.value);
+      }
+    }'
+  
+
+>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 lg:gap-8 xl:gap-12">
+    <input x-on:input.debounce="doSearch" class="rounded-2xl h-12 px-4 py-2 w-full border mb-12 border-gray-300" type="search" placeholder="Search for your area of interest..." >
+  </div>
+
+  <div class="columns-1 sm:columns-2 gap-2 md:gap-4 lg:gap-8 xl:gap-12">
+    <div class="flex flex-col ">
+    {% for testimonial in site.testimonials %}
+      <article
+        x-transition
+        x-show="!search || searchResults.findIndex(function(elem) {return elem.ref === '{{ testimonial.name }}' }) >= 0"
+        x-data="{order: 'order: ' + Math.round(Math.random()*100)}"
+        x-bind:style="order"
+        class="break-inside-avoid"
+        id="{{ testimonial.name }}">
+        <div class="shadow-lg border flex flex-col border-gray-200 rounded p-4 sm:p-8 mb-8 lg:mb-12 ">
+          <div class="flex flex-row justify-center text-brand-dark dark:text-brand-light">
+            <i class="fa-solid relative fa-face-smile self-center text-4xl mb-4 "></i>
+            <i class="fa-solid -translate-y-4 translate-x-2 opacity-80 text-4xl fa-comment"></i>
+          </div>
+          <blockquote class="w-full pretty text-center self-center px-4 text-md  md:text-lg lg:text-xl mb-4 leading-relaxed font-semibold">
+            {{ testimonial.quote }}
+          </blockquote>
+          <div>
+          <div class="prose overflow-clip dark:prose-invert prose-slate">{{ testimonial.content | markdownify }}</div>
+          <ul class="mt-6 text-brand-dark dark:text-brand-light">
+          {% for bullet in testimonial.bullets %}
+            <li>{{ bullet | markdownify }}</li>
+          {% endfor %}
+          </ul>
+          </div>
+
+        </div>
+      </article>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+

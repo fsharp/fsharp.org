@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="{{ page.keywords }}" />
+
+    <title>{{ page.title }}</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ '/apple-touch-icon-57x57.png' | relative_url }}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ '/apple-touch-icon-114x114.png' | relative_url }}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ '/apple-touch-icon-72x72.png' | relative_url }}" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ '/apple-touch-icon-144x144.png' | relative_url }}" />
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ '/apple-touch-icon-60x60.png' | relative_url }}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ '/apple-touch-icon-120x120.png' | relative_url }}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ '/apple-touch-icon-76x76.png' | relative_url }}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ '/apple-touch-icon-152x152.png' | relative_url }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon-180x180.png' | relative_url }}" />
+    <link rel="icon" type="image/png" href="{{ '/favicon-192x192.png' | relative_url }}" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{ '/favicon-160x160.png' | relative_url }}" sizes="160x160">
+    <link rel="icon" type="image/png" href="{{ '/favicon-96x96.png' | relative_url }}" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | relative_url }}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | relative_url }}" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#2d3947">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet' type='text/css' />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="{{ '/css/fontawesome6/css/fontawesome.css' | relative_url }}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ '/css/fontawesome6/css/brands.min.css' | relative_url }}"" />
+    <link rel="stylesheet" href="{{ '/css/fontawesome6/css/solid.min.css' | relative_url }}" />
+
+    <link rel="stylesheet" href="{{ '/css/site.css' | relative_url }}" media="screen" />
+
+    <script>
+        document.documentElement.classList.toggle(
+            "dark",
+            localStorage.theme === "dark" ||
+                (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches),
+            );
+    </script>
+
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+    <script src="https://unpkg.com/htmx.org"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.12/dist/ext/client-side-templates.js"></script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+
+    
+
+</head>
+<!-- body has top padding to clear the height of nav bar -->
+<body hx-indicator="#loading-strip" class="w-screen overflow-x-hidden transition-colors text-slate-950 dark:text-white min-h-screen dark:bg-slate-800" hx-boost="true" hx-ext="client-side-templates" >
+
+    
+    {% include navbar.html %}
+
+    <div class="flex flex-col  justify-between min-h-[calc(100vh-64px)]">
+        <main >
+        {{ content }}
+        </main>
+
+        <footer id="footer" class="w-full text-xs md:text-sm p-6 mt-12 mb-4 text-slate-600 dark:text-slate-400">
+            <hr class="bg-slate-200 dark:bg-slate-800">
+            <div class="flex mt-8 flex-col leading-loose items-center text-center max-w-6xl mx-auto">
+                {% comment %}
+                    may show a momentary flash of the year that the site was last built,
+                    before being replaced with the actual current year by alpine
+                {% endcomment %}
+                <p>Copyright © 2012-<span x-data="{}" x-text="new Date().getFullYear()">{{ 'now' | date: "%Y" }}</span> F# Software Foundation and individual contributors.
+                <p>Maintained by F# Software Foundation and the F# community on <a href="https://github.com/fsharp/fsharp.org" target="_blank">GitHub</a>.</p>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- JS -->
+    <script src="/js/main.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-35753329-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>

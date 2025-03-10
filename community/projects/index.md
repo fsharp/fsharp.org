@@ -18,14 +18,12 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 <a href="#financial">Financial</a>, <a href="#ui">Desktop UI</a>, <a href="#mobile">Mobile</a>, <a href="#math">Math</a>,
 <a href="#textsearch">Text Search</a>, <a href="#metaprogramming">Metaprogramming</a>, <a href="#literate">Literate programming</a>, <a href="#audioprocessing">Audio Processing</a>
 
-<br />
 
 <h2 class="anchor" id="compiler-and-core">Community Projects: Other Catalogs</h2>
 
 * [Awesome F#](https://github.com/fsprojects/awesome-fsharp) - A curated list of awesome F# frameworks, libraries, software and resources.
 * [FSharpest](https://www.fsharpest.xyz) - A directory to discover F# tools, libraries and resources.
 
-<br />
 
 
 <h2 class="anchor" id="compiler-and-core">Community Projects: Compiler and Core Library</h2>
@@ -34,7 +32,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/FSharp.Compiler.Service.png)&nbsp;[fsharp/FSharp.Compiler.Service](http://fsharp.github.io/FSharp.Compiler.Service/) - The F# Compiler, F# Interactive scripting engine and F# editing services as a component library.
 
-<br />
 
 <h2 class="anchor" id="editing" class="anchor">Community Projects: Editing Tools</h2>
 
@@ -49,7 +46,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  ![logo](../../images/thumbs/fantomas.png)&nbsp;[Fantomas](https://github.com/fsprojects/fantomas) - F# source code formatter
 
 
-<br />
 
 <h2 class="anchor" id="literate" class="anchor">Community Projects: Literate Programming, Notebooks and Documentation</h2>
 
@@ -61,7 +57,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/FSDN.png)&nbsp;[FSDN](https://github.com/fsdn-projects/FSDN) - FSDN is a web application that uses F# API Search library. F# API Search library supports the standard signature of F# with some extentions. This document describes the F# API Search library specific formats.
 
-<br />
 
 
 <h2 class="anchor" id="devtools" class="anchor">Community Projects: Development Tools</h2>
@@ -76,7 +71,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [F# SonarQube Plugin](https://github.com/jmecosta/sonar-fsharp-plugin) - F# support for SonarQube.
 
-<br />
 
 
 <h2 class="anchor" id="libraries" class="anchor">Community Projects: Functional Programming</h2>
@@ -91,13 +85,11 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [F# Snippets](http://fssnip.net/) - A community-contributed catalog of F# Snippets
 
-<br />
 
 <h2 class="anchor" id="text" class="anchor">Community Projects: Text Programming</h2>
 
 *  [FSharp.Text.RegexProvider](http://fsprojects.github.io/FSharp.Text.RegexProvider/) - A type provider for regular expressions.
 
-<br />
 
 <h2 class="anchor" id="data-access" class="anchor">Community Projects: Data Access</h2>
 
@@ -137,7 +129,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 * [Donald](https://github.com/pimbrouwers/Donald) - An idiomatic F# interface for ADO.NET.
 
-<br />
 
 
 <h2 class="anchor" id="data-science" class="anchor">Community Projects: Data Science Programming</h2>
@@ -157,7 +148,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [Vulpes](https://github.com/SpiegelSoft/Vulpes) - A machine learning app using a deep belief network and connecting to the NVIDIA GPU unit using [Alea.cuBase] (http://blog.quantalea.net/).
 
-<br />
 
 <h2 class="anchor" id="visualization" class="anchor">Community Projects: Visualization Tools</h2>
 
@@ -169,21 +159,16 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 * [Plotly.NET](https://github.com/plotly/Plotly.NET/) - a powerful and free charting library. Plotly.NET provides Plotly's awesome graphing support with strongly typed style options for F#. 
 
-<br />
 
 <h2 class="anchor" id="math" class="anchor">Community Projects: Math Libraries</h2>
 
 *  ![logo](../../images/thumbs/MathNet.png)&nbsp;[Math.NET Numerics](http://numerics.mathdotnet.com/) - A large collection of
    algorithms including linear algebra, special functions, statistics, probability models,
    interpolation and FFTs. Supports F# 3.0+ with idiomatic extension modules.
-
 *  ![logo](../../images/thumbs/DiffSharpLogoSmall.png)&nbsp;[DiffSharp](http://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library for exact and efficient calculation of derivatives (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products). Also includes symbolic and numerical differentiation.
-
 *  ![logo](../../images/thumbs/FsAlgLogoSmall.png)&nbsp;[FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library supporting generic types.
-
 * [Flips](https://flipslibrary.com/) - An F# library for modeling and solving Linear Programming (LP) and Mixed-Integer Programming (MIP) problems.
 
-<br />
 
 <h2 class="anchor" id="mobile" class="anchor">Community Projects: Mobile Programming</h2>
 
@@ -199,7 +184,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [FSharp.ViewModule](https://github.com/fsprojects/FSharp.ViewModule/) - Type provider to generate an MVVM style ViewModel directly from an idiomatic F# module.
 
-<br />
 
 <h2 class="anchor" id="financial" class="anchor">Community Projects: Financial Calculations and Data</h2>
 
@@ -207,7 +191,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  [Spreads](https://github.com/Spreads/Spreads/#spreads) - Spreads is an ultra-fast library for complex event processing and time series manipulation.  Spreads is a library, not a framework, and could be plugged into existing code bases and used immediately. Even though the primary domain is financial data, Spreads is designed as a generic complex event processing library.
 
-<br />
 
 <h2 class="anchor" id="web" class="anchor">Community Projects: Web Tools</h2>
 
@@ -240,7 +223,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 * [Interstellar](https://github.com/fsprojects/Interstellar) - A library that enables the creation of cross-platform browser-based applications. It abstracts around various different browser APIs, so your application can use either Chromium or Apple WebKit.
 
-<br />
 
 <h2 class="anchor" id="scripting" class="anchor">Community Projects: Scripting & Configuration</h2>
 
@@ -255,7 +237,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
    *  [RegistryTypeProvider](http://fsprojects.github.io/FSharp.Management/RegistryProvider.html) - Typed access to the Registry.
 
-<br />
 
 *  ![logo](../../images/thumbs/FSharp.Configuration.png)&nbsp;[FSharp.Configuration](http://fsprojects.github.io/FSharp.Configuration/index.html) - The FSharp.Configuration project contains type providers for the configuration of .NET projects.
 
@@ -265,12 +246,9 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
    *  [YamlConfigProvider](https://fsprojects.github.io/FSharp.Configuration/YamlConfigProvider.html) - Typed access to Yaml.
 
-<br />
 
 *  [Stellar](https://github.com/panesofglass/stellar) - Typed access to the Windows Azure Management REST APIs.
- 
 
-<br />
 
 <h2 class="anchor" id="async-concurrent-parallel" class="anchor">Community Projects: Asynchronous, Concurrent and Parallel Programming</h2>
 
@@ -282,7 +260,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/FSharp.Control.FusionTasks.png)&nbsp;[FusionTasks](https://github.com/kekyo/FSharp.Control.FusionTasks/). F# Async workflow <--> .NET Task easy seamless interoperability library.
 
-<br />
 
 <h2 class="anchor" id="distribution" class="anchor">Community Projects: Distribution Tools</h2>
  
@@ -301,8 +278,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  ![logo](https://raw.githubusercontent.com/buybackoff/Ractor.CLR/master/docs/files/img/logo32.png)&nbsp;[Ractor.CLR](https://github.com/buybackoff/Ractor.CLR) - Redis based distributed actors system.
 
 
-<br />
-
 <h2 class="anchor" id="cloud" class="anchor">Community Projects: Cloud Tools</h2>
 
 *  ![logo](../../images/thumbs/swf_ext.png)&nbsp;[Amazon.SimpleWorkflow.Extensions](http://fsprojects.github.io/Amazon.SimpleWorkflow.Extensions/) Extension to Amazon SDK's SimpleWorkflow capabilities to make it more intuitive to use
@@ -318,8 +293,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 *  [Azure Storage Type Provider](http://fsprojects.github.io/AzureStorageTypeProvider/) - A type provider for Azure Storage assets e.g. Blobs and Tables.
 
 *  [FsDecider](https://github.com/glenbraun/FsDecider) F# computation expression builder for AWS Simple Workflow deciders.
-
-<br />
 
 <h2 class="anchor" id="testing" class="anchor">Community Projects: Testing Tools</h2>
 
@@ -343,16 +316,12 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 *  ![logo](../../images/thumbs/AntaniXml.png)&nbsp;[AntaniXml](http://giacomociti.github.io/AntaniXml/) Random generator of XML from XSD, based on FsCheck
 
-<br />
-
 <h2 class="anchor" id="metaprogramming" class="anchor">Community Projects: Metaprogramming</h2>
 
 *  ![logo](../../images/thumbs/Unquote.png)&nbsp;[Unquote](http://www.swensensoftware.com/unquote/) - Includes a fast quotations evaluator
 
 *  ![logo](../../images/thumbs/FSharp.Quotations.Evaluator.png)&nbsp;[FSharp.Quotations.Evaluator](http://fsprojects.github.io/FSharp.Quotations.Evaluator/) - An evaluator for F# quotations
 
-
-<br />
 
 <h2 id="parsing-and-compiler" class="anchor">Community Projects: Parsing and Compiler Tools</h2>
 
@@ -370,8 +339,6 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 * ![Farkle's logo](../../images/thumbs/Farkle.png)&nbsp;[Farkle](https://teo-tsirpanis.github.io/Farkle/) - LALR parsing with combinator-like objects for F# and C#.
 
-<br />
-
 <h2 class="anchor" id="textsearch" class="anchor">Community Projects: Text Search Tools</h2>
 
 *  ![logo](../../images/thumbs/FlexSearch.png)&nbsp;[FlexSearch](https://github.com/FlexSearch/FlexSearch) Flexible and fast open source F# based Search Engine
@@ -379,15 +346,11 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 * [MITIE-Dot-Net](https://github.com/BayardRock/MITIE-Dot-Net/blob/master/README.md) - A Nice .NET Wrapper for the MITIE Information Extraction Library (Written in F#, but fully C# compatible)
 
 
-<br />
-
 <h2 class="anchor" id="textsearch" class="anchor">Community Projects: Simulation Tools</h2>
 
 *  [Aivika for .NET](https://github.com/dsorokin/aivika-fsharp-ce) - A simulation library for discrete event simulation, system dynamics and agent-based modeling.
 
 * [F# RISC-V Instruction Set formal specification](https://github.com/mrLSD/riscv-fs) - RISC-V CPU formal ISA Specification. RISC-V CPU simulator with ELF files execution and CLI support. [MIT]
-
-<br />
 
 <h2 class="anchor" id="audioprocessing" class="anchor">Community Projects: Audio Processing</h2>
 

@@ -1,3 +1,4 @@
 {
-    
+    "tailwindCSS.experimental.configFile": "/workspaces/fsharp.org/css/main.css",
+    "tailwindCSS.experimental.classRegex": []
 }
