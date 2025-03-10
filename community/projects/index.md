@@ -23,6 +23,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 <h2 class="anchor" id="compiler-and-core">Community Projects: Other Catalogs</h2>
 
 * [Awesome F#](https://github.com/fsprojects/awesome-fsharp) - A curated list of awesome F# frameworks, libraries, software and resources.
+* [FSharpest](https://www.fsharpest.xyz) - A directory to discover F# tools, libraries and resources.
 
 <br />
 
