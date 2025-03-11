@@ -11,6 +11,8 @@ students and researchers worldwide. Many standard F# features (including _active
 have been described in publications, and many
 research projects build on top of F#. 
 
+[How to reference F# in a research paper.](https://dsyme.home.blog/2012/07/10/how-to-reference-f-in-a-research-paper/)
+
 To add a paper to this list [edit this page](https://github.com/fsharp/fsharp.org/edit/gh-pages/teaching/research.md) and submit a pull request.
 
  * **[F# Books](../learn/index.html#books)** - books about the F# language, including practical guides for using F# in practice.
