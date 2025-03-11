@@ -6,9 +6,11 @@
 @theme {
     --color-brand-dark: #378bba;
     --color-brand-light: #30b9db;
-    --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-heading: "Rajdhani", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-heading: "Roboto Flex", sans-serif;
 }
+
+
 
 button {
     @apply cursor-pointer
@@ -104,6 +106,8 @@ a[href^="http"]::after {
     font-weight: normal;
     font-style: normal;
     font-size: .6em;
+    vertical-align: 0.1rem;
+    opacity: 0.6;
     display: inline-block;
     text-decoration: none;
     padding-left: 0.4em;
