@@ -63,15 +63,7 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 <br />
 
-### Option 3: Install Visual Studio for Mac
-
-[Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/) is a free IDE for general purpose development. It supports a wide range of projects that you can use F# with.
-
-You can learn more at [Get started with F# in Visual Studio for Mac](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-with-visual-studio-for-mac).
-
-<br />
-
-### Option 4: Install JetBrains Rider
+### Option 3: Install JetBrains Rider
 
 ![logo](../../images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET and .NET Core applications on all platforms.
 
@@ -79,6 +71,6 @@ You can install [JetBrains Rider from here](https://www.jetbrains.com/rider/down
 
 <br />
 
-### Option 5: Build F# from source
+### Option 4: Build F# from source
 
 You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp).
