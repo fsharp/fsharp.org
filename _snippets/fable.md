@@ -1,0 +1,42 @@
+---
+order: 12
+title: FableJS.fs
+excerpt_separator: <!--more-->
+code: |
+    open Browser.Dom
+    open Feliz
+    
+    // DOM manipulation
+    let button = document.createElement("button")
+    button.textContent <- "Click me!"
+    button.addEventListener("click", fun _ -> 
+        window.alert("Hello from F#!")
+    )
+    document.body.appendChild(button) |> ignore
+
+    // React component (Feliz)
+    let counter = React.functionComponent(fun () ->
+        let (count, setCount) = React.useState(0)
+        Html.div [
+            Html.button [
+                prop.text "-"
+                prop.onClick (fun _ -> setCount(count - 1) )
+            ]
+            Html.span [prop.text count]
+            Html.button [
+                prop.text "+"
+                prop.onClick (fun _ -> setCount(count + 1) )
+            ]
+        ]
+    )
+---
+## F# for JavaScript Development
+
+F# isn't just for .NET development - with [Fable](https://fable.io/), it becomes a powerful language for JavaScript environments.
+<!--more-->
+- **Type-safe DOM manipulation** catches errors at compile time, not runtime
+- **Seamless React integration** with hooks and modern patterns
+- **Full npm ecosystem access** with clean TypeScript-like interop
+- **Simplified async programming** with F#'s computation expressions for promises
+
+Fable brings F#'s powerful type system and immutability to frontend development, eliminating common JavaScript bugs while maintaining full access to the JavaScript ecosystem.

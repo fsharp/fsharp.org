@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
@@ -8,6 +9,7 @@
     --color-brand-light: #30b9db;
     --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-heading: "Roboto Flex", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
 }
 
 
@@ -118,18 +120,16 @@ a[href^="https://fsharp.org"]::after {
     background-image: none;
 }
 
-
-.tilt-me {
-    transform: rotate(-30deg);
+.snippet {
+    scrollbar-color: #222222aa #666666aa
 }
-
 /* 
 .content-container p,
 .content-container li {
     max-width: 44em;
 } */
 
-   
+
 
 
 
