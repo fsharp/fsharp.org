@@ -30,9 +30,9 @@ code: |
         ]
     )
 ---
-## F# for JavaScript Development
+## F# for JavaScript and the Full Stack
 
-F# isn't just for .NET development - with [F# web technologies]({{ '/use/web-apps/' | relative_url }}), you can target JavaScript environments directly.
+F# is for both client and server. With [F# web technologies]({{ '/use/web-apps/' | relative_url }}), you can target JavaScript environments directly.
 <!--more-->
 - **Type-safe DOM manipulation** catches errors at compile time, not runtime
 - **Seamless React integration** with hooks and modern patterns

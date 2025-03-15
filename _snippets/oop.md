@@ -1,5 +1,5 @@
 ---
-order: 11
+order: 10
 title: OOP.fs
 excerpt_separator: <!--more-->
 code: |
@@ -10,52 +10,35 @@ code: |
 
     // Class implementation with interface
     type Calculator(precision: int) =
-        // Private field using let binding
-        let mutable _precision = precision
         
         // Interface implementation
         interface ICalculator with
-            member this.Add x y = x + y
-            member this.Multiply x y = x * y
+            member _.Add x y = x + y
+            member _.Multiply x y = x * y
         
         // Public methods
-        member this.Subtract(x, y) = x - y
-        
-        // Property with explicit getter/setter
-        member this.Precision 
-            with get() = _precision
-            and set(value) = _precision <- value
+        member _.Subtract(x, y) = x - y
         
         // Method using property
-        member this.RoundToPrecision(value: float) =
-            System.Math.Round(value, this.Precision)
+        member _calc_.RoundToPrecision(value: float) =
+            System.Math.Round(value, precision)
             
         // Method with default parameter
-        member this.Power(x: float, ?exponent: float) =
+        member _.Power(x: float, ?exponent: float) =
             let exp = defaultArg exponent 2.0
             System.Math.Pow(x, exp)
     
+    // Object expression (anonymous implementation)
+    let quickCalc = 
+        { new ICalculator with 
+            member _.Add x y = x + y
+            member _.Multiply x y = x * y }
+
     // Type extension - add method to existing type
     type System.Int32 with
-        member this.IsEven = this % 2 = 0
-
-    // Demo usage
-    let demo() =
-        // Object expression (anonymous implementation)
-        let quickCalc = 
-            { new ICalculator with 
-                member _.Add x y = x + y
-                member _.Multiply x y = x * y }
-        
-        // Class instantiation
-        let calc = Calculator(2)
-        
-        printfn "5 - 3 = %d" (calc.Subtract(5, 3))
-        printfn "Is 10 even? %b" (10.IsEven)
-        printfn "2.345 rounded = %f" (calc.RoundToPrecision(2.345))
-        printfn "2^3 = %f" (calc.Power(2.0, 3.0))
+        member x.IsEven = x % 2 = 0
 ---
-## Object Programming Made Simple
+## Objects Made Simple
 
 F# is **functional first** and **immutable by default**, but it also provides pragmatic support for object programming.
 <!--more-->
