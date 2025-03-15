@@ -1,6 +1,6 @@
 ---
 order: 12
-title: FableJS.fs
+title: WebApps.fs
 excerpt_separator: <!--more-->
 code: |
     open Browser.Dom
@@ -32,11 +32,11 @@ code: |
 ---
 ## F# for JavaScript Development
 
-F# isn't just for .NET development - with [Fable](https://fable.io/), it becomes a powerful language for JavaScript environments.
+F# isn't just for .NET development - with [F# web technologies]({{ '/use/web-apps/' | relative_url }}), you can target JavaScript environments directly.
 <!--more-->
 - **Type-safe DOM manipulation** catches errors at compile time, not runtime
 - **Seamless React integration** with hooks and modern patterns
 - **Full npm ecosystem access** with clean TypeScript-like interop
 - **Simplified async programming** with F#'s computation expressions for promises
 
-Fable brings F#'s powerful type system and immutability to frontend development, eliminating common JavaScript bugs while maintaining full access to the JavaScript ecosystem.
+F# brings its powerful type system and immutability to frontend development, eliminating common JavaScript bugs while maintaining full access to the JavaScript ecosystem.

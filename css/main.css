@@ -121,14 +121,11 @@ a[href^="https://fsharp.org"]::after {
 }
 
 .snippet {
-    scrollbar-color: #222222aa #666666aa
+    scrollbar-color: #222222aa #666666aa;
+    pre, code {
+        font-variant-ligatures: none;
+    }
 }
-/* 
-.content-container p,
-.content-container li {
-    max-width: 44em;
-} */
-
 
 
 

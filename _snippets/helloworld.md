@@ -18,7 +18,7 @@ code: |
     
     greets |> List.iter hello
 ---
-## Concise and Expressive Code
+## Concise and Expressive like Python
 
 This simple "Hello World" example demonstrates F#'s elegant syntax and functional approach to programming.
 <!--more-->

@@ -8,21 +8,23 @@ code: |
         abstract Add: x: int -> y: int -> int
         abstract Multiply: x: int -> y: int -> int
 
-    // Class implementation
-    type BasicCalculator() =
+    // Class implementation with interface
+    type Calculator(precision: int) =
+        // Private field using let binding
+        let mutable _precision = precision
+        
+        // Interface implementation
         interface ICalculator with
             member this.Add x y = x + y
             member this.Multiply x y = x * y
         
-        // Class method
+        // Public methods
         member this.Subtract(x, y) = x - y
         
-    // Class with constructor and property
-    type ScientificCalculator(precision: int) =
-        inherit BasicCalculator()
-        
-        // Auto-property with getter and setter
-        member val Precision = precision with get, set
+        // Property with explicit getter/setter
+        member this.Precision 
+            with get() = _precision
+            and set(value) = _precision <- value
         
         // Method using property
         member this.RoundToPrecision(value: float) =
@@ -46,20 +48,19 @@ code: |
                 member _.Multiply x y = x * y }
         
         // Class instantiation
-        let basic = BasicCalculator()
-        let scientific = ScientificCalculator(2)
+        let calc = Calculator(2)
         
-        printfn "5 + 3 = %d" (basic.Subtract(5, 3))
+        printfn "5 - 3 = %d" (calc.Subtract(5, 3))
         printfn "Is 10 even? %b" (10.IsEven)
-        printfn "2.345 rounded = %f" (scientific.RoundToPrecision(2.345))
-        printfn "2^3 = %f" (scientific.Power(2.0, 3.0))
+        printfn "2.345 rounded = %f" (calc.RoundToPrecision(2.345))
+        printfn "2^3 = %f" (calc.Power(2.0, 3.0))
 ---
-## Object Oriented Programming Support
+## Object Programming Made Simple
 
-F# is **functional first** and **immutable by default**, but it also provides full support for object-oriented programming.
+F# is **functional first** and **immutable by default**, but it also provides pragmatic support for object programming.
 <!--more-->
 - **Seamless .NET integration** lets you work with existing .NET libraries and frameworks
-- **Rich class system** allows you to build robust object hierarchies with interfaces and inheritance
+- **Rich interface system** allows you to define clear contracts for your components
 - **Object expressions** provide lightweight implementation of interfaces without defining full classes
 - **Concise member syntax** keeps methods and properties clean and readable
 - **Automatic property generation** reduces boilerplate code for data-carrying types
