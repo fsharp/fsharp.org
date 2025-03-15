@@ -16,7 +16,7 @@ code: |
     let fallDistance = distance fallDuration
     printfn $"Distance fallen in {fallDuration}s is {fallDistance}m"
 ---
-## Numaric Safety through Units of Measure
+## Safe Numbers through Units of Measure
 
 F# offers world-class compile-time unit safety without runtime overhead, giving you the power to express your domain in a type-safe way. This is particularly useful in scientific, engineering and financial applications where unit errors can lead to catastrophic results.
 <!--more-->
