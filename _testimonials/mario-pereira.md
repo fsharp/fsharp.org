@@ -5,7 +5,7 @@ bullets:
 - Microsoft Student Partner (MSP)
 - Faculty of Sciences, University of Oporto
 keywords: []
-quote: everyone gets really amazed when they try F# and experience its immense expressive power
+quote: Everyone gets really amazed when they try F# and experience its immense expressive power
 ---
 I have been a Microsoft Student Partner (MSP) for three years, which
 offered me the opportunity to be in touch with most portuguese

@@ -1372,7 +1372,7 @@ The UI part was in C# and the library part was in F#. In my experience it is fun
 
     {
         Id="mario-pereira"
-        Quote = "everyone gets really amazed when they try F# and experience its immense expressive power"
+        Quote = "Everyone gets really amazed when they try F# and experience its immense expressive power"
         Bullets = [
 
         
