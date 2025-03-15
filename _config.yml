@@ -18,6 +18,10 @@ collections:
   testimonials:
     output: false
     permalink: /testimonials/#:id
+  snippets:
+    output: false
+    sort_by: order
+    excerpt_enabled: false
     
 
 

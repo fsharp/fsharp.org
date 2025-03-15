@@ -30,16 +30,20 @@ keywords: F#, FSharp, F# Programming
                         
                     </div>
                 </div>
-                
+
+ 
 
             </div>
-
             
+                
 
         </div>
 
         
     </section>
+
+
+    
 
     <section class="home-section px-6 py-18 bg-white dark:bg-slate-800 shadow-lg z-20">
         
@@ -61,6 +65,77 @@ keywords: F#, FSharp, F# Programming
         </div>
     </section>
 
+    <section class="home-section px-6 pt-12 pb-12 from-brand-dark to-brand-light/50 bg-gradient-to-b text-sm">
+        <div class="featured max-w-6xl mx-auto">
+            
+            <div
+                x-data="{swiper: null}"
+                x-init="swiper = new Swiper($refs.container, {
+                    loop: true,
+                    slidesPerView: 1,
+                    spaceBetween: 32,
+                })"
+                class="relative  w-full"
+                >
+
+                <div class="swiper-container w-full h-fit overflow-clip" x-ref="container">
+                    <div class="swiper-wrapper ">
+                        <!-- code snippets -->
+                        {% for snippet in site.snippets %}
+                        <div class="swiper-slide">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12">
+                                <div class="relative border-gray-950 border bg-gray-950/80 backdrop-blur-sm rounded-lg flex flex-col w-full shadow-lg overflow-clip">
+                                    <div class="grid grid-cols-1">
+                                        <div class="row-[1] col-[1] text-gray-400 justify-self-center p-4 pt-3">
+                                            <img class="w-6 h-6 inline align-middle mr-2" src="{{ 'img/logo/fsharp256.png' | relative_url }}" alt="F# Logo" /><span class="align-middle text-[0.6rem] sm:text-xs ">{{ snippet.title }}</span>
+                                        </div>
+                                        <div class="row-[1] col-[1] justify-self-left self-center pl-4 ">
+                                            <div class="flex flex-row gap-2">
+                                                <div class="border-gray-600 border w-3 h-3 rounded-full" ></div>
+                                                <div class="border-gray-600 border w-3 h-3 rounded-full" ></div>
+                                                <div class="border-gray-600 border w-3 h-3 rounded-full" ></div>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="row-[2] leading-relaxed h-96 w-full overflow-y-auto col-[1] p-4 pt-1 text-[0.8rem] sm:text-xs lg:text-md snippet">
+                                            {% highlight fsharp %}{{ snippet.code }}{% endhighlight %}
+                                        </div>
+                                        
+                                    </div>
+                                    <svg class="absolute left-0 top-0 w-3/6" viewBox="0 0 100 172" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H100L47 172H0V0Z" fill="url(#paint0_linear_47_2)"></path><defs><linearGradient id="paint0_linear_47_2" x1="50" y1="0" x2="50" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity=".035"></stop><stop offset="1" stop-color="white" stop-opacity="0"></stop></linearGradient></defs></svg>
+                                </div>
+                                <div class="md:hidden prose prose-sm dark:prose-invert">{{ snippet.excerpt }}</div>
+                                <div class="hidden md:block prose prose-sm dark:prose-invert">{{ snippet.content }}</div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div> 
+                </div>
+
+                <div class="flex flex-row gap-4 justify-center items-center">
+                    <div class="xl:absolute mt-8 inset-y-0 -left-10 z-10 flex items-center">
+                        <button @click="swiper.slidePrev()" 
+                                class=" -ml-2 lg:-ml-4 flex justify-center items-center focus:outline-none">
+                                <i class="fa-solid fa-circle-chevron-left drop-shadow-md text-3xl opacity-90"></i>
+                        </button>
+                    </div>
+
+                    <div class="xl:absolute mt-8 inset-y-0 -right-10 z-10 flex items-center">
+                        <button @click="swiper.slideNext()" 
+                                class=" -mr-2 lg:-mr-4 flex justify-center items-center focus:outline-none">
+                                <i class="fa-solid fa-circle-chevron-right drop-shadow-md text-3xl opacity-90"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+                
+        </div>
+    </section>
+
+
     <section class="home-section px-6 pt-12 pb-12 hero-pattern">
         <div class="featured max-w-6xl mx-auto">
             <!-- <h2 class="section-header mb-8 text-4xl text-center font-bold text-brand-dark">Get Started</h2> -->
@@ -73,6 +148,7 @@ keywords: F#, FSharp, F# Programming
                         <li><a class="transition hover:text-brand-dark hover:dark:text-brand-light" href="https://www.youtube.com/playlist?list=PLdo4fOcmZ0oUFghYOp89baYFBTGxUkC7Z"  target="_blank">F# for Beginners</a></li>
                         <li><a class="transition hover:text-brand-dark hover:dark:text-brand-light" href="{{ '/use/web-apps/' | relative_url }} " target="_blank">F# for JavaScript</a></li>
                     </ul>
+                    
                 </div>
                 <div class="bg-white dark:text-white dark:bg-slate-800 border border-gray-200 dark:border-gray-900 shadow-lg rounded-lg p-8">
                     <h3 class="text-2xl font-semibold"><i class="fa-solid fa-users mr-2 text-brand-dark  dark:text-brand-light mb-6"></i> Community</h3>
@@ -141,7 +217,7 @@ keywords: F#, FSharp, F# Programming
     <section class="home-section px-6">
 
         
-        <hr class="w-full"/>
+        <hr class="bg-slate-200 dark:bg-slate-800 w-full" />
 
         <div class="max-w-6xl mx-auto flex flex-col items-center">
 
