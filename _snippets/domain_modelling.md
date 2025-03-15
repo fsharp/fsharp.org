@@ -1,9 +1,11 @@
 ---
-order: 15
+order: 11
 title: PaymentSystem.fs
 code: |
     type CardInfo = { Number: string; Expiry: string; Cvv: string }
+
     type BankInfo = { AccountNumber: string; RoutingNumber: string }
+
     type PayPalInfo = { Email: string; Token: string }
     
     type PaymentMethod =
@@ -34,8 +36,8 @@ code: |
                 payment.Amount
                 pp.Email
 ---
-## Making Invalid States Unrepresentable
-This example showcases F#'s ability to create precise domain models that prevent errors at compile time.
+## Domain Models made Simple and Safe
+F# gives you superb capabilities to create precise domain models that prevent errors at compile time.
 
 - **Discriminated unions** model each payment method with exactly the fields it needs
 - **No "impossible" states** can exist - a credit card payment can't have a routing number

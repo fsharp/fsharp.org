@@ -1,10 +1,9 @@
 ---
-order: 1
+order: 22
 title: UnitsOfMeasure.fs
 excerpt_separator: <!--more-->
 code: |
-    [<Measure>] type m  // Meters
-    [<Measure>] type s  // Seconds
+    open FSharp.Data.UnitSystems.SI
     
     // Acceleration due to gravity
     let g = 9.81<m/s^2> 
@@ -17,9 +16,9 @@ code: |
     let fallDistance = distance fallDuration
     printfn $"Distance fallen in {fallDuration}s is {fallDistance}m"
 ---
-## Units of Measure
+## Numaric Safety through Units of Measure
 
-F# offers compile-time unit safety without runtime overhead, enforcing correctness mathematically.
+F# offers world-class compile-time unit safety without runtime overhead, giving you the power to express your domain in a type-safe way. This is particularly useful in scientific, engineering and financial applications where unit errors can lead to catastrophic results.
 <!--more-->
 - **Compile-time dimensional safety** catches errors before running, preventing scientific and engineering mistakes
 - **Domain-specific units** express quantities that directly reflect your problem space

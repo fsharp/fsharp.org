@@ -1,5 +1,5 @@
 ---
-order: 16
+order: 20
 title: AOC_Day1.fs
 excerpt_separator: <!--more-->
 code: |
@@ -22,7 +22,7 @@ code: |
 
     "()(()((()((" |> parseChars |> findEndingFloor 0 |> printf
 ---
-## Solve the Important Problems
+## Focus on the Challenges
 
 F# excels at solving algorithmic challenges with clarity and precision. The code elegantly tracks an elevator's movement through a building by parsing directional instructions.
 <!--more-->
@@ -31,4 +31,4 @@ F# excels at solving algorithmic challenges with clarity and precision. The code
 - **Higher-order functions** like `fold` to accumulate state
 - **Function composition** with the pipeline operator for readable data flow
 
-Notice how the solution reads almost like a plain English description of the problem, making it both maintainable and self-documenting.
+Solutions often read almost like a plain English description of the problem, making it both maintainable and self-documenting.
