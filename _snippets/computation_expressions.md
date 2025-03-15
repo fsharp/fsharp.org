@@ -33,7 +33,7 @@ code: |
 
 F# computation expressions give you an elegant syntax for compositional control flows with a clean, readable notation that some say is F#'s superpower.
 <!--more-->
-- **Simplified asynchronous code** makes non-blocking operations read like synchronous code
+- **Computation expressions** factor out how code is composed together
 - **Custom control flow abstractions** create domain-specific mini-languages
 - **Seamless error handling** with [railway-oriented programming](https://fsharpforfunandprofit.com/rop/) patterns
 - **Elegant data transformations** by hiding boilerplate and focusing on business logic
