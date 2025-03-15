@@ -29,7 +29,7 @@ code: |
         return { Name = validName; Age = validAge }
     }
 ---
-## Control the Complexity with Computation Expressions
+## Clean Code with Computation Expressions
 
 F# computation expressions give you an elegant syntax for compositional control flows with a clean, readable notation that some say is F#'s superpower.
 <!--more-->

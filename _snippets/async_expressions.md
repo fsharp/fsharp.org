@@ -1,5 +1,5 @@
 ---
-order: 15
+order: 16
 title: AsyncExpressions.fs
 excerpt_separator: <!--more-->
 code: |
