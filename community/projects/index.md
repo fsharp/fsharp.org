@@ -35,11 +35,9 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 <h2 class="anchor" id="editing" class="anchor">Community Projects: Editing Tools</h2>
 
+*  ![logo](../../images/thumbs/ionide.png)&nbsp;[Ionide](http://ionide.io) - The VSCode plugin for F# development
+
 *  ![logo](../../images/thumbs/vstudio.png)&nbsp;[Visual F# Tools](https://github.com/dotnet/fsharp) - The IDE tools for F# that are part of Visual Studio. Contributions welcome!
-
-*  ![logo](../../images/thumbs/ionide.png)&nbsp;[Ionide](http://ionide.io) - The Visual Studio Code plugin for F# development
-
-*  ![logo](../../images/thumbs/vstudio.png)&nbsp;[Visual Studio for Mac](https://github.com/mono/monodevelop/tree/master/main/external/fsharpbinding/MonoDevelop.FSharpBinding) - The F# editing support in Visual Studio for Mac and MonoDevelop.
 
 *  ![logo](../../images/thumbs/fsharpbinding.png)&nbsp;[FsAutoComplete](https://github.com/fsharp/FsAutoComplete) - F# command line tool run as background process to serve information for editor tools such as Emacs, Vim, Sublime Text, Atom and VS Code
 
