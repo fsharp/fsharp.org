@@ -1,5 +1,5 @@
 ---
-order: 13
+order: 11
 title: PaymentSystem.fs
 code: |
     type CardInfo = { Number: string; Expiry: string; Cvv: string }
@@ -36,7 +36,7 @@ code: |
                 payment.Amount
                 pp.Email
 ---
-## Domain Models made simple
+## Domain Models made Simple and Safe
 F# gives you superb capabilities to create precise domain models that prevent errors at compile time.
 
 - **Discriminated unions** model each payment method with exactly the fields it needs

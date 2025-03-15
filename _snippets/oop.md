@@ -20,7 +20,7 @@ code: |
         member _.Subtract(x, y) = x - y
         
         // Method using property
-        member _calc_.RoundToPrecision(value: float) =
+        member _.RoundToPrecision(value: float) =
             System.Math.Round(value, precision)
             
         // Method with default parameter

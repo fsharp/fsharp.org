@@ -23,7 +23,7 @@ code: |
     processPersonAsync { Name = "Snowdrop"; Age = 13}
     |> Async.RunSynchronously
 ---
-## Async Programming made easy
+## Async Programming made Easy
 
 F# async expressions provide a powerful way to handle asynchronous programming, making it more readable and maintainable. They allow you to write non-blocking code that looks like synchronous code, which is particularly useful for I/O-bound operations.
 <!--more-->
