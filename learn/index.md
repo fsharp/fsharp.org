@@ -419,7 +419,7 @@ Learn how to use F#'s functional features to rapidly turn requirements into soft
 - Build simple-to-complex application behavior with F# functions
 - Interoperate between your F# applications and other .NET languages
 
-### [F# Applied II](https://www.demystifyfp.com/FsApplied2)
+### [F# Applied II](https://www.tamizhvendan.in/book/FsApplied2/)
 
 <img src="../learn/files/BookFP2.jpeg" style="float:right;margin:5px 0px 5px 25px;" />
 
