@@ -11,8 +11,19 @@ exclude:
  - postcss.config.js
  - tailwind.config.js
 
+url: "https://fsharp.org"
+
 gems:
   - jekyll-redirect-from
+
+
+# Note: individual pages can be excluded from sitemap by including
+# `sitemap: false` in the frontmatter.
+# Glob excludes can be achieved with the `defaults` setting in
+# this config file
+# See: https://github.com/jekyll/jekyll-sitemap
+plugins:
+  - jekyll-sitemap
 
 collections:
   testimonials:
@@ -22,6 +33,13 @@ collections:
     output: false
     sort_by: order
     excerpt_enabled: false
+
+defaults:
+  -
+    scope:
+      path: "archive/**/*"
+    values:
+      sitemap: false
     
 
 
