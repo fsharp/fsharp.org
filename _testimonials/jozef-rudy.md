@@ -1,9 +1,9 @@
 ---
 id: jozef-rudy
 bullets:
-- '**Jozef Rudy**, PhD'
+- '**Jozef Rudy, PhD**'
 - Founder
-- 'CryptoQuant '
+- '[CryptoQuant](https://www.cryptoquant.dev)'
 keywords:
 - startup
 - fintech
