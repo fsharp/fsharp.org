@@ -1,0 +1,38 @@
+---
+title: F# Books | fsharp.org
+layout: page
+headline: F# Books
+---
+
+<div class="space-y-4 sm:space-y-8 lg:space-y-12">
+  {% for book in site.books reversed %}
+  <article
+    class="rounded bg-slate-50 dark:border-slate-600 dark:bg-slate-900 shadow grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-12 gap-8 p-8 border border-slate-200"
+  >
+    <div class="col-span-3">
+      <img
+        src="{{ book.image | relative_url }}"
+        alt="Cover of {{ book.title }}"
+        loading="lazy"
+        class="border border-slate-300 dark:border-slate-600 shadow-lg rounded-lg w-full aspect-auto"
+      />
+    </div>
+    <div class="col-span-9 prose prose-sm dark:prose-invert prose-slate">
+      <h1 class="text-xl font-heading font-bold text-slate-600">
+        <a
+          href="{{book.bookurl}}"
+          class="hover:text-brand-dark dark:hover:text-brand-light"
+          target="_blank"
+          >{{ book.title }}</a
+        >
+      </h1>
+      <div>
+        {{ book.author }},
+        <span class="text-sm text-slate-500">{{ book.year }}</span>
+      </div>
+      <hr class="my-6!" />
+      <div class="">{{ book.content }}</div>
+    </div>
+  </article>
+  {% endfor %}
+</div>

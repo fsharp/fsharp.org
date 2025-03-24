@@ -33,6 +33,10 @@ collections:
     output: false
     sort_by: order
     excerpt_enabled: false
+  books:
+    output: false
+    sort_by: year
+    excerpt_enabled: false
 
 defaults:
   -
