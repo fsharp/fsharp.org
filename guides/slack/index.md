@@ -24,7 +24,6 @@ Once you sign into the Slack team, there are various channels containing topics 
 * [#editor_support](https://fsharp.slack.com/messages/editor_support/): Discussion focused on adding IDE support for F#
 * [#jobs](https://fsharp.slack.com/messages/jobs/): Job and career related discussions for F# Software Foundation members
 * [#dotnetcore](https://fsharp.slack.com/messages/dotnetcore/): Discussion around F# support for .NET Core, as well as porting libraries
-* [#speakers](https://fsharp.slack.com/messages/speakers/): Discussion for people who speak about F#, as well as the [F# Software Foundation Speakers' Program](https://community.fsharp.org/speakers_program)
 * [#mentorship](https://fsharp.slack.com/messages/mentorship/): Discussion about the [F# Software Foundation Mentorship Program](../../mentorship/index.html)
 * [#user_group_leaders](https://fsharp.slack.com/messages/user_group_leaders/): Discussion for leaders of user groups
 
@@ -41,4 +40,4 @@ Some of Slack's features include:
 * [Message editing](https://slack.zendesk.com/hc/articles/202395258-Editing-or-deleting-messages) - you can correct message typos or delete them entirely
 * [File](https://slack.zendesk.com/hc/articles/201330736-Uploading-and-sharing-files) and [text snippet](https://slack.zendesk.com/hc/articles/204145658-Creating-a-Snippet) sharing
 
-History within Slack is limited. We recommend using the [F# Software Foundation Community Forums](https://forums.fsharp.org/t/welcome-to-the-f-software-foundation-community-forums/8) for questions or discussions where persistance and history are important.
+History within Slack is limited. We recommend using the [F# Discord Forums](https://discord.gg/R6n7c54) for questions or discussions where persistance and history are important.
