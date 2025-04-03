@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Use F# for Mobile App Development | The F# Software Foundation
+title: Use F# for Mobile App Development | fsharp.org
 headline: Use F# for Mobile App Development
 redirect_from: 
     - /use/android/index.html

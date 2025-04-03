@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Guide - Data Science | The F# Software Foundation
+title: Guide - Data Science | fsharp.org
 headline: Guide - Data Science with F#
 redirect_from: 
     - /math/index.html

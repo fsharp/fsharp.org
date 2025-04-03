@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Guide - Mobile Apps | The F# Software Foundation
+title: Guide - Mobile Apps | fsharp.org
 headline: Guide - Mobile Apps with F#
 redirect_from: "/mobile-apps/index.html"
 ---

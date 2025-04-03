@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Guide - Cloud Programming | The F# Software Foundation
+title: Guide - Cloud Programming | fsharp.org
 headline: Guide - Cloud Programming with F#
 redirect_from: "/cloud/index.html"
 ---

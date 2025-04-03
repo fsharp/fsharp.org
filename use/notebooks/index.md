@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Using F# for Jupyter Notebooks | The F# Software Foundation
+title: Using F# for Jupyter Notebooks | fsharp.org
 headline: Using F# for Jupyter Notebooks
 ---
 

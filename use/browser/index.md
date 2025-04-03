@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Use F# in the browser | The F# Software Foundation
+title: Use F# in the browser | fsharp.org
 headline: Use F# in the browser
 ---
 

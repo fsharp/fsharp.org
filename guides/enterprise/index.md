@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Guide - Enterprise Programming | The F# Software Foundation
+title: Guide - Enterprise Programming | fsharp.org
 headline: Guide - Enterprise Programming with F#
 redirect_from: "/enterprise/index.html"
 ---

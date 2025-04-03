@@ -1,6 +1,6 @@
 ---
 layout: default
-title: F# Publications | The F# Software Foundation
+title: F# Publications | fsharp.org
 headline: Publications related to F#
 ---
 

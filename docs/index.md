@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation | The F# Software Foundation
+title: Documentation | fsharp.org
 headline: Documentation for F#
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Using F# for Web Applications | The F# Software Foundation
+title: Using F# for Web Applications | fsharp.org
 headline: Using F# for Web Applications
 redirect_from: 
     - /use/webapps/index.html

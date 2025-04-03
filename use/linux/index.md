@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Use F# on Linux | The F# Software Foundation
+title: Use F# on Linux | fsharp.org
 headline: Use F# on Linux
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Using F# for Desktop Apps | The F# Software Foundation
+title: Using F# for Desktop Apps | fsharp.org
 headline: Using F# for Desktop Apps
 ---
 

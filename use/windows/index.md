@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Use F# on Windows | The F# Software Foundation
+title: Use F# on Windows | fsharp.org
 headline: Use F# on Windows
 ---
 

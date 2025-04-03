@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Use F# on macOS | The F# Software Foundation
+title: Use F# on macOS | fsharp.org
 headline: Use F# on macOS
 ---
 

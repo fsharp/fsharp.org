@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Report/Fix an Issue | The F# Software Foundation
+title: Report/Fix an Issue | fsharp.org
 headline: Report/Fix an Issue
 ---
 

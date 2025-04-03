@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teaching F# | The F# Software Foundation
+title: Teaching F# | fsharp.org
 headline: Using F# for teaching
 ---
 

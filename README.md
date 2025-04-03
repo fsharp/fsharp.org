@@ -1,6 +1,6 @@
-# The F# Software Foundation
+# fsharp.org
 
-This repository hosts [The F# Software Foundation web site](https://fsharp.org/). Pull requests are welcome. The web site code is hosted in the `gh-pages` branch and is created using the tools provided by GitHub:
+This repository hosts [the fsharp.org web site](https://fsharp.org/). Pull requests are welcome. The web site code is hosted in the `gh-pages` branch and is created using the tools provided by GitHub:
 
 * Fork this repository
 * Switch to [the `gh-pages` branch](https://github.com/fsharp/fsharp.org/tree/gh-pages)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: F# Community Projects | The F# Software Foundation
+title: F# Community Projects | fsharp.org
 headline: F# Community Projects
 ---
 

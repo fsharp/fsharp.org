@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Guide - Web Programming | The F# Software Foundation
+title: Guide - Web Programming | fsharp.org
 headline: Guide - Web Programming with F#
 ---
 
