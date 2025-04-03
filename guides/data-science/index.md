@@ -2,21 +2,21 @@
 layout: default
 title: Guide - Data Science | fsharp.org
 headline: Guide - Data Science with F#
-redirect_from: 
+redirect_from:
     - /math/index.html
     - /math-and-statistics/index.html
     - /math-and-stats/index.html
     - /machine-learning/index.html
 ---
 
-Data science is the application of statistical analysis, machine learning, data visualization and programming to 
+Data science is the application of statistical analysis, machine learning, data visualization and programming to
 real-world data sources to bring understanding and insight to data-oriented problem domains.
 F# is an excellent solution for programmatic data science as it combines efficient execution,
-REPL-scripting, powerful libraries and scalable data integration.  
+REPL-scripting, powerful libraries and scalable data integration.
 
-<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsharp.org/edit/gh-pages/guides/data-science/index.md">edit this page</a>. These resources are for educational purposes. </p>
-</div>              
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial">
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsharp.org/edit/main/guides/data-science/index.md">edit this page</a>. These resources are for educational purposes. </p>
+</div>
 
 * auto-gen TOC:
 {:toc}
@@ -40,12 +40,12 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
    SciSharp provides ports and bindings to cutting edge Machine Learning frameworks like [TensorFlow](https://scisharp.github.io/TensorFlow.NET/), [Keras](https://scisharp.github.io/Keras.NET/), [PyTorch](https://github.com/SciSharp/Torch.NET), [Numpy](https://github.com/SciSharp/NumSharp) and many more in .NET Core. Since the APIs of the ported libraries are so similar to the originals you can easily re-use all existing resources, documentation and community solutions to common problems in C# or F# without much effort. License: Various, mostly Apache 2.0 or MIT
 
 <br />
-## Interactive Charting 
+## Interactive Charting
 {: #charting .anchor }
 
 * [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
-* [Plotly.NET](https://github.com/plotly/Plotly.NET/) - a powerful and free charting library. Plotly.NET provides Plotly's awesome graphing support with strongly typed style options for F#. 
+* [Plotly.NET](https://github.com/plotly/Plotly.NET/) - a powerful and free charting library. Plotly.NET provides Plotly's awesome graphing support with strongly typed style options for F#.
 
 <br />
 ## Individual Packages
@@ -53,13 +53,13 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
 
 If a resource specific to F# can't be found, then search for C# instead and adjust the technique appropriately.
 
- * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides 
-   a large collection of algorithms needed in science and engineering, including linear algebra, 
-   special functions, statistics, probability models, interpolation and FFTs. 
-   In addition to the core .NET package, Numerics specifically supports F# 4.0 with idiomatic extension modules and 
-   maintains mathematical data structures like BigRational that originated in the F# PowerPack. 
-   If a performance boost is needed, the managed-code provider backing its linear algebra routines 
-   and decompositions can be exchanged with wrappers for optimized native implementations such as 
+ * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides
+   a large collection of algorithms needed in science and engineering, including linear algebra,
+   special functions, statistics, probability models, interpolation and FFTs.
+   In addition to the core .NET package, Numerics specifically supports F# 4.0 with idiomatic extension modules and
+   maintains mathematical data structures like BigRational that originated in the F# PowerPack.
+   If a performance boost is needed, the managed-code provider backing its linear algebra routines
+   and decompositions can be exchanged with wrappers for optimized native implementations such as
    Intel MKL.  License: MIT/X11
 
  * [TensorFlow.NET](https://scisharp.github.io/TensorFlow.NET/) - .NET Standard bindings for Google's TensorFlow for developing, training and deploying Machine Learning models in C# and F#.
@@ -80,12 +80,12 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 
  * [Numl](http://numl.net/) - A machine learning library intended to ease the use of using standard modeling techniques for both prediction and clustering
 
- * [Deedle](http://fslab.org/Deedle/) is an easy-to-use, high quality 
-   package for data and time series manipulation and for scientific programming. 
+ * [Deedle](http://fslab.org/Deedle/) is an easy-to-use, high quality
+   package for data and time series manipulation and for scientific programming.
    It uses a design similar to the Pandas library from Python and the 'tseries' or 'zoo' packages in R, though
-   with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to 
-   work well for exploratory programming using F# and C# interactive console, but can be also used in 
-   efficient compiled .NET code. 
+   with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to
+   work well for exploratory programming using F# and C# interactive console, but can be also used in
+   efficient compiled .NET code.
 
 <br />
 ## Commercial packages
@@ -96,38 +96,38 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 
    The library is based on efficient, general-purpose array classes implementing vectors, matrices, and
    n-dimensional arrays. Provided algorithms include standard linear algebra transforms,
-   a high-performance Fast Fourier Transform (FFT) library, and a collection of sorting 
+   a high-performance Fast Fourier Transform (FFT) library, and a collection of sorting
    and machine learning algorithms. Plotting is based on OpenGL and supports both 2D and 3D
    plots.
 
    License: GPLv3 or commercial (paid) license.
-   
- * [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) - 
-   a set of three libraries focused on vector and matrix processing, 
+
+ * [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) -
+   a set of three libraries focused on vector and matrix processing,
    linear algebra methods, and statistics functions.
 
-   The library includes a large selection of 
-   standard algorithms from matrix factorization, function optimization, numerical integration, 
-   K-means clustering, and PCA (principal component analysis). Options are provided to run  
-   using pure managed code for portability or to utilize highly tuned native code for 
-   additional performance. 
+   The library includes a large selection of
+   standard algorithms from matrix factorization, function optimization, numerical integration,
+   K-means clustering, and PCA (principal component analysis). Options are provided to run
+   using pure managed code for portability or to utilize highly tuned native code for
+   additional performance.
 
  * [NMath, NMath Stats](https://www.centerspace.net/nmath/) -
    a suite providing core math and statistics functions.
 
-   NMath provides sparse- and 
-   dense-matrix manipulations, FFT algorithms, and numeric algorithms such as curve-fitting, 
-   integration, and differentiation. NMath Stats is built on NMath and provides statistics 
-   functions such multiple linear regression, hypothesis testing, and nonnegative matrix 
-   factorization. NMath and NMath Stats support .NET 4.5 and are available from 
+   NMath provides sparse- and
+   dense-matrix manipulations, FFT algorithms, and numeric algorithms such as curve-fitting,
+   integration, and differentiation. NMath Stats is built on NMath and provides statistics
+   functions such multiple linear regression, hypothesis testing, and nonnegative matrix
+   factorization. NMath and NMath Stats support .NET 4.5 and are available from
    [CenterSpace Software](http://www.centerspace.net/).
 
- * [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) - 
-   a collection of numeric algorithms including matrix operations, optimization and 
+ * [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) -
+   a collection of numeric algorithms including matrix operations, optimization and
    interpolation functions, 1D and 2D FFTs, and pseudo-random number generation.
 
-   The library uses 
-   the standard F# PowerPack Matrix for compatibility. F# for Numerics supports .NET. 
+   The library uses
+   the standard F# PowerPack Matrix for compatibility. F# for Numerics supports .NET.
    The library is available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
 
  * [F# for Visualization](http://www.ffconsultancy.com/products/fsharp_for_visualization/index.html) -
@@ -142,10 +142,10 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 
 ## Interoperability
 
-### F# and Excel 
+### F# and Excel
 {: #excel-interop .anchor }
 
-[Excel-DNA](http://excel-dna.net/) is an independent project to integrate .NET into Excel. With Excel-DNA you can make native (.xll) add-ins for Excel using C#, Visual Basic.NET or F#, providing high-performance user-defined functions (UDFs), custom ribbon interfaces 
+[Excel-DNA](http://excel-dna.net/) is an independent project to integrate .NET into Excel. With Excel-DNA you can make native (.xll) add-ins for Excel using C#, Visual Basic.NET or F#, providing high-performance user-defined functions (UDFs), custom ribbon interfaces
 and more. Your entire add-in can be packed into a single .xll file requiring no installation or registration:
 
  * [Excel-DNA home pages](http://excel-dna.net/)
@@ -177,10 +177,10 @@ Resources:
  * [R Type Provider for F#](http://fslab.org/RProvider) - An F# type provider for high fidelity integration between F# and R
  * [R.NET](https://github.com/jmp75/rdotnet) - Core interoperability component used by the R Type Provider with some F# extensions.
  * [Using F#, R and GGPlot2](http://stackoverflow.com/questions/16820211/r-type-provider-and-ggplot2)
- 
+
 <br />
 
-### F# and MATLAB 
+### F# and MATLAB
 {: #matlab-interop  .anchor }
 
 Resources:
@@ -189,7 +189,7 @@ Resources:
 
 <br />
 
-### F# and Python 
+### F# and Python
 {: #python-interop  .anchor }
 
 Resources:
@@ -207,4 +207,3 @@ Resources:
  * [Calling Mathematica from F#](http://reference.wolfram.com/legacy/v8/NETLink/tutorial/CallingMathematicaFromNET.html) - techniques to call Mathematica from C#, F# and other .NET languages
 
  * [Calling Wolfram Language from F#](http://reference.wolfram.com/language/NETLink/tutorial/CallingTheWolframLanguageFromNET.html) - techniques to call Mathematica from .NET
-

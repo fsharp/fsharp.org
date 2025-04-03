@@ -9,7 +9,7 @@ all efforts which support our [mission](../../foundation/). Some of the open com
 you can contribute to are below.
 
 These projects may be at an early stage, and are not necessarily appropriate for production
-use. Out of small beginnings, great things come! To add a project to this list [edit this page](https://github.com/fsharp/fsharp.org/edit/gh-pages/community/projects/index.md) and submit a pull request.
+use. Out of small beginnings, great things come! To add a project to this list [edit this page](https://github.com/fsharp/fsharp.org/edit/main/community/projects/index.md) and submit a pull request.
 
 Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href="#devtools">Dev Tools</a>, <a href="#data-access">Data Access</a>,
 <a href="#data-science">Data Science</a>, <a href="#visualization">Visualization</a>, <a href="#libraries">Functional Programming</a>, <a href="#text">Text Programming</a>,
@@ -134,7 +134,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
    and time series manipulation and for scientific programming. It supports working with structured data
    frames, ordered and unordered data, as well as time series. Deedle is designed to work well for
    exploratory programming using F# and C# interactive console, but can be also used in
-   efficient compiled .NET code. 
+   efficient compiled .NET code.
 
 *  [The MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider
    for higher-fidelity integration between F# and MATLAB. Early stages. Contributors and reviewers welcome.
@@ -152,7 +152,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 * [XPlot](http://fslab.org/XPlot/) - XPlot is a data visualization package for the F# programming language powered by popular JavaScript charting libraries. It uses Google and Plotly's powerful and free data visualization libraries based on HTML5/SVG technology.  You can access the HTML for the charts programatically and use the library from F# Interactive by displaying browser windows.
 
-* [Plotly.NET](https://github.com/plotly/Plotly.NET/) - a powerful and free charting library. Plotly.NET provides Plotly's awesome graphing support with strongly typed style options for F#. 
+* [Plotly.NET](https://github.com/plotly/Plotly.NET/) - a powerful and free charting library. Plotly.NET provides Plotly's awesome graphing support with strongly typed style options for F#.
 
 
 <h2 class="anchor" id="math" class="anchor">Community Projects: Math Libraries</h2>
@@ -257,7 +257,7 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 
 
 <h2 class="anchor" id="distribution" class="anchor">Community Projects: Distribution Tools</h2>
- 
+
 *  [f0](https://github.com/joshcough/f0) - A binary [de]serialization combinator library, with binary-format
    phantom types and a compatible Scala partner implementation.
 
@@ -350,4 +350,3 @@ Tags: <a href="#compiler">Compiler</a>, <a href="#editing">Editing</a>, <a href=
 <h2 class="anchor" id="audioprocessing" class="anchor">Community Projects: Audio Processing</h2>
 
 *  [FSound](https://github.com/albertp007/FSound) - A sound processing library written in F#
-
