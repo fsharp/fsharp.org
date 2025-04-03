@@ -144,22 +144,10 @@
                                 <i class="fa-brands fa-stack-overflow"></i> StackOverflow
                             </a>
                         </div>
-                    </div>
-                </div>
-
-                <div class="nav-item" x-data="{open: false}" @click.away="open= false">
-                    <button type="button" @click="open=!open" x-bind:aria-expanded="open">
-                        Foundation <i class="fa-solid fa-chevron-down text-white/70 dark:text-slate-950/70"></i>
-                    </button>
-
-                    <div x-cloak @click="open=false; mobileNavOpen=false;" x-transition x-show="open" role="menu"
-                        aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                         <div role="none">
-                            <a role="menuitem" href="https://foundation.fsharp.org">Mission statement</a>
-                            <!-- <a role="menuitem" href="https://foundation.fsharp.org/member_roster">Member Roster</a> -->
+                            <a role="menuitem" href="https://foundation.fsharp.org">Foundation</a>
                             <a role="menuitem" href="https://foundation.fsharp.org/code_of_conduct">Code of Conduct</a>
                             <a role="menuitem" href="https://foundation.fsharp.org/logo">F# Logo</a>
-                            <a role="menuitem" href="https://foundation.fsharp.org/contact">Contact</a>
                         </div>
                     </div>
                 </div>
