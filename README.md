@@ -1,14 +1,22 @@
 # fsharp.org
 
-This repository hosts [the fsharp.org web site](https://fsharp.org/). Pull requests are welcome. The web site code is hosted in the `gh-pages` branch and is created using the tools provided by GitHub:
+This repository hosts the [fsharp.org](https://fsharp.org/) website. Pull requests are welcome.
 
-* Fork this repository
-* Switch to [the `gh-pages` branch](https://github.com/fsharp/fsharp.org/tree/gh-pages)
-* The site is using [Jekyll for templating](http://jekyllrb.com/docs/usage/)
+The site is built using the popular static site generator [Jekyll](http://jekyllrb.com/docs/usage/),
+which converts Markdown templates to HTML pages.
 
 ## Editing content
 
-Most edits can be made by simply editing the appropriate markdown file. If you prefer to make your edit directly within github, there is a github actions which should build your fork automatically so you can confirm your changes look okay.
+Most edits can be made by simply editing the appropriate Markdown file. Normally you'd simply:
+
+- Fork the repository
+- Make some changes locally
+- Test them locally (e.g. by running `jekyll serve`)
+- Open a pull request
+
+If you prefer to make your edit directly within GitHub, there is a GitHub
+Action which should build your fork automatically so you can confirm your
+changes look okay.
 
 ## Testimonials
 
@@ -33,7 +41,7 @@ Example:
     code: |
         let hello name =
             printfn $"Hello, {name}!"
-        
+
         hello "github"
     ---
     ## I am the title
@@ -42,7 +50,7 @@ Example:
     <!--more-->
     - **Desktop users** can see this extra content
     - **Mobile users** will miss out
-    
+
     Not ideal, but oh well.
 
 
