@@ -4,11 +4,11 @@ title: Guide - Web Programming | fsharp.org
 headline: Guide - Web Programming with F#
 ---
 
-F# excels at building efficient, scalable and robust web solutions. Web programming is 
+F# excels at building efficient, scalable and robust web solutions. Web programming is
 based around receiving a single HTTP request and replying with a result, which maps very
 well to a stateless, functional approach. Advantages to using F# for web programming include:
 
-* *Fast* - F# code execution is fast, using native code generation from scripted or project code 
+* *Fast* - F# code execution is fast, using native code generation from scripted or project code
 
 * *Succinct* - F# is concise, readable and type-safe, for fast development of robust web solutions
 
@@ -20,9 +20,9 @@ well to a stateless, functional approach. Advantages to using F# for web program
 
 * *Open-source* and *cross-platform*
 
-<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial"> 
-    <p>To contribute to this guide <a href="https://github.com/fsharp/fsharp.org/edit/gh-pages/guides/web/index.md">edit this page</a>. These resources are for educational purposes. </p>
-</div>              
+<div class="jumbotron visible-lg calloutBox" id="how-to-add-testimonial">
+    <p>To contribute to this guide <a href="https://github.com/fsharp/fsharp.org/edit/main/guides/web/index.md">edit this page</a>. These resources are for educational purposes. </p>
+</div>
 
 * auto-gen TOC:
 {:toc}
@@ -48,7 +48,7 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 #### WebSharper
 {: #websharper    .anchor }
 
-![logo](../../images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#. 
+![logo](../../images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#.
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
 * [Try Online](http://websharper.com/samples)
@@ -72,7 +72,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 * [Try Online](http://fable.io/repl)
 * [Docs](http://fable.io/docs/)
 
-## Web Frameworks 
+## Web Frameworks
 
 <br />
 
@@ -107,7 +107,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 #### Saturn
 {: #saturn    .anchor }
 
-![logo](../../images/thumbs/saturn.png)&nbsp;[Saturn](https://saturnframework.org) is a web development framework written in F# which implements the server-side MVC pattern. Many of its components and concepts will seem familiar to anyone with experience in other web frameworks like Ruby on Rails or Python’s Django. It's built on top of Giraffe and ASP.Net Core - modern, cross-platform, high-performance development platform for building cloud-ready web applications. 
+![logo](../../images/thumbs/saturn.png)&nbsp;[Saturn](https://saturnframework.org) is a web development framework written in F# which implements the server-side MVC pattern. Many of its components and concepts will seem familiar to anyone with experience in other web frameworks like Ruby on Rails or Python’s Django. It's built on top of Giraffe and ASP.Net Core - modern, cross-platform, high-performance development platform for building cloud-ready web applications.
 
 It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 
@@ -153,7 +153,7 @@ It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 
 ------
 
-## Web Testing Frameworks 
+## Web Testing Frameworks
 {:  .anchor }
 
 <br />
@@ -161,9 +161,9 @@ It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 #### Canopy for Client-side Testing
 {: #canopy    .anchor }
 
-[canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and 
+[canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and
 concise. You can easily leverage your existing .NET code to help you test.
- 
+
 <br />
 
 #### Unit Testing Libraries
@@ -216,7 +216,7 @@ Please consider contributing, either directly to the TodoBackend project or via 
 
 Several books have been written that include information on building web applications with F#:
 
-* [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Web-Cloud-Mobile-Solutions/dp/1449333761) 
+* [Building Web, Cloud, and Mobile Solutions with F#](http://www.amazon.com/Building-Web-Cloud-Mobile-Solutions/dp/1449333761)
 
 * [Expert F# 4.0](https://books.google.com/books?isbn=1484207424)
 
@@ -225,7 +225,7 @@ Several books have been written that include information on building web applica
 ## Presentations
 {:  .anchor }
 
-There are  several presentations and tutorials available that include information on 
+There are  several presentations and tutorials available that include information on
 build web applications with F#:
 
 * [Taking F# to the Masses with CloudSharper](http://youtu.be/LvbfY3sl6Lo)
@@ -258,6 +258,3 @@ Common hosting options are:
 * [AppHarbor](http://appharbor.com/) - Free hosting of .NET web applications
 
 * [GearHost](https://www.gearhost.com/) - Free hosting of .NET web applications (100 MB), IIS based, support for both .NET Framework and [Core](https://www.gearhost.com/documentation/deploy-net-core-application), MSSQL and MySQL databases (10 MB), support of simple WebJobs.
-
-
-
