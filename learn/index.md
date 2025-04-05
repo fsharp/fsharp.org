@@ -75,31 +75,40 @@ A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) incl
 
 <h2 id="books" class="anchor">F# Books - General</h2>
 
-### [Get Programming with F#](https://www.manning.com/books/get-programming-with-f-sharp)
+### [F# in Action](https://www.manning.com/books/f-sharp-in-action)
 
-<img src="/learn/files/BookGPWF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+<img src="/learn/files/BookFSIA.png" width="96" height="120" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Isaac Abraham_
 
-Get Programming with F#: A guide for .NET Developers shows you how to upgrade your .NET development skills by adding a touch of functional programming in F#. In just 43 bite-sized chunks, you'll learn how to use F# to tackle the most common .NET programming tasks.Examples use the familiar Visual Studio environment, so you'll be instantly comfortable. Packed with enlightening examples, real-world use cases, and plenty of easy-to-digest code, this easy-to-follow tutorial will make you wonder why you didn't pick up F# years ago! In addition to the language itself, other topics covered include:
+F# is engineered to make functional programming practical and accessible. This book will get you started writing your first simple, robust, and high performing functional code.
 
-- Interop with C# /VB projects
-- Working with disparate data sources
-- SQL database access
-- Web Programming
-- Unit testing
+F# lets you keep your code simple even in the most complex applications—and it’s the perfect language for taking your first steps in functional programming. This practical, example-driven guide shows you how to build professional applications the F# way.
 
-By the end of the book, you’ll be able to use F# in your day-to-day development, and know how and where to deepen your knowledge.
+In F# in Action you will learn how to:
 
-### [Stylish F#](https://books.google.com.au/books?id=WqR8DwAAQBAJ)
+- Write performant and robust systems with succinct F# code
+- Model domains quickly, easily and accurately with F#’s type system
+- Design solutions using functional programming patterns
+- Ingest and process disparate data sources
+- Develop data-driven web applications
+- Unit test F# code
+- Effectively model data using a variety of techniques
+- Use scripts to rapidly explore domains
 
-<img src="/learn/files/BookSF.jpg" style="float:right;margin:5px 0px 5px 25px;" />
+_F# in Action_ is based on author and Microsoft F# MVP Isaac Abraham’s years of experience working with developers as an F# consultant. It upgrades .NET development skills with the core principles of functional programming, and you’ll soon see how F#’s functional-first approach makes it easy to learn this powerful paradigm.
+
+### [Stylish F# 6](https://link.springer.com/book/10.1007/978-1-4842-7205-3)
+
+<img src="/learn/files/BookSF6.png" width="84" height="120" style="float:right;margin:5px 0px 5px 25px;" />
 
 _Kit Eason_
 
-Stylish F# covers every design decision that a developer makes in constructing F# programs, helping you make the most educated and valuable design choices at every stage of code development. You will learn about the design of types and function signatures, the benefits of immutability, and the uses of partial function application. You will understand best practices for writing APIs to be used by F#, C#, and other languages. Each carefully vetted design choice is supported with compelling examples, illustrations, and rationales.
+Why just get by in F# when you can program in style. This book goes beyond syntax and into design. It provides F# developers with best practices, guidance, and advice to write beautiful, maintainable, and correct code. This second edition, fully updated for .NET 6 and F# 6, includes all new coverage of anonymous records, the task {} computation expression, and the relationship between types and modules.
 
-What You'll Learn
+_Stylish F# 6_ covers every design decision that a developer makes in constructing F# programs, helping you make the most educated and valuable design choices at every stage of code development. You will learn about the design of types and function signatures, the benefits of immutability, and the uses of partial function application. You will understand best practices for writing APIs to be used by F#, C#, and other languages. Each carefully vetted design choice is supported with compelling examples, illustrations, and rationales.
+
+**What You Will Learn**
 
 - Know why, when, and how to code in immutable style
 - Use collection functions, piping, and function composition to build working software quickly
@@ -108,6 +117,7 @@ What You'll Learn
 - Identify and implement opportunities to use function injection to improve program design
 - Appreciate the methods available to handle unknown data values
 - Understand asynchronous and parallel programming in F#, and how it differs from C# asynchronous programming
+- Exploit records and anonymous records as low-overhead, easily comparable containers for structured data
 
 ### [Essential F#](https://leanpub.com/essential-fsharp)
 
