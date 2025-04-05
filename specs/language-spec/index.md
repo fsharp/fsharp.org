@@ -63,3 +63,5 @@ Since F# 4.1 new features have been documented through [RFCs](https://github.com
 * The [RFCs for F# 9.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-9.0)
 
 * The [preview RFCs beyond F# 9](https://github.com/fsharp/fslang-design/tree/master/preview)
+
+**Note:** We're currently working on an improved version of the F# language specification [here](https://github.com/fsharp/fslang-spec/). Contributions welcome!
