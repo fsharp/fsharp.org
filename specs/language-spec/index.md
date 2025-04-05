@@ -38,6 +38,8 @@ algorithm, expressions, patterns and other.
 
 Since F# 4.1 new features have been documented through [RFCs](https://github.com/fsharp/fslang-design) and additions to [the F# Language Guide](https://docs.microsoft.com/en-us/dotnet/fsharp/).
 
+**Note:** We changed the versioning scheme after F# 5.0, and F# 6.0 became F# 6.
+
 * [The F# Language Specification (latest, PDF)](4.1/FSharpSpec-4.1-latest.pdf), [(latest, DOCX)](4.1/FSharpSpec-4.1-latest.docx) - The latest, working version of the F# language specification.
 
 * The [RFCs for F# 4.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-4.0)
