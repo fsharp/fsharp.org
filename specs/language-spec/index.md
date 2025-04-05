@@ -54,13 +54,13 @@ Since F# 4.1 new features have been documented through [RFCs](https://github.com
 
 * The [RFCs for F# 5.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-5.0)
 
-* The [RFCs for F# 6.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-6.0)
+* The [RFCs for F# 6](https://github.com/fsharp/fslang-design/tree/master/FSharp-6.0)
 
-* The [RFCs for F# 7.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-7.0)
+* The [RFCs for F# 7](https://github.com/fsharp/fslang-design/tree/master/FSharp-7.0)
 
-* The [RFCs for F# 8.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-8.0)
+* The [RFCs for F# 8](https://github.com/fsharp/fslang-design/tree/master/FSharp-8.0)
 
-* The [RFCs for F# 9.0](https://github.com/fsharp/fslang-design/tree/master/FSharp-9.0)
+* The [RFCs for F# 9](https://github.com/fsharp/fslang-design/tree/master/FSharp-9.0)
 
 * The [preview RFCs beyond F# 9](https://github.com/fsharp/fslang-design/tree/master/preview)
 
