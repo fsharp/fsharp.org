@@ -88,3 +88,9 @@ bundle exec jekyll serve -l
 ```
 
 The site will be available at `http://localhost:4000`
+
+## License
+
+Except where otherwise noted, the content on fsharp.org is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+
+Copyright © 2012-2025 F# contributors.
