@@ -8,22 +8,12 @@
 
     <title>{{ page.title }}</title>
 
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ '/apple-touch-icon-57x57.png' | relative_url }}" />
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ '/apple-touch-icon-114x114.png' | relative_url }}" />
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ '/apple-touch-icon-72x72.png' | relative_url }}" />
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ '/apple-touch-icon-144x144.png' | relative_url }}" />
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ '/apple-touch-icon-60x60.png' | relative_url }}" />
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ '/apple-touch-icon-120x120.png' | relative_url }}" />
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ '/apple-touch-icon-76x76.png' | relative_url }}" />
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ '/apple-touch-icon-152x152.png' | relative_url }}" />
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon-180x180.png' | relative_url }}" />
     <link rel="icon" type="image/png" href="{{ '/favicon-192x192.png' | relative_url }}" sizes="192x192">
     <link rel="icon" type="image/png" href="{{ '/favicon-160x160.png' | relative_url }}" sizes="160x160">
     <link rel="icon" type="image/png" href="{{ '/favicon-96x96.png' | relative_url }}" sizes="96x96">
     <link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | relative_url }}" sizes="16x16">
     <link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | relative_url }}" sizes="32x32">
-    <meta name="msapplication-TileColor" content="#2d3947">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png"> 
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,13 +49,13 @@
     <script src="https://cdn.jsdelivr.net/npm/htmx.org"></script>
     <script src="https://cdn.jsdelivr.net/npm/lunr/lunr.js"></script>
 
-    
+
 
 </head>
 <!-- body has top padding to clear the height of nav bar -->
 <body hx-indicator="#loading-strip" class="w-screen overflow-x-hidden transition-colors text-slate-950 dark:text-white min-h-screen dark:bg-slate-800" hx-boost="true" hx-ext="client-side-templates" >
 
-    
+
     {% include navbar.html %}
 
     <div class="flex flex-col  justify-between min-h-[calc(100vh-64px)]">
@@ -85,7 +75,7 @@
             </div>
         </footer>
     </div>
-    
+
     <!-- JS -->
     <script src="/js/main.js"></script>
     <script>

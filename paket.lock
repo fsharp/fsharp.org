@@ -1,9 +1,0 @@
-NUGET
-  remote: https://www.nuget.org/api/v2
-    FAKE (3.14.7)
-    FSharp.Compiler.Service (0.0.82)
-    FSharp.Formatting (2.6.3)
-      FSharp.Compiler.Service (>= 0.0.81)
-HTTP
-  remote: http://www.fssnip.net
-    HttpServer.fs (/raw/pj)
