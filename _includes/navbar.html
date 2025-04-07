@@ -6,12 +6,12 @@
         initDarkMode() {
             // Set up listener for system preference changes
             const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-            
+
             // Initial check based on system preference if no explicit theme is set
             if (this.theme === null && darkModeMediaQuery.matches) {
                 document.documentElement.classList.add('dark');
             }
-            
+
             // Listen for changes in system preference
             darkModeMediaQuery.addEventListener('change', (e) => {
                 if (this.theme === null) {
@@ -65,8 +65,6 @@
                                 F#</a>
                             <a href="{{ '/docs' | relative_url }}" role="menuitem" class="group"
                                 tabindex="-1">Documentation</a>
-                            <a href="{{ '/testimonials' | relative_url }}" role="menuitem" class="group"
-                                tabindex="-1">Testimonials</a>
                             <a href="{{ '/teaching/research' | relative_url }}" role="menuitem" class="group"
                                 tabindex="-1">Publications</a>
                             <a href="https://www.youtube.com/c/fsharporg" role="menuitem" class="group"
@@ -105,6 +103,22 @@
                                 tabindex="-1">Mobile Apps</a>
                             <a href="{{ '/guides/web/' | relative_url }}" role="menuitem" class="group"
                                 tabindex="-1">Web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-item" x-data="{open: false}" @click.away="open= false">
+                    <button type="button" @click="open=!open" x-bind:aria-expanded="open">
+                        Testimonials <i class="fa-solid fa-chevron-down text-white/70 dark:text-slate-950/70"></i>
+                    </button>
+
+                    <div x-cloak @click="open=false; mobileNavOpen=false;" x-transition x-show="open" role="menu"
+                        aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                        <div role="none">
+                            <a href="{{ '/testimonials' | relative_url }}" role="menuitem" class="group"
+                                tabindex="-1">Testimonials</a>
+                            <a href="https://github.com/fsharp/fsharp.org/tree/main?tab=readme-ov-file#testimonials" role="menuitem" class="group"
+                               tabindex="-1">Submit Testimonial</a>
                         </div>
                     </div>
                 </div>
@@ -182,5 +196,3 @@
 </nav>
 
 <div class="htmx-indicator" hx-preserve id="loading-strip"></div>
-
-
