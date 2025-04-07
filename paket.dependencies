@@ -1,6 +1,0 @@
-source https://nuget.org/api/v2
-
-nuget FSharp.Formatting
-nuget FAKE
-
-http http://www.fssnip.net/raw/pj HttpServer.fs
