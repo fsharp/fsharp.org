@@ -15,8 +15,6 @@ research projects build on top of F#.
 
 To add a paper to this list [edit this page](https://github.com/fsharp/fsharp.org/edit/main/teaching/research.md) and submit a pull request.
 
- * **[F# Books](../learn/index.html#books)** - books about the F# language, including practical guides for using F# in practice.
-
  * **[The F# Language - History and Design](#history)** - a publication
     about the history and design of the F# language.
 
