@@ -15,7 +15,7 @@ research projects build on top of F#.
 
 To add a paper to this list [edit this page](https://github.com/fsharp/fsharp.org/edit/main/teaching/research.md) and submit a pull request.
 
- * **[The F# Language - History and Design](#history)** - a publication
+ * **[The F# Language - History and Design](#history-and-design)** - a publication
     about the history and design of the F# language.
 
  * **[Information-rich programming](#information-rich-programming)** - publications related to F# type providers, a novel mechanism
@@ -44,7 +44,7 @@ To add a paper to this list [edit this page](https://github.com/fsharp/fsharp.or
 --------------
 
 ## The History of F#
-{: #design .anchor }
+{: #history-and-design .anchor }
 
 ### [The Early History of the F# Language](https://dl.acm.org/doi/pdf/10.1145/3386325)
 
