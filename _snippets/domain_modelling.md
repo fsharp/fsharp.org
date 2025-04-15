@@ -37,6 +37,7 @@ code: |
                 pp.Email
 ---
 ## Domain Models made Simple and Safe
+
 F# gives you superb capabilities to create precise domain models that prevent errors at compile time.
 
 - **Discriminated unions** model each payment method with exactly the fields it needs

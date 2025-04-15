@@ -16,4 +16,3 @@ functional nature of the language makes it easy to ensure that our code is testa
 
 Our first iterations were written in C#, but after switching to F#, we saw a drastic reduction in code size,
 along with an increase in readability. We'll definitely be sticking with F# for all of our future projects.
-    

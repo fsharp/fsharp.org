@@ -10,8 +10,7 @@ keywords:
 - fixed income
 quote: With its new tools, the bank can speed development by 50 percent or more, improve quality, and reduce costs.
 ---
-A large financial services firm in Europe sought new development tools that could cut costs, boost productivity, 
-        and improve the quality of its mathematical models. To address its needs, the bank deployed F#, the 
-        .NET Framework, and Visual Studio. It will soon upgrade to Visual Studio 2010 and then integrated 
+A large financial services firm in Europe sought new development tools that could cut costs, boost productivity,
+        and improve the quality of its mathematical models. To address its needs, the bank deployed F#, the
+        .NET Framework, and Visual Studio. It will soon upgrade to Visual Studio 2010 and then integrated
         F#. With its new tools, the bank can speed development by 50 percent or more, improve quality, and reduce costs.
-    

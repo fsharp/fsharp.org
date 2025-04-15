@@ -15,4 +15,3 @@ Prolucid delivers solutions to customers in markets ranging from Medical Devices
 Our E2C reference architecture has been developed around small F# core and offers platform independence, linear scalability and easy of customization. F# allowed us to leverage the .NET expertise many of us had and combine it with the elegance of functional programming to provide real-time connectivity, event processing and complex analytics solutions for out customers.
 
 We have open-sourced some of this work and you can find it on [GitHub](https://github.com/prolucid).
-    

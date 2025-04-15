@@ -17,4 +17,3 @@ Users expect performant software with an always responsive UI, and frequently ex
 Using a modern, functional language that provides first-class support for things we need in modern development is a no-brainer. Immutability-first as a programming technique has fixed more bugs and bad code in my applications than almost anything else I've ever looked at, and it's something C# will never gain.
 
 It's not just C#, either. Many languages are evolving to be ready for the future, adding features that support the needs of a modern programming language, but F# is already there.
-    

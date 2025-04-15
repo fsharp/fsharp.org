@@ -32,11 +32,11 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
 ## Integrated Packages
 {: #integrated-packages .anchor }
 
- * [FsLab](http://fslab.org/) is the F# Community Project Incubation Space For Data Science.
+* [FsLab](http://fslab.org/) is the F# Community Project Incubation Space For Data Science.
 
- * [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/) - ML.NET is an open source and cross-platform machine learning framework sponsored by Microsoft. With ML.NET, you can create custom ML models using C# or F# without having to leave the .NET ecosystem. ML.NET lets you re-use all the knowledge, skills, code, and libraries you already have as a .NET developer so that you can easily integrate machine learning into your web, mobile, desktop, games, and IoT apps.
+* [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/) - ML.NET is an open source and cross-platform machine learning framework sponsored by Microsoft. With ML.NET, you can create custom ML models using C# or F# without having to leave the .NET ecosystem. ML.NET lets you re-use all the knowledge, skills, code, and libraries you already have as a .NET developer so that you can easily integrate machine learning into your web, mobile, desktop, games, and IoT apps.
 
- * [SciSharp Stack](https://scisharp.github.io/SciSharp/) - A .NET based Open Source Ecosystem for Data Science, Machine Learning and AI.
+* [SciSharp Stack](https://scisharp.github.io/SciSharp/) - A .NET based Open Source Ecosystem for Data Science, Machine Learning and AI.
    SciSharp provides ports and bindings to cutting edge Machine Learning frameworks like [TensorFlow](https://scisharp.github.io/TensorFlow.NET/), [Keras](https://scisharp.github.io/Keras.NET/), [PyTorch](https://github.com/SciSharp/Torch.NET), [Numpy](https://github.com/SciSharp/NumSharp) and many more in .NET Core. Since the APIs of the ported libraries are so similar to the originals you can easily re-use all existing resources, documentation and community solutions to common problems in C# or F# without much effort. License: Various, mostly Apache 2.0 or MIT
 
 <br />
@@ -53,7 +53,7 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
 
 If a resource specific to F# can't be found, then search for C# instead and adjust the technique appropriately.
 
- * [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides
+* [Math.NET Numerics](http://numerics.mathdotnet.com/) - provides
    a large collection of algorithms needed in science and engineering, including linear algebra,
    special functions, statistics, probability models, interpolation and FFTs.
    In addition to the core .NET package, Numerics specifically supports F# 4.0 with idiomatic extension modules and
@@ -62,25 +62,25 @@ If a resource specific to F# can't be found, then search for C# instead and adju
    and decompositions can be exchanged with wrappers for optimized native implementations such as
    Intel MKL.  License: MIT/X11
 
- * [TensorFlow.NET](https://scisharp.github.io/TensorFlow.NET/) - .NET Standard bindings for Google's TensorFlow for developing, training and deploying Machine Learning models in C# and F#.
+* [TensorFlow.NET](https://scisharp.github.io/TensorFlow.NET/) - .NET Standard bindings for Google's TensorFlow for developing, training and deploying Machine Learning models in C# and F#.
 
- * [TorchSharp](https://github.com/xamarin/TorchSharp) - .NET bindings for PyTorch. Machine Learning with C# / F# with Multi-GPU/CPU support
+* [TorchSharp](https://github.com/xamarin/TorchSharp) - .NET bindings for PyTorch. Machine Learning with C# / F# with Multi-GPU/CPU support
 
- * [DiffSharp](http://diffsharp.github.io/) - An automatic differentiation (AD) library for incorporating derivative calculations with minimal changes into existing code, providing exact and efficient gradients, Jacobians and Hessians for machine learning and optimization applications.
+* [DiffSharp](http://diffsharp.github.io/) - An automatic differentiation (AD) library for incorporating derivative calculations with minimal changes into existing code, providing exact and efficient gradients, Jacobians and Hessians for machine learning and optimization applications.
 
- * [SharpCV](https://github.com/SciSharp/SharpCV) - A Computer Vision library combines OpenCV and NDArray together in .NET Standard.
+* [SharpCV](https://github.com/SciSharp/SharpCV) - A Computer Vision library combines OpenCV and NDArray together in .NET Standard.
 
- * [MxNet.Sharp](https://github.com/SciSharp/MxNet.Sharp) - .NET Standard bindings for Apache MxNet with Imperative, Symbolic and Gluon Interface for developing, training and deploying Machine Learning models in C# and F#.
+* [MxNet.Sharp](https://github.com/SciSharp/MxNet.Sharp) - .NET Standard bindings for Apache MxNet with Imperative, Symbolic and Gluon Interface for developing, training and deploying Machine Learning models in C# and F#.
 
- * [FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library that supports generic types.
+* [FsAlg](http://gbaydin.github.io/FsAlg/) - A lightweight linear algebra library that supports generic types.
 
    The library provides generic Vector and Matrix types that support most of the commonly used linear algebra operations, including matrix–vector operations, matrix inverse, determinants, eigenvalues, LU and QR decompositions. Its intended use is to enable writing generic linear algebra code with custom numeric types. It can also be used as a lightweight library for prototyping and scripting with primitive floating point types.
 
- * [Ariadne](http://evelinag.com/Ariadne/) - Library for fitting Gaussian process regression models.
+* [Ariadne](http://evelinag.com/Ariadne/) - Library for fitting Gaussian process regression models.
 
- * [Numl](http://numl.net/) - A machine learning library intended to ease the use of using standard modeling techniques for both prediction and clustering
+* [Numl](http://numl.net/) - A machine learning library intended to ease the use of using standard modeling techniques for both prediction and clustering
 
- * [Deedle](http://fslab.org/Deedle/) is an easy-to-use, high quality
+* [Deedle](http://fslab.org/Deedle/) is an easy-to-use, high quality
    package for data and time series manipulation and for scientific programming.
    It uses a design similar to the Pandas library from Python and the 'tseries' or 'zoo' packages in R, though
    with stronger typing. Deedle supports working with structured data frames, ordered and unordered data, as well as time series. Deedle is designed to
@@ -91,7 +91,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 ## Commercial packages
 {: #commercial-packages .anchor }
 
- * [ILNumerics](http://ilnumerics.net/) - an open- or closed-source library offering high-
+* [ILNumerics](http://ilnumerics.net/) - an open- or closed-source library offering high-
    performance numerical algorithms as well as charting and plotting capabilities.
 
    The library is based on efficient, general-purpose array classes implementing vectors, matrices, and
@@ -102,7 +102,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
 
    License: GPLv3 or commercial (paid) license.
 
- * [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) -
+* [Extreme Optimization Numerical Libraries for .NET](http://www.extremeoptimization.com/) -
    a set of three libraries focused on vector and matrix processing,
    linear algebra methods, and statistics functions.
 
@@ -112,7 +112,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
    using pure managed code for portability or to utilize highly tuned native code for
    additional performance.
 
- * [NMath, NMath Stats](https://www.centerspace.net/nmath/) -
+* [NMath, NMath Stats](https://www.centerspace.net/nmath/) -
    a suite providing core math and statistics functions.
 
    NMath provides sparse- and
@@ -122,7 +122,7 @@ If a resource specific to F# can't be found, then search for C# instead and adju
    factorization. NMath and NMath Stats support .NET 4.5 and are available from
    [CenterSpace Software](http://www.centerspace.net/).
 
- * [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) -
+* [F# for Numerics](http://www.ffconsultancy.com/products/fsharp_for_numerics/) -
    a collection of numeric algorithms including matrix operations, optimization and
    interpolation functions, 1D and 2D FFTs, and pseudo-random number generation.
 
@@ -130,80 +130,84 @@ If a resource specific to F# can't be found, then search for C# instead and adju
    the standard F# PowerPack Matrix for compatibility. F# for Numerics supports .NET.
    The library is available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
 
- * [F# for Visualization](http://www.ffconsultancy.com/products/fsharp_for_visualization/index.html) -
+* [F# for Visualization](http://www.ffconsultancy.com/products/fsharp_for_visualization/index.html) -
    a 2D and 3D vector graphics library with a native F# interface.
 
    The package provides interactive plotting from within Visual Studio and support for generating
    animations. F# for Visualization supports .NET. The library is
    available from [Flying Frog Consultancy](http://www.ffconsultancy.com/).
 
-
 <br />
 
 ## Interoperability
 
 ### F# and Excel
+
 {: #excel-interop .anchor }
 
 [Excel-DNA](http://excel-dna.net/) is an independent project to integrate .NET into Excel. With Excel-DNA you can make native (.xll) add-ins for Excel using C#, Visual Basic.NET or F#, providing high-performance user-defined functions (UDFs), custom ribbon interfaces
 and more. Your entire add-in can be packed into a single .xll file requiring no installation or registration:
 
- * [Excel-DNA home pages](http://excel-dna.net/)
- * [Async and event-streaming Excel UDFs with F#](https://excel-dna.net/blog/2013/03/26/async-and-event-streaming-excel-udfs-with-f)
+* [Excel-DNA home pages](http://excel-dna.net/)
+* [Async and event-streaming Excel UDFs with F#](https://excel-dna.net/blog/2013/03/26/async-and-event-streaming-excel-udfs-with-f)
 
 [Sharp Cells](https://www.sharpcells.com/) is another independent project which integrates F# scripting with Excel. It exposes the scripts as either user-defined functions (UDFs) using [Excel's XLL API](https://learn.microsoft.com/en-us/office/client-developer/excel/welcome-to-the-excel-software-development-kit) or commands using [Excel's COM API](https://learn.microsoft.com/en-us/dotnet/api/microsoft.office.interop.excel?view=excel-pia). Compilation takes place at runtime allowing rapid iteration of your code and the scripts are embedded with the workbook maintaining single-file portability similar to VBA.
 
- * [Getting started](https://www.sharpcells.com/getting-started)
- * [Working with asynchronous calculations](https://www.sharpcells.com/example-async)
- * Integration with [AngouriMath](https://am.angouri.org/) to [perform symbolic algebra](https://www.sharpcells.com/example-symbolic)
+* [Getting started](https://www.sharpcells.com/getting-started)
+* [Working with asynchronous calculations](https://www.sharpcells.com/example-async)
+* Integration with [AngouriMath](https://am.angouri.org/) to [perform symbolic algebra](https://www.sharpcells.com/example-symbolic)
 
-[NPOI](https://github.com/nissl-lab/npoi/) is .NET version of POI Java project at http://poi.apache.org/. POI is an open source project which can help you read/write xls, doc, ppt files.
+[NPOI](https://github.com/nissl-lab/npoi/) is .NET version of POI Java project at <http://poi.apache.org/>. POI is an open source project which can help you read/write xls, doc, ppt files.
 
 NPOI manipulates the Open Office XML format directly so does not require having Excel installed and do not use Interop. You can read, create, and edit Excel documents using this approach.
 
- * [Charting with Excel from F#](http://bit.ly/GGv8z4)
+* [Charting with Excel from F#](http://bit.ly/GGv8z4)
 
 There are also some F# versions of Excel functions, useful when migrating code:
 
- * [Excel Financial Functions for .NET](https://github.com/fsprojects/ExcelFinancialFunctions)
+* [Excel Financial Functions for .NET](https://github.com/fsprojects/ExcelFinancialFunctions)
 
 <br />
 
 ### F# and R
+
 {: #r-interop  .anchor }
 
 Resources:
 
- * [R Type Provider for F#](http://fslab.org/RProvider) - An F# type provider for high fidelity integration between F# and R
- * [R.NET](https://github.com/jmp75/rdotnet) - Core interoperability component used by the R Type Provider with some F# extensions.
- * [Using F#, R and GGPlot2](http://stackoverflow.com/questions/16820211/r-type-provider-and-ggplot2)
+* [R Type Provider for F#](http://fslab.org/RProvider) - An F# type provider for high fidelity integration between F# and R
+* [R.NET](https://github.com/jmp75/rdotnet) - Core interoperability component used by the R Type Provider with some F# extensions.
+* [Using F#, R and GGPlot2](http://stackoverflow.com/questions/16820211/r-type-provider-and-ggplot2)
 
 <br />
 
 ### F# and MATLAB
+
 {: #matlab-interop  .anchor }
 
 Resources:
 
- * [MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider for higher-fidelity integration between F# and MATLAB
+* [MATLAB Type Provider for F#](http://bayardrock.github.io/Matlab-Type-Provider/) - An F# type provider for higher-fidelity integration between F# and MATLAB
 
 <br />
 
 ### F# and Python
+
 {: #python-interop  .anchor }
 
 Resources:
 
- * [Python for .NET](http://pythonnet.github.io/) - Allows Python to be integrated into F# and C# programs
- * [Tutorial: Charting with Gnuplot from F#](http://bit.ly/14RwJeW)
+* [Python for .NET](http://pythonnet.github.io/) - Allows Python to be integrated into F# and C# programs
+* [Tutorial: Charting with Gnuplot from F#](http://bit.ly/14RwJeW)
 
 <br />
 
 ### F# and Mathematica/Wolfram Language
+
 {: #mathematica-interop  .anchor }
 
 Resources:
 
- * [Calling Mathematica from F#](http://reference.wolfram.com/legacy/v8/NETLink/tutorial/CallingMathematicaFromNET.html) - techniques to call Mathematica from C#, F# and other .NET languages
+* [Calling Mathematica from F#](http://reference.wolfram.com/legacy/v8/NETLink/tutorial/CallingMathematicaFromNET.html) - techniques to call Mathematica from C#, F# and other .NET languages
 
- * [Calling Wolfram Language from F#](http://reference.wolfram.com/language/NETLink/tutorial/CallingTheWolframLanguageFromNET.html) - techniques to call Mathematica from .NET
+* [Calling Wolfram Language from F#](http://reference.wolfram.com/language/NETLink/tutorial/CallingTheWolframLanguageFromNET.html) - techniques to call Mathematica from .NET

@@ -25,6 +25,7 @@ If the data access libraries you need are not listed here, you can search for th
 
 A wide range of high-quality libraries exist for SQL data access from F#. Many can be found on [NuGET](http://nuget.org).
 Some resources are listed below:
+
 * [LINQ to DB](https://github.com/linq2db/linq2db) - LINQ to DB is the fastest LINQ database access library offering a simple, light, fast, and type-safe layer between your POCO objects and your database.
 
 * [FSharp.Data.SQLProvider](http://fsprojects.github.io/SQLProvider/) - A general SQL database type provider, supporting LINQ queries, schema exploration, individuals. Requires SQL Server, SQLite, PostgreSQL, Oracle, MySQL or Microsoft Access.

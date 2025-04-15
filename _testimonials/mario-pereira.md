@@ -19,7 +19,7 @@ F# and experience its immense expressive power, its delightful
 syntax and realize they can do functional programming (which is
 oftenly taken as something boring and complicated) on a familiar and
 confortable environment. Currently, along with a fellow portuguese
-MSP, (following the success of previous presentations and in response 
+MSP, (following the success of previous presentations and in response
 to the many requests for new sessions on F#) I'm preparing an hands-on session on the use of F# for
 Cryptography, to be presented on a future event at Microsoft Portugal.
 
@@ -28,5 +28,3 @@ reliable and complex applications on a confortable and succinct way,
 impossible to achieve with other languages and paradigms. With no
 doubt, I can say I'm a huge fan of F# and I'm always eager to get in
 touch with every new feature the language has to offer.
-
-    

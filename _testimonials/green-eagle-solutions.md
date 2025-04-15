@@ -17,4 +17,3 @@ Beforehand, we used Python to quickly build simulators to test our components. W
 We have also started to use F# directly in our components to implementing the core logic, while leaving C# to networking tasks. We've taking advantage of this language mix to create a dependency injector which recompiles the F# logic at runtime whenever the script changes for quick development iterations, but loads a precompiled .dll when deployed in production. The double nature of F# as a scripting and a compiled language really shines here.
 
 F#'s terse syntax made the final code look really similar to the algorithm we wrote at first in formal language. Also, we've come to really appreciate the numerous metaprogramming libraries in the F# ecosystem: we particularly like FSharp.Formatting and have started to adopt the literate programming style to integrate as much as possible the code and the documentation and prevent them losing sync.
-    

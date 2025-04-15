@@ -17,8 +17,6 @@ Besides all the benefits of the functional paradigm for this type of work, F# in
 the .NET platform allows the construction of powerful implementations that other functional languages
 do not allow so easily.
 
-I really hope that, in the future, I keep working in Cryptography using F# as the main programming 
-language for my projects. I am also preparing a hands-on presentation about F# and Cryptography to 
+I really hope that, in the future, I keep working in Cryptography using F# as the main programming
+language for my projects. I am also preparing a hands-on presentation about F# and Cryptography to
 be presented at an event in Microsoft Portugal, which I will surely enjoy!
-
-    

@@ -17,5 +17,3 @@ multithreaded system that was easily portable between Android and iOS.
 
 Our F# actors (shared across iOS and Android) expose .Net IObservables that are consumed by UI systems written for the native platforms.
 Dividing the system in that way allowed for testable multithreaded code that would have been difficult to write in other .Net languages.
-
-    

@@ -10,13 +10,10 @@ headline: Using F# for Jupyter Notebooks
 provides data scientists and developers a way to explore data, experiment with code, and try new ideas
 effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter notebooks or custom interactive coding experiences.
 
-
 * [Use in Visual Studio Code](https://github.com/dotnet/interactive/#visual-studio-code)
 
 * [Use in Jupyter](https://github.com/dotnet/interactive/#jupyter-and-nteract)
 
 <br />
 
-
 See also [F# for Data Science](../../guides/data-science/).
-
