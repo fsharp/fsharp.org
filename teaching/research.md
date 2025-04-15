@@ -15,35 +15,35 @@ research projects build on top of F#.
 
 To add a paper to this list [edit this page](https://github.com/fsharp/fsharp.org/edit/main/teaching/research.md) and submit a pull request.
 
- * **[The F# Language - History and Design](#history-and-design)** - a publication
+* **[The F# Language - History and Design](#history-and-design)** - a publication
     about the history and design of the F# language.
 
- * **[Information-rich programming](#information-rich-programming)** - publications related to F# type providers, a novel mechanism
+* **[Information-rich programming](#information-rich-programming)** - publications related to F# type providers, a novel mechanism
      that integrates large-scale data into statically typed function programming language.
 
- * **[Asynchronous, Concurrent and Reactive programming](#asynchronous-concurrent-and-reactive-programming)** - publications
+* **[Asynchronous, Concurrent and Reactive programming](#asynchronous-concurrent-and-reactive-programming)** - publications
    about F# _asynchronous workflows_, the asynchronous programming model used in F#,
    event-based programming and "joinads", a research extension of F# _computation expression_ syntax
    for concurrent, reactive and parallel programming patterns.
 
- * **[Parallel, Distributed and Cloud programming](#distributed-and-parallel-programming)** - publications
+* **[Parallel, Distributed and Cloud programming](#distributed-and-parallel-programming)** - publications
    related to parallel and distributed programming using F#.
 
- * **[DSLs and Meta-programming](#dsls-and-meta-programming)** - publications related to DSL and
+* **[DSLs and Meta-programming](#dsls-and-meta-programming)** - publications related to DSL and
    meta-programming in F#.
 
- * **[Units of Measure](#units-of-measure)** - publications related to the Units of Measure feature of F#.
+* **[Units of Measure](#units-of-measure)** - publications related to the Units of Measure feature of F#.
 
- * **[Web programming](#web-programming)** - publications related to web programming with F#.
+* **[Web programming](#web-programming)** - publications related to web programming with F#.
 
- * **[Security and Verification Research](#security-and-verification-research)** - variations of F# and their use in security and verification research.
+* **[Security and Verification Research](#security-and-verification-research)** - variations of F# and their use in security and verification research.
 
- * **[Applications](#applications)** - publications and presentations describing applications of F#.
-
+* **[Applications](#applications)** - publications and presentations describing applications of F#.
 
 --------------
 
-## The History of F#
+## The History of F #
+
 {: #history-and-design .anchor }
 
 ### [The Early History of the F# Language](https://dl.acm.org/doi/pdf/10.1145/3386325)
@@ -52,9 +52,8 @@ Presented by Don Syme at HOPL-IV, The History of Programming Languages, 22 June 
 
 This paper describes the genesis and early history of the F# programming language. I start with the origins of strongly-typed functional programming (FP) in the 1970s, 80s and 90s. During the same period, Microsoft was founded and grew to dominate the software industry. In 1997, as a response to Java, Microsoft initiated internal projects which eventually became the .NET programming framework and the C# language. From 1997 the worlds of academic functional programming and industry combined at Microsoft Research, Cambridge. The researchers engaged with the company through Project 7, the initial effort to bring multiple languages to .NET, leading to the initiation of .NET Generics in 1998 and F# in 2002. F# was one of several responses by advocates of strongly-typed functional programming to the "object-oriented tidal wave" of the mid-1990s. The development of the core features of F# 1.0 happened from 2004-2007, and I describe the decision-making process that led to the "productization" of F# by Microsoft in 2007-10 and the release of F# 2.0. The origins of F#'s characteristic features are covered: object programming, quotations, statically resolved type parameters, active patterns, computation expressions, async, units-of-measure and type providers. I describe key developments in F# since 2010, including F# 3.0-4.5, and its evolution as an open source, cross-platform language with multiple delivery channels. I conclude by examining some uses of F# and the influence F# has had on other languages so far.
 
-
-
 ## Information-rich programming
+
 {: #information-rich-programming .anchor }
 
 ### [Types from data: Making structured data first-class citizens in F#](http://conf.researchr.org/event/pldi-2016/pldi-2016-papers-types-from-data-making-structured-data-first-class-citizens-in-f-)
@@ -67,7 +66,6 @@ Most modern applications interact with external services and access data in stru
 In this paper, we integrate external structured data into F# programming. As most real-world data does not come with an explicit schema, we develop a shape inference algorithm that infers a shape from representative sample documents and transforms the shape into F# types using type providers. We present a formalization and a relative type soundness theorem for a simplified version of this process.
 
 Our library significantly reduces the amount of data access code and it provides additional safety guarantees when contrasted with the widely used weakly typed techniques.
-
 
 ### [F# 3.0 - Strongly-Typed Language Support for Internet-Scale Information Sources](http://research.microsoft.com/apps/pubs/default.aspx?id=173076)
 
@@ -101,12 +99,10 @@ _DDFP 2013_
 
 The F# language includes a feature called F# 3.0 Type Providers to support the integration of internet-scale information sources into a strongly typed functional-first programming environment. In this position paper we describe the key themes in information-rich functional programming that we have observed during this work. Our contribution is to document these themes and highlight future challenges and opportunities, in the context of a recently released, practical, open-source system for information-rich functional programming. We believe that this area is rich in excellent opportunities for future language and tooling research, information-space integration and schematization techniques.
 
-
-
 --------------
 
-
 ## Asynchronous, Concurrent and Reactive programming
+
 {: #asynchronous-concurrent-and-reactive-programming .anchor }
 
 ### [The F# Asynchronous Programming Model](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/async-padl-revised-v2.pdf)
@@ -145,11 +141,10 @@ allows us to safely combine both of the reactive programming patterns. As a resu
 take advantage of the clarity and simplicity of the declarative approach as well as the
 expressivity of the imperative model.
 
-
-
 --------------
 
 ## DSLs and Meta-programming
+
 {: #dsls-and-meta-programming .anchor }
 
 ### [Joinads: a retargetable control-flow construct for reactive, parallel and concurrent programming](http://tomasp.net/academic/papers/joinads/)
@@ -170,7 +165,6 @@ programming models – a reactive model based on events; a concurrent model base
 calculus and a parallel model using futures. All three models are implemented as libraries
 that benefit from our syntactic extension. This makes them easier to use and also opens
 space for exploring new useful programming models.
-
 
 ### [The F# Computation Expression Zoo](http://tomasp.net/academic/papers/computation-zoo/)
 
@@ -236,9 +230,9 @@ capturing all these applications.
 
 --------------
 
-##  Parallel and Distributed programming
-{: #distributed-and-parallel-programming   .anchor }
+## Parallel and Distributed programming
 
+{: #distributed-and-parallel-programming   .anchor }
 
 ### [MBrace: cloud computing with monads](http://dl.acm.org/citation.cfm?id=2525531&dl=ACM&coll=DL&CFID=454202220&CFTOKEN=25283533)
 
@@ -293,13 +287,11 @@ and add rich data analytics on any existing cloud service/application.
 Prajna supports running of cloud service and interactive data analytics in both managed code and unmanaged
 code, and supports running of remote code with significant data components (e.g., a recognition model that is hundreds of megabytes in size).
 
-
 --------------
 
-
 ## Units of Measure
-{: #units-of-measure .anchor }
 
+{: #units-of-measure .anchor }
 
 ### [Relational parametricity and units of measure](http://dl.acm.org/citation.cfm?id=263761)
 
@@ -339,7 +331,8 @@ _Lecture notes , for CEFP'09, Revised July 2010_
 
 --------------
 
-##  Web programming
+## Web programming
+
 {: #web-programming    .anchor }
 
 ### [Visualizing Data in the Web](http://dl.acm.org/citation.cfm?id=2429376)
@@ -361,6 +354,7 @@ flowlets defined in F# to JavaScript with WebSharper
 --------------
 
 ## Functional programming
+
 {: #functional-programming .anchor }
 
 ### [Extensible pattern matching via a lightweight language extension](http://research.microsoft.com/pubs/79947/p29-syme.pdf)
@@ -434,7 +428,6 @@ The best way to experiment with Joinads is to visit the [TryJoinads.org](http://
 web site, which contains a number of tutorials that can be tested in web browser capable
 of running Silverlight (MacOS and Windows).
 
-
 ### [Evaluation strategies for monadic computations](http://tomasp.net/academic/papers/malias/)
 
 Tomas Petricek
@@ -459,7 +452,8 @@ changing its structure or types.
 
 --------------
 
-##  Security and Verification Research
+## Security and Verification Research
+
 {: #security-and-verification-research  .anchor }
 
 The experimental [FStar language](http://research.microsoft.com/en-us/projects/fstar/) is inspired by F#.
@@ -483,10 +477,10 @@ Some of the publications about FStar are below.
 * Secure Distributed Programming with Value-Dependent Types, Nikhil Swamy, Juan Chen, Cedric Fournet,
   Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang, no. MSR-TR-2011-37, 24 March 2011
 
-
 --------------
 
-##  Applications
+## Applications
+
 {: #applications   .anchor }
 
 For more applications of F#, see the [Testimonials](../testimonials/) page. Below are some peer-reviewed publications or academic presentations related to applications of F#.
@@ -496,7 +490,6 @@ For more applications of F#, see the [Testimonials](../testimonials/) page. Belo
 Phil Trelford, _Commercial Users of Funnctional Programming_, 2006. This talk describes how the Applied Games Group at Microsoft Research Cambridge uses F#. This group consists of seven people, and specializes in the application of statistical machine learning, especially ranking problems. The ranking systems they have developed are used by the XBox Live team to do server-side analysis of game logs, and they recently entered an internal competition to improve "click-through" prediction rates on Microsoft adCenter, a multi-million dollar industry for the company. The amount of data analysed by the tools is astounding: e.g. 3TB in one case, with programs running continuously over four weeks of training data and occupying all the physical memory on the 64-bit 16GB machines we use.
 
 F# plays a crucial role in helping the group process this data efficiently and develop smart algorithms that extract essential features from the data and represent the information using the latest statistical technique called "factor graphs". Our use of F# in conjunction with SQL Server 2005 is especially interesting: we use novel compilation techniques to express the primary schema in F# and then use SQL Server as a data slave.
-
 
 ### [Developing an F# Bioinformatics Application with HTML5 Visualization](http://cufp.org/videos/developing-f-bioinformatics-application-html5-visualization)
 
@@ -523,7 +516,6 @@ the challenges we met on the way, and how we solved these challenges. Many bioin
 are amenable to functional programming, but as a full-blown web application with advanced visualization
 this project yielded a great deal of details that we hope will be useful for other attendees.
 
-
 ### [BumbleBee: A Transformation Environment for Spreadsheet Formulae](http://scholar.google.nl/citations?view_op=view_citation&hl=en&user=Kzy5f1IAAAAJ&citation_for_view=Kzy5f1IAAAAJ:LkGwnXOMwfcC)
 
 Felienne Hermans, Danny Dig
@@ -533,7 +525,6 @@ programmers outnumber regular programmers by a factor of 5. However, spreadsheet
 error-prone: several reports exist of companies which have lost money because of
 spreadsheet errors. We assert that a contributing factor to these problems is the difficulty of
 consistent editing of spreadsheet formulas.
-
 
 ### [The First Substantial Line of Business Application in F#](http://dl.acm.org/citation.cfm?id=1668117), [video](http://cufp.org/videos/first-substantial-line-business-application-f)
 
@@ -546,7 +537,6 @@ in channel marketing who would like to gain a timely and deep understanding of w
 is not working in their marketing campaigns. Marketers are than facilitated in the execution and delivery
 of campaigns, using this insight to create relevant communications to each individual. It is divided into
 four tightly integrated campaign management steps of Measure, Analyze, Design and Execute.
-
 
 ### [Applying Functional Programming to Build Platform-Independent Mobile Applications](http://cufp.org/conference/sessions/2011/applying-functional-programming-build-platform-ind)
 
@@ -581,7 +571,6 @@ and applying code transformations and optimizations.
 
 At the end of the talk, I will briefly touch upon our upcoming F# in the Cloud support and how that
 helps to seamlessly scale into the cloud desktop and mobile web applications with immense server computation needs.
-
 
 ### [GLR-based abstract parsing](http://dl.acm.org/citation.cfm?id=2556616&dl=ACM&coll=DL), [video (in russian)](http://vimeo.com/79442837)
 
