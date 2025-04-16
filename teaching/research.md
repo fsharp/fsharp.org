@@ -207,27 +207,6 @@ an implementation of language integrated SQL queries using the LINQ/SQLMetal lib
 sketch two other applications: the execution of data-parallel quoted F# programs on a GPU via the
 Accelerator libraries, and dynamic native-code compilation via LINQ.
 
-### [The F# Computation Expression Zoo](http://tomasp.net/academic/papers/computation-zoo/)
-
-Tomas Petricek and Don Syme
-_In proceedings of PADL 2014_
-
-Many computations can be structured using abstract computation types such as monoids, monad
-transformers or applicative functors. Functional programmers use those abstractions directly while
-main-stream languages often integrate concrete instances as language features - e.g. generators in
-Python or asynchronous computations in C# 5.0. The question is, is there a sweet spot between
-convenient, hardwired language features, and an inconvenient but flexible libraries?
-
-F# computation expressions answer this question in the affirmative. Unlike the do notation in Haskell,
-computation expressions are not tied to a single kind of abstraction. They support a wide range of
-computations, depending on what operations are available. They also provide greater syntactic
-flexibility leading to a more intuitive syntax, without resorting to full macro-based meta-programming.
-
-We show that computation expressions can structure well-known computations including monoidal list
-comprehensions, monadic parsers, applicative formlets and asynchronous sequences based on the list
-monad transformer. We also present typing rules for computation expressions that are capable of
-capturing all these applications.
-
 --------------
 
 ## Parallel and Distributed programming
