@@ -26,5 +26,5 @@ F# sequence expressions provide compositional, functional stream processing capa
 <!--more-->
 - **Simplified data generation** through sequence expressions
 - **Compositional data processing** through library routines
-- **On-demand evaluation** of data streams 
+- **On-demand evaluation** of data streams
 - **Fluent, maintainable code** that is easy to read and understand

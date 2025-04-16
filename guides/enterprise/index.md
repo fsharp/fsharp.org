@@ -63,13 +63,11 @@ Many developers have posted on why they like F#:
 * [Why F#?](http://davefancher.com/2013/01/27/why-f/)
 * [A list of many other "Why F#" posts](https://sergeytihon.wordpress.com/2013/03/24/why-f-by-f-weekly/).
 
-
 ### A tour of F# features ###
 
 * [An introduction to F#](https://channel9.msdn.com/blogs/pdc2008/tl11) (video).
 * [Why use F#?](http://fsharpforfunandprofit.com/series/why-use-fsharp.html).
   This series of posts will give you a guided tour through the main features of F#.
-
 
 ### Low risk ways to use F# ###
 
@@ -163,15 +161,15 @@ safe parallelization with immutable data, and more.
 
 #### Asynchronous programming in F# ####
 
-  * [Async in C# and F#: An introduction](http://tomasp.net/blog/csharp-fsharp-async-intro.aspx/)
-  * [Async in C# and F#: Asynchronous gotchas in C#](http://tomasp.net/blog/csharp-async-gotchas.aspx/). Why the F# async library is safer than the C# one.
-  * [Writing non-blocking user-interfaces in F#](http://tomasp.net/blog/async-non-blocking-gui.aspx/)
-  * [Asynchronous programming: another introduction](http://fsharpforfunandprofit.com/posts/concurrency-async-and-parallel/)
+* [Async in C# and F#: An introduction](http://tomasp.net/blog/csharp-fsharp-async-intro.aspx/)
+* [Async in C# and F#: Asynchronous gotchas in C#](http://tomasp.net/blog/csharp-async-gotchas.aspx/). Why the F# async library is safer than the C# one.
+* [Writing non-blocking user-interfaces in F#](http://tomasp.net/blog/async-non-blocking-gui.aspx/)
+* [Asynchronous programming: another introduction](http://fsharpforfunandprofit.com/posts/concurrency-async-and-parallel/)
 
 #### Agents and message queues ####
 
-  * [An Introduction To F# Agents](http://www.developerfusion.com/article/139804/an-introduction-to-f-agents/)
-  * [Agents](http://fsharpforfunandprofit.com/posts/concurrency-actor-model/). Another introduction
+* [An Introduction To F# Agents](http://www.developerfusion.com/article/139804/an-introduction-to-f-agents/)
+* [Agents](http://fsharpforfunandprofit.com/posts/concurrency-actor-model/). Another introduction
 
 ### Developer morale
 

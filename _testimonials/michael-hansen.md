@@ -27,5 +27,3 @@ interpreter for a rich imperative programming language,
 another being implementation, application and analysis of a
 functional pearl, and the last being a curriculum planning system
 for studies at the Technical University of Denmark.
-
-    

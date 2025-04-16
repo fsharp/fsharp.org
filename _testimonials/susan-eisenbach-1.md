@@ -10,10 +10,8 @@ keywords:
 - cross-platform
 quote: F#...levels the playing field between beginners and experienced programmers.
 ---
-Functional languages are ideal for teaching clear thinking, for solving problems 
-amenable to code solutions and it levels the playing field between beginners and 
-experienced programmers. The first programming language taught has a substantial 
-influence on what language students use when they have a free choice. F#, once it 
-is platform independent, has the potential to become the first programming language. 
-
-    
+Functional languages are ideal for teaching clear thinking, for solving problems
+amenable to code solutions and it levels the playing field between beginners and
+experienced programmers. The first programming language taught has a substantial
+influence on what language students use when they have a free choice. F#, once it
+is platform independent, has the potential to become the first programming language.

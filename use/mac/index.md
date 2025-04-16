@@ -39,8 +39,6 @@ You will see a message saying "Hello World from F#".
 
 For more information see [Getting started with the F# command line tools](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
 
-
-
 <br />
 
 ### Option 2: Install Visual Studio Code and Ionide

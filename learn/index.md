@@ -69,7 +69,6 @@ features such as active patterns and computation expressions.
 
 We maintain a list of general F# books [here.]({{ '/learn/books' | relative_url }})
 
-
 <h2 id="workshops" class="anchor">F# Workshops and Dojos</h2>
 
 ### [The F# Koans](https://github.com/ChrisMarinos/FSharpKoans#functional-koans---f)
@@ -85,8 +84,3 @@ Material from the F# Introduction Workshop created by Jorge Fioranelli.
 A range of coding dojos for F# from [Community for F#](http://c4fsharp.net) including the famous
 [Digits Recognizer](https://github.com/c4fsharp/Dojo-Digits-Recognizer), [Fractal Forest](https://github.com/c4fsharp/Dojo-Fractal-Forest), [Canopy 2048](https://github.com/c4fsharp/Dojo-Canopy-2048),
 [Markov Bot](https://github.com/c4fsharp/Dojo-Markov-Bot), [Type Provider Treasure Hunt](https://github.com/c4fsharp/Dojo-Type-Provider-Treasure-Hunt), [Classics Mash-up](https://github.com/c4fsharp/Dojo-Picasquez-and-Velasso) and [Ham or Spam](https://github.com/c4fsharp/Dojo-Ham-Or-Spam) dojos.
-
-
-
-
-

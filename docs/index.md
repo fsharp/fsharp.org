@@ -12,11 +12,11 @@ Comprehensive F# documentation that includes general information about F#, a lan
 
 The reference documentation for the FSharp.Core library.
 
-## [The F# Language Specification](../specs/language-spec) 
+## [The F# Language Specification](../specs/language-spec)
 
-The specification gives an in-depth 
-technical explanation of the F# language constructs and required compiler behavior. 
-It discusses topics such as lexical analysis, grammar, types including type inference 
+The specification gives an in-depth
+technical explanation of the F# language constructs and required compiler behavior.
+It discusses topics such as lexical analysis, grammar, types including type inference
 algorithm, expressions, patterns and other.
 
 ## [F# Cheat Sheet](https://github.com/fsprojects/fsharp-cheatsheet)
@@ -27,7 +27,7 @@ The cheat sheet is a small and concise guide to F# syntax for newcomers to get s
 
 ## [The F# Component Design Guidelines](https://docs.microsoft.com/dotnet/fsharp/style-guide/component-design-guidelines)
 
-This document is a set of component 
-design guidelines for F# programming. It describes guidelines for designing libraries 
-for use from other languages, guidelines for F#-to-F# libraries and suggestions on 
+This document is a set of component
+design guidelines for F# programming. It describes guidelines for designing libraries
+for use from other languages, guidelines for F#-to-F# libraries and suggestions on
 coding conventions.

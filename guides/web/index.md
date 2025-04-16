@@ -32,6 +32,7 @@ well to a stateless, functional approach. Advantages to using F# for web program
 ## Integrated Stacks
 
 #### SAFE Stack
+
 {: #safe-stack  .anchor }
 
 ![logo](../../images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
@@ -46,6 +47,7 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 <br />
 
 #### WebSharper
+
 {: #websharper    .anchor }
 
 ![logo](../../images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/)  allows end-to-end web applications with both client and server developed in F#.
@@ -60,6 +62,7 @@ It includes TypeScript interoperability, mobile web apps, getting started materi
 <br />
 
 #### Fable
+
 {: #fable    .anchor }
 
 ![logo](../../images/thumbs/fable.png)&nbsp;[Fable](http://fable.io/) is an F# to JS compiler designed to generate clean
@@ -77,6 +80,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 <br />
 
 #### Giraffe
+
 {: #giraffe  .anchor }
 
 ![logo](../../images/thumbs/giraffe.png)&nbsp;[Giraffe](https://github.com/giraffe-fsharp/Giraffe) is an F# library for building rich web applications that use ASP.NET Core under the hood. It has been heavily inspired and is similar to [Suave](https://suave.io/), but has been specifically designed with [ASP.NET Core](https://www.asp.net/core) in mind and can be plugged into the ASP.NET Core pipeline via [middleware](https://docs.microsoft.com/aspnet/core/fundamentals/middleware).
@@ -87,8 +91,8 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 
 <br />
 
-
 #### ASP.NET Core
+
 {: #aspnetcore  .anchor }
 
 [ASP.NET Core](https://www.asp.net/core) is a modern, cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications. It runs on .NET Core and supports F# out of the box. If you install the [.NET Core SDK](https://www.microsoft.com/net/download/core), there are F# templates available via the `dotnet new` command.
@@ -98,6 +102,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 <br />
 
 #### Suave
+
 {: #suave    .anchor }
 
 ![logo](../../images/thumbs/suave.png)&nbsp;[Suave](http://suave.io/) is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
@@ -105,6 +110,7 @@ and mobile apps with [React native](https://facebook.github.io/react-native/).
 <br />
 
 #### Saturn
+
 {: #saturn    .anchor }
 
 ![logo](../../images/thumbs/saturn.png)&nbsp;[Saturn](https://saturnframework.org) is a web development framework written in F# which implements the server-side MVC pattern. Many of its components and concepts will seem familiar to anyone with experience in other web frameworks like Ruby on Rails or Python’s Django. It's built on top of Giraffe and ASP.Net Core - modern, cross-platform, high-performance development platform for building cloud-ready web applications.
@@ -126,15 +132,13 @@ It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 * [Project Template](https://github.com/fsbolero/template)
 * [Try Online](https://tryfsharp.fsbolero.io/)
 
-
 <br />
 
-
 #### Falco
+
 {: #falco    .anchor }
 
 [Falco](https://github.com/pimbrouwers/Falco) is a functional-first toolkit for building brilliant ASP.NET Core applications using F#. It is built upon the high-performance primitives of ASP.NET Core, optimized for building HTTP applications quickly, and seamlessly integrates with existing .NET Core middleware and frameworks.
-
 
 * [NuGet](https://www.nuget.org/packages/Falco/)
 * [GitHub](https://github.com/pimbrouwers/Falco)
@@ -144,21 +148,23 @@ It's heavily inspired by Elixir's [Phoenix](http://phoenixframework.org/).
 <br />
 
 #### ServiceStack
+
 {: #service-stack    .anchor }
 
 [ServiceStack](https://servicestack.net/) is a framework for simple and fast web services on .NET.
 
 <br />
 
-
 ------
 
 ## Web Testing Frameworks
+
 {:  .anchor }
 
 <br />
 
 #### Canopy for Client-side Testing
+
 {: #canopy    .anchor }
 
 [canopy](http://lefthandedgoat.github.io/canopy/) is a web testing framework built on top of selenium and written in F#. It's syntax is clean and
@@ -167,6 +173,7 @@ concise. You can easily leverage your existing .NET code to help you test.
 <br />
 
 #### Unit Testing Libraries
+
 {:  .anchor }
 
 Some open source libraries that assist with web unit testing are:
@@ -183,15 +190,16 @@ Some open source libraries that assist with web unit testing are:
 
 * [Unquote](https://github.com/SwensenSoftware/unquote/)
 
-
 ------
 
 ## Live Examples
+
 {:  .anchor }
 
 <br />
 
 #### TodoBackend
+
 {:  .anchor }
 
 [TodoBackend](http://todobackend.com/) is a project that aims to be "a shared example to showcase backend tech stacks." The F# community has contributed some examples, and a few more are in progress:
@@ -205,6 +213,7 @@ Please consider contributing, either directly to the TodoBackend project or via 
 ------
 
 ## Tutorials
+
 {:  .anchor }
 
 * [Suave Music Store Tutorial](https://www.gitbook.com/book/theimowski/suave-music-store) for creating applications with Suave.IO
@@ -212,6 +221,7 @@ Please consider contributing, either directly to the TodoBackend project or via 
 ------
 
 ## Books
+
 {:  .anchor }
 
 Several books have been written that include information on building web applications with F#:
@@ -223,6 +233,7 @@ Several books have been written that include information on building web applica
 ------
 
 ## Presentations
+
 {:  .anchor }
 
 There are  several presentations and tutorials available that include information on
@@ -247,6 +258,7 @@ build web applications with F#:
 ------
 
 ## Hosting
+
 {:  .anchor }
 
 Common hosting options are:

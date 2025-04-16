@@ -23,7 +23,7 @@ or mobile with [React native](https://facebook.github.io/react-native/).
 
 ### Option 2: Use WebSharper
 
-![logo](../../images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) allows end-to-end web applications with both client and server developed in F#. 
+![logo](../../images/thumbs/WebSharper.png)&nbsp;[WebSharper](http://websharper.com/) allows end-to-end web applications with both client and server developed in F#.
 It includes TypeScript interoperability, mobile web apps, getting started material, templates and much more.
 
 * [Try Online](http://websharper.com/samples)
@@ -56,4 +56,3 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 <br />
 
 There are other options, see also [F# Web Programming](../../guides/web/).
-

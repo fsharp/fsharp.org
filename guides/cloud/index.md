@@ -26,6 +26,7 @@ For cloud-hosted web programming and services, refer to the [Web Programming Gui
 ### Integrated Stacks
 
 #### SAFE Stack
+
 {: #safe-stack  .anchor }
 
 ![logo](../../images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
@@ -44,7 +45,7 @@ coherent stack for type-safe, flexible, web-enabled applications that can be wri
 [Microsoft Azure](https://azure.microsoft.com/) provides access to  Microsoft's worldwide datacenters through services including
 virtual machines, geo-redundant storage, database clusters, website deployment and other services.
 
- * [Using F# on Azure](https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-on-azure/) - Microsoft's comprehensive guide to using F# on Azure.
+* [Using F# on Azure](https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-on-azure/) - Microsoft's comprehensive guide to using F# on Azure.
 
 #### [Amazon Web Services](http://aws.amazon.com)
 
@@ -54,7 +55,7 @@ hosting services. Amazon offers a .NET SDK for managing the AWS services,
 storage, compute instances, and other Amazon services.
 Some additional resources for using F# and .NET on Amazon's AWS service:
 
- * [FSharp.AWS.DynamoDB](https://github.com/fsprojects/FSharp.AWS.DynamoDB#fsharpawsdynamodb) - an F# wrapper over the standard Amazon.DynamoDB library which allows you to represent table items using F# records and perform updates, queries and scans using F# quotation expressions
+* [FSharp.AWS.DynamoDB](https://github.com/fsprojects/FSharp.AWS.DynamoDB#fsharpawsdynamodb) - an F# wrapper over the standard Amazon.DynamoDB library which allows you to represent table items using F# records and perform updates, queries and scans using F# quotation expressions
 
 ### Scalable Data Programming
 

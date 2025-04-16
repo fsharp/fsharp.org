@@ -27,7 +27,6 @@ computer. It includes example code for many of F#'s basic features.
 
 [SharpLab](https://sharplab.io/) is a C#/VB/F# compiler playground, allows you to see compiled code including generated assembly code.
 
-
 <br />
 
 ## Registration required
@@ -53,4 +52,3 @@ Easiest way to get started with Gitpod is going to [Ionide Playground repository
 Easiest way to get started with Gitpod is going to [Ionide Playground repository](https://github.com/ionide/playground) and clicking `Open in Gitpod` button
 
 <br />
-

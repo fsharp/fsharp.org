@@ -53,7 +53,6 @@ Example:
 
     Not ideal, but oh well.
 
-
 ## Developing locally
 
 The easiest way to get started developing this repository on your own machine is by using the supplied dev container.

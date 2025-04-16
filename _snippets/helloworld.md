@@ -18,7 +18,7 @@ code: |
 ---
 ## Concise like Python
 
-F#'s elegant syntax and strong typing give you the tools to solve problems succinctly, robustly and happily. 
+F#'s elegant syntax and strong typing give you the tools to solve problems succinctly, robustly and happily.
 <!--more-->
 - **Concise syntax** defines reusable functions with minimal boilerplate
 - **Simple lists** uses indentation-based syntax without requiring commas

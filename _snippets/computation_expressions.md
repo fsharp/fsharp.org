@@ -38,4 +38,3 @@ F# computation expressions give you an elegant syntax for compositional control 
 - **Seamless error handling** with [railway-oriented programming](https://fsharpforfunandprofit.com/rop/) patterns
 - **Elegant data transformations** by hiding boilerplate and focusing on business logic
 - **Composable workflows** that can be combined and nested for complex operations
-

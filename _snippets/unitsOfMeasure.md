@@ -25,5 +25,3 @@ F# offers world-class compile-time unit safety without runtime overhead, giving 
 - **Automatic unit conversions** maintain type safety while handling complex calculations
 - **Seamless interoperability** works with normal numeric types when needed
 - **Custom unit definitions** let you create your own units and conversions with simple syntax
-
-

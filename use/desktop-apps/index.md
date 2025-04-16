@@ -39,4 +39,3 @@ are available on the web.
 <br />
 
 There are other options, see also [F# Community Projects](../../community/projects/).
-
