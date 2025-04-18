@@ -1,12 +1,15 @@
 ---
-layout: default
+layout: page
 title: Use F# on Linux | fsharp.org
 headline: Use F# on Linux
 ---
 
-### Option 1: Install the CLI tools and use your own editor
+<div class="space-y-4 sm:space-y-8 lg:space-y-12">
+<article markdown=1 class="prose-card">
+## Option 1: Install the CLI tools and use your own editor
+<img class="w-24 h-24 m-0" src="{{ '../../images/thumbs/NET_Core_Logo.svg' | relative_url }}" />
 
-![logo](../../images/thumbs/dotnet.png)&nbsp;Install the [.NET SDK](https://dotnet.microsoft.com/download). .NET is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice.
+Install the [.NET SDK](https://dotnet.microsoft.com/download). .NET is available for major Linux distributions and is typically installed with the system package manager of your distribution of choice.
 
 Once that is installed, you can begin using F#!
 
@@ -39,11 +42,15 @@ You will see a message saying "Hello World from F#".
 
 For more information see [Getting started with the F# command line tools](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-command-line).
 
-<br />
-
-### Option 2: Install Visual Studio Code and Ionide
-
-![logo](../../images/thumbs/VSCode.png)&nbsp;[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
+</article>
+<article markdown=1 class="prose-card">
+## Option 2: Install Visual Studio Code and Ionide
+<div class="flex flex-row gap-4 items-center">
+<img class="h-24 aspect-auto m-0" src="{{ '../../images/thumbs/Visual_Studio_Code_1.35_icon.svg' | relative_url }}" />
+<i class="fa-solid fa-plus fa-xl"></i>
+<img class="h-24 aspect-auto m-0" src="{{ '../../images/thumbs/ionide_logo.png' | relative_url }}" />
+</div>
+[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
 F# is supported by the [Ionide](http://ionide.io/) project.
 
@@ -59,15 +66,26 @@ You can also install the plugin from the plugin pane on the left-hand side.
 
 Ionide works best if you use the .NET CLI to create your projects. You can learn more in [Get Started with F# in Visual Studio Code](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-vscode).
 
-<br />
+</article>
+<article markdown=1 class="prose-card">
 
-### Option 3: Install JetBrains Rider
+## Option 3: Install JetBrains Rider
 
-![logo](../../images/thumbs/rider.png)&nbsp;[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET applications on all platforms.
+<img class="h-24 aspect-auto m-0" src="{{ "../../images/thumbs/Rider_icon.svg" | relative_url }}" />
+
+[JetBrains Rider](https://www.jetbrains.com/rider) is a cross-platform .NET IDE built using IntelliJ and ReSharper technology. It offers support for .NET applications on all platforms.
 
 You can install [JetBrains Rider from here](https://www.jetbrains.com/rider/download/).
 
-<br />
-### Option 4: Build F# from source
+  <figcaption class="text-xs text-pretty">
+Copyright © 2025 JetBrains s.r.o. Rider and the Rider logo are trademarks of JetBrains s.r.o.
+  </figcaption>
+
+</article>
+<article markdown=1 class="prose-card">
+## Option 4: Build F# from source
+<img class="h-24 aspect-auto m-0 dark:hidden" src="{{ "../../images/thumbs/github-mark.svg" | relative_url }}" />
+<img class="h-24 aspect-auto m-0 hidden dark:block" src="{{ "../../images/thumbs/github-mark-white.svg" | relative_url }}" />
 
 You can build and contribute to the F# compiler and library from [the source](https://github.com/dotnet/fsharp).
+</article>
