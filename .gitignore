@@ -8,3 +8,4 @@ _site/
 run-jekyll.*
 .ionide
 js/
+.idea/projectSettingsUpdater.xml

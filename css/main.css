@@ -127,6 +127,8 @@ a[href^="https://fsharp.org"]::after {
     }
 }
 
-
+article.prose-card {
+    @apply pt-0 prose prose-slate dark:prose-invert p-8 border border-slate-200 dark:border-slate-600 rounded bg-slate-50 dark:bg-slate-900 shadow;
+}
 
 
