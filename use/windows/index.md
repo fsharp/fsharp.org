@@ -46,7 +46,7 @@ For more information see [Getting started with the F# command line tools](https:
 <i class="fa-solid fa-plus fa-xl"></i>
 <img alt="Ionide Logo" class="h-24 aspect-auto m-0" src="{{ '../../images/thumbs/ionide_logo.png' | relative_url }}" />
 </div>
-Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
+[Visual Studio Code](https://code.visualstudio.com) is a free, [open source](https://github.com/microsoft/vscode), cross platform source code editor
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
 F# is supported by the [Ionide](http://ionide.io/) project.
 
