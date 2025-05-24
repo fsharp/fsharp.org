@@ -20,7 +20,7 @@ code: |
             return $"Validation error: {msg}"
     }
 
-    processPersonAsync { Name = "Snowdrop"; Age = 13}
+    processPersonAsync { Name = "Snowdrop"; Age = 13 }
     |> Async.RunSynchronously
 ---
 ## Async Programming made Easy
