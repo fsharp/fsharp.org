@@ -14,7 +14,7 @@ code: |
     open SixLabors.ImageSharp // NuGet package: SixLabors.ImageSharp
     open SixLabors.ImageSharp.Processing
     use image = Image.Load "input.png"
-    image.Mutate (_.Resize(300, 200).Flip(FlipMode.Horizontal ||| FlipMode.Vertical) >> ignore)
+    image.Mutate(_.Resize(300, 200).Flip(FlipMode.Horizontal ||| FlipMode.Vertical) >> ignore)
     image.Save "output.jpg"
     ---
 ## Full access to .NET ecosystem
