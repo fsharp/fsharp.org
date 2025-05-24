@@ -3,7 +3,7 @@ order: 14
 title: TypeProviders.fs
 excerpt_separator: <!--more-->
 code: |
-    open FSharp.Data
+    open FSharp.Data // NuGet package: FSharp.Data
 
     type PeopleDB = CsvProvider<"people.csv">
 
