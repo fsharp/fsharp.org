@@ -3,15 +3,14 @@ order: 15
 title: SequenceExpressions.fs
 excerpt_separator: <!--more-->
 code: |
-    // A function generating a sequence of numbers
     let rec fizzBuzzSeq n = seq {
-        yield
-            match n with
-            | x when x % 15 = 0 -> "fizzbuzz"
-            | x when x % 3 = 0 -> "fizz"
-            | x when x % 5 = 0 -> "buzz"
-            | _ -> n.ToString()
-
+        match n with
+        | x when x % 15 = 0 -> "fizzbuzz"
+        | x when x % 3 = 0 -> "fizz"
+        | x when x % 5 = 0 -> "buzz"
+        | _ -> n.ToString()
+        
+        // Tail recursion makes this as efficient as a "while" loop
         yield! fizzBuzzSeq (n + 1)
     }
 
