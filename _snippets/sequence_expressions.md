@@ -3,7 +3,8 @@ order: 15
 title: SequenceExpressions.fs
 excerpt_separator: <!--more-->
 code: |
-    let (|Divides|_|) divisor x = x % divisor = 0 // This is an active pattern. It allows customized pattern matching.
+    // This is an active pattern. It allows customized pattern matching.
+    let (|Divides|_|) divisor x = x % divisor = 0
     let rec fizzBuzzSeq n = seq {
         match n with
         | Divides 15 -> "fizzbuzz"
