@@ -17,6 +17,7 @@ code: |
     image.Mutate(_.Resize(300, 200).Flip(FlipMode.Horizontal ||| FlipMode.Vertical) >> ignore)
     image.Save "output.jpg"
     ---
+
 ## Full access to .NET ecosystem
 
 F# has seamless .NET integration which lets you work with existing .NET libraries and frameworks. Anything written in C# can be used from F# and vice versa.
