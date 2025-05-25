@@ -3,14 +3,11 @@ order: 15
 title: SequenceExpressions.fs
 excerpt_separator: <!--more-->
 code: |
-    // This is an active pattern. It allows customized pattern matching.
-    let (|Divides|_|) divisor x = x % divisor = 0
     let rec fizzBuzzSeq n = seq {
-        match n with
-        | Divides 15 -> "fizzbuzz"
-        | Divides 3 -> "fizz"
-        | Divides 5 -> "buzz"
-        | _ -> n.ToString()
+        if n % 15 = 0 then "fizzbuzz"
+        elif n % 3 = 0 then "fizz"
+        elif n % 5 = 0 then "buzz"
+        else n.ToString()
         
         // Tail recursion makes this as efficient as a "while" loop
         yield! fizzBuzzSeq (n + 1)
