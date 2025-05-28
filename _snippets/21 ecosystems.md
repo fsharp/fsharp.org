@@ -13,11 +13,11 @@ code: |
         member _.flipY(): Image = jsNative
         [<ParamObject>] member _.resize(?width: float, ?height: float): Image = jsNative
         member _.save(path: string): Promise<unit> = jsNative
-    (promise {
+    promise {
         let! image = Image.load "input.png"
         let image = image.resize(width=300, height=200).flipX().flipY()
         do! image.save "output.jpg"
-    }).catch(fun x -> console.error x) |> ignore
+    } |> _.catch(fun x -> console.error x) |> ignore
 
     // .NET Example: Image processing
     // C# types have seamless integration with F#.
