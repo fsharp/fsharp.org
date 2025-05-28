@@ -1,5 +1,5 @@
 ---
-order: 19
+order: 15
 title: UnitsOfMeasure.fs
 excerpt_separator: <!--more-->
 code: |
