@@ -32,7 +32,8 @@ code: |
 ---
 ## F# for JavaScript and the Full Stack
 
-F# is for both client and server. With [F# web technologies]({{ '/use/web-apps/' | relative_url }}), you can target JavaScript environments directly without including the rest of .NET. This means you can use F# across both frontend and backend to build web applications, mobile apps, and even serverless functions that run in the cloud.
+F# is for both client and server. With [F# web technologies]({{ '/use/web-apps/' | relative_url }}), you can target JavaScript environments directly without including the rest of .NET.
+This means you can use F# across both frontend and backend to build web applications, mobile apps, and even serverless functions that run in the cloud.
 <!--more-->
 - **Type-safe DOM manipulation** catches errors at compile time, not runtime
 - **Seamless React integration** with hooks and modern patterns
