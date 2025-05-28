@@ -12,7 +12,7 @@ code: |
 
         for person in people.Rows do
             // Access the CSV fields with intellisense and type safety!
-            printfn $"Name: %s{person.Name}, Id: %i{person.Id}"
+            printfn $"Name: {person.Name: string}, Id: {person.Id: int}"
 ---
 ## Type-Safe, Integrated Data
 
