@@ -37,7 +37,7 @@ code: |
 
 ## Full access to ecosystems of libraries
 
-F# has full integration with ecosystems of JavaScript and Microsoft .NET libraries and frameworks.
+F# has full integration with ecosystems of JavaScript and .NET libraries and frameworks.
 Anything written in JavaScript or C# can be used from F# and vice versa.
 <!--more-->
 - **JavaScript** is the universal language of web development. It encompasses [Web](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [Mobile](https://reactnative.dev/), [Desktop](https://www.electronjs.org/), [Cloud](https://nodejs.org/), [Microservices](https://nestjs.com/), [Artificial Intelligence](https://www.tensorflow.org/js), [Game Development](https://phaser.io/) and [Internet of Things](https://johnny-five.io/).
