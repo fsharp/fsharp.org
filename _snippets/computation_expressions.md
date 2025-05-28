@@ -1,5 +1,5 @@
 ---
-order: 17
+order: 14
 title: ComputationExpressions.fs
 excerpt_separator: <!--more-->
 code: |

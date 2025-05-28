@@ -1,5 +1,5 @@
 ---
-order: 15
+order: 12
 title: SequenceExpressions.fs
 excerpt_separator: <!--more-->
 code: |

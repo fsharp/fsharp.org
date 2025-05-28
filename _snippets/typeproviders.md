@@ -1,5 +1,5 @@
 ---
-order: 14
+order: 15
 title: TypeProviders.fs
 excerpt_separator: <!--more-->
 code: |
