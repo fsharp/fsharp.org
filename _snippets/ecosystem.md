@@ -1,6 +1,6 @@
 ---
 order: 1
-title: DotNet.fs
+title: Ecosystems.fs
 excerpt_separator: <!--more-->
 code: |
     // JavaScript Example: Image processing
