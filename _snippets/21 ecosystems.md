@@ -23,7 +23,7 @@ code: |
     // C# types have seamless integration with F#.
     open SixLabors.ImageSharp // dotnet package add SixLabors.ImageSharp
     open SixLabors.ImageSharp.Processing
-    use image = Image.Load "input.png" // .NET types are integrated seamlessly.
+    use image = Image.Load "input.png"
     image.Mutate(_.Resize(300, 200).Flip(FlipMode.Horizontal ||| FlipMode.Vertical) >> ignore)
     image.Save "output.jpg"
 
