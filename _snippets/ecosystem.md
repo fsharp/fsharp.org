@@ -33,8 +33,7 @@ code: |
     let pattern = @"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b"
     for matched in Regex.Matches(input, pattern) do
         printfn $"Found email: {matched.Value}" // user1@test.com and user2@domain.org
-    ---
-
+---
 ## Full access to ecosystems of libraries
 
 F# has full integration with ecosystems of JavaScript and .NET libraries and frameworks.
