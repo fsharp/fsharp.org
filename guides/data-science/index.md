@@ -33,6 +33,7 @@ effortlessly using .NET Core. Use .NET Interactive to build .NET Jupyter noteboo
 {: #integrated-packages .anchor }
 
 * [FsLab](http://fslab.org/) is the F# Community Project Incubation Space For Data Science.
+  * [FSharp.Stats](https://fslab.org/FSharp.Stats/) - A multipurpose project for statistical testing, linear algebra, machine learning, fitting, and signal processing.
 
 * [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/) - ML.NET is an open source and cross-platform machine learning framework sponsored by Microsoft. With ML.NET, you can create custom ML models using C# or F# without having to leave the .NET ecosystem. ML.NET lets you re-use all the knowledge, skills, code, and libraries you already have as a .NET developer so that you can easily integrate machine learning into your web, mobile, desktop, games, and IoT apps.
 
