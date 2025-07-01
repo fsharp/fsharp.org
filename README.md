@@ -59,9 +59,10 @@ The easiest way to get started developing this repository on your own machine is
 
 ### Using the Dev Container
 
-1. Open the repository in Visual Studio Code.
-2. When prompted, reopen the repository in the dev container.
-3. The dev container will automatically set up the development environment.
+1. Install and run [Docker](https://www.docker.com/).
+2. Open the repository in [Visual Studio Code](https://code.visualstudio.com/).
+3. When prompted, reopen the repository in the dev container.
+4. The dev container will automatically set up the development environment.
 
 **Summary of using a dev container:**
 A dev container is a pre-configured development environment that includes all the necessary tools and dependencies. It allows you to start developing without having to manually set up your environment.
