@@ -1,5 +1,5 @@
 ---
-order: 16
+order: 13
 title: AsyncExpressions.fs
 excerpt_separator: <!--more-->
 code: |
@@ -20,7 +20,7 @@ code: |
             return $"Validation error: {msg}"
     }
 
-    processPersonAsync { Name = "Snowdrop"; Age = 13}
+    processPersonAsync { Name = "Snowdrop"; Age = 13 }
     |> Async.RunSynchronously
 ---
 ## Async Programming made Easy
