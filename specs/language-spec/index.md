@@ -10,6 +10,10 @@ technical explanation of the F# language constructs and required compiler behavi
 It discusses topics such as lexical analysis, grammar, types including type inference
 algorithm, expressions, patterns and other.
 
+The spec currently consists of a [spec document](https://fsharp.github.io/fslang-spec/)
+and a collection of RFCs.
+Earlier versions are listed below.
+
 ### F# 2.0
 
 * [The F# 2.0 Language Specification (final version, PDF)](2.0/FSharpSpec-2.0-April-2012.pdf) - The final version of the F# 2.0 language
