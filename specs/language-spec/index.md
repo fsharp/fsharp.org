@@ -25,7 +25,7 @@ The final version of the F# 3.0 language specification.
 
 ### F# 3.1
 
-* [The F# 3.1 Language Specification (final version, PDF)](3.1/FSharpSpec-3.1-final.pdf) - 
+* [The F# 3.1 Language Specification (final version, PDF)](3.1/FSharpSpec-3.1-final.pdf) -
 The final version of the F# 3.1 language specification.
 
 ### F# 4.0
@@ -78,4 +78,5 @@ The latest, working version of the F# language specification.
 
 * The [preview RFCs beyond F# 9](https://github.com/fsharp/fslang-design/tree/master/preview)
 
-**Note:** We're currently working on an improved version of the F# language specification [here](https://github.com/fsharp/fslang-spec/). Contributions welcome!
+**Note:** We're currently working on an improved version of the F# language specification
+[here](https://github.com/fsharp/fslang-spec/). Contributions welcome!
