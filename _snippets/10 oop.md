@@ -42,7 +42,6 @@ code: |
 
 F# is **functional first** and **immutable by default**, but it also provides pragmatic support for object programming.
 <!--more-->
-- **Seamless .NET integration** lets you work with existing .NET libraries and frameworks
 - **Rich interface system** allows you to define clear contracts for your components
 - **Object expressions** provide lightweight implementation of interfaces without defining full classes
 - **Concise member syntax** keeps methods and properties clean and readable
