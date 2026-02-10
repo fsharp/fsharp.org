@@ -15,7 +15,7 @@ This page lists some resources for teaching F# in formal settings.
   for the course "Programs as data" that uses the functional programming concepts in F# to
   teach students language concepts and implemen­tation details.
 
-<a href="http://www.imm.dtu.dk/~mire/FSharpBook"><img src="files/fpbook.jpg" style="float:right;margin:15px;border-style:none;" /></a>
+<a href="http://www.imm.dtu.dk/~mire/FSharpBook"><img alt="Functional Programming Using F# book cover" src="files/fpbook.jpg" style="float:right;margin:15px;border-style:none;" /></a>
 
 #### [Functional Programming Using F#](http://www.imm.dtu.dk/~mire/FSharpBook)
 
@@ -33,7 +33,7 @@ mini-projects are found [on the book web site](http://www.imm.dtu.dk/~mire/FShar
 
 <div style="clear:both;">&#160;</div>
 
-<a href="http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555"><img src="files/sestoft.png" style="float:right;margin:15px;border-style:none;" /></a>
+<a href="http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555"><img alt="Programming Language Concepts book cover" src="files/sestoft.png" style="float:right;margin:15px;border-style:none;" /></a>
 
 #### [Programming Language Concepts](http://www.amazon.com/Programming-Language-Concepts-Undergraduate-Computer/dp/1447141555)
 

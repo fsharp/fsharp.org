@@ -27,7 +27,9 @@ dotnet fsi hello.fsx
 
 If this is your first time using .NET Core, there will be a short, one-time message about using the .NET SDK. After that, you'll see the following output in your console:
 
-    Hello World from F#
+```text
+Hello World from F#
+```
 
 To create a project use
 
@@ -53,13 +55,15 @@ For more information see [Getting started with the F# command line tools](https:
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
 F# is supported by the [Ionide](http://ionide.io/) project.
 
-1.  Install [.NET Core SDK](https://dotnet.microsoft.com/download) like in step 1.
+1. Install [.NET Core SDK](https://dotnet.microsoft.com/download) like in step 1.
 
-2.  Install [Visual Studio Code](https://code.visualstudio.com/download) for macOS.
+2. Install [Visual Studio Code](https://code.visualstudio.com/download) for macOS.
 
-3.  Press `Cmd+Shift+P` and enter the following to install the Ionide package for VS Code.
+3. Press `Cmd+Shift+P` and enter the following to install the Ionide package for VS Code.
 
-        ext install Ionide-fsharp
+    ```text
+    ext install Ionide-fsharp
+    ```
 
 You can also install the plugin from the plugin pane on the left-hand side.
 

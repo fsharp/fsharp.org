@@ -79,4 +79,4 @@ The latest, working version of the F# language specification.
 * The [preview RFCs beyond F# 9](https://github.com/fsharp/fslang-design/tree/master/preview)
 
 **Note:** We're currently working on an improved version of the F# language specification
-[here](https://github.com/fsharp/fslang-spec/). Contributions welcome!
+[on GitHub](https://github.com/fsharp/fslang-spec/). Contributions welcome!
