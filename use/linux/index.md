@@ -27,9 +27,9 @@ dotnet fsi hello.fsx
 
 If this is your first time using .NET, there will be a short, one-time message about using the .NET SDK. After that, you'll see the following output in your console:
 
-
-    Hello World from F#
-
+```text
+Hello World from F#
+```
 
 To create a project use
 
@@ -60,7 +60,9 @@ F# is supported by the [Ionide](http://ionide.io/) project.
 
 3. Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
 
-        ext install Ionide-fsharp
+    ```text
+    ext install Ionide-fsharp
+    ```
 
 You can also install the plugin from the plugin pane on the left-hand side.
 

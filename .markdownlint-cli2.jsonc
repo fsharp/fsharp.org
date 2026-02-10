@@ -2,12 +2,15 @@
     "config": {
         // Enable all rules by default
         "default": true,
-        // Line length: increase default from 80
-        "MD013": {
-            "line_length": 100,
-            "code_blocks": false,
-            "tables": false
+        // Heading increment: disabled because Jekyll layouts provide h1;
+        // content pages intentionally start at h2/h3
+        "MD001": false,
+        // Heading style: standardize on atx (no closing hashes)
+        "MD003": {
+            "style": "atx"
         },
+        // Line length: disabled
+        "MD013": false,
         // Allow duplicate headers in different nested sections
         "MD024": {
             "allow_different_nesting": true
@@ -15,6 +18,10 @@
         // Allow inline HTML
         "MD033": false,
         // First line in a file doesn't need to be a top-level header
-        "MD041": false
+        "MD041": false,
+        // Code block style: standardize on fenced
+        "MD046": {
+            "style": "fenced"
+        }
     }
 }

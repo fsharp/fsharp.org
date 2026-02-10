@@ -25,7 +25,9 @@ dotnet fsi hello.fsx
 
 If this is your first time using .NET Core, there will be a short, one-time message about using the .NET SDK. After that, you'll see the following output in your console:
 
-    Hello World from F#
+```text
+Hello World from F#
+```
 
 To create a project use
 
@@ -50,13 +52,15 @@ For more information see [Getting started with the F# command line tools](https:
 supporting [a lot of languages](https://code.visualstudio.com/docs/languages/overview).
 F# is supported by the [Ionide](http://ionide.io/) project.
 
-1.  Install [.NET Core SDK](https://dotnet.microsoft.com/download) like in step 1.
+1. Install [.NET Core SDK](https://dotnet.microsoft.com/download) like in step 1.
 
-2.  Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows.
+2. Install [Visual Studio Code](https://code.visualstudio.com/download) for Windows.
 
-3.  Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
+3. Press `Ctrl+Shift+P` and enter the following to install the Ionide package for VS Code.
 
-        ext install Ionide-fsharp
+    ```text
+    ext install Ionide-fsharp
+    ```
 
 You can also install the plugin from the plugin pane on the left-hand side.
 
@@ -69,9 +73,9 @@ Ionide works best if you use the .NET CLI to create your projects. You can learn
 
 On Windows, F# programmers commonly use the Visual Studio tools for F#.
 
--   [Visual Studio 2019](https://www.visualstudio.com/downloads/) comes with F# support in all its editions: Community, Professional and Enterprise. Community is completely free. See [Get started with F# in Visual Studio](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-visual-studio) for more information.
+- [Visual Studio 2019](https://www.visualstudio.com/downloads/) comes with F# support in all its editions: Community, Professional and Enterprise. Community is completely free. See [Get started with F# in Visual Studio](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-visual-studio) for more information.
 
--   If you already have an older version of Visual Studio, F# is also supported. But the quality of the tooling support and number of features is not as high as in Visual Studio 2019.
+- If you already have an older version of Visual Studio, F# is also supported. But the quality of the tooling support and number of features is not as high as in Visual Studio 2019.
 
 </article>
 <article markdown=1 class="prose-card">
@@ -86,7 +90,7 @@ On Windows, F# programmers commonly use the Visual Studio tools for F#.
 
 2. Install the latest [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd).
 
-if you need to use the older .NET Framework instead of .NET Core, you will also need either to install Visual Studio or to follow the steps [here](https://rider-support.jetbrains.com/hc/en-us/articles/207288089-Using-Rider-on-Windows-without-Visual-Studio-prerequisites). 
+if you need to use the older .NET Framework instead of .NET Core, you will also need either to install Visual Studio or to follow [these steps for using Rider without Visual Studio](https://rider-support.jetbrains.com/hc/en-us/articles/207288089-Using-Rider-on-Windows-without-Visual-Studio-prerequisites).
 
   <figcaption class="text-xs text-pretty">
 Copyright © 2025 JetBrains s.r.o. Rider and the Rider logo are trademarks of JetBrains s.r.o.

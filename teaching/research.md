@@ -42,9 +42,9 @@ To add a paper to this list [edit this page](https://github.com/fsharp/fsharp.or
 
 --------------
 
-## The History of F #
+## The History of F\# {#history-and-design}
 
-{: #history-and-design .anchor }
+{: .anchor }
 
 ### [The Early History of the F# Language](https://dl.acm.org/doi/pdf/10.1145/3386325)
 
@@ -209,9 +209,9 @@ Accelerator libraries, and dynamic native-code compilation via LINQ.
 
 --------------
 
-## Parallel and Distributed programming
+## Parallel and Distributed programming {#distributed-and-parallel-programming}
 
-{: #distributed-and-parallel-programming   .anchor }
+{: .anchor }
 
 ### [MBrace: cloud computing with monads](http://dl.acm.org/citation.cfm?id=2525531&dl=ACM&coll=DL&CFID=454202220&CFTOKEN=25283533)
 
@@ -554,7 +554,6 @@ helps to seamlessly scale into the cloud desktop and mobile web applications wit
 ### [GLR-based abstract parsing](http://dl.acm.org/citation.cfm?id=2556616&dl=ACM&coll=DL), [video (in russian)](http://vimeo.com/79442837)
 
 Semen Grigorev, Saint Petersburg State University, Iakov Kirilenko, Saint Petersburg State University
-
 _Central & Eastern European Software Engineering Conference in Russia (CEE-SECR '13) 2013_
 
 Abstract parsing is an important step of the processing of dynamically constructed statements or string-embedded

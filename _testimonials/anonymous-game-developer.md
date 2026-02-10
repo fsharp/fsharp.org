@@ -16,4 +16,4 @@ Dynamic languages like Python hid the types, but sacrificed the type safety that
 F# finally gives me the best of both worlds: C#'s power without manual type annotations.
 
 I'm still a beginner (no quizzes please—I'm soaking it in slowly!),
-but that rare 'this is exactly what I’ve been searching for' feeling? F# delivers that. Truly refreshing.
+but that rare 'this is exactly what I've been searching for' feeling? F# delivers that. Truly refreshing.

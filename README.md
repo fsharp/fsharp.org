@@ -34,24 +34,26 @@ Note also the use of an excerpt separator `<!--more-->`. This is to ensure that 
 
 Example:
 
-    ---
-    order: 0
-    title: HelloWorld.fs
-    excerpt_separator: <!--more-->
-    code: |
-        let hello name =
-            printfn $"Hello, {name}!"
+```yaml
+---
+order: 0
+title: HelloWorld.fs
+excerpt_separator: <!--more-->
+code: |
+    let hello name =
+        printfn $"Hello, {name}!"
 
-        hello "github"
-    ---
-    ## I am the title
+    hello "github"
+---
+## I am the title
 
-    I am the introdoctory paragraph. Mobile and desktop users can see me.
-    <!--more-->
-    - **Desktop users** can see this extra content
-    - **Mobile users** will miss out
+I am the introdoctory paragraph. Mobile and desktop users can see me.
+<!--more-->
+- **Desktop users** can see this extra content
+- **Mobile users** will miss out
 
-    Not ideal, but oh well.
+Not ideal, but oh well.
+```
 
 ## Developing locally
 
@@ -71,7 +73,7 @@ If not using VSCode, consult your preferred IDE's documentation for instructions
 
 You may need to run the following once to install TailwindCSS dependency:
 
-```
+```sh
 npm i
 ```
 

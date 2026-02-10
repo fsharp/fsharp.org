@@ -9,7 +9,7 @@ Why just get by in F# when you can program in style. This book goes beyond synta
 
 _Stylish F# 6_ covers every design decision that a developer makes in constructing F# programs, helping you make the most educated and valuable design choices at every stage of code development. You will learn about the design of types and function signatures, the benefits of immutability, and the uses of partial function application. You will understand best practices for writing APIs to be used by F#, C#, and other languages. Each carefully vetted design choice is supported with compelling examples, illustrations, and rationales.
 
-**What You Will Learn**
+### What You Will Learn
 
 - Know why, when, and how to code in immutable style
 - Use collection functions, piping, and function composition to build working software quickly

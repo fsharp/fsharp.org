@@ -13,4 +13,4 @@ F# has a beautiful, simple but expressive language at its core, and many powerfu
 built around that core language.  It can draw on all the power of the .NET libraries,
 and runs on Windows, MacOS and Linux.  That's the reason we have chosen F# for our
 undergraduate functional programming class as well as our
-undergraduate programming language class [(link)](http://www.itu.dk/people/sestoft/plc/)
+undergraduate [programming language class](http://www.itu.dk/people/sestoft/plc/)

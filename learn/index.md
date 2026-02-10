@@ -30,14 +30,14 @@ Whether it's your first programming language or your next, F# will transform you
 
 ### [F# for C#, Java or Python developers](http://fsharpforfunandprofit.com/)
 
-<img src="../images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
+<img alt="I Heart F#" src="../images/thumbs/IHeartFsharp160.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 Introduces you to F# and show you ways that F# can help in day-to-day development
 of mainstream commercial business software.
 
 ### [F# Cheat Sheet](http://fsprojects.github.io/fsharp-cheatsheet/)
 
-<img src="../images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
+<img alt="F# Cheat Sheet" src="../images/thumbs/cheetsheet.png" style="float:right;margin:5px 0px 5px 25px;" />
 
 The cheat sheet is a small and concise guide to F# syntax for newcomers to get started with the language. It's available in [HTML](http://fsprojects.github.io/fsharp-cheatsheet/) and [PDF](https://fsprojects.github.io/fsharp-cheatsheet/fsharp-cheatsheet.pdf) format.
 

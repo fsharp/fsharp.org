@@ -11,7 +11,7 @@ keywords:
 - Rhino
 quote: We see great potential for F# to be used as a scripting language in CAD; it fits very well for computational design challenges in the construction industry.
 ---
-<a href="http://www.waagner-biro.com/en/company/news-press/news/oriental-jewel-by-waagner-biro-the-domed-roof-of-the-louvre-abu-dhabi"> <img src="/img/big/goswin-waggner.png" /></a>
+<a href="http://www.waagner-biro.com/en/company/news-press/news/oriental-jewel-by-waagner-biro-the-domed-roof-of-the-louvre-abu-dhabi"> <img alt="Louvre Abu Dhabi dome by Waagner Biro" src="/img/big/goswin-waggner.png" /></a>
 
 In recent years many Architects have discovered that they can greatly enlarge their design repertoire by the use of parametric design, programming or scripting. Architects can now quickly and easily explore new geometries previously unseen in Architecture. Besides being designed in a novel way these geometries can also be exactly represented and reasoned about in terms of structural feasibility and manufacturing constraints. These facts take new geometries out of the dreams of Architects and make them real candidates for construction.
 
