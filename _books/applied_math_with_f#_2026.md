@@ -17,7 +17,7 @@ for applied mathematics; making this book all the more important for interested
 readers in this area.
 
 The book uses Plotly.NET to create interactive, publication-quality
-charts and visualizes vector fields, Jacobians, matrices as heatmaps, 
+charts and visualizes vector fields, Jacobians, matrices as heatmaps,
 and probability distributions and KDEs, ordinary differential equations
 solutions and phase plots. It uses AngouriMath for symbolic differentiation,
 simplification, and algebra. It also shows how to blend symbolic math with
@@ -25,4 +25,3 @@ numerical methods like Trapezoidal and Simpson’s rule, Runge–Kutta methods
 and Gaussian quadrature. The book includes several real-life case studies as
 examples such as soccer player analytics, housing price analysis, bungee jumper
 physics simulation, predator–prey ecosystem model and credit score evaluation.
-
