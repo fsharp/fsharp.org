@@ -13,9 +13,9 @@ F# executes on app platforms including as  [Android, iOS](../../use/mobile-apps/
 
 ## Frameworks
 
-* [Fabulous](http://fabulous.dev) - F# Functional App Development for Android, iOS and more (Elmish for Xamarin.Forms)
+* [Fabulous](https://fabulous-dev.github.io/Fabulous/) - F# Functional App Development for Android, iOS and more (Elmish for Xamarin.Forms)
 
-  * [Getting Started with Fabulous](https://docs.fabulous.dev).
+  * [Getting Started with Fabulous](https://fabulous-dev.github.io/Fabulous/docs/).
 
   * [Fabulous Weather](https://github.com/cboudereau/fabulous-weather) - A sample weather app using Fabulous
 
