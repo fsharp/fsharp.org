@@ -7,24 +7,26 @@ redirect_from:
     - /use/ios/index.html
 ---
 
-### Option 1: Build Android and iOS Apps using F# and Xamarin
+### Option 1: Build Android and iOS Apps using F# and Fabulous (.NET MAUI or Avalonia)
 
-F# supports the development of Android and iOS applications using the [Xamarin](https://dotnet.microsoft.com/apps/xamarin) tools.
-Both native and cross-platform app development is possible.
+F# supports the development of Android and iOS applications using
+[.NET MAUI](https://dotnet.microsoft.com/apps/maui), the successor to Xamarin.Forms, or using
+Avalonia. Xamarin reached end of support on May 1, 2024.
 
-1. Install [JetBrains Rider](https://www.jetbrains.com/rider/), or [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/).
+[Fabulous](https://fabulous-dev.github.io/Fabulous/) is a framework for F# functional app
+development, using declarative dynamic UI. It lets you use the simple MVU (Model-View-Update)
+architecture to build applications for Android, iOS, macOS, Windows and more, on top of either
+.NET MAUI or Avalonia.
 
-2. Select F# Language support as part of installation.
+.NET MAUI:
 
-[Fabulous](https://fabulous-dev.github.io/Fabulous/) is a framework for F# Functional App Development, using declarative dynamic UI.
-This allows you to use the ultra-simple MVU (Model-View-Update) architecture to build applications for iOS, Android, Mac, WPF and more using Xamarin.Forms.
+* [Getting Started with Fabulous and .NET MAUI](https://fabulous-dev.github.io/Fabulous/docs/maui/get-started/)
+* [Fabulous .NET MAUI tutorials](https://fabulous-dev.github.io/Fabulous/docs/tutorials/maui/)
 
-* [Getting Started with Fabulous](https://fabulous-dev.github.io/Fabulous/docs/).
+Avalonia:
 
-* [Fabulous Weather](https://github.com/cboudereau/fabulous-weather) - A sample weather app using Fabulous
-
-* [Fabulous Contacts](https://github.com/TimLariviere/FabulousContacts) - A sample contacts app using Fabulous
-
+* [Getting Started with Fabulous and Avalonia](https://fabulous-dev.github.io/Fabulous/docs/avalonia/get-started/)
+* [Fabulous Avalonia tutorials](https://fabulous-dev.github.io/Fabulous/docs/tutorials/avalonia/)
 <br />
 
 ### Option 2: Build Android and iOS Apps using F# and React Native
