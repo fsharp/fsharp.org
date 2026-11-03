@@ -13,17 +13,14 @@ F# executes on app platforms including as  [Android, iOS](../../use/mobile-apps/
 
 ## Frameworks
 
-* [Fabulous](https://fabulous-dev.github.io/Fabulous/) - F# Functional App Development for Android, iOS and more (Elmish for Xamarin.Forms)
+* [Fabulous](https://fabulous-dev.github.io/Fabulous/) - F# functional app development for
+  Android, iOS and more, using declarative UI and MVU on top of .NET MAUI or Avalonia
 
-  * [Getting Started with Fabulous](https://fabulous-dev.github.io/Fabulous/docs/).
+  * [Getting Started (.NET MAUI)](https://fabulous-dev.github.io/Fabulous/docs/maui/get-started/)
 
-  * [Fabulous Weather](https://github.com/cboudereau/fabulous-weather) - A sample weather app using Fabulous
-
-  * [Fabulous Contacts](https://github.com/TimLariviere/FabulousContacts) - A sample contacts app using Fabulous
+  * [Getting Started (Avalonia)](https://fabulous-dev.github.io/Fabulous/docs/avalonia/get-started/)
 
 * ![logo](../../images/thumbs/fable.png)&nbsp;[Fable](http://fable.io) - Use F# for React, ReactNative, HTML5 and other web and web/mobile development
-
-* [Xamarin](https://dotnet.microsoft.com/apps/xamarin) - Use F# to develop for iOS, Android, Mac and Windows development
 
 * [MonoGame](http://www.monogame.net/) is an open implementation of a cross-platform gaming framework originally
 based on the XNA 4 framework design. The goal of the project is to allow XNA developers on Xbox 360, Windows and
