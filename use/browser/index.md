@@ -29,15 +29,22 @@ computer. It includes example code for many of F#'s basic features.
 
 <br />
 
+### Option 5: [Try F# on OnlineCompiler.io](https://onlinecompiler.io/fsharp-online-compiler)
+
+[OnlineCompiler.io](https://onlinecompiler.io/fsharp-online-compiler) runs F# scripts with
+`dotnet fsi` on the .NET 10 SDK, with standard input. No installation or registration needed.
+
+<br />
+
 ## Registration required
 
-### Option 5: [Try F# in CloudSharper](https://cloudsharper.com/)
+### Option 6: [Try F# in CloudSharper](https://cloudsharper.com/)
 
 [CloudSharper](https://cloudsharper.com/) is an online web and mobile programming with big data and charting. Registration required.
 
 <br />
 
-### Option 6: [Try F# in GitHub Codespaces](https://visualstudio.microsoft.com/services/github-codespaces/)
+### Option 7: [Try F# in GitHub Codespaces](https://visualstudio.microsoft.com/services/github-codespaces/)
 
 [GitHub Codespaces](https://visualstudio.microsoft.com/services/github-codespaces/) allows you to access cloud-hosted dev environments from Visual Studio Code or your browser.
 
@@ -45,7 +52,7 @@ Easiest way to get started with Gitpod is going to [Ionide Playground repository
 
 <br />
 
-### Option 7: [Try F# in Gitpod](https://www.gitpod.io/)
+### Option 8: [Try F# in Gitpod](https://www.gitpod.io/)
 
 [Gitpod](https://www.gitpod.io/) is an online service providing environments accessible from browser based IDE. F# support in Gitpod is powered by [Ionide](https://ionide.io/). Registration required, paid service, includes free OSS plan.
 
